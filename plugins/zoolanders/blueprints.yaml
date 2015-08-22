@@ -1,0 +1,8 @@
+name: ZOOlanders
+version: 0.0.1
+description: "**Grav** plugin for zoolanders specific site."
+icon: external-link
+author:
+  name: ZOOlanders
+  email: info@zoolanders.com
+  url: http://zoolanders.com

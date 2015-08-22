@@ -1,0 +1,13 @@
+assets:
+  css_pipeline: false
+  js_pipeline: false
+
+twig:
+  cache: false
+  debug: true
+
+debugger:
+  enabled: true
+
+cache:
+  enabled: false

@@ -1,0 +1,14 @@
+title: 'ZOOlanders Documentation'
+author:
+  name: ZOOlanders
+  email: info@zoolanders.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'ZOOlanders Extensions Documentation'
+summary:
+  enabled: true
+  format: short
+  size: '300'
+  delimiter: '==='
