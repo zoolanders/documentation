@@ -41,6 +41,16 @@
         {{ _self.loop(ver, '') }}
         </ul>
     {% endfor %}
+{% elseif page.slug == 'home' %}
+    <ul class="topics">
+    {% for p in pages.children if p.slug != '_partials' and count(p.children) %}
+        <li>
+            <a href="{{ p.url }}">
+                <span>{{ p.menu }}</span>
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
 {% else %}
     <ul class="topics">
     {{ _self.loop(extension, '') }}
