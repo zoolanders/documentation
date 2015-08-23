@@ -42,9 +42,10 @@ class ZoolandersPlugin extends Plugin
     public function onPageNotFound(Event $event)
     {
         $paths = $this->grav['uri']->paths();
+        $pages = $this->grav['pages'];
 
         // if accessing root, redirect to basics
-        if (count($paths) == 1) {
+        if (count($paths) == 1 && $pages->root()->find("/${paths[0]}/basics")) {
             $this->grav->redirectLangSafe("/${paths[0]}/basics");
         }
     }
