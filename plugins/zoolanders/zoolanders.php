@@ -28,7 +28,6 @@ class ZoolandersPlugin extends Plugin
         }
 
         $this->enable([
-            'onTwigTemplatePaths' => ['onTwigTemplatePaths', -10],
             'onTwigSiteVariables' => ['onTwigSiteVariables', 0],
             'onPageNotFound' => ['onPageNotFound', 1]
         ]);
@@ -67,14 +66,6 @@ class ZoolandersPlugin extends Plugin
             }
         }
 
-    }
-
-    /**
-     * Add current directory to twig lookup paths.
-     */
-    public function onTwigTemplatePaths()
-    {
-        $this->grav['twig']->twig_paths[] = __DIR__ . '/templates';
     }
 
 }
