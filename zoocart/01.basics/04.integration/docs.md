@@ -25,3 +25,15 @@ Now that the elements are part of the product type we can assign them to a rende
 ![Store Layouts](store-layouts.png?resize=600)
 
 >>>>> You can optionally skip this configuration and the default row would be rendered instead.
+
+## Menu Assignment
+
+There are several store views that you can assign to a **Joomla! Menu** and make your store easily accessible. The process is very simple:
+
+1. Start by adding a new Menu Item as usual in Joomla.
+2. From the available Menu Types select **ZOOladers / Extension View**.
+3. In the **Params** tab choose one of the views:
+  * Cart - displays the Checkout view.
+  * Orders - displays the Orders Manager view.
+  * Addresses - displays the Address Manager view.
+  * Subscriptions - displays the Subscriptions Manager view.
