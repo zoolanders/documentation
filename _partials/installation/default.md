@@ -1,15 +1,11 @@
-You have **two** ways installing the extension, the first and easier one is the 1-click install with ZOOlanders Manager, the other way is to download the **zip** package and install with Joomla! Extension Manager as any other plugin. Both options requires the ZOOlanders extension, before proceeding make sure is installed.
+You have **two** ways installing the extension, the first and easier one is the 1-click install with **ZOOlanders Extension Manager**, the other way is to download the **zip** package and install with **Joomla! Extension Manager** as any other plugin. Both options requires the ZOOlanders extension, before proceeding make sure is installed.
 
-## Option 1: Install with ZOOlanders Manager
-
-The easiest way to install is to use the Manager:
+## Option 1: with ZOOlanders Manager
 
 1. In your site, locate the extension entry in the ZOOlanders Manager extensions list
-2. Click on the Install button
+2. Click on its Install button
 
-## Option 2: Install with Joomla! Extension Manager
-
-The alternative way is to install with **Joomla! Extension Manager**:
+## Option 2: with Joomla! Manager
 
 1. Download the package from the [Downloads](http://zoolanders.com/downloads)
 2. In your site, go to Joomla! Extension Manager and use the **Upload Package File** option to upload and install the downloaded

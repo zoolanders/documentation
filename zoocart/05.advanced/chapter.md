@@ -6,4 +6,6 @@ taxonomy:
 
 ### Chapter 5
 
-# Plugins
+# Advanced
+
+In this chapter we will cover some advanced features and capabilities of ZOOcart.
