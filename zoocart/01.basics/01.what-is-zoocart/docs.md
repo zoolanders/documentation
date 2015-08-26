@@ -4,4 +4,4 @@ taxonomy:
     category: docs
 ---
 
-ZOOcart is...
+**ZOOcart** is a complete eCommerce solution developed specifically for ZOO.

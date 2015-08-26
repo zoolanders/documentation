@@ -8,4 +8,4 @@ taxonomy:
 
 # Elements
 
-The **Elements** are the entry point of your store data, let's get them to know deeper.
+The **Elements** are the fundamental part of every store product.
