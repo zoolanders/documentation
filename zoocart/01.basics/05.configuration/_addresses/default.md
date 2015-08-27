@@ -9,14 +9,14 @@
 
 In the Settings Address tab upper right corner is the **Address Types Manager** button, leading to the view where you can manage the Billing and Shipping addresses layouts.
 
-![Address Types Manager](addresses.png?resize=600)
+![Address Types Manager](addresses.png)
 
 Click the layout name to manage its fields.
 
-![Setup Address Layouts](addresses-layouts.png?resize=600)
+![Setup Address Layouts](addresses-layouts.png)
 
 Address layout can be set like any other ZOO layout, Drag and Dropping the elements which will represent the Address fields. Be sure to set the corresponding **Billing information** parameter for each element.
 
-![Address Edit Elements](addresses-elements.png?resize=600)
+![Address Edit Elements](addresses-elements.png)
 
 >>> Currently only _Country, Select, Input, Textarea and Checkbox_ elements are supported, any other element would require customizations.

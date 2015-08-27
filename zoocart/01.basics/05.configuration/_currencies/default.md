@@ -4,7 +4,7 @@ In the currency section there is only one option, the **Default Currency**, whic
 
 ### Currencies Manager
 
-![Currencies Manager](currencies.png?resize=600)
+![Currencies Manager](currencies.png)
 
 In the Settings Currencies tab upper right corner is the **Currencies Manager** button, leading to the view where you can create new Currencies or manage existing ones with the following options:
 

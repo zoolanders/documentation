@@ -9,7 +9,7 @@ These options apply if your store offer coupon discounts.
 
 ## Discounts Manager
 
-![Discounts Manager](discount.png?resize=600)
+![Discounts Manager](discount.png)
 
 Under _ZOOlanders component / ZOOcart / Discounts_ find the **Discounts Manager** where you can create new shipping rates or manage existing ones with the following options:
 

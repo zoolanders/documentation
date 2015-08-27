@@ -14,7 +14,7 @@
 
 ### Order States Manager
 
-![Order states](orders.png?resize=600)
+![Order states](orders.png)
 
 In the Settings Order tab upper right corner is the **Order States Manager** button, leading to the view where you can create new states or manage existing ones with the following options:
 

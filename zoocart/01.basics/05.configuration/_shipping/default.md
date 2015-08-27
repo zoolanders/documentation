@@ -10,7 +10,7 @@ These options apply if your store ship physical products.
 
 ### Shipping Rates Manager
 
-![Shipping Rates Manager](shipping.png?resize=600)
+![Shipping Rates Manager](shipping.png)
 
 In the Settings Shipping tab upper right corner is the **Shipping Rates Manager** button, leading to the view where you can create new shipping rates or manage existing ones with the following options:
 

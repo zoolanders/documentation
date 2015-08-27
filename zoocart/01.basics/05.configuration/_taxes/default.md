@@ -13,7 +13,7 @@
 
 In the Settings Taxes tab upper right corner is the **Tax Classes Manager** button, leading to the view where you can manage the classes. When creating a new class only a **Name** is required.
 
-![Taxes Classes Manager](taxes.png?resize=600)
+![Taxes Classes Manager](taxes.png)
 
 >>>>>> Different Tax Classes can be applied to different products or group of products.
 
@@ -21,7 +21,7 @@ In the Settings Taxes tab upper right corner is the **Tax Classes Manager** butt
 
 In the Settings Taxes tab upper right corner is the **Tax Rules Manager** button, leading to the view where you can manage the rules.
 
-![Tax Rules Manager](taxes-rules.png?resize=600)
+![Tax Rules Manager](taxes-rules.png)
 
 | Field       | Description |
 | :---------- | :---------- |

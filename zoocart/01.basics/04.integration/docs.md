@@ -22,7 +22,7 @@ Now that the elements are part of the product type we can assign them to a rende
 
 **ZOOcart** has it's own **Cart** and **Order** render layouts that allows to fine tune the Item row rendering in the Cart/Order table. As you would do with any other render layout, just Drag and Drop the desired elements to the appropriate position.
 
-![Store Layouts](store-layouts.png?resize=600)
+![Store Layouts](store-layouts.png)
 
 >>>>> You can optionally skip this configuration and the default row would be rendered instead.
 
