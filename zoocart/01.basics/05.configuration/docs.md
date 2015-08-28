@@ -18,6 +18,7 @@ content:
             - _addresses
             - _taxes
             - _emals
+            - _module
             - _elements
 ---
 

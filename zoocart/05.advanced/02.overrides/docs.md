@@ -1,10 +1,8 @@
 ---
-title: Customizations
+title: Overrides
 taxonomy:
     category: docs
 ---
-
-## Layout Overrides
 
 Overrides are powerful for adjusting the look and feel of your store without altering the system source files. And it's straight forward by just placing the customized layout file in the appropriate Joomla! template override folder. Being the source layouts stored in `plugins/system/zoocart/zoocart/views` folder, those are the override paths for them.
 

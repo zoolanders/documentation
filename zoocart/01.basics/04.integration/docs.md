@@ -26,6 +26,14 @@ Now that the elements are part of the product type we can assign them to a rende
 
 >>>>> You can optionally skip this configuration and the default row would be rendered instead.
 
+## Subscriptions
+
+A **Subscription** is a product for which, after the Order has been completed, a subscription will be created and associated. You can choose the product type under the [ZOOcart element configuration](/zoocart/basics/configuration#zoocart).
+
+A Subscription product requires a duration, which could be set with a **Text/Pro** or **Select/Radio** elements and then mapped for letting know ZOOcart where to get the value from. The mapping can be set on the **ZOOcart mapping: Subscription** layout under the Type views configuration.
+
+>>>>> You can override the Subscription duration with [Variations](/zoocart/advanced/variations) if the product has several subscription options.
+
 ## Menu Assignment
 
 There are several store views that you can assign to a **Joomla! Menu** and make your store easily accessible. The process is very simple:
@@ -33,7 +41,11 @@ There are several store views that you can assign to a **Joomla! Menu** and make
 1. Start by adding a new Menu Item as usual in Joomla.
 2. From the available Menu Types select **ZOOladers / Extension View**.
 3. In the **Params** tab choose one of the views:
-  * Cart - displays the Checkout view.
-  * Orders - displays the Orders Manager view.
-  * Addresses - displays the Address Manager view.
-  * Subscriptions - displays the Subscriptions Manager view.
+  * **Cart** - displays the Checkout view.
+  * **Orders** - displays the Orders Manager view.
+  * **Addresses** - displays the Address Manager view.
+  * **Subscriptions** - displays the Subscriptions Manager view.
+
+## Cart and Minicart
+
+**ZOOcart Module** can optionally be set to display the **Cart** (default layout) or **Minicart**. Both ajax ready carts that can be rendered anywhere showing the Cart products and related information. Find more about its options in the [configuration](/zoocart/basics/configuration#zoocart-module) section.
