@@ -6,6 +6,6 @@ taxonomy:
 
 ### Chapter 2
 
-# Advanded
+# Advanced
 
 This chapter will cover the advanced aspects of the framework or the component. Get ready!
