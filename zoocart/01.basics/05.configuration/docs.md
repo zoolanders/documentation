@@ -18,6 +18,7 @@ content:
             - _addresses
             - _taxes
             - _emals
+            - _elements
 ---
 
 ZOOcart configuration allows you to fine-tune your store in order to fulfill your project requirements. The setting have been divided in sections for easier management.

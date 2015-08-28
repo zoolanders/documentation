@@ -4,11 +4,11 @@ taxonomy:
     category: docs
 ---
 
-Unless your **App** has been created using our demo site, few integrations steps are required. No matter if you are extending an existing **Item Type** or creating a new one, once it's ready edit its elements and add the ZOOcart basic ones: **PricePro**, **Quantity** and **ZOOcart** from the ZOOcart Element Library block. You can leave the configuration and other elements for later, will be reviewing them in detail in the following sections.
+Unless your **App** has been created using our demo site, few integrations steps are required. No matter if you are extending an existing **Item Type** or creating a new one, add to it the ZOOcart basic elements **PricePro**, **Quantity**, **ZOOcart** and optionally the **Variations** and **Measures Pro** from the **ZOOcart Element Library** block. You can leave the configuration and other elements for later, will be reviewing them in detail in the following sections.
 
 ![Edit Elements](edit-elements.png)
 
->>> More information about Type configuration can be found at [ZOO documentation](http://yootheme.com/zoo/documentation/advanced/create-new-types).
+>>> More information about Extending Types can be found at [ZOO documentation](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
 
 ## Elements Assignment
 
