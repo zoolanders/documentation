@@ -6,7 +6,7 @@ taxonomy:
 
 GoogleMapsPro has several layouts which can be used right away, but make sure to check the [customizations](/zoolanders/elements/customizations) guide if your project requires some specific output.
 
-### Default
+## Default
 
 Renders a Google Maps map with the single Item location centered in the map as a marker. It supports the following configurations.
 
@@ -44,11 +44,11 @@ Renders a Google Maps map with the single Item location centered in the map as a
 | **Map Width** | The map width value. |
 | **Map Height** | Set the map height value in pixels. |
 
-### Address
+## Address
 
 Renders the Address information set in the Item.
 
-### Widgetkit
+## Widgetkit
 
 Widgetkit layout is a integration layer between the element and [Widgetkit](http://yootheme.com/widgetkit) allowing to render a Widget using the element data as content. For details about configuration options visit the [Widgetkit documentation](http://yootheme.com/widgetkit/documentation).
 

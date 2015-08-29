@@ -6,7 +6,7 @@ taxonomy:
 
 ImagePro has several layouts which can be used right away, but make sure to check the [customizations](/zoolanders/elements/customizations) guide if your project requires some specific output.
 
-### Default_default
+## Default_default
 
 Renders the current image with the following options:
 
@@ -19,7 +19,7 @@ Renders the current image with the following options:
 | **Enable Lightbox** | Toggles the lightbox feature. |
 | **Enable Overlay** | Toggles the Overlay feature. |
 
-### Default_no_cache
+## Default_no_cache
 
 Renders the current image without creating a cache copy with the following options:
 
@@ -27,6 +27,10 @@ Renders the current image without creating a cache copy with the following optio
 | :---------- | :---------- |
 | **Link to Item** | If enabled the image will be linked to the Item full view. |
 
-### Default_raw_path
+## Default_raw_path
 
 Renders the current image raw path value.
+
+## Widgetkit
+
+Widgetkit layout is a integration layer between the element and [Widgetkit](http://yootheme.com/widgetkit) allowing to render a Widget using the element data as content. For details about configuration options visit the [Widgetkit documentation](http://yootheme.com/widgetkit/documentation).
