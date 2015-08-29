@@ -45,10 +45,7 @@ class ZoolandersPlugin extends Plugin
 
         // if accessing root, redirect to basics
         if (count($paths) == 1 && $pages->root()->find("/${paths[0]}/basics")) {
-            $page = $pages->dispatch("/${paths[0]}/basics", true);
-
-            $event->page = $page;
-            $event->stopPropagation();
+            $this->grav->redirectLangSafe("/${paths[0]}/basics");
         }
     }
 
