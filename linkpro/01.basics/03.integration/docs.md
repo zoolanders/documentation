@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-LinkPro is a standard ZOO element, you can follow their [extending type](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types) guide to integrate the element into your existent Apps. Once the element is set in the Type there are several configuration params that do differ from the ZOO ones, lets see what is all that about.
+LinkPro is a standard ZOO element, you can follow the [extending type](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types) guide to integrate the element into your existent Apps. Once the element is set in the Type there are several configuration params that do differ from the ZOO ones, lets see what is all that about.
 
 The Basic set are ZOOlanders common [Configuration fields](/zoolanders/elements/fields#configuration). The Specific set are LinkPro related fields.
 
@@ -12,7 +12,7 @@ The Basic set are ZOOlanders common [Configuration fields](/zoolanders/elements/
 | :---------- | :---------- |
 | **Custom Text** | Toggles the Custom Text edit field. |
 | **Custom Options** | Toggles custom options (New Window, Title and Rel) edit fields. |
-| **Default Value** | Element default value on new Item creation. |
+| **Default Value** | Default field value when new Item is created. |
 
 ## Assignment
 

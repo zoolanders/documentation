@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-DownloadPro is a standard ZOO element, you can follow their [extending type](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types) guide to integrate the element into your existent Apps. Once the element is set in the Type there are several configuration params that do differ from the ZOO ones, lets see what is all that about.
+DownloadPro is a standard ZOO element, you can follow the [extending type](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types) guide to integrate the element into your existent Apps. Once the element is set in the Type there are several configuration params that do differ from the ZOO ones, lets see what is all that about.
 
 The Basic and Files sets are ZOOlanders common [Configuration fields](/zoolanders/elements/fields#configuration). The Specific set are DownloadPro related fields.
 

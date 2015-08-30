@@ -1,5 +1,5 @@
 ---
-title: About RelatedItemsPro
+title: About
 taxonomy:
     category: docs
 ---

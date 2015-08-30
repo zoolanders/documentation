@@ -1,5 +1,5 @@
 ---
-title: About RelatedCategoriesPro
+title: About
 taxonomy:
     category: docs
 ---
