@@ -19,4 +19,4 @@ The Basic set are ZOOlanders common [Configuration fields](/zoolanders/elements/
 
 The Element is set now but is not rendering at all, let's fix that. Assign the element to the position of your choice following the [assign elements](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) guide. Once assigned there will be another set of fields requiring attention.
 
-The Basic, Filter and Separator sets are ZOOlanders common [Assignment fields](/zoolanders/elements/fields#assignment).The Layout set displays the fields related to RelatedCategoriesPro layouts, which is the topic of the next page.
+The Basic, Filter and Separator sets are ZOOlanders common [Assignment fields](/zoolanders/elements/fields#assignment). The Layout set displays the fields related to RelatedCategoriesPro layouts, which is the topic of the next page.
