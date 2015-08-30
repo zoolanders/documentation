@@ -1,5 +1,5 @@
 ---
-title: Configuration
+title: Settings
 taxonomy:
     category: docs
 
@@ -22,4 +22,4 @@ content:
             - _elements
 ---
 
-ZOOcart configuration allows you to fine-tune your store in order to fulfill your project requirements. The setting have been divided in sections for easier management.
+ZOOcart settings allows you to fine-tune your store in order to fulfill your project requirements. They have been divided in sections for easier management.
