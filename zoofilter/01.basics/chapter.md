@@ -8,4 +8,4 @@ taxonomy:
 
 # Basics
 
-Discover what ZOOlingual is all about and the core-concepts behind it.
+Discover what ZOOfilter is all about and the core-concepts behind it.
