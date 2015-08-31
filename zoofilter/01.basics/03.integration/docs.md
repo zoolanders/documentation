@@ -12,7 +12,7 @@ The Form inputs are composed by the Elements in the ZOOfilter layouts.
 
 To configure the search form please follow the next instructions:
 
-1. Go to the ZOO/gearwheel tab/<your app>
+1. Go to the `ZOO/gearwheel tab/<your app>`
 2. Open the *ZOOfilter Search* Default layout for the Type you would like to create the Form for. 
 3. Drag & Drop the elements you would like the Search Form to be composed by.
 
@@ -22,7 +22,7 @@ Notice that the render layouts and params are specific for the form purpose. Onl
 
 ### Fields
 
-ZOOfilter Form fields are composed by the Elements for whom ZOOfilter will use specific group layouts. Those layouts are stored in the **modules/mod_zoofilter/tmpl/_elements** folder, where you can even store your custom layouts.
+ZOOfilter Form fields are composed by the Elements for whom ZOOfilter will use specific group layouts. Those layouts are stored in the `modules/mod_zoofilter/tmpl/_elements` folder, where you can even store your custom layouts.
 
 #### Custom elements
 
