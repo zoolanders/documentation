@@ -5,14 +5,14 @@ taxonomy:
 ---
 ## Set up the Plugin 
 
-Access the configuration trough the **Joomla Plugin Manager** (Joomla Administration / Extensions / Plug-in Manager / ZOOseo) and set the options as needed.
+Access the configuration trough the **Joomla Plugin Manager** (`Joomla Administration / Extensions / Plug-in Manager / ZOOseo`) and set the options as needed.
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Category path in URL** | generate the url using the category structure the item / category is in. This is the preferred version, and also what you probably expect. It removes /category and /item from the url, and limits the alias conflicts between category and items only to the category and items on the same level (ie: within the same category. The Result is something like /base/url/category/subcategory/subsubcategory/the-item-alias.
-| **Remove /item** | removes the /item from the generated SEF urls.
-| **Remove /category** | removes the /category from the generated SEF urls.
-| **Redirect old urls** | will redirect the the old urls (/item and /category) to the new ones to avoid content duplication.
+| **Category path in URL** | generate the url using the category structure the item / category is in. This is the preferred version, and also what you probably expect. It removes `/category` and `/item` from the url, and limits the alias conflicts between category and items only to the category and items on the same level (ie: within the same category. The Result is something like `/base/url/category/subcategory/subsubcategory/the-item-alias`.
+| **Remove /item** | removes the `/item` from the generated SEF urls.
+| **Remove /category** | removes the `/category` from the generated SEF urls.
+| **Redirect old urls** | will redirect the the old urls (`/item` and `/category`) to the new ones to avoid content duplication.
 | **Alias Priority** | allows to choose which alias should take priority if a category and an item have the same one.
 | **Overwrite Item Metadata** | if enabled, even the manually set metadata of the item will be overwritten. Recommended only if you're fixing your site metadata the first time. Should be disabled later to allow custom metadata.
 | **Overwrite Category Metadata** | if enabled, even the manually set metadata of the category will be overwritten. Recommended only if you're fixing your site metadata the first time. Should be disabled later to allow custom metadata
