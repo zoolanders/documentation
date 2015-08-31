@@ -18,7 +18,7 @@ The element configuration **Attributes** field allows setting the attributes tha
 
 ## Elements Override
 
-The element configuration **Elements** feld allows choosing the elements which value will be possible overriding for each variation.
+The element configuration **Elements** field allows choosing the elements which value will be possible overriding for each variation.
 
 ![Elements Field](elements-field.png)
 
