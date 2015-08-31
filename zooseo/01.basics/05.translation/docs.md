@@ -8,9 +8,9 @@ The ini files translations are managed by [Transifex](https://www.transifex.com/
 
 ## Manually
 
-Download the translated file from Transifex and place it into **administrator/language/{LANG}** folder under the name **{LANG}.plg_system_zooseo.ini**. E.g: **administrator/language/es-ES/es-ES.plg_system_zooseo.ini**
+Download the translated file from Transifex and place it into `administrator/language/{LANG}` folder under the name `{LANG}.plg_system_zooseo.ini`. E.g: `administrator/language/es-ES/es-ES.plg_system_zooseo.ini`
 
->>>>> The default **en-GB.plg_system_zooseo.ini** language file is located in the **administrator/language/en-GB** folder.
+>>>>> The default `en-GB.plg_system_zooseo.ini` language file is located in the `administrator/language/en-GB` folder.
 
 ## Through ZOOlanders Manager
 

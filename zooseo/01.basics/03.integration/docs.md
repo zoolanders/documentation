@@ -5,7 +5,7 @@ taxonomy:
 ---
 ## Set up the Plugin 
 
-Access the configuration trough the **Joomla Plugin Manager** ( *Joomla Administration / Extensions / Plug-in Manager / ZOOseo* ) and set the options as needed.
+Access the configuration trough the **Joomla Plugin Manager** (Joomla Administration / Extensions / Plug-in Manager / ZOOseo) and set the options as needed.
 
 | Field       | Description |
 | :---------- | :---------- |
@@ -27,7 +27,7 @@ Access the configuration trough the **Joomla Plugin Manager** ( *Joomla Administ
 
 ## Item Metadata Layout
 
-Locate and open the *ZOOseo* **Item Metadata** layout assignment view for the App and Type you would like to work on. For detailed information please review the [ZOO Positions Assignments doc](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
+Locate and open the ZOOseo **Item Metadata** layout assignment view for the App and Type you would like to work on. For detailed information please review the [ZOO Positions Assignments doc](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
 Drag & Drop the elements you would like to be rendered as Meta Data and Open Graph content.
 
@@ -53,6 +53,6 @@ ZOOseo allows setting the Open Graph data using the ZOOseo Item Metadata layout.
 | **Open Graph Type** | the type of your page, e.g., "video.movie".
 | **Open Graph Image** | an image URL which should represent your page within the graph. ZOOseo will retrieve automatically the url from the image element.
 | **Open Graph Url** | the canonical URL of your page that will be used as its permanent ID in the graph, e.g., "http://www.imdb.com/title/tt0117500/".
-| **Open Graph Custom** | set custom OG properties using the element **Alternative label** to set the property type.
+| **Open Graph Custom** | set custom OG properties using the element "Alternative label" to set the property type.
 
 For more information about Open Graph visit it's [official page](http://ogp.me/), for testing we recommend [Facebook Debuger](https://www.facebook.com/login.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2F).
