@@ -4,4 +4,4 @@ taxonomy:
     category: docs
 ---
 
-[plugin:content-inject](/_partials/upgrading-to-pro)
+[plugin:insert-content](/_partials/elements/upgrading-to-pro?date)

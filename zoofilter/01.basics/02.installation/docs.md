@@ -4,4 +4,4 @@ taxonomy:
     category: docs
 ---
 
-[plugin:content-inject](/_partials/installation)
+[plugin:insert-content](/_partials/installation)
