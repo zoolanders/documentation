@@ -6,14 +6,14 @@ taxonomy:
 
 ## Search form
 
-ZOOfilter Search form is displayed by the *ZOOfilter Module* and controlled by the *ZOOfilter Plugin*. Currently is limited to search through one App and Type at the time.
+ZOOfilter Search form is displayed by the **ZOOfilter Module** and controlled by the **ZOOfilter Plugin**. Currently is limited to search through one App and Type at the time.
 
 The Form inputs are composed by the Elements in the ZOOfilter layouts.
 
 To configure the search form please follow the next instructions:
 
 1. Go to the `ZOO/gearwheel tab/<your app>`
-2. Open the *ZOOfilter Search* Default layout for the Type you would like to create the Form for. 
+2. Open the **ZOOfilter Search** Default layout for the Type you would like to create the Form for. 
 3. Drag & Drop the elements you would like the Search Form to be composed by.
 
 For detailed information please review the [ZOO Positions Assignments doc](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
@@ -38,7 +38,7 @@ Save the file and done!
 
 #### Groups
 
-In order to apply the correct field layout to each Element ZOOfilter groups them into *Category, Date, Input, Option, Rating* and *Tag*. When an Element is assigned to a position of the *Search Layout* the Group specific layout will appear as options.
+In order to apply the correct field layout to each Element ZOOfilter groups them into Category, Date, Input, Option, Rating and Tag. When an Element is assigned to a position of the "Search Layout" the Group specific layout will appear as options.
 
 **Category**
 
@@ -102,7 +102,7 @@ For the Elements considered part of the Tag group (e.g. Tags), next layouts are 
 
 ## Results displaying
 
-You can set up the view of the results page in the **"ZOOfilter Result"** layout. The procedure is the same as for the Search layout.
+You can set up the view of the results page in the **ZOOfilter Result** layout. The procedure is the same as for the Search layout.
 
 Drag & Drop the elements you would like the results page to be composed by. You can place any Element here. 
 
@@ -153,6 +153,6 @@ There is a case when you would like to display a prefilter list of ZOO items, wi
 
 1. Following the configuration guide setup the search form and results page. Set up and display a list of Items filtered as desired. Then copy the URL of the result page.
 2. Add a new Menu Item as usual in Joomla.
-3. From the available Menu Types select **External URL**.
+3. From the available Menu Types select "External URL".
 4. In the link address area, paste the URL that you copied in the point 1.
 5. Save your new menu item.
