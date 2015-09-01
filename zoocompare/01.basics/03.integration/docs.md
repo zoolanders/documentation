@@ -44,7 +44,7 @@ The `ZOOcompare Chart / Compare` layout is used to assign the elements that will
 
 * **Rows**
 
-  In this position you can place any Element which data you would like to be displayed in the comparison Chart. Each Element has it's own Rendering options, be sure to set it up as needed. It could happen that the Element has no data, in that case an alternative text could be displayed using the "If no value, render instead* field under the ZOOcompare Section.
+  In this position you can place any Element which data you would like to be displayed in the comparison Chart. Each Element has it's own Rendering options, be sure to set it up as needed. It could happen that the Element has no data, in that case an alternative text could be displayed using the "If no value, render instead" field under the ZOOcompare Section.
 
   Additionally you can place the **Compare** Element in this position to render special rows such as **Main Header** and **Header** or even add custom ones. Checkout the [Element section](#compare-element) for more details.
 
@@ -81,3 +81,51 @@ It is only possible to compare Items from the same Type/App at a time and you wo
 | :---------- | :---------- |
 | **Result Page ItemId** |  Allows to choose the Joomla Menu Item to be attached to the compare link. |
 | **Module Class Suffix** | Allows to set a module class suffix for specific module styling. |
+
+## Compare Element
+
+The **Compare** Element is used by ZOOcompare for several compare features. Is necessary to be part of the Type being compared.
+
+### Element Layouts
+
+The element will show different rendering layouts depending of the position and layout where it is dropped:
+
+### Standard ZOO layouts
+
+When placed into any standard ZOO Layout position it will offer an **Add to Compare / Remove from Compare** button display.
+
+### ZOOcompare Chart Layout
+
+When placed into the **ZOOcompare Chart Compare** layout it will adapt to offer differently displays depending of the position:
+
+* **Row position**
+    Will offer row related displays, such as table Main Header and Headers.
+
+* **Main Header**
+    Will render a Header with the appropriate Item name on each column.
+
+| Field       | Description |
+| :---------- | :---------- |
+| **Result Page ItemId** |  Allows to choose the Joomla Menu Item to be attached to the compare link. |
+| **Module Class Suffix** | Allows to set a module class suffix for specific module styling. |
+
+* **Header**
+    Will render a Header which can Hide/Show it's childs.
+
+| Field       | Description |
+| :---------- | :---------- |
+| **Title** |  The Header title. |
+| **Fold feature** | Allows to choose the Fold (child hiding feature) state. Offers to start with the childs hidden, unhidden or don't allow this feature at all. |
+
+* **Toolbar position**
+    Will offer a Toolbar related displays, such as Download CSV, Restore Chart and Restore Hidden buttons.
+
+| Field       | Description |
+| :---------- | :---------- |
+| **Download CSV** |  Allows to download a CSV of the currently displayed Chart data. |
+| **Restore Chart** | Allows to restore the Chart to it's initial state, if some Items was removed for example. |
+| **Restore Hidden** | Allows to restore the hidden rows. |
+
+## Upgrading to v3
+
+Due to the big changes made in ZOOcompare 3 the upgrade process is not possible, instead a clean installation must be performed uninstalling any previous version. The comparison settings will be lost during this process, be sure to back up your data before proceeding.
