@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-DownloadPro has several layouts which can be used right away, but make sure to check the [customizations](/zoolanders/elements/customizations) guide if your project requires some specific output.
+DownloadPro has several layouts which can be used right away, but make sure to check the [customizations](http://documentation.zoolanders.com/downloadpro/advanced/customizations) guide if your project requires some specific output.
 
 ## Default_default
 

@@ -2,7 +2,7 @@
 
 Technically is possible to override any element file, but overriding the core files is not recommended as future updates could change the behavior and the override files became deprecated. However, sometimes is the only way to accomplish specific project requirements and if kept to minimal is a perfectly valid solution. Besides, by overriding and not directly editing the core files we assure our changes would remain after future extension updates.
 
-There are two paths for elements overriding, the global `media/zoo/custom_elements/%1$s` where the elements will be override always. And the `media/zoo/applications/{application}/elements/%1$s` where the override will apply only when the element is used by that specific App.
+There are two paths for elements overriding, the global `media/zoo/custom_elements/%1$s` where the elements will be overridden always. And the `media/zoo/applications/{application}/elements/%1$s` where the override will apply only when the element is used by that specific App.
 
 >>>>> If the `custom_elements` folder does not exist, create it manually.
 
