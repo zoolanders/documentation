@@ -3,6 +3,7 @@ title: Integration
 taxonomy:
     category: docs
 ---
+
 ##Export/Import
 
 Application instance could be exported/imported in two formats: JSON and CSV.
