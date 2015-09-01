@@ -2,9 +2,9 @@ The ini files translations are managed by [Transifex](https://www.transifex.com/
 
 ## Manually
 
-Download the translated file from Transifex and place it into **administrator/language/{LANG}** folder under the name **{LANG}.%2$s.ini**. E.g: **administrator/language/es-ES/es-ES.%2$s.ini**
+Download the translated file from Transifex and place it into `administrator/language/{LANG}` folder under the name `{LANG}.%2$s.ini`. E.g: `administrator/language/es-ES/es-ES.%2$s.ini`
 
->>>>> The default **en-GB.%2$s.ini** language file is located in the **administrator/language/en-GB** folder.
+>>>>> The default `en-GB.%2$s.ini` language file is located in the `administrator/language/en-GB` folder.
 
 ## Through ZOOlanders Manager
 
