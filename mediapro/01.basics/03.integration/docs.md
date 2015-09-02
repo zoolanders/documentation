@@ -12,7 +12,7 @@ The Basic and Files sets are ZOOlanders common [Configuration fields](/zoolander
 | :---------- | :---------- |
 | **Player** | Select the Player which will be used for rendering the media. Currently supported [jPlayer](http://www.jplayer.org/), [JWPlayer](http://www.jwplayer.com/) and [MediaElement](http://www.mediaelementjs.com/). |
 
-Additionally MediaPro supports custom Edit layouts within the **Edit Layouts** set of fields. More information about custom layouts can be found on [customization guide](http://joomla.box/zl-docs/zoolanders/elements/customizations#custom-layouts).
+Additionally MediaPro supports custom Edit layouts within the **Edit Layouts** set of fields. More information about custom layouts can be found on [customization guide](/mediapro/advanced/customizations#custom-layouts).
 
 >>>>> The Players source files are stored in elements `plugins/system/zoo_zlelements/zoo_zlelements/assets/players` folder.
 
