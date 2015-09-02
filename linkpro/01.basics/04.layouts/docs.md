@@ -14,7 +14,7 @@ Renders a link using the current element data with the following options:
 | :---------- | :---------- |
 | **Clean Link Text** | Allows cleaning the resultant link Text with a regular expression. For example <code>/((http\|https\|ftp\|ftps):\/\/)/</code> will remove any **http://**, **htpps://**, **ftp://** or **ftps://** part. |
 | **Clean URL** | Allows cleaning the resultant link URL with a regular expression the same way as the **Clean Link Text** field. |
-| **If no URL value** | Allows choosing the behaviour if the Link value was not set in the Item with **Abort Rendering**, the Element will not be rendered or **Render raw Link Text**, if present the Link Text will be rendered as plain text. |
+| **If no URL value** | Allows choosing the behaviour if the Link value was not set in the Item: with **Abort Rendering**, the Element will not be rendered or with **Render raw Link Text**, the Link Text, if present, will be rendered as plain text. |
 | **URL Prefix** | The text to be prefixed to the URL. |
 | **URL Suffix** | The text to be suffixed to the URL. |
 | **Text Prefix** | The text to be prefixed to the link text. |
