@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-MediaPro has several layouts which can be used right away, but make sure to check the [customizations](/zoolanders/elements/customizations) guide if your project requires some specific output.
+MediaPro has several layouts which can be used right away, but make sure to check the [customizations](/mediapro/advanced/customizations) guide if your project requires some specific output.
 
 ## JPlayer
 
