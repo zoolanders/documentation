@@ -12,7 +12,7 @@ The Basic set are ZOOlanders common [Configuration fields](/zoolanders/elements/
 | :---------- | :---------- |
 | **Editable** | Determines if the element should allow make relations or only show them. Usually combined with Bi-relation feature. |
 | **Authored by User** | Limit the relations list to items authored by current User. |
-| **Hide Unpublished | Limit the relations list to published items. |
+| **Hide Unpublished** | Limit the relations list to published items. |
 | **Apps** | Limit the relations list to items belonging to selected Apps. |
 | **Types** | Limit the relations list to items being of selected Type. |
 | **Bi-Related Elements** | Choose the elements from other Types that will be used for the bi-directional relation. |
