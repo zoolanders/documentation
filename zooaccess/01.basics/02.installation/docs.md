@@ -4,4 +4,4 @@ taxonomy:
     category: docs
 ---
 
-[plugin:insert-content](/_partials/installation)
+[plugin:insert-content](/_partials/installation?zooaccess)

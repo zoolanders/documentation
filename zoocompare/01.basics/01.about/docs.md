@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-**ZOOcompare** gives your users the ability to compare your Joomla ZOO app items site-by-side.
+**ZOOcompare** provides the ability to compare ZOO Items site-by-side.
 
 ## Requirements
 
