@@ -14,7 +14,9 @@ Renders the related categories or those categories items depending on the follow
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Inherit Primary Cat** | If enabled the Item Primary category will be auto-added to the selected list. |
+| **Inherit Primary Cat** | If enabled, the Item Primary category will be auto-added to the selected list. |
+| **Link to item** | If enabled, the Items will be linked to the full view.|
+| **Item link text** | A custom text for the link. |
 
 **Items Mode**
 
@@ -22,6 +24,8 @@ Renders the related categories or those categories items depending on the follow
 | :---------- | :---------- |
 | **Related Layout** | Allows choosing the layout that will be used for rendering the Items. |
 | **Render Current Item** | If enabled, the current Item will be rendered as part of the selected list. |
+| **Link to item** | If enabled, the Items will be linked to the full view.|
+| **Item link text** | A custom text for the link. |
 
 **Order**
 
