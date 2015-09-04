@@ -4,128 +4,79 @@ taxonomy:
     category: docs
 ---
 
-## First Steps
+The Compare element, provided with ZOOcompare, displays a button which will allow adding the Item to the comparison list. Go ahead and add the element to the Type which Items you would like to allow comparing. If you are not familiar with the process you can review the [ZOO](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types) guide.
 
-**Step 1. Set up the Type**
+Once the element is set in the Type, it must be assigned to some rendering layout, as for example the Teaser. Assign the element to the desired layout and configure as needed. Checkout the [ZOO](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) guide if you need more information about.
 
-Please add the Compare element to the Type you would like to compare. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
+Now that the compare button is displayed it allows adding the Items to the compare list and then access comparison chart. The Chart is very flexible and allows you to set, beside the Data to be compared, Headers, Groups, Tools and more. For setting it up open the **ZOOcompare Chart / Compare** layout assignment view for the App and Type you have set up, then Drag & Drop the elements you would like to be part of the comparison chart.
 
-**Step 2. Compare element assignment**
+Finally, in the App Instance Configuration under the ZOOcompare Tab we can set the following App options:
 
-The Compare element is used to display a button which will add the Item to the comparison list and usually you would set it in the App Teaser layout.
+| Field       | Description |
+| :---------- | :---------- |
+| **Main Layout** | The layout that will be used to display the ZOOcompare Chart. |
+| **Max Items** | The maximum amount if Items that could be added for comparing at a time. |
 
-Assign the element to the desired layout positions and configure as needed. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
-
-**Step 3. Set up the Chart**
-
-The compare chart is very flexible and allows you to not just set up the Data to be compare but Headers, Groups, Tools and more.
-
-Locate and open the `ZOOcompare Chart / Compare` layout assignment view for the App and Type you have set up in the Step 1. For detailed information please review the [ZOO Positions Assignments](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) and [Chart](#chart) section.
-
-Drag & Drop the elements you would like to be part of the comparison chart.
-
-**Step 4. Set up the App instance**
-
-In the App Instance Configuration search for the ZOOcompare Tab and choose the Layout and the Max Items the user can compare, leave empty if there should be no limit.
-
-**Step 5. Set up the Module. Optional.**
-
-Additionally you could set up the ZOOcompare Module in order to list the user selected Items for comparison. Checkout it's [section](#module) for more details about it.
-
-**Done!**
-
-The users can now select and compare the items!
-
-## Chart
-
-The ZOOcompare Chart is the comparison table used to display the Items selected by the User. It's responsive and Bootstrap based.
-
-The `ZOOcompare Chart / Compare` layout is used to assign the elements that will be part of the Chart and can be found in the ZOO Extensions Layouts. It has two positions, **Rows** and **Toolbar**.
-
-* **Rows**
-
-  In this position you can place any Element which data you would like to be displayed in the comparison Chart. Each Element has it's own Rendering options, be sure to set it up as needed. It could happen that the Element has no data, in that case an alternative text could be displayed using the "If no value, render instead" field under the ZOOcompare Section.
-
-  Additionally you can place the **Compare** Element in this position to render special rows such as **Main Header** and **Header** or even add custom ones. Checkout the [Element section](#compare-element) for more details.
-
-* **Toolbar**
-
-  In this position you can place only the **Compare** Element which will allow you to choose Toolbar buttons such as Download CSV, Restore Chart and Restore Hidden. Those are rendered in the Bottom of the Chart when using the Default Layout.
-
-  Checkout the [Element section](#compare-element) for more details.
-  
 ## Module
 
-The Module is used to display and manage the **Items Comparison** List.
+The Module is used to display the **Items Comparison List** giving you users the ability to see what Items are going to be compare and manage it. There are several set of fields about its configuration:
 
-It is only possible to compare Items from the same Type/App at a time and you would need to choose it in the Module params. It is possible however to display several Modules with different configurations in the same page.
+>>> It is only possible to compare Items from the same App/Type at a time, however is possible displaying several Modules with different configurations in the same page.
 
 **App**
 
 | Field       | Description |
 | :---------- | :---------- |
-| **App** | Allows to choose the App Instance to be used within this module. |
-| **Type** | Allows to choose the Type to be used within this module. |
+| **App** | The App Instance to be used within this module. |
+| **Type** | The Type to be used within this module. |
 
 **Layout**
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Main Layout** |  Allows to choose the module display Layout. |
-| **Item row Layout** | Allows to choose the Layout to be used for the Item row rendering. |
-| **Style** | Allows to choose the Layout style, Vertical or Horizontal. |
+| **Main Layout** | The module display Layout. |
+| **Item row Layout** | The **ZOOcompare Module** layout for the Item row rendering, which configuration must be set in the ZOO Type Extension layouts. |
+| **Style** | The Layout style, Vertical or Horizontal. |
 
 **General**
- 
+
 | Field       | Description |
 | :---------- | :---------- |
-| **Result Page ItemId** |  Allows to choose the Joomla Menu Item to be attached to the compare link. |
-| **Module Class Suffix** | Allows to set a module class suffix for specific module styling. |
+| **Result Page ItemId** |  The Joomla! Menu Item to be attached to the compare link. |
+| **Module Class Suffix** | The module class suffix for specific module styling. |
+
+## Chart
+
+The **ZOOcompare Chart** it's a responsive Bootstrap based comparison table used to display the Items selected by the User. Each column represent and Item and each row the Item element value which configuration can be set in teh **Chart / Compare** layout under the ZOO Types layouts configuration view. It has two positions:
+
+**Rows**, in this position you can place any Element which data you would like to be displayed in the Chart rows. Each Element has it's own rendering options, but the one they all share is the **If no value, render instead** field which allows setting the text to render in case the Item has not any value set for that specific element.
+
+>>>>> You can place the **Compare** Element in this position to render special rows such as **Main Header** and **Header** or even add custom ones.
+
+**Toolbar**, in this position you can place only the **Compare** element which will allow you choosing Toolbar buttons such as **Download CSV**, **Restore Chart** and **Restore Hidden**. Those are rendered in the Bottom of the Chart when using the Default Layout.
 
 ## Compare Element
 
-The **Compare** Element is used by ZOOcompare for several compare features. Is necessary to be part of the Type being compared.
+The **Compare** element is used for several features showing different rendering layouts depending of the position and layout where it is dropped. When placed into any standard ZOO Layout position it will offer an **Add to Compare / Remove from Compare** button display, while when placed into the **Chart Compare** layout it will adapt to offer differently displays depending on the position:
 
-### Element Layouts
+When dropped in **Row** position it will offer row related displays, such as:
 
-The element will show different rendering layouts depending of the position and layout where it is dropped:
-
-### Standard ZOO layouts
-
-When placed into any standard ZOO Layout position it will offer an **Add to Compare / Remove from Compare** button display.
-
-### ZOOcompare Chart Layout
-
-When placed into the **ZOOcompare Chart Compare** layout it will adapt to offer differently displays depending of the position:
-
-* **Row position**
-    Will offer row related displays, such as table Main Header and Headers.
-
-* **Main Header**
-    Will render a Header with the appropriate Item name on each column.
-
-| Field       | Description |
-| :---------- | :---------- |
-| **Result Page ItemId** |  Allows to choose the Joomla Menu Item to be attached to the compare link. |
-| **Module Class Suffix** | Allows to set a module class suffix for specific module styling. |
-
-* **Header**
-    Will render a Header which can Hide/Show it's childs.
+**Header**, will render a Header with an optional Hide/Show childs feature.
 
 | Field       | Description |
 | :---------- | :---------- |
 | **Title** |  The Header title. |
-| **Fold feature** | Allows to choose the Fold (child hiding feature) state. Offers to start with the childs hidden, unhidden or don't allow this feature at all. |
+| **Fold feature** | The Fold (child hiding feature) state. Allows starting with childs being hidden/unhidden or disallowing the feature completely. |
 
-* **Toolbar position**
-    Will offer a Toolbar related displays, such as Download CSV, Restore Chart and Restore Hidden buttons.
+**Main Header**, will render a Header with the appropriate Item name on each column.
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Download CSV** |  Allows to download a CSV of the currently displayed Chart data. |
-| **Restore Chart** | Allows to restore the Chart to it's initial state, if some Items was removed for example. |
-| **Restore Hidden** | Allows to restore the hidden rows. |
+| **Link to Item** | If enabled the Item Name will be linked to the Item full view. |
+| **Remove button** | If enabled a button allowing to remove the Item from the Chart will be rendered. |
 
-## Upgrading to v3
+When dropped in **Toolbar** position will offer a Toolbar related displays, such as:
 
-Due to the big changes made in ZOOcompare 3 the upgrade process is not possible, instead a clean installation must be performed uninstalling any previous version. The comparison settings will be lost during this process, be sure to back up your data before proceeding.
+* **Download CSV**, displays a Download CSV button for the currently displayed Chart data.
+* **Restore Chart**, displays a Restore button that will restore the Chart to its initial state (if some Item has been removed for example).
+* **Restore Hidden**, displays a button that will restore hidden rows.

@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-**ZOOcompare** provides the ability to compare ZOO Items site-by-side.
+**ZOOcompare** provides the ability to compare ZOO Items side-by-side in a responsive chart.
 
 ## Requirements
 
