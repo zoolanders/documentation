@@ -4,155 +4,110 @@ taxonomy:
     category: docs
 ---
 
-## Search form
+The most basic part of a filter it's the form, let's start by integrating the **ZOOfilter Form** which is displayed by the **ZOOfilter Module** and composed by the Elements set in the **ZOOfilter Search** layout. Locate and open the Search Default layout assignment view for the App and Type you would like to create the form for. Following the [elements assignment](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) guide Drag & Drop the elements you would like the search form to be composed by.
 
-ZOOfilter Search form is displayed by the **ZOOfilter Module** and controlled by the **ZOOfilter Plugin**. Currently is limited to search through one App and Type at the time.
+>>> Only search compatible elements are supported. ZOOfilter will auto-assign them a group which will determine the [rendering layouts](#elements-groups).
 
-The Form inputs are composed by the Elements in the ZOOfilter layouts.
+In the same admin view as the Search Layouts are located the **ZOOfilter Results** layouts, those allows setting the elements that will be rendered for each filtered Item in the **Search Results** view. Access the Default one and the same way as before Drag & Drop the elements you would like to be rendered. This is a standard rendering layout, all elements rendering options are available.
 
-To configure the search form please follow the next instructions:
+Now that the layouts are set we can display the form and see it in action. Create a new ZOOfilter Module instance and assign it to the desired position. Choose the App and Type you have just set and leave the rest of options by default. You can fine tune them later by reviewing the [Module Settings](#module-settings) details. Once the module has been saved, the form should be displayed allowing to perform the filtering.
 
-1. Go to the `ZOO/gearwheel tab/<your app>`
-2. Open the **ZOOfilter Search** Default layout for the Type you would like to create the Form for. 
-3. Drag & Drop the elements you would like the Search Form to be composed by.
+>>> Currently ZOOfilter is limited to one App and Type filtering at the same time. It is possible however to display several Modules with different configurations in the same page.
 
-For detailed information please review the [ZOO Positions Assignments doc](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
+## Form Fields
 
-Notice that the render layouts and params are specific for the form purpose. Only the searchable and Elements with a group are compatible with this layout. 
+The form fields are set with the elements but their rendering layouts are stored by the Module in the `modules/mod_zoofilter/tmpl/_elements` folder for each group. The layouts can be expanded adding your custom ones using that same folder.
 
-### Fields
+### Elements Groups
 
-ZOOfilter Form fields are composed by the Elements for whom ZOOfilter will use specific group layouts. Those layouts are stored in the `modules/mod_zoofilter/tmpl/_elements` folder, where you can even store your custom layouts.
+The ZOOfilter elements groups are **Category**, **Date**, **Input**, **Option**, **Rating** and **Tag**. ZOO and ZOOlanders elements are auto-grouped, for custom elements, though, assigning a group manually is required by performing few simple [steps](#custom-elements-group).
 
-#### Custom elements
-
-If you are using custom elements and those are searchable you would need to assign them the Group manually for ZOOfilter to recognise them:
-
-1. Open the custom element XML file.
-2. Localize the `<element/>` tag.
-3. Add a zfgroup attribute with the appropriate category value.
-
-  Eg: `<element type="textpro" zfgroup="input">`
-
-Save the file and done!
-
-#### Groups
-
-In order to apply the correct field layout to each Element ZOOfilter groups them into Category, Date, Input, Option, Rating and Tag. When an Element is assigned to a position of the "Search Layout" the Group specific layout will appear as options.
-
-**Category**
-
-For the Elements considered part of the Category group (e.g. Categories), the following layouts are available:
+For the elements considered part of the **Category** group (e.g. Categories), the following layouts are available:
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Default** | Will render a Dropdown form field.
-| **Checkbox** | Will render a Checkbox form field.
-| **Radio** | Will render a Radio form field.
-| **Ajax** | Is used for search in categories hierarchy. Will render a Dropdown form with parent categories list. When the category is selected, the second Dropdown form with sub-categories will be displayed.
+| **Default** | Will render a Dropdown form field. |
+| **Checkbox** | Will render a Checkbox form field. |
+| **Radio** | Will render a Radio form field. |
+| **Ajax** | Is used for search in categories hierarchy. Will render a Dropdown form with parent categories list. When the category is selected, the second Dropdown form with sub-categories will be displayed. |
 
-**Date**
-
-For the Elements considered part of the Date group (e.g. Date), next layouts are available:
+For the elements considered part of the **Date** group (e.g. Date), next layouts are available:
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Default** | Will render a date Input form field.
-| **Range** | Will render two date Inputs form fields for range searches.
+| **Default** | Will render a date Input form field. |
+| **Range** | Will render two date Inputs form fields for range searches. |
 
-**Input**
-
-For the Elements considered part of the Input group (e.g.Text), next layouts are available:
+For the elements considered part of the **Input** group (e.g. Text), next layouts are available:
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Default** | Will render a text Input form field.
-| **Range** | Will render two text Inputs form fields for range searches.
+| **Default** | Will render a text Input form field. |
+| **Range** | Will render two text Inputs form fields for range searches. |
 
-**Option**
-
-For the Elements considered part of the Option group (e.g. Checkbox, Radio), next layouts are available:
+For the elements considered part of the **Option** group (e.g. Checkbox, Radio), next layouts are available:
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Default** | Will render a Dropdown form field.
-| **Checkbox** | Will render a Checkbox form field.
-| **Radio** | Will render a Radio form field.
+| **Default** | Will render a Dropdown form field. |
+| **Checkbox** | Will render a Checkbox form field. |
+| **Radio** | Will render a Radio form field. |
 
-**Rating**
-
-For the Elements considered part of the Rating group (e.g. Rating), next layouts are available:
+For the elements considered part of the **Rating** group (e.g. Rating), next layouts are available:
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Select** | Will render a Dropdown form field.
-| **Checkbox** | Will render a Checkbox form field.
-| **Radio** | Will render a Radio form field.
-| **Range** | Will render two text Inputs form fields for range searches.
+| **Select** | Will render a Dropdown form field. |
+| **Checkbox** | Will render a Checkbox form field. |
+| **Radio** | Will render a Radio form field. |
+| **Range** | Will render two text Inputs form fields for range searches. |
 
-**Tag**
-
-For the Elements considered part of the Tag group (e.g. Tags), next layouts are available:
+For the elements considered part of the **Tag** group (e.g. Tags), next layouts are available:
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Select** | Will render a Dropdown form field.
-| **Checkbox** | Will render a Checkbox form field.
-| **Radio** | Will render a Radio form field.
+| **Select** | Will render a Dropdown form field. |
+| **Checkbox** | Will render a Checkbox form field. |
+| **Radio** | Will render a Radio form field. |
 
-## Results displaying
+### Custom Elements Group
 
-You can set up the view of the results page in the **ZOOfilter Result** layout. The procedure is the same as for the Search layout.
+If you are using custom elements and those are searchable you would need to assign them the **Group** manually in order for ZOOfilter to recognise them:
 
-Drag & Drop the elements you would like the results page to be composed by. You can place any Element here. 
+1. Open the custom element XML file and localize the `<element>` tag.
+2. Add a `zfgroup` attribute with the appropriate category value and save. <br /> E.g: `<element type="textpro" zfgroup="input">`
 
-For detailed information please review the [ZOO Positions Assignments doc](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
+## Results Ordering
 
-## Results ordering
-
-**Order layout** is used for the order form rendered in the search results view (if required). It would allow to reorder the results by this element value. Notice that not all elements are compatible with this layout, only the ones that are orderable.
-
-For each element you can set:
+The filtered Itesm order will be determined by the App default ordering, but optionally is possible rendering an **Order Form** in the results view for reordering the Items. In the **ZOOfilter Order** layouts, by Drag & Dropping the elements, is possible to set the ordering form options. Each element assigned represents an option and can be adapted with the following:
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Alternative Label** | allows to override the default element label displayed in the order form.
-| **Value Type** | allows to choose which type comparison should be used when ordering with this value.
+| **Alternative Label** | Allows overriding the default element label displayed in the form. |
+| **Value Type** | The type comparison that will be used when ordering with this value. |
 
-**By default** the results ordering is specified by the application ordering settings.
+>>>>> Notice that only **orderable** elements are compatible with this layout.
 
-## ZOOfilter Module
+## Module Settings
 
-The Module is used to display the Search Forms.
+When setting up the ZOOfilter Module form those are the settings available:
 
-It is only possible to filter Items from the same Type/App at a time and you would need to choose it in the Module params. It is possible however to display several Modules with different configurations in the same page.
- 
 | Field       | Description |
 | :---------- | :---------- |
-| **Items** | allows to choose the ZOO App and Type which Items will be filtered.
-| **Form method** | allows to choose the method that will be used by the Form to send the search data.<p>- **GET** Recommended.</p><p>- **POST** This method does NOT support pagination between results.</p>
-| **Show Ordering** | allows to choose if the Ordering Form should be displayed in the results page. If enabled it will allow the users to reorder the filtered results.
-| **Show search page title** | allows to choose if the Page Title should be displayed in the results page. If enabled it will allow the users to reorder the filtered results. See Search page title below.
-| **Show Submit Button** | allows to choose if the Submit button should be displayed in the search form.
-| **Show Clear Button** | allows to choose if the Clean button should be displayed in the search form. The button allows to clear the contents of any presently entered filtering criteria.
-| **Show Permalink** | allows to display the link "Get permalink for this search". When click you will be able to copy the URL of the result page.  
-| **Search page title** | allows to set the Search page title. See previous Show search page title.
-| **Columns** | allows to choose the amount of columns with which will be rendered the Items in the results view.
-| **Items Per Page** | allows to choose the amount of Items per page that will be displayed in the results view.
-| **Max number of results** | allows to set a maximum number of results to display. 1000 (default) will display up to 1000 results/entries in the filter results. Any items matching the filter criteria that are beyond 1000 will not be rendered. You can set this to any valid integer.
-| **Page Layout** | allows to set the type of Page Layout for the results page:<p>- **Search** (default) will display the results using standard results display</p><p>- **Json** will return the JSON (code) result of the filtering operation. This option is meant for custom results layouts.</p><p>- **Search_uikit** will display the results using UIkit results display</p>
-| **Ordering Layout** | allows to choose the Order Layout that will be used to render the order form.
-| **Result Layout** | allows to choose the Result Layout that will be used to render Items in the results view.
-| **Module Layout** | allows to choose the Search Layout that will be used to render the form.
-| **Result Page Itemid** | allows to set a specific Itemid on the results page.
-| **Module Class Suffix** | allows to set a module class suffix for specific module styling.|
-
-## Menu Assignment
-
-There is a case when you would like to display a prefilter list of ZOO items, without letting them actually refilter the list. ZOO doesn't come with that ability, and it might not be obvious, but with the ZOOfilter extension you CAN do that, and relatively easily:
-
-1. Following the configuration guide setup the search form and results page. Set up and display a list of Items filtered as desired. Then copy the URL of the result page.
-2. Add a new Menu Item as usual in Joomla.
-3. From the available Menu Types select "External URL".
-4. In the link address area, paste the URL that you copied in the point 1.
-5. Save your new menu item.
+| **Items** | The ZOO App and Type which Items will be filtered. |
+| **Form Method** | The method that will be used by the Form to send the search data, **GET** or **POST**. Take into consideration that POST method does **not** support pagination between results. |
+| **Show Ordering** | If enabled the Ordering Form will be displayed in the results page allowing to reorder the filtered results. |
+| **Show Search Page Title** | If enabled the **Search Page Title** field value will be displayed in the results page. |
+| **Search Page Title** | The search page title value. |
+| **Show Submit Button** | If enabled the **Submit** button will be displayed in the search form. |
+| **Show Clear Button** | If enabled the **Clean** button will be displayed in the search form allowing to clear the contents of any entered filtering criteria. |
+| **Show Permalink** | If enabled **Get Permalink** option will be displayed allowing to copy the URL of the result page. |
+| **Columns** | The amount of columns with which the Items will be rendered in the results view. |
+| **Items per Page** | The amount of Items per page that will be displayed in the results view. |
+| **Max Number of Results** | By default 1000, it will limit the amount of entries in the filter results. Any items matching the filter criteria that are beyond the limit will not be rendered. |
+| **Page Layout** | The Layout that will be used for displaying the results. **Search** page will display the results using standard results display while **Json**, exclusively for custom layouts, will return the result in JSON format. |
+| **Ordering Layout** | The layout that will be used to render the order form. |
+| **Result Layout** | The layout that will be used to render the results view. |
+| **Module Layout** | The layout that will be used to render the form. |
+| **Result Page Itemid** | Allows associating the Results page with a Menu Item by appending the specified Itemid to the results page URL. |
+| **Module Class Suffix** | The module class suffix, used for styling. |
