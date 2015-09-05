@@ -1,4 +1,0 @@
----
-title: ZOOcompare
-routable: false
----

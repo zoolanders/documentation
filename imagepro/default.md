@@ -1,4 +1,0 @@
----
-title: ImagePro
-routable: false
----

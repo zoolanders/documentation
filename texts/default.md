@@ -1,4 +1,0 @@
----
-title: Texts
-routable: false
----

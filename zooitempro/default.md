@@ -1,4 +1,0 @@
----
-title: ZOOitemPro
-routable: false
----

@@ -1,4 +1,0 @@
----
-title: LinkPro
-routable: false
----

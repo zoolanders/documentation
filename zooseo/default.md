@@ -1,4 +1,0 @@
----
-title: ZOOseo
-routable: false
----

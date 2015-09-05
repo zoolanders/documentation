@@ -1,4 +1,0 @@
----
-title: ZOOmailing
-routable: false
----

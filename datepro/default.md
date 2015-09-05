@@ -1,4 +1,0 @@
----
-title: DatePro
-routable: false
----

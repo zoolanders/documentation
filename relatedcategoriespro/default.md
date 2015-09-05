@@ -1,4 +1,0 @@
----
-title: RelatedCategoriesPro
-routable: false
----
