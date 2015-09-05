@@ -1,12 +1,12 @@
 {
-   "project":"grav-plugin-login",
+   "project":"grav-plugin-error",
    "platforms":{
       "grav":{
          "nodes":{
             "plugin":[
                {
                   "source":"/",
-                  "destination":"/user/plugins/login"
+                  "destination":"/user/plugins/error"
                }
             ]
          }

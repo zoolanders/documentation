@@ -1,9 +1,5 @@
 {% macro loop(page, parent_loop) %}
-    {% if parent_loop|length > 0 %}
-        {% set data_level = parent_loop %}
-    {% else %}
-        {% set data_level = 0 %}
-    {% endif %}
+    {% set data_level = parent_loop|length > 0 ? parent_loop : 0 %}
     {% for p in page.children.visible %}
         {% set parent_page = p.activeChild ? ' parent' : '' %}
         {% set current_page = p.active ? ' active' : '' %}
@@ -21,42 +17,33 @@
     {% endfor %}
 {% endmacro %}
 
-{% macro version(p) %}
-    {% set parent_page = p.activeChild ? ' parent' : '' %}
-    {% set current_page = p.active ? ' active' : '' %}
-    <h5 class="{{ parent_page }}{{ current_page }}">
-        {% if p.activeChild or p.active %}
-        <i class="fa fa-chevron-down fa-fw"></i>
-        {% else %}
-        <i class="fa fa-plus fa-fw"></i>
-        {% endif %}
-        <a href="{{ p.url }}">{{ p.menu }}</a>
-    </h5>
-{% endmacro %}
-
-{% if theme_config.top_level_version %}
-    {% for slug, ver in pages.children %}
-        {{ _self.version(ver) }}
-        <ul id="{{ slug }}" class="topics">
-        {{ _self.loop(ver, '') }}
-        </ul>
-    {% endfor %}
-{% elseif page.slug == 'home' %}
-    <ul class="topics">
-    {% for p in pages.children if p.slug != '_partials' and count(p.children) %}
-        <li>
+{% macro list(page, parent_loop) %}
+    {% set data_level = parent_loop|length > 0 ? parent_loop : 0 %}
+    {% for p in page.children.visible %}
+        {% set parent_page = p.activeChild ? ' parent' : '' %}
+        {% set current_page = p.active ? ' active' : '' %}
+        <li class="dd-item{{ parent_page }}{{ current_page }}">
             <a href="{{ p.url }}">
                 <span>{{ p.menu }}</span>
             </a>
+            {% if data_level == 0 and p.children.count > 0 %}
+            <ul>
+                {{ _self.list(p, parent_loop+loop.index) }}
+            </ul>
+            {% endif %}
         </li>
     {% endfor %}
-    </ul>
+{% endmacro %}
+
+<ul class="topics">
+{% if count(uri.paths()) <= 1 %}
+    {{ _self.list(pages, '') }}
 {% else %}
-    <ul class="topics">
     {{ _self.loop(extension, '') }}
-    </ul>
 {% endif %}
+</ul>
 
+{% if count(uri.paths()) > 1 %}
 <hr />
-
 <a class="padding" href="#" data-clear-history-toggle><i class="fa fa-fw fa-history"></i> Clear History</a><br />
+{% endif %}

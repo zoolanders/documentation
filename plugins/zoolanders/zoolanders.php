@@ -7,9 +7,6 @@ use RocketTheme\Toolbox\Event\Event;
 
 class ZoolandersPlugin extends Plugin
 {
-    /**
-     * @return array
-     */
     public static function getSubscribedEvents()
     {
         return [
@@ -17,9 +14,6 @@ class ZoolandersPlugin extends Plugin
         ];
     }
 
-    /**
-     * @param Event $event
-     */
     public function onPluginsInitialized()
     {
         if ($this->isAdmin()) {
@@ -35,38 +29,30 @@ class ZoolandersPlugin extends Plugin
     }
 
     /**
-     * Redirect to basics if trying to access root
+     * Redirect to basics
      *
      * @param Event $event
      */
     public function onPageNotFound(Event $event)
     {
-        $paths = $this->grav['uri']->paths();
+        $paths = implode($this->grav['uri']->paths(), '/');
         $pages = $this->grav['pages'];
 
-        // if accessing root, redirect to basics
-        if (count($paths) == 1 && $pages->root()->find("/${paths[0]}/basics")) {
-            $this->grav->redirectLangSafe("/${paths[0]}/basics");
+        // if page not found try redirecting to basics page
+        if (count($paths) == 1 && $pages->root()->find("/${paths}/basics")) {
+            $this->grav->redirectLangSafe("/${paths}/basics");
         }
     }
 
     /**
-     * Set needed variables to display breadcrumbs.
+     * Set needed variables
      */
     public function onTwigSiteVariables()
     {
-        $matches = array();
-        preg_match('/^\/(.*)\//U', $this->grav['page']->route(), $matches);
-        $extension = '/'.$matches[1];
-
         // to avoid redirect loop let's iterate over pages and save page ref
-        foreach ($this->grav['pages']->root()->children() as $page) {
-            if ($page->folder() == $matches[1]) {
-                $this->grav['twig']->twig_vars['extension'] = $page;
-                break;
-            }
+        if (preg_match('/^\/(.*\/.*)\//U', $this->grav['page']->route(), $matches)) {
+            $this->grav['twig']->twig_vars['extension'] = $this->grav['page']->find('/'.$matches[1]);
         }
-
     }
 
     public function onPageContentRaw(Event $event)

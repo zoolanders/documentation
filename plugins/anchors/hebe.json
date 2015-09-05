@@ -1,12 +1,12 @@
 {
-   "project":"grav-plugin-form",
+   "project":"grav-plugin-anchors",
    "platforms":{
       "grav":{
          "nodes":{
             "plugin":[
                {
                   "source":"/",
-                  "destination":"/user/plugins/form"
+                  "destination":"/user/plugins/anchors"
                }
             ]
          }
