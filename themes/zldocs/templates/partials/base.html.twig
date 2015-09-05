@@ -41,7 +41,13 @@
     {% block sidebar %}
     <nav id="sidebar">
         <div id="header">
-            <a id="logo" href="{{ theme_config.home_url ?: base_url_absolute }}">{% include 'partials/logo.html.twig' %}</a>
+            <a id="logo" href="{{ theme_config.home_url ?: base_url_absolute }}">
+                {% if count(uri.paths()) <= 1 %}
+                    {% include 'partials/logo.html.twig' %}
+                {% else %}
+                    <i class="fa fa-reply fa-5x read-icon"></i>
+                {% endif %}
+            </a>
             <div class="searchbox">
                 <label for="search-by"><i class="fa fa-search"></i></label>
                 <input id="search-by" type="text" placeholder="Search Documentation" data-search-input="{{ base_url_relative }}/search.json/query" />
