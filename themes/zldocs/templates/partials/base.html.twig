@@ -45,7 +45,7 @@
                 {% if count(uri.paths()) <= 1 %}
                     {% include 'partials/logo.html.twig' %}
                 {% else %}
-                    <i class="fa fa-reply fa-5x read-icon"></i>
+                    {% include 'partials/goback.html.twig' %}
                 {% endif %}
             </a>
             <div class="searchbox">

@@ -43,7 +43,12 @@
 {% endif %}
 </ul>
 
-{% if count(uri.paths()) > 1 %}
 <hr />
+
+{% if count(uri.paths()) > 1 %}
 <a class="padding" href="#" data-clear-history-toggle><i class="fa fa-fw fa-history"></i> Clear History</a><br />
 {% endif %}
+
+<section id="footer">
+    <p>Documentation for <a href="http://zoolanders.com">zoolanders.com</a></p>
+</section>
