@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-**ZOOseo** is a ZOO extension applying **SEO** improvements and **Open Graph** capabilities.
+**ZOOseo** is adds **SEO** improvements and **Open Graph** capabilities to CCK ZOO.
 
 ## Requirements
 

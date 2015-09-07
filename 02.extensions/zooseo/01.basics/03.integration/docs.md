@@ -3,56 +3,67 @@ title: Integration
 taxonomy:
     category: docs
 ---
-## Set up the Plugin 
 
-Access the configuration trough the **Joomla Plugin Manager** (`Joomla Administration / Extensions / Plug-in Manager / ZOOseo`) and set the options as needed.
+By default ZOOseo will not apply any changes to your site **SEO** leaving up to you to decide when and what best works for it. The same way **Metadata** and **Opengraph** must be carefully applied to get the most of it benefits. Let's see how is all that done.
 
-| Field       | Description |
-| :---------- | :---------- |
-| **Category path in URL** | generate the url using the category structure the item / category is in. This is the preferred version, and also what you probably expect. It removes `/category` and `/item` from the url, and limits the alias conflicts between category and items only to the category and items on the same level (ie: within the same category. The Result is something like `/base/url/category/subcategory/subsubcategory/the-item-alias`.
-| **Remove /item** | removes the `/item` from the generated SEF urls.
-| **Remove /category** | removes the `/category` from the generated SEF urls.
-| **Redirect old urls** | will redirect the the old urls (`/item` and `/category`) to the new ones to avoid content duplication.
-| **Alias Priority** | allows to choose which alias should take priority if a category and an item have the same one.
-| **Overwrite Item Metadata** | if enabled, even the manually set metadata of the item will be overwritten. Recommended only if you're fixing your site metadata the first time. Should be disabled later to allow custom metadata.
-| **Overwrite Category Metadata** | if enabled, even the manually set metadata of the category will be overwritten. Recommended only if you're fixing your site metadata the first time. Should be disabled later to allow custom metadata
-| **Item: Generate on** | allows to set when the metadata should be generated, on item saving or displaying (init). On init is great for first time generation, but has very bad performance, so it's better to leave it to saved for live sites.
-| **Category: Generate on** | allows to set when the metadata should be generated, on category saving or displaying (init). On init is great for first time generation, but has very bad performance, so it's better to leave it to saved for live sites.
-| **Item Separator** | separator if there are more elements in the same position. For keywords, comma will always be used.
-| **Category Separator** | separator if there are more elements in the same position. For keywords, comma will always be used.
-| **Category Metatitle** | what fields has to be used to set the metatitle in the category.
-| **Category Metadescription** | what fields has to be used to set the metadescription in the category.
-| **Category Keywords** | what fields has to be used to set the keywords in the category.
-| **Category Author** | what fields has to be used to set the author in the category.
+## SEO
 
-## Item Metadata Layout
-
-Locate and open the ZOOseo **Item Metadata** layout assignment view for the App and Type you would like to work on. For detailed information please review the [ZOO Positions Assignments doc](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
-
-Drag & Drop the elements you would like to be rendered as Meta Data and Open Graph content.
-
-### Item Metadata
-
-ZOOseo allows for automatic metadata insertion on your Items during saving or displaying. In both case the rendering content is set in the ZOOseo Item Metadata layout.
+Accessing the settings in ZOOseo Plugin through the **Joomla Plugin Manager** adjust or enabled the following options as required.
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Title** | the title of your page.
-| **Description** | a one to two sentence description of your page.
-| **Keywords** | a comma separate words describing your page.
-| **Author** | the page author name
+| **Category path in URL** | If enabled it will generate the url using the category structure the **item**/**category** is in removing the `/category` and `/item` and limiting the alias conflicts between category/items to the same level. The resulting URL could look like `/baseurl/category/sub-category/sub-sub-category/item-alias`. |
+| **Remove /item** | If enabled the `/item` part will be removed from the generated SEF urls. |
+| **Remove /category** | If enabled the `/category` part will be removed from the generated SEF urls. |
+| **Redirect old urls** | If enabled it will redirect the old urls (`/item` and `/category`) to the new ones avoiding content duplication. |
+| **Alias Priority** | Allows choosing which alias should take priority if a Category and an Item have the same one. |
+| **Overwrite Item Metadata** | If enabled even the manually set metadata of the Item will be overwritten. Recommended only if you're fixing the site metadata, should be disabled later in order to allow custom metadata. |
+| **Overwrite Category Metadata** | If enabled even the manually set metadata of the Category will be overwritten. Recommended only if you're fixing the site metadata, should be disabled later in order to allow custom metadata. |
+
+## Metadata
+
+Setting the Category/Item Metadata individually is most of the times not possible nor desirable. Instead let's use the Item elements data and render it as metadata and for Categories some clever workarounds.
+
+Locate the **ZOOseo Metadata Item** layout in your ZOO App Type configuration. Following the [elements assignment](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) guide Drag & Drop the elements you would like to render for each one of the Metadata positions.
+
+| Field       | Description |
+| :---------- | :---------- |
+| **Title** | The page title. |
+| **Description** | The page description. |
+| **Keywords** | A comma separate words describing the page. |
+| **Author** | The page author name. |
+
+Getting back to the ZOOseo plugin settings the following Metadata options are available.
+
+| Field       | Description |
+| :---------- | :---------- |
+| **Item: Generate on** | Allows setting when the metadata should be generated, when the Item is saved or when it's displayed. **On Display** is very useful for first time metadata generation, but for its impact on the performance it's recommended leaving it to **On Save** on production. |
+| **Item Separator** | The separator that will be used if there are more elements in the same position. For keywords, comma will always be used. |
+
+The rest of the options are for the Category Metadata which as well can be automatized.
+
+| Field       | Description |
+| :---------- | :---------- |
+| **Category: Generate on** | Allows setting when the metadata should be generated, when the category is saved or when it's displayed. **On Display** is very useful for first time metadata generation, but for its impact on the performance it's recommended leaving it to **On Save** on production. |
+| **Category Separator** | The separator that will be used if there are more elements in the same position. For keywords, comma will always be used. |
+| **Category Metatitle** | The category field value to set as the category metatitle. |
+| **Category Metadescription** | The category field value to set as the category metadescription. |
+| **Category Keywords** | The category field value to set as the category keywords. |
+| **Category Keywords** | The category field value to set as the category author. |
 
 ### Opengraph
 
-ZOOseo allows setting the Open Graph data using the ZOOseo Item Metadata layout.
+Using the same **ZOOseo Item Metadata** layout for setting the Metadata, Drag & Drop the elements you would like to render for each one of the OpenGraph positions.
+
+>>>>> For more information about Open Graph visit the [official page](http://ogp.me/). For testing purpose checkout [Facebook Debuger](https://www.facebook.com/login.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2F).
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Open Graph Title** | the title of your page as it should appear within the graph.
-| **Open Graph Description** | a one to two sentence description of your page.
-| **Open Graph Type** | the type of your page, e.g., "video.movie".
-| **Open Graph Image** | an image URL which should represent your page within the graph. ZOOseo will retrieve automatically the url from the image element.
-| **Open Graph Url** | the canonical URL of your page that will be used as its permanent ID in the graph, e.g., "http://www.imdb.com/title/tt0117500/".
-| **Open Graph Custom** | set custom OG properties using the element "Alternative label" to set the property type.
+| **Open Graph Title** | The title of the page. |
+| **Open Graph Description** | The description of the page. |
+| **Open Graph Type** | The page type, e.g. `video.movie`. |
+| **Open Graph Image** | The page image URL. **Image/Pro** element value will be automatically retrieved. |
+| **Open Graph Url** | The page canonical URL that will be used as its permanent ID in the graph, e.g., `http://www.imdb.com/title/tt0117500/`. |
+| **Open Graph Custom** | Allows setting custom OpenGraph properties using the element **Alternative Label** field value as the property type. |
 
-For more information about Open Graph visit it's [official page](http://ogp.me/), for testing we recommend [Facebook Debuger](https://www.facebook.com/login.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2F).
+>>>>>> You could set static information on any position using the [Static Content](/extensions/zootools/basics/static-content) element.
