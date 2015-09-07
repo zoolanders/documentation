@@ -24,15 +24,16 @@ There are two Layouts, **Section** and **Subsection**, each of them with it's ow
 
 Provides you with a foldable (collapsible) section where the following elements will be wrapped. It has several options:
 
-* **Title** - Allows to set the title of the section.
-* **Fold feature** - Allows to set the fold feature.
+| Field       | Description |
+| :---------- | :---------- |
+| **Title** | allows to set the title of the section.
+| **Fold feature** | allows to set the title of the section. The option has the next three states: <br> **Disabled** - This state turns off the folding functionality of the section so the entire contents of the section are always visible. <br> **Start unfolded** - This state turns on the folding, however, the contents of this section are initially displayed. Clicking on the section head in a form will fold the section. <br> **Start folded** - This state turns on the folding, however, the contents of this section are initially hidden. Clicking on the section head in a form will unfold the section.
 
-  * **Disabled** - This state turns off the folding functionality of the section so the entire contents of the section are always visible.
-  * **Start unfolded** - This state turns on the folding, however, the contents of this section are initially displayed.Clicking on the section head in a form will fold the section.
-  * **Start folded** - This state turns on the folding, however, the contents of this section are initially hiden.Clicking on the section head in a form will unfold the section.
 
 #### Subsection
 
 Inserts a visible dividing line with the title of the separator appearing along the right side. It has one setting:
 
-* **Title** - Allows to set the title of the section.
+| Field       | Description |
+| :---------- | :---------- |
+| **Title** | allows to set the title of the section.

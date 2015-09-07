@@ -28,73 +28,86 @@ There are two Layouts, **Default** and **qTip**, each of them with it's own feat
 
 Allows to display static text.
 
-* **Text** - The text that will be displayed.
-* **Plugins** - If enabled the standard Joomla Content Plugins will be evaluated on the text entered above.
+| Field       | Description |
+| :---------- | :---------- |
+| **Text** | the text that will be displayed.
+| **Plugins** | if enabled the standard Joomla Content Plugins will be evaluated on the text entered above.
 
 ## Link
 
 Displays different kind of links, **Item, Category** or **Custom**.
 
-* **Common link options**
-  * **Text** - Allows to set the link text.
-  * **Title** - Allows to set the link title.
-  * **New window** - Allows to choose if the link should be opened in a new browser window.
-  * **Rel** - Allows to set the link rel attribute.
+###Common link options
 
-* **Type: Item**
+| Field       | Description |
+| :---------- | :---------- |
+| **Text** | allows to set the link text.
+| **Title** | allows to set the link title.
+| **New window** | allows to choose if the link should be opened in a new browser window.
+| **Rel** | allows to set the link rel attribute.
+  
+###Type: Item
 
-  Allows to display a link to ZOO items.
+Allows to display a link to ZOO items.
 
-  * **Item Source**
-   * **Current** - Will display a link to the current item being rendered.
-   * **Specified** - Will display a link to a specific ZOO item.
-  * **Item ID** - Displayed if the Item Source is set to Specific allows to set the Item ID which will be linked.
-  * **Layout** - Allows to select a layout that will be used to display the item when the user clicks on the link.
+| Field       | Description |
+| :---------- | :---------- |
+| **Item Source** | allows to select the item: <br> **Current** - will display a link to the current item being rendered. <br> **Specified** - will display a link to a specific ZOO item.
+| **Item ID** | displayed if the Item Source is set to Specific allows to set the Item ID which will be linked.
+| **Layout** | allows to select a layout that will be used to display the item when the user clicks on the link.
 
-* **Type: Category**
+###Type: Category
 
-  Allows to display a link to ZOO categories.
+Allows to display a link to ZOO categories.
 
-  * **Category ID** - Allows to set the Category ID which will be linked.
+| Field       | Description |
+| :---------- | :---------- |
+| **Category ID** | allows to set the Category ID which will be linked.
 
-* **Type: Custom**
+###Type: Custom
 
-  Allows to display a custom link.
+Allows to display a custom link.
 
-  * **URL** - Allows to set the link URL which will be used.
+| Field       | Description |
+| :---------- | :---------- |
+| **URL** | allows to set the link URL which will be used.
 
 ## Item
 
 Renders a specific ZOO item.
 
-* **Item Layout** - Allows to select a layout that will be used to render the item.
-* **Item Source**
-  * **Current** - Will use the current item as the rendering source.
-  * **Specified** - Will allow to specify the item.
-* **Item ID** - Displayed if the Item Source is set to Specific allows to set the Item ID which will be used.
+| Field       | Description |
+| :---------- | :---------- |
+| **Item Layout** | allows to select a layout that will be used to render the item.
+| **Item Source** | allows to select the item: <br> **Current** - will use the current item as the rendering source. <br> **Specified** - will allow to specify the item.
+| **Item ID** | displayed if the Item Source is set to Specific allows to set the Item ID which will be used.
 
 ## Module
 
 Displays a specific module.
 
-* **Module** - Allows to select a the Module you would like to display.
+| Field       | Description |
+| :---------- | :---------- |
+| **Module** | allows to select a the Module you would like to display.
 
 ## Iframe
 
 Displays a standard Iframe.
 
-* **Render: Item**
+### Render: Item
 
  Allows to render a specific ZOO Item in the Iframe.
 
-  * **Item Layout** - Allows to select a layout that will be used to render the item.
-  * **Item Source**
-    * **Current** - Will use the current item as the rendering source.
-    * **Specified** - Will allow to specify the item.
-  * **Item ID** - Displayed if the Item Source is set to Specific allows to set the Item ID which will be used.
+| Field       | Description |
+| :---------- | :---------- |
+| **Item Layout** | allows to select a layout that will be used to render the item.
+| **Item Source** | allows to select the item: <br> **Current** - will use the current item as the rendering source. <br> **Specified** - will allow to specify the item.
+| **Item ID** | displayed if the Item Source is set to Specific allows to set the Item ID which will be used.
 
-* **Render: Custom URL**
+### Render: Custom URL
 
  Allows to set a custom URL for the Iframe.
 
-  * **URL** - Allows to set the URL.
+| Field       | Description |
+| :---------- | :---------- |
+| **URL** | allows to set the URL.
