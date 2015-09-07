@@ -12,13 +12,13 @@ The Separator Element will allow you to separate your Admin Elements into sectio
 
 ### Adding the Element to your Edit form
 
-To add the *Separator* to your Edit form just add it to your Type as you would with any other element, it is grouped under *ZOOlanders Extensions*. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
+To add the **Separator** to your Edit form just add it to your Type as you would with any other element, it is grouped under **ZOOlanders Extensions**. If you are not familiar with this process please review the [official ZOO docs](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types).
 
 The Separator element will group all of the elements from where it is positioned until the next Separator element, or the last element on the form, whichever comes first. If you wish to have some elements not be included in a Separator, be sure to place those before the first Separator element in your list of elements.
 
 ### Layouts
 
-There are two Layouts, *Section* and *Subsection*, each of them with it's own features.
+There are two Layouts, **Section** and **Subsection**, each of them with it's own features.
 
 #### Section
 

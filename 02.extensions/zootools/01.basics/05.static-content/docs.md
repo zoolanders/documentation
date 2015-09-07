@@ -20,7 +20,7 @@ To assign the element to any position, just Drag & Drop as you would to with any
 Layouts
 -------
 
-There are two Layouts, *Default* and *qTip*, each of them with it's own features.
+There are two Layouts, **Default** and **qTip**, each of them with it's own features.
 
 **Default** - Offers several content rendering features:
 
@@ -33,7 +33,7 @@ Allows to display static text.
 
 ## Link
 
-Displays different kind of links, *Item, Category* or *Custom*.
+Displays different kind of links, **Item, Category** or **Custom**.
 
 * **Common link options**
   * **Text** - Allows to set the link text.
