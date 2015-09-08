@@ -14,4 +14,4 @@ In the **Minicart** layout the following options are available:
 | Field       | Description |
 | :---------- | :---------- |
 | Show Cart Link | If enabled, the **Go to Cart** link is displayed. |
-| Show Cart Link | If enabled, a notice about taxes and fees is displayed. |
+| Show Legal Notice | If enabled, a notice about taxes and fees is displayed. |
