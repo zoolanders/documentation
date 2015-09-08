@@ -1,6 +1,6 @@
 ## Shipping
 
-These options apply if your store ship physical products.
+These options apply if your store ships physical products.
 
 | Field       | Description |
 | :---------- | :---------- |
@@ -17,7 +17,7 @@ In the Settings Shipping tab upper right corner is the **Shipping Rates Manager*
 | Field       | Description |
 | :---------- | :---------- |
 | **Name** | To rate name that will be displayed during checkout. |
-| **Status** | The shipping rate status |
+| **Status** | The shipping rate status. |
 | **Price** | The rate price. |
 | **Type** | The rate type, based on ordered items or entire order. |
 | **Price From** | The left price margin. |
