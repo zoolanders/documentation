@@ -8,9 +8,9 @@ The ini files translations are managed by [Transifex](https://www.transifex.com/
 
 ## Manually
 
-Download the translated file from Transifex and place it into **media/zoo/applications/events/language/{LANG}** folder under the name **{LANG}.com_zoo.ini**. E.g: **media/zoo/applications/events/language/es-ES/es-ES.com_zoo.ini**
+Download the translated file from Transifex and place it into `media/zoo/applications/events/language/YOUR-LANG/YOUR-LANG.com_zoo.ini` folder under the name `{LANG}.com_zoo.ini`. E.g: `media/zoo/applications/events/language/es-ES/es-ES.com_zoo.ini`
 
->>>>> The default **en-GB.com_zoo.ini** language file is located in the **media/zoo/applications/events/language/en-GB** folder.
+>>>>> The default `en-GB.com_zoo.ini` language file is located in the `media/zoo/applications/events/language/en-GB` folder.
 
 ## Through ZOOlanders Manager
 
