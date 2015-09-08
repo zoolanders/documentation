@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-Texts have several layouts which can be used right away, but make sure to check the [customizations](/texts/advanced/customizations) guide if your project requires some specific output.
+Texts have several layouts which can be used right away, but make sure to check the [customizations](/elements/texts/advanced/customizations) guide if your project requires some specific output.
 
 ## TextPro
 

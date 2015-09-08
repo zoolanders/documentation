@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-RelatedItemsPro has several layouts which can be used right away, but make sure to check the [customizations](/relateditemspro/advanced/customizations) guide if your project requires some specific output.
+RelatedItemsPro has several layouts which can be used right away, but make sure to check the [customizations](/elements/relateditemspro/advanced/customizations) guide if your project requires some specific output.
 
 ## Default_default
 

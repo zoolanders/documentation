@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-DatePro has several layouts which can be used right away, but make sure to check the [customizations](/linkpro/advanced/customizations) guide if your project requires some specific output.
+DatePro has several layouts which can be used right away, but make sure to check the [customizations](/elements/linkpro/advanced/customizations) guide if your project requires some specific output.
 
 ## Default_default
 

@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-GoogleMapsPro has several layouts which can be used right away, but make sure to check the [customizations](/googlemapspro/advanced/customizations) guide if your project requires some specific output.
+GoogleMapsPro has several layouts which can be used right away, but make sure to check the [customizations](/elements/googlemapspro/advanced/customizations) guide if your project requires some specific output.
 
 ## Default
 
