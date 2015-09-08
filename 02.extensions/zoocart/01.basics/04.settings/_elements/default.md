@@ -4,8 +4,6 @@
 
 When adding the Element to a Type, the following configuration is available under the **Specific** section:
 
->>>>> The Specific Variations element settings will be displayed the first time after the Type has been saved.
-
 | Field       | Description |
 | :---------- | :---------- |
 | Enabled by default | The product state, when enabled all Type products will be allowed for purchase. If disabled, the product should be individually enabled on the **Item Edit** view. |
@@ -41,6 +39,8 @@ When adding the Element to a Type, the following configuration is available unde
 ### Variations
 
 When adding the Element to a Type, the following configuration is available under the **Specific** section:
+
+>>>>> The Specific Variations element settings will be displayed the first time after the Type has been saved.
 
 | Field       | Description |
 | :---------- | :---------- |
