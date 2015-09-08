@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-**ZOOtrack** will allow you to track and be aware of very useful ZOO actions. It will track users visited Items, the current Item/Category allowing advanced integrations with other Extensions.
+**ZOOtrack** will track some ZOO actions for allowing further advanced integrations.
 
 ## Requirements
 
