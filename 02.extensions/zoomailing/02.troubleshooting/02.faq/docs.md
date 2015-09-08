@@ -4,4 +4,4 @@ taxonomy:
     category: docs
 ---
 
-1. **Is it possible whenever a new Zoo item is published it will automatically send out a newsletter with the updated content?** - ZOOmailing is used only for rendering content, it cannot manage the newsletters schedule. But you can configure to send emails every day with ZOOmailing tag that get items by published_date or created_date. If there are no published or created items since yesterday no emails will be sent.
+* **It is possible to send an automatic Newsletter whenever a new ZOO Item is published?** - ZOOmailing does not manage the newsletters schedule, but you can set AcyMailing to send a Newsletter every day with ZOOmailing tag that will retrieve the items by its **published** or **created** date. If there are no items matching the criteria, no Newsletter will be send.
