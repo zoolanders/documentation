@@ -8,4 +8,4 @@ taxonomy:
 
 # Basics
 
-Discover what Events is all about and the core-concepts behind it.
+Discover what this App is all about and the **core-concepts** behind it
