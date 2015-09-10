@@ -12,7 +12,7 @@ All elements share these basic configuration fields:
 | :---------- | :---------- |
 | **Name** | The element name that will be used across the system to reference the element. |
 | **Description** | The element description. Used to show information about the element to the content Editors. |
-| **Access Level** | The element access setting. Allows restricting the element to certain Access Levels. For advanced permissions you may use [ZOOaccess](/zooaccess). |
+| **Access Level** | The element access setting. Allows restricting the element to certain Access Levels. For advanced permissions you may use [ZOOaccess](/extensions/zooaccess). |
 | **Repeatable** | If enabled the element will become repeatable storing array of values instead of one instance. |
 | **Instance Limit** | Complements the Repeatable feature allowing to set a maximum amount of element instances. |
 
