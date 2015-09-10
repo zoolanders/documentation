@@ -21,7 +21,7 @@ Finally, in the App Instance Configuration under the ZOOcompare Tab we can set t
 
 The Module is used to display the **Items Comparison List** giving you users the ability to see what Items are going to be compare and manage it. There are several set of fields about its configuration:
 
->>> It is only possible to compare Items from the same App/Type at a time, however is possible displaying several Modules with different configurations in the same page.
+>>> It is only possible to compare Items from the same App/Type at a time, however is possible displaying several Modules with different configurations on the same page.
 
 **App**
 
@@ -47,7 +47,7 @@ The Module is used to display the **Items Comparison List** giving you users the
 
 ## Chart
 
-The **ZOOcompare Chart** it's a responsive Bootstrap based comparison table used to display the Items selected by the User. Each column represent and Item and each row the Item element value which configuration can be set in teh **Chart / Compare** layout under the ZOO Types layouts configuration view. It has two positions:
+The **ZOOcompare Chart** it's a responsive Bootstrap based comparison table used to display the Items selected by the User. Each column represent an Item and each row the Item element value which configuration can be set in the **Chart / Compare** layout under the ZOO Types layouts configuration view. It has two positions:
 
 **Rows**, in this position you can place any Element which data you would like to be displayed in the Chart rows. Each Element has it's own rendering options, but the one they all share is the **If no value, render instead** field which allows setting the text to render in case the Item has not any value set for that specific element.
 
