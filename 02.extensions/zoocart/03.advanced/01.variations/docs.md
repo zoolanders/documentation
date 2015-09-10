@@ -6,7 +6,7 @@ taxonomy:
 
 The Variations allows selling the same product with different attributes. Those could be for example a color, size, weight, etc. In **ZOOcart** each variation can have different price, stock and other properties through element value override.
 
->>> Variations are managed by the **Variations Element**, the following text assume your Type has it assigned already. If not, you can do so following the [integration guide](http://documentation.zoolanders.com/extensions/zoocart/basics/integration). Notice that there can be only one Variations element, but you can add as many attributes as you need.
+>>> Variations are managed by the **Variations Element**, the following text assume your Type has it assigned already. If not, you can do so following the [integration guide](/extensions/zoocart/basics/integration). Notice that there can be only one Variations element, but you can add as many attributes as you need.
 
 ## Attributes
 
