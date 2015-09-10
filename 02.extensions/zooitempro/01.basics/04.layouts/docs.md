@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-ZOOitemPro has several layouts which can be used right away, but you can [create custom](/zooitempro/advanced/customizations) ones if your project requires some specific output.
+ZOOitemPro has several layouts which can be used right away, but you can [create custom](http://docs.zoolanders.com/extensions/zooitempro/advanced/customizations#custom-layouts) ones if your project requires some specific output.
 
 ### Default
 
