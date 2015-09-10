@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-ZOOitemPro has several layouts which can be used right away, but you can [create custom](/zooitempro/advanced/customizations) ones if your project requires some specific output.
+ZOOitemPro has several layouts which can be used right away, but you can [create custom](/extensions/zooitempro/advanced/customizations#custom-layouts) ones if your project requires some specific output.
 
 ### Default
 
@@ -105,6 +105,6 @@ ZOOitemPro provides an advanced filtering and ordering for the rendered Items. W
 | **Reverse** | Reverse the final ordering. |
 | **Priority** | If enabled the Items priority would be considered for the ordering. |
 | **Alphanumeric** | Allows choosing if the ordering should be done with alphanumeric values. Enable if your order is failing, specially if there are numbers involved. |
-| **Core** | allows to choose the core element by which will be made the order. |
+| **Core** | Allows to choose the core element by which will be made the order. |
 
 >>> More options are available for the Element specific filtering and ordering depending of the App/Type selected.

@@ -6,7 +6,7 @@ taxonomy:
 
 ## ZOOcart + ZOOaccess
 
-[ZOOaccess](/zooaccess) focus on Element access rules and it integrates natively with ZOOcart. Once installed on each element configuration a new access parameter will be available under ZOOaccess fields allowing many awesome new features. Those are just few example of what you could accomplish:
+[ZOOaccess](/extensions/zooaccess) focus on Element access rules and it integrates natively with ZOOcart. Once installed on each element configuration a new access parameter will be available under ZOOaccess fields allowing many awesome new features. Those are just few example of what you could accomplish:
 
 * Show/hide specific information after product purchase.
 * Show/hide content if the user has a valid Subscription.

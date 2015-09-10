@@ -40,6 +40,8 @@ When adding the Element to a Type, the following configuration is available unde
 
 When adding the Element to a Type, the following configuration is available under the **Specific** section:
 
+>>>>> The Specific Variations element settings will be displayed the first time after the Type has been saved.
+
 | Field       | Description |
 | :---------- | :---------- |
 | Elements | The list of Elements that would be possible to override by each Variation. |

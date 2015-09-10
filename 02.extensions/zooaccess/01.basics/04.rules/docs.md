@@ -74,7 +74,7 @@ This rule evaluates if the User is the Item Author or if it has modified it.
 
 ### ZOOcart Items
 
-This rule evaluates if the User has purchased the specified [ZOOcart](/zoocart) product.
+This rule evaluates if the User has purchased the specified [ZOOcart](/extensions/zoocart) product.
 
 | Field       | Description |
 | :---------- | :---------- |
@@ -85,7 +85,7 @@ This rule evaluates if the User has purchased the specified [ZOOcart](/zoocart) 
 
 ### ZOOcart Subscription
 
-This rule evaluates if the User has the specific [ZOOcart](/zoocart) valid Subscription.
+This rule evaluates if the User has the specific [ZOOcart](/extensions/zoocart) valid Subscription.
 
 | Field       | Description |
 | :---------- | :---------- |
