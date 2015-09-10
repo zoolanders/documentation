@@ -13,4 +13,3 @@ To install the ZOOlnaders extension, download the **zip** package and install it
 
 >>> If you have issues with the installation try the alternative **Install from Directory** method uploading the unzipped package content into the `/tmp` folder of your site. Then input the path and click on the Install button.
 
-After installation make sure the extension is enabled, otherwise do so manually. Take into consideration Elements are hold under the same **ZL Elements** plugin for performance reasons.
