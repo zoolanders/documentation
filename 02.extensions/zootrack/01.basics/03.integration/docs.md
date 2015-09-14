@@ -9,7 +9,7 @@ ZOOtrack is meant to be used by other extensions and it has only these settings 
 | Field       | Description |
 | :---------- | :---------- |
 | **Track Items** | If enabled Users Items views will be tracked. |
-| **Track Categories** | iIf enabled Users Categories views will be tracked. |
+| **Track Categories** | If enabled Users Categories views will be tracked. |
 
 ## ZOOitemPro Integration
 
