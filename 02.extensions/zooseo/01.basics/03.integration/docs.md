@@ -12,7 +12,7 @@ Accessing the settings in ZOOseo Plugin through the **Joomla Plugin Manager** ad
 
 | Field       | Description |
 | :---------- | :---------- |
-| **Category path in URL** | If enabled it will generate the url using the category structure the **item**/**category** is in removing the `/category` and `/item` and limiting the alias conflicts between category/items to the same level. The resulting URL could look like `/baseurl/category/sub-category/sub-sub-category/item-alias`. |
+| **Category path in URL** | If enabled it will generate the url using the category structure, the **item**/**category** is in, removing the `/category` and `/item` and limiting the alias conflicts between category/items to the same level. The resulting URL could look like `/baseurl/category/sub-category/sub-sub-category/item-alias`. |
 | **Remove /item** | If enabled the `/item` part will be removed from the generated SEF urls. |
 | **Remove /category** | If enabled the `/category` part will be removed from the generated SEF urls. |
 | **Redirect old urls** | If enabled it will redirect the old urls (`/item` and `/category`) to the new ones avoiding content duplication. |

@@ -10,4 +10,5 @@ Once **ZOOorder** is installed it will become available as a Joomla! module read
 | :---------- | :---------- |
 | **Type** | The ZOO App/Type that the ordering will be applied to. |
 | **Layout** | The Layout to use for the ordering fields mapping. |
+| **Module Layout** | The layout that will be used to display the module. |
 | **Module Class Suffix** | A module class suffix for specific module styling. |
