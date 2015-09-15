@@ -52,7 +52,7 @@ You can now start creating Events and/or Venues in the newly created App or keep
 
 | Field       | Element | Description |
 | :---------- | :---------- | :---------- |
-| **Venue** | RelatedItemsPro | Allows bi-directional relation with the associated Event entry, among others. |
+| **Related Events** | RelatedItemsPro | Allows bi-directional relation with the associated Event entry, among others. |
 | **Venue Address** | GoogleMapsPro | The venue address. |
 | **Description** | TextareaPro | The venue description. |
 | **Venue picture** | ImagePro | The venue image. |
