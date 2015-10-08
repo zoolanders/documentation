@@ -10,7 +10,7 @@ Once the plugin has been enabled two integration options will become available: 
 
 ## ZOOPro Content Provider
 
-Widgetkit content providers allows setting the content in Widgetkit and use the module to output the content rendered with the selected Widget. Extending the Widgetkit2 ZOO integration, our pro version offers some extra flexibility and filter/sorting as a more advanced field mapping.
+Widgetkit content provider allows setting the content in Widgetkit and use the module to output the content rendered with the selected Widget. Extending the Widgetkit2 ZOO integration, our pro version offers some extra flexibility and filter/sorting as a more advanced field mapping.
 
 ![ZOOPro Content Provider](zoopro-content-provider.png)
 
@@ -24,7 +24,7 @@ Once the Fields have been defined they must be mapped to a position. This is a d
 
 ## Widgetkit Mapping Layouts
 
-The Widgetkit Mapping layouts are used to map ZOO elements to the Widget fields, in other words, letting know the Widget what ZOO elements should be used for each of it fields. There are three inbuilt layouts which can be chosen for each integration, however it's possible creating new ones.
+The Widgetkit Mapping layouts are used to map ZOO elements to the Widget fields, in other words, letting know the Widget what ZOO elements should be used for each of its fields. There are three inbuilt layouts which can be chosen for each integration, however it's possible creating new ones.
 
 ![Select Mapping Layout](select-mapping-layout.png)
 
