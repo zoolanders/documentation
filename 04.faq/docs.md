@@ -10,6 +10,7 @@ title: F.A.Q.
 * [ZOOfilter](#zoofilter)
 * [ZOOlingual](#zoolingual)
 * [Events](#events)
+* [Widgetkit](#widgetkit)
 
 ## Common
 
@@ -42,3 +43,7 @@ title: F.A.Q.
 ## Events
 
 [plugin:insert-content](/apps/events/basics/faq)
+
+## Widgetkit
+
+[plugin:insert-content](/extensions/zoolanders/widgetkit/faq)
