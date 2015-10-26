@@ -40,6 +40,6 @@ As any other ZOO layout this mapping layout has several positions where the elem
 
 **ImagePro**, **RelatedItemsPro**, **ZOOitemPro** and other products have a layout called `widgetkit2` which will render the selected Widgetkit2 Widget using the element or module content. The layout params will allow opening a Modal where the Widget and its rendering options could be set.
 
-In case of the elements the data mapping is done programmatically on the layout it self. You can of course override or create your own layout customizing the mapping by following the [customizations guide](/extensions/zoolanders/elements/customizations).
+In case of the elements the data mapping is done programmatically on the layout it self. You can of course override or create your own layout customizing the mapping by following the [customizations guide](/extensions/extensions/zoolanders/elements/customizations).
 
 In case of the **ZOOitemPro** module and the **RelatedItemsPro** element the mapping is done through the [Widgetkit Mapping Layouts](#widgetkit-mapping-layouts) which once set you should only choose the layout to be used.
