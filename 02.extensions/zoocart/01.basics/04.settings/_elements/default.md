@@ -44,7 +44,7 @@ When adding the Element to a Type, the following configuration is available unde
 
 | Field       | Description |
 | :---------- | :---------- |
-| Elements | The list of Elements that would be possible to override by each Variation. *Please note, that this function doesn't support image galeries and media.* |
+| Elements | The list of Elements that would be possible to override by each Variation. Not compatible with image galeries and media.|
 | Attributes | The list of Variation attributes composed by a **key** and **value**. |
 
 When setting the Element in a position for rendering, the following configuration is available under the **Layout** section:
