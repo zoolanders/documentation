@@ -49,7 +49,7 @@ The rest of the options are for the Category Metadata which as well can be autom
 | **Category Metatitle** | The category field value to set as the category metatitle. |
 | **Category Metadescription** | The category field value to set as the category metadescription. |
 | **Category Keywords** | The category field value to set as the category keywords. |
-| **Category Keywords** | The category field value to set as the category author. |
+| **Category Author** | The category field value to set as the category author. |
 
 ### Opengraph
 

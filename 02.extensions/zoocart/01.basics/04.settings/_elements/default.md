@@ -44,7 +44,7 @@ When adding the Element to a Type, the following configuration is available unde
 
 | Field       | Description |
 | :---------- | :---------- |
-| Elements | The list of Elements that would be possible to override by each Variation. |
+| Elements | The list of Elements that would be possible to override by each Variation. Not compatible with JS dependent elements, like Image Gallery or Media.|
 | Attributes | The list of Variation attributes composed by a **key** and **value**. |
 
 When setting the Element in a position for rendering, the following configuration is available under the **Layout** section:
