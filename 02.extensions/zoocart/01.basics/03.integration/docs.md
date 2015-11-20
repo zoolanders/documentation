@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-Unless your **App** has been created using our demo site, few integrations steps are required. No matter if you are extending an existing **Item Type** or creating a new one, add to it the ZOOcart basic elements **PricePro**, **Quantity**, **ZOOcart** and optionally the **Variations** and **Measures Pro** from the **ZOOcart Element Library** block. You can leave the configuration and other elements for later, will be reviewing them in detail in the following sections.
+Unless your **App** has been created using our demo site, few integrations steps are required. No matter if you are extending an existing **Item Type** or creating a new one, add to it the ZOOcart basic elements **PricePro** and **ZOOcart**, optionally you can add the **Quantity**, **Variations** and **Measures Pro** from the **ZOOcart Element Library** block. You can leave the configuration and other elements for later, will be reviewing them in detail in the following sections.
 
 ![Edit Elements](edit-elements.png)
 
