@@ -8,6 +8,8 @@ Once **ZOOlingual** is installed all ZOO elements will have a new section availa
 
 The language can be set on the element **Configuration** and/or **Assignment** allowing to set a base restriction in the Configuration and override it in the layout positions assignment. This powerful feature is specially handy when dealing with number/date values elements, like a Birthday, which value requires no translation, but rather display localization; assigning the element on the same position once for each language and adjusting its display options for it, will do the trick!
 
+>>> Tag translation and translation through Submission is currently unsupported.
+
 ## Content
 
 For those elements that do require a translation we would duplicate it for each language and set that specific language in the Element Configuration. That way, that element becomes language specific and we can start inputing the translated content right away while editing the Items as usual.

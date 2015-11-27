@@ -9,3 +9,5 @@ taxonomy:
 * **Where is the language swither?** <br /> There is none provided by ZOOlingual, instead you must set the Joomla! or 3rd party one.
 
 * **Why an Item view is redirected to a Category view when swithing language?** <br /> Joomla! language switcher has this limitation. The only solution would be using some 3rd party language manager instead which solves it.
+
+* **Where can I set the list of languages available in ZOOlingual?** <br /> All content languages, that are set in *Joomla / Extensions / Language Manager / Content tab*, will be available in ZOOlingual section in the element configuration.
