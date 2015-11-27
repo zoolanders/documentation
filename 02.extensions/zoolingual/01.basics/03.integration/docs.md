@@ -8,7 +8,7 @@ Once **ZOOlingual** is installed all ZOO elements will have a new section availa
 
 The language can be set on the element **Configuration** and/or **Assignment** allowing to set a base restriction in the Configuration and override it in the layout positions assignment. This powerful feature is specially handy when dealing with number/date values elements, like a Birthday, which value requires no translation, but rather display localization; assigning the element on the same position once for each language and adjusting its display options for it, will do the trick!
 
->>> Tag translation and translation through Submission is currently unsupported. But you can check the [troubleshooting section](/extensions/zoolingual/troubleshooting/translation-through-submission) for some workaround to make Submission work with ZOOlingual.
+>>> Tag translation and translation through Submission is currently unsupported.
 
 ## Content
 
