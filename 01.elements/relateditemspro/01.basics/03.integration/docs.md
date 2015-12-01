@@ -17,6 +17,12 @@ The Basic set are ZOOlanders common [Configuration fields](/extensions/zoolander
 | **Types** | Limit the relations list to items being of selected Type. |
 | **Bi-Related Elements** | Choose the elements from other Types that will be used for the bi-directional relation. |
 
+## Bi-related items
+
+Two ZOO items can be related to each other (bi-related). This way two items like Event and Venue can be related to each other by saving only one item, the second item will be related to the first one automatically. The relation will be saved in the element specified in the "Bi-Related Elements" section:
+
+![Bi-related configuration](bi-relation.png)
+
 ## Assignment
 
 The Element is set now but is not rendering at all, let's fix that. Assign the element to the position of your choice following the [assign elements](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) guide. Once assigned there will be another set of fields requiring attention.
