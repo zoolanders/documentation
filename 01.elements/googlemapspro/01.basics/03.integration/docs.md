@@ -6,11 +6,13 @@ taxonomy:
 
 GoogleMapsPro is a standard ZOO element, you can follow the [extending type](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types) guide to integrate the element into your existent Apps. Once the element is set in the Type there are several configuration params that do differ from the ZOO ones, lets see what is all that about.
 
-The Basic set are ZOOlanders common [Configuration fields](/extensions/zoolanders/elements/fields#configuration). The Specific one set are GoogleMapsPro related fields.
+The Basic set are ZOOlanders common [Configuration fields](/extensions/zoolanders/elements/fields#configuration). The Specific one set are GoogleMapsPro related fields:
+
+![Google Maps Pro Element Configuration](element-configuration.png)
 
 | Field       | Description |
 | :---------- | :---------- |
-| API Key | The Google API key, necessary for hight traffic sites. |
+| API Key | The Google API key, necessary for high traffic sites. |
 | Type | The initial Map Type. |
 | Zoom level | The initial Map Zoom level. |
 | Width | The initial Map width. |

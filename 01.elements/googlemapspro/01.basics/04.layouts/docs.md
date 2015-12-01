@@ -18,6 +18,10 @@ Renders a Google Maps map with the single Item location centered in the map as a
 | **Layout** | The Item layout that will be used to render the Marker content. |
 | **Popup on load** | If enabled the Marker will popup on load. |
 
+It is possible to display any elements values in the marker by choosing any item layout in the **Layout** field with previously assigned elements: 
+ 
+![Google Maps Pro Element Configuration](marker-layout.png)
+
 **Map**
 
 | Field       | Description |
