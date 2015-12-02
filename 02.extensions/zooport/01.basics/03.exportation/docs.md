@@ -22,4 +22,4 @@ When exported to JSON Items from all Types and a complete App data will be expor
 
 When exported to CSV one ZIP file will be generated with one CSV file for each Item Type. CSV is recommended when moving your data outside ZOO.
 
-Currently supported elements are Text/Pro, Textarea/Pro, Link/Pro, GoogleMaps/Pro, Date/Pro, Image/Pro, Media/Pro, Download/Pro, Related Items/Pro, RelatedCategories/Pro, Email, Select, Radio, Checkbox, Country, Gallery, ZOOcart PricePro, Quantity & AddToCart.
+Currently supported elements are Text/Pro, Textarea/Pro, Link/Pro, GoogleMaps/Pro, Date/Pro, Image/Pro, Media/Pro, Download/Pro, RelatedItems/Pro, RelatedCategories/Pro, Email, Select, Radio, Checkbox, Country, Gallery, ZOOcart PricePro, Quantity & AddToCart.
