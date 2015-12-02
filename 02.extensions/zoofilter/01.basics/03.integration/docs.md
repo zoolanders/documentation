@@ -77,6 +77,12 @@ If you are using custom elements and those are searchable you would need to assi
 1. Open the custom element XML file and localize the `<element>` tag.
 2. Add a `zfgroup` attribute with the appropriate category value and save. <br /> E.g: `<element type="textpro" zfgroup="input">`
 
+### Not compatible elements with ZOOfilter
+
+The elements that are not compatible with ZOOfilter are: Access, Item Link, State, Author, Edit, Frontpage Enabled, Previous/Next Link, Comments Link, Hits, Print, Searchable, Variations, Measures Pro, ZOOcart, RelatedItems/Pro, RelatedCategories/Pro, Media/Pro, Link/Pro, Image/Pro, GoogleMaps/Pro, Download/Pro, Gallery, E-mail.
+  
+>>>>> Notice that Category element can be used instead of RelatedCategoriesPro element, without cross-app support
+
 ## Results Ordering
 
 The filtered Itesm order will be determined by the App default ordering, but optionally is possible rendering an **Order Form** in the results view for reordering the Items. In the **ZOOfilter Order** layouts, by Drag & Dropping the elements, is possible to set the ordering form options. Each element assigned represents an option and can be adapted with the following:
