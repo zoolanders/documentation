@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-On multilanguage sites, which have both ZOOmailing and ZOOlingual, newsletters preview and sending are available in the language the admin user specifies when he/she logs in the Joomla administrator.
+On multilanguage sites, which have both ZOOmailing and ZOOlingual, preview and sent newsletters are displayed in the Joomla admin language.
 
 Once autonewsletter was configured via AcyMailing, you can change the language of the content in the newsletter, adding the language parameter in the URL for automatic cron sending. 
 
