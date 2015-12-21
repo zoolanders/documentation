@@ -51,6 +51,8 @@ The rest of the options are for the Category Metadata which as well can be autom
 | **Category Keywords** | The category field value to set as the category keywords. |
 | **Category Author** | The category field value to set as the category author. |
 
+>>>>>> Generate item/category metadata on display is great for first time generation, but has very bad performance, so it's better to leave it to saved for live sites.  
+
 ### Opengraph
 
 Using the same **ZOOseo Item Metadata** layout for setting the Metadata, Drag & Drop the elements you would like to render for each one of the OpenGraph positions.
