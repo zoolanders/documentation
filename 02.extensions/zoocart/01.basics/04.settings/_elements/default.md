@@ -47,6 +47,8 @@ When adding the Element to a Type, the following configuration is available unde
 | Elements | The list of Elements that would be possible to override by each Variation. Not compatible with JS dependent elements, like Image Gallery or Media.|
 | Attributes | The list of Variation attributes composed by a **key** and **value**. |
 
+>>> It is allowed to add only one Variations element. Product attributes should be the different Attribute instances of one element.
+
 When setting the Element in a position for rendering, the following configuration is available under the **Layout** section:
 
 | Field       | Description |
