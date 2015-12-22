@@ -21,4 +21,16 @@ The **Order** set of fields allows choosing the rendered Items order.
 
 ## Widgetkit
 
-Widgetkit layout is a integration layer between the element and [Widgetkit](http://yootheme.com/widgetkit) allowing to render a Widget using the element data as content. For details about configuration options visit the [Widgetkit documentation](http://yootheme.com/widgetkit/documentation).
+Widgetkit layout is an integration layer between the element and [Widgetkit](http://yootheme.com/widgetkit) allowing to render a Widget using the element data as content. Therefore it is possible to render the related items data set in Widgetkit widget:
+
+![Related Items Pro - Widgetkit layout select](widgetkit-layout-select.png)
+
+For example, it could be several locations on one map, related item images galleries etc. on any item layout type:
+ 
+![Related Items Pro - Widgetkit Map example](widgetkit-map-example.png)
+
+For Widgetkit 2 Main Layout **Mapping** layout should be configured for the **related item type**, not for the parent item type of the related items.
+
+For details about configuration options visit the [Widgetkit documentation](http://yootheme.com/widgetkit/documentation).
+
+
