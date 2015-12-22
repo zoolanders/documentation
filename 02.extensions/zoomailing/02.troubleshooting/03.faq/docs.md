@@ -10,3 +10,5 @@ taxonomy:
 * **I have inserted the tag, but there are no items in the newsletter. Why?** - One of the possible reasons is that the ZOOmailing layout is not configured. You can do so in ZOO Type settings view. Also, please make sure that tag includes a category ID. 
 
 * **How to set up an auto newsletter that will automatically fill in the most recent zoo item data** - First, setup AcyMailing auto newsletter, that will send a newsletter according to the particular schedule. Then add ZOOmailing tag to the newsletter that will take recent ZOO items and render according to the configured ZOOmailing layout. Tag allows to render the last items newly created or modified ("Filter by" option) since some days. 
+ 
+* **How to edit the ZOO items style in the newsletter** - The final destination for the content is the AcyMailing newsletter, so all the styling must be set on the newsletter it self (see AcyMailing documentation). If you need to adapt the html structure returned from ZOOmailing, you can create a [custom render layout](/extensions/zoomailing/basics/integration#layouts).
