@@ -23,3 +23,25 @@ All elements would automatically recognize the custom layouts and offers them as
 For example if you were to create a **myCustom.php** layout the global override path would be `media/zoo/custom_elements/{element}/tmpl/render/myCustom.php`. Some elements even supports custom edit layouts, meaning you could set your own layout for the **Edit** or **Submissions** views!
 
 >>>>> When creating or overriding sublayouts, if any, remember to respect the path. E.g: `.../{element}/tmpl/render/default/_sublayouts/myCustom.php`.
+
+## Custom Email templates
+
+Generally it is possible to edit the email templates in [Email Templates Manager](/extensions/zoocart/basics/settings#email-templates-manager). 
+But if you need to customize the text depends on the payment system, email type or even item type, you can add a custom plugin that will do it:
+
+- Register the new handler for event `beforeEmailSend` in the plugin:
+```
+$this->app->event->dispatcher->connect('beforeEmailSend', array($this, 'beforeEmailSendHandler'));
+```
+- The function `beforeEmailSendHandler()` will change the email text:
+```
+public function beforeEmailSendHandler($event) {
+    $mailer = $event->getSubject();
+    $order = $event['context']; // order object
+    $items = $order->getItems(); // items in the order
+    $type = $event['type']; // email type
+    if ($type == 'order_new') { // example of the condition
+        $mailer->setBody('My new email text');
+    }
+}
+```
