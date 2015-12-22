@@ -14,3 +14,5 @@ taxonomy:
 
 * **How to add a new payment plugin?** <br /> You can take as an example the exist payment plugin in the `/plugins/zoocart_payment` folder. The main plugin file should be inherited from the `JPaymentDriver` abstract class. There are several main functions to be overridden in the new plugin: `getPaymentFee()` - calculating the fee for using the payment system, `getRenderData()` - set the variables for template, `callback()` - method to make a payment. To make a payment you should review the payment system API. The payment views should be in the `tmpl` folder inside the plugin: `default.php` layout is used to render the form, `message.php` is shown after making a successful payment.
 
+* **Why shipping rates is not assigning automatically?** <br /> Ensure that all conditions of shipping rate are true for current order.
+
