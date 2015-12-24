@@ -17,6 +17,8 @@ Finally, in the App Instance Configuration under the ZOOcompare Tab we can set t
 | **Main Layout** | The layout that will be used to display the ZOOcompare Chart. |
 | **Max Items** | The maximum amount if Items that could be added for comparing at a time. |
 
+![ZOOcompare tab in the application settings](application-zoocompare-tab.png)
+
 ## Module
 
 The Module is used to display the **Items Comparison List** giving you users the ability to see what Items are going to be compare and manage it. There are several set of fields about its configuration:
@@ -75,8 +77,12 @@ When dropped in **Row** position it will offer row related displays, such as:
 | **Link to Item** | If enabled the Item Name will be linked to the Item full view. |
 | **Remove button** | If enabled a button allowing to remove the Item from the Chart will be rendered. |
 
+![ZOOcompare element settings on Chart layout - Rows position](compare-element-rows.png)
+
 When dropped in **Toolbar** position will offer a Toolbar related displays, such as:
 
 * **Download CSV**, displays a Download CSV button for the currently displayed Chart data.
 * **Restore Chart**, displays a Restore button that will restore the Chart to its initial state (if some Item has been removed for example).
 * **Restore Hidden**, displays a button that will restore hidden rows.
+
+![ZOOcompare element settings on Chart layout - Toolbar position](compare-element-toolbar.png)
