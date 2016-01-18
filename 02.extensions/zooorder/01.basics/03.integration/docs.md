@@ -15,4 +15,4 @@ Once **ZOOorder** is installed it will become available as a Joomla! module read
 
 ## Layout Setup
 
-For correct ordering select the corrsponding **Value Type* in the layout settings. Among the options are Alphanumeric, Numeric, Numeric with decimals and By Date.
+For correct ordering select the corrsponding **Value Type** in the layout settings. Among the options are Alphanumeric, Numeric, Numeric with decimals and By Date.
