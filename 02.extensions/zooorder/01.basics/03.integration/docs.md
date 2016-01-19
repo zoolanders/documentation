@@ -19,4 +19,4 @@ Configure the ZOOorder layout by assigning elements to rendering positions.
 
 >>> More information about Element assigning can be found at [ZOO documentation](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
-For correct ordering select the corrsponding **Value Type** in the ZOOorder layout Basic settings. Among the options are *Alphabetical*, *Numerical*, *Numerical with decimals* and *By Date*.
+For correct ordering select the corresponding **Value Type** in the ZOOorder layout Basic settings. Among the options are *Alphabetical*, *Numerical*, *Numerical with decimals* and *By Date*.
