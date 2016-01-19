@@ -15,7 +15,7 @@ Once **ZOOorder** is installed it will become available as a Joomla! module read
 
 ## Layout Setup
 
-Configure the ZOOorder layout by assigning elements to a rendering positions. 
+Configure the ZOOorder layout by assigning elements to rendering positions. 
 
 >>> More information about Element assigning can be found at [ZOO documentation](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
 
