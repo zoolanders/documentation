@@ -4,7 +4,7 @@ taxonomy:
     category: docs
 ---
 
-* **Where the default ordering of items on the Category view is set?** - It is configured in the application settings.
+* **"Where can be set the default Items ordering for the Category view?** - It is configured in the application settings.
 
 * **Is it possible to set ordering of items within one category?** - ZOOorder allows to add the module to the category page where you can specify the ordering params for this category.
 
