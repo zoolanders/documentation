@@ -12,3 +12,11 @@ Once **ZOOorder** is installed it will become available as a Joomla! module read
 | **Layout** | The Layout to use for the ordering fields mapping. |
 | **Module Layout** | The layout that will be used to display the module. |
 | **Module Class Suffix** | A module class suffix for specific module styling. |
+
+## Layout Setup
+
+Configure the ZOOorder layout by assigning elements to rendering positions. 
+
+>>> More information about Element assigning can be found at [ZOO documentation](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions).
+
+For correct ordering select the corresponding **Value Type** in the ZOOorder layout Basic settings. Among the options are *Alphabetical*, *Numerical*, *Numerical with decimals* and *By Date*.
