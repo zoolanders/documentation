@@ -33,10 +33,10 @@ File dealing elements share these file assignment fields:
 | **Width** | Complements the Image Resize field, it will resize the image if its wider than specified. |
 | **Height** | Complements the Image Resize field, it will resize the image if its higher than specified. |
 | **Crop** | If enabled it will crop the image to the exact dimensions rather than resizing it proportionally. |
-| **Amazon S3 Integration** | Available in some elements enables the [Amazon S3](https://aws.amazon.com/s3/) integration layer. |
-| **S3 Bucket** | The Amazon S3 Bucket name. |
-| **AWS AccessKey** | The AWS access key necessary for authentication. |
-| **AWS SecretKey** | The AWS secrete key necessary for authentication. |
+| **Amazon S3 Integration** | Available in some elements enables the [Amazon S3](https://aws.amazon.com/s3/) integration layer. Allows the user to attach files stored in the Amazon S3 bucket. Amazon S3 (Simple Storage Service) is an online file storage web service offered by Amazon Web Services. Amazon S3 provides storage through web services interfaces.|
+| **S3 Bucket** | The [Amazon S3 Bucket name](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingBucket.html) |
+| **AWS AccessKey** | The [AWS access key necessary for authentication](http://docs.aws.amazon.com/fws/1.1/GettingStartedGuide/index.html?AWSCredentials.html). |
+| **AWS SecretKey** | The [AWS secrete key necessary for authentication](http://docs.aws.amazon.com/fws/1.1/GettingStartedGuide/index.html?AWSCredentials.html). |
 
 When setting a path is possible to use path variables. For example a `images/[userid]/[year]` path would translate into `images/345/2015`. The supported variables are:
 
