@@ -33,7 +33,7 @@ Renders the video using the JWPlayer player.
 | **Skin** | The Player Skin, additional skins can be stored in the `mediapro/assets/players/jwplayer/skins` folder |
 | **Preview image** | Allows choosing a media image from another element value or local file. |
 | **Playlist** | Toggles the playlist mode. |
-| **CloudFront Integration** | Toggles the [CloudFront](https://aws.amazon.com/cloudfront/) integration. |
+| **CloudFront Integration** | Toggles the [CloudFront](https://aws.amazon.com/cloudfront/) integration. Check the details [here](/elements/mediapro/advanced/cloud-front) |
 
 ## MediaElement
 
@@ -45,4 +45,4 @@ Renders the video using the MediaElement player.
 | **Height** | Set the Video height size. Notice that the Player Skin will not adapt to this size automatically.
 | **Autoplay** | If enabled the track will start playing on load. |
 | **Preload** | Video preloading allows choosing **None**, the video will not be loaded until play is pressed, **Metadata**, only the video metadata (dimensions, first frame, track list, duration, etc.) will be preloaded and **Auto**, let the browser decide if the video should be preloaded. |
-| **CloudFront Integration** | Toggles the [CloudFront](https://aws.amazon.com/cloudfront/) integration. |
+| **CloudFront Integration** | Toggles the [CloudFront](https://aws.amazon.com/cloudfront/) integration. Check the details [here](/elements/mediapro/advanced/cloud-front) |
