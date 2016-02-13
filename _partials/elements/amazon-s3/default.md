@@ -28,8 +28,6 @@ In order to be able updating files directly from the Element Files Manager to th
 </CORSConfiguration>
 ```
 
->>>>> You can generate your own customized policy [here](http://awspolicygen.s3.amazonaws.com/policygen.html).
-
->>> If the bucket has been recently created wait for **24h** because of Amazon redirections.
+You can generate your own customized policy [here](http://awspolicygen.s3.amazonaws.com/policygen.html). If the bucket has been recently created wait for **24h** because of Amazon redirections.
 
 >>> Make sure the bucket name doesn't contain any points.
