@@ -108,10 +108,12 @@ When setting up the ZOOfilter Module form those are the settings available:
 | **Show Submit Button** | If enabled the **Submit** button will be displayed in the search form. |
 | **Show Clear Button** | If enabled the **Clean** button will be displayed in the search form allowing to clear the contents of any entered filtering criteria. |
 | **Show Permalink** | If enabled **Get Permalink** option will be displayed allowing to copy the URL of the result page. |
-| **Columns** | The amount of columns with which the Items will be rendered in the results view. |
+| **Result Columns** | The amount of columns with which the Items will be rendered in the results view. |
+| **Form Columns** | The amount of columns with which the search elements will be rendered on the search form (only for module UIkit layout). |
 | **Items per Page** | The amount of Items per page that will be displayed in the results view. |
 | **Max Number of Results** | By default 1000, it will limit the amount of entries in the filter results. Any items matching the filter criteria that are beyond the limit will not be rendered. |
-| **Page Layout** | The Layout that will be used for displaying the results. **Search** page will display the results using standard results display while **Json**, exclusively for custom layouts, will return the result in JSON format. |
+| **Search form style** | The Layout that will be used for displaying the search form wrapper. **Default** layout will display the form using the standard styles while **UIkit** will display it using UIkit styles.
+| **Page Layout** | The Layout that will be used for displaying the results. **Search** page will display the results using standard results display while **Json**, exclusively for custom layouts, will return the result in JSON format. **UIkit** layout is like Search layout but with UIkit styling. |
 | **Ordering Layout** | The layout that will be used to render the order form. |
 | **Result Layout** | The layout that will be used to render the results view. |
 | **Module Layout** | The layout that will be used to render the form. |
