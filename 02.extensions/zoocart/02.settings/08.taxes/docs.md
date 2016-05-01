@@ -1,4 +1,8 @@
-## Taxes
+---
+title: Taxes
+taxonomy:
+    category: docs
+---
 
 | Field       | Description |
 | :---------- | :---------- |

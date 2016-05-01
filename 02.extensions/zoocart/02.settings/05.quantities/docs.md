@@ -1,4 +1,8 @@
-## Quantities
+---
+title: Quantities
+taxonomy:
+    category: docs
+---
 
 | Field       | Description |
 | :---------- | :---------- |

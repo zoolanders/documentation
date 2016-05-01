@@ -1,4 +1,8 @@
-## Shipping
+---
+title: Shipping
+taxonomy:
+    category: docs
+---
 
 These options apply if your store ships physical products.
 
@@ -8,7 +12,7 @@ These options apply if your store ships physical products.
 | **Assign shipping automatically** | When enabled and only one shipping rate available, it will be auto selected during checkout. |
 | **Filter considering with taxes** | When enabled the shipping filter will consider the rates with item taxes included. Recommended when Show Prices with tax is enabled. |
 
-### Shipping Rates Manager
+## Shipping Rates Manager
 
 ![Shipping Rates Manager](shipping.png)
 

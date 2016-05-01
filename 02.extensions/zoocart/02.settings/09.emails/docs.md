@@ -1,10 +1,14 @@
-## Email Templates Manager
+---
+title: Emails
+taxonomy:
+    category: docs
+---
 
 ![Emais Template Manager](emails-template.png)
 
 In the Settings Emails tab upper right corner is the **Email Templates Manager** button, leading to the view where you can manage you can create new email notification templates or manage existing ones with the following options:
 
-![Email page](emails.png)
+![Emails page](emails.png)
 
 | Field       | Description |
 | :---------- | :---------- |

@@ -1,4 +1,8 @@
-## Orders
+---
+title: Orders
+taxonomy:
+    category: docs
+---
 
 | Field       | Description |
 | :---------- | :---------- |
@@ -12,7 +16,7 @@
 | **Canceled State** | The Order state that will be applied to canceled orders. |
 | **Finished State** | The Order state that will be applied to completed orders. |
 
-### Order States Manager
+## Order States Manager
 
 ![Order states](orders.png)
 

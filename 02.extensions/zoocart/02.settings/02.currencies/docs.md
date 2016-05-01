@@ -1,8 +1,12 @@
-## Currencies
+---
+title: Currencies
+taxonomy:
+    category: docs
+---
 
 In the currency section there is only one option, the **Default Currency**, which allows you to choose the store currency which will as well be the default currency if the store offer multi-currency.
 
-### Currencies Manager
+## Currencies Manager
 
 ![Currencies Manager](currencies.png)
 

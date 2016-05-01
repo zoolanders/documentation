@@ -1,4 +1,8 @@
-## General
+---
+title: General
+taxonomy:
+    category: docs
+---
 
 | Field       | Description |
 | :---------- | :---------- |

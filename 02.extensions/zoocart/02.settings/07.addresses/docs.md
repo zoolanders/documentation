@@ -1,11 +1,15 @@
-## Addresses
+---
+title: Addresses
+taxonomy:
+    category: docs
+---
 
 | Field       | Description |
 | :---------- | :---------- |
 | **Require Address** | If enabled, Billing and Shipping address will be required during checkout. |
 | **Tax Address** | The Address Type that will be used for tax calculations. |
 
-### Address Types Manager
+## Address Types Manager
 
 In the Settings Address tab upper right corner is the **Address Types Manager** button, leading to the view where you can manage the Billing and Shipping addresses layouts.
 

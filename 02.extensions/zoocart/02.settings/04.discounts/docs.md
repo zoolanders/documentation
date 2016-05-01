@@ -1,4 +1,8 @@
-## Discounts
+---
+title: Discounts
+taxonomy:
+    category: docs
+---
 
 These options apply if your store offer coupon discounts.
 

@@ -1,4 +1,8 @@
-## ZOOcart Module
+---
+title: Cart Modules
+taxonomy:
+    category: docs
+---
 
 In the **Default** layout the following options are available:
 

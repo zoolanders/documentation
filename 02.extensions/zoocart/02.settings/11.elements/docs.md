@@ -1,6 +1,10 @@
-## Elements
+---
+title: Elements
+taxonomy:
+    category: docs
+---
 
-### ZOOcart
+## ZOOcart
 
 When adding the Element to a Type, the following configuration is available under the **Specific** section:
 
@@ -20,7 +24,7 @@ When setting the Element in a position for rendering, the following configuratio
 | Show quantity inputs | Enable or disable the quantity input that would be rendered beside the button. |
 | Avoid Re Add | Allows to disable the AddToCart button once the product has been added. |
 
-### PricePro
+## PricePro
 
 When adding the Element to a Type, the following configuration is available under the **Specific** section:
 
@@ -28,7 +32,7 @@ When adding the Element to a Type, the following configuration is available unde
 | :---------- | :---------- |
 | Default | The default price value when new product is created. |
 
-### Quantity
+## Quantity
 
 When adding the Element to a Type, the following configuration is available under the **Specific** section:
 
@@ -36,7 +40,7 @@ When adding the Element to a Type, the following configuration is available unde
 | :---------- | :---------- |
 | Default | The default stock value when new product is created. |
 
-### Variations
+## Variations
 
 When adding the Element to a Type, the following configuration is available under the **Specific** section:
 
@@ -55,7 +59,7 @@ When setting the Element in a position for rendering, the following configuratio
 | :---------- | :---------- |
 | Show Attribute Label | Enable or disable the Variations Attribute label rendering on the dropdown. |
 
-### MeasuresPro
+## MeasuresPro
 
 When adding the Element to a Type, the following configuration is available under the **Specific** section:
 
