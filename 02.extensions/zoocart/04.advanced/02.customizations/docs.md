@@ -4,6 +4,8 @@ taxonomy:
     category: docs
 ---
 
+## Overrides
+
 Overrides are powerful for adjusting the look and feel of your store without altering the system source files. And it's straight forward by just placing the customized layout file in the appropriate Joomla! template override folder. Being the source layouts stored in `plugins/system/zoocart/zoocart/views` folder, those are the override paths for them.
 
 | Layouts | Override paths |
@@ -26,15 +28,16 @@ For example if you were to create a **myCustom.php** layout the global override 
 
 ## Custom Email templates
 
-Generally it is possible to edit the email templates in [Email Templates Manager](/extensions/zoocart/basics/settings#email-templates-manager). 
-But if you need to customize the text depends on the payment system, email type or even item type, you can add a custom plugin that will do it:
+Generally it is possible to edit the email templates in [Email Templates Manager](/extensions/zoocart/basics/settings#email-templates-manager).
+But if you need to customize the text depending on the payment system, email type or even item type, you can add a custom plugin that will do it:
 
-- Register the new handler for event `beforeEmailSend` in the plugin:
 ```
+// register the new handler for event beforeEmailSend in the plugin:
 $this->app->event->dispatcher->connect('beforeEmailSend', array($this, 'beforeEmailSendHandler'));
-```
-- The function `beforeEmailSendHandler()` will change the email text:
-```
+
+...
+
+// The beforeEmailSendHandler function will change the email text
 public function beforeEmailSendHandler($event) {
     $mailer = $event->getSubject();
     $order = $event['context']; // order object
@@ -45,3 +48,5 @@ public function beforeEmailSendHandler($event) {
     }
 }
 ```
+
+>>>>> If you are just looking how to customize the Order Summary you can do so by overriding its view.
