@@ -40,3 +40,7 @@ You can use the following placeholders in Subject and Body content:
 | **{admin_notes}** | The admin notes field content. |
 
 >>> **Notification emails** are only sent to Super Users if their **Receive System Emails** option is enabled.
+
+In order to prevent some email type to be sent, please override this email type and leave unpublished.
+ 
+![Disable email type]( emails-disable.png)
