@@ -8,7 +8,19 @@ By default ZOOseo will not apply any changes to your site **SEO** leaving up to 
 
 ## SEO
 
-Accessing the settings in ZOOseo Plugin through the **Joomla Plugin Manager** adjust or enabled the following options as required.
+### 1. Enable ZOOseo plugin 
+
+Access the ZOOseo Plugin through the **Joomla Plugin Manager** and enable it:
+
+![ZOOseo - find in Joomla Plugin Manager](zooseo-joomla-plugin-manager.png)
+
+### 2. Settings 
+
+Adjust or enable the following options as required:
+
+![ZOOseo - plugin settings](zooseo-settings-1.png)
+
+![ZOOseo - plugin settings](zooseo-settings-2.png)
 
 | Field       | Description |
 | :---------- | :---------- |
@@ -20,11 +32,18 @@ Accessing the settings in ZOOseo Plugin through the **Joomla Plugin Manager** ad
 | **Overwrite Item Metadata** | If enabled even the manually set metadata of the Item will be overwritten. Recommended only if you're fixing the site metadata, should be disabled later in order to allow custom metadata. |
 | **Overwrite Category Metadata** | If enabled even the manually set metadata of the Category will be overwritten. Recommended only if you're fixing the site metadata, should be disabled later in order to allow custom metadata. |
 
-## Metadata
+### 3. Item Metadata
 
 Setting the Category/Item Metadata individually is most of the times not possible nor desirable. Instead let's use the Item elements data and render it as metadata and for Categories some clever workarounds.
 
-Locate the **ZOOseo Metadata Item** layout in your ZOO App Type configuration. Following the [elements assignment](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) guide Drag & Drop the elements you would like to render for each one of the Metadata positions.
+Locate the **ZOOseo Metadata Item** layout in your ZOO App Type configuration:
+
+![ZOOseo - Item Metadata Layout](zooseo-item-metadata-layout.png)
+ 
+ Following the [elements assignment](http://yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) guide Drag & Drop the elements you would like to render for each one of the Metadata positions:
+
+![ZOOseo - Item Metadata Layout](zooseo-item-metadata-positions.png)
+
 
 | Field       | Description |
 | :---------- | :---------- |
@@ -33,14 +52,20 @@ Locate the **ZOOseo Metadata Item** layout in your ZOO App Type configuration. F
 | **Keywords** | A comma separate words describing the page. |
 | **Author** | The page author name. |
 
-Getting back to the ZOOseo plugin settings the following Metadata options are available.
+Getting back to the ZOOseo plugin settings the following Metadata options are available:
+
+![ZOOseo - Item Metadata plugin settings](zooseo-itemmetadata-settings.png)
 
 | Field       | Description |
 | :---------- | :---------- |
 | **Item: Generate on** | Allows setting when the metadata should be generated, when the Item is saved or when it's displayed. **On Display** is very useful for first time metadata generation, but for its impact on the performance it's recommended leaving it to **On Save** on production. |
 | **Item Separator** | The separator that will be used if there are more elements in the same position. For keywords, comma will always be used. |
 
-The rest of the options are for the Category Metadata which as well can be automatized.
+### 4. Categories Metadata
+
+The rest of the options are for the Category Metadata which as well can be automatized:
+
+![ZOOseo - Categories Metadata](zooseo-category-metadata.png)
 
 | Field       | Description |
 | :---------- | :---------- |
@@ -51,13 +76,17 @@ The rest of the options are for the Category Metadata which as well can be autom
 | **Category Keywords** | The category field value to set as the category keywords. |
 | **Category Author** | The category field value to set as the category author. |
 
->>>>>> Generate item/category metadata on display is great for first time generation, but has very bad performance, so it's better to leave it to saved for live sites.  
+>>>>>> Generate item/category metadata on display is great for first time generation, but has very bad performance, so it's better to leave it to "saved" for live sites.  
 
-### Opengraph
+## Opengraph
 
-Using the same **ZOOseo Item Metadata** layout for setting the Metadata, Drag & Drop the elements you would like to render for each one of the OpenGraph positions.
+Using the same **ZOOseo Item Metadata** layout for setting the Metadata, Drag & Drop the elements you would like to render for each one of the OpenGraph positions:
+
+![ZOOseo - Opengraph](zooseo-opengraph.png)
 
 >>>>> For more information about Open Graph visit the [official page](http://ogp.me/). For testing purpose checkout [Facebook Debuger](https://www.facebook.com/login.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2F).
+
+>>>>>> You could set static information on any position using the [Static Content](/extensions/zootools/basics/static-content) element.
 
 | Field       | Description |
 | :---------- | :---------- |
@@ -68,4 +97,3 @@ Using the same **ZOOseo Item Metadata** layout for setting the Metadata, Drag & 
 | **Open Graph Url** | The page canonical URL that will be used as its permanent ID in the graph, e.g., `http://www.imdb.com/title/tt0117500/`. |
 | **Open Graph Custom** | Allows setting custom OpenGraph properties using the element **Alternative Label** field value as the property type. |
 
->>>>>> You could set static information on any position using the [Static Content](/extensions/zootools/basics/static-content) element.
