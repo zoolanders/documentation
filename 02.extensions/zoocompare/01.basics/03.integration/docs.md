@@ -4,11 +4,31 @@ taxonomy:
     category: docs
 ---
 
-The Compare element, provided with ZOOcompare, displays a button which will allow adding the Item to the comparison list. Go ahead and add the element to the Type which Items you would like to allow comparing. If you are not familiar with the process you can review the [ZOO](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types) guide.
+## 1. Add Compare element
 
-Once the element is set in the Type, it must be assigned to some rendering layout, as for example the Teaser. Assign the element to the desired layout and configure as needed. Checkout the [ZOO](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) guide if you need more information about.
+The Compare element, provided with ZOOcompare, displays a button which will allow adding the Item to the comparison list. Go ahead and add the element to the Type which Items you would like to allow comparing:
 
-Now that the compare button is displayed it allows adding the Items to the compare list and then access comparison chart. The Chart is very flexible and allows you to set, beside the Data to be compared, Headers, Groups, Tools and more. For setting it up open the **ZOOcompare Chart / Compare** layout assignment view for the App and Type you have set up, then Drag & Drop the elements you would like to be part of the comparison chart.
+![ZOOcompare - add Compare element to the item type](compare-add-element.png)
+
+If you are not familiar with the process you can review the [ZOO](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types) guide.
+
+## 2. Add Compare element to render layout
+
+Once the element is set in the Type, it must be assigned to some rendering layout, as for example the Teaser. Assign the element to the desired layout and configure as needed:
+
+![ZOOcompare - add Compare element to the layout](compare-add-element-layout.png)
+
+Checkout the [ZOO](http://www.yootheme.com/zoo/documentation/advanced/assign-elements-to-layout-positions) guide if you need more information about.
+
+## 3. Comparison chart
+
+Now that the compare button is displayed it allows adding the Items to the compare list and then access comparison chart. The Chart is very flexible and allows you to set, beside the Data to be compared, Headers, Groups, Tools and more. For setting it up open the **ZOOcompare Chart / Compare** layout assignment view for the App and Type you have set up, then Drag & Drop the elements you would like to be part of the comparison chart:
+
+![ZOOcompare - Compare layout](compare-chart-layout.png)
+
+In the "Toolbar" position add the Compare element only and put the elements to compare items  in "Rows" position:
+ 
+## 4. ZOOcompare application settings 
 
 Finally, in the App Instance Configuration under the ZOOcompare Tab we can set the following App options:
 
@@ -19,9 +39,13 @@ Finally, in the App Instance Configuration under the ZOOcompare Tab we can set t
 
 ![ZOOcompare tab in the application settings](application-zoocompare-tab.png)
 
+>>> If there is no ZOOcompare section in the application settings, copy application config file `/plugins/system/zoocompare/config/application/zoocompare.xml` to your application `/config` folder 
+
 ## Module
 
-The Module is used to display the **Items Comparison List** giving you users the ability to see what Items are going to be compare and manage it. There are several set of fields about its configuration:
+The Module is used to display the **Items Comparison List** giving your users the ability to see what Items are going to be compare and manage it. There are several set of fields about its configuration:
+
+![ZOOcompare - ZOOcompare Module](compare-module.png)
 
 >>> It is only possible to compare Items from the same App/Type at a time, however is possible displaying several Modules with different configurations on the same page.
 
@@ -56,6 +80,8 @@ The **ZOOcompare Chart** it's a responsive Bootstrap based comparison table used
 >>>>> You can place the **Compare** Element in this position to render special rows such as **Main Header** and **Header** or even add custom ones.
 
 **Toolbar**, in this position you can place only the **Compare** element which will allow you choosing Toolbar buttons such as **Download CSV**, **Restore Chart** and **Restore Hidden**. Those are rendered in the Bottom of the Chart when using the Default Layout.
+
+![ZOOcompare - Configure compare layout](compare-chart-layout-elements.png)
 
 ## Compare Element
 
