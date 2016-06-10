@@ -17,3 +17,5 @@ taxonomy:
 * **Why shipping rates is not assigning automatically?** <br /> Ensure that all conditions of shipping rate are true for current order.
 
 * **How can a Subscribtion be renewed from the frontend?** <br /> On the [Subscriptions page](/extensions/zoocart/basics/integration#menu-assignment), the **Renew** button is available, after a Subscription is ended (if this product still exists). After clicking on the Renew button the product will be added to the Cart and the user redirected to the Checkout.
+
+* **Is ZOOcart compatible with Widgetkit widgets** <br /> Variation element is not compatible with Widgetkit2 widgets while the rest it is depending on the Widget and its position.  
