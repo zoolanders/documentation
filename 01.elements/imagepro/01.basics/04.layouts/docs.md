@@ -34,3 +34,7 @@ Renders the current image raw path value.
 ## Widgetkit
 
 Widgetkit layout is a integration layer between the element and [Widgetkit](http://yootheme.com/widgetkit) allowing to render a Widget using the element data as content. For details about configuration options visit the [Widgetkit documentation](http://yootheme.com/widgetkit/documentation).
+
+| Field       | Description |
+| :---------- | :---------- |
+| **Link to Item** | If enabled the image will be linked to the Item. Custom links take priority.
