@@ -27,5 +27,5 @@ Under _ZOOlanders component / ZOOcart / Discounts_ find the **Discounts Manager*
 | **Valid From** | The coupon publication start date. |
 | **Valid To** | The coupon publication end date. |
 | **User Groups** | The user groups allowed to use the coupon. Leave empty if you want everyone to have access to it. |
-| **Hits per User** | The amount of times a coupon can be used by the same user. Leave empty or set 0 for unlimited usage. |
+| **Hits per User** | The amount of times a coupon can be used by the same user. Leave empty or set 0 for unlimited usage. Not supported for guest checkout. |
 | **Global Max Hits** | The amount of times a coupon can be used in total. Leave empty or set 0 for unlimited usage. |
