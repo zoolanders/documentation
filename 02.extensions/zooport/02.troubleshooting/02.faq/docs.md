@@ -13,3 +13,5 @@ taxonomy:
 * **How to import items as Published / Searchable / Frontpage?** - In the CSV file add columns "State" / "Searchable" / "Frontpage" with the values "1" or "true" - if "Yes", and "0" or "false" - if "No". Then during Assign Element step assign them to the Core Attributes fields.
 
 * **How to fix text characters being imported as broken symbols?** - Make sure the importing file is UTF-8 encoded.
+
+* **Why the import process is slow?** - ZOOport import can goes slow because of additional plugins (for example, 'Search - ZOO' or 'Smart Search - ZOO') that handle `item:save` event.
