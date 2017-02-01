@@ -42,6 +42,10 @@ title: F.A.Q.
 
 [plugin:insert-content](/extensions/zoolingual/basics/faq)
 
+## ZOOitem Pro
+
+[plugin:insert-content](/extensions/zooitempro/basics/faq)
+
 ## Events
 
 [plugin:insert-content](/apps/events/basics/faq)
