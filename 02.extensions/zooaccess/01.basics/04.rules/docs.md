@@ -6,6 +6,8 @@ taxonomy:
 
 Each rule has 3 states that will determine it evaluation:
 
+![ZOOaccess - rule states](zooaccess-rule-states.png)
+
 * **Selection**. The rule will be considered a match only when the following selections **ARE** met.
 * **Exclude Selection**. The rule will be considered a match only when the following selections **ARE NOT** met.
 * **Ignore**. The rule will not be evaluated.
