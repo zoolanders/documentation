@@ -22,6 +22,10 @@ title: F.A.Q.
 
 [plugin:insert-content](/elements/datepro/basics/faq)
 
+## DownloadPro
+
+[plugin:insert-content](/elements/downloadpro/basics/faq)
+
 ## GoogleMapsPro
 
 [plugin:insert-content](/elements/googlemapspro/basics/faq)
