@@ -11,3 +11,5 @@ taxonomy:
 * **Why an Item view is redirected to a Category view when switching language?** <br /> Joomla! language switcher has this limitation, a possible solution is using a 3rd party language manager.
 
 * **Where can I set the list of languages available in ZOOlingual?** <br /> All content languages, that are set in *Joomla / Extensions / Language Manager / Content tab*, will be available in ZOOlingual section in the element configuration.
+
+* **Does the plugin support MariaDB database?** <br /> By default, no. Please contact [our support](https://zoolanders.zendesk.com/) for further instructions.
