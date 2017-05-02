@@ -28,7 +28,7 @@ Now that the elements are part of the product type we can assign them to a rende
 
 ## Subscriptions
 
-A **Subscription** is a product for which, after the Order has been completed, a subscription will be created and associated. You can choose the product type under the [ZOOcart element configuration](/extensions/zoocart/basics/settings#zoocart).
+A **Subscription** is a product for which, after the Order has been completed, a subscription will be created and associated. You can choose the product type under the [ZOOcart element configuration](/extensions/zoocart/settings/elements#zoocart).
 
 A Subscription product requires a duration, which could be set with a **Text/Pro** or **Select/Radio** elements and then mapped for letting know ZOOcart where to get the value from. The mapping can be set on the **ZOOcart mapping: Subscription** layout under the Type views configuration.
 
@@ -48,4 +48,4 @@ There are several store views that you can assign to a **Joomla! Menu** and make
 
 ## Cart and Minicart
 
-**ZOOcart Module** can optionally be set to display the **Cart** (default layout) or **Minicart**. Both ajax ready carts that can be rendered anywhere showing the Cart products and related information. Find more about its options in the [configuration](/extensions/zoocart/basics/settings#zoocart-module) section.
+**ZOOcart Module** can optionally be set to display the **Cart** (default layout) or **Minicart**. Both ajax ready carts that can be rendered anywhere showing the Cart products and related information. Find more about its options in the [configuration](/extensions/zoocart/settings/cart-modules) section.
