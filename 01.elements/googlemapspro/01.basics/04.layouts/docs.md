@@ -37,7 +37,7 @@ It is possible to display any elements values in the marker by choosing any item
 | Field       | Description |
 | :---------- | :---------- |
 | **Directions** | Toggle the directions map option. |
-| **Language** | The directions language. Leave empty to use users preferred browser language. |
+| **Language** | The directions language. Leave empty to use users preferred site language. |
 | **Information** | Allows displaying the entered content above the map. |
 
 **Dimensions**
