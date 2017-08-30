@@ -15,3 +15,5 @@ taxonomy:
 * **Does the plugin support MariaDB database?** <br /> By default, no. Please contact [our support](https://zoolanders.zendesk.com/) for further instructions.
 
 * **Does ZOOlingual support category ordering by the translated name?** No, it is a limitation. For all languages the items are sorted by the default language.
+
+* **Why when searching Items by name in a specific language it returns results from other languages?** It's a known limitation and currently there is no a workaround.
