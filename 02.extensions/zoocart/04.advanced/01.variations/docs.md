@@ -8,6 +8,8 @@ The Variations allows selling the same product with different attributes. Those 
 
 >>> Variations are managed by the **Variations Element**, the following text assume your Type has it assigned already. If not, you can do so following the [integration guide](/extensions/zoocart/basics/integration). Notice that there can be only one Variations element, but you can add as many attributes as you need.
 
+>>> Variations element on the Cart and Order layouts is deprecated.  
+
 ## Attributes
 
 The element configuration **Attributes** field allows setting the attributes that will be available for the variations. For example a T-Shirt could have the attribute **Size** and **Color** with **XS, S, M, L** and **Blue, Green, Red** options respectively with a total of 12 possible variation combinations.
