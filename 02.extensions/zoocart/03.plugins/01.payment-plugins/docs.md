@@ -16,3 +16,5 @@ taxonomy:
 * [iDeal](https://github.com/Bixie/Zoolander-ZOOcart-iDEAL) (3rd party)
 
 >>> If you miss some and end up creating a custom plugin that you are willing to share with the community, make a pull request updating the list.
+
+>>> In the past, PayPal has allowed the use of HTTP for IPN postbacks. For increased security going forward, [only HTTPS will be allowed](https://www.paypal-notice.com/en/IPN-Verification-Postback-to-HTTPS/) for postbacks to PayPal.
