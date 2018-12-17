@@ -25,6 +25,11 @@ In the Settings Taxes tab upper right corner is the **Tax Classes Manager** butt
 
 In the Settings Taxes tab upper right corner is the **Tax Rules Manager** button, leading to the view where you can manage the rules.
 
+The tax rules will be applied with these specifications:
+
+- Country should always be set if that tax is applied to a country or any city / state / zip of that country
+- Whenever a tax rule for a state / zip / city is created, be sure to create also the fallback rule for its country, that will be used when a matching city / state / zip code is not found.
+
 ![Tax Rules Manager](taxes-rules.png)
 
 | Field       | Description |
