@@ -37,9 +37,9 @@
 
 <ul class="topics">
 {% if count(uri.paths()) <= 1 %}
-    {{ _self.list(pages, '') }}
+    {{ _self.list(pages, 0) }}
 {% else %}
-    {{ _self.loop(extension, '') }}
+    {{ _self.loop(extension, 0) }}
 {% endif %}
 </ul>
 
