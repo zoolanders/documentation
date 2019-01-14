@@ -8,12 +8,18 @@ module.exports = {
   ],
   themeConfig: {
     nav: [
-      { text: 'ZOOessentials', link: '/zooessentials/' },
-      { text: 'ZOOcart', link: '/zoocart/' },
-      { text: 'ZOOlingual', link: '/zoolingual/' },
-      { text: 'ZOOfilter', link: '/zoofilter/' },
-      { text: 'ZOOevents', link: '/zooevents/' },
-      { text: 'ZOOcompare', link: '/zoocompare/' }
+      {
+        text: 'Products',
+        items: [
+          { text: 'ZOOessentials', link: '/zooessentials/' },
+          { text: 'ZOOcart', link: '/zoocart/' },
+          { text: 'ZOOlingual', link: '/zoolingual/' },
+          { text: 'ZOOfilter', link: '/zoofilter/' },
+          { text: 'ZOOevents', link: '/zooevents/' },
+          { text: 'ZOOcompare', link: '/zoocompare/' }
+        ]
+      },
+      { text: 'GitHub', link: 'https://github.com/joolanders/documentation' }
     ],
     sidebar: {
       '/zooessentials/': require('../zooessentials/sidebar.js'),
