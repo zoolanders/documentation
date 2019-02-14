@@ -20,3 +20,6 @@ It's a limitation of the Joomla! language switcher. A possible solution is using
 
 ## Why when searching Items by name in a specific language it returns results from other languages?
 It's a known limitation and currently there is no workaround.
+
+## It is compatible with frontend editing?
+It is not, the translations must be done in the backend.
