@@ -1,0 +1,27 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+      
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 10.x
+      - run: yarn install
+      - run: yarn publish
+      - uses: SamKirkland/FTP-Deploy-Action@3.0.0
+        with:
+          ftp-server: ftp://zoolanders.com/
+          ftp-username: github@zoolanders.com
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist
+          git-ftp-args: --dry-run
+
+
