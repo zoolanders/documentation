@@ -71,7 +71,7 @@ Make sure that [AcyMailing](https://www.acyba.com/acymailing.html) component is 
 
 ### The rendered tag returns no items
 
-Most likely the ZOOmailing layout is not populated. You can do so in ZOO Type settings view. Also make sure that tag includes a category ID.
+Most likely the ZOOmailing layout is not populated, you can find those in the [ZOO Layout Positions](https://yootheme.com/support/zoo/layout-positions) settings view. Also make sure that tag includes a category ID.
 
 ### The items style in the newsletter doesn't match
 
