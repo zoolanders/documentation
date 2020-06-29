@@ -1,5 +1,5 @@
 ---
 home: true,
-heroText: 'Documentation'
-tagline: 'Choose the product from the menu above'
+heroText: 'Welcome'
+tagline: 'Start by choosing a product from the menu above'
 ---

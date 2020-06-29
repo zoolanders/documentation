@@ -2,24 +2,25 @@ module.exports = {
   base: '/',
   dest: 'dist',
   title: 'ZOOlanders Documentation',
-  description: 'Documentation for ZOOlanders products',
+  description: 'Documentation for the ZOOlanders products',
   head: [
     ['link', { rel: 'icon', href: `/favicon.png` }]
   ],
   themeConfig: {
     nav: [
       {
-        text: 'Products',
+        text: 'ZOO',
         items: [
           { text: 'ZOOessentials', link: '/zooessentials/' },
           { text: 'ZOOcart', link: '/zoocart/' },
-          { text: 'ZOOlingual', link: '/zoolingual/' },
           { text: 'ZOOfilter', link: '/zoofilter/' },
+          { text: 'ZOOlingual', link: '/zoolingual/' },
           { text: 'ZOOevents', link: '/zooevents/' },
           { text: 'ZOOcompare', link: '/zoocompare/' }
         ]
       },
-      { text: 'GitHub', link: 'https://github.com/joolanders/documentation' }
+      { text: 'Contribute', link: 'https://github.com/joolanders/documentation' },
+      { text: 'ZOOlanders', link: 'https://zoolanders.com' }
     ],
     sidebar: {
       '/zooessentials/': require('../zooessentials/sidebar.js'),
