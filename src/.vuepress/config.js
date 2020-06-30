@@ -19,7 +19,7 @@ module.exports = {
           { text: 'ZOOcompare', link: '/zoocompare/' }
         ]
       },
-      { text: 'YOOtheme Pro', link: '/yooessentials/' },
+      { text: 'YOOtheme Pro', link: '/essentials-for-yootheme-pro/' },
       { text: 'Contribute', link: 'https://github.com/joolanders/documentation' },
       { text: 'ZOOlanders', link: 'https://zoolanders.com' }
     ],
@@ -30,7 +30,7 @@ module.exports = {
       '/zoofilter/': require('../zoofilter/sidebar.js'),
       '/zooevents/': require('../zooevents/sidebar.js'),
       '/zoocompare/': require('../zoocompare/sidebar.js'),
-      '/yooessentials/': require('../yooessentials/sidebar.js')
+      '/essentials-for-yootheme-pro/': require('../essentials-for-yootheme-pro/sidebar.js')
     }
   }
 }
