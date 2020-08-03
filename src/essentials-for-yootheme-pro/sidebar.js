@@ -21,5 +21,12 @@ module.exports = [
       'elements/chart',
       'elements/social_sharing'
     ]
+  },
+  {
+    title: 'Sources',
+    collapsable: false,
+    children: [
+      'sources/instagram'
+    ]
   }
 ]
