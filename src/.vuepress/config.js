@@ -9,17 +9,25 @@ module.exports = {
   themeConfig: {
     nav: [
       {
-        text: 'ZOO',
+        text: 'Products',
         items: [
-          { text: 'ZOOessentials', link: '/zooessentials/' },
-          { text: 'ZOOcart', link: '/zoocart/' },
-          { text: 'ZOOfilter', link: '/zoofilter/' },
-          { text: 'ZOOlingual', link: '/zoolingual/' },
-          { text: 'ZOOevents', link: '/zooevents/' },
-          { text: 'ZOOcompare', link: '/zoocompare/' }
+          {
+            items: [
+              { text: 'Essentials YOOtheme Pro', link: '/essentials-for-yootheme-pro/' }
+            ]
+          },
+          {
+            items: [
+              { text: 'ZOOessentials', link: '/zooessentials/' },
+              { text: 'ZOOcart', link: '/zoocart/' },
+              { text: 'ZOOfilter', link: '/zoofilter/' },
+              { text: 'ZOOlingual', link: '/zoolingual/' },
+              { text: 'ZOOevents', link: '/zooevents/' },
+              { text: 'ZOOcompare', link: '/zoocompare/' }
+            ]
+          }
         ]
       },
-      { text: 'YOOtheme Pro', link: '/essentials-for-yootheme-pro/' },
       { text: 'Contribute', link: 'https://github.com/joolanders/documentation' },
       { text: 'ZOOlanders', link: 'https://zoolanders.com' }
     ],
