@@ -73,7 +73,7 @@ A ZOOlanders Download ID is an alphanumeric code created in the [ZOOlanders Down
 
 ![Download ID](./assets/download-id.png)
 
-Once you have created and copied the Download ID go to the Joomla Plugins control panel and find the ZOOlanders Installer plugin. Access it settings and paste the Download ID into the field.
+Once you have created and copied the Download ID go to the WordPress control panel and find the ZOOlanders settings under the Global Settings menu. Access it and paste the Download ID into the field.
 
 ![WordPress YOOessentials Settings](./assets/wordpress-settings.png)
 
