@@ -11,15 +11,8 @@ module.exports = [
     collapsable: false,
     children: [
       'addons/access/',
-      'addons/icons/'
-    ]
-  },
-  {
-    title: 'Elements',
-    collapsable: false,
-    children: [
-      'elements/chart',
-      'elements/social_sharing'
+      'addons/icons/',
+      'addons/elements/'
     ]
   }
 ]
