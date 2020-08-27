@@ -1,79 +1,75 @@
 # Getting Started
 
-## Joomla
+## Introduction
 
-### Installation
+Essential Addons for YOOtheme Pro is a set of features and enhancements for the YOOtheme Pro page Builder by [YOOtheme](https://yootheme.com/). It provides free and premium addons for both WordPress and Joomla which full features set can be explored at the [ZOOlanders](https://www.zoolanders.com/essentials-for-yootheme-pro) site.
 
-Download the Free or Premium `Essentials_YoothemePro_version_j3.zip` package from [ZOOlanders Downloads](https://www.zoolanders.com/downloads) and follow the official [Joomla](https://docs.joomla.org/Installing_an_extension) plugin installation guide.
+It requirements and browser support are the same as the [YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/introduction#requirements) ones, with the exception of:
+
+  - PHP 7.2+
+
+## Installation
+
+Download the Free or Premium `Essentials_YoothemePro_{version}_{platform}.zip` package from [ZOOlanders Downloads](https://www.zoolanders.com/downloads).
 
 > A Premium version will be available only if you have a valid subscription and are logged in.
 
-At this point a plugin named `Essential Addons for Yootheme Pro` should be listed and enabled, if is not, enabled it manually.
+### Joomla
 
-![Joomla Plugin](./assets/joomla-plugin.png)
+Follow the official [Joomla](https://docs.joomla.org/Installing_an_extension) plugin installation guide and make sure a plugin named `Essential Addons for Yootheme Pro` is listed and enabled in the Joomla Plugins control panel, if is not, enabled it manually.
 
 > The plugin installs under the `plugins/system/yooessentials` directory.
 
-### Updates
+![Joomla Plugin](./assets/joomla-plugin.png)
 
-Whenever a new version is available, you will receive a notification in the Joomla Extensions Update control panel. From there you can update the selected plugins with a one click action.
+### WordPress
 
-![Joomla Updates](./assets/joomla-updates.png)
+Follow the official [WordPress](https://wordpress.org/support/article/managing-plugins/) plugin installation guide and make sure a plugin named `Essential Addons for Yootheme Pro` is listed and enabled in the WordPress Plugins control panel, if is not, enabled it manually.
 
-> Before being able to update the Premium version, you will have to add your ZOOlanders Download ID key.
+> The plugin installs under the `wp-contents/plugins/yooessentials` directory.
 
-::: tip
-You can always update manually by downloading the latest package version from the [Downloads](https://www.zoolanders.com/downloads) section and installing it over using the Joomla Installer control panel.
-:::
+![WordPress YOOessentials Plugin](./assets/wordpress-plugin.png)
+
+## Updating
+
+Whenever a new version is available, you will receive a notification in the `Joomla Extensions Update` or `WordPress Plugins` control panel. Within it you can easily update with a one click action.
+
+> Before being able to update the Premium version, you will have to set your [ZOOlanders Download ID](#download-id).
 
 ::: warning Don't upload by FTP
 Even if technically possible, we strongly discourage this method as update scripts will be omited, resulting on unexpected outcomes.
 :::
 
+### Joomla
+
+![Joomla Updates](./assets/joomla-updates.png)
+
+::: tip
+You can alternatively update manually by downloading the latest package version from the [Downloads](https://www.zoolanders.com/downloads) section and installing it over using the Joomla Installer control panel.
+:::
+
+### WordPress
+
+![WordPress Updates](./assets/wordpress-plugin-update.png)
+
 ### Download ID
 
-A ZOOlanders Download ID is an alphanumeric code created in the [ZOOlanders Download IDs section](https://www.zoolanders.com/download-ids), without it you won't be able to update the Premium version. You can create as many IDs as necessary.
+A ZOOlanders Download ID is an alphanumeric code created in the [ZOOlanders Download IDs section](https://www.zoolanders.com/download-ids) that is required in order to update the Premium version. If you are using the Free version you can skip these steps.
 
 ![Download ID](./assets/download-id.png)
 
-Once you have created and copied the Download ID go to the Joomla Plugins control panel and find the ZOOlanders Installer plugin. Access it settings and paste the Download ID into the field.
+Once you have created and copied a Download ID you are ready to set it in your site. Note that you can create as many IDs as necessary.
+
+#### Joomla
+
+In the Joomla Plugins control panel find the ZOOlanders Installer plugin, access it settings and paste the Download ID into the field.
 
 ![ZOOlanders Installer Plugin](./assets/joomla-installer.png)
 ![ZOOlanders Installer Plugin Settings](./assets/joomla-installer-settings.png)
 
-## WordPress
+#### WordPress
 
-### Installation
-
-Download the Free or Premium `Essentials_YoothemePro_version_wp.zip` package from [ZOOlanders Downloads](https://www.zoolanders.com/downloads) and follow the official [WordPress](https://wordpress.org/support/article/managing-plugins/) plugin installation guide.
-
-> A Premium version will be available only if you have a valid subscription and are logged in.
-
-At this point a plugin named `Essential Addons for Yootheme Pro` should be listed and enabled, if is not, enabled it manually.
-
-![WordPress YOOessentials Plugin](./assets/wordpress-plugin.png)
-
-> The plugin is installed under the `wp-contents/plugins/yooessentials` directory.
-
-### Updates
-
-Whenever a new version is available, you will receive a notification in the WordPress Plugins control panel. From there you can update the selected plugins with a one click action.
-
-![WordPress Updates](./assets/wordpress-plugin-update.png)
-
-> Before being able to update the Premium version, you will have to add your ZOOlanders Download ID key.
-
-::: warning Don't upload by FTP
-Even if technically possible, we strongly discourage this method as update scripts will be omited, resulting on unexpected outcomes.
-:::
-
-### Download ID
-
-A ZOOlanders Download ID is an alphanumeric code created in the [ZOOlanders Download IDs section](https://www.zoolanders.com/download-ids), without it you won't be able to update the Premium version. You can create as many IDs as necessary.
-
-![Download ID](./assets/download-id.png)
-
-Once you have created and copied the Download ID go to the WordPress control panel and find the ZOOlanders settings under the Global Settings menu. Access it and paste the Download ID into the field.
+In the WordPress control panel find the ZOOlanders settings under the Global Settings menu, access it and paste the Download ID into the field.
 
 ![WordPress YOOessentials Settings](./assets/wordpress-settings.png)
 
