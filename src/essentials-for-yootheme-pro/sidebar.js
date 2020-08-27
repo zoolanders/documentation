@@ -10,14 +10,8 @@ module.exports = [
     title: 'Builder Addons',
     collapsable: false,
     children: [
-      'addons/access/'
-    ]
-  },
-  {
-    title: 'Icons Addon',
-    collapsable: false,
-    children: [
-      'addons/icons'
+      'addons/access/',
+      'addons/icons/'
     ]
   },
   {
