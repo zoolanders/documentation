@@ -4,15 +4,27 @@ module.exports = [
     collapsable: false,
     children: [
       '',
+      'addons/'
     ]
   },
   {
-    title: 'Builder Addons',
+    title: 'In-Depth',
     collapsable: false,
+    sidebarDepth: 2,
     children: [
-      'addons/access/',
-      'addons/icons/',
-      'addons/elements/'
+      'in-depth/forms',
+      'in-depth/access',
+      'in-depth/icons',
+      'in-depth/elements'
+    ]
+  },
+  {
+    title: 'Developers',
+    collapsable: false,
+    sidebarDepth: 2,
+    children: [
+      'developers/',
+      'developers/howto'
     ]
   }
 ]

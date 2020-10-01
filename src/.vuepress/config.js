@@ -7,6 +7,11 @@ module.exports = {
     ['link', { rel: 'icon', href: `/favicon.png` }]
   ],
   themeConfig: {
+    docsRepo: 'joolanders/documentation',
+    docsDir: 'src',
+    docsBranch: 'beta',
+    editLinks: true,
+    editLinkText: 'Help us improve this page!',
     nav: [
       {
         text: 'Products',
@@ -28,7 +33,6 @@ module.exports = {
           }
         ]
       },
-      { text: 'Contribute', link: 'https://github.com/joolanders/documentation' },
       { text: 'ZOOlanders', link: 'https://zoolanders.com' }
     ],
     sidebar: {

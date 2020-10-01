@@ -3,8 +3,8 @@ name: Deploy
 on:
   push:
     branches:
-      - master
-      
+      - beta
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -32,7 +32,7 @@ jobs:
       - uses: isthatcentered/dist-to-ftp@master
         with:
           host: zoolanders.com
-          user: docs@zoolanders.com
-          password: ${{ secrets.FTP_PASSWORD }}
+          user: beta_docs@zoolanders.com
+          password: ${{ secrets.BETA_DOCS_FTP_PASSWORD }}
           path: dist
           into: ./
