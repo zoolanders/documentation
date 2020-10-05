@@ -4,10 +4,6 @@
 
 Form actions are an effective way to do any action after a successful submission. Those will run consequently in the order they have been set, allowing as well to run multiple actions of the same type.
 
-::: warning
-Make sure to not set a redirect or similar actions early, as those would stop the execution of consequent actions.
-:::
-
 ### Core Actions
 
 #### Email
