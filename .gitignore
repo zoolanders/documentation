@@ -1,4 +1,6 @@
 .DS_Store
+.gitignore
 
 node_modules/
 dist/
+package-lock.json

@@ -9,7 +9,7 @@ module.exports = {
   themeConfig: {
     docsRepo: 'joolanders/documentation',
     docsDir: 'src',
-    docsBranch: 'beta',
+    docsBranch: 'master',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
     nav: [
@@ -42,6 +42,10 @@ module.exports = {
       '/zoofilter/': require('../zoofilter/sidebar.js'),
       '/zooevents/': require('../zooevents/sidebar.js'),
       '/zoocompare/': require('../zoocompare/sidebar.js'),
+      '/essentials-for-yootheme-pro/forms/': require('../essentials-for-yootheme-pro/forms/sidebar.js'),
+      '/essentials-for-yootheme-pro/access/': require('../essentials-for-yootheme-pro/access/sidebar.js'),
+      '/essentials-for-yootheme-pro/icons/': require('../essentials-for-yootheme-pro/icons/sidebar.js'),
+      '/essentials-for-yootheme-pro/elements/': require('../essentials-for-yootheme-pro/elements/sidebar.js'),
       '/essentials-for-yootheme-pro/': require('../essentials-for-yootheme-pro/sidebar.js')
     }
   }
