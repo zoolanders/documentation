@@ -62,7 +62,7 @@ class MyCustomRule implements AccessRule
     }
 ```
 
-Then declare each rule by adding a `yooessentials-access-rules` key to you `config.php` file (or your `bootstrap.php`) if you are in a custom plugin) with a list of rule classes you want to add
+Then declare each rule by adding a `yooessentials-access-rules` key to you `config.php` if you are in a [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality) or `bootstrap.php` if you are in a [custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) with a list of rule classes you want to add
 
 ```php
 

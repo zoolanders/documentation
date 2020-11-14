@@ -4,7 +4,9 @@
 
 Start by creating a custom Class and store it into a child theme or a custom plugin. The class has to implement the `ZOOlanders\YOOessentials\Form\Action` and declare the `name`, `panel` and `handle` functions.
 
-Adding custom access rules it's a straightforward process consisting of creating a class and declare it at the `Access` service. Start by in the example create one Class for each rule and store them into individual files in the child theme or a custom plugin. The class has to implement the `ProvidesAccessRule` and declare the `resolve` and `fields` functions.
+Adding custom access rules it's a straightforward process consisting of creating a class and adding it into a `yooessentials-form-actions` key of your `config.php` or `bootstrap.php` file of your child theme / custom plugin.
+
+Start as in the example below: create one Class for each rule and store them into individual files in the child theme or a custom plugin. The class has to implement the `ProvidesAccessRule` and declare the `resolve` and `fields` functions.
 
 ```php
 <?php
@@ -51,24 +53,19 @@ class MyCustomAction implements Action
 }
 ```
 
-Then declare each action by extending the `FormService` in a [YOOtheme Pro module](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
+Then declare each action by adding it into a `yooessentials-form-actions` key of your `config.php` or `bootstrap.php` file of your [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality) / [custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
+
 
 ```php
-use ZOOlanders\YOOessentials\Form\FormService;
-
-require 'dir/to/MyCustomAction.php';
-require 'dir/to/AnotherCustomAction.php';
 
 return [
 
-  'extend' => [
+    'yooessentials-form-actions' => [
 
-    FormService::class => function (FormService $formService) {
-      $formService->addAction(MyCustomAction::class);
-      $formService->addAction(AnotherCustomAction::class);
-    }
+        MyCustomAction::class,
+        AnotherCustomAction::class,
 
-  ]
+    ]
 
 ];
 ```
