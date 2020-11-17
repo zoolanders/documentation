@@ -52,7 +52,7 @@ In case the browser doesn't support the HTML time input, a text input will be us
 
 ### Day
 
-Validates if the `current date` week day matches the selection.
+Validates if the `current date` weekday matches the selection.
 
 ![Day Rule](./assets/rule-day.png)
 
