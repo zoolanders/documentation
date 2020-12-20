@@ -12,6 +12,15 @@ module.exports = [
     children: [
       '',
       'collections',
+      'myicons'
+    ]
+  },
+  {
+    title: 'Developers',
+    collapsable: false,
+    sidebarDepth: 3,
+    children: [
+      'extending',
       'howto'
     ]
   }

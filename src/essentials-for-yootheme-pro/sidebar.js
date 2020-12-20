@@ -1,13 +1,13 @@
 module.exports = [
   {
-    title: 'Essentials for YOOtheme Pro',
+    title: 'YOOtheme Pro Essentials',
     collapsable: false,
     sidebarDepth: 3,
     children: [
       '',
-      'updating',
-      'changelog',
-      'extending'
+      'joomla',
+      'wordpress',
+      'settings'
     ]
   },
   {

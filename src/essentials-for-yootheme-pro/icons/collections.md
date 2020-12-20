@@ -1,46 +1,27 @@
 ---
-sidebarDepth: 1
+sidebarDepth: 0
 ---
 
 # Collections
 
-## Core Collections
+Icons collections are a set of preset or custom icons under a common topic. A collection might be grouped into subsections. This addon distributes the following collections:
 
-Icons collections are provided under a common folder, with optional sub folders as groups, stored in:
+- [FontAwesome](https://fontawesome.com/) - Licensed under GPL
 
-- Joomla: `plugins/system/yooessentials/modules/icons/icons`
-- WordPress: `wp-content/plugins/yooessentials/modules/icons/icons`
+  The most popular and complete icon collection, offering a Free and Pro versions.
 
-TODO: You can add custom collections, learn how.
+- [Ionicons](https://ionicons.com/) - Licensed under MIT
 
-### FontAwesome
+  Beautifully crafted open source icons built by the Ionic Framework team.
 
-[fontawesome.com](https://fontawesome.com/) - Licensed under GPL
+- [Teenyicons](https://teenyicons.com/) - Licensed under Creative Commons
 
-The most popular and complete icon collection, offering a Free and Pro version. This addon only includes the Free collection, but if you have the Pro license you can include it as a [custom collection](#custom-collections).
+  Designed on a 15x15 grid, Teenyicons easily fit in very small spaces and maintain a crisp look.
 
-### Ionicons
+- [Zondicons](https://zondicons.com/) - Licensed under Creative Commons
 
-[ionicons.com](https://ionicons.com/) - Licensed under MIT
-
-Beautifully crafted open source icons built by the Ionic Framework team.
-
-### Teenyicons
-
-[ionicons.com](https://teenyicons.com/) - Licensed under Creative Commons
-
-Designed on a 15x15 grid, Teenyicons easily fit in very small spaces and maintain a crisp look.
-
-### Zondicons
-
-[zondicons.com](https://zondicons.com/) - Licensed under Creative Commons
-
-A collection of icons with charming yet sophisticated personality designed by Steve Schoger.
-
-## My Icons
-
-My Icons is a special collection restricted to the current [Child Theme](https://yootheme.com/support/yootheme-pro/joomla/child-themes) which would become available under the `My Icons` tab in the icons picker Modal. It icons are expected under the `{MyChildThemeDir}/myicons` directory and is our recommendation to keep project-related icons safe and organized.
+  A collection of icons with charming yet sophisticated personality designed by Steve Schoger.
 
 ::: tip
-You can group the icons into subfolders, eg `{MyChildThemeDir}/myicons/group-a` or `{MyChildThemeDir}/myicons/group-b`.
+The preset collections are a good start, but you can always extend them with your [own collections](howto#et-a-custom-collection), eg. your FontAwesome Pro collection.
 :::

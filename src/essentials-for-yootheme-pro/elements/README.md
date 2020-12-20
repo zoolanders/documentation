@@ -1,5 +1,5 @@
-# Configuration
+# Introduction
 
-A collection of elements available under the group ZOOlanders. Their integration with the Builder is as native, using the YOOtheme Pro [elements settings](https://yootheme.com/support/yootheme-pro/joomla/element-settings) and other conventions.
+[Elements](https://zoolanders.com/essentials-for-yootheme-pro/elements) addon extends YOOtheme Pro builder with new Elements.
 
 ![Essential Elements](./assets/modal.png)

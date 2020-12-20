@@ -17,9 +17,9 @@ You can optionally place a `my-collection.json` file beside the folder and write
 }
 ```
 
-## Distribute Icons Collections
+## Distribute Collections
 
-If you want to reuse your [icons collections](../in-depth/icons.html#custom-collections) across projects, place them into a plugin folder and specify the path to them by extending the `Icons` class.
+If you want to reuse your custom icon collections across projects, place them into a plugin folder and specify the path by extending the `Icons` class.
 
 ```php
 <?php

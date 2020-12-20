@@ -11,7 +11,16 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'rules',
+      'configuration',
+      'rules'
+    ]
+  },
+  {
+    title: 'Developers',
+    collapsable: false,
+    sidebarDepth: 3,
+    children: [
+      'extending',
       'howto'
     ]
   }

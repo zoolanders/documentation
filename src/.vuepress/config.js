@@ -14,13 +14,8 @@ module.exports = {
     editLinkText: 'Help us improve this page!',
     nav: [
       {
-        text: 'Products',
+        text: 'ZOO',
         items: [
-          {
-            items: [
-              { text: 'Essentials YOOtheme Pro', link: '/essentials-for-yootheme-pro/' }
-            ]
-          },
           {
             items: [
               { text: 'ZOOessentials', link: '/zooessentials/' },
@@ -29,6 +24,26 @@ module.exports = {
               { text: 'ZOOlingual', link: '/zoolingual/' },
               { text: 'ZOOevents', link: '/zooevents/' },
               { text: 'ZOOcompare', link: '/zoocompare/' }
+            ]
+          }
+        ]
+      },
+      {
+        text: 'YOOtheme Pro',
+        items: [
+          {
+            items: [
+              { text: 'Getting Started', link: '/essentials-for-yootheme-pro/index.html' },
+              { text: 'Changelog', link: 'https://www.zoolanders.com/essentials-for-yootheme-pro/changelog' }
+            ]
+          },
+          {
+            text: 'Addons',
+            items: [
+              { text: 'Forms', link: '/essentials-for-yootheme-pro/forms/' },
+              { text: 'Access', link: '/essentials-for-yootheme-pro/access/' },
+              { text: 'Icons', link: '/essentials-for-yootheme-pro/icons/' },
+              { text: 'Elements', link: '/essentials-for-yootheme-pro/elements/' }
             ]
           }
         ]

@@ -11,9 +11,7 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'chart',
-      'social-sharing',
-      'markdown'
+      'elements'
     ]
   }
 ]
