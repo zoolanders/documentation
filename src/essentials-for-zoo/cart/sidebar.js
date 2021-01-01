@@ -1,6 +1,12 @@
 module.exports = [
   {
-    title: 'ZOOcart',
+    collapsable: false,
+    children: [
+      ['../', '⬅︎ Essentials for ZOO']
+    ]
+  },
+  {
+    title: 'Cart',
     collapsable: false,
     children: [
       ''

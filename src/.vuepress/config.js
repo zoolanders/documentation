@@ -18,12 +18,18 @@ module.exports = {
         items: [
           {
             items: [
-              { text: 'ZOOessentials', link: '/zooessentials/' },
-              { text: 'ZOOcart', link: '/zoocart/' },
-              { text: 'ZOOfilter', link: '/zoofilter/' },
-              { text: 'ZOOlingual', link: '/zoolingual/' },
-              { text: 'ZOOevents', link: '/zooevents/' },
-              { text: 'ZOOcompare', link: '/zoocompare/' }
+              { text: 'Getting Started', link: '/essentials-for-zoo/index.html' },
+            ]
+          },
+          {
+            text: 'Addons',
+            items: [
+              { text: 'Core', link: '/essentials-for-zoo/core/' },
+              { text: 'Lingual', link: '/essentials-for-zoo/lingual/' },
+              { text: 'Filter', link: '/essentials-for-zoo/filter/' },
+              { text: 'Cart', link: '/essentials-for-zoo/cart/' },
+              { text: 'Events', link: '/essentials-for-zoo/events/' },
+              { text: 'Compare', link: '/essentials-for-zoo/compare/' }
             ]
           }
         ]
@@ -51,12 +57,14 @@ module.exports = {
       { text: 'ZOOlanders', link: 'https://zoolanders.com' }
     ],
     sidebar: {
-      '/zooessentials/': require('../zooessentials/sidebar.js'),
-      '/zoocart/': require('../zoocart/sidebar.js'),
-      '/zoolingual/': require('../zoolingual/sidebar.js'),
-      '/zoofilter/': require('../zoofilter/sidebar.js'),
-      '/zooevents/': require('../zooevents/sidebar.js'),
-      '/zoocompare/': require('../zoocompare/sidebar.js'),
+      '/essentials-for-zoo/core/': require('../essentials-for-zoo/core/sidebar.js'),
+      '/essentials-for-zoo/lingual/': require('../essentials-for-zoo/lingual/sidebar.js'),
+      '/essentials-for-zoo/filter/': require('../essentials-for-zoo/filter/sidebar.js'),
+      '/essentials-for-zoo/cart/': require('../essentials-for-zoo/cart/sidebar.js'),
+      '/essentials-for-zoo/events/': require('../essentials-for-zoo/events/sidebar.js'),
+      '/essentials-for-zoo/events/': require('../essentials-for-zoo/events/sidebar.js'),
+      '/essentials-for-zoo/compare/': require('../essentials-for-zoo/compare/sidebar.js'),
+      '/essentials-for-zoo/': require('../essentials-for-zoo/sidebar.js'),
       '/essentials-for-yootheme-pro/forms/': require('../essentials-for-yootheme-pro/forms/sidebar.js'),
       '/essentials-for-yootheme-pro/access/': require('../essentials-for-yootheme-pro/access/sidebar.js'),
       '/essentials-for-yootheme-pro/icons/': require('../essentials-for-yootheme-pro/icons/sidebar.js'),

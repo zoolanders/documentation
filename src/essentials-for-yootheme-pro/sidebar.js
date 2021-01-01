@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: 'YOOtheme Pro Essentials',
+    title: 'Essentials YOOtheme Pro',
     collapsable: false,
     sidebarDepth: 3,
     children: [
