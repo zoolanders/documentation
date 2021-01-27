@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "watch": "npm run dev"
   },
   "devDependencies": {
     "vuepress": "^1.0.0-alpha.30"

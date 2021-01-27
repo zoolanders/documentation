@@ -16,6 +16,7 @@ module.exports = [
     sidebarDepth: 2,
     children: [
       ['forms/', 'Forms'],
+      // ['sources/', 'Sources'],
       ['access/', 'Access'],
       ['icons/', 'Icons'],
       ['elements/', 'Elements']
