@@ -53,7 +53,7 @@ class MyCustomSourceProvider implements SourceProviderInterface
 ```
 
 ::: tip
-The `initSource` methods works the same as [adding a dynamic content source in yootheme pro core](https://yootheme.com/support/yootheme-pro/joomla/developers-sources#add-custom-sources).
+The `initSource` methods work the same as [adding a dynamic content source in yootheme pro core](https://yootheme.com/support/yootheme-pro/joomla/developers-sources#add-custom-sources).
 :::
 
 Then declare each provider by adding it into a `yooessentials-sources` key of your `config.php` or `bootstrap.php` file of your [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes) or [custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
