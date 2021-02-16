@@ -66,12 +66,13 @@ Then declare each rule by adding a `yooessentials-access-rules` key to you `conf
 
 ```php
 
+require_once __DIR__ . '/MyCustomRule.php';
+
 return [
 
-  'yooessentials-access-rules' => [
-        MyCustomRule::class,
-        AnotherCustomRule::class
-  ]
+    'yooessentials-access-rules' => [
+        MyCustomRule::class
+    ]
 
 ];
 ```

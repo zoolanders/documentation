@@ -58,6 +58,8 @@ Then declare each action by adding it into a `yooessentials-form-actions` key of
 
 ```php
 
+require_once __DIR__ . '/MyCustomAction.php';
+
 return [
 
     'yooessentials-form-actions' => [
