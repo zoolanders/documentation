@@ -9,13 +9,6 @@ module.exports = [
     title: 'Core',
     collapsable: false,
     children: [
-      ''
-    ]
-  },
-  {
-    title: 'Core Improvements',
-    collapsable: false,
-    children: [
       'basics/seo',
       'basics/metadata',
       'basics/import-export'
