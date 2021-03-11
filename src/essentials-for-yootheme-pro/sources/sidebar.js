@@ -11,7 +11,7 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'providers'
+      'sources'
     ]
   },
   {
@@ -19,8 +19,7 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 3,
     children: [
-      'extending',
-      'howto'
+      'extending'
     ]
   }
 ]
