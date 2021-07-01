@@ -19,7 +19,8 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 3,
     children: [
-      'extending'
+      'extending',
+      'howto',
     ]
   }
 ]

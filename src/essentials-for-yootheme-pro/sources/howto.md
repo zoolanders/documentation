@@ -2,68 +2,225 @@
 
 ## Create a Source Provider
 
-Start by creating a custom Class and store it into a child theme or a custom plugin. The class has to implement the `ZOOlanders\YOOessentials\Source\SourceProviderInterface` and declare the `key`, `name`, `panel`, and `initSource` functions.
+A Source Provider is a [YOOtheme Pro module](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) that registers a source to the Source Manager and provides everything required for its workflow.
+
+Let's start by creating `bootstrap.php` and `config.json` files for our custom module.
 
 ```php
 <?php
 
-use YOOtheme\Str;
-use YOOtheme\Path;
-use YOOtheme\Builder\Source;
-use ZOOlanders\YOOessentials\Source\SourceProviderInterface;
+namespace MySourceModule;
 
-class MyCustomSourceProvider implements SourceProviderInterface
+return [
+    'yooessentials-sources' => [
+        'my-source' => MySource::class
+    ]
+];
+```
+
+```json
 {
-    public function key(): string
-    {
-        return 'mycustomsource';
-    }
-
-    public function name(): string
-    {
-        return 'MyCustomSourceProvider';
-    }
-
-    public function panel(): array
-    {
-        // The panel configuration. Can be loaded from a file or just returned
-        return [
-            'width' => 450,
-            'fields' => [
-                'name' => [
-                    'label' => 'Name'
-                ],
-                'some_other_param' => [
-                    'label' => 'Some Other Param for your Source'
-                ]
-            ]
-        ];
-    }
-
-    public function initSource(Source $source, array $config = []): void
-    {
-        // Iterate through each configuration that the user has stored in the sources for this provider,
-        // and add any configuration needed to the source object
-        foreach ($config as $row) {
-            $source->objectType('MyCustomSourceProviderType', $myTypeConfig);
-            $source->queryType($myQueryTypeConfig);
-        }
+    "name": "my-source",
+    "title": "My Source",
+    "description": "My First Source.",
+    "icon": "${url:icon.svg}",
+    "fields": {
+        "name": {
+            "label": "Name",
+            "description": "A name to identify this source."
+        },
+        ...
     }
 }
 ```
 
-::: tip
-The `initSource` methods work the same as [adding a dynamic content source in yootheme pro core](https://yootheme.com/support/yootheme-pro/joomla/developers-sources#add-custom-sources).
-:::
-
-Then declare each provider by adding it into a `yooessentials-sources` key of your `config.php` or `bootstrap.php` file of your [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes) or [custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
+The bootstrap registers the `MySource` class to the Sources Manager which is, among others, responsible to declare the source types. It has to extend the `AbstractSourceType` and implement the `SourceInterface` classes.
 
 ```php
-return [
+<?php
 
-    'yooessentials-sources' => [
-        MyCustomSourceProvider::class
-    ]
+namespace MySourceModule;
 
-];
+use ZOOlanders\YOOessentials\Source\Type\AbstractSourceType;
+use ZOOlanders\YOOessentials\Source\Type\SourceInterface;
+use ZOOlanders\YOOessentials\Source\SourceService;
+
+class MySource extends AbstractSourceType implements SourceInterface
+{
+    public function types(): array
+    {
+        $objectType = new MySourceType($this);
+        $queryType = new MySourceQueryType($this, $objectType);
+
+        return [
+            $objectType,
+            $queryType,
+        ];
+    },
+
+    public function resolve(array $args): array
+    {
+        $args = array_filter($args);
+
+        // if something is wrong, emit an error event and return early
+        if (!$args['required_field']) {
+            Event::emit('yooessentials.error', [
+                'addon' => 'source',
+                'provider' => 'my-source',
+                'error' => 'Something is not right'
+            ]);
+
+            return [];
+        }
+
+        $result = [];
+
+        // resolve the query and return an array of results
+        foreach ($values as $value) {
+            $data = [];
+
+            foreach ($row as $key => $value) {
+                // we recommend to cleanup the fields names as
+                // to ensure it follows Graph Schema standards
+                $data[SourceService::encodeField($key)] = $value;
+            }
+
+            $result[] = $data;
+        }
+
+        return $result;
+    }
+}
 ```
+
+The `Type` and `QueryType` are extended [Source Type Objects](https://yootheme.com/support/yootheme-pro/joomla/developers-sources) that the Source Manager will use to dynamically create the Types and Queries for each one of the configurations of the source set in the Builder.
+
+Create a `MySourceType` class which will represent the source single item type.
+
+```php
+<?php
+
+namespace MySourceModule;
+
+use ZOOlanders\YOOessentials\Source\GraphQL\AbstractObjectType;
+use ZOOlanders\YOOessentials\Source\GraphQL\HasSourceInterface;
+use ZOOlanders\YOOessentials\Source\SourceService;
+
+class MySourceType extends AbstractObjectType implements HasSourceInterface
+{
+    // a unique name is required for the type registration,
+    // using the source config is in general a good way to do so
+    public function name(): string
+    {
+        return 'mySource_' . sha1(json_encode($this->source->config())));
+    }
+
+    // return a standard config for the Type based
+    // on the current source configuration
+    public function config(): array
+    {
+        $fields = [];
+        $config = $this->source->config();
+
+        // apply your logic to form the Type fields
+        foreach ($values as $value) {
+            // we recommend to cleanup the fields names as
+            // to ensure it follows Graph Schema standards
+            $fields[SourceService::encodeField($value)] = [
+                'type' => 'String',
+                'metadata' => [
+                    'label' => 'Field Label',
+                    'fields' => []
+                ]
+            ];
+        }
+
+        return [
+            'fields' => $fields,
+            'metadata' => [
+                'type' => true,
+                'label' => $this->label(),
+            ],
+        ];
+    }
+}
+```
+
+The `MySourceQueryType` on the other hand will use the query arguments to resolve and retrieve the source data.
+
+```php
+<?php
+
+namespace MySourceModule;
+
+use ZOOlanders\YOOessentials\Source\GraphQL\AbstractQueryType;
+use ZOOlanders\YOOessentials\Source\GraphQL\HasSourceInterface;
+use ZOOlanders\YOOessentials\Source\SourceService;
+use ZOOlanders\YOOessentials\Source\Type\Csv\CsvSource;
+use ZOOlanders\YOOessentials\Source\Type\SourceInterface;
+
+class MySourceQueryType extends AbstractQueryType implements HasSourceInterface
+{
+    private $mySourceType;
+
+    public function __construct(SourceInterface $source, MySourceType $mySourceType)
+    {
+        parent::__construct($source);
+
+        // declare the source type/s for use in the config
+        $this->mySourcType = $csvType;
+    }
+
+    // a unique name for the query type,
+    // we recommend using the source id
+    public function name(): string
+    {
+        return "mySource_{$this->source()->id()}_query";
+    }
+
+    public function config(): array
+    {
+        return [
+
+            'fields' => [
+
+                $this->name() => [
+                    'type' => ['listOf' => $this->mySourceType->name()],
+
+                    'args' => [
+
+                        'offset' => [
+                            'type' => 'Int',
+                        ],
+                        'limit' => [
+                            'type' => 'Int',
+                        ]
+
+                    ],
+
+                    'metadata' => [
+                        'group' => 'My Source',
+                        'label' => $this->label(),
+                        'fields' => [],
+                    ],
+
+                    'extensions' => [
+                        'call' => [
+                            'call' => __CLASS__ . '::resolve',
+                            'args' => [
+                                // is important to provide the source id
+                                'source_id' => $this->source->id(),
+                            ]
+                        ]
+                    ],
+
+                ],
+
+            ],
+
+        ];
+    }
+}
+```
+
+That's all that is needed to create a simple Source Provider, but being it a standard YOOtheme Pro module there are no constraints on creating a more advanced and/or service-dependent one. Be creative and happy coding!
