@@ -168,7 +168,7 @@ class MySourceQueryType extends AbstractQueryType implements HasSourceInterface
         parent::__construct($source);
 
         // declare the source type/s for use in the config
-        $this->mySourcType = $csvType;
+        $this->mySourceType = $mySourceType;
     }
 
     // a unique name for the query type,
