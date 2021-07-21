@@ -23,6 +23,6 @@ Let's create our first form which later on can be expanded as required.
 
 3. **Set Form Fields**. Get back to the Builder main area and Drag & Drop at least one Input Field and a Submit Button in the Form Area you just set.
 
-4. **Submit the Form!** At this point your form should be ready. Input some content and hit the Submit button. If the form was validated a Message Should display. If so, congratulations! Otherwise check the possible [Form Configuration Errors](configuration#errors).
+4. **Submit the Form!** At this point your form should be ready. Input some content and hit the Submit button. If the form was validated a Message Should display. If so, congratulations! Otherwise check the possible [Form Configuration Errors](./configuration.md#errors).
 
-> While any element can be placed inside a Form Area only [Form Elements](./elements) will be processed during a submission.
+> While any element can be placed inside a Form Area only [Form Elements](./elements.md) will be processed during a submission.

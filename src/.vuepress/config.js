@@ -18,7 +18,7 @@ module.exports = {
         items: [
           {
             items: [
-              { text: 'Getting Started', link: '/essentials-for-zoo/index.html' },
+              { text: 'Getting Started', link: '/essentials-for-zoo/' },
             ]
           },
           {
@@ -39,7 +39,7 @@ module.exports = {
         items: [
           {
             items: [
-              { text: 'Getting Started', link: '/essentials-for-yootheme-pro/index.html' },
+              { text: 'Getting Started', link: '/essentials-for-yootheme-pro/' },
               { text: 'Changelog', link: 'https://www.zoolanders.com/essentials-for-yootheme-pro/changelog' }
             ]
           },

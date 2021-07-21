@@ -1,6 +1,6 @@
 # Integration
 
-ZOOlanders Elements are standard ZOO elements, you can follow the [Extending ZOO Types Guide](http://yootheme.com/zoo/documentation/advanced/extend-pre-build-types) to integrate them into your Apps. Or even upgrade to them without loosing any previous data:
+ZOOlanders Elements are standard ZOO elements, you can follow the [Extending ZOO Types Guide](https://yootheme.com/support/zoo/item-types#extend-pre-built-item-type) to integrate them into your Apps. Or even upgrade to them without loosing any previous data:
 
 1. Locate the `media/zoo/applications/{application}/types/{type}.config` file and open it for editing with any plain text editor.
 2. Search for the property that relates to the specific element we are upgrading.
@@ -15,7 +15,7 @@ All elements share one or more of the the following Configuration fields:
 
 - `Name`: The element name that will be used across the system to reference the element.
 - `Description`: The element description. Used to show information about the element to the content Editors.
-- `Access Level`: The element core access setting. Allows restricting the element to certain Access Levels. For advanced permissions you may use [ZOOaccess](/extensions/zooaccess).
+- `Access Level`: The element core access setting. Allows restricting the element to certain Access Levels. For advanced permissions you may use the Access Addon.
 - `Repeatable`: If enabled the element will become repeatable storing array of values instead of one instance.
 - `Instance Limit`: Complements the Repeatable feature allowing to set a maximum amount of element instances.
 

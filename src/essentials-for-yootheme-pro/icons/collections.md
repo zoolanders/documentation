@@ -23,5 +23,5 @@ Icons collections are a set of preset or custom icons under a common topic. A co
   A collection of icons with charming yet sophisticated personality designed by Steve Schoger.
 
 ::: tip
-The preset collections are a good start, but you can always extend them with your [own collections](howto#et-a-custom-collection), eg. your FontAwesome Pro collection.
+The preset collections are a good start, but you can always extend them with your [own collections](./howto.md#set-a-custom-collection), eg. your FontAwesome Pro collection.
 :::

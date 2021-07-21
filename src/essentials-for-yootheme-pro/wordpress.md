@@ -16,7 +16,7 @@ Follow the official [WordPress](https://wordpress.org/support/article/managing-p
 
 Whenever a new version is available, you will receive a notification in the `WordPress Plugins` control panel. Within it, you can easily update with a one-click action. For the Premium version, you will have to set your [ZOOlanders Download ID](#download-id).
 
-A ZOOlanders Download ID is an alphanumeric code created in the [ZOOlanders Download IDs section](https://www.zoolanders.com/download-ids) that is required to update the Premium version. If you are using the Free version you can skip these steps.
+A ZOOlanders Download ID is an alphanumeric code created in the [ZOOlanders Download IDs section](https://www.zoolanders.com/account/download-ids) that is required to update the Premium version. If you are using the Free version you can skip these steps.
 
 ![Download ID](./assets/download-id.png)
 

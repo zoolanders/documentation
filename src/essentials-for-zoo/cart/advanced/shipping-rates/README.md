@@ -13,7 +13,7 @@ Switch to the API Credentials tab and setup the account credentials. You will ge
 
 > Note that the live mode should be enabled
 
-On Preferences tab fulfill the rest of parameters according to the [USPS shipping API requirements](https://www.usps.com/business/web-tools-apis/price-calculators.htm).
+On Preferences tab fulfill the rest of parameters according to the USPS shipping API requirements.
 
 - `Dimensions`: at least on package dimension must be defined.
 - `Origin ZIP`: your store location ZIP or nearest Post service ZIP code.

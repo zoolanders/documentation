@@ -10,17 +10,17 @@ For any item type ZOOcart element configuration has additional option **Assign U
 
 You can select one or more groups in **User groups to assign** list. Selected groups will be assigned to the user if his order becomes finished (see note below).
 
-> The groups will be assigned to the buyer user if the order has a status equal to "Finished State" in the [Order settings](/extensions/zoocart/basics/settings#orders).
+> The groups will be assigned to the buyer user if the order has a status equal to "Finished State" in the [Order settings](../../basics/settings.md#orders).
 
 **Subscription** item type has additional groups list **User groups to remove**. These groups will be removed from the buyer user after subscription ending:
 
 ![Groups assigning - subscription](./zoocart-group-assign-subscription.png)
 
-> The groups will be removed from the buyer user if subscription expired according to the time or the order receives a status equal to "Canceled State" in the [Order settings](/extensions/zoocart/basics/settings#orders).
+> The groups will be removed from the buyer user if subscription expired according to the time or the order receives a status equal to "Canceled State" in the [Order settings](../../basics/settings.md#orders).
 
 ## Override on Item
 
-It is possible to override the groups from the Global settings on the Item Edit page for each specific item, but the assigning / removing behaviours are the same (see the details [ZOOcart groups restriction](/extensions/zoocart/advanced/groups_management#zoocart-groups-restriction)).
+It is possible to override the groups from the Global settings on the Item Edit page for each specific item, but the assigning / removing behaviours are the same.
 
 To override the groups for the specific item go to the **Item Edit page** and find ZOOcart element. By default **Global settings** is checked therefore the item inherits the settings from the Element configuration:
 

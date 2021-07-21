@@ -6,7 +6,7 @@ The Compare element, provided with ZOOcompare, displays a button which will allo
 
 ![ZOOcompare - add Compare element to the item type](./assets/compare-add-element.png)
 
-If you are not familiar with the process you can review the [ZOO](http://www.yootheme.com/zoo/documentation/advanced/extend-pre-build-types) guide.
+If you are not familiar with the process you can review the [ZOO](https://yootheme.com/support/zoo/item-types#extend-pre-built-item-types) guide.
 
 ### 2. Assign the Compare element to a render layout
 
