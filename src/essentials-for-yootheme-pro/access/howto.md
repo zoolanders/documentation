@@ -4,12 +4,12 @@
 
 Start by creating a custom Class and store it into a [child theme or a custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
 
-The class has to implement the `ZOOlanders\YOOessentials\Access\AccessRule` and declare the `group`, `name`, `namespace`, `description`, `resolve` and `fields` functions.
+The class has to implement the `ZOOlanders\YOOessentials\Access\RuleInterface` and declare the `group`, `name`, `namespace`, `description`, `resolve`, `icon` and `fields` functions.
 
 ```php
-use ZOOlanders\YOOessentials\Access\AccessRule;
+use ZOOlanders\YOOessentials\Access\RuleInterface;
 
-class MyCustomRule implements AccessRule
+class MyCustomRule implements RuleInterface
 {
     public function group() : string
     {
@@ -31,6 +31,11 @@ class MyCustomRule implements AccessRule
         return 'Validates if...';
     }
 
+    public function icon() : string
+    {
+        return '/absolute/url/to/icon.svg';
+    }
+
     /**
      * @param \stdClass $props The settings values from the rule fields
      * @param \stdClass $node The current element node being evaluated
@@ -47,11 +52,11 @@ class MyCustomRule implements AccessRule
     public function fields() : array
     {
       return [
-        "{$this->namespace()}.checkbox" => [
+        'checkbox' => [
           'type' => 'checkbox',
           'description' => ''
         ],
-        "{$this->namespace()}.options" => [
+        'options' => [
           'type' => 'select',
           'description' => '',
           'options' => [
