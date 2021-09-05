@@ -11,13 +11,14 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
+      'getting-started',
       'configuration',
       'actions',
-      'elements'
+      'fields'
     ]
   },
   {
-    title: 'Developers',
+    title: 'Advanced',
     collapsable: false,
     sidebarDepth: 3,
     children: [
