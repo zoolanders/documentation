@@ -6,7 +6,7 @@ module.exports = [
     ]
   },
   {
-    title: 'Access',
+    title: 'Access Addon',
     collapsable: false,
     sidebarDepth: 3,
     children: [

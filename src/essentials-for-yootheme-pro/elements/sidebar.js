@@ -6,7 +6,7 @@ module.exports = [
     ]
   },
   {
-    title: 'Elements',
+    title: 'Elements Addon',
     collapsable: false,
     sidebarDepth: 3,
     children: [

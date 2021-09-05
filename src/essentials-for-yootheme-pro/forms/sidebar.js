@@ -6,7 +6,7 @@ module.exports = [
     ]
   },
   {
-    title: 'Forms',
+    title: 'Forms Addon',
     collapsable: false,
     sidebarDepth: 3,
     children: [

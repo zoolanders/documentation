@@ -6,7 +6,7 @@ module.exports = [
     ]
   },
   {
-    title: 'Icons',
+    title: 'Icons Addon',
     collapsable: false,
     sidebarDepth: 3,
     children: [

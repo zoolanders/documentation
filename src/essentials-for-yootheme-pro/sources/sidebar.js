@@ -6,7 +6,7 @@ module.exports = [
     ]
   },
   {
-    title: 'Sources',
+    title: 'Sources Addon',
     collapsable: false,
     sidebarDepth: 3,
     children: [
