@@ -18,9 +18,9 @@ In case there is something wrong with a form configuration the Form Area icon wi
 - **Duplicated Google reCaptcha element**: indicates that the Form Area has two or more Google reCaptcha elements while only one is allowed.
 - **Google reCaptcha has no keys set**: indicates that the Google reCaptcha element is present in the Form Area, but has not secret keys set.
 
-## Fields Tag Replacement
+## Submission Data Placeholders
 
-Field Tags are used across the configuration as reference to form fields data. The field name is used as tag which will be **replaced by the submitted data** during submission. Eg. a Textarea field with a name _comment_ would be referenced as `{comment}`.
+Submission Data Placeholders are used across the configuration as reference to form submission data. Any field control can be referenced with a placeholder, e.g. `{name}`, which will be **replaced** during the submission with the related submitted data.
 
 The list of accepted field names can be reviewed on the fly by clicking on the _available fields_ link on the description of the fields supporting this feature.
 
