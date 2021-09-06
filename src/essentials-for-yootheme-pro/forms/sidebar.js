@@ -11,10 +11,16 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'getting-started',
+      'getting-started'
+    ]
+  },
+  {
+    title: 'Form Area',
+    collapsable: false,
+    sidebarDepth: 3,
+    children: [
       'configuration',
-      'actions',
-      'fields'
+      'elements'
     ]
   },
   {
@@ -22,8 +28,8 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 3,
     children: [
-      'extending',
-      'howto'
+      'advanced/extending',
+      'advanced/custom-action'
     ]
   }
 ]
