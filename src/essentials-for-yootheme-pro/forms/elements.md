@@ -1,12 +1,12 @@
 # Elements
 
-The Layout Builder is extended with a collection of ready-to-use Form Field elements. Among them the Fields meant to input data have to be unique identified using a `Control Name` setting. The control name will then reference.  Each Field element has its purpose, input data, prevent spam, submit a form, among others.
+The Layout Builder is extended with a collection of ready-to-use Form Field elements. Among them, the Fields meant to input data have to be unique identified using a `Control Name` setting. The control name will then reference.  Each Field element has its purpose, input data, prevent spam, submit a form, among others.
 
 ## Data Input
 
 ### Input
 
-The Input element adds one or multiple inputs within a grid to your form layout. It supports the `text`, `date`, `email`, `number`, `password`, `tel`, `url`, `month`, `time` and `week` type.
+The Input element adds one or multiple inputs within a grid to your form layout. It supports the `text`, `date`, `email`, `number`, `password`, `tel`, `url`, `month`, `time`, and `week` type.
 
 ![Input Element](./assets/elements/input.png)
 
@@ -68,6 +68,6 @@ Renders a form `submit` or `reset` button.
 
 ### Fieldset
 
-Renders a standard HTML Fieldset field with the option to render other fields as it children, making it easier to group fields.
+Renders a standard HTML Fieldset field with the option to render other fields as children, making it easier to group fields.
 
 ![Fieldset Element](./assets/elements/fieldset.png)

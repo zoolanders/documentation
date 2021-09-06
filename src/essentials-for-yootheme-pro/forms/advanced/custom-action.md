@@ -4,7 +4,7 @@ sidebarDepth: 2
 
 # Custom Action
 
-Let's create a custom [After Submit Action](../actions.html), tart by creating a custom Class and store it into a child theme or a custom plugin. The class has to implement the `ZOOlanders\YOOessentials\Form\Action` and declare the `name`, `panel` and `handle` functions.
+Let's create a custom [After Submit Action](../actions.html), tart by creating a custom Class and store it into a child theme or a custom plugin. The class has to implement the `ZOOlanders\YOOessentials\Form\Action` and declare the `name`, `panel`, and `handle` functions.
 
 Adding custom access rules it's a straightforward process consisting of creating a class and adding it into a `yooessentials-form-actions` key of your `config.php` or `bootstrap.php` file of your child theme / custom plugin.
 

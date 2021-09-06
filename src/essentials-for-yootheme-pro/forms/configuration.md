@@ -1,20 +1,20 @@
 # Configuration
 
-A Form Area has three configuration parts, [Fields](#fields), [Settings](#settings), and [After Submit Actions](#after-submit-actions), all three being fundamental for a successfull form workflow.
+A Form Area has three configuration parts, [Fields](#fields), [Settings](#settings), and [After Submit Actions](#after-submit-actions), all three being fundamental for a successful form workflow.
 
 ## Fields
 
-A collection of Form Fields are available as part of the YOOtheme Pro layout builder elements. Each with it own purpose and scope will allow you to collect submitted data, prevent spam or simply submit the form.
+A collection of Form Fields are available as part of the YOOtheme Pro layout builder elements. Each with its own purpose and scope will allow you to collect submitted data, prevent spam or simply submit the form.
 
 Form Area Elements meant to input data must be associated with a Control Name, which is a reference to it submitted data used across the configuration.
 
 ## Settings
 
-Found on the Form Area configuration panel, the Settings tabs allows customizing basic form attributes.
+Found on the Form Area configuration panel, the Settings tabs allow customizing basic form attributes.
 
 | Name | Description |
 | ---- | ----------- |
-| Enable HTML 5 Validation | If disabled only the Ajax/PHP based validation will be processed. |
+| Enable HTML 5 Validation | If disabled only the Ajax/PHP-based validation will be processed. |
 | Override Submission Action | Submit the form to a custom URL and method, useful for 3rd party form integrations. |
 | Action URL | The Overriden Action URL. |
 | Action Method | The Overriden Action Method. |
@@ -22,7 +22,7 @@ Found on the Form Area configuration panel, the Settings tabs allows customizing
 
 ## After Submit Actions
 
-After Submit Actions are multi instance actions that will run consequently only if a form has been successfuly submitted. While is possible to declare [custom actions](./advanced/custom-action.html), listed above are the core actions ready to use:
+After Submit Actions are multi-instance actions that will run consequently only if a form has been successfully submitted. While is possible to declare [custom actions](./advanced/custom-action.html), listed above are the core actions ready to use:
 
 ### Email
 
@@ -30,7 +30,7 @@ This action sends a customized email with tags dynamically replaced by the submi
 
 ![Email Form Action](./assets/actions/email.png)
 
-> This action support Submit Data Placeholders. You can place a reference to a field using it Control Name, e.g. `{myinput}`, during execution the placeholder will be **replaced** with the submitted data.
+> This action support Submit Data Placeholders. You can place a reference to a field using its Control Name, e.g. `{myinput}`, during execution the placeholder will be **replaced** with the submitted data.
 
 ### Message
 
@@ -38,11 +38,11 @@ This action displays a custom message to the user that will be displayed in a mo
 
 ![Message Form Action](./assets/actions/message.png)
 
-> This action support Submit Data Placeholders. You can place a reference to a field using it Control Name, e.g. `{myinput}`, during execution the placeholder will be **replaced** with the submitted data.
+> This action support Submit Data Placeholders. You can place a reference to a field using its Control Name, e.g. `{myinput}`, during execution the placeholder will be **replaced** with the submitted data.
 
 ### Redirect
 
-This action redirects the user to a specified URL, with an optional message that will be displayed using the Joomla / Wordpress core message display system.
+This action redirects the user to a specified URL, with an optional message that will be displayed using the Joomla / WordPress core message display system.
 
 ![Redirect Form Action](./assets/actions/redirect.png)
 
