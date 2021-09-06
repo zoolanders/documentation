@@ -6,7 +6,7 @@ sidebarDepth: 1
 
 Setting up a form is as simple as setting any Layout in YOOtheme Pro, in this walktrough will be guiding you on setting your first from.
 
-Let's start by choosing a `section` or `solumn` element that will hold our Form Area. In the Advanced settings tab of the chosen element, locate the `Enable as Form Area` checkbox and toggle it. The element has now become a Form Area and is ready to hold form fields, but before doing so let's set an After Submit Action that will show a `Thank You` message.
+Let's start by choosing a `section` or `column` element that will hold our Form Area. In the Advanced settings tab of the chosen element, locate the `Enable as Form Area` checkbox and toggle it. The element has now become a Form Area and is ready to hold form fields, but before doing so let's set an After Submit Action that will show a `Thank You` message.
 
 Access the Form Area configuration panel and add a `Message` action. The action panel will open showing the configuration, write in the message field `Thank You {name}!`. Notice the `{name}` part, it's a placeholder, a reference to the Submitted Data related to the Input Fields, which we are going to set next.
 
