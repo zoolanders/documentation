@@ -23,7 +23,7 @@ Access the Form Area configuration panel and add a `Message` action. The action 
 
 Once the actions are set go back to the builder's Main layout configuration and add two Input Form elements in the Form Area. Access the newly created elements settings and set the `Control` field as `user_name` for the first and `user_email` for the second, set the Label fields accordingly, and leave the rest as default.
 
-Go ahead and submit the form inputting a name and email. If the submission is successful a modal will be greeting you with a personalized message! Additionally, two emails have been sent and the submitted data saved to a CSV file. Good job!
+Finally, set a Form Submit Button element and submit the form inputting a name and email. If the submission is successful a modal will be greeting you with a personalized message! Additionally, two emails have been sent and the submitted data saved to a CSV file. Good job!
 
 ::: tip
 When an element is enabled as a Form Area, the form Configuration panel becomes available in the Advanced Tab settings, and a Form Area Icon will be displayed to mark the area as enabled. Notice that the Icon acts as a shortcut as well, if you click it, it will open the Form Area configuration panel directly.
