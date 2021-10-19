@@ -4,12 +4,12 @@
 
 Start by creating a custom Class and store it into a [child theme or a custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
 
-The class has to implement the `ZOOlanders\YOOessentials\Access\RuleInterface` and declare the `group`, `name`, `namespace`, `description`, `resolve`, `icon` and `fields` functions.
+The class has to extendd the `ZOOlanders\YOOessentials\Access\AbstractRule` and declare the `group`, `name`, `namespace`, `description`, `resolve`, `icon` and `fields` functions.
 
 ```php
-use ZOOlanders\YOOessentials\Access\RuleInterface;
+use ZOOlanders\YOOessentials\Access\AbstractRule;
 
-class MyCustomRule implements RuleInterface
+class MyCustomRule extends AbstractRule
 {
     public function group() : string
     {
