@@ -52,6 +52,16 @@ module.exports = {
               { text: 'Icons', link: '/essentials-for-yootheme-pro/icons/' },
               { text: 'Elements', link: '/essentials-for-yootheme-pro/elements/' }
             ]
+          },
+          {
+            text: 'Developers',
+            items: [
+              { text: 'Core', link: '/essentials-for-yootheme-pro/developers/core/' },
+              { text: 'Builder', link: '/essentials-for-yootheme-pro/developers/builder/' },
+              { text: 'Sources', link: '/essentials-for-yootheme-pro/developers/source/' },
+              { text: 'Form', link: '/essentials-for-yootheme-pro/developers/form/' },
+              { text: 'Access', link: '/essentials-for-yootheme-pro/developers/access/' },
+            ]
           }
         ]
       },
@@ -63,7 +73,6 @@ module.exports = {
       '/essentials-for-zoo/filter/': require('../essentials-for-zoo/filter/sidebar.js'),
       '/essentials-for-zoo/cart/': require('../essentials-for-zoo/cart/sidebar.js'),
       '/essentials-for-zoo/events/': require('../essentials-for-zoo/events/sidebar.js'),
-      '/essentials-for-zoo/events/': require('../essentials-for-zoo/events/sidebar.js'),
       '/essentials-for-zoo/compare/': require('../essentials-for-zoo/compare/sidebar.js'),
       '/essentials-for-zoo/': require('../essentials-for-zoo/sidebar.js'),
       '/essentials-for-yootheme-pro/sources/': require('../essentials-for-yootheme-pro/sources/sidebar.js'),
@@ -71,7 +80,8 @@ module.exports = {
       '/essentials-for-yootheme-pro/access/': require('../essentials-for-yootheme-pro/access/sidebar.js'),
       '/essentials-for-yootheme-pro/icons/': require('../essentials-for-yootheme-pro/icons/sidebar.js'),
       '/essentials-for-yootheme-pro/elements/': require('../essentials-for-yootheme-pro/elements/sidebar.js'),
-      '/essentials-for-yootheme-pro/': require('../essentials-for-yootheme-pro/sidebar.js')
+      '/essentials-for-yootheme-pro/developers/core/': require('../essentials-for-yootheme-pro/developers/core/sidebar.js'),
+      '/essentials-for-yootheme-pro/': require('../essentials-for-yootheme-pro/sidebar.js'),
     }
   }
 }

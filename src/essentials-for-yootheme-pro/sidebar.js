@@ -21,5 +21,13 @@ module.exports = [
       ['icons/', 'Icons'],
       ['elements/', 'Elements']
     ]
+  },
+  {
+    title: 'Developers',
+    collapsable: false,
+    sidebarDepth: 2,
+    children: [
+      ['developers/core/', 'Core'],
+    ]
   }
 ]
