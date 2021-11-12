@@ -2,16 +2,16 @@ module.exports = [
   {
     collapsable: false,
     children: [
-      ['../', '⬅︎ Essentials for YOOtheme Pro']
+      ['../../', '⬅︎ Essentials for YOOtheme Pro']
     ]
   },
   {
-    title: 'Sources Addon',
+    title: 'Sources',
     collapsable: false,
     sidebarDepth: 3,
     children: [
       '',
-      'sources'
+      'custom-source'
     ]
   }
 ]

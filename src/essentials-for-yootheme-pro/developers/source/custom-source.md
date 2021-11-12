@@ -1,10 +1,11 @@
-# How To
+# Custom Sources
 
-## Create a Source Provider
+## Create a new Source Provider
 
-A Source Provider is a [YOOtheme Pro module](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) that registers a source to the Source Manager and provides everything required for its workflow.
+A Source Provider is a [YOOtheme Pro module](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) that
+registers a source to the Source Manager and provides everything required for its workflow.
 
-Let's start by creating `bootstrap.php` and `config.json` files for our custom module.
+Let's start by creating a `bootstrap.php`
 
 ```php
 <?php
@@ -18,23 +19,27 @@ return [
 ];
 ```
 
+and `config.json` files for our custom module.
+
 ```json
 {
-    "name": "my-source",
-    "title": "My Source",
-    "description": "My First Source.",
-    "icon": "${url:icon.svg}",
-    "fields": {
-        "name": {
-            "label": "Name",
-            "description": "A name to identify this source."
-        },
-        ...
-    }
+  "name": "my-source",
+  "title": "My Source",
+  "description": "My First Source.",
+  "icon": "${url:icon.svg}",
+  "fields": {
+    "name": {
+      "label": "Name",
+      "description": "A name to identify this source."
+    },
+    ...
+  }
 }
 ```
 
-The bootstrap registers the `MySource` class to the Sources Manager which is, among others, responsible to declare the source types. It has to extend the `AbstractSourceType` and implement the `SourceInterface` classes.
+The bootstrap registers the `MySource` class to the Sources Manager which is, among others, responsible to declare the
+source types. It has to extend the `ZOOlanders\YOOessentials\Source\Type\AbstractSourceType` class and implement
+the `ZOOlanders\YOOessentials\Source\Type\SourceInterface` interface.
 
 ```php
 <?php
@@ -81,7 +86,7 @@ class MySource extends AbstractSourceType implements SourceInterface
 
             foreach ($row as $key => $value) {
                 // we recommend to cleanup the fields names as
-                // to ensure it follows Graph Schema standards
+                // to ensure it follows GraphQL Schema standards
                 $data[SourceService::encodeField($key)] = $value;
             }
 
@@ -93,9 +98,14 @@ class MySource extends AbstractSourceType implements SourceInterface
 }
 ```
 
-The `Type` and `QueryType` are extended [Source Type Objects](https://yootheme.com/support/yootheme-pro/joomla/developers-sources) that the Source Manager will use to dynamically create the Types and Queries for each one of the configurations of the source set in the Builder.
+The `Type` and `QueryType` are
+extended [Source Type Objects](https://yootheme.com/support/yootheme-pro/joomla/developers-sources) that the Source
+Manager will use to dynamically create the Types and Queries for each one of the configurations of the source set in the
+Builder.
 
-Create a `MySourceType` class which will represent the source single item type.
+Create a `MySourceType` class which will represent the source single item type. We provide
+an `ZOOlanders\YOOessentials\Source\GraphQL\AbstractObjectType` that will help you with the basics, like accessing your
+source configuration.
 
 ```php
 <?php
@@ -146,7 +156,9 @@ class MySourceType extends AbstractObjectType implements HasSourceInterface
 }
 ```
 
-The `MySourceQueryType` on the other hand will use the query arguments to resolve and retrieve the source data.
+The `MySourceQueryType` on the other hand will use the query arguments to resolve and retrieve the source data. We
+provide a base `ZOOlanders\YOOessentials\Source\GraphQL\AbstractQueryType` class to help you in building a new Source
+Query.
 
 ```php
 <?php
@@ -223,4 +235,5 @@ class MySourceQueryType extends AbstractQueryType implements HasSourceInterface
 }
 ```
 
-That's all that is needed to create a simple Source Provider, but being it a standard YOOtheme Pro module there are no constraints on creating a more advanced and/or service-dependent one. Be creative and happy coding!
+That's all that is needed to create a simple Source Provider, but being it a standard YOOtheme Pro module there are no
+constraints on creating a more advanced and/or service-dependent one. Be creative and happy coding!

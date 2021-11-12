@@ -30,6 +30,7 @@ module.exports = [
       ['developers/core/', 'Core'],
       ['developers/access/', 'Access'],
       ['developers/form/', 'Form'],
+      ['developers/source/', 'Source'],
     ]
   }
 ]
