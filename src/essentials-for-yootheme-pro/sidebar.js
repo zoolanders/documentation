@@ -28,6 +28,7 @@ module.exports = [
     sidebarDepth: 2,
     children: [
       ['developers/core/', 'Core'],
+      ['developers/builder/', 'Builder'],
       ['developers/access/', 'Access'],
       ['developers/form/', 'Form'],
       ['developers/source/', 'Source'],

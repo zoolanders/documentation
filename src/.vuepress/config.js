@@ -81,6 +81,7 @@ module.exports = {
       '/essentials-for-yootheme-pro/icons/': require('../essentials-for-yootheme-pro/icons/sidebar.js'),
       '/essentials-for-yootheme-pro/elements/': require('../essentials-for-yootheme-pro/elements/sidebar.js'),
       '/essentials-for-yootheme-pro/developers/core/': require('../essentials-for-yootheme-pro/developers/core/sidebar.js'),
+      '/essentials-for-yootheme-pro/developers/builder/': require('../essentials-for-yootheme-pro/developers/builder/sidebar.js'),
       '/essentials-for-yootheme-pro/developers/access/': require('../essentials-for-yootheme-pro/developers/access/sidebar.js'),
       '/essentials-for-yootheme-pro/developers/form/': require('../essentials-for-yootheme-pro/developers/form/sidebar.js'),
       '/essentials-for-yootheme-pro/developers/source/': require('../essentials-for-yootheme-pro/developers/source/sidebar.js'),
