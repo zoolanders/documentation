@@ -22,14 +22,5 @@ module.exports = [
       'configuration',
       'elements'
     ]
-  },
-  {
-    title: 'Advanced',
-    collapsable: false,
-    sidebarDepth: 3,
-    children: [
-      'advanced/extending',
-      'advanced/custom-action'
-    ]
   }
 ]

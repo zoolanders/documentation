@@ -29,6 +29,7 @@ module.exports = [
     children: [
       ['developers/core/', 'Core'],
       ['developers/access/', 'Access'],
+      ['developers/form/', 'Form'],
     ]
   }
 ]
