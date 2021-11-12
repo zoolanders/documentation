@@ -1,5 +1,6 @@
 {
   "private": true,
+  "version": "2.1.0",
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",

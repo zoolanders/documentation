@@ -1,4 +1,4 @@
-# How To
+# Custom Rules
 
 ## Create a Custom Rule
 
