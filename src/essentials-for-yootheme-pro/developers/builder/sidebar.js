@@ -11,7 +11,8 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'fields'
+      'fields',
+      'essentials-fields'
     ]
   }
 ]
