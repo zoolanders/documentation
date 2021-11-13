@@ -8,7 +8,7 @@ Download the Free or Premium `Essentials_YOOthemePro_{version}_wp.zip` package f
 
 Follow the official [WordPress](https://wordpress.org/support/article/managing-plugins/) plugin installation guide and make sure a plugin named `Essential Addons for YOOtheme Pro` is listed and enabled in the WordPress Plugins control panel, if not, enabled it manually.
 
-![WordPress YOOessentials Plugin](./assets/wordpress-plugin.png)
+![Essentials Plugin](./assets/wordpress-plugin.png)
 
 > The plugin will be installed under the `wp-contents/plugins/yooessentials` directory.
 
@@ -30,4 +30,4 @@ Even if technically possible, we strongly discourage this method as update scrip
 
 In the WordPress control panel find the ZOOlanders settings under the Global Settings menu, access it, and paste the Download ID into the field.
 
-![WordPress YOOessentials Settings](./assets/wordpress-settings.png)
+![Essentials Settings](./assets/wordpress-settings.png)

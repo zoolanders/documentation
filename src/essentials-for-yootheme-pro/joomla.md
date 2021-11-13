@@ -8,7 +8,7 @@ Download the Free or Premium `Essentials_YOOthemePro_{version}_j3.zip` package f
 
 Follow the official [Joomla](https://docs.joomla.org/Installing_an_extension) plugin installation guide and make sure a plugin named `Essential Addons for YOOtheme Pro` is listed and enabled in the Joomla Plugins control panel, if not, enabled it manually.
 
-![Joomla Plugin](./assets/joomla-plugin.png)
+![Essentials Plugin](./assets/joomla-plugin.png)
 
 > The plugin will be installed under the `plugins/system/yooessentials` directory.
 

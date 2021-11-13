@@ -73,7 +73,7 @@ return [
 
 Loaders are usually created for registering new configurations or registering new ways of doing something with your app.
 
-In YOOessentials, for example, we use the loaders to make it easy to add new **Access Rules** to the `Access` addon.
+In Essentials plugin, for example, we use the loaders to make it easy to add new **Access Rules** to the `Access` addon.
 
 ```php
 class RuleLoader
