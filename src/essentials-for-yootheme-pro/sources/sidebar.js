@@ -21,7 +21,8 @@ module.exports = [
     children: [
       'sources/csv',
       'sources/instagram',
-      'sources/google-sheets'
+      'sources/google-sheets',
+      'sources/database'
     ]
   }
 ]
