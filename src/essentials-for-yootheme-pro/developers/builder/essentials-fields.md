@@ -11,7 +11,7 @@ This is the growing list of fields.
 - [ContentItems](#content-items-field)
 - [Repeatable](#repeatable-field)
 - [RepeatableMulti](#repeatable-multi-field)
-- SettingsPanel
+- [SettingsPanel](#settings-panel-field)
 - SettingsPanels
 - InputDrop
 - SelectDrop
@@ -202,6 +202,122 @@ Here's a complex example, taken from our codebase
             "params": {
               "table_field_path": "table_relations.__index__.related_table"
             }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+### Settings Panel Field
+
+This field is an extended version of the [Content Items Field](#content-items-field). Items in this field can be sorted,
+and the fields inside of this field are declared in a dedicated panel.
+
+It's mostly used in the [Settings Panels Field](#settings-panels-field)
+
+**Extra Configuration Options**
+
+- `panel` The name of the panel to display
+- `emptyMsg` Message to display to the user when no items are set
+- `button` The label of the button used to add items
+
+Example usage:
+
+```json
+{
+  "fields": {
+    "columns": {
+      "label": "Columns",
+      "type": "yooessentials-settings-panel",
+      "panel": "forms-action-save-csv-column",
+      "emptyMsg": "No columns yet.",
+      "button": "Add Field",
+      "description": "List of columns to compose the CSV. Defaults to all fields."
+    }
+  },
+  "panels": {
+    "forms-action-save-csv-column": {
+      "title": "CSV Column",
+      "fields": {
+        "title": {
+          "label": "Title"
+        },
+        "field": {
+          "label": "Field",
+          "type": "yooessentials-form-control-select"
+        }
+      }
+    }
+  }
+}
+```
+
+
+### Settings Panels Field
+
+This is an extended version of the [Setting Panel Field](#settings-panel-field), where the panels can be more than one,
+and can be opened in a dedicated model.
+
+This is widely used in all YOOessentials Addons, and it's very versatile.
+It powers the "Create actions" panel in the Form Addon, and the "Create new Source" settings in the Sources Addon.
+
+**Extra Configuration Options**
+
+Same as the [Setting Panel Field](#settings-panel-field) plus:
+- `modal` Set this to true if the settings should be opened in a dedicated panel instead of in the sidebar as per default
+- `options`: List of the various panels, see example below
+
+```json
+{
+  "fields": {
+    "after_submit_actions": {
+      "label": "After Submit Actions",
+      "button": "Add Action",
+      "options": {
+        "action-name-1": {
+          "title": {
+            "default": "Action Name 1",
+            "prop": "name"
+          },
+          "panel": "action-panel-1"
+        },
+        "action-name-2": {
+          "title": {
+            "default": "Action Name 2",
+            "prop": "name"
+          },
+          "panel": "action-panel-2"
+        }
+      },
+      "emptyMsg": "Add Action",
+      "modal": true,
+      "type": "yooessentials-settings-panels",
+      "description": "Set the actions to be executed after a form has been successfully submitted."
+    },
+    "panels": {
+      "action-panel-1": {
+        "title": "CSV Column",
+        "fields": {
+          "title": {
+            "label": "Title"
+          },
+          "field": {
+            "label": "Field",
+            "type": "yooessentials-form-control-select"
+          }
+        }
+      },
+      "action-panel-2": {
+        "title": "CSV Column",
+        "fields": {
+          "title": {
+            "label": "Title"
+          },
+          "field": {
+            "label": "Field",
+            "type": "yooessentials-form-control-select"
           }
         }
       }
