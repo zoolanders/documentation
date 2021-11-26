@@ -62,12 +62,12 @@ UIkit.ready(function() {
 
   // local
   UIkit.util.on('#form-id', 'form:submission-error', function (e, ctx) {
-    // ctx = {error}
+    // ctx = {error, errors, validation}
   });
 
   // global
   UIkit.util.on('#form-id', 'yooessentials-form:submission-error', function (e, ctx) {
-    // ctx = {form, error}
+    // ctx = {form, error, errors, validation}
   });
 
 });
