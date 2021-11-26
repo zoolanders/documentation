@@ -17,16 +17,20 @@ Each form triggers JavaScript events for which is possible to add listeners and 
 Triggers before submission allowing to prevent the action.
 
 ```js
-// local
-UIkit.util.on('#form-id', 'form:submit', function (e) {
-  // e.preventDefault();
-});
+UIkit.ready(function() {
 
-// global
-UIkit.util.on(document, 'yooessentials-form:submit', function (e, ctx) {
-  // ctx = {form}
-  // e.preventDefault();
-});
+  // local
+  UIkit.util.on('#form-id', 'form:submit', function (e) {
+    // e.preventDefault();
+  });
+
+  // global
+  UIkit.util.on(document, 'yooessentials-form:submit', function (e, ctx) {
+    // ctx = {form}
+    // e.preventDefault();
+  });
+
+})
 ```
 
 ### On Submitted
@@ -34,14 +38,18 @@ UIkit.util.on(document, 'yooessentials-form:submit', function (e, ctx) {
 Triggers after submission, preventing the action is no longer possible.
 
 ```js
-// local
-UIkit.util.on('#form-id', 'form:submitted', function (e, ctx) {
-  // ctx = {response}
-});
+UIkit.ready(function() {
 
-// global
-UIkit.util.on(document, 'yooessentials-form:submitted', function (e, ctx) {
-  // ctx = {form, response}
+  // local
+  UIkit.util.on('#form-id', 'form:submitted', function (e, ctx) {
+    // ctx = {response}
+  });
+
+  // global
+  UIkit.util.on(document, 'yooessentials-form:submitted', function (e, ctx) {
+    // ctx = {form, response}
+  });
+
 });
 ```
 
@@ -50,13 +58,17 @@ UIkit.util.on(document, 'yooessentials-form:submitted', function (e, ctx) {
 Trigger on submission error and validation error.
 
 ```js
-// local
-UIkit.util.on('#form-id', 'form:submission-error', function (e, ctx) {
-  // ctx = {error}
-});
+UIkit.ready(function() {
 
-// global
-UIkit.util.on('#form-id', 'yooessentials-form:submission-error', function (e, ctx) {
-  // ctx = {form, error}
+  // local
+  UIkit.util.on('#form-id', 'form:submission-error', function (e, ctx) {
+    // ctx = {error}
+  });
+
+  // global
+  UIkit.util.on('#form-id', 'yooessentials-form:submission-error', function (e, ctx) {
+    // ctx = {form, error}
+  });
+
 });
 ```
