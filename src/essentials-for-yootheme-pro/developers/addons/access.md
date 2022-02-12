@@ -1,6 +1,8 @@
-# Custom Rules
+# Access
 
-## Create a Custom Rule
+The Access addon is encapsulated as a YOOtheme Pro Module located at `plugins/system/yooessentials/modules/access` in Joomla and `wp-content/plugins/yooessentials/modules/access` in WordPress.
+
+## Custom Rule
 
 Start by creating a custom Class and store it into a [child theme or a custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
 

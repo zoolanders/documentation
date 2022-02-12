@@ -11,18 +11,8 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'first-source'
-    ]
-  },
-  {
-    title: 'Sources',
-    collapsable: false,
-    sidebarDepth: 0,
-    children: [
-      'sources/csv',
-      'sources/instagram',
-      'sources/google-sheets',
-      'sources/database'
+      'getting-started',
+      'sources'
     ]
   }
 ]

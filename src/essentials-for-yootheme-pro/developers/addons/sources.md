@@ -1,11 +1,15 @@
-# Custom Sources
+# Sources
 
-## Create a new Source Provider
+The Sources addon is encapsulated as a YOOtheme Pro Module located at `plugins/system/yooessentials/modules/source` in Joomla and `wp-content/plugins/yooessentials/modules/source` in WordPress.
+
+The main advantages of YOOessential sources is that they can offer different "instances" of the same source type. For example, our `CsvSource` allows the administrator to create different, individual Dynamic Content Sources, one for each CSV file he wants. All of these use the same `Source` class, that dinamically registers new Dynamic Contend Sources based on the admin configurations.
+
+## Custom Source Provider
 
 A Source Provider is a [YOOtheme Pro module](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) that
 registers a source to the Source Manager and provides everything required for its workflow.
 
-Let's start by creating a `bootstrap.php`
+Let's start by creating a `bootstrap.php` file.
 
 ```php
 <?php

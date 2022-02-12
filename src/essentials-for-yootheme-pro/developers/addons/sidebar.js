@@ -6,12 +6,14 @@ module.exports = [
     ]
   },
   {
-    title: 'Access',
+    title: 'Addons',
     collapsable: false,
     sidebarDepth: 3,
     children: [
       '',
-      'custom-rules'
+      'forms',
+      'sources',
+      'access',
     ]
   }
 ]

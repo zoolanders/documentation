@@ -1,6 +1,4 @@
-# How To
-
-## Set a Custom Collection
+# Custom Collections
 
 Place your icons collection in `media/yooessentials/icons/` for Joomla or `wp-content/yooessentials/icons` for WordPress under a namespaced folder, e.g. `my-collection`. The collection will be automatically picked up and displayed among the other collections in the icons picker Modal.
 
@@ -15,26 +13,4 @@ You can optionally place a `my-collection.json` file beside the folder and write
   "title": "My Collection",
   "groups": ["group-a", "group-b"]
 }
-```
-
-## Distribute Collections
-
-If you want to reuse your custom icon collections across projects, place them into a plugin folder and specify the path by extending the `Icons` class.
-
-```php
-<?php
-
-use ZOOlanders\YOOessentials\Icons;
-
-return [
-
-  'extend' => [
-
-    Icons::class => function (Icons $icons, $app) {
-      $icons->addCollectionsDir('/dir/to/myplugin/collections');
-    }
-
-  ]
-
-];
 ```

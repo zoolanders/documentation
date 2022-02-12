@@ -11,17 +11,18 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'collections',
-      'myicons'
+      'getting-started',
+      'collections'
     ]
   },
   {
-    title: 'Developers',
+    title: 'Advanced',
     collapsable: false,
     sidebarDepth: 3,
     children: [
-      'extending',
-      'howto'
+      'myicons',
+      'custom-collections',
+      'distribute-collections'
     ]
   }
 ]

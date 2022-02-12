@@ -1,10 +1,4 @@
----
-sidebarDepth: 1
----
-
-# Getting Started
-
-## Introduction
+# Introduction
 
 While [YOOtheme Pro official documentation](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) is great, it doesn't cover everything the Framework of YOOtheme Pro can do.
 

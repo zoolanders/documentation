@@ -10,7 +10,25 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 3,
     children: [
-      '',
+      ''
+    ]
+  },
+  {
+    title: 'Modules',
+    collapsable: false,
+    sidebarDepth: 3,
+    children: [
       'loaders'
     ]
-  }]
+  },
+  {
+    title: 'Builder',
+    collapsable: false,
+    sidebarDepth: 3,
+    children: [
+      'builder',
+      'builder-fields',
+      'builder-essentials-fields'
+    ]
+  }
+]

@@ -5,8 +5,8 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'joomla',
-      'wordpress',
+      'installation',
+      'updating',
       'settings'
     ]
   },
@@ -25,13 +25,10 @@ module.exports = [
   {
     title: 'Developers',
     collapsable: false,
-    sidebarDepth: 2,
+    sidebarDepth: 3,
     children: [
       ['developers/core/', 'Core'],
-      ['developers/builder/', 'Builder'],
-      ['developers/access/', 'Access'],
-      ['developers/form/', 'Form'],
-      ['developers/source/', 'Source'],
+      ['developers/addons/', 'Addons']
     ]
   }
 ]

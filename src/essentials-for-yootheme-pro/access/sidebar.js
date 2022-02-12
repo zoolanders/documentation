@@ -8,11 +8,11 @@ module.exports = [
   {
     title: 'Access Addon',
     collapsable: false,
-    sidebarDepth: 3,
+    sidebarDepth: 2,
     children: [
       '',
-      'configuration',
+      'getting-started',
       'rules'
     ]
-  },
+  }
 ]
