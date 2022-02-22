@@ -67,11 +67,11 @@ UIkit.ready(function() {
 });
 ```
 
+## Custom After Submit Action
 
-## Custom Action
+Let's create a custom [After Submit Action](../../forms/actions.html) by declaring a custom Class and store it into a child theme or a custom plugin.
 
-Let's create a custom [After Submit Action](..../forms/actions.html).
-Start by creating a custom Class and store it into a child theme or a custom plugin. The class has to implement the `ZOOlanders\YOOessentials\Form\Actions\Action` interface. To make things easier, we also provide the `ZOOlanders\YOOessentials\Form\Actions\StandardAction` base class that provides some basics to start with name, configurations, etc.
+The class has to implement the `ZOOlanders\YOOessentials\Form\Actions\Action` interface. To make things easier, we also provide the `ZOOlanders\YOOessentials\Form\Actions\StandardAction` base class that provides some basics to start with name, configurations, etc.
 
 ```php
 <?php

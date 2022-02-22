@@ -17,10 +17,11 @@ module.exports = [
   {
     title: 'Form Area',
     collapsable: false,
-    sidebarDepth: 3,
+    sidebarDepth: 2,
     children: [
-      'configuration',
-      'elements'
+      'settings',
+      'fields',
+      'actions'
     ]
   }
 ]

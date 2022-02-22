@@ -1,6 +1,8 @@
-# Elements
+# Fields
 
-The Layout Builder is extended with a collection of ready-to-use Form Field elements. Among them, the Fields meant to input data have to be unique identified using a `Control Name` setting. The control name will then reference.  Each Field element has its purpose, input data, prevent spam, submit a form, among others.
+A collection of Form Fields are available as part of the YOOtheme Pro layout builder elements. Each with its own purpose and scope will allow you to collect submitted data, prevent spam or simply submit the form.
+
+The Field Elements meant to input data must be associated with a Control Name, which is a reference to it submitted data.
 
 ## Data Input
 

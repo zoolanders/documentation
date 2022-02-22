@@ -8,7 +8,7 @@ module.exports = [
   {
     title: 'Addons',
     collapsable: false,
-    sidebarDepth: 3,
+    sidebarDepth: 1,
     children: [
       '',
       'forms',
