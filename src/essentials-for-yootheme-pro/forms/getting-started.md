@@ -19,7 +19,7 @@ Access the Form Area configuration panel and add a `Message` action. The action 
     - Subject: `Thank You!`
     - Body: `Thank You {user_name}!`
   - **Action type**: `Save to CSV`
-    - Path: `~theme/my-form-submissions.csv`
+    - Path: `csv-submissions.csv`
 
 Once the actions are set go back to the builder's Main layout configuration and add two Input Form elements in the Form Area. Access the newly created elements settings and set the `Control` field as `user_name` for the first and `user_email` for the second, set the Label fields accordingly, and leave the rest as default.
 
