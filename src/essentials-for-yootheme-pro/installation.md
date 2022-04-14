@@ -2,7 +2,7 @@
 
 ## Joomla
 
-Download the Free or Premium `Essentials_YOOthemePro_{version}_j3.zip` package from [ZOOlanders Downloads](https://www.zoolanders.com/downloads).
+Download the Free or Premium `Essentials_YOOthemePro_{version}_joomla.zip` package from [ZOOlanders Downloads](https://www.zoolanders.com/downloads).
 
 > A Premium version will be available only if you have a valid subscription and are logged in.
 
