@@ -6,8 +6,7 @@ module.exports = [
     children: [
       '',
       'installation',
-      'updating',
-      'settings'
+      'updating'
     ]
   },
   {
