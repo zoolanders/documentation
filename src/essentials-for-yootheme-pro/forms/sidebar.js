@@ -11,7 +11,8 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'getting-started'
+      'getting-started',
+      'faq',
     ]
   },
   {
