@@ -12,6 +12,8 @@ module.exports = {
     docsBranch: 'master',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
+    activeHeaderLinks: false,
+    displayAllHeaders: true,
     nav: [
       {
         text: 'ZOO',
