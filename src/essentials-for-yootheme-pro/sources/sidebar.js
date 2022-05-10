@@ -11,7 +11,6 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'getting-started',
       'sources'
     ]
   }
