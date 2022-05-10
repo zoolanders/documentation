@@ -32,9 +32,9 @@ At this point the new source should become available as part of the _Dynamic Con
 
 During the Dynamic Content selection you will be able to Filter and Order the records by it field content based on static or dynamic values. For example, you could filter the records to only show the ones belonging to the current user.
 
-## Google Sheets
+## Google Sheet
 
-This source allows you to create content from **a Google Sheets spreadsheets**. The spreadsheet **must have a header**, which means the first line of the sheet must contain the column names that will be used as the field name during the content mapping.
+This source allows you to create content from a **Google Drive Spreadsheet**. The spreadsheet **must have a header**, which means the first line of the sheet must contain the column names that will be used as the field name during the content mapping.
 
 1. Access the `Essentials -> Content Sources` section in the YOOtheme Pro Customizer.
 1. Create a new source of a type `Google Sheet`.
