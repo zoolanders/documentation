@@ -34,20 +34,20 @@ This source has a cache set to `3600` seconds by default, if your workflow requi
 
 This source is based on a Google Drive Spreadsheet. The spreadsheet must have a header, which means the first line must contain the column names that will be used as the field name during the content mapping. The following lines represent the records.
 
-Once the source has been created, as instructed in the [Getting Started](../sources/#getting-started) guide, you will be able to map its contents to any Builder element. Notice that this source doesn't support filter or ordering, being that determined by the Spreadsheet it self.
+Once the source has been created, as instructed in the [Getting Started](../sources/#getting-started) guide, you will be able to map its contents to any Builder element. Notice that this source doesn't support filtering or ordering, which is determined by the Spreadsheet itself.
 
 ::: tip
-This source has a cache set to `3600` seconds by default, if your workflow requires immediate results you could disable the cache by setting it to `0`, but being this an API driven source it is not recommended and you should consider using a CSV or Database source instead.
+This source has a cache set to `3600` seconds by default, if your workflow requires immediate results you could disable the cache by setting it to `0`, but being this an API-driven source it is not recommended and you should consider using a CSV or Database source instead.
 :::
 
 ## Instagram
 
-This source is based on Media from Personal and Business Instagram accounts. A Personal account will allow you to display the images from your own Instagram account, but not from any of the Facebook pages you manage. The Professional account will instead allow you to display media from Facebook pages associated with a Instagram account, but not any of your Personal ones. If you have both, simply create two or more sources.
+This source is based on Media from Personal and Business Instagram accounts. A Personal account will allow you to display the images from your own Instagram account, but not from any of the Facebook pages you manage. The Professional account will instead allow you to display media from Facebook pages associated with an Instagram account, but not any of your Personal ones. If you have both, simply create two or more sources.
 
 Once the source has been created, as instructed in the [Getting Started](../sources/#getting-started) guide, you will be able to map its contents to any Builder element,
 
 ::: tip
-This source requires granting permission to the _ZOOlanders OAuth App_, but you can also create your own Facebok app and use it instead.
+This source requires granting permission to the _ZOOlanders OAuth App_, but you can also create your Facebook App and use it instead.
 :::
 
 ::: tip
@@ -55,5 +55,5 @@ If using Instagram Business you must link the account to a Facebook Page first, 
 :::
 
 ::: tip
-This source has a cache set to `3600` seconds by default, if your workflow requires immediate results disable the cache by setting it to `0`, but being this an API driven source it is not recommended.
+This source has a cache set to `3600` seconds by default, if your workflow requires immediate results disable the cache by setting it to `0`, but being this an API-driven source it is not recommended.
 :::
