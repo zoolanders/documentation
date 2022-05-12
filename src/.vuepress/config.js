@@ -58,7 +58,7 @@ module.exports = {
           {
             text: 'Developers',
             items: [
-              { text: 'Core', link: '/essentials-for-yootheme-pro/developers/core/' },
+              { text: 'Core Concepts', link: '/essentials-for-yootheme-pro/developers/core/' },
             ]
           }
         ]
