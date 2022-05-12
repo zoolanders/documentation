@@ -14,3 +14,25 @@ You can optionally place a `my-collection.json` file beside the folder and write
   "groups": ["group-a", "group-b"]
 }
 ```
+
+## Distribute Collections
+
+If you want to reuse your collections across projects you can wrap them into a custom plugin and specify the path by extending the `Icons` class.
+
+```php
+<?php
+
+use ZOOlanders\YOOessentials\Icons;
+
+return [
+
+  'extend' => [
+
+    Icons::class => function (Icons $icons, $app) {
+      $icons->addCollectionsDir('/dir/to/myplugin/collections');
+    }
+
+  ]
+
+];
+```

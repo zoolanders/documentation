@@ -11,18 +11,16 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'getting-started',
       'collections'
     ]
   },
   {
     title: 'Advanced',
     collapsable: false,
-    sidebarDepth: 3,
+    sidebarDepth: 0,
     children: [
       'myicons',
-      'custom-collections',
-      'distribute-collections'
+      'custom-collections'
     ]
   }
 ]
