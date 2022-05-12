@@ -29,10 +29,11 @@ jobs:
           name: dist
           path: dist
 
-      - uses: isthatcentered/dist-to-ftp@master
+      - uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          host: zoolanders.com
-          user: docs@zoolanders.com
+          server: zoolanders.com
+          username: docs@zoolanders.com
           password: ${{ secrets.FTP_PASSWORD }}
-          path: dist
-          into: ./
+          local-dir: ./dist/
+          server-dir: ./
+          dangerous-clean-slate: true
