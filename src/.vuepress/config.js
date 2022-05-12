@@ -12,7 +12,7 @@ module.exports = {
     docsBranch: 'master',
     editLinks: true,
     editLinkText: 'Help us improve this page!',
-    activeHeaderLinks: false,
+    // activeHeaderLinks: false,
     displayAllHeaders: true,
     nav: [
       {
