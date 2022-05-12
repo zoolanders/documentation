@@ -1,73 +1,4 @@
-# Forms
-
-The Forms addon is encapsulated as a YOOtheme Pro Module located at `plugins/system/yooessentials/modules/form` in Joomla and `wp-content/plugins/yooessentials/modules/form` in WordPress. It's possible to extend the Form in several ways, by creating a custom form element, a custom action or even hook into several Javascript events.
-
-## JavaScript Events
-
-Each form triggers JavaScript events for which is possible to add listeners and perform custom actions.
-
-### On Submit
-
-Triggers before submission allowing to prevent the action.
-
-```js
-UIkit.ready(function() {
-
-  // local
-  UIkit.util.on('#form-id', 'form:submit', function (e) {
-    // e.preventDefault();
-  });
-
-  // global
-  UIkit.util.on(document, 'yooessentials-form:submit', function (e, ctx) {
-    // ctx = {form}
-    // e.preventDefault();
-  });
-
-})
-```
-
-### On Submitted
-
-Triggers after submission, preventing the action is no longer possible.
-
-```js
-UIkit.ready(function() {
-
-  // local
-  UIkit.util.on('#form-id', 'form:submitted', function (e, ctx) {
-    // ctx = {response}
-  });
-
-  // global
-  UIkit.util.on(document, 'yooessentials-form:submitted', function (e, ctx) {
-    // ctx = {form, response}
-  });
-
-});
-```
-
-### On Submission Error
-
-Trigger on submission error and validation error.
-
-```js
-UIkit.ready(function() {
-
-  // local
-  UIkit.util.on('#form-id', 'form:submission-error', function (e, ctx) {
-    // ctx = {error, errors, validation}
-  });
-
-  // global
-  UIkit.util.on('#form-id', 'yooessentials-form:submission-error', function (e, ctx) {
-    // ctx = {form, error, errors, validation}
-  });
-
-});
-```
-
-## Custom After Submit Action
+# Custom After Submit Action
 
 Let's create a custom [After Submit Action](../../forms/actions.html) by declaring a custom Class and store it into a child theme or a custom plugin.
 
@@ -96,7 +27,7 @@ class MyCustomAction extends StandardAction
 }
 ```
 
-You then need to register each action by adding it to a `yooessentials-form-actions` key of your `config.php` or `bootstrap.php` file of your [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality) / [custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
+Register each action by adding it to a `yooessentials-form-actions` key of your `config.php` or `bootstrap.php` file of your [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality) / [custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
 
 
 ```php
@@ -113,9 +44,9 @@ return [
 ];
 ```
 
-And you're done!
+And we're done!
 
-Here's an example `config.json` file for your, but this can be any yootheme-based config file, even a `config.php` one!
+Here's an example `config.json` file, but this can be any yootheme-based config file, even a `config.php` one!
 
 ```json
 {

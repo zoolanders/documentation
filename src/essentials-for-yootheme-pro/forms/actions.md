@@ -1,6 +1,6 @@
 # After Submit Actions
 
-After Submit Actions are multi-instance actions that will run consequently only if a form has been successfully submitted. Forms has in built actions ready to use, but sometimes the best workaround is to create a [Custom After Submit Action](../developers/addons/forms.html#custom-after-submit-action).
+After Submit Actions are multi-instance actions that will run consequently only if a form has been successfully submitted. Forms has in built actions ready to use, but sometimes the best workaround is to create a [Custom After Submit Action](./advanced/custom-action).
 
 ## Email
 

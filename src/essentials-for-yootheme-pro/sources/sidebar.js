@@ -10,8 +10,26 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 3,
     children: [
-      '',
-      'sources'
+      ''
+    ]
+  },
+  {
+    title: 'Sources',
+    collapsable: false,
+    sidebarDepth: 1,
+    displayAllHeaders: false,
+    children: [
+      'sources/media',
+      'sources/structured',
+      'sources/others'
+    ]
+  },
+  {
+    title: 'Advanced',
+    collapsable: false,
+    sidebarDepth: 2,
+    children: [
+      'advanced/custom-source'
     ]
   }
 ]

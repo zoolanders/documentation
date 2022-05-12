@@ -19,8 +19,8 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 0,
     children: [
-      'myicons',
-      'custom-collections'
+      'advanced/myicons',
+      'advanced/custom-collections'
     ]
   }
 ]

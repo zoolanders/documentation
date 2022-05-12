@@ -26,8 +26,7 @@ module.exports = [
     collapsable: false,
     sidebarDepth: 3,
     children: [
-      ['developers/core/', 'Core'],
-      ['developers/addons/', 'Addons']
+      ['developers/core/', 'Core Concepts']
     ]
   }
 ]

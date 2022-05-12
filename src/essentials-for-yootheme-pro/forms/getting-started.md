@@ -26,5 +26,5 @@ Once the actions are set go back to the builder's Main layout configuration and 
 Finally, set a Form Submit Button element and submit the form inputting a name and email. If the submission is successful a modal will be greeting you with a personalized message! Additionally, two emails have been sent and the submitted data saved to a CSV file. Good job!
 
 ::: tip
-When an element is enabled as a Form Area, the form Configuration panel becomes available in the Advanced Tab settings, and a Form Area Icon will be displayed to mark the area as enabled. Notice that the Icon acts as a shortcut as well, if you click it, it will open the Form Area configuration panel directly.
+When a section or column is enabled as a Form Area an `paper-airplane` icon will be displayed in the Builder to mark the element as submission ready. The icon acts as a shortcut as well, if you click it, it will open directly the Form Area configuration panel.
 :::

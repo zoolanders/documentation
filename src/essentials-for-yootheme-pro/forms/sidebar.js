@@ -24,5 +24,14 @@ module.exports = [
       'fields',
       'actions'
     ]
+  },
+  {
+    title: 'Advanced',
+    collapsable: false,
+    sidebarDepth: 2,
+    children: [
+      'advanced/form-hooks',
+      'advanced/custom-action'
+    ]
   }
 ]
