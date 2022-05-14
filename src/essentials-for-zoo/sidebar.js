@@ -5,7 +5,8 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'translation'
+      'translation',
+      'upgrade-zoo4'
     ]
   },
   {
