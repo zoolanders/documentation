@@ -1,6 +1,6 @@
 # SEO
 
-ZOOlanders Essentials adds several SEO improvements, disabled by default, leaving up to you to decide when and what best works for your project. The settings are to be found in the ZOOlanders ZOOseo Plugin configuration:
+Essentials adds several SEO improvements, disabled by default, leaving up to you to decide when and what best works for your project. The settings are to be found in the _ZOO SEO - Essentials_ plugin configuration:
 
 - `Category path in URL`: If enabled it will generate the url using the category structure, the **item**/**category** is in, removing the `/category` and `/item` and limiting the alias conflicts between category/items to the same level. The resulting URL could look like `/baseurl/category/sub-category/sub-sub-category/item-alias`.
 - `Remove /item`: If enabled the `/item` part will be removed from the generated SEF urls.

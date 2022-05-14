@@ -6,8 +6,6 @@ Setting the Category/Item Metadata individually is most of the times not possibl
 
 Locate the **ZOOseo Metadata Item** layout in your ZOO App Type configuration:
 
-![ZOOseo - Item Metadata Layout](./images/item-metadata-layout.png)
-
 Drag & Drop the elements you would like to render for each one of the Metadata positions:
 
 - `Title`: The page title.
