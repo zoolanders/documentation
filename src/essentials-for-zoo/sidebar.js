@@ -74,7 +74,6 @@ module.exports = [
   {
     title: 'Archive',
     collapsable: false,
-    sidebarDepth: 2,
     children: [
       ['archive/events/', 'Events'],
       ['archive/zoocart/', 'ZOOcart'],
