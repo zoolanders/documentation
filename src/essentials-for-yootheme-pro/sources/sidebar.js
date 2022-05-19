@@ -19,9 +19,14 @@ module.exports = [
     sidebarDepth: 1,
     displayAllHeaders: false,
     children: [
-      'sources/media',
-      'sources/structured',
-      'sources/others'
+      'sources/database',
+      'sources/csv',
+      'sources/google-sheet',
+      'sources/instagram',
+      'sources/youtube',
+      'sources/tiktok',
+      'sources/vimeo',
+      'sources/google-business-profile',
     ]
   },
   {
