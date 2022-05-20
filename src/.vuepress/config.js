@@ -31,10 +31,11 @@ module.exports = {
           {
             text: 'Addons',
             items: [
-              { text: 'Sources', link: '/essentials-for-yootheme-pro/sources/' },
               { text: 'Forms', link: '/essentials-for-yootheme-pro/forms/' },
+              { text: 'Sources', link: '/essentials-for-yootheme-pro/sources/' },
               { text: 'Access', link: '/essentials-for-yootheme-pro/access/' },
               { text: 'Icons', link: '/essentials-for-yootheme-pro/icons/' },
+              { text: 'Layouts', link: '/essentials-for-yootheme-pro/layouts/' },
               { text: 'Elements', link: '/essentials-for-yootheme-pro/elements/' }
             ]
           },
@@ -56,6 +57,7 @@ module.exports = {
       '/essentials-for-yootheme-pro/sources/': require('../essentials-for-yootheme-pro/sources/sidebar.js'),
       '/essentials-for-yootheme-pro/forms/': require('../essentials-for-yootheme-pro/forms/sidebar.js'),
       '/essentials-for-yootheme-pro/access/': require('../essentials-for-yootheme-pro/access/sidebar.js'),
+      '/essentials-for-yootheme-pro/layouts/': require('../essentials-for-yootheme-pro/layouts/sidebar.js'),
       '/essentials-for-yootheme-pro/icons/': require('../essentials-for-yootheme-pro/icons/sidebar.js'),
       '/essentials-for-yootheme-pro/elements/': require('../essentials-for-yootheme-pro/elements/sidebar.js'),
       '/essentials-for-yootheme-pro/developers/core/': require('../essentials-for-yootheme-pro/developers/core/sidebar.js'),
