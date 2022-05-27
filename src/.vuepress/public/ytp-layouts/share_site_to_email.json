@@ -1,0 +1,40 @@
+{
+  "type": "section",
+  "name": "Share To Email",
+  "children": [
+      {
+          "type": "row",
+          "children": [
+              {
+                  "type": "column",
+                  "children": [
+                      {
+                          "type": "yooessentials_social_sharing",
+                          "children": [
+                              {
+                                  "type": "yooessentials_social_sharing_mailto",
+                                  "props": {
+                                      "email_subject": "Check this out!"
+                                  },
+                                  "source": {
+                                      "query": {
+                                          "name": "yooessentials_request"
+                                      },
+                                      "props": {
+                                          "email_body": {
+                                              "filters": {
+                                                  "before": "I want to share with you this cool site "
+                                              },
+                                              "name": "href"
+                                          }
+                                      }
+                                  }
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

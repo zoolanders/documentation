@@ -11,7 +11,18 @@ module.exports = [
     sidebarDepth: 3,
     children: [
       '',
-      'elements'
+      'faq'
+    ]
+  },
+  {
+    title: 'Elements',
+    displayAllHeaders: false,
+    collapsable: false,
+    sidebarDepth: 1,
+    children: [
+      'elements/chart',
+      'elements/socialsharing',
+      'elements/markdown'
     ]
   }
 ]
