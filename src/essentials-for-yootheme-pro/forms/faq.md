@@ -4,15 +4,31 @@ sidebarDepth: 1
 
 # F.A.Q.
 
-## Why the Form doesn't submit properly?
+## Why the submission is failing?
 
-If you see that even after configuring your form correctly and setting some actions, the form doesn't submit correctly and you don't have any visual feedback on the form itself regarding the error, it could be because of some issues in your .htaccess rules.
+If after configuring the form and setting some actions the submission fails to execute correctly, it could be related to PHP underlying errors or server configuration.
 
-The best way to debug this is to check if 
-- In your browser console, you see a redirect happening on the Submit request of the form
-- If you have a rule in your .htaccess that deals with removing / adding the trailing slash from the url.
+### With errors visualy displayed
 
-If this is the case, you can either remove said .htaccess rule, or make it more specific, for example by restricting the redirect to only happen in GET requests, like so:
+The form displays a `Submission Failed` error without any further details, is most likely a supressed PHP error. In order to get more insights about it you can:
+
+- Check the server PHP recent error logs.
+- Open the Customizer and submit the form again making sure _Error Reporting_ is enabled.
+
+::: tip
+Error reporting can be enabled in Joomla Global `configuration` or in WordPress `wp-config.php` file.
+:::
+
+### With no errors visualy displayed
+
+The form does not display any visual feedback regarding the error, it could be the `.htaccess` redirecting the `post` request.
+
+The best way to debug this is to check if:
+
+- In the browser console check if a request redirect is happening when the form is submitted.
+- In the `.htaccess` check if there is any rule that is affecting the `url`, eg removing/adding a trailing slash.
+
+If this is the case, you can either remove such rule, or make it more specific, for example by restricting the redirect to only affect GET requests, like so:
 
 **before**
 ```
@@ -28,7 +44,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_METHOD} GET
 RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 ```
-
 
 ## Why emails are not being sent?
 
