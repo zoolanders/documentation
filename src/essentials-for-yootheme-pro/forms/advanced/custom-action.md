@@ -1,8 +1,11 @@
 # Custom After Submit Action
 
-Let's create a custom [After Submit Action](../../forms/actions.html) by declaring a custom Class and store it into a child theme or a custom plugin.
+Actions are very handy to customize the workflow of a form, add extra validation, append or change data on the fly, or send it to a 3rd party service... is the heart of the submission workflow and you have the wheels. So let's take control and create a custom [After Submit Action](../../forms/actions.html).
 
-The class has to implement the `ZOOlanders\YOOessentials\Form\Actions\Action` interface. To make things easier, we also provide the `ZOOlanders\YOOessentials\Form\Actions\StandardAction` base class that provides some basics to start with name, configurations, etc.
+An Action is a class executed during the after-submission process. We will declare it in a YOOtheme Pro Module,
+if you are not familiar with those please review [YOOtheme Pro Documentation](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) first.
+
+The class has to implement the `ZOOlanders\YOOessentials\Form\Actions\Action` interface. To make things easier, we also provide the `ZOOlanders\YOOessentials\Form\Actions\StandardAction` base class that should be extended.
 
 ```php
 <?php
@@ -22,12 +25,34 @@ class MyCustomAction extends StandardAction
         // This is the user submitted data
         $data = $response->submission()->data();
 
+        // by calling $next() the next action in queue will
+        // be exexuted recieving the altered response
         return $next($response->withData([]));
     }
 }
 ```
 
-Register each action by adding it to a `yooessentials-form-actions` key of your `config.php` or `bootstrap.php` file of your [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality) / [custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
+Besides a `Class`, each Action requires a `config.json` or `config.php` file that will declare the name, icon, and fields of the action for its configuration. Here's an example that is very similar to that of an `element.json` as is based on the same config creation workflow.
+
+```json
+{
+    "name": "my-custom-action",
+    "title": "My Custom Action",
+    "icon": "${url:~root/path/to/icon.svg}",
+    "fields": {
+        "name": {
+            "label": "Action Name",
+            "description": "A name to identify this action."
+        },
+        "foo": {
+            "label": "Foo",
+            "description": "An example field for you"
+        }
+    }
+}
+```
+
+Finally, each action must be registered by adding a reference to the `Class` and `Config` to the `yooessentials-form-actions` key of your `config.php` or `bootstrap.php` file of your [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality) / [custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
 
 
 ```php
@@ -44,53 +69,10 @@ return [
 ];
 ```
 
-And we're done!
+## Example Action
 
-Here's an example `config.json` file, but this can be any yootheme-based config file, even a `config.php` one!
+The example actions on [GitHub](https://github.com/joolanders/ytp-form-actions) demonstrates with more details this workflow, simply download it and follow the Getting Started guide from the `README.md`.
 
-```json
-{
-    "name": "my-custom-action",
-    "title": "My Custom Action",
-    "icon": "${url:~root/path/to/icon.svg}",
-    "fields": {
-        "fieldname_js": "${yooessentials.form.fields.fieldname_js}",
-        "conditions": "${yooessentials.form.fields.action_conditions}",
-        "fieldname_tags": {
-            "type": "yooessentials-info",
-            "content": "${yooessentials.form.fields.fieldname_tags}"
-        },
-        "name": {
-            "label": "Action Name",
-            "description": "Define a name to easily identify this action."
-        },
-        "foo": {
-            "label": "Foo",
-            "description": "An example field for you",
-            "type": "text"
-        }
-    },
-    "fieldset": {
-        "default": {
-            "type": "tabs",
-            "fields": [
-                {
-                    "title": "Settings",
-                    "fields": [
-                        "fieldname_tags",
-                        "foo",
-                        "fieldname_js"
-                    ]
-                },
-                {
-                    "title": "Advanced",
-                    "fields": [
-                        "name",
-                        "conditions"
-                    ]
-                }
-            ]
-        }
-    }
-}
-```
+## Included Actions
+
+Essentials core actions are a useful resource to get started when creating a custom action. They can be found in the `modules/form-actions` directory of the Essentials Package.
