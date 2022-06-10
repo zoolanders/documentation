@@ -1,11 +1,8 @@
 # Custom After Submit Action
 
-Actions are very handy to customize the workflow of a form, add extra validation, append or change data on the fly, or send it to a 3rd party service... is the heart of the submission workflow and you have the wheels. So let's take control and create a custom [After Submit Action](../../forms/actions.html).
+Actions are very handy to customize the workflow of a form, add extra validation, append or change data on the fly, or send it to a 3rd party service... is the heart of the submission workflow and you have the wheel. So let's take control and create a custom [After Submit Action](../../forms/actions.html).
 
-An Action is a class executed during the after-submission process. We will declare it in a YOOtheme Pro Module,
-if you are not familiar with those please review [YOOtheme Pro Documentation](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) first.
-
-The class has to implement the `ZOOlanders\YOOessentials\Form\Actions\Action` interface. To make things easier, we also provide the `ZOOlanders\YOOessentials\Form\Actions\StandardAction` base class that should be extended.
+An Action is a `Class` extending a `StandardAction` and executed during the after-submission process, let's declare it in a YOOtheme Pro Module, if you are not familiar with those please review [YOOtheme Pro Documentation](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) first.
 
 ```php
 <?php
@@ -52,7 +49,7 @@ Besides a `Class`, each Action requires a `config.json` or `config.php` file tha
 }
 ```
 
-Finally, each action must be registered by adding a reference to the `Class` and `Config` to the `yooessentials-form-actions` key of your `config.php` or `bootstrap.php` file of your [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality) / [custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
+Finally, each action must be registered by adding a reference to the `Class` and `Config` to the `yooessentials-form-actions` key of the `config.php` or `bootstrap.php` file of a [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality) or [plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
 
 
 ```php
@@ -69,9 +66,9 @@ return [
 ];
 ```
 
-## Example Action
+## Example Actions
 
-The example actions on [GitHub](https://github.com/joolanders/ytp-form-actions) demonstrates with more details this workflow, simply download it and follow the Getting Started guide from the `README.md`.
+The example actions on [GitHub](https://github.com/joolanders/ytp-form-actions) demonstrates with more details this workflow, simply download the repository and follow the Getting Started guide.
 
 ## Included Actions
 
