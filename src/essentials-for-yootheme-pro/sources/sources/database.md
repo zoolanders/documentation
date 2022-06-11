@@ -11,3 +11,7 @@ Relations can get complex and difficult to debug, an alternative is to create a 
 Once the source has been created, as instructed in the [Getting Started](../) guide, you will be able to map its contents to any Builder element, as well as to filter and order its records by a field content with static or dynamic conditions. For example, you could filter the records to only show the ones belonging to the current user using the Site Source as a dynamic value for the filter condition.
 
 The cache is set to `3600` seconds by default, if your workflow requires immediate results disable the cache by setting it to `0`.
+
+## Pagination, Single Views, Routing
+
+Sources don't support routing, meaning that it is not possible to display a view of a single row dynamically, or paginate them. Although it is possible to narrow down rows using dynamic paremeters, e.g. the current user.
