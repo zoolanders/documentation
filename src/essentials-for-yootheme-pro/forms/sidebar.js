@@ -21,8 +21,20 @@ module.exports = [
     sidebarDepth: 2,
     children: [
       'settings',
-      'fields',
-      'actions'
+      'fields'
+    ]
+  },
+  {
+    title: 'Actions',
+    collapsable: false,
+    sidebarDepth: 2,
+    children: [
+      'actions/overview',
+      'actions/email',
+      'actions/message',
+      'actions/redirect',
+      'actions/download',
+      'actions/savetocsv'
     ]
   },
   {

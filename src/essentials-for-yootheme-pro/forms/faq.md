@@ -44,9 +44,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_METHOD} GET
 RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 ```
-
-## Why emails are not being sent?
-
-When dealing with email we must distinguish between **sending** and **delivery**. While we can assure the email has been sent we cannot warranty it has been delivered, as that is beyond our control. Most of the time emails are not delivered because of server misconfiguration, but also because there are simply discarded by the destination server, marked as SPAM, as those don't seem to come from a trusted source.
-
-To rise the delivery rate it is strongly recommended to set up an SMTP server, while for testing purposes we recommend the free service from [Mailtrap](https://mailtrap.io).

@@ -1,4 +1,4 @@
-# Custom After Submit Action
+# Custom Action
 
 Actions are very handy to customize the workflow of a form, add extra validation, append or change data on the fly, or send it to a 3rd party service... is the heart of the submission workflow and you have the wheel. So let's take control and create a custom [After Submit Action](../../forms/actions.html).
 
