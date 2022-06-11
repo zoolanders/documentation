@@ -2,13 +2,11 @@
 sidebarDepth: 1
 ---
 
-# F.A.Q.
-
-## Why the submission is failing?
+# Troubleshooting
 
 If after configuring the form and setting some actions the submission fails to execute correctly, it could be related to PHP underlying errors or server configuration.
 
-### With errors visually displayed
+## An error displays
 
 The form displays a `Submission Failed` error without any further details, it is most likely a suppressed PHP error. To get more insights about it you can:
 
@@ -19,7 +17,7 @@ The form displays a `Submission Failed` error without any further details, it is
 Error reporting can be enabled in Joomla Global `configuration` or in WordPress `wp-config.php` file.
 :::
 
-### With no errors visually displayed
+## No error is displayed
 
 The form does not display any visual feedback regarding the error, it could be the `.htaccess` redirecting the `post` request.
 

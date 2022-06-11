@@ -12,7 +12,7 @@ module.exports = [
     children: [
       '',
       'getting-started',
-      'faq',
+      'troubleshooting',
     ]
   },
   {
