@@ -13,6 +13,7 @@ module.exports = [
       '',
       'getting-started',
       'troubleshooting',
+      'howto'
     ]
   },
   {
@@ -21,20 +22,8 @@ module.exports = [
     sidebarDepth: 2,
     children: [
       'settings',
-      'fields'
-    ]
-  },
-  {
-    title: 'Actions',
-    collapsable: false,
-    sidebarDepth: 2,
-    children: [
-      'actions/overview',
-      'actions/email',
-      'actions/message',
-      'actions/redirect',
-      'actions/download',
-      'actions/savetocsv'
+      'fields',
+      'actions'
     ]
   },
   {
