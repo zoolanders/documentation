@@ -24,7 +24,7 @@ module.exports = {
         items: [
           {
             items: [
-              { text: 'Getting Started', link: '/essentials-for-yootheme-pro/' },
+              { text: 'Getting Started', link: '/essentials-for-yootheme-pro/#introduction' },
               { text: 'Changelog', link: 'https://www.zoolanders.com/essentials-for-yootheme-pro/changelog' }
             ]
           },
