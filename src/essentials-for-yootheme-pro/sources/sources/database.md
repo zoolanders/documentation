@@ -4,7 +4,7 @@ This source is based on a local or external Database Table with support for dyna
 
 ## Configuration
 
-Before being able to use a Database table as a Dynamic Content, a source instance based on it must be created first.
+Before being able to use a Database table as Dynamic Content, a source instance based on it must be created first.
 
 1. Access _**Essentials**_ -> _**Sources**_ section in the YOOtheme Pro Customizer.
 1. Click on the *New Source* button and choose _Database_ from the available sources.
