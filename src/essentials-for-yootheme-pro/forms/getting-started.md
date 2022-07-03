@@ -4,27 +4,27 @@ sidebarDepth: 1
 
 # Getting Started
 
-Setting up a form is as simple as setting any Layout in YOOtheme Pro, in this walkthrough will be guiding you with setting up your first form.
+A Form is essentially a Builder Layout _Section_ or _Column_ enabled as a Form Area. This guide will walk you through the steps of setting up your first Form Area assuming you already are comfortable with the [YOOtheme Pro Builder](https://yootheme.com/support/yootheme-pro/joomla/page-builder) basics.
 
-Start by choosing a `section` or `column` element that will hold our Form Area. In the Advanced settings tab of the chosen element, locate the `Enable as Form Area` checkbox and toggle it. The element has now become a Form Area and is ready to hold form fields, but before doing so let's set an After Submit Action that will show a `Thank You` message.
+## Structure
 
-Access the Form Area configuration panel and add a `Message` action. The action panel will open showing the configuration, write in the message field `Thank You {user_name}!`. Notice the `{user_name}` part, it's a placeholder, a reference to the Submitted Data related to the Input Fields, which we are going to set in the next steps, but before that let's set few more actions.
+1. Create a new Section in the Layout and drop in a _Textarea_ and _Form Button_ elements, access the textarea element configuration, and set the _Control Name_ as _Message_.
+2. Go back to the Section and access it Settings Panel, locate the _Enable as Form Area_ checkbox in the Advanced Tab, and toggle it. Notice that the Configuration button has been enabled.
 
-  - **Action type**: `Email`
-    - Recipient: `your@email.com`
-    - Subject: `New Submission!`
-    - Body: `From: {user_name} ({user_email})`
-  - **Action type**: `Email`
-    - Recipient: `{user_email}`
-    - Subject: `Thank You!`
-    - Body: `Thank You {user_name}!`
-  - **Action type**: `Save to CSV`
-    - Path: `csv-submissions.csv`
+At this point, our Form Area is ready to accept submissions but is missing the logic that would process those. Let's fix that by adding After Submit Actions.
 
-Once the actions are set go back to the builder's Main layout configuration and add two Input Form elements in the Form Area. Access the newly created elements settings and set the `Control` field as `user_name` for the first and `user_email` for the second, set the Label fields accordingly, and leave the rest as default.
+## Actions
 
-Finally, set a Form Submit Button element and submit the form inputting a name and email. If the submission is successful a modal will be greeting you with a personalized message! Additionally, two emails have been sent and the submitted data saved to a CSV file. Good job!
+1. Access the Form Area configuration by pressing the previously enabled button under the Section Advanced settings. Or simply press the Form Area icon.
+2. Locate the Actions field and add a new Action of the type _Message_.
+3. The action panel configuration will open, write in the message field the words `Your message was {Message}!`.
 
-::: tip
-When a section or column is enabled as a Form Area an `paper-airplane` icon will be displayed in the Builder to mark the element as submission ready. The icon acts as a shortcut as well, if you click it, it will open directly the Form Area configuration panel.
+Notice the `{Message}` part, it's what we call [Data Placeholders](./actions.html#data-placeholders), a reference to the Submitted Data by its control name. Use them across Actions to customize the workflow as required.
+
+## Submission
+
+Try and submit the form inputting some text in the textarea, if all went well you should see the submitted text in a Modal. That is our previously set action being triggered after a successful submission. Congrats!
+
+:::tip
+By default Forms will not process or log any data, it's all delegated to the Actions. Your next steps could consider adding an [Email Action](./actions.md#email-action) to send a notification and a [SaveToCSV Action](./actions.md#savetocsv-action) to save the submission data.
 :::
