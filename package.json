@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src",
-    "watch": "npm run dev"
+    "watch": "npm run dev",
+    "checklinks": "npx linkinator ./dist --recursive --skip zoolanders.com"
   },
   "devDependencies": {
     "vuepress": "^1.0.0"
