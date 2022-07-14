@@ -7,6 +7,7 @@ module.exports = [
       '',
       'installation',
       'updating',
+      'settings',
       'faq'
     ]
   },
