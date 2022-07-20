@@ -50,15 +50,19 @@ Renders a standard HTML Input hidden field. Allows submitting static or dynamica
 
 ## Anti Spam
 
-### Google ReCaptcha
+### reCaptcha
 
 Renders a [Google reCAPTCHA](https://developers.google.com/recaptcha/) field, a free service that protects your site from spam and abuse. It uses advanced risk analysis techniques to tell humans and bots apart. It supports both v2 and v3, which helps you detect abusive traffic on your website without user interaction.
 
-![Recaptcha Element](./assets/elements/recaptcha.png)
+![Google reCAPTCHA Field](./assets/elements/recaptcha.png)
+
+### hCaptcha
+
+Renders a [hCaptcha](https://www.hcaptcha.com/) field, a free service that protects your site from spam and abuse while being privacy and security focused. Both Checkbox and Invisible modes supported.
 
 ### Honeypot
 
-A GDPR friendly CAPTCHA alternative for blocking spam that relies on no external services.
+A GDPR friendly CAPTCHA alternative or addition for blocking spam that relies on no external services.
 
 ## Others
 
