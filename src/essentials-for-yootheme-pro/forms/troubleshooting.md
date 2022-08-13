@@ -6,7 +6,7 @@ sidebarDepth: 1
 
 If after configuring the form and setting some actions the submission fails to execute correctly, it could be related to PHP underlying errors or server configuration.
 
-## An error displays
+## Submission Fail With Vague Error
 
 The form displays a `Submission Failed` error without any further details, it is most likely a suppressed PHP error. To get more insights about it you can:
 
@@ -17,7 +17,7 @@ The form displays a `Submission Failed` error without any further details, it is
 Error reporting can be enabled in Joomla Global `configuration` or in WordPress `wp-config.php` file.
 :::
 
-## No error is displayed
+## Submission Fail With No Error
 
 The form does not display any visual feedback regarding the error, it could be the `.htaccess` redirecting the `post` request.
 
@@ -42,3 +42,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_METHOD} GET
 RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 ```
+
+## SPAM
+
+SPAM is a problem which impacts all publicly accessible forms and fighting is complicated by the fact that spammers and bots are constantly evolving their methods. There are a number of solutions you can use to reduce the amount of spam, but note that there’s not any single anti-spam method in the world able to catch 100% of it.
+
+You can find hundreds of different anti-spam techniques and services, being the most popular ones captcha based solutions and the honeypot technique, which we both support and recommend using together. Simply drop reCaptcha or hCatpcha element together with Honeypot element in any form and fulfill the settings. That should considerably reduce the amount, but remember that no solution is definitive.
