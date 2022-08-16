@@ -1,6 +1,6 @@
 # Translating
 
-If you have followed the [Integration Guide](../#integration), your App should be ready for inputing the translations.
+If you have followed the [Integration Guide](../README.md), your App should be ready for inputing the translations.
 
 ::: warning
 Tag translation and translation through Submission is not supported

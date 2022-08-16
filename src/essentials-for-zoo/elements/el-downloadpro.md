@@ -3,7 +3,7 @@
 DownloadPro extends with new features the ZOO Download element. Once the element is set in the Type there are several configuration params that differ from the ZOO ones.
 
 ::: tip
-In order to better understand the following read the [Integration Section](./integration.html).
+In order to better understand the following read the [Integration Section](./integration.md).
 :::
 
 ## Config

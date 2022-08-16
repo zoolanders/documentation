@@ -1,6 +1,6 @@
 # Custom Action
 
-Actions are very handy to customize the workflow of a form, add extra validation, append or change data on the fly, or send it to a 3rd party service... is the heart of the submission workflow and you have the wheel. So let's take control and create a custom [After Submit Action](../../forms/actions.html).
+Actions are very handy to customize the workflow of a form, add extra validation, append or change data on the fly, or send it to a 3rd party service... is the heart of the submission workflow and you have the wheel. So let's take control and create a custom [After Submit Action](../../forms/actions.md).
 
 An Action is a `Class` extending a `StandardAction` and executed during the after-submission process, let's declare it in a YOOtheme Pro Module, if you are not familiar with those please review [YOOtheme Pro Documentation](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) first.
 

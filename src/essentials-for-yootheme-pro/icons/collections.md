@@ -1,6 +1,6 @@
 # Collections
 
-_Icon Collections_ are preset icons under a common topic, and while you can add [custom collections](./custom-collections), this addon distributes the following ones:
+_Icon Collections_ are preset icons under a common topic, and while you can add [custom collections](./advanced/custom-collections.md), this addon distributes the following ones:
 
 - [Ant Design](https://github.com/ant-design/ant-design-icons) - MIT - The abstract trees of the Ant Design SVG icons.
 - [Bootstrap](https://icons.getbootstrap.com) - MIT - Official Bootstrap SVG icon library with over 1,300 icons.

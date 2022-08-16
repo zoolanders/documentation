@@ -1,6 +1,6 @@
 # Getting Started
 
-[Access](https://zoolanders.com/essentials-for-yootheme-pro/access) addon extends YOOtheme Pro builder elements with rendering conditions that will be evaluated against the logic and configuration set by extendable [rules](./rules.md). Let's create our first condition.
+[Access](https://zoolanders.com/essentials-for-yootheme-pro/access) addon extends YOOtheme Pro builder elements with rendering conditions that will be evaluated against the logic and configuration set by extendable rules. Let's create our first condition.
 
 1. In the _Customizer Builder_ add and element to which to apply a restriction.
 1. Access that element _Advanced Tab_ settings.
@@ -18,4 +18,4 @@
 When an element is conditioned a `lock` icon will be displayed in the Builder giving a hint about it. You can click on it to immediately open the conditions panel.
 :::
 
-Now go and explore all the available [rules](./rules/user) or [create your own](advanced/custom-rule).
+Now go and explore all the available [rules](./rules/user.md) or [create your own](advanced/custom-rule.md).

@@ -19,7 +19,7 @@ At this point, our Form Area is ready to accept submissions but is missing the l
 2. Locate the Actions field and add a new Action of the type _Message_.
 3. The action panel configuration will open, write in the message field the words `Your message was {Message}!`.
 
-Notice the `{Message}` part, it's what we call [Data Placeholders](./actions.html#data-placeholders), a reference to the Submitted Data by its control name. Use them across Actions to customize the workflow as required.
+Notice the `{Message}` part, it's what we call [Data Placeholders](./actions.md#data-placeholders), a reference to the Submitted Data by its control name. Use them across Actions to customize the workflow as required.
 
 ## Submission
 

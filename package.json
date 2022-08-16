@@ -5,7 +5,7 @@
     "dev": "vuepress dev src",
     "build": "vuepress build src",
     "watch": "npm run dev",
-    "checklinks": "npx linkinator ./dist --recursive --skip zoolanders.com"
+    "checklinks": "npx linkinator 'src/**/*.md' --markdown --skip '^http?s://' --verbosity error"
   },
   "devDependencies": {
     "vuepress": "^1.0.0"
