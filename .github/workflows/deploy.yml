@@ -1,0 +1,39 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: |
+          yarn install
+          yarn build
+      - uses: actions/upload-artifact@v1
+        with:
+          name: dist
+          path: dist
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Download bundle
+        uses: actions/download-artifact@v1
+        with:
+          name: dist
+          path: dist
+
+      - uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: zoolanders.com
+          username: docs@zoolanders.com
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ./
+          dangerous-clean-slate: true
