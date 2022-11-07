@@ -54,7 +54,9 @@ The Download Action triggers the download of the specified file. Use it to deliv
 
 ## SaveToCSV Action
 
-The SaveToCSV Action accumulatively saves the submitted data in a CSV format to a specified file. Use it to keep a log or a copy of the submitted data in a file that you can easily move to another system after.
+The SaveToCSV Action accumulatively saves the submitted data in a specified CSV or TSV file. Use it to keep a log or a copy of the submitted data in a file that you can easily move to another system after.
+
+The file must be created manually and set with at least one header.
 
 ![Save to CSV Form Action](./assets/actions/savetocsv.png)
 
@@ -62,3 +64,4 @@ The SaveToCSV Action accumulatively saves the submitted data in a CSV format to 
 
 The SaveToGoogleSheet Action accumulatively saves the submitted data in a Google Drive Spreadsheet. Use it to keep a log or a copy of the submitted data in the cloud.
 
+The spreadsheet must be created manually and set with at least one header.
