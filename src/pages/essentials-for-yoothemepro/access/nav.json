@@ -1,5 +1,5 @@
 {
-  "title": "Forms",
+  "title": "Access",
   "sections": [
     {
       "title": "Overview",
@@ -28,48 +28,6 @@
         {
           "title": "After Submit Actions",
           "href": "./data-placeholders"
-        }
-      ]
-    },
-    {
-      "title": "Fields",
-      "links": [
-        {
-          "title": "Input",
-          "href": "./core-actions"
-        },
-        {
-          "title": "Textarea",
-          "href": "./save-to-actions"
-        },
-        {
-          "title": "Upload",
-          "href": "./custom-actions"
-        }
-      ]
-    },
-    {
-      "title": "Actions",
-      "links": [
-        {
-          "title": "Send Email",
-          "href": "./core-actions"
-        },
-        {
-          "title": "Redirect",
-          "href": "./core-actions"
-        },
-        {
-          "title": "SaveTo Database",
-          "href": "./core-actions"
-        },
-        {
-          "title": "SaveTo CSV",
-          "href": "./save-to-actions"
-        },
-        {
-          "title": "Custom actions",
-          "href": "./custom-actions"
         }
       ]
     },

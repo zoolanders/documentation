@@ -12,13 +12,13 @@ Get started with Essentials basics or dive into each addon specifics. {% .lead %
 
 {% quick-links %}
 
-{% quick-link title="Forms Addon" href="/essentials-for-yoothemepro/forms" description="Advanced Form Builder" /%}
-{% quick-link title="Dynamic Addon" href="/essentials-for-yoothemepro/dynamic" description="Advanced Form Builder" /%}
-{% quick-link title="Sources Addon" href="/essentials-for-yoothemepro/sources" description="Advanced Form Builder" /%}
-{% quick-link title="Access Addon" href="/essentials-for-yoothemepro/access" description="Advanced Form Builder" /%}
-{% quick-link title="Icons Addon" href="/essentials-for-yoothemepro/icons" description="Advanced Form Builder" /%}
-{% quick-link title="Library Addon" href="/essentials-for-yoothemepro/library" description="Advanced Form Builder" /%}
-{% quick-link title="Elements Addon" href="/essentials-for-yoothemepro/elements" description="Advanced Form Builder" /%}
+{% quick-link title="Forms Addon" href="./forms" description="Advanced Form Builder" /%}
+{% quick-link title="Dynamic Addon" href="./dynamic" description="Advanced Form Builder" /%}
+{% quick-link title="Sources Addon" href="./sources" description="Advanced Form Builder" /%}
+{% quick-link title="Access Addon" href="./access" description="Advanced Form Builder" /%}
+{% quick-link title="Icons Addon" href="./icons" description="Advanced Form Builder" /%}
+{% quick-link title="Library Addon" href="./library" description="Advanced Form Builder" /%}
+{% quick-link title="Elements Addon" href="./elements" description="Advanced Form Builder" /%}
 
 {% /quick-links %}
 
