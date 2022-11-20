@@ -1,18 +1,21 @@
-import { useRouter } from 'next/router'
 import { Header } from '@/components/Header'
 import { DocHero } from '@/components/DocHero'
 import { DocContent } from '@/components/DocContent'
+import { useRouter } from 'next/router'
 
-export function DocLayout({ children, navigations, markdoc = {} }) {
+export function DocLayout({ children, navigation, subnav = {}, markdoc = {} }) {
   const router = useRouter()
-  const pathname = router.pathname
   const {frontmatter = {}, content = []} = markdoc
 
-  const navigation = navigations[pathname] || []
+  const tabs = Object.keys(subnav).map(path => ({
+    name: subnav[path]?.title,
+    href: path,
+    current: router.pathname.startsWith(path)
+  }))
 
   return (
     <>
-      <Header navigation={navigation} />
+      <Header navigation={navigation} tabs={tabs}/>
       {frontmatter.hero && <DocHero {...frontmatter.hero}/>}
       <DocContent navigation={navigation} frontmatter={frontmatter} content={content}>
         {children}
@@ -20,3 +23,4 @@ export function DocLayout({ children, navigations, markdoc = {} }) {
     </>
   )
 }
+

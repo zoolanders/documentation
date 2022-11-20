@@ -1,21 +1,15 @@
 import React from 'react'
 import Head from 'next/head'
+import { useRouter } from 'next/router'
 import { DocLayout } from '@/components/DocLayout'
 import { PageLayout } from '@/components/PageLayout'
+import { getNav, getSubnav } from './_nav'
 
 import 'focus-visible'
 import '@/styles/tailwind.css'
 
-// nav
-import navYtp from './essentials-for-yoothemepro/navigation.json'
-import navForms from './essentials-for-yoothemepro/forms/navigation.json'
-
-const navigations = {
-  '/essentials-for-yoothemepro': navYtp,
-  '/essentials-for-yoothemepro/forms': navForms,
-}
-
 export default function App({ Component, pageProps }) {
+  const router = useRouter()
   const {frontmatter = {}} = pageProps.markdoc || {};
   const pageTitle = frontmatter.pageTitle || 'ZOOlanders Documentation' + (frontmatter.title ? `- ${frontmatter.title}` : '')
   const pageDescription = frontmatter.description
@@ -26,6 +20,9 @@ export default function App({ Component, pageProps }) {
     Layout = PageLayout
   }
 
+  const nav = getNav(router.pathname)
+  const subnav = getSubnav(router.pathname.split('/').slice(0, 2).join('/'))
+
   return (
     <>
       <Head>
@@ -34,7 +31,7 @@ export default function App({ Component, pageProps }) {
         <link rel="shortcut icon" href="/zoolanders-favicon.png"></link>
         <link rel="apple-touch-icon" href="/zoolanders-touch-icon.png"></link>
       </Head>
-      <Layout {...pageProps} navigations={navigations}>
+      <Layout {...pageProps} navigation={nav} subnav={subnav}>
         <Component {...pageProps} />
       </Layout>
     </>

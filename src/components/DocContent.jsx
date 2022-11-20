@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import { useCallback, useEffect, useState } from 'react'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
 
-import { Navigation } from '@/components/Navigation'
+import { DocNavigation } from '@/components/DocNavigation'
 import { Prose } from '@/components/Prose'
 
 function getNodeText(node) {
@@ -132,7 +132,7 @@ export function DocContent({ children, frontmatter, content, navigation }) {
         <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto py-16 pl-0.5">
           <div className="absolute top-16 bottom-0 right-0 hidden h-12 w-px bg-gradient-to-t from-slate-800 dark:block" />
           <div className="absolute top-28 bottom-0 right-0 hidden w-px bg-slate-800 dark:block" />
-          <Navigation
+          <DocNavigation
             navigation={navigation}
             className="w-64 pr-8 xl:w-72 xl:pr-16"
           />

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { Dialog } from '@headlessui/react'
 
-import { Navigation } from '@/components/Navigation'
+import { DocNavigation } from '@/components/DocNavigation'
 
 function MenuIcon(props) {
   return (
@@ -80,7 +80,7 @@ export function MobileNavigation({ navigation }) {
               <CloseIcon className="h-6 w-6 stroke-slate-500" />
             </button>
           </div>
-          <Navigation navigation={navigation} className="mt-5 px-1" />
+          <DocNavigation navigation={navigation} className="mt-5 px-1" />
         </Dialog.Panel>
       </Dialog>
     </>

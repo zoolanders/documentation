@@ -1,12 +1,12 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
-import { useScroller } from '@/state'
 import clsx from 'clsx'
+import Link from 'next/link'
+import { useScroller } from '@/state'
 
 import { Logo } from '@/components/Logo'
-import { MobileNavigation } from '@/components/MobileNavigation'
 import { Search } from '@/components/Search'
+import { HeaderTabs } from '@/components/HeaderTabs'
 import { ThemeSelector } from '@/components/ThemeSelector'
+import { MobileNavigation } from '@/components/MobileNavigation'
 
 function GitHubIcon(props) {
   return (
@@ -16,48 +16,37 @@ function GitHubIcon(props) {
   )
 }
 
-export function Header({ navigation }) {
+export function Header({ navigation, tabs }) {
   const {isScrolled} = useScroller()
-
-  const router = useRouter()
-  const routes = router.route.split('/')
-  const parentRoute = '/' + routes[routes.length - 2]
-
-  const routeMap = {
-    '/essentials-for-yoothemepro': 'Essentials for YTP'
-  }
+  const showTabs = Boolean(tabs.filter(t => t.current).length)
 
   return (
     <header
       className={clsx(
-        'sticky top-0 z-50 flex flex-wrap items-center justify-between bg-primary px-4 py-5 transition duration-500 sm:px-6 lg:px-8',
+        'sticky top-0 z-50 bg-primary transition duration-500 sm:px-6 lg:px-8 dark:border-b border-slate-200 dark:border-slate-800',
         isScrolled
           ? 'shadow-md shadow-slate-900/5 dark:shadow-none dark:bg-slate-900/95 dark:backdrop-blur dark:[@supports(backdrop-filter:blur(0))]:bg-slate-900/75'
           : 'dark:bg-transparent'
       )}
     >
-      <div className="mr-6 flex lg:hidden">
-        <MobileNavigation navigation={navigation} />
+      <div className="px-4 py-5 flex flex-wrap items-center justify-between">
+        <div className="mr-6 flex lg:hidden">
+          <MobileNavigation navigation={navigation} />
+        </div>
+        <div className="relative flex flex-grow basis-0 items-center">
+          <Link href="/" aria-label="Home page">
+            <Logo className="hidden h-6 w-auto lg:block" />
+          </Link>
+        </div>
+        <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
+          <Search/>
+          <ThemeSelector className="relative z-10" />
+          <Link href="https://github.com/joolanders/documentation" className="group" aria-label="GitHub">
+            <GitHubIcon className="h-5 w-5 fill-[#febfca] group-hover:fill-white dark:fill-slate-400 dark:group-hover:fill-slate-300" />
+          </Link>
+        </div>
       </div>
-      <div className="relative flex flex-grow basis-0 items-center">
-        <Link href="/" aria-label="Home page">
-          <Logo className="hidden h-9 w-auto lg:block" />
-        </Link>
-
-        {routeMap[parentRoute] && <a
-          href={parentRoute}
-          className="ml-8 text-md text-white"
-        >
-          {routeMap[parentRoute]}
-        </a>}
-      </div>
-      <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
-        <Search/>
-        <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com/joolanders/documentation" className="group" aria-label="GitHub">
-          <GitHubIcon className="h-5 w-5 fill-[#febfca] group-hover:fill-white dark:fill-slate-400 dark:group-hover:fill-slate-300" />
-        </Link>
-      </div>
+      {showTabs && <HeaderTabs className="px-4" tabs={tabs}/>}
     </header>
   )
 }

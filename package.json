@@ -14,6 +14,7 @@
     "@markdoc/markdoc": "^0.1.7",
     "@markdoc/next.js": "^0.1.6",
     "@sindresorhus/slugify": "^2.1.0",
+    "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/typography": "^0.5.7",
     "autoprefixer": "^10.4.8",
     "clsx": "^1.2.1",

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import clsx from 'clsx'
 
-export function Navigation({ navigation, className }) {
+export function DocNavigation({ navigation, className }) {
   let router = useRouter()
 
   return (

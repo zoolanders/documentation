@@ -8,7 +8,7 @@ export function DocHero({title, description, image}) {
   return (
     <div className="overflow-hidden bg-primary dark:bg-slate-900">
 
-      <div className="relative pt-6 pb-16">
+      <div className="relative py-8 px-4">
 
         <main className="mx-auto mt-10 max-w-7xl px-4 sm:px-6">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">

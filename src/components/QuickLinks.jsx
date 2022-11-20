@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 export function QuickLinks({ children }) {
   return (
@@ -9,6 +10,10 @@ export function QuickLinks({ children }) {
 }
 
 export function QuickLink({ title, description, href }) {
+  const router = useRouter()
+
+  href = href.replace('./', `${router.pathname}/`).replace(/\/$/, '')
+
   return (
     <div className="group relative rounded-xl border border-slate-200 dark:border-slate-800">
       <div className="absolute -inset-px rounded-xl border-2 border-transparent opacity-0 border-primary group-hover:opacity-100 dark:[--quick-links-hover-bg:theme(colors.slate.800)]" />
