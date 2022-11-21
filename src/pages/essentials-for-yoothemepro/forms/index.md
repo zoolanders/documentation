@@ -25,10 +25,6 @@ Notice that the Form Configuration button has been enabled. We will get back to 
 1. Go back to the builder main panel and add a Textarea and a Form Button essential form elements to the Form Area.
 1. Access the Textarea element configuration, and input in the **Control Name** a name that would uniquely define this field in the form area, e.g. `comment`.
 
-{% callout title="Form Configuration Shortcut" %}
-When a Form Area is enabled, a `paper-plane` icon shows up in the builder main panel. You can click on it to directly open the Form Configuration panel.
-{% /callout %}
-
 ### Actions
 
 Go ahead and click on the Submit button. A warning is triggered because, by design, nothing happens unless there is an [After Submit Action](./after-submit-actions) that specifies so. For now let's add a simple action that will display a greeting message.
@@ -50,9 +46,9 @@ Now that there is at least one action set, lets go and try our form.
 
 Congrats! If all went well, you should see a modal greeting you and showing your comment. In the next sections we will go deeper into the Core Concepts and how to further customize a form.
 
-## Quick Setup
+## Quick Start
 
-If you are already know how to set up a form manually, you can save time by directly import into your Library Layout one of this starting point Form Area sections.
+If you are already know how to set up a form manually, you can save time by directly [importing](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) into your Layout Library one of these Form Area sections.
 
 {% quick-links %}
 

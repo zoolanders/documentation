@@ -6,19 +6,30 @@ description:
 
 ## Form Area
 
-An Essential form must be structured inside of a Section or Column enabled as a **Form Area**, an area that will be wrapped with a standard `<form>` HTML Element without loosing any Builder capability.
+A Form Area is a builder Section or Column enabled as an area where an Essential form will be structured. The area is wrapped with a standard `<form>` HTML Element without losing builder capabilities. That implies that any builder element can be used inside the area, but also that any resulting form field markup, e.g. an `<input>`, will be picked up during submission.
 
-{% callout title="Enable a Form Area" %}
-Follow this video to enable a Section or Column as a **Form Area**.
+### Setting a Form Area
+
+To set a Form Area, go to any Section or Column Advanced Panel settings, and toggle the **Enable as Form Area** checkbox.
+Once enabled, the Form Configuration panel will become available for further customization of the submission workflow.
+
+{% callout title="Form Configuration Shortcut" %}
+Notice the `paper-plane` icon in the builder main panel, you can click on it to directly access the Form Configuration panel.
 {% /callout %}
 
-[video enabling a form area]
-
-Each form has to be structured inside of it own builder Section or Column enabled as a **Form Area**.
-The form structure is composed by Essential form elements
-Form fields elements are included to build the required form structure, as well as After Submit Actions to conclude the expected workflow. Submissions are double validated by HTML5 in-browser validation and a server-side via an ajax request.
+Each Form Area is scoped with its unique settings and workflow making it possible to have multiple form areas on the same page.
 
 ## Submission Validation
+
+Submissions are double validated, first by in-browser HTML5 validation, and once again via a server-side ajax request. Only if both evaluate as positive, the form will be submitted, and After Submit Actions executed. If desired, HTML5 validation can be disabled in the Form Configuration.
+
+### Validation Rules
+
+The validation rules are to be set per each form field independently under the Validation Tab of each element configuration. There is also possible to customize the error message if validation fails.
+
+{% callout type="warning" title="Custom Error Message" %}
+Customizing the validation error messages is currently only possible for server-side validation.
+{% /callout %}
 
 ## After Submit Actions
 
