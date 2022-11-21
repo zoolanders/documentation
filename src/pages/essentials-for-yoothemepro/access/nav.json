@@ -1,52 +1,52 @@
 {
-  "title": "Access",
-  "sections": [
-    {
-      "title": "Overview",
-      "links": [
+    "title": "Access",
+    "sections": [
         {
-          "title": "Introduction",
-          "href": "./"
+            "title": "Overview",
+            "links": [
+                {
+                    "title": "Introduction",
+                    "href": "./"
+                },
+                {
+                    "title": "Getting Started",
+                    "href": "./getting-started"
+                }
+            ]
         },
         {
-          "title": "Getting Started",
-          "href": "./getting-started"
+            "title": "Core concepts",
+            "links": [
+                {
+                    "title": "Form Builder",
+                    "href": "./builder"
+                },
+                {
+                    "title": "Submission Data",
+                    "href": "./submission"
+                },
+                {
+                    "title": "After Submit Actions",
+                    "href": "./data-placeholders"
+                }
+            ]
+        },
+        {
+            "title": "Advanced",
+            "links": [
+                {
+                    "title": "Troubleshooting",
+                    "href": "./troubleshooting"
+                },
+                {
+                    "title": "Customizations",
+                    "href": "./hooks"
+                },
+                {
+                    "title": "How To",
+                    "href": "./howto"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "title": "Core concepts",
-      "links": [
-        {
-          "title": "Form Builder",
-          "href": "./builder"
-        },
-        {
-          "title": "Submission Data",
-          "href": "./submission"
-        },
-        {
-          "title": "After Submit Actions",
-          "href": "./data-placeholders"
-        }
-      ]
-    },
-    {
-      "title": "Advanced",
-      "links": [
-        {
-          "title": "Troubleshooting",
-          "href": "./troubleshooting"
-        },
-        {
-          "title": "Customizations",
-          "href": "./hooks"
-        },
-        {
-          "title": "How To",
-          "href": "./howto"
-        }
-      ]
-    }
-  ]
+    ]
 }

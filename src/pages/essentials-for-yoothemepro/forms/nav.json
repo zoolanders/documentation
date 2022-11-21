@@ -1,94 +1,77 @@
 {
-  "title": "Forms",
-  "sections": [
-    {
-      "title": "Overview",
-      "links": [
+    "title": "Forms",
+    "sections": [
         {
-          "title": "Introduction",
-          "href": "./"
+            "title": "Overview",
+            "links": [
+                {
+                    "title": "Getting Started",
+                    "href": "./"
+                },
+                {
+                    "title": "Core Concepts",
+                    "href": "./concept"
+                }
+            ]
         },
         {
-          "title": "Getting Started",
-          "href": "./getting-started"
+            "title": "Fields",
+            "links": [
+                {
+                    "title": "Input",
+                    "href": "./core-actions"
+                },
+                {
+                    "title": "Textarea",
+                    "href": "./save-to-actions"
+                },
+                {
+                    "title": "Upload",
+                    "href": "./custom-actions"
+                }
+            ]
+        },
+        {
+            "title": "Actions",
+            "links": [
+                {
+                    "title": "Send Email",
+                    "href": "./core-actions"
+                },
+                {
+                    "title": "Redirect",
+                    "href": "./core-actions"
+                },
+                {
+                    "title": "SaveTo Database",
+                    "href": "./core-actions"
+                },
+                {
+                    "title": "SaveTo CSV",
+                    "href": "./save-to-actions"
+                },
+                {
+                    "title": "Custom actions",
+                    "href": "./custom-actions"
+                }
+            ]
+        },
+        {
+            "title": "Advanced",
+            "links": [
+                {
+                    "title": "Troubleshooting",
+                    "href": "./troubleshooting"
+                },
+                {
+                    "title": "Customizations",
+                    "href": "./customizations"
+                },
+                {
+                    "title": "How To",
+                    "href": "./howto"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "title": "Core concepts",
-      "links": [
-        {
-          "title": "Form Builder",
-          "href": "./builder"
-        },
-        {
-          "title": "Submission Data",
-          "href": "./submission"
-        },
-        {
-          "title": "After Submit Actions",
-          "href": "./data-placeholders"
-        }
-      ]
-    },
-    {
-      "title": "Fields",
-      "links": [
-        {
-          "title": "Input",
-          "href": "./core-actions"
-        },
-        {
-          "title": "Textarea",
-          "href": "./save-to-actions"
-        },
-        {
-          "title": "Upload",
-          "href": "./custom-actions"
-        }
-      ]
-    },
-    {
-      "title": "Actions",
-      "links": [
-        {
-          "title": "Send Email",
-          "href": "./core-actions"
-        },
-        {
-          "title": "Redirect",
-          "href": "./core-actions"
-        },
-        {
-          "title": "SaveTo Database",
-          "href": "./core-actions"
-        },
-        {
-          "title": "SaveTo CSV",
-          "href": "./save-to-actions"
-        },
-        {
-          "title": "Custom actions",
-          "href": "./custom-actions"
-        }
-      ]
-    },
-    {
-      "title": "Advanced",
-      "links": [
-        {
-          "title": "Troubleshooting",
-          "href": "./troubleshooting"
-        },
-        {
-          "title": "Customizations",
-          "href": "./hooks"
-        },
-        {
-          "title": "How To",
-          "href": "./howto"
-        }
-      ]
-    }
-  ]
+    ]
 }
