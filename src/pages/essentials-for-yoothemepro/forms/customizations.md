@@ -1,4 +1,75 @@
-# Custom Action
+---
+title: Customizations
+pageTitle:
+description:
+---
+
+## Form Event Hooks
+
+Each form triggers JavaScript events for which is possible to add listeners and perform custom actions.
+
+### On Submit
+
+Triggers before submission allowing to prevent the action.
+
+```js
+UIkit.ready(function() {
+
+  // local
+  UIkit.util.on('#form-id', 'form:submit', function (e) {
+    // e.preventDefault();
+  });
+
+  // global
+  UIkit.util.on(document, 'yooessentials-form:submit', function (e, ctx) {
+    // ctx = {form}
+    // e.preventDefault();
+  });
+
+})
+```
+
+### On Submitted
+
+Triggers after submission, preventing the action is no longer possible.
+
+```js
+UIkit.ready(function() {
+
+  // local
+  UIkit.util.on('#form-id', 'form:submitted', function (e, ctx) {
+    // ctx = {response}
+  });
+
+  // global
+  UIkit.util.on(document, 'yooessentials-form:submitted', function (e, ctx) {
+    // ctx = {form, response}
+  });
+
+});
+```
+
+### On Submission Error
+
+Trigger on submission error and validation error.
+
+```js
+UIkit.ready(function() {
+
+  // local
+  UIkit.util.on('#form-id', 'form:submission-error', function (e, ctx) {
+    // ctx = {error, errors, validation}
+  });
+
+  // global
+  UIkit.util.on('#form-id', 'yooessentials-form:submission-error', function (e, ctx) {
+    // ctx = {form, error, errors, validation}
+  });
+
+});
+```
+
+## Custom After Submit Action
 
 Actions are very handy to customize the workflow of a form, add extra validation, append or change data on the fly, or send it to a 3rd party service... is the heart of the submission workflow and you have the wheel. So let's take control and create a custom [After Submit Action](../../forms/actions.md).
 
@@ -51,7 +122,6 @@ Besides a `Class`, each Action requires a `config.json` or `config.php` file tha
 
 Finally, each action must be registered by adding a reference to the `Class` and `Config` to the `yooessentials-form-actions` key of the `config.php` or `bootstrap.php` file of a [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality) or [plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules).
 
-
 ```php
 <?php
 
@@ -66,10 +136,8 @@ return [
 ];
 ```
 
-## Example Actions
+### Example
 
 The example actions on [GitHub](https://github.com/joolanders/ytp-form-actions) demonstrates with more details this workflow, simply download the repository and follow the Getting Started guide.
 
-## Included Actions
-
-Essentials core actions are a useful resource to get started when creating a custom action. They can be found in the `modules/form-actions` directory of the Essentials Package.
+Core actions are as well a useful resource to get started when creating a custom action. They can be found in the `modules/form-actions` directory of the Essentials downloaded package.
