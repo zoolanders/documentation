@@ -19,7 +19,7 @@
             "links": [
                 {
                     "title": "Input",
-                    "href": "./core-actions"
+                    "href": "./fields/input"
                 },
                 {
                     "title": "Textarea",
@@ -36,19 +36,19 @@
             "links": [
                 {
                     "title": "Send Email",
-                    "href": "./core-actions"
+                    "href": "./action/send-email"
                 },
                 {
                     "title": "Redirect",
-                    "href": "./core-actions"
+                    "href": "./action/redirect"
                 },
                 {
                     "title": "SaveTo Database",
-                    "href": "./core-actions"
+                    "href": "./action/save-to-database"
                 },
                 {
                     "title": "SaveTo CSV",
-                    "href": "./save-to-actions"
+                    "href": "./action/save-to-csv"
                 },
                 {
                     "title": "Custom actions",
