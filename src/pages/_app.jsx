@@ -3,7 +3,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { DocLayout } from '@/components/DocLayout'
 import { PageLayout } from '@/components/PageLayout'
-import { getNav, getSubnav } from './_nav'
+import { getNav, getSubnav } from '@/nav'
 
 import 'focus-visible'
 import '@/styles/tailwind.css'

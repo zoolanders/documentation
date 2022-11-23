@@ -1,6 +1,6 @@
-import navYtp from './essentials-for-yoothemepro/nav.json'
-import navForms from './essentials-for-yoothemepro/forms/nav.json'
-import navAccess from './essentials-for-yoothemepro/access/nav.json'
+import navYtp from '@/pages/essentials-for-yoothemepro/nav.json'
+import navForms from '@/pages/essentials-for-yoothemepro/forms/nav.json'
+import navAccess from '@/pages/essentials-for-yoothemepro/access/nav.json'
 
 const navs = {
     '/essentials-for-yoothemepro': navYtp,
