@@ -15,7 +15,7 @@ export function Prose({ as: Component = 'div', className, ...props }) {
                 // link underline
                 'prose-a:text-primary prose-a:no-underline hover:prose-a:underline',
                 // pre
-                'prose-pre:rounded-xl prose-pre:bg-slate-900 prose-pre:shadow-lg dark:prose-pre:bg-slate-800/60 dark:prose-pre:shadow-none dark:prose-pre:ring-1 dark:prose-pre:ring-slate-300/10',
+                'prose-pre:rounded-xl prose-pre:bg-slate-700 prose-pre:shadow-lg dark:prose-pre:bg-slate-800/60 dark:prose-pre:shadow-none dark:prose-pre:ring-1 dark:prose-pre:ring-slate-300/10',
                 // code
                 'prose-code:font-light prose-code:text-sky-400',
                 // hr
