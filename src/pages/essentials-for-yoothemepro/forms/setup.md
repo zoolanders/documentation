@@ -4,14 +4,16 @@ pageTitle: Essential Forms - Setup Essential Addon Forms for YOOtheme Pro
 description:
 ---
 
-Forms is a premium addon, part of Essentials Addons for YOOtheme Pro, to install it go through the Essentials plugin installation process. Once ready access the **YOOtheme Pro Customizer -> Essentials -> Advanced** panel, if all went well you should see the Forms Addon listed and enabled.
+Forms is part of Essentials Addons for YOOtheme Pro, to install it go through the Essentials plugin installation process, then access the **YOOtheme Pro Customizer -> Essentials -> Advanced** panel, if all went well you should see the Forms Addon listed and enabled.
+
+---
 
 ## Creating a form
 
 Now that we are comfortable with Essential Forms [core concepts](./), let's create a simple form that will greet us on submission.
 
 {% callout title="Quick Start" %}
-We strongly recommend to go through this process at least once, if you already did or want to come back to it some other time, skip to the [Quick Start](#quick-start) section.
+We strongly recommend going through this process at least once, if you already did or want to come back to it some other time, skip to the [Quick Start](#quick-start) section.
 {% /callout %}
 
 ### Structure
@@ -19,7 +21,7 @@ We strongly recommend to go through this process at least once, if you already d
 A form must be structured inside of a Section or Column enabled as a [Form Area](./forms/concept#form-area).
 
 1. Open the builder and edit a new or an existing Layout.
-1. Add a new Section and access it settings Advanced Panel.
+1. Add a new Section and access its settings Advanced Panel.
 1. Toggle the **Enable as Form Area** checkbox.
 
 Notice that the Form Configuration button has been enabled. We will get back to it later, but now let's finish the form structure.
@@ -29,7 +31,7 @@ Notice that the Form Configuration button has been enabled. We will get back to 
 
 ### Actions
 
-Go ahead and click on the Submit button. A warning is triggered because, by design, nothing happens unless there is an [After Submit Action](./after-submit-actions) that specifies so. For now let's add a simple action that will display a greeting message.
+Go ahead and click on the Submit button. A warning is triggered because, by design, nothing happens unless there is an [After Submit Action](./after-submit-actions) that specifies so. For now, let's add a simple action that will display a greeting message.
 
 1. Access the Form Area configuration created in the previous steps.
 1. Locate the Actions fields and add a new action of the type **Display Message**.
@@ -41,16 +43,18 @@ It's what we call [Data Placeholders](./submission#data-placeholders), and is on
 
 ### Submission
 
-Now that there is at least one action set, lets go and try our form.
+Now that there is at least one action set, let's go and try our form.
 
-1. Locate the form in the Builer preview.
+1. Locate the form in the Builder preview.
 1. Input a message in the Textarea and press the Submit button.
 
 Congrats! If all went well, you should see a modal greeting you and showing your comment.
 
-## Quick Start
+---
 
-This is the fastest way to setup a form by directly [uploading](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) into your Layout Library one of above section presets.
+## Quick Setup
+
+[Upload](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) one of the bellow section presets into your layout, then further customize the submission workflow. If you need so, go through the [core concepts](./) again or [create a form](#creating-a-form) manually first.
 
 {% quick-links %}
 
