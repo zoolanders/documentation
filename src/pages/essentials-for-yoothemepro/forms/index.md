@@ -6,6 +6,8 @@ description:
 
 Essential Addon Forms extends YOOtheme Pro with a submission workflow, enabling a Section or Column to become a Form Area with full builder capabilities. {% .lead %}
 
+---
+
 ## Form Area
 
 A Form Area is a builder Section or Column enabled as an area where an Essential form will be structured. The area is wrapped with a standard `<form>` HTML Element without losing builder capabilities. That implies that any builder element can be used inside the area, but also that any resulting form field markup, e.g. an `<input>`, will be picked up during submission.
@@ -21,6 +23,14 @@ Once enabled, the Form Area Settings panel will become available for further cus
 Notice the `paper-plane` icon in the builder main panel, you can click on it to directly access the Form Area settings panel.
 {% /callout %}
 
+### Form Area Structure
+
+Form Area structure is defined with the Builder Elements of the group Essentials Form. Each element has it own specific settings and validation for the field is representing, specifics are in deep described in the [Fields Section](./forms/fields).
+
+{% callout type="warning" title="Custom Fields" %}
+Even though it is possible to define a form field using plain HTML, the [Dynamic Workflow](#dynamic-workflow) will not be completely aware of these. When possible, opt to create a custom element if core ones don't suffice.
+{% /callout %}
+
 ---
 
 ## After Submit Actions
@@ -28,7 +38,7 @@ Notice the `paper-plane` icon in the builder main panel, you can click on it to 
 By design, submission data is not processed, saved, or logged unless there is an After Submit Action set for the task. These are multi-instance functions that will run sequentially after a form has been validated and successfully submitted. It is a simple, yet powerful way to give you full control over the submission workflow, which you can manage the [Form Area Settings](#form-area-settings).
 
 {% callout title="Custom Actions" %}
-Core actions will solve most form workflow needs, but it is relatively simple to add [custom actions](./customizations#custom-after-submit-actions) as well.
+Core actions will solve most form workflow needs, but it is relatively simple to add [custom actions](./forms/customizations#custom-after-submit-actions) as well.
 {% /callout %}
 
 ---
@@ -62,7 +72,7 @@ Form Data Source is a Dynamic Content Source created programmatically for each f
 It will be listed as a dynamic source under the Dynamic button of each field supporting sources while editing Form Area settings.
 
 {% callout title="Alter Submitted Data" %}
-Sometimes submitted data will not be in the required format, e.g. a Date. Use the [Add Data](./action/add-data) action to remap the value with Form Data Source and a dynamic filter. Access the new data in consequent actions with a placeholder.
+Sometimes submitted data will not be in the required format, e.g. a Date. Use the [Add Data](./forms/action/add-data) action to remap the value with Form Data Source and a dynamic filter. Access the new data in consequent actions with a placeholder.
 {% /callout %}
 
 ### Contextual Data

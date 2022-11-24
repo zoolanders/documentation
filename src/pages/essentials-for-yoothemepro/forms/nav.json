@@ -5,7 +5,7 @@
             "title": "Getting Started",
             "links": [
                 {
-                    "title": "Overview",
+                    "title": "Core Concepts",
                     "href": "./"
                 },
                 {
@@ -18,8 +18,12 @@
             "title": "Fields",
             "links": [
                 {
+                    "title": "Overview",
+                    "href": "./fields"
+                },
+                {
                     "title": "Input",
-                    "href": "./fields/input"
+                    "href": "./field/input"
                 },
                 {
                     "title": "Textarea",

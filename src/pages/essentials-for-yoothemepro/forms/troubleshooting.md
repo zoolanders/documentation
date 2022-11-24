@@ -2,20 +2,20 @@
 title: Troubleshooting
 ---
 
-If after configuring the form and setting some actions the submission fails to execute correctly, it could be related to PHP underlying errors or server configuration.
+## Submission Fails
 
-## Submission Fail With Vague Error
+### With Vague Error
 
 The form displays a `Submission Failed` error without any further details, it is most likely a suppressed PHP error. To get more insights about it you can:
 
 - Check the server PHP recent error logs.
 - Open the Customizer and submit the form again making sure _Error Reporting_ is enabled.
 
-::: tip
+{% callout title="Enable Error Reporting" %}
 Error reporting can be enabled in Joomla Global `configuration` or in WordPress `wp-config.php` file.
-:::
+{% /callout %}
 
-## Submission Fail With No Error
+### With No Error
 
 The form does not display any visual feedback regarding the error, it could be the `.htaccess` redirecting the `post` request.
 
@@ -43,15 +43,19 @@ RewriteCond %{REQUEST_METHOD} GET
 RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 ```
 
+---
+
 ## No Email Is Sent
 
 When dealing with email we must distinguish between sending and delivery. While we can assure the email has been sent we cannot warranty it has been delivered, as that is beyond our control. Most of the time emails are not delivered because of server misconfiguration, but also because there are simply discarded by the destination server.
 
 To rise the delivery rate it is important to ensure the emails are being sent from a trusted source, which is only possible with an SMTP server or 3rd party service.
 
-:::tip
+{% callout title="Enable Error Reporting" %}
 For testing purposes we recommend the free service from [Mailtrap](https://mailtrap.io) which allows you to test if the emails are being sent and give them a punctuation for a better delivery. If you don't want to open an account feel free to reach out to our support and we will assist you using ours.
-:::
+{% /callout %}
+
+---
 
 ## SPAM
 
