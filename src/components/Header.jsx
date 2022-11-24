@@ -50,7 +50,7 @@ export function Header({ navigation, tabs = [] }) {
                     </Link>
                 </div>
             </div>
-            {showTabs && <HeaderTabs className="px-4" tabs={tabs} />}
+            {showTabs && <HeaderTabs className="px-4 hidden lg:block" tabs={tabs} />}
         </header>
     )
 }

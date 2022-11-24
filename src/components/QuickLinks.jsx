@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 
 export function QuickLinks({ children }) {
   return (
-    <div className="not-prose my-12 gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-2">
+    <div className="not-prose my-12 gap-6 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-2">
       {children}
     </div>
   )

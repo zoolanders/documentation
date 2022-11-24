@@ -53,7 +53,7 @@ export function Search(props) {
         className={clsx(
           'group flex h-5 w-5 items-center',
           props.full
-            ? 'justify-start sm:mx-auto lg:mx-0 h-auto w-60 sm:w-80 flex-none rounded-lg py-2.5 pl-4 pr-3.5 text-sm ring-1 ring-[#febfca] hover:ring-white dark:md:bg-slate-800/75 dark:md:ring-inset dark:md:ring-white/5 dark:md:hover:bg-slate-700/40 dark:md:hover:ring-slate-500'
+            ? 'justify-start sm:mx-auto lg:mx-0 h-auto w-60 sm:w-80 flex-none rounded-lg py-2.5 pl-4 pr-3.5 text-sm ring-1 ring-[#febfca] hover:ring-white dark:bg-slate-800/75 dark:ring-inset dark:ring-white/5 dark:hover:bg-slate-700/40 dark:hover:ring-slate-500'
             : ''
         )}
         onClick={onOpen}

@@ -6,11 +6,11 @@ export function DocHero({title, description, image}) {
   description = description.replace('YOOtheme Pro', '<span class="whitespace-nowrap">YOOtheme Pro</span>')
 
   return (
-    <div className="overflow-hidden bg-primary dark:bg-slate-900">
+    <div className="overflow-hidden bg-primary dark:bg-slate-900 px-8">
 
       <div className="relative py-8 px-4">
 
-        <main className="mx-auto mt-10 max-w-7xl px-4 sm:px-6">
+        <main className="mx-auto mt-10 max-w-7xl">
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:text-left">
               <h1>
