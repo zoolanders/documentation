@@ -4,55 +4,69 @@ pageTitle: Essential Forms - Getting started with Essential Addon Forms for YOOt
 description:
 ---
 
-## Introduction
+Essential Addon Forms extends YOOtheme Pro with a submission workflow, enabling for a Section or Column to become a Form Area with full builder capabilities.
 
-Essentials Addon Forms extends YOOtheme Pro with a submission workflow, allowing for any builder Section or Column to become a Form Area with full builder capabilities.
+## Form Area
 
-## Creating a form
+A Form Area is a builder Section or Column enabled as an area where an Essential form will be structured. The area is wrapped with a standard `<form>` HTML Element without losing builder capabilities. That implies that any builder element can be used inside the area, but also that any resulting form field markup, e.g. an `<input>`, will be picked up during submission.
 
-Lets create a simple form that will greet us on submission. Before starting make sure you are comfortable with the [YOOtheme Pro Builder](https://yootheme.com/support/yootheme-pro/joomla/page-builder) basics.
+Each Form Area is scoped with its unique settings and workflow, making it possible to have multiple form areas on the same page.
 
-### Structure
+### Form Area Settings
 
-A form must be structured inside of a Section or Column enabled as a [Form Area](./forms/concept#form-area).
+To set or edit Form Area, go to any Section or Column Advanced Panel settings, and toggle the **Enable as Form Area** checkbox.
+Once enabled, the Form Area Settings panel will become available for further customization.
 
-1. Open the builder and edit a new or an existing Layout.
-1. Add a new Section and access it settings Advanced Panel.
-1. Toggle the **Enable as Form Area** checkbox.
-
-Notice that the Form Configuration button has been enabled. We will get back to it later, but now let's finish the form structure.
-
-1. Go back to the builder main panel and add a Textarea and a Form Button essential form elements to the Form Area.
-1. Access the Textarea element configuration, and input in the **Control Name** a name that would uniquely define this field in the form area, e.g. `comment`.
-
-### Actions
-
-Go ahead and click on the Submit button. A warning is triggered because, by design, nothing happens unless there is an [After Submit Action](./after-submit-actions) that specifies so. For now let's add a simple action that will display a greeting message.
-
-1. Access the Form Area configuration created in the previous steps.
-1. Locate the Actions fields and add a new action of the type **Display Message**.
-1. The action panel configuration will open automatically, input in the **Message** field a `Thank you for your submission, your comment was {comment}!`.
-
-{% callout title="Notice the `{comment}` part" %}
-It's what we call [Data Placeholders](./submission#data-placeholders), and is one of the ways to set a dynamic workflow.
+{% callout title="Settings panel shortcut" %}
+Notice the `paper-plane` icon in the builder main panel, you can click on it to directly access the Form Area settings panel.
 {% /callout %}
 
-### Submission
+## After Submit Actions
 
-Now that there is at least one action set, lets go and try our form.
+By design, submission data is not processed, saved, or logged unless there is an After Submit Action set for the task. These are multi-instance functions that will run sequently after a form has been validated and successfully submitted. It is a simple, yet powerfull way to give you full control over the submission workflow, which you can manage the [Form Area Settings](#form-area-settings).
 
-1. Locate the form in the Builer preview.
-1. Input a message in the Textarea and press the Submit button.
+{% callout title="Custom Actions" %}
+Core actions will solve most form workflow needs, but it is relatively simple to add [custom actions](./customizations#custom-after-submit-actions) as well.
+{% /callout %}
 
-Congrats! If all went well, you should see a modal greeting you and showing your comment. In the next sections we will go deeper into the Core Concepts and how to further customize a form.
+## Submission Validation
 
-## Quick Start
+Submissions are validated first by the browser native HTML5 validation, and once again via a server-side ajax request. Only if both evaluate as positive, the form will be submitted. If desired, HTML5 validation can be disabled in the Form Area settings.
 
-If you are already know how to set up a form manually, you can save time by directly [importing](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) into your Layout Library one of these Form Area sections.
+Validation rules are set independently under the Validation Tab of each field element configuration. There is also possible to customize the error message if validation fails.
 
-{% quick-links %}
+{% callout type="warning" title="Custom Error Message" %}
+Customizing the validation error messages is currently only possible for server-side validation.
+{% /callout %}
 
-{% quick-link title="Contact Form" href="./forms" description="A contact form with Send Email and Display Message actions." /%}
-{% quick-link title="One Section, two Columns" href="./forms" description="Two columns in a section with one form each." /%}
+## Dynamic Workflow
 
-{% /quick-links %}
+As per the form dynamic nature there are several ways to reference and use it data during the submission workflow.
+
+### Form Data Placeholders
+
+Form Data Placeholders are string plain references to the submitted data by it Control Name. Given an Input with a Control Name `email`, it placeholder reference would be `{email}`. These can be placed in actions input settings, and would be replaced with the submitted data value during the action execution, e.g. `john@email.com`.
+
+For a quick reference, a list of available placeholders is shown in the Builder panels Placeholder Button, above each field supporting placeholders.
+
+### Form Data Source
+
+Form Data source is a Dynamic Content Source created programatically for each form configuration. Being a Source it allows mapping any submitted data to a field and apply filters on it.
+
+It will be listed as a dynamic source under the Dynamic button of each field supporting sources, while editing Form Area settings.
+
+{% callout title="Alter Submitted Data" %}
+Sometimes a submitted data will not be in the required format, e.g. a Date. Use the [Add Data](./action/add-data) action to remap the value with Form Data Source and a dynamic filter. Access the new data in consequent actions with a placeholder.
+{% /callout %}
+
+### Contextual Data
+
+Submission contextual data such as the Datetime, page URL, user IP, etc. is not part of the submission. Being that information already available as Dynamic Content it's simply a matter of mapping it when required, typically that would be in combination with a SaveTo action.
+
+As a quick reference use these sources:
+
+| Data | Source |
+| ---- | ------ |
+| Datetime | `Request -> Timestamp` |
+| User IP | `Request -> IP` |
+| Page URL | `Request -> Href` |

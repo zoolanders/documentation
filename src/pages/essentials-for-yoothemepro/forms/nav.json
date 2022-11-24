@@ -2,15 +2,15 @@
     "title": "Forms",
     "sections": [
         {
-            "title": "Overview",
+            "title": "Getting Started",
             "links": [
                 {
-                    "title": "Getting Started",
+                    "title": "Overview",
                     "href": "./"
                 },
                 {
-                    "title": "Core Concepts",
-                    "href": "./concept"
+                    "title": "Setup",
+                    "href": "./setup"
                 }
             ]
         },
