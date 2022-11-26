@@ -23,34 +23,36 @@ export function Header({ navigation, tabs = [] }) {
     return (
         <header
             className={clsx(
-                'sticky top-0 z-50 bg-primary transition duration-500 dark:border-b dark:border-slate-800 sm:px-6 lg:px-8',
+                'sticky top-0 z-50 bg-primary transition duration-500 dark:border-b dark:border-slate-800',
                 isScrolled
                     ? 'shadow-md shadow-slate-900/5 dark:bg-slate-900/95 dark:shadow-none dark:backdrop-blur dark:[@supports(backdrop-filter:blur(0))]:bg-slate-900/75'
                     : 'dark:bg-transparent'
             )}
         >
-            <div className="flex flex-wrap items-center justify-between px-4 py-5">
-                <div className="mr-6 flex lg:hidden">
-                    <MobileNavigation navigation={navigation} />
+            <div className="max-w-8xl mx-auto">
+                <div className="flex flex-wrap items-center justify-between px-4 sm:px-8 py-5">
+                    <div className="mr-6 flex lg:hidden">
+                        <MobileNavigation navigation={navigation} />
+                    </div>
+                    <div className="relative hidden sm:block basis-0 items-center">
+                        <Link href="/" aria-label="Home page">
+                            <Logo className="h-6 w-auto" />
+                        </Link>
+                    </div>
+                    <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 sm:flex-grow">
+                        <Search />
+                        <ThemeSelector className="relative z-10" />
+                        <Link
+                            href="https://github.com/joolanders/documentation"
+                            className="group"
+                            aria-label="GitHub"
+                        >
+                            <GitHubIcon className="h-5 w-5 fill-[#febfca] group-hover:fill-white dark:fill-slate-400 dark:group-hover:fill-slate-300" />
+                        </Link>
+                    </div>
                 </div>
-                <div className="relative flex flex-grow basis-0 items-center">
-                    <Link href="/" aria-label="Home page">
-                        <Logo className="hidden h-6 w-auto lg:block" />
-                    </Link>
-                </div>
-                <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
-                    <Search />
-                    <ThemeSelector className="relative z-10" />
-                    <Link
-                        href="https://github.com/joolanders/documentation"
-                        className="group"
-                        aria-label="GitHub"
-                    >
-                        <GitHubIcon className="h-5 w-5 fill-[#febfca] group-hover:fill-white dark:fill-slate-400 dark:group-hover:fill-slate-300" />
-                    </Link>
-                </div>
+                {showTabs && <HeaderTabs className="px-4 md:px-8 hidden lg:block" tabs={tabs} />}
             </div>
-            {showTabs && <HeaderTabs className="px-4 hidden lg:block" tabs={tabs} />}
         </header>
     )
 }

@@ -105,7 +105,7 @@ export function DocContent({ children, frontmatter, content, navigation }) {
   // const description = frontmatter.description
   const tableOfContents = collectHeadings(content)
 
-  let allLinks = navigation.flatMap((section) => section.links)
+  let allLinks = navigation.flatMap((section) => section.links.flatMap((link) => [link, ...link.links || []]))
   let linkIndex = allLinks.findIndex((link) => link.href === router.pathname)
   let previousPage = allLinks[linkIndex - 1]
   let nextPage = allLinks[linkIndex + 1]
@@ -125,7 +125,7 @@ export function DocContent({ children, frontmatter, content, navigation }) {
   }
 
   return (
-    <div className="relative mx-auto flex max-w-8xl justify-center sm:px-2 lg:px-8 xl:px-12">
+    <div className="relative mx-auto flex max-w-8xl justify-center lg:px-8">
 
       <div className="hidden lg:relative lg:block lg:flex-none">
         <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />

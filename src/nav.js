@@ -15,6 +15,10 @@ export function getNav(forPath) {
     for (const section of nav) {
         for (const link of section.links) {
             link.href = link.href.replace('./', `${path}/`).replace(/\/$/, '')
+
+            if (link.links) for (const sublink of link.links) {
+                sublink.href = sublink.href.replace('./', `${path}/`).replace(/\/$/, '')
+            }
         }
     }
 

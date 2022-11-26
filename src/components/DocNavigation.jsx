@@ -3,7 +3,10 @@ import { useRouter } from 'next/router'
 import clsx from 'clsx'
 
 export function DocNavigation({ navigation, className }) {
-  let router = useRouter()
+  const router = useRouter()
+  const linkMatch = link => router.pathname === link.href
+  const isActive = link => linkMatch(link)
+  const isChildActive = link => link.links?.some(linkMatch)
 
   return (
     <nav className={clsx('text-base lg:text-sm', className)}>
@@ -21,15 +24,34 @@ export function DocNavigation({ navigation, className }) {
                 <li key={link.href} className="relative">
                   <Link
                     href={link.href}
-                    className={clsx(
-                      'block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-1/2 before:h-1.5 before:w-1.5 before:-translate-y-1/2 before:rounded-full',
-                      link.href === router.pathname
-                        ? 'font-semibold text-red-500 before:bg-red-500'
-                        : 'text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300'
-                    )}
+                    className={clsx('block w-full pl-3.5 before:pointer-events-none before:absolute before:-left-1 before:top-2.5 before:h-1.5 before:w-1.5 before:rounded-full', {
+                      'font-semibold text-red-500 before:bg-red-500': isActive(link) || isChildActive(link),
+                      'before:hidden': isChildActive(link) || !isActive(link),
+                      'text-slate-500 before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300': !isActive(link) && !isChildActive(link)
+                    })}
                   >
                     {link.title}
                   </Link>
+
+                  {/* second level */}
+                  {link.links && (isActive(link) || isChildActive(link)) && (<ul
+                    role="list"
+                    className="mt-2 space-y-2 lg:mt-4 lg:space-y-4"
+                  >
+                    {link.links.map((link) => (
+                      <li key={link.href} className="relative">
+                        <Link
+                          href={link.href}
+                          className={clsx('block w-full pl-7 before:pointer-events-none before:absolute before:-left-1 before:top-2.5 before:h-1.5 before:w-1.5 before:rounded-full', {
+                            'font-semibold text-red-500 before:bg-red-500': isActive(link),
+                            'text-slate-500 before:hidden before:bg-slate-300 hover:text-slate-600 hover:before:block dark:text-slate-400 dark:before:bg-slate-700 dark:hover:text-slate-300': !isActive(link)
+                          })}
+                        >
+                          {link.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>)}
                 </li>
               ))}
             </ul>
