@@ -15,23 +15,39 @@
             ]
         },
         {
-            "title": "Fields",
+            "title": "Elements",
             "links": [
                 {
-                    "title": "Overview",
-                    "href": "./fields"
+                    "title": "Field",
+                    "href": "./elements/fields"
                 },
                 {
-                    "title": "Input",
-                    "href": "./field/input"
+                    "title": "Captcha",
+                    "href": "./elements/captcha",
+                    "links": [
+                        {
+                            "title": "reCaptcha",
+                            "href": "./elements/captcha/recaptcha"
+                        },
+                        {
+                            "title": "hCaptcha",
+                            "href": "./elements/captcha/hcaptcha"
+                        },
+                        {
+                            "title": "FriendlyCaptcha",
+                            "href": "./elements/captcha/friendly-captcha"
+                        }
+                    ]
                 },
                 {
-                    "title": "Textarea",
-                    "href": "./save-to-actions"
-                },
-                {
-                    "title": "Upload",
-                    "href": "./custom-actions"
+                    "title": "Others",
+                    "href": "./elements/others",
+                    "links": [
+                        {
+                            "title": "HoneyPot",
+                            "href": "./elements/others/honey-pot"
+                        }
+                    ]
                 }
             ]
         },

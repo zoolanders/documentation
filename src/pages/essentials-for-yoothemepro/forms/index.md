@@ -25,7 +25,7 @@ Notice the `paper-plane` icon in the builder main panel, you can click on it to 
 
 ### Form Area Structure
 
-Form Area structure is defined with the Builder Elements of the group Essentials Form. Each element has it own specific settings and validation for the field is representing, specifics are in deep described in the [Fields Section](./forms/fields).
+The form elements defined a form structure since they display actual form fields. Each element holds specific settings and validation for the field is representing which are further described in the [Fields Section](./forms/fields).
 
 {% callout type="warning" title="Custom Fields" %}
 Even though it is possible to define a form field using plain HTML, the [Dynamic Workflow](#dynamic-workflow) will not be completely aware of these. When possible, opt to create a custom element if core ones don't suffice.
