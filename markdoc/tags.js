@@ -1,3 +1,4 @@
+import { Image } from '@/components/Image'
 import { Callout } from '@/components/Callout'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 
@@ -13,6 +14,13 @@ const tags = {
       },
     },
     render: Callout,
+  },
+  image: {
+    attributes: {
+      className: { type: String },
+      caption: { type: String },
+    },
+    render: Image,
   },
   figure: {
     selfClosing: true,
