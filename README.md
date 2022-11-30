@@ -7,14 +7,13 @@ Syntax is a [Tailwind UI](https://tailwindui.com) site template built using [Tai
 To get started with this template, first install the npm dependencies:
 
 ```bash
-npm install
-cp .env.example .env.local
+yarn install
 ```
 
 Next, run the development server:
 
 ```bash
-npm run dev
+yarn run dev
 ```
 
 Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
