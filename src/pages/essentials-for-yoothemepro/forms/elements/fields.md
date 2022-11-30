@@ -42,8 +42,8 @@ The Input element displays a grid of standard `<input>` HTML elements with suppo
 
 | Setting | Description |
 | ------- | ----------- |
-| **Show Label** | Defines the visibility of the fields label. |
-| **Show Icon** | Defines the visibility of the fields icon. |
+| **Show Label** | Defines the label visibility of all fields. |
+| **Show Icon** | Defines the icon visibility of all fields. |
 
 {% image className="max-w-md" caption="Customize the grid columns and row gap."%}
 ![Input Columns Settings](/assets/ytp/forms/input-grid.webp)
@@ -55,7 +55,7 @@ The Input element displays a grid of standard `<input>` HTML elements with suppo
 | **Column Gap** | Defines the size of the gap between grid columns. |
 | **Row Gap** | Defines the size of the gap between grid rows. |
 
-Each type is scoped into a specific child element that inherits the Field Settings with option to override.
+Each type is scoped into a specific child element that inherits the Field Settings with an optional override.
 
 {% image className="max-w-md" %}
 ![Input Common Settings](/assets/ytp/forms/input-commons.webp)
@@ -65,7 +65,7 @@ Each type is scoped into a specific child element that inherits the Field Settin
 | ------ | ----------- |
 | **Size** | Defines the field size by applying a `uk-form-{size}` style. |
 | **Width** | Defines the field width by applying a `uk-form-width-{size}` style. |
-| **Full Width** | Defines if the field will ocupy the full width of it parent. |
+| **Full Width** | Defines if the field will occupy the full width of its parent. |
 | **Icon** | Defines the name of the Icon that will be displayed inside the field. |
 | **Icon Position** | Defines the side of the field where the icon will be positioned, `left` or `right`. |
 
@@ -79,13 +79,13 @@ Child of the [Input Element](#input-element) this element displays a `<input typ
 
 | Setting | Description |
 | ------- | ----------- |
-| **Placeholder** | Defines a text to be shown when there is no inputed value yet. |
+| **Placeholder** | Defines a text to be shown when there is no input value yet. |
 
 | Validation | Description |
 | ---------- | ----------- |
-| **Min** | Defines a content length that the inputed value must constrain to, `greater than` or `equal to`. |
-| **Max** | Defines a content length that the inputed value must constrain to, `lower than` or `equal to`. |
-| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the inputed value must match to. |
+| **Min** | Defines a content length that the input value must constrain to, `greater than` or `equal to`. |
+| **Max** | Defines a content length that the input value must constrain to, `lower than` or `equal to`. |
+| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. |
 
 ---
 
@@ -97,12 +97,12 @@ Child of the [Input Element](#input-element) this element displays a `<input typ
 
 | Setting | Description |
 | ------- | ----------- |
-| **Placeholder** | Defines a text to be shown when there is no inputed value yet. |
+| **Placeholder** | Defines a text to be shown when there is no value yet. |
 
 | Validation | Description |
 | ---------- | ----------- |
-| **Min** | Defines an amount that the inputed value must constrain to, `greater than` or `equal to`. |
-| **Max** | Defines an amount that the inputed value must constrain to, `lower than` or `equal to`. |
+| **Min** | Defines an amount that the input value must constrain to, `greater than` or `equal to`. |
+| **Max** | Defines an amount that the input value must constrain to, `lower than` or `equal to`. |
 
 ---
 
@@ -114,13 +114,13 @@ Child of the [Input Element](#input-element) this element displays a `<input typ
 
 | Setting | Description |
 | ------- | ----------- |
-| **Placeholder** | Defines a text to be shown when there is no inputed value yet. |
+| **Placeholder** | Defines a text to be shown when there is no input value yet. |
 
 | Validation | Description |
 | ---------- | ----------- |
-| **Min** | Defines a content length that the inputed value must constrain to, `greater than` or `equal to`. |
-| **Max** | Defines a content length that the inputed value must constrain to, `lower than` or `equal to`. |
-| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the inputed value must match to. |
+| **Min** | Defines a content length that the input value must constrain to, `greater than` or `equal to`. |
+| **Max** | Defines a content length that the input value must constrain to, `lower than` or `equal to`. |
+| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. |
 
 ---
 
@@ -132,13 +132,13 @@ Child of the [Input Element](#input-element) this element displays a `<input typ
 
 | Setting | Description |
 | ------- | ----------- |
-| **Placeholder** | Defines a text to be shown when there is no inputed value yet. |
+| **Placeholder** | Defines a text to be shown when there is no input value yet. |
 
 | Validation | Description |
 | ---------- | ----------- |
-| **Min** | Defines a content length that the inputed value must constrain to, `greater than` or `equal to`. |
-| **Max** | Defines a content length that the inputed value must constrain to, `lower than` or `equal to`. |
-| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the inputed value must match to. |
+| **Min** | Defines a content length that the input value must constrain to, `greater than` or `equal to`. |
+| **Max** | Defines a content length that the input value must constrain to, `lower than` or `equal to`. |
+| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. |
 
 ---
 
@@ -150,13 +150,13 @@ Child of the [Input Element](#input-element) this element displays a `<input typ
 
 | Setting | Description |
 | ------- | ----------- |
-| **Placeholder** | Defines a text to be shown when there is no inputed value yet. |
+| **Placeholder** | Defines a text to be shown when there is no input value yet. |
 
 | Validation | Description |
 | ---------- | ----------- |
-| **Min** | Defines a content length that the inputed value must constrain to, `greater than` or `equal to`. |
-| **Max** | Defines a content length that the inputed value must constrain to, `lower than` or `equal to`. |
-| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the inputed value must match to. |
+| **Min** | Defines a content length that the input value must constrain to, `greater than` or `equal to`. |
+| **Max** | Defines a content length that the input value must constrain to, `lower than` or `equal to`. |
+| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. |
 
 ---
 
@@ -168,13 +168,13 @@ Child of the [Input Element](#input-element) this element displays a `<input typ
 
 | Setting | Description |
 | ------- | ----------- |
-| **Placeholder** | Defines a text to be shown when there is no inputed value yet. |
+| **Placeholder** | Defines a text to be shown when there is no input value yet. |
 
 | Validation | Description |
 | ---------- | ----------- |
-| **Min** | Defines a content length that the inputed value must constrain to, `greater than` or `equal to`. |
-| **Max** | Defines a content length that the inputed value must constrain to, `lower than` or `equal to`. |
-| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the inputed value must match to. |
+| **Min** | Defines a content length that the input value must constrain to, `greater than` or `equal to`. |
+| **Max** | Defines a content length that the input value must constrain to, `lower than` or `equal to`. |
+| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. |
 
 ---
 
@@ -186,8 +186,8 @@ Child of the [Input Element](#input-element) this element displays a `<input typ
 
 | Validation | Description |
 | ---------- | ----------- |
-| **Min** | Defines a date that the inputed value must constrain to, `greater than` or `equal to`. |
-| **Max** | Defines a date that the inputed value must constrain to, `lower than` or `equal to`. |
+| **Min** | Defines a date that the input value must constrain to, `greater than` or `equal to`. |
+| **Max** | Defines a date that the input value must constrain to, `lower than` or `equal to`. |
 
 {% callout type="warning" title="Styling Limitations" %}
 Date input relies on the browser native implementation, the picker and icon style is unconsistent and it customization not possible.
@@ -203,8 +203,8 @@ Child of the [Input Element](#input-element) this element displays a `<input typ
 
 | Validation | Description |
 | ---------- | ----------- |
-| **Min** | Defines a time that the inputed value must constrain to, `greater than` or `equal to`. |
-| **Max** | Defines a time that the inputed value must constrain to, `lower than` or `equal to`. |
+| **Min** | Defines a time that the input value must constrain to, `greater than` or `equal to`. |
+| **Max** | Defines a time that the input value must constrain to, `lower than` or `equal to`. |
 
 {% callout type="warning" title="Styling Limitations" %}
 Time input relies on the browser native implementation, the picker and icon style is unconsistent and it customization not possible.
@@ -220,8 +220,8 @@ Child of the [Input Element](#input-element) this element displays a `<input typ
 
 | Validation | Description |
 | ---------- | ----------- |
-| **Min** | Defines a month that the inputed value must constrain to, `greater than` or `equal to`. |
-| **Max** | Defines a month that the inputed value must constrain to, `lower than` or `equal to`. |
+| **Min** | Defines a month that the input value must constrain to, `greater than` or `equal to`. |
+| **Max** | Defines a month that the input value must constrain to, `lower than` or `equal to`. |
 
 {% callout type="warning" title="Styling Limitations" %}
 Month input relies on the browser native implementation, the picker and icon style is unconsistent and it customization not possible.
@@ -237,8 +237,8 @@ Child of the [Input Element](#input-element) this element displays a `<input typ
 
 | Validation | Description |
 | ---------- | ----------- |
-| **Min** | Defines a week that the inputed value must constrain to, `greater than` or `equal to`. |
-| **Max** | Defines a week that the inputed value must constrain to, `lower than` or `equal to`. |
+| **Min** | Defines a week that the input value must constrain to, `greater than` or `equal to`. |
+| **Max** | Defines a week that the input value must constrain to, `lower than` or `equal to`. |
 
 {% callout type="warning" title="Styling Limitations" %}
 Week input relies on the browser native implementation, the picker and icon style is unconsistent and it customization not possible.
@@ -252,7 +252,7 @@ The Textarea element Displays a standard `<textarea>` HTML element.
 
 | Setting | Description |
 | ------- | ----------- |
-| **Placeholder** | Defines a text to be shown when there is no inputed value yet. |
+| **Placeholder** | Defines a text to be shown when there is no input value yet. |
 
 ## Upload Element
 
