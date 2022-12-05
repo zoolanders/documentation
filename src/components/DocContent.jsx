@@ -74,7 +74,7 @@ function collectHeadings(nodes, slugify = slugifyWithCounter()) {
     if (node?.name === 'h2' || node?.name === 'h3') {
       let title = getNodeText(node)
       if (title) {
-        let id = slugify(title)
+        let id = slugify(title.toLowerCase())
         node.attributes.id = id
         if (node.name === 'h3') {
           if (!sections[sections.length - 1]) {
