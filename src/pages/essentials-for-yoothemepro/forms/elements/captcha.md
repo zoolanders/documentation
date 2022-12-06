@@ -14,7 +14,7 @@ There are several 3rd party CAPTCHA service providers supported out of the box, 
 
 ## reCAPTCHA Element
 
-The reCAPTCHA element integrates [Google reCAPTCHA](https://developers.google.com/recaptcha) free service that helps protect websites from spam and abuse. The integration only requires you to drop the element in any Form Area, choose the reCAPTCHA version, and set the site keys obtained in the [reCAPTCHA Admin Console](#recaptcha-admin-console).
+The reCAPTCHA element integrates [Google reCAPTCHA](https://developers.google.com/recaptcha) service that helps protect websites from spam and abuse. The integration only requires you to drop the element in any Form Area, choose the reCAPTCHA version, and set the site keys obtained in the [reCAPTCHA Admin Console](#recaptcha-admin-console).
 
 [image]
 
@@ -67,6 +67,14 @@ The [reCAPTCHA Admin Console](https://www.google.com/recaptcha/admin) allows you
 
 ## hCaptcha Element
 
+The hCaptcha element integrates [hCaptcha](https://www.hcaptcha.com/) anti-bot solution that protects user privacy and rewards websites. The integration only requires you to drop the element in any Form Area, and set the keys obtained in the hCaptcha Dashboard.
+
+[image]
+
 ---
 
-## friendlyCaptcha Element
+## Friendly Captcha Element
+
+The Friendly Captcha element integrates [Friendly Captcha](https://friendlycaptcha.com/) anti-bot solution that is GDPR compliant and made in Europe. The integration requires you to drop the element in any Form Area, and set the keys obtained in the Friendly Captcha Dashboard.
+
+[image]
