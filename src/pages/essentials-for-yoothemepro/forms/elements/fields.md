@@ -277,7 +277,7 @@ The Upload element displays by default a `<input type="file">` HTML element and 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
 | **Upload to** | Defines a path where the file will be uploaded. | &#x2713; |
-| **Avoid filename collisions** | Defines if the filename should change on upload, if conflicting with existing files. The newly created filename will be the original name appended with `_{n}`, being `n` a secuancial number. |
+| **Avoid filename collisions** | Defines if the filename should change on upload, if conflicting with existing files. The newly created filename will be the original name appended with `_{n}`, being `n` a sequential number. |
 | **Allow multiple uploads** | Defines if multiple files can be selected for upload, by adding the attribute `multiple` to `<input type="file">`. |
 | **Filename** | Defines an optional name to be set to the the file, upon upload. |
 
@@ -293,7 +293,7 @@ The Upload element displays by default a `<input type="file">` HTML element and 
 | **Display** | Defines different HTML elements to show for the upload button; `Button & Input`, `Button`, `Link` or `Native` . |
 | **Text** | Defines the text for button or link, if those are selected. |
 
-### Input
+### Upload Input options
 
 | Setting | Description |
 | ------- | ----------- |
@@ -302,7 +302,7 @@ The Upload element displays by default a `<input type="file">` HTML element and 
 | **Icon** | Defines the name of the Icon that will be displayed inside the input field. If nothing is set, no icon will be visible. |
 | **Icon Position** | Defines the side of the field where the icon will be positioned, `left` or `right`. |
 
-### Button
+### Upload Button options
 
 | Setting | Description |
 | ------- | ----------- |
