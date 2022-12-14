@@ -14,7 +14,7 @@ Field elements represent standard HTML form elements supported natively by UIkit
 
 The Input element displays a grid of standard `<input>` HTML elements with support for `text`, `date`, `email`, `number`, `password`, `tel`, `url`, `month`, `time`, and `week` types. Each type is scoped into a specific child element that inherits the parent Field Settings with optional override.
 
-{% image width="sm" caption="Toggle display settings for all children at once." %}
+{% image width="sm" caption="Set multiple children and control the display of all of them within the parent." %}
 ![Input Element](/assets/ytp/forms/input.webp)
 {% /image %}
 
@@ -244,16 +244,16 @@ The Textarea element displays a standard `<textarea>` HTML element. It inherits 
 
 ## Option Elements
 
-Option elements present single or multiple options for the user to choose from, being a `<select>` or a group of `<checkbox>` / `<radio>`.
+Option elements present single or multiple options for the user to choose from, being a `<select>` or a group of `<checkbox>` or  `<radio>`.
 
-[image]
+### Option Element
 
-The element options are defined as child Option Element which specifics settings are:
+The options are defined as children of the type Option which specifics settings are:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
-| **Value** | Defines the `value=""` attribute for an option, must be a unique value among its siblings. | &#x2713; |
-| **Text** | Defines the option text, defaults to the value if omitted. This field accepts HTML content, only applicable for `Checkbox` and `Radio`. | &#x2713; |
+| **Value** | Defines the option value, must be a unique value among its siblings. | &#x2713; |
+| **Text** | Defines the option text, defaults to the value if omitted. This field accepts HTML content when used with `Checkbox` or `Radio`. | &#x2713; |
 | **State** | Defines if the option is `Disabled` or `Enabled`. Disabled options are unusable and unclickable. | &#x2713; |
 | **Id** | Defines the option ID attribute, only applicable for `Checkbox` and `Radio`. Overrides any ID set in the parent element. | &#x2713; |
 
@@ -261,14 +261,16 @@ The element options are defined as child Option Element which specifics settings
 
 ### Select Element
 
-The Select element displays a standard `<select>` HTML element. It inherits [common settings](#common-settings) with the following specifics:
+![Select Element](/assets/ytp/forms/select.webp)
+
+The Select element displays a standard `<select>` HTML element. Adopts the [Option Element](#option-element) for the options definition and inherits [common settings](#common-settings) with the following specifics:
 
 | Setting | Description |
 | ------- | ----------- |
 | **Size** | A [common settings](common-settings) that defines the field size. |
 | **Width** | Defines the field width by applying a `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
-| **Height** | Defines the number of rows in the list that will be visible by default, if `Allow multiple selection` is enabled. |
-| **Allow multiple selection** | Defines the possibility to choose more than one option, by adding `multiple` attribute to `<select>` HTML element. |
+| **Height** | Defines the number of rows in the list that will be visible by default, if Multiple Selection is enabled. |
+| **Multiple Selection** | Defines the possibility to choose more than one option. |
 
 | Validation | Description |
 | ---------- | ----------- |
@@ -279,7 +281,9 @@ The Select element displays a standard `<select>` HTML element. It inherits [com
 
 ### Checkbox Element
 
-The Checkbox element displays a standard `<input type="checkbox">` HTML element, wrapped in a `<label>`. It inherits [common settings](#common-settings) with the following specifics:
+![Checkbox Element](/assets/ytp/forms/checkbox.webp)
+
+The Checkbox element displays a standard `<input type="checkbox">` HTML element, wrapped in a `<label>`. Adopts the [Option Element](#option-element) for the options definition and inherits [common settings](#common-settings) with the following specifics:
 
 | Setting | Description |
 | ------- | ----------- |
@@ -294,7 +298,9 @@ The Checkbox element displays a standard `<input type="checkbox">` HTML element,
 
 ### Radio Element
 
-The Radio element displays a standard `<input type="radio">` HTML element, wrapped in its `<label>`. It inherits [common settings](#common-settings) with the following specifics:
+![Radio Element](/assets/ytp/forms/radio.webp)
+
+The Radio element displays a standard `<input type="radio">` HTML element, wrapped in its `<label>`. Adopts the [Option Element](#option-element) for the options definition and inherits [common settings](#common-settings) with the following specifics:
 
 | Setting | Description |
 | ------- | ----------- |
