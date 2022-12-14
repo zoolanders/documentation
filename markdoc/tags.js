@@ -19,6 +19,7 @@ const tags = {
     attributes: {
       className: { type: String },
       caption: { type: String },
+      width: { type: String },
     },
     render: Image,
   },

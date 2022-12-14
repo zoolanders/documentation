@@ -1,7 +1,6 @@
 import { Fence } from '@/components/Fence'
 import { nodes as defaultNodes, Tag } from '@markdoc/markdoc'
 import isAbsoluteUrl from 'is-absolute-url'
-// import { link } from '@markdoc/next.js/tags'
 
 const nodes = {
   document: {

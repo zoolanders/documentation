@@ -4,39 +4,17 @@ title: Field Elements
 
 Structure your forms with native field elements. {% .lead %}
 
-Field elements can be found in the [element library](https://yootheme.com/support/yootheme-pro/joomla/element-library) under Form Essentials. They represent standard HTML form elements supported natively by YOOtheme Pro styles.
+Field elements represent standard HTML form elements supported natively by UIkit. These can be found in the [element library](https://yootheme.com/support/yootheme-pro/joomla/element-library) under Form Essentials, use them to set the basic form structure.
 
 ![Field Elements](/assets/ytp/forms/elements.webp)
 
 ---
 
-## Common Settings
-
-Element settings like Control Name, Label, and Value recur across all elements.
-
-| Setting | Description | Dynamic |
-| ------- | ----------- | :-----: |
-| **Label** | Defines a title for the field that should represent the field data. | &#x2713; |
-| **Control** | Defines a name that identifies the field control within the form. It's required and must be unique for the Form Area. |
-| **Value** | Defines the default value for the field. The user can change it. | &#x2713; |
-| **Readonly** | Defines if the field should be read-only. Any default value will be unedible. |
-| **Autofocus** | Defines if the field will be autofocused as soon as the page loads. Only one field can be focused on each page. |
-| **Sync ID / Control** | Defines if the field ID attribute should have the same value as the Control Name. |
-
-Element validation settings like `Required` and `Error Message` recur across all elements.
-
-| Validation | Description | Dynamic |
-| ---------- | ----------- | :-----: |
-| **Required** | Defines if the field must have a value. | &#x2713; |
-| **Error Message** | Defines the message if the element validation fails. | &#x2713; |
-
----
-
 ## Input Element
 
-The Input element displays a grid of standard `<input>` HTML elements with support for `text`, `date`, `email`, `number`, `password`, `tel`, `url`, `month`, `time`, and `week` types.
+The Input element displays a grid of standard `<input>` HTML elements with support for `text`, `date`, `email`, `number`, `password`, `tel`, `url`, `month`, `time`, and `week` types. Each type is scoped into a specific child element that inherits the parent Field Settings with optional override.
 
-{% image className="max-w-md" caption="Toggle display settings for all children at once." %}
+{% image width="sm" caption="Toggle display settings for all children at once." %}
 ![Input Element](/assets/ytp/forms/input.webp)
 {% /image %}
 
@@ -45,7 +23,7 @@ The Input element displays a grid of standard `<input>` HTML elements with suppo
 | **Show Label** | Defines the label visibility of all fields. |
 | **Show Icon** | Defines the icon visibility of all fields. |
 
-{% image className="max-w-md" caption="Customize the grid columns and row gap."%}
+{% image className="max-w-sm" caption="Customize the grid columns and row gap."%}
 ![Input Columns Settings](/assets/ytp/forms/input-grid.webp)
 {% /image %}
 
@@ -55,19 +33,17 @@ The Input element displays a grid of standard `<input>` HTML elements with suppo
 | **Column Gap** | Defines the size of the gap between grid columns. |
 | **Row Gap** | Defines the size of the gap between grid rows. |
 
-Each type is scoped into a specific child element that inherits the Field Settings with an optional override.
-
-{% image className="max-w-md" %}
+{% image width="sm" %}
 ![Input Common Settings](/assets/ytp/forms/input-commons.webp)
 {% /image %}
 
 | Setting | Description |
 | ------ | ----------- |
-| **Size** | Defines the field size by applying a [`uk-form-{size}`](https://getuikit.com/docs/form#size-modifiers) style. |
-| **Width** | Defines the field width by applying a [`uk-form-width-{width}`](https://getuikit.com/docs/form#width-modifiers) style. |
+| **Size** | Defines the field size by applying a `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
+| **Width** | Defines the field width by applying a `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
 | **Full Width** | Defines if the field will occupy the full width of its parent. |
 | **Icon** | Defines the name of the Icon that will be displayed inside the field. |
-| **Icon Position** | Defines the side of the field where the icon will be positioned, `left` or `right`. |
+| **Icon Position** | Defines the side of the field where the icon will be positioned, `Left` or `Right`. |
 
 ---
 
@@ -246,20 +222,16 @@ Week input relies on the browser's native implementation, the picker and icon st
 
 ---
 
-## Hidden Element
-
-The Hidden element displays a standard `<input type="hidden">` field. It inherits the following common settings from Input, `Control Name` and `Value`. No other settings are available.
-
----
-
 ## Textarea Element
 
-The Textarea element displays a standard `<textarea>` HTML element.
+![Textarea Element](/assets/ytp/forms/textarea.webp)
+
+The Textarea element displays a standard `<textarea>` HTML element. It inherits [common settings](#common-settings) with the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
 | **Placeholder** | Defines a text to be shown when there is no input value yet. | &#x2713; |
-| **Width** | Defines the field width by applying a [`uk-form-width-{width}`](https://getuikit.com/docs/form#width-modifiers) style. |
+| **Width** | Defines the field width by applying a `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
 | **Rows** | Defines the number of visible text lines by setting a value for `rows` attribute. |
 
 | Validation | Description | Dynamic |
@@ -270,75 +242,31 @@ The Textarea element displays a standard `<textarea>` HTML element.
 
 ---
 
-## Upload Element
+## Option Elements
 
-The Upload element displays by default a `<input type="file">` HTML element and a button with text.
+Option elements present single or multiple options for the user to choose from, being a `<select>` or a group of `<checkbox>` / `<radio>`.
+
+[image]
+
+The element options are defined as child Option Element which specifics settings are:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
-| **Upload to** | Defines a path where the file will be uploaded. | &#x2713; |
-| **Avoid filename collisions** | Defines if the filename should change on upload, if conflicting with existing files. The newly created filename will be the original name appended with `_{n}`, being `n` a sequential number. |
-| **Allow multiple uploads** | Defines if multiple files can be selected for upload, by adding the attribute `multiple` to `<input type="file">`. |
-| **Filename** | Defines an optional name to be set to the the file, upon upload. |
-
-| Validation | Description | Dynamic |
-| ---------- | ----------- | :-----: |
-| **Mime types** | Defines a list of allowed mime types that can be uploaded. | &#x2713; |
-| **Extensions** | Defines a list of allowed file extensions that can be uploaded. If left empty, the following attribute is set `accept="."` | &#x2713; |
-| **Min length** | Defines a size that the file must constrain to, `greater than` or `equal to`. | &#x2713; |
-| **Max length** | Defines a size that the file must constrain to, `lower than` or `equal to`. | &#x2713; |
-
-| Setting | Description |
-| ------- | ----------- |
-| **Display** | Defines different HTML elements to show for the upload button; `Button & Input`, `Button`, `Link` or `Native` . |
-| **Text** | Defines the text for button or link, if those are selected. |
-
-### Upload Input options
-
-| Setting | Description |
-| ------- | ----------- |
-| **Size** | Defines the input field size by applying a [`uk-form-{size}`](https://getuikit.com/docs/form#size-modifiers) style. |
-| **Width** | Defines the input field width by applying a [`uk-form-width-{width}`](https://getuikit.com/docs/form#width-modifiers) style. |
-| **Icon** | Defines the name of the Icon that will be displayed inside the input field. If nothing is set, no icon will be visible. |
-| **Icon Position** | Defines the side of the field where the icon will be positioned, `left` or `right`. |
-
-### Upload Button options
-
-| Setting | Description |
-| ------- | ----------- |
-| **Full Width** | Defines if the button will occupy the full width of its parent. |
-| **Style** | Defines the style of the button by applying [`uk-button-{style}`](https://getuikit.com/docs/button#style-modifiers). |
-| **Size** | Defines the size of the button, `Small`, `Default` or `Large`, by applying [`uk-button-{size}`](https://getuikit.com/docs/button#size-modifiers). |
-| **Icon** | Defines the name of the Icon that will be displayed inside the input field. If nothing is set, no icon will be visible. |
-| **Icon Position** | Defines the side of the button where the icon will be positioned, `left` or `right`. |
+| **Value** | Defines the `value=""` attribute for an option, must be a unique value among its siblings. | &#x2713; |
+| **Text** | Defines the option text, defaults to the value if omitted. This field accepts HTML content, only applicable for `Checkbox` and `Radio`. | &#x2713; |
+| **State** | Defines if the option is `Disabled` or `Enabled`. Disabled options are unusable and unclickable. | &#x2713; |
+| **Id** | Defines the option ID attribute, only applicable for `Checkbox` and `Radio`. Overrides any ID set in the parent element. | &#x2713; |
 
 ---
 
-## Range Element
+### Select Element
 
-The Range element displays a standard `<input type="range">` HTML element.
-
-| Setting | Description |
-| ------- | ----------- |
-| **Size** | Defines the element size by applying a [`uk-form-{size}`](https://getuikit.com/docs/form#size-modifiers) style. |
-| **Width** | Defines the input field width by applying a [`uk-form-width-{width}`](https://getuikit.com/docs/form#width-modifiers) style. |
-
-| Validation | Description | Dynamic |
-| ---------- | ----------- | :-----: |
-| **Min** | Defines a week that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |
-| **Max** | Defines a week that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |
-| **Step** | Value will be multiple of defined step. | &#x2713; |
-
----
-
-## Select Element
-
-The Select element displays a standard `<select>` HTML element.
+The Select element displays a standard `<select>` HTML element. It inherits [common settings](#common-settings) with the following specifics:
 
 | Setting | Description |
 | ------- | ----------- |
-| **Size** | Defines the element size by applying a [`uk-form-{size}`](https://getuikit.com/docs/form#size-modifiers) style. |
-| **Width** | Defines the input field width by applying a [`uk-form-width-{width}`](https://getuikit.com/docs/form#width-modifiers) style. |
+| **Size** | A [common settings](common-settings) that defines the field size. |
+| **Width** | Defines the field width by applying a `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
 | **Height** | Defines the number of rows in the list that will be visible by default, if `Allow multiple selection` is enabled. |
 | **Allow multiple selection** | Defines the possibility to choose more than one option, by adding `multiple` attribute to `<select>` HTML element. |
 
@@ -349,9 +277,9 @@ The Select element displays a standard `<select>` HTML element.
 
 ---
 
-## Checkbox Element
+### Checkbox Element
 
-The Checkbox element displays a standard `<input type="checkbox">` HTML element, wrapped in a `<label>`.
+The Checkbox element displays a standard `<input type="checkbox">` HTML element, wrapped in a `<label>`. It inherits [common settings](#common-settings) with the following specifics:
 
 | Setting | Description |
 | ------- | ----------- |
@@ -364,9 +292,9 @@ The Checkbox element displays a standard `<input type="checkbox">` HTML element,
 
 ---
 
-## Radio Element
+### Radio Element
 
-The Radio element displays a standard `<input type="radio">` HTML element, wrapped in its `<label>`.
+The Radio element displays a standard `<input type="radio">` HTML element, wrapped in its `<label>`. It inherits [common settings](#common-settings) with the following specifics:
 
 | Setting | Description |
 | ------- | ----------- |
@@ -374,13 +302,85 @@ The Radio element displays a standard `<input type="radio">` HTML element, wrapp
 
 ---
 
-## Option Element
+## Upload Element
 
-The Option element is a child element for `Select`, `Checkbox` and `Radio` elements.
+The Upload element displays by default a `<input type="file">` HTML element and a button with text. It inherits [common settings](#common-settings) with the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
-| **Value** | Defines the `value=""` attribute for an option, must be a unique value among its siblings. | &#x2713; |
-| **Text** | Defines the option text, defaults to the value if omitted. This field accepts HTML content, only applicable for `Checkbox` and `Radio`. | &#x2713; |
-| **State** | Defines if the option is `Disabled` or `Enabled`. Disabled options are unusable and unclickable. | &#x2713; |
-| **Id** | Defines the option ID attribute, only applicable for `Checkbox` and `Radio`. Overrides any ID set in the parent element. | &#x2713; |
+| **Upload to** | Defines a path where the file will be uploaded. | &#x2713; |
+| **Avoid filename collisions** | Defines if the filename should change on upload, if conflicting with existing files. The newly created filename will be the original name appended with `_{n}`, being `n` a sequential number. |
+| **Allow multiple uploads** | Defines if multiple files can be selected for upload, by adding the attribute `multiple` to `<input type="file">`. |
+| **Filename** | Defines an optional name to be set to the the file, upon upload. |
+
+| Validation | Description | Dynamic |
+| ---------- | ----------- | :-----: |
+| **Mime types** | Defines a list of allowed mime types that the file must constrain to. If left empty any mime type will be allowed. | &#x2713; |
+| **Extensions** | Defines a list of allowed file extensions that the file must constrain to. If left empty any extension will be allowed. | &#x2713; |
+| **Min File Size** | Defines a size that the file must constrain to, `greater than` or `equal to`, using any standard size unit `B`, `KB`, `MB`, `GB`, `TB`, `PB`, `EB`, `ZB`, or `YB`.  | &#x2713; |
+| **Max File Size** | Defines a size that the file must constrain to, `lower than` or `equal to`, using the same size units. | &#x2713; |
+
+| Setting | Description |
+| ------- | ----------- |
+| **Display** | Defines different HTML elements to show for the upload button; `Button & Input`, `Button`, `Link` or `Native` . |
+| **Text** | Defines the text for button or link, if those are selected. |
+
+### Upload Input options
+
+| Setting | Description |
+| ------- | ----------- |
+| **Icon** | Defines the name of the Icon that will be displayed inside the input field. If nothing is set, no icon will be visible. |
+| **Icon Position** | Defines the side of the field where the icon will be positioned, `left` or `right`. |
+
+### Upload Button options
+
+| Setting | Description |
+| ------- | ----------- |
+| **Full Width** | Defines if the button will occupy the full width of its parent. |
+| **Icon** | Defines the name of the Icon that will be displayed inside the input field. If nothing is set, no icon will be visible. |
+| **Icon Position** | Defines the side of the button where the icon will be positioned, `left` or `right`. |
+
+---
+
+## Range Element
+
+The Range element displays a standard `<input type="range">` HTML element. It inherits [common settings](#common-settings) with the following specifics:
+
+| Validation | Description | Dynamic |
+| ---------- | ----------- | :-----: |
+| **Min** | Defines an amount that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |
+| **Max** | Defines an amount that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |
+| **Step** | Defines the multiple of which the input value will be constrained to. | &#x2713; |
+
+---
+
+## Hidden Element
+
+The Hidden element displays a standard `<input type="hidden">` field. Use it to render information that will be hidden to the user, but submitted as any other input value.
+
+| Setting | Description | Dynamic |
+| ------- | ----------- | :-----: |
+| **Control** | Defines a name that identifies the field control within the form. It's required and must be unique for the Form Area. |
+| **Value** | Defines the value for the field. | &#x2713; |
+
+---
+
+## Common Settings
+
+A reference to settings recuring across most field elements.
+
+| Setting | Description | Dynamic |
+| ------- | ----------- | :-----: |
+| **Label** | Defines a title for the field that should represent the field data. | &#x2713; |
+| **Control** | Defines a name that identifies the field control within the form. It's required and must be unique for the Form Area. |
+| **Value** | Defines the default value for the field. The user can change it. | &#x2713; |
+| **Readonly** | Defines if the field should be read-only. Any default value will be unedible. |
+| **Autofocus** | Defines if the field will be autofocused as soon as the page loads. Only one field can be focused on each page. |
+| **Sync ID / Control** | Defines if the field ID attribute should have the same value as the Control Name. |
+| **Size** | Defines the field size by applying a `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
+| **Width** | Defines the field width by applying a `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
+
+| Validation | Description | Dynamic |
+| ---------- | ----------- | :-----: |
+| **Required** | Defines if the field must have a value. | &#x2713; |
+| **Error Message** | Defines the message if the element validation fails. Optinally use `{fieldlabel}` in the message as placeholder, it will be replaced with the field label content. | &#x2713; |
