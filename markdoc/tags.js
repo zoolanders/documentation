@@ -1,5 +1,6 @@
 import { Image } from '@/components/Image'
 import { Callout } from '@/components/Callout'
+import { Details } from '@/components/Details'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 
 const tags = {
@@ -22,6 +23,12 @@ const tags = {
       width: { type: String },
     },
     render: Image,
+  },
+  details: {
+    attributes: {
+      summary: { type: String }
+    },
+    render: Details,
   },
   figure: {
     selfClosing: true,
