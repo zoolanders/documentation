@@ -1,0 +1,67 @@
+{
+  "type": "section",
+  "props": {
+    "style": "default",
+    "width": "default",
+    "vertical_align": "middle",
+    "title_position": "top-left",
+    "title_rotation": "left",
+    "title_breakpoint": "xl",
+    "image_position": "center-center",
+    "yooessentials_form": {
+      "state": true,
+      "html5validation": true,
+      "after_submit_actions": [
+        {
+          "type": "message",
+          "props": { "content": "Hola!\n\nMy message: {message}" },
+          "id": "636da45195907"
+        }
+      ],
+      "override_action_url": false,
+      "action_method": "POST"
+    }
+  },
+  "children": [
+    {
+      "type": "row",
+      "children": [
+        {
+          "type": "column",
+          "props": {
+            "position_sticky_breakpoint": "m",
+            "image_position": "center-center",
+            "media_overlay_gradient": ""
+          },
+          "children": [
+            {
+              "type": "yooessentials_form_textarea",
+              "props": {
+                "margin": "default",
+                "control_id_inherit": true,
+                "control_name": "message",
+                "control_label": "Message"
+              }
+            },
+            {
+              "type": "yooessentials_form_button",
+              "props": {
+                "grid_column_gap": "small",
+                "grid_row_gap": "small",
+                "margin": "default"
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "props": []
+    }
+  ],
+  "name": "Basic Form Example",
+  "yooessentialsLayoutId": "633c0b628e9f7",
+  "formid": "e110394e",
+  "modified": "2022-11-11T01:25:32.535Z",
+  "version": "3.0.13",
+  "yooessentialsVersion": "1.8.14"
+}

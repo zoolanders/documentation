@@ -4,3 +4,13 @@
 @import './prism.css';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer components {
+    table td strong {
+        white-space: nowrap;
+    }
+
+    table th {
+        white-space: nowrap;
+    }
+}

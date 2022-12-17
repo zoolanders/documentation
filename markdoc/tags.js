@@ -1,6 +1,8 @@
 import { Image } from '@/components/Image'
 import { Callout } from '@/components/Callout'
 import { Details } from '@/components/Details'
+import { Download } from '@/components/Download'
+import { ElementIcon } from '@/components/ElementIcon'
 import { QuickLink, QuickLinks } from '@/components/QuickLinks'
 
 const tags = {
@@ -24,11 +26,24 @@ const tags = {
     },
     render: Image,
   },
+  download: {
+    attributes: {
+      text: { type: String },
+      href: { type: String },
+    },
+    render: Download,
+  },
   details: {
     attributes: {
       summary: { type: String }
     },
     render: Details,
+  },
+  elementIcon: {
+    attributes: {
+      icon: { type: String }
+    },
+    render: ElementIcon,
   },
   figure: {
     selfClosing: true,
@@ -56,6 +71,7 @@ const tags = {
       description: { type: String },
       icon: { type: String },
       href: { type: String },
+      download: { type: Boolean },
     },
   },
 }

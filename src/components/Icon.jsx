@@ -7,6 +7,7 @@ import { PluginsIcon } from '@/components/icons/PluginsIcon'
 import { PresetsIcon } from '@/components/icons/PresetsIcon'
 import { ThemingIcon } from '@/components/icons/ThemingIcon'
 import { WarningIcon } from '@/components/icons/WarningIcon'
+import { DownloadIcon } from '@/components/icons/DownloadIcon'
 
 const icons = {
   installation: InstallationIcon,
@@ -15,6 +16,7 @@ const icons = {
   theming: ThemingIcon,
   lightbulb: LightbulbIcon,
   warning: WarningIcon,
+  download: DownloadIcon,
 }
 
 const iconStyles = {
@@ -42,13 +44,12 @@ export function Icon({ color = 'blue', icon, className, ...props }) {
 
 const gradients = {
   blue: [
-    { stopColor: '#0EA5E9' },
-    { stopColor: '#22D3EE', offset: '.527' },
-    { stopColor: '#818CF8', offset: 1 },
+    { stopColor: 'rgb(56 189 248)' },
+    { stopColor: 'rgb(2 132 199)', offset: 1 },
   ],
   amber: [
-    { stopColor: '#FDE68A', offset: '.08' },
-    { stopColor: '#F59E0B', offset: '.837' },
+    { stopColor: 'rgb(251 191 36)' },
+    { stopColor: 'rgb(217 119 6)', offset: 1 },
   ],
 }
 
