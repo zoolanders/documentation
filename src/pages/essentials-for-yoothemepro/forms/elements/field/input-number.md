@@ -3,7 +3,7 @@ title: Input Number Field Element
 preset: /assets/ytp/presets/FormArea-InputNumber.json
 ---
 
-A one-line numerical form control. {% .lead %}
+A numerical form control. {% .lead %}
 
 Child of [Input Element](./input), the Input Number element displays a [\<input type="number"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number) HTML element, use it to create one-line fields restricted to numerical entries. The browser may opt to provide stepper arrows to let the user increase and decrease the value using their mouse or by tapping with a fingertip.
 
@@ -13,7 +13,7 @@ Child of [Input Element](./input), the Input Number element displays a [\<input 
 
 ## Settings
 
-Inherits common settings and the parent's [Fields Settings](./input#fields-settings) with the following specifics:
+It inherits common settings and the parent's [Fields Settings](./input#fields-settings) with the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
@@ -27,7 +27,7 @@ Inherits common settings and the parent's [Fields Settings](./input#fields-setti
 
 ## Validation
 
-While the browser validation invalidate any entry that isn't a number, it inherits common validation and the following specifics:
+While the browser validation invalidate any entry that isn't a number, it It inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
@@ -43,7 +43,7 @@ While the browser validation invalidate any entry that isn't a number, it inheri
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add a Input Element from the Form Essentials group and a Number element as it child.
+1. Add a Input Element from the Form Essentials group and a Input Number element as it child.
 1. Access the child element settings and input a Control Name.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

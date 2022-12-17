@@ -1,19 +1,19 @@
 ---
-title: Input Email Field Element
-preset: /assets/ytp/presets/FormArea-InputEmail.json
+title: Input Url Field Element
+preset: /assets/ytp/presets/FormArea-InputUrl.json
 ---
 
-A one-line email form control. {% .lead %}
+An url form control. {% .lead %}
 
-Child of [Input Element](./input), the Input Email element displays a [\<input type="email"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) HTML element, use it to create one-line e-mail address edit fields.
+Child of [Input Element](./input), the Input Url element displays a [\<input type="url"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url) HTML element, use it to create one-line url edit fields.
 
-![Input Email Element](/assets/ytp/forms/input-email.webp)
+![Input Url Element](/assets/ytp/forms/input-url.webp)
 
 ---
 
 ## Settings
 
-It inherits common settings and the parent's [Fields Settings](./input#fields-settings) and the following specifics:
+It inherits common settings and the parent's [Fields Settings](./input#fields-settings) with the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
@@ -27,14 +27,14 @@ It inherits common settings and the parent's [Fields Settings](./input#fields-se
 
 ## Validation
 
-Browser side validation ensures that only text that matches the standard format for Internet e-mail addresses is entered. If you need the URL to be restricted further you can set a regular expression pattern.
+Browser side validation ensures that only text that matches the standard format for URLs is entered. If you need the URL to be restricted further you can set a regular expression pattern.
 
 It inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
-| **Min Length** | A content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; |
-| **Max Length** | A content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; |
+| **Min Length** | A content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Max Length** | A content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 | **Pattern** | A [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
 
 {% details summary="Common Validation" %}
@@ -46,7 +46,7 @@ It inherits common validation with the following specifics:
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add a Input Element from the Form Essentials group and a Input Email element as it child.
+1. Add a Input Element from the Form Essentials group and a Input Url element as it child.
 1. Access the child element settings and input a Control Name.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

@@ -42,12 +42,44 @@
                             "href": "./elements/field/input-email"
                         },
                         {
+                            "title": "Input Url",
+                            "href": "./elements/field/input-url"
+                        },
+                        {
+                            "title": "Input Tel",
+                            "href": "./elements/field/input-tel"
+                        },
+                        {
+                            "title": "Input Date",
+                            "href": "./elements/field/input-date"
+                        },
+                        {
+                            "title": "Input Time",
+                            "href": "./elements/field/input-time"
+                        },
+                        {
+                            "title": "Input Month",
+                            "href": "./elements/field/input-month"
+                        },
+                        {
+                            "title": "Input Week",
+                            "href": "./elements/field/input-week"
+                        },
+                        {
                             "title": "Textarea",
                             "href": "./elements/field/textarea"
                         },
                         {
                             "title": "Select",
                             "href": "./elements/field/select"
+                        },
+                        {
+                            "title": "Radio",
+                            "href": "./elements/field/radio"
+                        },
+                        {
+                            "title": "Checkbox",
+                            "href": "./elements/field/checkbox"
                         }
                     ]
                 },

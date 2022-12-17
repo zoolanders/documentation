@@ -13,7 +13,7 @@ Child of [Input Element](./input), the Input Password element displays a [\<inpu
 
 ## Settings
 
-Inherits common settings and the parent's [Fields Settings](./input#fields-settings) with the following specifics:
+It inherits common settings and the parent's [Fields Settings](./input#fields-settings) with the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
@@ -27,7 +27,7 @@ Inherits common settings and the parent's [Fields Settings](./input#fields-setti
 
 ## Validation
 
-It inherits common validation and the following specifics:
+It inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
@@ -44,7 +44,7 @@ It inherits common validation and the following specifics:
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add a Input Element from the Form Essentials group and a Password element as it child.
+1. Add a Input Element from the Form Essentials group and a Input Password element as it child.
 1. Access the child element settings and input a Control Name.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

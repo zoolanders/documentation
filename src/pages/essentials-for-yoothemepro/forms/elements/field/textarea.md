@@ -13,7 +13,7 @@ icon: '<svg width="150" height="150" viewBox="0 0 30 30" xmlns="http://www.w3.or
 
 A multi-line plain-text editing form control. {% .lead %}
 
-The Textarea element displays a [\<textarea\> HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) element, use it to allow users entering a sizeable amount of free-form text, for example a comment on a review or feedback form.
+The Textarea element displays a [\<textarea\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) HTML element, use it to allow users entering a sizeable amount of free-form text, for example a comment on a review or feedback form.
 
 ![Textarea Element](/assets/ytp/forms/textarea.webp)
 
@@ -21,27 +21,41 @@ The Textarea element displays a [\<textarea\> HTML](https://developer.mozilla.or
 
 ## Settings
 
-It inherits [field common settings](../fields#common-settings) with the following specifics:
+It inherits common settings with the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
-| **Placeholder** | Defines a text to be shown when there is no input value yet. | &#x2713; |
-| **Size** | Defines the field size by applying a `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
-| **Width** | Defines the field width by applying a `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
-| **Rows** | Defines the number of visible text lines by setting a value for `rows` attribute. |
+| **Placeholder** | A text to be shown when there is no input value yet. | &#x2713; |
+| **Size** | The field size by applying a `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
+| **Width** | The field width by applying a `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
+| **Rows** | The number of visible text lines by setting a value for `rows` attribute. |
 
-| Validation | Description | Dynamic |
-| ---------- | ----------- | :-----: |
-| **Min length** | Defines a content length that the textarea value must constrain to, `greater than` or `equal to`. | &#x2713; |
-| **Max length** | Defines a content length that the textarea value must constrain to, `lower than` or `equal to`. | &#x2713; |
-| **Pattern** | Defines a [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |
+{% details summary="Common Settings" %}
+    {% partial file="ytp-formarea-field-common-settings.md" /%}
+{% /details %}
+
+---
+
+## Validation
+
+It inherits common validation with the following specifics:
+
+| Validation | Description | Dynamic | Browser Side | Server Side |
+| ---------- | ----------- | :-----: | :----------: | :---------: |
+| **Min Length** | A content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Max Length** | A content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Pattern** | A [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
+
+{% details summary="Common Validation" %}
+    {% partial file="ytp-formarea-field-common-validation.md" /%}
+{% /details %}
 
 ---
 
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add in a Textarea Element from the Form Essentials group.
+1. Add a Textarea Element from the Form Essentials group.
 1. Access the element settings and input a Control Name.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}
