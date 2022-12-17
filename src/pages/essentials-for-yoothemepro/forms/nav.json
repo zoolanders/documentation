@@ -22,6 +22,26 @@
                     "href": "./elements/fields",
                     "links": [
                         {
+                            "title": "Input",
+                            "href": "./elements/field/input"
+                        },
+                        {
+                            "title": "Input Text",
+                            "href": "./elements/field/input-text"
+                        },
+                        {
+                            "title": "Input Number",
+                            "href": "./elements/field/input-number"
+                        },
+                        {
+                            "title": "Input Password",
+                            "href": "./elements/field/input-password"
+                        },
+                        {
+                            "title": "Input Email",
+                            "href": "./elements/field/input-email"
+                        },
+                        {
                             "title": "Textarea",
                             "href": "./elements/field/textarea"
                         },

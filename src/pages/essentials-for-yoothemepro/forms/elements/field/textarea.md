@@ -1,12 +1,12 @@
 ---
 title: Textarea Field Element
+preset: /assets/ytp/presets/FormArea-Textarea.json
 icon: '<svg width="150" height="150" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
   <path fill="none" stroke-width="2" d="M2 3h26v24H2z"/>
   <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1.82" transform="matrix(1 0 0 .601 4.5982 4.24573)"/>
   <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1.27" transform="matrix(.7071 .7071 -.34192 .34192 26.0579 17.4075)"/>
   <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1.37" transform="matrix(.7071 .7071 -.17222 .17222 25.5588 20.7305)"/>
 </svg>'
-
 ---
 
 {% elementIcon icon=$markdoc.frontmatter.icon /%}
@@ -15,7 +15,7 @@ A multi-line plain-text editing form control. {% .lead %}
 
 The Textarea element displays a [\<textarea\> HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) element, use it to allow users entering a sizeable amount of free-form text, for example a comment on a review or feedback form.
 
-![Textarea Element Display](/assets/ytp/forms/textarea.webp)
+![Textarea Element](/assets/ytp/forms/textarea.webp)
 
 ---
 
@@ -44,11 +44,4 @@ It inherits [field common settings](../fields#common-settings) with the followin
 1. Add in a Textarea Element from the Form Essentials group.
 1. Access the element settings and input a Control Name.
 
-Alternatively, download and [load](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) in the layout one of the following presets.
-
-{% quick-links %}
-
-{% quick-link title="Download Preset" href="/assets/ytp/presets/form-area-with-textarea.json" description="Download a preset of a Form Area with Textarea element." download="true" /%}
-{% quick-link title="Advanced Presets" href="./forms" description="Explore Form Area presets with more advanced workflow." /%}
-
-{% /quick-links %}
+{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}
