@@ -19,7 +19,17 @@
             "links": [
                 {
                     "title": "Fields",
-                    "href": "./elements/fields"
+                    "href": "./elements/fields",
+                    "links": [
+                        {
+                            "title": "Textarea",
+                            "href": "./elements/field/textarea"
+                        },
+                        {
+                            "title": "Select",
+                            "href": "./elements/field/select"
+                        }
+                    ]
                 },
                 {
                     "title": "Captcha",
