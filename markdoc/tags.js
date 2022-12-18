@@ -41,7 +41,7 @@ const tags = {
   },
   elementIcon: {
     attributes: {
-      icon: { type: String }
+      draw: { type: String }
     },
     render: ElementIcon,
   },

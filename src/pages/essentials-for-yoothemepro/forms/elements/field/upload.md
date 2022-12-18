@@ -1,14 +1,14 @@
 ---
 title: Upload Field Element
 preset: /assets/ytp/presets/FormArea-Upload.json
-icon: '<svg width="150" height="150" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
   <path d="M11.42059 15.2841195l3.579405-3.579405 3.579405 3.579405" fill="none" stroke-width="1.43176"/>
-  <path fill="#fff" d="M14.284114 12.4205955h1.431762v7.874691h-1.431762z"/>
-</svg>'
+  <path d="M14.284114 12.4205955h1.431762v7.874691h-1.431762z"/>
+'
 ---
 
-{% elementIcon icon=$markdoc.frontmatter.icon /%}
+{% elementIcon draw=$markdoc.frontmatter.icon /%}
 
 A file form control. {% .lead %}
 

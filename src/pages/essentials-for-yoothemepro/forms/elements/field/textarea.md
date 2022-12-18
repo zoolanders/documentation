@@ -1,15 +1,15 @@
 ---
 title: Textarea Field Element
 preset: /assets/ytp/presets/FormArea-Textarea.json
-icon: '<svg width="150" height="150" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+icon: '
   <path fill="none" stroke-width="2" d="M2 3h26v24H2z"/>
-  <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1.82" transform="matrix(1 0 0 .601 4.5982 4.24573)"/>
-  <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1.27" transform="matrix(.7071 .7071 -.34192 .34192 26.0579 17.4075)"/>
-  <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1.37" transform="matrix(.7071 .7071 -.17222 .17222 25.5588 20.7305)"/>
-</svg>'
+  <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1" transform="matrix(1 0 0 .601 4.5982 4.24573)"/>
+  <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1" transform="matrix(.7071 .7071 -.34192 .34192 26.0579 17.4075)"/>
+  <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1" transform="matrix(.7071 .7071 -.17222 .17222 25.5588 20.7305)"/>
+'
 ---
 
-{% elementIcon icon=$markdoc.frontmatter.icon /%}
+{% elementIcon draw=$markdoc.frontmatter.icon /%}
 
 A multi-line plain-text editing form control. {% .lead %}
 

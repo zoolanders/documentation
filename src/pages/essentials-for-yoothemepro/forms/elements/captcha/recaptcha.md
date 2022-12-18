@@ -1,12 +1,12 @@
 ---
 title: reCAPTCHA Element
-icon: '<svg width="150" height="150" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+icon: '
   <path d="M28 14.982c-.001-.187-.005-.372-.013-.557V3.904l-2.909 2.909c-2.38-2.914-4.842-4.78-8.899-4.78v6.505c1.963.506 3.304 1.371 4.107 3.066l-3.375 3.375c4.274-.017 9.103-.027 11.089.002" fill="none"/>
   <path d="M14.9439258 2.0383134c-.18633466.00061905-.37174073.00495241-.55652775.01330961H3.86629978l2.90892535 2.90861583c-2.9141873 2.38056446-4.7583432 7.82141249-4.75555747 9.07654042 0 .00030953 6.66811862-.01980966 6.69319023-.01114294.15940589-2.0215143 1.23438969-3.24135627 2.8535202-4.27300643l3.37476197 3.37476198c-.01702393-4.27455406-.02692876-9.10346918.00216668-11.08876895M2.00047705 15.0182862c.00061905.18633466.00495242.37174073.01330962.55652775v10.52109827l2.90861582-2.90861582c2.38056447 2.91387776 6.00201867 4.7750576 10.0583569 4.7750576 4.22131559 0 7.9715326-2.01501426 10.34219224-5.13534587l-4.76762898-4.81777219c-.46707474.86388707-1.131008 1.60613042-1.93113272 2.166682-.83262494.64969508-2.011919 1.18053217-3.64312102 1.18053217-.19716806 0-.34945485-.02290493-.46119374-.06623857-2.02120478-.15971541-3.77343146-1.27524712-4.80508162-2.89437762l3.37476198-3.37476198c-4.27455406.01702393-9.10346919.02661924-11.08876895-.00216668" fill="none" fill-rule="nonzero"/>
-</svg>'
+'
 ---
 
-{% elementIcon icon=$markdoc.frontmatter.icon /%}
+{% elementIcon draw=$markdoc.frontmatter.icon /%}
 
 A captcha solution from Google. {% .lead %}
 
@@ -23,7 +23,7 @@ reCAPTCHA v2 verifies if an interaction is legitimate with a captcha challenge p
 Requires the user to click a checkbox indicating is not a robot.
 
 {% image className="max-w-xs" %}
-![reCAPTCHA v2 Checkbox](/assets/ytp/forms/recaptcha-checkbox.gif)
+![reCAPTCHA v2 Checkbox](/assets/ytp/forms/captcha/recaptcha-checkbox.gif)
 {% /image %}
 
 | Setting | Description |
@@ -37,7 +37,7 @@ Requires the user to click a checkbox indicating is not a robot.
 A captcha might be invoked when the form is submitted, but the badge is always visible.
 
 {% image className="max-w-xs" %}
-![reCAPTCHA v2 Invisible](/assets/ytp/forms/recaptcha-invisible.png)
+![reCAPTCHA v2 Invisible](/assets/ytp/forms/captcha/recaptcha-invisible.png)
 {% /image %}
 
 | Setting | Description |

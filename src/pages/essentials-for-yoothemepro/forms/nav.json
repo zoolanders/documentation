@@ -5,12 +5,33 @@
             "title": "Getting Started",
             "links": [
                 {
-                    "title": "Core Concepts",
+                    "title": "Integration",
                     "href": "./"
                 },
                 {
-                    "title": "Setup",
-                    "href": "./setup"
+                    "title": "Presets",
+                    "href": "./presets"
+                }
+            ]
+        },
+        {
+            "title": "Core Concepts",
+            "links": [
+                {
+                    "title": "Form Area",
+                    "href": "./form-area"
+                },
+                {
+                    "title": "Validation",
+                    "href": "./validation"
+                },
+                {
+                    "title": "After Submit Actions",
+                    "href": "./actions"
+                },
+                {
+                    "title": "Dynamic Workflow",
+                    "href": "./dynamic"
                 }
             ]
         },
@@ -112,16 +133,6 @@
                             "href": "./elements/captcha/friendly-captcha"
                         }
                     ]
-                },
-                {
-                    "title": "Others",
-                    "href": "./elements/others",
-                    "links": [
-                        {
-                            "title": "HoneyPot",
-                            "href": "./elements/others/honey-pot"
-                        }
-                    ]
                 }
             ]
         },
@@ -129,24 +140,46 @@
             "title": "Actions",
             "links": [
                 {
-                    "title": "Send Email",
-                    "href": "./action/send-email"
+                    "title": "Overview",
+                    "href": "./actions"
+                },
+                {
+                    "title": "Email",
+                    "href": "./actions/email"
                 },
                 {
                     "title": "Redirect",
-                    "href": "./action/redirect"
+                    "href": "./actions/redirect"
                 },
                 {
-                    "title": "SaveTo Database",
-                    "href": "./action/save-to-database"
+                    "title": "Message",
+                    "href": "./actions/message"
                 },
                 {
-                    "title": "SaveTo CSV",
-                    "href": "./action/save-to-csv"
+                    "title": "Download",
+                    "href": "./actions/download"
                 },
                 {
-                    "title": "Custom actions",
-                    "href": "./custom-actions"
+                    "title": "Data",
+                    "href": "./actions/data"
+                },
+                {
+                    "title": "Save To",
+                    "href": "./actions/saveto",
+                    "links": [
+                        {
+                            "title": "CSV",
+                            "href": "./actions/saveto/csv"
+                        },
+                        {
+                            "title": "Database",
+                            "href": "./actions/saveto/database"
+                        },
+                        {
+                            "title": "Google Sheet",
+                            "href": "./actions/saveto/google-sheet"
+                        }
+                    ]
                 }
             ]
         },

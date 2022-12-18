@@ -1,13 +1,13 @@
 ---
 title: Select Field Element
 preset: /assets/ytp/presets/FormArea-Select.json
-icon: '<svg width="150" height="150" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
   <path d="M24.5 14l-3 3-3-3" fill="none" stroke-width="2"/>
-</svg>'
+'
 ---
 
-{% elementIcon icon=$markdoc.frontmatter.icon /%}
+{% elementIcon draw=$markdoc.frontmatter.icon /%}
 
 A menu of options form control. {% .lead %}
 

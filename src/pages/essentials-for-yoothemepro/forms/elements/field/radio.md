@@ -1,7 +1,7 @@
 ---
 title: Radio Field Element
 preset: /assets/ytp/presets/FormArea-Radio.json
-icon: '<svg width="150" height="150" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+icon: '
   <path d="M12.9676129 22.748886h16.006949v2.6h-16.006949z"/>
   <path d="M27.371 7.148c0 1.906-1.588 3.489-3.646 3.489-1.906 0-3.648-1.583-3.648-3.489 0-1.901 1.588-3.647 3.648-3.647 1.902 0 3.646 1.589 3.646 3.647z" fill="none" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(.86372 0 0 .88357 -15.5612161 17.802899)"/>
   <g>
@@ -12,10 +12,10 @@ icon: '<svg width="150" height="150" viewBox="0 0 30 30" xmlns="http://www.w3.or
     <path d="M12.96761285 4.671507h16.006949v2.6h-16.006949z"/>
     <path d="M27.371 7.148c0 1.906-1.588 3.489-3.646 3.489-1.906 0-3.648-1.583-3.648-3.489 0-1.901 1.588-3.647 3.648-3.647 1.902 0 3.646 1.589 3.646 3.647z" fill="none" stroke-width="1.8" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" transform="matrix(.86372 0 0 .88357 -15.56121615 -.27448)"/>
   </g>
-</svg>'
+'
 ---
 
-{% elementIcon icon=$markdoc.frontmatter.icon /%}
+{% elementIcon draw=$markdoc.frontmatter.icon /%}
 
 A radio group form control. {% .lead %}
 

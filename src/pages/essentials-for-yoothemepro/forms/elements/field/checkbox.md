@@ -1,19 +1,17 @@
 ---
 title: Checkbox Field Element
 preset: /assets/ytp/presets/FormArea-Checkbox.json
-icon: '<svg width="150" height="150" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
-  <path fill="none" d="M12.9513025 22.912724h16.006949v2.6h-16.006949z"/>
+icon: '
+  <path d="M12.9513025 22.912724h16.006949v2.6h-16.006949z"/>
   <path fill="none" stroke-width="1.78" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 7.826924)"/>
-  <path fill="none" d="M12.9513025 13.601274h16.006949v2.6h-16.006949z"/>
+  <path d="M12.9513025 13.601274h16.006949v2.6h-16.006949z"/>
   <path fill="none" stroke-width="1.78" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 -1.484526)"/>
-  <g>
-    <path fill="none" d="M12.9513025 4.501717h16.006949v2.6h-16.006949z"/>
-    <path fill="none" stroke-width="1.78" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 -10.584083)"/>
-  </g>
-</svg>'
+  <path d="M12.9513025 4.501717h16.006949v2.6h-16.006949z"/>
+  <path fill="none" stroke-width="1.78" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 -10.584083)"/>
+'
 ---
 
-{% elementIcon icon=$markdoc.frontmatter.icon /%}
+{% elementIcon draw=$markdoc.frontmatter.icon /%}
 
 A checkbox group form control. {% .lead %}
 

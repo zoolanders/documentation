@@ -1,13 +1,13 @@
 ---
 title: Range Field Element
 preset: /assets/ytp/presets/FormArea-Range.json
-icon: '<svg width="150" height="150" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+icon: '
   <path d="M28 3H2h26z" fill="none" stroke-width="2" transform="matrix(1.07712 0 0 1 -1.16509 12)"/>
-  <ellipse cx="4.553" cy="24.48" rx=".719" ry=".754" fill="#fff" stroke-width=".4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" transform="matrix(4.6174 0 0 4.42474 -6.02189 -93.31628)"/>
-</svg>'
+  <ellipse cx="4.553" cy="24.48" rx=".719" ry=".754" stroke-width=".4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" transform="matrix(4.6174 0 0 4.42474 -6.02189 -93.31628)"/>
+'
 ---
 
-{% elementIcon icon=$markdoc.frontmatter.icon /%}
+{% elementIcon draw=$markdoc.frontmatter.icon /%}
 
 A range number form control. {% .lead %}
 
