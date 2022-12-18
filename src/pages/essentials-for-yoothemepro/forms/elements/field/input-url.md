@@ -7,7 +7,7 @@ An url form control. {% .lead %}
 
 Child of [Input Element](./input), the Input Url element displays a [\<input type="url"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url) HTML element, use it to create one-line url edit fields.
 
-![Input Url Element](/assets/ytp/forms/input-url.webp)
+![Input Url Element](/assets/ytp/forms/fields/input-url.webp)
 
 ---
 
@@ -17,7 +17,7 @@ It inherits common settings and the parent's [Fields Settings](./input#fields-se
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
-| **Placeholder** | A text to be shown when there is no input value yet. | &#x2713; |
+| **Placeholder** | The text to be shown while there is no user input. | &#x2713; |
 
 {% details summary="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
@@ -33,9 +33,9 @@ It inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
-| **Min Length** | A content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
-| **Max Length** | A content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
-| **Pattern** | A [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
+| **Min Length** | The minimum content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Max Length** | The maximum content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Pattern** | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
 
 {% details summary="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}

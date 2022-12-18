@@ -7,7 +7,7 @@ A date form control. {% .lead %}
 
 Child of [Input Element](./input), the Input Date element displays a [\<input type="date"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date) HTML element, use it to create one-line date edit fields.
 
-![Input Date Element](/assets/ytp/forms/input-date.webp)
+![Input Date Element](/assets/ytp/forms/fields/input-date.webp)
 
 {% callout type="warning" title="Styling Limitations" %}
 Date input relies on the browser's native implementation, the picker and icon style is inconsistent and it customization is not possible.
@@ -33,8 +33,8 @@ It inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
-| **Min** | A date that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
-| **Max** | A date that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Min** | The minimum date that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Max** | The maximum date that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
 {% details summary="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}

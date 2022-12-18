@@ -1,0 +1,37 @@
+{
+    "type": "section",
+    "props": {
+        "yooessentials_form": {
+            "state": true,
+            "after_submit_actions": [
+                {
+                    "type": "message",
+                    "props": {
+                        "content": "<p>Thank you! Your input was:</p>\n<p>{input}</p>"
+                    }
+                }
+            ]
+        }
+    },
+    "children": [
+        {
+            "type": "row",
+            "children": [
+                {
+                    "type": "column",
+                    "children": [
+                        {
+                            "type": "yooessentials_form_range",
+                            "props": {
+                                "control_name": "input"
+                            }
+                        },
+                        {
+                            "type": "yooessentials_form_button"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "FormArea - Range"}

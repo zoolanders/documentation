@@ -7,7 +7,7 @@ A time form control. {% .lead %}
 
 Child of [Input Element](./input), the Input Time element displays a [\<input type="time"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time) HTML element, use it to create one-line time edit fields.
 
-![Input Time Element](/assets/ytp/forms/input-time.webp)
+![Input Time Element](/assets/ytp/forms/fields/input-time.webp)
 
 {% callout type="warning" title="Styling Limitations" %}
 Time input relies on the browser's native implementation, the picker and icon style is inconsistent and its customization is not possible.
@@ -33,8 +33,8 @@ It inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
-| **Min** | A time that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
-| **Max** | A time that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Min** | The minimum time that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Max** | The maximum time that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
 {% details summary="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}

@@ -15,7 +15,7 @@ A multi-line plain-text editing form control. {% .lead %}
 
 The Textarea element displays a [\<textarea\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) HTML element, use it to allow users entering a sizeable amount of free-form text, for example a comment on a review or feedback form.
 
-![Textarea Element](/assets/ytp/forms/textarea.webp)
+![Textarea Element](/assets/ytp/forms/fields/textarea.webp)
 
 ---
 
@@ -25,9 +25,9 @@ It inherits common settings with the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
-| **Placeholder** | A text to be shown when there is no input value yet. | &#x2713; |
-| **Size** | The field size by applying a `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
-| **Width** | The field width by applying a `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
+| **Placeholder** | The text to be shown while there is no user input. | &#x2713; |
+| **Size** | The field size applyied with `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
+| **Width** | The field width applyied with `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
 | **Rows** | The number of visible text lines by setting a value for `rows` attribute. |
 
 {% details summary="Common Settings" %}
@@ -42,9 +42,9 @@ It inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
-| **Min Length** | A content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
-| **Max Length** | A content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
-| **Pattern** | A [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
+| **Min Length** | The minimum content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Max Length** | The maximum content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Pattern** | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
 
 {% details summary="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}

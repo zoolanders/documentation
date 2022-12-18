@@ -7,7 +7,7 @@ A numerical form control. {% .lead %}
 
 Child of [Input Element](./input), the Input Number element displays a [\<input type="number"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number) HTML element, use it to create one-line fields restricted to numerical entries. The browser may opt to provide stepper arrows to let the user increase and decrease the value using their mouse or by tapping with a fingertip.
 
-![Input Number Element](/assets/ytp/forms/input-number.webp)
+![Input Number Element](/assets/ytp/forms/fields/input-number.webp)
 
 ---
 
@@ -17,7 +17,7 @@ It inherits common settings and the parent's [Fields Settings](./input#fields-se
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
-| **Placeholder** | A text to be shown when there is no input value yet. | &#x2713; |
+| **Placeholder** | The text to be shown while there is no user input. | &#x2713; |
 
 {% details summary="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
@@ -31,8 +31,8 @@ While the browser validation invalidate any entry that isn't a number, it It inh
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
-| **Min** | An amount that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
-| **Max** | An amount that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Min** | The minimum amount that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Max** | The maximum amount that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
 {% details summary="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}

@@ -80,6 +80,18 @@
                         {
                             "title": "Checkbox",
                             "href": "./elements/field/checkbox"
+                        },
+                        {
+                            "title": "Upload",
+                            "href": "./elements/field/upload"
+                        },
+                        {
+                            "title": "Range",
+                            "href": "./elements/field/range"
+                        },
+                        {
+                            "title": "Hidden",
+                            "href": "./elements/field/hidden"
                         }
                     ]
                 },

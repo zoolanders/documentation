@@ -7,7 +7,7 @@ A month form control. {% .lead %}
 
 Child of [Input Element](./input), the Input Month element displays a [\<input type="month"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month) HTML element, use it to create one-line month edit fields.
 
-![Input Month Element](/assets/ytp/forms/input-month.webp)
+![Input Month Element](/assets/ytp/forms/fields/input-month.webp)
 
 {% callout type="warning" title="Styling Limitations" %}
 Month input relies on the browser's native implementation, the picker and icon style is inconsistent and its customization is not possible.
@@ -33,8 +33,8 @@ It inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
-| **Min** | A month that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
-| **Max** | A month that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Min** | The minimum month that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
+| **Max** | The maximum month that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
 {% details summary="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}

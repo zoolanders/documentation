@@ -19,7 +19,7 @@ A checkbox group form control. {% .lead %}
 
 The Checkbox element displays a group of [\<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) HTML elements wrapped in a `<label>`, use it to allow users choosing, by toggling boxes, a single or multiple prestablished options.
 
-![Checkbox Element](/assets/ytp/forms/checkbox.webp)
+![Checkbox Element](/assets/ytp/forms/fields/checkbox.webp)
 
 ---
 
@@ -29,11 +29,28 @@ It inherits common settings with the following specifics:
 
 | Setting | Description |
 | ------- | ----------- |
-| **Layout** | Defines a layout for the options, `Vertical` or `Horizontal`. |
+| **Layout** | The layout that will be used to display the options, `Vertical` or `Horizontal`. |
 
 {% details summary="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
 {% /details %}
+
+---
+
+## Options
+
+Options are specified as child items that can be inputed manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
+
+{% image %}
+![Field Options](/assets/ytp/forms/fields/fields/options.webp)
+{% /image %}
+
+| Setting | Description |
+| ------- | ----------- |
+| **Value** | The option value, must be a unique among its siblings. | &#x2713; |
+| **Text** | The option text, defaults to the value if omitted. HTML tags are supported. | &#x2713; |
+| **State** | Defines if the option is `Disabled` or `Enabled`. Disabled options are unusable and unclickable. | &#x2713; |
+| **Id** | The option ID attribute, it overrides any ID set in the parent element. | &#x2713; |
 
 ---
 
@@ -43,8 +60,8 @@ It inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
-| **Min** | A minimum amount of options that must be chosen, `greater than` or `equal to`. | &#x2713; | | &#x2713; |
-| **Max** | A maximum amount of options that can be chosen, `lower than` or `equal to`. | &#x2713; | | &#x2713; |
+| **Min** | The minimum amount of options that must be chosen, `greater than` or `equal to`. | &#x2713; | | &#x2713; |
+| **Max** | The maximum amount of options that can be chosen, `lower than` or `equal to`. | &#x2713; | | &#x2713; |
 
 {% details summary="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}

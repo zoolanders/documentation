@@ -21,7 +21,7 @@ A radio group form control. {% .lead %}
 
 The Radio element displays a group of [\<input type="radio"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio) HTML elements wrapped in a `<label>`, use it to allow users choosing a single option from a prestablished group.
 
-![Radio Element](/assets/ytp/forms/radio.webp)
+![Radio Element](/assets/ytp/forms/fields/radio.webp)
 
 ---
 
@@ -31,7 +31,7 @@ It inherits common settings with the following specifics:
 
 | Setting | Description |
 | ------- | ----------- |
-| **Layout** | Defines a layout for the options, `Vertical` or `Horizontal`. |
+| **Layout** | The layout that will be used to display the options, `Vertical` or `Horizontal`. |
 
 {% details summary="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
@@ -39,13 +39,26 @@ It inherits common settings with the following specifics:
 
 ---
 
+## Options
+
+Options are specified as child items that can be inputed manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
+
+{% image %}
+![Field Options](/assets/ytp/forms/fields/fields/options.webp)
+{% /image %}
+
+| Setting | Description |
+| ------- | ----------- |
+| **Value** | The option value, must be a unique among its siblings. | &#x2713; |
+| **Text** | The option text, defaults to the value if omitted. HTML tags are supported. | &#x2713; |
+| **State** | Defines if the option is `Disabled` or `Enabled`. Disabled options are unusable and unclickable. | &#x2713; |
+| **Id** | The option ID attribute, it overrides any ID set in the parent element. | &#x2713; |
+
+---
+
 ## Validation
 
-It inherits common validation with the following specifics:
-
-{% details summary="Common Validation" %}
-    {% partial file="ytp-formarea-field-common-validation.md" /%}
-{% /details %}
+{% partial file="ytp-formarea-field-common-validation.md" /%}
 
 ---
 
