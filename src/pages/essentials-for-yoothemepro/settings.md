@@ -7,12 +7,6 @@ Essentials Settings hold most of Essentials Addons configuration under the _Esse
 
 ---
 
-## Addons Execution
-
-In the `Customizer -> Essentials -> Advanced` panel is possible to toggle the loading of Essential Addons individually. A disabled addon will be completely skipped from execution and is a good way to debug issues or to keep the execution as smooth as possible.
-
----
-
 ## Geolocation Database
 
 Essentials Geolocation features rely on [MaxMind](https://www.maxmind.com/en/geoip2-services-and-databases)'s GeoIP2 (commercial) or GeoLite2 (free) Database. As per the license limitations, Essentials doesn't distribute either of them, if this feature is required please proceed with the manual installation as follows.

@@ -6,7 +6,7 @@ As per the form's dynamic nature, there are several ways to reference and use it
 
 ---
 
-## Form Data Placeholders
+## Data Placeholders
 
 Form Data Placeholders are string plain references to the submitted data by its Control Name. Given an Input with a Control Name `email`, the placeholder reference would be `{email}`. These can be placed in actions input settings and would be replaced with the submitted data value during the action execution, e.g. `john@email.com`.
 
@@ -14,7 +14,7 @@ For a quick reference, a list of available placeholders is shown in the Builder 
 
 ---
 
-## Form Data Source
+## Data Source
 
 Form Data Source is a Dynamic Content Source created programmatically for each form configuration. Being a Source it allows mapping any submitted data to a field and applying filters on it.
 

@@ -5,53 +5,25 @@
             "title": "Getting Started",
             "links": [
                 {
-                    "title": "Overview",
+                    "title": "Integration",
                     "href": "./"
-                },
-                {
-                    "title": "Setup",
-                    "href": "./setup"
                 },
                 {
                     "title": "Settings",
                     "href": "./settings"
                 },
                 {
-                    "title": "Troubleshooting",
-                    "href": "./troubleshooting"
+                    "title": "Addons",
+                    "href": "./addons"
                 }
             ]
         },
         {
-            "title": "Addons",
+            "title": "Advanced",
             "links": [
                 {
-                    "title": "Forms",
-                    "href": "./forms"
-                },
-                {
-                    "title": "Sources",
-                    "href": "./sources"
-                },
-                {
-                    "title": "Dynamic",
-                    "href": "./dynamic"
-                },
-                {
-                    "title": "Access",
-                    "href": "./access"
-                },
-                {
-                    "title": "Icons",
-                    "href": "./icons"
-                },
-                {
-                    "title": "Layouts",
-                    "href": "./layouts"
-                },
-                {
-                    "title": "Elements",
-                    "href": "./elements"
+                    "title": "Troubleshooting",
+                    "href": "./troubleshooting"
                 }
             ]
         }

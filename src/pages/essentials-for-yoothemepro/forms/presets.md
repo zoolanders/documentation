@@ -1,9 +1,6 @@
 ---
-title: Essential Forms Presets
-description:
+title: Form Area Presets
 ---
-
-## Quick Setup
 
 [Upload](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) one of the bellow section presets into your layout, then further customize the submission workflow. If you need so, go through the [core concepts](./) again or [create a form](#creating-a-form) manually first.
 

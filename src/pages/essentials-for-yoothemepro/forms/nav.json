@@ -5,8 +5,12 @@
             "title": "Getting Started",
             "links": [
                 {
-                    "title": "Integration",
+                    "title": "Introduction",
                     "href": "./"
+                },
+                {
+                    "title": "Integration",
+                    "href": "./integration"
                 },
                 {
                     "title": "Presets",
@@ -139,10 +143,6 @@
         {
             "title": "Actions",
             "links": [
-                {
-                    "title": "Overview",
-                    "href": "./actions"
-                },
                 {
                     "title": "Email",
                     "href": "./actions/email"

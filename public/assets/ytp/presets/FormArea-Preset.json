@@ -1,0 +1,38 @@
+{
+    "type": "section",
+    "props": {
+        "yooessentials_form": {
+            "state": true,
+            "after_submit_actions": [
+                {
+                    "type": "message",
+                    "props": {
+                        "content": "<p>Thank you! Your comment was:</p>\n<p>{comment}</p>"
+                    }
+                }
+            ]
+        }
+    },
+    "children": [
+        {
+            "type": "row",
+            "children": [
+                {
+                    "type": "column",
+                    "children": [
+                        {
+                            "type": "yooessentials_form_textarea",
+                            "props": {
+                                "control_name": "comment"
+                            }
+                        },
+                        {
+                            "type": "yooessentials_form_button"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "FormArea - Preset"
+}
