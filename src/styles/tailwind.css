@@ -14,3 +14,11 @@
         white-space: nowrap;
     }
 }
+
+.tm-max-w-sm {
+    @apply max-w-sm;
+}
+
+.tm-max-w-md {
+    @apply max-w-md;
+}

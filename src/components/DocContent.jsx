@@ -37,8 +37,11 @@ function useTableOfContents(tableOfContents) {
   }, [])
 
   useEffect(() => {
-    if (tableOfContents.length === 0) return
-    let headings = getHeadings(tableOfContents)
+    if (tableOfContents.length === 0) {
+      return
+    }
+
+    const headings = getHeadings(tableOfContents)
 
     function onScroll() {
       let top = window.scrollY
@@ -49,16 +52,20 @@ function useTableOfContents(tableOfContents) {
       }
 
       for (let heading of headings) {
-        if (top >= heading.top) {
+        if (top >= parseInt(heading.top, 10)) {
           current = heading.id
         } else {
           break
         }
       }
+
       setCurrentSection(current)
     }
+
     window.addEventListener('scroll', onScroll, { passive: true })
+
     onScroll()
+
     return () => {
       window.removeEventListener('scroll', onScroll, { passive: true })
     }
@@ -195,27 +202,26 @@ export function DocContent({ children, frontmatter, content, navigation }) {
         <nav aria-labelledby="on-this-page-title" className="w-56">
           {tableOfContents.length > 0 && (
             <>
-              <h2
+              <span
                 id="on-this-page-title"
                 className="font-display text-sm font-medium text-slate-900 dark:text-white"
               >
                 On this page
-              </h2>
+              </span>
               <ol role="list" className="mt-4 space-y-3 text-sm">
                 {tableOfContents.map((section) => (
                   <li key={section.id}>
-                    <h3>
-                      <Link
-                        href={`#${section.id}`}
-                        className={clsx(
-                          isActive(section)
-                            ? 'text-primary'
-                            : 'font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300'
-                        )}
-                      >
-                        {section.title}
-                      </Link>
-                    </h3>
+                    <Link
+                      href={`#${section.id}`}
+                      className={clsx(
+                        isActive(section)
+                          ? 'text-primary'
+                          : 'font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300'
+                      )}
+                    >
+                      {section.title}
+                    </Link>
+
                     {section.children.length > 0 && (
                       <ol
                         role="list"
