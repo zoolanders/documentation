@@ -6,7 +6,9 @@ Submissions are validated first by the browser's native HTML5 validation, and on
 
 Validation rules are set independently under the Validation Tab of each field element configuration. There is also possible to customize the error message if validation fails.
 
-[list of settings]
+todo
+image
+[list of common settings]
 
 {% callout type="warning" title="Custom Error Message" %}
 Customizing the validation error messages is currently only possible for server-side validation.
