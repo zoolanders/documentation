@@ -2,14 +2,10 @@
 title: After Submit Actions
 ---
 
-A simple, yet powerful control over the submission workflow. {% .lead %}
+A simple, yet powerful submission workflow. {% .lead %}
 
-By design, submission data is not processed, saved, or logged unless there is an After Submit Action set for the task. These are multi-instance functions that will run sequentially after a form has been validated and successfully submitted.
+![After Submit Actions](/assets/ytp/forms/actions.webp)
 
-TODO
-[image]
-where are those managed?
+After Submit Actions are multi-instance functions that will run sequentially after a form has been validated and successfully submitted. By design, submission data is not processed, saved, or logged unless there is an action set for the task.
 
-{% callout title="Custom Actions" %}
-Core actions will solve most form workflow needs, but it is relatively simple to add [custom actions](./forms/customizations#custom-after-submit-actions) as well.
-{% /callout %}
+For integration and further details, please consult the [Actions Reference](reference/actions) section.

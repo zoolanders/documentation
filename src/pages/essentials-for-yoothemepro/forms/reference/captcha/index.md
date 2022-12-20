@@ -1,5 +1,5 @@
 ---
-title: Captcha Elements
+title: Captcha Elements Reference
 ---
 
 Protect your forms from SPAM with CAPTCHA. {% .lead %}
@@ -9,3 +9,5 @@ A [CAPTCHA](http://www.captcha.net) is a type of challenge–response test used 
 ![Captcha Elements](/assets/ytp/forms/captcha/elements.webp)
 
 Captcha elements can be found in the [element library](https://yootheme.com/support/yootheme-pro/joomla/element-library) under Form Essentials group. Refer to each element documentation for integration details.
+
+## Integration

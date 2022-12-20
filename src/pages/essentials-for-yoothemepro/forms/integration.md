@@ -10,7 +10,7 @@ Make sure [Essentials for YOOtheme Pro](../) plugin has been properly installed,
 
 Let's create a simple form that will greet us on submission.
 
-![Form Area](/assets/ytp/forms/form-area-guide.webp)
+![Form Area](/assets/ytp/forms/formarea-integration.webp)
 
 ### Structure
 

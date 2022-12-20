@@ -26,10 +26,6 @@
                     "href": "./form-area"
                 },
                 {
-                    "title": "Validation",
-                    "href": "./validation"
-                },
-                {
                     "title": "After Submit Actions",
                     "href": "./actions"
                 },
@@ -40,144 +36,139 @@
             ]
         },
         {
-            "title": "Elements",
+            "title": "Reference",
             "links": [
                 {
                     "title": "Fields",
-                    "href": "./elements/fields",
+                    "href": "./reference/fields",
                     "links": [
                         {
                             "title": "Input",
-                            "href": "./elements/field/input"
+                            "href": "./reference/fields/input"
                         },
                         {
                             "title": "Input Text",
-                            "href": "./elements/field/input-text"
+                            "href": "./reference/fields/input-text"
                         },
                         {
                             "title": "Input Number",
-                            "href": "./elements/field/input-number"
+                            "href": "./reference/fields/input-number"
                         },
                         {
                             "title": "Input Password",
-                            "href": "./elements/field/input-password"
+                            "href": "./reference/fields/input-password"
                         },
                         {
                             "title": "Input Email",
-                            "href": "./elements/field/input-email"
+                            "href": "./reference/fields/input-email"
                         },
                         {
                             "title": "Input Url",
-                            "href": "./elements/field/input-url"
+                            "href": "./reference/fields/input-url"
                         },
                         {
                             "title": "Input Tel",
-                            "href": "./elements/field/input-tel"
+                            "href": "./reference/fields/input-tel"
                         },
                         {
                             "title": "Input Date",
-                            "href": "./elements/field/input-date"
+                            "href": "./reference/fields/input-date"
                         },
                         {
                             "title": "Input Time",
-                            "href": "./elements/field/input-time"
+                            "href": "./reference/fields/input-time"
                         },
                         {
                             "title": "Input Month",
-                            "href": "./elements/field/input-month"
+                            "href": "./reference/fields/input-month"
                         },
                         {
                             "title": "Input Week",
-                            "href": "./elements/field/input-week"
+                            "href": "./reference/fields/input-week"
                         },
                         {
                             "title": "Textarea",
-                            "href": "./elements/field/textarea"
+                            "href": "./reference/fields/textarea"
                         },
                         {
                             "title": "Select",
-                            "href": "./elements/field/select"
+                            "href": "./reference/fields/select"
                         },
                         {
                             "title": "Radio",
-                            "href": "./elements/field/radio"
+                            "href": "./reference/fields/radio"
                         },
                         {
                             "title": "Checkbox",
-                            "href": "./elements/field/checkbox"
+                            "href": "./reference/fields/checkbox"
                         },
                         {
                             "title": "Upload",
-                            "href": "./elements/field/upload"
+                            "href": "./reference/fields/upload"
                         },
                         {
                             "title": "Range",
-                            "href": "./elements/field/range"
+                            "href": "./reference/fields/range"
                         },
                         {
                             "title": "Hidden",
-                            "href": "./elements/field/hidden"
+                            "href": "./reference/fields/hidden"
                         }
                     ]
                 },
                 {
                     "title": "Captcha",
-                    "href": "./elements/captcha",
+                    "href": "./reference/captcha",
                     "links": [
                         {
                             "title": "reCaptcha",
-                            "href": "./elements/captcha/recaptcha"
+                            "href": "./reference/captcha/recaptcha"
                         },
                         {
                             "title": "hCaptcha",
-                            "href": "./elements/captcha/hcaptcha"
+                            "href": "./reference/captcha/hcaptcha"
                         },
                         {
                             "title": "Friendly Captcha",
-                            "href": "./elements/captcha/friendly-captcha"
+                            "href": "./reference/captcha/friendly-captcha"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "title": "Actions",
-            "links": [
-                {
-                    "title": "Email",
-                    "href": "./actions/email"
                 },
                 {
-                    "title": "Redirect",
-                    "href": "./actions/redirect"
-                },
-                {
-                    "title": "Message",
-                    "href": "./actions/message"
-                },
-                {
-                    "title": "Download",
-                    "href": "./actions/download"
-                },
-                {
-                    "title": "Data",
-                    "href": "./actions/data"
-                },
-                {
-                    "title": "Save To",
-                    "href": "./actions/saveto",
+                    "title": "Actions",
+                    "href": "./reference/actions",
                     "links": [
                         {
-                            "title": "CSV",
-                            "href": "./actions/saveto/csv"
+                            "title": "Email",
+                            "href": "./reference/actions/email"
                         },
                         {
-                            "title": "Database",
-                            "href": "./actions/saveto/database"
+                            "title": "Redirect",
+                            "href": "./reference/actions/redirect"
                         },
                         {
-                            "title": "Google Sheet",
-                            "href": "./actions/saveto/google-sheet"
+                            "title": "Message",
+                            "href": "./reference/actions/message"
+                        },
+                        {
+                            "title": "Download",
+                            "href": "./reference/actions/download"
+                        },
+                        {
+                            "title": "Data",
+                            "href": "./reference/actions/data"
+                        },
+                        {
+                            "title": "SaveTo CSV",
+                            "href": "./reference/actions/save-to-csv"
+                        },
+                        {
+                            "title": "SaveTo Database",
+                            "href": "./reference/actions/save-to-database"
+                        },
+                        {
+                            "title": "SaveTo Google Sheet",
+                            "href": "./reference/actions/save-to-google-sheet"
                         }
                     ]
                 }
