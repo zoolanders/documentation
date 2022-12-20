@@ -27,7 +27,7 @@
                 },
                 {
                     "title": "After Submit Actions",
-                    "href": "./actions"
+                    "href": "./after-submit-actions"
                 },
                 {
                     "title": "Dynamic Workflow",
@@ -40,135 +40,135 @@
             "links": [
                 {
                     "title": "Fields",
-                    "href": "./reference/fields",
+                    "href": "./fields",
                     "links": [
                         {
                             "title": "Input",
-                            "href": "./reference/fields/input"
+                            "href": "./fields/input"
                         },
                         {
                             "title": "Input Text",
-                            "href": "./reference/fields/input-text"
+                            "href": "./fields/input-text"
                         },
                         {
                             "title": "Input Number",
-                            "href": "./reference/fields/input-number"
+                            "href": "./fields/input-number"
                         },
                         {
                             "title": "Input Password",
-                            "href": "./reference/fields/input-password"
+                            "href": "./fields/input-password"
                         },
                         {
                             "title": "Input Email",
-                            "href": "./reference/fields/input-email"
+                            "href": "./fields/input-email"
                         },
                         {
                             "title": "Input Url",
-                            "href": "./reference/fields/input-url"
+                            "href": "./fields/input-url"
                         },
                         {
                             "title": "Input Tel",
-                            "href": "./reference/fields/input-tel"
+                            "href": "./fields/input-tel"
                         },
                         {
                             "title": "Input Date",
-                            "href": "./reference/fields/input-date"
+                            "href": "./fields/input-date"
                         },
                         {
                             "title": "Input Time",
-                            "href": "./reference/fields/input-time"
+                            "href": "./fields/input-time"
                         },
                         {
                             "title": "Input Month",
-                            "href": "./reference/fields/input-month"
+                            "href": "./fields/input-month"
                         },
                         {
                             "title": "Input Week",
-                            "href": "./reference/fields/input-week"
+                            "href": "./fields/input-week"
                         },
                         {
                             "title": "Textarea",
-                            "href": "./reference/fields/textarea"
+                            "href": "./fields/textarea"
                         },
                         {
                             "title": "Select",
-                            "href": "./reference/fields/select"
+                            "href": "./fields/select"
                         },
                         {
                             "title": "Radio",
-                            "href": "./reference/fields/radio"
+                            "href": "./fields/radio"
                         },
                         {
                             "title": "Checkbox",
-                            "href": "./reference/fields/checkbox"
+                            "href": "./fields/checkbox"
                         },
                         {
                             "title": "Upload",
-                            "href": "./reference/fields/upload"
+                            "href": "./fields/upload"
                         },
                         {
                             "title": "Range",
-                            "href": "./reference/fields/range"
+                            "href": "./fields/range"
                         },
                         {
                             "title": "Hidden",
-                            "href": "./reference/fields/hidden"
+                            "href": "./fields/hidden"
                         }
                     ]
                 },
                 {
                     "title": "Captcha",
-                    "href": "./reference/captcha",
+                    "href": "./captcha",
                     "links": [
                         {
                             "title": "reCaptcha",
-                            "href": "./reference/captcha/recaptcha"
+                            "href": "./captcha/recaptcha"
                         },
                         {
                             "title": "hCaptcha",
-                            "href": "./reference/captcha/hcaptcha"
+                            "href": "./captcha/hcaptcha"
                         },
                         {
                             "title": "Friendly Captcha",
-                            "href": "./reference/captcha/friendly-captcha"
+                            "href": "./captcha/friendly-captcha"
                         }
                     ]
                 },
                 {
                     "title": "Actions",
-                    "href": "./reference/actions",
+                    "href": "./actions",
                     "links": [
                         {
                             "title": "Email",
-                            "href": "./reference/actions/email"
+                            "href": "./actions/email"
                         },
                         {
                             "title": "Redirect",
-                            "href": "./reference/actions/redirect"
+                            "href": "./actions/redirect"
                         },
                         {
                             "title": "Message",
-                            "href": "./reference/actions/message"
+                            "href": "./actions/message"
                         },
                         {
                             "title": "Download",
-                            "href": "./reference/actions/download"
+                            "href": "./actions/download"
                         },
                         {
                             "title": "Data",
-                            "href": "./reference/actions/data"
+                            "href": "./actions/data"
                         },
                         {
                             "title": "SaveTo CSV",
-                            "href": "./reference/actions/save-to-csv"
+                            "href": "./actions/save-to-csv"
                         },
                         {
                             "title": "SaveTo Database",
-                            "href": "./reference/actions/save-to-database"
+                            "href": "./actions/save-to-database"
                         },
                         {
                             "title": "SaveTo Google Sheet",
-                            "href": "./reference/actions/save-to-google-sheet"
+                            "href": "./actions/save-to-google-sheet"
                         }
                     ]
                 }

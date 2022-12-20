@@ -26,7 +26,7 @@ As a shortcut, a `paper-plane` icon will appear in the builder main panel to bot
 ![Form Area Settings](/assets/ytp/forms/formarea-settings.webp)
 {% /image %}
 
-The main settings allow defining if the if browser-side HTML5 validation should be executed during submission as well as to manage the [After Submit Actions](actions).
+The main settings allow defining if the if browser-side HTML5 validation should be executed during submission as well as to manage the [After Submit Actions](after-submit-actions).
 
 {% image %}
 ![Form Node Attributes](/assets/ytp/forms/formarea-settings-attrs.webp)

@@ -11,7 +11,7 @@ Get familiar with some of the core concepts, proceed to [integrate](forms/integr
 
 {% quick-link title="Form Area" href="forms/form-area" description="Learn how to enable areas where to structure your forms. " /%}
 {% quick-link title="Validation" href="forms/validation" description="Understand how submissions are browser and serer side validated." /%}
-{% quick-link title="After Submit Actions" href="forms/actions" description="After Submit Actions, or simply Actions, are key to the submission workflow." /%}
+{% quick-link title="After Submit Actions" href="forms/after-submit-actions" description="After Submit Actions, or simply Actions, are key to the submission workflow." /%}
 {% quick-link title="Dynamic Workflow" href="forms/dynamic" description="There are many ways to make a form dynamic." /%}
 
 {% /quick-links %}
