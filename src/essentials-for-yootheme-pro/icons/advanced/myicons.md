@@ -5,3 +5,7 @@ My Icons is a special collection restricted to the current [Child Theme](https:/
 ::: tip
 You can group the icons into subfolders, eg `{MyChildThemeDir}/myicons/group-a` or `{MyChildThemeDir}/myicons/group-b`.
 :::
+
+::: tip
+UIkit expects clean SVG markup, if there are visual issues with your custom icons try cleaning them up with [SVGO](https://jakearchibald.github.io/svgomg/) or [SVGOMG](https://jakearchibald.github.io/svgomg/).
+:::
