@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputDate.json
 
 A date form control. {% .lead %}
 
-Child of [Input Element](./input), the Input Date element displays a [\<input type="date"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date) HTML element, use it to create one-line date edit fields.
+Child of [Input Element](./input), the **Input Date Element** displays a [\<input type="date"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date) HTML element, use it to create one-line date edit fields.
 
 ![Input Date Element](/assets/ytp/forms/fields/input-date.webp)
 

@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputUrl.json
 
 An url form control. {% .lead %}
 
-Child of [Input Element](./input), the Input Url element displays a [\<input type="url"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url) HTML element, use it to create one-line url edit fields.
+Child of [Input Element](./input), the **Input Url Element** displays a [\<input type="url"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url) HTML element, use it to create one-line url edit fields.
 
 ![Input Url Element](/assets/ytp/forms/fields/input-url.webp)
 

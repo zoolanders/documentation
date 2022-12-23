@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputText.json
 
 A one-line plain-text form control. {% .lead %}
 
-Child of [Input Element](./input), the Input Text element displays a [\<input type="text"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text) HTML element, use it to create one-line text fields.
+Child of [Input Element](./input), the **Input Text Element** displays a [\<input type="text"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text) HTML element, use it to create one-line text fields.
 
 ![Input Text Element](/assets/ytp/forms/fields/input-text.webp)
 

@@ -22,3 +22,7 @@
 .tm-max-w-md {
     @apply max-w-md;
 }
+
+summary {
+    cursor: pointer;
+}

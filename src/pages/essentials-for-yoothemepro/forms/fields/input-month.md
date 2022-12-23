@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputMonth.json
 
 A month form control. {% .lead %}
 
-Child of [Input Element](./input), the Input Month element displays a [\<input type="month"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month) HTML element, use it to create one-line month edit fields.
+Child of [Input Element](./input), the **Input Month Element** displays a [\<input type="month"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month) HTML element, use it to create one-line month edit fields.
 
 ![Input Month Element](/assets/ytp/forms/fields/input-month.webp)
 

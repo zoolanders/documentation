@@ -1,77 +1,13 @@
 ---
-title: Customizations
-pageTitle:
-description:
+title: Custom Action
+description: Create a custom After Submit Action
 ---
 
-## Form Event Hooks
+Actions are very handy to customize the workflow of the form, like adding extra validation, integrating with 3rd party service, etc. Let's learn how to create a custom [After Submit Action](../../form-area#actions).
 
-Each form triggers JavaScript events for which is possible to add listeners and perform custom actions.
+---
 
-### On Submit
-
-Triggers before submission allowing to prevent the action.
-
-```js
-UIkit.ready(function() {
-
-  // local
-  UIkit.util.on('#form-id', 'form:submit', function (e) {
-    // e.preventDefault();
-  });
-
-  // global
-  UIkit.util.on(document, 'yooessentials-form:submit', function (e, ctx) {
-    // ctx = {form}
-    // e.preventDefault();
-  });
-
-})
-```
-
-### On Submitted
-
-Triggers after submission, preventing the action is no longer possible.
-
-```js
-UIkit.ready(function() {
-
-  // local
-  UIkit.util.on('#form-id', 'form:submitted', function (e, ctx) {
-    // ctx = {response}
-  });
-
-  // global
-  UIkit.util.on(document, 'yooessentials-form:submitted', function (e, ctx) {
-    // ctx = {form, response}
-  });
-
-});
-```
-
-### On Submission Error
-
-Trigger on submission error and validation error.
-
-```js
-UIkit.ready(function() {
-
-  // local
-  UIkit.util.on('#form-id', 'form:submission-error', function (e, ctx) {
-    // ctx = {error, errors, validation}
-  });
-
-  // global
-  UIkit.util.on('#form-id', 'yooessentials-form:submission-error', function (e, ctx) {
-    // ctx = {form, error, errors, validation}
-  });
-
-});
-```
-
-## Custom After Submit Actions
-
-Actions are very handy to customize the workflow of a form, add extra validation, append or change data on the fly, or send it to a 3rd party service... is the heart of the submission workflow and you have the wheel. So let's take control and create a custom [After Submit Action](../../forms/actions.md).
+## Create a Custom Action
 
 An Action is a `Class` extending a `StandardAction` and executed during the after-submission process, let's declare it in a YOOtheme Pro Module, if you are not familiar with those please review [YOOtheme Pro Documentation](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) first.
 
@@ -136,7 +72,9 @@ return [
 ];
 ```
 
-### Example
+---
+
+## Prebuilt Example
 
 The example actions on [GitHub](https://github.com/joolanders/ytp-form-actions) demonstrates with more details this workflow, simply download the repository and follow the Getting Started guide.
 

@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputWeek.json
 
 A week form control. {% .lead %}
 
-Child of [Input Element](./input), the Input Week element displays a [\<input type="week"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/week) HTML element, use it to create one-line week edit fields.
+Child of [Input Element](./input), the **Input Week Element** displays a [\<input type="week"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/week) HTML element, use it to create one-line week edit fields.
 
 ![Input Week Element](/assets/ytp/forms/fields/input-week.webp)
 

@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputTel.json
 
 A telephone number form control. {% .lead %}
 
-Child of [Input Element](./input), the Input Tel element displays a [\<input type="tel"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel) HTML element, use it to create one-line telephone number edit fields.
+Child of [Input Element](./input), the **Input Tel Element** displays a [\<input type="tel"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel) HTML element, use it to create one-line telephone number edit fields.
 
 ![Input Tel Element](/assets/ytp/forms/fields/input-tel.webp)
 

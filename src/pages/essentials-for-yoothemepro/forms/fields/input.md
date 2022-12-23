@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Input element displays a grid of [\<input\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) HTML elements with support for `text`, `date`, `email`, `number`, `password`, `tel`, `url`, `month`, `time`, and `week` types. Each type is wrapped into a child element with it specific features and validation covered in the next sections.
+The **Input Element** displays a grid of [\<input\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) HTML elements with support for `text`, `date`, `email`, `number`, `password`, `tel`, `url`, `month`, `time`, and `week` types. Each type is wrapped into a child element with it specific features and validation covered in the next sections.
 
 ---
 
@@ -49,6 +49,27 @@ Set multiple children of any type and control the display, grid and settings of 
 | **Number of Columns** | Defines the amount of columns. |
 | **Column Gap** | Defines the size of the gap between grid columns. |
 | **Row Gap** | Defines the size of the gap between grid rows. |
+
+---
+
+## Types
+
+{% quick-links %}
+
+{% quick-link title="Text" href="input-text" description="Plain-text form control." /%}
+{% quick-link title="Number" href="input-number" description="Number form control." /%}
+{% quick-link title="Password" href="input-password" description="Password form control." /%}
+{% quick-link title="Email" href="input-email" description="Email form control." /%}
+{% quick-link title="Url" href="input-url" description="URL form control." /%}
+{% quick-link title="Tel" href="input-tel" description="Telephone form control." /%}
+{% quick-link title="Date" href="input-date" description="Date form control." /%}
+{% quick-link title="Time" href="input-time" description="Time form control." /%}
+{% quick-link title="Month" href="input-month" description="Month form control." /%}
+{% quick-link title="Week" href="input-week" description="Week form control." /%}
+
+{% /quick-links %}
+
+---
 
 ## Integration
 

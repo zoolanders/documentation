@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputTime.json
 
 A time form control. {% .lead %}
 
-Child of [Input Element](./input), the Input Time element displays a [\<input type="time"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time) HTML element, use it to create one-line time edit fields.
+Child of [Input Element](./input), the **Input Time Element** displays a [\<input type="time"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time) HTML element, use it to create one-line time edit fields.
 
 ![Input Time Element](/assets/ytp/forms/fields/input-time.webp)
 

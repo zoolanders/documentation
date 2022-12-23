@@ -16,7 +16,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Checkbox element displays a group of [\<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) HTML elements wrapped in a `<label>`, use it to allow users choosing, by toggling boxes, a single or multiple prestablished options.
+The **Checkbox Element** displays a group of [\<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) HTML elements wrapped in a `<label>`, use it to allow users choosing, by toggling boxes, a single or multiple prestablished options.
 
 ![Checkbox Element](/assets/ytp/forms/fields/checkbox.webp)
 
@@ -41,7 +41,7 @@ It inherits common settings with the following specifics:
 Options are specified as child items that can be inputed manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
 
 {% image %}
-![Field Options](/assets/ytp/forms/fields/fields/options.webp)
+![Field Options](/assets/ytp/forms/fields/options.webp)
 {% /image %}
 
 | Setting | Description |

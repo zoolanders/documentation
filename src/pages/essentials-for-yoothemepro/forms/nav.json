@@ -180,16 +180,26 @@
             "title": "Advanced",
             "links": [
                 {
+                    "title": "How To",
+                    "href": "./how-to",
+                    "links": [
+                        {
+                            "title": "Create a Custom Action",
+                            "href": "./how-to/action"
+                        },
+                        {
+                            "title": "Hook into the form events",
+                            "href": "./how-to/hook"
+                        },
+                        {
+                            "title": "Show form in a Modal",
+                            "href": "./how-to/modal"
+                        }
+                    ]
+                },
+                {
                     "title": "Troubleshooting",
                     "href": "./troubleshooting"
-                },
-                {
-                    "title": "Customizations",
-                    "href": "./customizations"
-                },
-                {
-                    "title": "How To",
-                    "href": "./howto"
                 }
             ]
         }

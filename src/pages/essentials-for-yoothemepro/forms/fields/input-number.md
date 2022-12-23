@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputNumber.json
 
 A numerical form control. {% .lead %}
 
-Child of [Input Element](./input), the Input Number element displays a [\<input type="number"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number) HTML element, use it to create one-line fields restricted to numerical entries. The browser may opt to provide stepper arrows to let the user increase and decrease the value using their mouse or by tapping with a fingertip.
+Child of [Input Element](./input), the **Input Number Element** displays a [\<input type="number"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number) HTML element, use it to create one-line fields restricted to numerical entries. The browser may opt to provide stepper arrows to let the user increase and decrease the value using their mouse or by tapping with a fingertip.
 
 ![Input Number Element](/assets/ytp/forms/fields/input-number.webp)
 
