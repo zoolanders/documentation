@@ -1,5 +1,6 @@
 ---
 title: Friendly Captcha
+description: A friendly captcha solution
 icon: '
   <g transform="matrix(.052 0 0 .052 3.904 2.003)" stroke="none">
     <path d="M426.777 73.223A250 250 0 0 0 250 0C112.021 0 0 112.021 0 250c0 137.979 112.021 250 250 250a250 250 0 0 0 176.777-73.223l-53.033-53.033A175 175 0 0 1 250 425c-96.585 0-175-78.415-175-175S153.415 75 250 75a175 175 0 0 1 123.744 51.256l53.033-53.033Z"/>
@@ -12,7 +13,7 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-A friendly captcha solution. {% .lead %}
+{% $markdoc.frontmatter.description %}. {% .lead %}
 
 The Friendly Captcha element integrates [Friendly Captcha](https://friendlycaptcha.com/) anti-bot solution that is GDPR compliant and made in Europe.
 

@@ -1,5 +1,6 @@
 ---
 title: Checkbox Field Element
+description: A multi-option checkbox form control
 preset: /assets/ytp/presets/FormArea-Checkbox.json
 icon: '
   <path d="M12.9513025 22.912724h16.006949v2.6h-16.006949z"/>
@@ -13,7 +14,7 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-A checkbox group form control. {% .lead %}
+{% $markdoc.frontmatter.description %}. {% .lead %}
 
 The Checkbox element displays a group of [\<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) HTML elements wrapped in a `<label>`, use it to allow users choosing, by toggling boxes, a single or multiple prestablished options.
 

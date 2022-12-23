@@ -6,13 +6,29 @@ A Form Area is a builder Section or Column enabled as an area that defines where
 
 The area is wrapped with a standard [\<form\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) HTML Element without loosing builder capabilities, which implies that any valid form field markup inside it, e.g. a raw HTML `<input>`, it will be picked up during submission.
 
-Each area is scoped with it unique fields, settings and workflow, making it possible to have multiple forms on the same page.
+Each area is scoped with it unique [fields](#fields), [settings](#settings), and [actions](#actions), making it possible to have multiple forms on the same page.
+
+---
+
+## Fields
+
+Structure the form with native field elements. {% .lead %}
+
+![Field Elements](/assets/ytp/forms/fields/elements.webp)
+
+Basic form field elements are provided out of the box, these represent standard HTML form elements supported natively by [UIkit](https://getuikit.com/) and can be found in the [element library](https://yootheme.com/support/yootheme-pro/joomla/element-library) under Form Essentials group.
+
+Use them to set the form structure as well to establish individual validation and specfics. For integration and further details, please consult the [Fields Reference](reference/fields) section.
+
+{% callout type="warning" title="Raw HTML fields limitations" %}
+Even though it is possible to define a form field using raw HTML, the [Dynamic Workflow](dynamic) will not be completely aware of these. When possible, opt to create a custom element instead.
+{% /callout %}
 
 ---
 
 ## Settings
 
-Manage the Form Area settings and workflow. {% .lead %}
+Manage the form workflow settings. {% .lead %}
 
 Once a Form Area has been [created](integration#create-a-form-area), it settings will become available in the chosen Section or Column Advanced Panel.
 
@@ -42,34 +58,16 @@ Override the form **action** and **method** in order to submit the form to a 3rd
 
 ---
 
-## Fields
+## Actions
 
-Structure forms with native field elements. {% .lead %}
+Trigger actions after a successful submission. {% .lead %}
 
-![Field Elements](/assets/ytp/forms/fields/elements.webp)
+![After Submit Actions](/assets/ytp/forms/actions.webp)
 
-Basic form field elements are provided out of the box, these represent standard HTML form elements supported natively by [UIkit](https://getuikit.com/) and can be found in the [element library](https://yootheme.com/support/yootheme-pro/joomla/element-library) under Form Essentials group.
+After Submit Actions are multi-instance functions that will run sequentially after a form has been validated and successfully submitted. Actions are crucial for the form workflow, as per design, submission data is not processed, saved, or logged unless there is an action set for the task.
 
-Use them to set the form structure as well to establish individual validation and specfics. For integration and further details, please consult the [Fields Reference](reference/fields) section.
+For integration and further details, please consult a specific action documentation in the [Actions Reference](reference/actions) section.
 
----
-
-## CAPTCHA
-
-Protect forms from SPAM with CAPTCHA. {% .lead %}
-
-![Captcha Elements](/assets/ytp/forms/captcha/elements.webp)
-
-A [CAPTCHA](http://www.captcha.net) is a type of challenge–response test used to determine whether the user is human. There are several 3rd party captcha based service providers supported out of the box, these can be found in the [element library](https://yootheme.com/support/yootheme-pro/joomla/element-library) under Form Essentials group.
-
-Use them to set a workflow that will protect the form from SPAM and abuse. For integration and further details, please consult the [Captcha Reference](reference/captcha) section.
-
----
-
-## Validation
-
-Validate the data before it reachs the server. {% .lead %}
-
-Submissions are validated first by the browser's native HTML5 validation, and once again via server-side ajax request. Only if both evaluate as positive, the form will be submitted. If desired, HTML5 validation can be disabled in the [Form Area settings](#settings).
-
-Individual form field validation rules are set independently on each Field Element under the Validation Tab. For integration and further details, please consult the [Fields Reference](reference/fields) section.
+{% callout title="Custom Actions" %}
+Core actions will solve most form workflow needs, but it is relatively simple to add [custom actions](./forms/customizations#custom-after-submit-actions) as well.
+{% /callout %}

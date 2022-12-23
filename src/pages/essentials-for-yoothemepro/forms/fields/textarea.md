@@ -1,6 +1,7 @@
 ---
 title: Textarea Field Element
 preset: /assets/ytp/presets/FormArea-Textarea.json
+description: A multi-line plain-text editing form control
 icon: '
   <path fill="none" stroke-width="2" d="M2 3h26v24H2z"/>
   <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1" transform="matrix(1 0 0 .601 4.5982 4.24573)"/>
@@ -11,7 +12,7 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-A multi-line plain-text editing form control. {% .lead %}
+{% $markdoc.frontmatter.description %}. {% .lead %}
 
 The Textarea element displays a [\<textarea\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) HTML element, use it to allow users entering a sizeable amount of free-form text, for example a comment on a review or feedback form.
 

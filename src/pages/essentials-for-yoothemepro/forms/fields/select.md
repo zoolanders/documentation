@@ -1,5 +1,6 @@
 ---
 title: Select Field Element
+description: A multi-option one-line form control
 preset: /assets/ytp/presets/FormArea-Select.json
 icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
@@ -9,7 +10,7 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-A menu of options form control. {% .lead %}
+{% $markdoc.frontmatter.description %}. {% .lead %}
 
 The Select element displays a [\<select\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) HTML element, use it to allow users choosing, by selection, a single or multiple prestablished options.
 

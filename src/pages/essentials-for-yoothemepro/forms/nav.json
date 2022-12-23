@@ -26,8 +26,8 @@
                     "href": "./form-area"
                 },
                 {
-                    "title": "After Submit Actions",
-                    "href": "./after-submit-actions"
+                    "title": "Submission",
+                    "href": "./submission"
                 },
                 {
                     "title": "Dynamic Workflow",
@@ -44,47 +44,49 @@
                     "links": [
                         {
                             "title": "Input",
-                            "href": "./fields/input"
-                        },
-                        {
-                            "title": "Input Text",
-                            "href": "./fields/input-text"
-                        },
-                        {
-                            "title": "Input Number",
-                            "href": "./fields/input-number"
-                        },
-                        {
-                            "title": "Input Password",
-                            "href": "./fields/input-password"
-                        },
-                        {
-                            "title": "Input Email",
-                            "href": "./fields/input-email"
-                        },
-                        {
-                            "title": "Input Url",
-                            "href": "./fields/input-url"
-                        },
-                        {
-                            "title": "Input Tel",
-                            "href": "./fields/input-tel"
-                        },
-                        {
-                            "title": "Input Date",
-                            "href": "./fields/input-date"
-                        },
-                        {
-                            "title": "Input Time",
-                            "href": "./fields/input-time"
-                        },
-                        {
-                            "title": "Input Month",
-                            "href": "./fields/input-month"
-                        },
-                        {
-                            "title": "Input Week",
-                            "href": "./fields/input-week"
+                            "href": "./fields/input",
+                            "links": [
+                                {
+                                    "title": "Input Text",
+                                    "href": "./fields/input-text"
+                                },
+                                {
+                                    "title": "Input Number",
+                                    "href": "./fields/input-number"
+                                },
+                                {
+                                    "title": "Input Password",
+                                    "href": "./fields/input-password"
+                                },
+                                {
+                                    "title": "Input Email",
+                                    "href": "./fields/input-email"
+                                },
+                                {
+                                    "title": "Input Url",
+                                    "href": "./fields/input-url"
+                                },
+                                {
+                                    "title": "Input Tel",
+                                    "href": "./fields/input-tel"
+                                },
+                                {
+                                    "title": "Input Date",
+                                    "href": "./fields/input-date"
+                                },
+                                {
+                                    "title": "Input Time",
+                                    "href": "./fields/input-time"
+                                },
+                                {
+                                    "title": "Input Month",
+                                    "href": "./fields/input-month"
+                                },
+                                {
+                                    "title": "Input Week",
+                                    "href": "./fields/input-week"
+                                }
+                            ]
                         },
                         {
                             "title": "Textarea",

@@ -4,6 +4,8 @@ title: Integration
 
 Make sure [Essentials for YOOtheme Pro](../) plugin has been properly installed, then access the **Customizer -> Essentials -> Advanced** panel, you should see the Forms Addon listed and enabled.
 
+Next create a Form Area step by step following the [guide](#create-a-form-area) below or jump to a [Quick Setup](#quick-setup).
+
 ---
 
 ## Create a Form Area
@@ -27,7 +29,7 @@ Notice that the Form Configuration button has been enabled. We will get back to 
 
 ### Actions
 
-Go ahead and click on the Submit button. A warning is triggered because, by design, nothing happens unless there is an [After Submit Action](actions) that specifies so. For now, let's add a simple action that will display a greeting message.
+Go ahead and click on the Submit button. A warning is triggered because, by design, nothing happens unless there is an [After Submit Action](after-submit-actions) set that triggers some action. For now, let's add a simple action that will display a greeting message.
 
 1. Access the Form Area configuration created in the previous steps.
 1. Locate the Actions fields and add a new action of the type **Display Message**.
@@ -44,13 +46,13 @@ Now that there is at least one action set, let's go and try the submission.
 1. Locate the form in the Builder preview.
 1. Input a message in the Textarea and press the Submit button.
 
-Congrats! If all went well, you should see a modal greeting you.
+Congrats! If all went well, you should see a modal greeting you. If you don't, load the preset from [Quick Setup](#quick-setup) and try to spot the mistake.
 
 ---
 
 ## Quick Setup
 
-We strongly recommend you to follow through the [Create Form Area](#create-a-form-area) guide from the ground up, but if you are already familiar with the process or looking for a Quick Setup, [load](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) in the layout one of the following presets.
+We strongly recommend you to follow through the [Create Form Area](#create-a-form-area) guide, but if you are already familiar with the process or looking for a Quick Setup, [load](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) one of the following presets directly into a layout.
 
 {% quick-links %}
 

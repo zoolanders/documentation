@@ -1,5 +1,6 @@
 ---
 title: Hidden Element
+description: A hidden form control
 preset: /assets/ytp/presets/FormArea-Hidden.json
 icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
@@ -10,7 +11,7 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-A hidden form control. {% .lead %}
+{% $markdoc.frontmatter.description %}. {% .lead %}
 
 The Hidden element displays a [\<input type="hidden"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden) HTML element, use it to include data that cannot be seen or modified by users when a form is submitted.
 

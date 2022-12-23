@@ -1,5 +1,6 @@
 ---
 title: Range Field Element
+description: A number range form control
 preset: /assets/ytp/presets/FormArea-Range.json
 icon: '
   <path d="M28 3H2h26z" fill="none" stroke-width="2" transform="matrix(1.07712 0 0 1 -1.16509 12)"/>
@@ -9,7 +10,7 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-A range number form control. {% .lead %}
+{% $markdoc.frontmatter.description %}. {% .lead %}
 
 The Range element displays a [\<input type="range"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range) HTML element, use it to allow users enter a numeric value in a specified range which precise value, however, is not considered important.
 

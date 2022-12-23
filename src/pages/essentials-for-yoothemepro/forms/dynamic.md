@@ -21,7 +21,7 @@ Form Data Source is a Dynamic Content Source created programmatically for each f
 It will be listed as a dynamic source under the Dynamic button of each field supporting sources while editing Form Area settings.
 
 {% callout title="Alter Submitted Data" %}
-Sometimes submitted data will not be in the required format, e.g. a Date. Use the [Add Data](./forms/action/add-data) action to remap the value with Form Data Source and a dynamic filter. Access the new data in consequent actions with a placeholder.
+Sometimes submitted data will not be in the required format, e.g. a Date. Use the [Data](actions/data) action to remap the value with Form Data Source and a dynamic filter. Access the new data in consequent actions with a placeholder.
 {% /callout %}
 
 ---

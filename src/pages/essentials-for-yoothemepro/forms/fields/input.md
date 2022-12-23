@@ -1,5 +1,6 @@
 ---
 title: Input Field Element
+description: Text, Email, Date and other one-line editing form controls
 icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
   <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1.82" transform="matrix(1 0 0 .601 4.5982 8.74573)"/>
@@ -7,6 +8,8 @@ icon: '
 ---
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
+
+{% $markdoc.frontmatter.description %}. {% .lead %}
 
 The Input element displays a grid of [\<input\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) HTML elements with support for `text`, `date`, `email`, `number`, `password`, `tel`, `url`, `month`, `time`, and `week` types. Each type is wrapped into a child element with it specific features and validation covered in the next sections.
 

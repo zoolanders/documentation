@@ -1,5 +1,6 @@
 ---
 title: Upload Field Element
+description: A one-line file upload form control
 preset: /assets/ytp/presets/FormArea-Upload.json
 icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
@@ -10,7 +11,7 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-A file form control. {% .lead %}
+{% $markdoc.frontmatter.description %}. {% .lead %}
 
 The Upload element displays a [\<input type="file"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file) HTML element wrapped with a [UIkit Custom Control](https://getuikit.com/docs/form#custom-controls), use it to allow users uploading one or more files from their device.
 

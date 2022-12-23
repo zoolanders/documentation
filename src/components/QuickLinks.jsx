@@ -11,7 +11,7 @@ export function QuickLinks({ children }) {
 export function QuickLink({ title, description, href, download }) {
   const router = useRouter()
 
-  href = href.replace('./', `${router.pathname}/`).replace(/\/$/, '')
+  href = href?.replace('./', `${router.pathname}/`).replace(/\/$/, '')
 
   return (
     <div className="group relative rounded-xl border border-slate-200 dark:border-slate-800">

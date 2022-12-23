@@ -1,5 +1,6 @@
 ---
 title: Radio Field Element
+description: A single-option radio form control
 preset: /assets/ytp/presets/FormArea-Radio.json
 icon: '
   <path d="M12.9676129 22.748886h16.006949v2.6h-16.006949z"/>
@@ -17,7 +18,7 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-A radio group form control. {% .lead %}
+{% $markdoc.frontmatter.description %}. {% .lead %}
 
 The Radio element displays a group of [\<input type="radio"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio) HTML elements wrapped in a `<label>`, use it to allow users choosing a single option from a prestablished group.
 
