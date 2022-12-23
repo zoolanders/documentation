@@ -34,7 +34,7 @@ export function DocNavigation({ navigation, className }) {
                   </Link>
 
                   {/* second level */}
-                  {link.links && (isActive(link) || isChildActive(link)) && (<ul
+                  {link.links && isChildActive(link) && (<ul
                     role="list"
                     className="mt-2 space-y-2 lg:mt-4 lg:space-y-4"
                   >

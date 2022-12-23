@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import { NavContext } from '@/context'
 import { useRouter } from 'next/router'
 import { DocLayout } from '@/components/DocLayout'
 import { PageLayout } from '@/components/PageLayout'
@@ -39,9 +40,11 @@ export default function App({ Component, pageProps }) {
                     href="/zoolanders-touch-icon.png"
                 ></link>
             </Head>
-            <Layout {...pageProps} navigation={nav} subnav={subnav}>
-                <Component {...pageProps} />
-            </Layout>
+            <NavContext.Provider value={nav}>
+                <Layout {...pageProps} navigation={nav} subnav={subnav}>
+                    <Component {...pageProps} />
+                </Layout>
+            </NavContext.Provider>
         </>
     )
 }

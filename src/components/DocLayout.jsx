@@ -1,3 +1,4 @@
+import { NavContext } from '@/context'
 import { Header } from '@/components/Header'
 import { DocHero } from '@/components/DocHero'
 import { DocContent } from '@/components/DocContent'
@@ -18,9 +19,10 @@ export function DocLayout({ children, navigation, subnav = {}, markdoc = {} }) {
       <Header navigation={navigation} tabs={tabs}/>
       {frontmatter.hero && <DocHero {...frontmatter.hero}/>}
       <DocContent navigation={navigation} frontmatter={frontmatter} content={content}>
-        {children}
+        <NavContext.Provider value={navigation}>
+          {children}
+        </NavContext.Provider>
       </DocContent>
     </>
   )
 }
-
