@@ -5,25 +5,25 @@
             "title": "Getting Started",
             "links": [
                 {
-                    "title": "Integration",
+                    "title": "Introduction",
                     "href": "./"
+                },
+                {
+                    "title": "Integration",
+                    "href": "./integration"
                 },
                 {
                     "title": "Settings",
                     "href": "./settings"
-                },
-                {
-                    "title": "Addons",
-                    "href": "./addons"
                 }
             ]
         },
         {
-            "title": "Advanced",
+            "title": "Addons",
             "links": [
                 {
-                    "title": "Troubleshooting",
-                    "href": "./troubleshooting"
+                    "title": "Forms",
+                    "href": "./addon/forms"
                 }
             ]
         }

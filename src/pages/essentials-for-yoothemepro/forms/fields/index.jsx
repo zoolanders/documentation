@@ -11,7 +11,7 @@ export default function FormAreaFields({index = []}) {
   )
 }
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const posts = getAllPosts('essentials-for-yoothemepro/forms/fields', [
     'title',
     'slug',

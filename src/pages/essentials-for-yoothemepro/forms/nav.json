@@ -5,12 +5,8 @@
             "title": "Getting Started",
             "links": [
                 {
-                    "title": "Introduction",
-                    "href": "./"
-                },
-                {
                     "title": "Integration",
-                    "href": "./integration"
+                    "href": "./"
                 },
                 {
                     "title": "Presets",
