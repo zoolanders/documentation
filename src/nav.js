@@ -12,12 +12,18 @@ export function getNav(forPath) {
     const path = findNavMatch(forPath)
     const nav = navs[path]?.sections || []
 
-    for (const section of nav) {
-        for (const link of section.links) {
-            link.href = link.href.replace('./', `${path}/`).replace(/\/$/, '')
+    const resolveRoute = item => item.href = item.href.replace('./', `${path}/`).replace(/\/$/, '')
 
-            if (link.links) for (const sublink of link.links) {
-                sublink.href = sublink.href.replace('./', `${path}/`).replace(/\/$/, '')
+    for (const section of nav) {
+        for (const link of (section?.links || [])) {
+            resolveRoute(link)
+
+            for (const sublink of (link?.links || [])) {
+                resolveRoute(sublink)
+
+                for (const subsublink of (sublink?.links || [])) {
+                    resolveRoute(subsublink)
+                }
             }
         }
     }

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
+import isAbsoluteUrl from 'is-absolute-url'
 import { ArrowDownOnSquareIcon } from '@heroicons/react/24/outline'
 
 export function QuickLinks({ children }) {
@@ -32,15 +33,21 @@ export function QuickLink({ title, description, href, download }) {
   )
 }
 
-function LinkComponent({ children, href, download }) {
+function LinkComponent({ children, href = '', download }) {
+  let target = '_self'
+
+  if (isAbsoluteUrl(href)) {
+    target = '_blank'
+  }
+
   return (
     <>
       {download ? (
-        <a href={href} download>
+        <a href={href} download target={target}>
           {children}
         </a>
       ) : (
-        <Link href={href}>{children}</Link>
+        <Link href={href} target={target}>{children}</Link>
       )}
     </>
   )

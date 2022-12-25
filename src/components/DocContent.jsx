@@ -1,5 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
+import {flatMap, flatMapDeep} from 'lodash'
 import { useRouter } from 'next/router'
 import { useCallback, useEffect, useState } from 'react'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
@@ -112,14 +113,14 @@ export function DocContent({ children, frontmatter, content, navigation }) {
   // const description = frontmatter.description
   const tableOfContents = collectHeadings(content)
 
-  let allLinks = navigation.flatMap((section) => section.links.flatMap((link) => [link, ...link.links || []]))
-  let linkIndex = allLinks.findIndex((link) => link.href === router.pathname)
-  let previousPage = allLinks[linkIndex - 1]
-  let nextPage = allLinks[linkIndex + 1]
-  let section = navigation.find((section) =>
+  const allLinks = flatMap(flatMap(navigation, 'links'), link => [link, ...flatMap(link.links, link => [link, ...flatMap(link.links)])])
+  const linkIndex = allLinks.findIndex(link => link.href === router.pathname)
+  const previousPage = allLinks[linkIndex - 1]
+  const nextPage = allLinks[linkIndex + 1]
+  const section = navigation.find((section) =>
     section.links.find((link) => link.href === router.pathname)
   )
-  let currentSection = useTableOfContents(tableOfContents)
+  const currentSection = useTableOfContents(tableOfContents)
 
   function isActive(section) {
     if (section.id === currentSection) {
