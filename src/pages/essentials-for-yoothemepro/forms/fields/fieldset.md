@@ -1,14 +1,10 @@
 ---
-title: Textarea Field Element
-preset: /assets/ytp/presets/FormArea-Textarea.json
+title: Fieldset Element
+preset: /assets/ytp/presets/FormArea-Fieldset.json
 description: A multi-line plain-text editing form control
 icon: '
-  <g stroke-width="1" fill="none">
-    <path stroke-width="2" d="M2 3h26v24H2z"/>
-    <path d="M2 4.307V18 4.307z" transform="matrix(1 0 0 .601 4.5982 4.24573)"/>
-    <path d="M2 4.307V18 4.307z" transform="matrix(.7071 .7071 -.34192 .34192 26.0579 17.4075)"/>
-    <path d="M2 4.307V18 4.307z" transform="matrix(.7071 .7071 -.17222 .17222 25.5588 20.7305)"/>
-  </g>
+  <path fill="none" stroke-width="2" d="M1 4h28v22H1z"/>
+  <path stroke="none" d="M5.71619503 17.18324h18.51516v2h-18.51516zM5.71619503 13.07645h18.51516v2h-18.51516zM5.7161619 8.96966h8.7708v2h-8.7708z"/>
 '
 ---
 
@@ -16,9 +12,9 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Textarea Element** displays a [\<textarea\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) HTML element, use it to allow users entering a sizeable amount of free-form text, for example a comment on a review or feedback form.
+The **Fieldset Element** displays a [\<fieldset\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Fieldset) HTML element, use it to allow users entering a sizeable amount of free-form text, for example a comment on a review or feedback form.
 
-![Textarea Element](/assets/ytp/forms/fields/textarea.webp)
+![Fieldset Element](/assets/ytp/forms/fields/Fieldset.webp)
 
 ---
 
@@ -58,7 +54,7 @@ It inherits common validation with the following specifics:
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add a Textarea Element from the Form Essentials group.
+1. Add a Fieldset Element from the Form Essentials group.
 1. Access the element settings and input a Control Name.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

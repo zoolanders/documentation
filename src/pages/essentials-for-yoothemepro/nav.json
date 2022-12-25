@@ -11,10 +11,6 @@
                 {
                     "title": "Integration",
                     "href": "./integration"
-                },
-                {
-                    "title": "Settings",
-                    "href": "./settings"
                 }
             ]
         },
@@ -24,6 +20,39 @@
                 {
                     "title": "Forms",
                     "href": "./addon/forms"
+                },
+                {
+                    "title": "Access",
+                    "href": "./addon/access"
+                },
+                {
+                    "title": "Dynamic",
+                    "href": "./addon/dynamic"
+                },
+                {
+                    "title": "Sources",
+                    "href": "./addon/sources"
+                },
+                {
+                    "title": "Icons",
+                    "href": "./addon/icons"
+                },
+                {
+                    "title": "Library",
+                    "href": "./addon/library"
+                },
+                {
+                    "title": "Elements",
+                    "href": "./addon/elements"
+                }
+            ]
+        },
+        {
+            "title": "Advanced",
+            "links": [
+                {
+                    "title": "Settings",
+                    "href": "./settings"
                 }
             ]
         }

@@ -39,6 +39,10 @@
                     "href": "./fields",
                     "links": [
                         {
+                            "title": "Button",
+                            "href": "./fields/button"
+                        },
+                        {
                             "title": "Input",
                             "href": "./fields/input",
                             "links": [
@@ -111,6 +115,10 @@
                         {
                             "title": "Hidden",
                             "href": "./fields/hidden"
+                        },
+                        {
+                            "title": "Fieldset",
+                            "href": "./fields/fieldset"
                         }
                     ]
                 },

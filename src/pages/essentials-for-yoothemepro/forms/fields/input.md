@@ -2,8 +2,10 @@
 title: Input Field Element
 description: Text, Email, Date and other one-line editing form controls
 icon: '
-  <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
-  <path d="M2 4.307V18 4.307z" fill="none" stroke-width="1.82" transform="matrix(1 0 0 .601 4.5982 8.74573)"/>
+  <g fill="none">
+    <path stroke-width="2" d="M2 7.5h26v15H2z"/>
+    <path stroke-width="1" d="M2 4.307V18 4.307z" transform="matrix(1 0 0 .601 4.5982 8.74573)"/>
+  </g>
 '
 ---
 

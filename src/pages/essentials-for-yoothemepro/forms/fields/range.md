@@ -3,8 +3,8 @@ title: Range Field Element
 description: A number range form control
 preset: /assets/ytp/presets/FormArea-Range.json
 icon: '
-  <path d="M28 3H2h26z" fill="none" stroke-width="2" transform="matrix(1.07712 0 0 1 -1.16509 12)"/>
-  <ellipse cx="4.553" cy="24.48" rx=".719" ry=".754" stroke-width=".4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="1.5" transform="matrix(4.6174 0 0 4.42474 -6.02189 -93.31628)"/>
+  <path stroke-width="2" d="M28 3H2h26z" transform="matrix(1.07712 0 0 1 -1.16509 12)"/>
+  <ellipse stroke-width="1" cx="4.553" cy="24.48" rx=".719" ry=".754" stroke="none" transform="matrix(4.6174 0 0 4.42474 -6.02189 -93.31628)"/>
 '
 ---
 

@@ -7,6 +7,12 @@ Essentials Settings hold most of Essentials Addons configuration under the _Esse
 
 ---
 
+## Import/Export
+
+Being Essentials Settings independent from the Theme, the only way to backup and/or restore them is using the dedicated methods within `Customizer -> Essentials -> Advanced` panel.
+
+---
+
 ## Geolocation Database
 
 Essentials Geolocation features rely on [MaxMind](https://www.maxmind.com/en/geoip2-services-and-databases)'s GeoIP2 (commercial) or GeoLite2 (free) Database. As per the license limitations, Essentials doesn't distribute either of them, if this feature is required please proceed with the manual installation as follows.
@@ -32,6 +38,6 @@ You can rely on 3rd party plugins for the installation and posterior updates of 
 
 ---
 
-## Import/Export
+## Addons Execution
 
-Being Essentials Settings independent from the Theme, the only way to backup and/or restore them is using the dedicated methods within `Customizer -> Essentials -> Advanced` panel.
+In the **Customizer -> Essentials -> Advanced** panel toggle the loading of addons individually. A disabled addon will be completely skipped from execution and is a good way to debug issues or to keep the execution as smooth as possible.

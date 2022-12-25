@@ -3,12 +3,12 @@ title: Checkbox Field Element
 description: A multi-option checkbox form control
 preset: /assets/ytp/presets/FormArea-Checkbox.json
 icon: '
-  <path d="M12.9513025 22.912724h16.006949v2.6h-16.006949z"/>
-  <path fill="none" stroke-width="1.78" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 7.826924)"/>
-  <path d="M12.9513025 13.601274h16.006949v2.6h-16.006949z"/>
-  <path fill="none" stroke-width="1.78" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 -1.484526)"/>
-  <path d="M12.9513025 4.501717h16.006949v2.6h-16.006949z"/>
-  <path fill="none" stroke-width="1.78" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 -10.584083)"/>
+  <path stroke-width="1" fill="none" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 -10.584083)"/>
+  <path stroke-width="1" fill="none" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 -1.484526)"/>
+  <path stroke-width="1" fill="none" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 7.826924)"/>
+  <path stroke="none" d="M12.9513025 4.501717h16.006949v2.6h-16.006949z"/>
+  <path stroke="none" d="M12.9513025 13.601274h16.006949v2.6h-16.006949z"/>
+  <path stroke="none" d="M12.9513025 22.912724h16.006949v2.6h-16.006949z"/>
 '
 ---
 
