@@ -3,12 +3,10 @@ title: Textarea Field Element
 preset: /assets/ytp/presets/FormArea-Textarea.json
 description: A multi-line plain-text editing form control
 icon: '
-  <g stroke-width="1" fill="none">
-    <path stroke-width="2" d="M2 3h26v24H2z"/>
-    <path d="M2 4.307V18 4.307z" transform="matrix(1 0 0 .601 4.5982 4.24573)"/>
-    <path d="M2 4.307V18 4.307z" transform="matrix(.7071 .7071 -.34192 .34192 26.0579 17.4075)"/>
-    <path d="M2 4.307V18 4.307z" transform="matrix(.7071 .7071 -.17222 .17222 25.5588 20.7305)"/>
-  </g>
+  <path stroke-width="2" fill="none" d="M2 3h26v24H2z"/>
+  <path stroke-width="2" d="M 6 7 V 15 Z"/>
+  <path stroke-width="2" d="M0 4 V 18 4z" transform="matrix(.7071 .7071 -.34192 .34192 26.0579 17.4075)"/>
+  <path stroke-width="2" d="M1 4 V 18 4z" transform="matrix(.7071 .7071 -.17222 .17222 25.5588 20.7305)"/>
 '
 ---
 

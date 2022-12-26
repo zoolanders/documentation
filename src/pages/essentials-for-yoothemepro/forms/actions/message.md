@@ -2,8 +2,8 @@
 title: Message Action
 description: Show a message in a modal
 icon: '
-  <path d="M29.004 2.003v20.664H6.33L.996 28.003V2m4.582 18.668 21.426.002V3.988H3.002v19.264l2.576-2.585Z" fill-rule="nonzero"/>
-  <path d="M13.667 11.153h2.666v2.667h-2.666v-2.667Zm-5.335 0H11v2.667H8.332v-2.667Zm10.669 0h2.667v2.667H19v-2.667Z" fill-rule="nonzero"/>
+  <path stroke-width="2" fill="none" d="m 29 1 v 22 h -22.3 l -5.7 5 v -27 z"/>
+  <path d="M13.572 10.877h2.856v2.857h-2.856v-2.857Zm-5.714 0h2.857v2.857H7.858v-2.857Zm11.426 0h2.858v2.857h-2.858v-2.857Z"/>
 '
 ---
 

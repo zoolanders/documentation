@@ -2,7 +2,7 @@
 title: Email Action
 description: Send an email with dynamic workflow
 icon: '
-    <path d="M27 5.087 9.107 18.338l.04 6.575 3.868-4.295 6.31 3.664L27 5.087 3 14.756l6.107 3.582" fill="none" fill-rule="nonzero" stroke-width="2.03557"/>
+  <path fill="none" stroke-width="2" d="M27 5.087 9.107 18.338l.04 6.575 3.868-4.295 6.31 3.664L27 5.087 3 14.756l6.107 3.582"/>
 '
 ---
 

@@ -3,10 +3,8 @@ title: Select Field Element
 description: A multi-option one-line form control
 preset: /assets/ytp/presets/FormArea-Select.json
 icon: '
-  <g stroke-width="1" fill="none">
-    <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
-    <path d="M24.5 14l-3 3-3-3"/>
-  </g>
+  <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
+  <path fill="none" stroke-width="2" d="M24 14l-3 3-3-3"/>
 '
 ---
 

@@ -4,7 +4,7 @@ preset: /assets/ytp/presets/FormArea-Fieldset.json
 description: A multi-line plain-text editing form control
 icon: '
   <path fill="none" stroke-width="2" d="M1 4h28v22H1z"/>
-  <path stroke="none" d="M5.71619503 17.18324h18.51516v2h-18.51516zM5.71619503 13.07645h18.51516v2h-18.51516zM5.7161619 8.96966h8.7708v2h-8.7708z"/>
+  <path stroke-width="2" d="M5 17h19zM5 13h19zM5 9h10z"/>
 '
 ---
 

@@ -4,8 +4,8 @@ description: A one-line file upload form control
 preset: /assets/ytp/presets/FormArea-Upload.json
 icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
-  <path fill="none" stroke-width="1" d="M11.42059 15.2841195l3.579405-3.579405 3.579405 3.579405"/>
-  <path stroke="none" d="M14.284114 12.4205955h1.431762v7.874691h-1.431762z"/>
+  <path fill="none" stroke-width="2" d="M11 15 15 11l4 4"/>
+  <path fill="none" stroke-width="2" d="M15 11v9"/>
 '
 ---
 

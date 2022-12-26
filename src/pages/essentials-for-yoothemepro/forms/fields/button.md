@@ -2,7 +2,7 @@
 title: Button Field Element
 description: Submit and Reset Buttons
 icon: '
-  <path fill="none" stroke-width="1" d="M11,8l10.882,8.611l-2.902,1.681l3.209,5.965 l-3.98,2.146l-3.207-5.965l-2.9,1.681L11,8z" />
+  <path fill="none" stroke-width="2" d="M11,8l10.882,8.611l-2.902,1.681l3.209,5.965 l-3.98,2.146l-3.207-5.965l-2.9,1.681L11,8z" />
   <polyline fill="none" stroke-width="2" points="8,18 2,18 2,3 28,3 28,18 25,18 " />
 '
 ---

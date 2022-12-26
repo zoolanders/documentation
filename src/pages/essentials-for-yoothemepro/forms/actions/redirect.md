@@ -2,8 +2,7 @@
 title: Redirect Action
 description: Redirect the browser to a custom URL
 icon: '
-  <path d="M15.672 28.003h-2.008v-3.93H2.997V13.818l22.178.004 3.83 5.123-3.834 5.128h-9.499v3.93Zm10.853-9.058-2.387-3.143H4.996v6.267h19.16l2.37-3.124Z" fill-rule="nonzero"/>
-  <path d="M13.665 13.929h2.007v-1.67h11.327V2.002L4.82 2.007.991 7.13l3.834 5.128h8.842l-.002 1.67ZM3.47 7.13l2.388-3.143h19.14v6.267H5.842L3.47 7.13Z" fill-rule="nonzero"/>
+  <path fill="none" stroke-width="2" stroke-linecap="square" d="M9.856 3.977h14.697l3.788 2.927-3.787 2.952L8.39 9.855V3.974m7.345 11.761H5.446l-3.757 2.894 3.757 2.984h11.763v-5.876m-2.944 13.225v-7.349m0-5.878V9.856m0-5.879V1.048"/>
 '
 ---
 

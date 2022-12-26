@@ -2,7 +2,9 @@
 title: Download Action
 description: Trigger a file download
 icon: '
-  <path d="m5.86 13.739 1.378-1.379 6.462 6.463-.029-16.82h1.95l.03 16.82 6.46-6.463 1.38 1.379-8.816 8.816-8.815-8.816ZM2.997 26.202l.037 1.8h24.002l-.036-1.8H2.997Z" fill-rule="nonzero"/>
+  <path fill="none" stroke-width="2" d="M 1 21 v 8 h 28 v -8"/>
+  <path fill="none" stroke-width="2" d="M9.455 13.879 15 19.424l5.545-5.545"/>
+  <path fill="none" stroke-width="2" d="M 15 19 V 0"/>
 '
 ---
 
