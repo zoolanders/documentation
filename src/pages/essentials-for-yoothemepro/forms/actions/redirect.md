@@ -23,7 +23,7 @@ The **Redirect Action** redirects the browser to a specified URL, with an option
 | Setting | Description | Placeholder | Dynamic | Required |
 | ------- | ----------- | :---------: | :-----: | :------: |
 | **Redirect To** | The URL where to redirect the browser to. | &#x2713; | &#x2713; | &#x2713; |
-| **New Window** | Defines if the redirection should happen in a new window instead. |
+| **New Window** | Should the redirection happen in a new window instead. |
 | **Timeout** | The seconds to wait before triggering the redirect. |
 
 {% details summary="Common Settings" %}

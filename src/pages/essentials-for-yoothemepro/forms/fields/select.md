@@ -27,7 +27,7 @@ It inherits common settings with the following specifics:
 | **Size** | The field size applied with `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
 | **Width** | The field width applied with `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
 | **Height** | The number of rows in the list that will be visible by default, if Multiple Selection is enabled. |
-| **Multiple Selection** | Defines if it's allowed to choose more than one option. |
+| **Multiple Selection** | Should it be allowed to choose more than one option. |
 
 {% details summary="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}

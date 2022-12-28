@@ -14,13 +14,27 @@ icon: '
 
 The reCAPTCHA element integrates [Google reCAPTCHA](https://developers.google.com/recaptcha) service that helps protect websites from spam and abuse.
 
+{% image width="sm" %}
+![reCAPTCHA Element](/assets/ytp/forms/captcha/recaptcha.webp)
+{% /image %}
+
 ---
 
-## reCAPTCHA v2
+## Settings
+
+| Setting | Description | Dynamic |
+| ------- | ----------- | :-----: |
+| **Type** | The type of captcha to display, `v2 Checkbox`, `v2 Invisible` or `v3`. |
+| **Site/Secret Key** | The sit and secret keys obtained from [reCAPTCHA](https://developers.google.com/recaptcha) Dashboard. |
+| **Error Message** | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as placeholder, it will be replaced with the field label. | &#x2713; |
+
+---
+
+### reCAPTCHA v2
 
 reCAPTCHA v2 verifies if an interaction is legitimate with a captcha challenge presented in two variations. By default only the most suspicious traffic will be prompted to solve a captcha. To alter this behavior edit the site security preference under the [reCAPTCHA Admin Console](#admin-console) advanced settings.
 
-### "I'm not a robot" Checkbox
+#### "I'm not a robot" Checkbox
 
 Requires the user to click a checkbox indicating is not a robot.
 
@@ -28,13 +42,13 @@ Requires the user to click a checkbox indicating is not a robot.
 ![reCAPTCHA v2 Checkbox](/assets/ytp/forms/captcha/recaptcha-checkbox.gif)
 {% /image %}
 
-| Setting | Description |
-| ------- | ----------- |
-| **Label** | The title for the field that should represent the field data. |
+| Setting | Description | Dynamic |
+| ------- | ----------- | :-----: |
+| **Label** | The title for the field that represent the field data. | &#x2713; |
 | **Theme** | The field style output, `Light` or `Dark`. |
 | **Size** | The field size output, `Normal` or `Compact`. |
 
-### Invisible reCAPTCHA badge
+#### Invisible reCAPTCHA badge
 
 A captcha might be invoked when the form is submitted, but the badge is always visible.
 
@@ -50,7 +64,7 @@ A captcha might be invoked when the form is submitted, but the badge is always v
 
 ---
 
-## reCAPTCHA v3
+### reCAPTCHA v3
 
 reCAPTCHA v3 verifies if an interaction is legitimate without any user interaction, instead of showing a CAPTCHA challenge it evaluates based on the returned score by the API.
 
@@ -69,6 +83,7 @@ The [reCAPTCHA Admin Console](https://www.google.com/recaptcha/admin) allows you
 
 ## Integration
 
+1. Access the [reCAPTCHA](https://www.google.com/recaptcha/admin) Admin and obtain the Site & Secret Keys.
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
 1. Add a reCAPTCHA Element from the Form Essentials group.
-1. Access the element settings and input the Site and Secret keys obtained from the [Admin Console](#admin-console).
+1. Access the element settings and input the obtained keys.

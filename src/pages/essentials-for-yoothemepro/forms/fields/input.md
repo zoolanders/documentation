@@ -25,20 +25,20 @@ Set multiple children of any type and control the display, grid and settings of 
 
 | Setting | Description |
 | ------- | ----------- |
-| **Show Label** | Defines the label visibility of all fields. |
-| **Show Icon** | Defines the icon visibility of all fields. |
+| **Show Label** | Should the label be displayed for all children. |
+| **Show Icon** | Should the icon be displayed for all children. |
 
 {% image %}
 ![Input Common Settings](/assets/ytp/forms/fields/input-commons.webp)
 {% /image %}
 
 | Setting | Description |
-| ------ | ----------- |
-| **Size** | Defines the field size by applying a `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
-| **Width** | Defines the field width by applying a `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
-| **Full Width** | Defines if the field will occupy the full width of its parent. |
-| **Icon** | Defines the name of the Icon that will be displayed inside the field. |
-| **Icon Position** | Defines the side of the field where the icon will be positioned, `Left` or `Right`. |
+| ------- | ----------- |
+| **Size** | The field size defined by `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
+| **Width** | The field width defined by `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
+| **Full Width** | Should the field occupy the full width of its parent. |
+| **Icon** | The name of the Icon that will be displayed inside the field. |
+| **Icon Alignment** | The side of the field where the icon will be aligned, `Left` or `Right`. |
 
 {% image %}
 ![Input Columns Settings](/assets/ytp/forms/fields/input-grid.webp)
@@ -46,9 +46,9 @@ Set multiple children of any type and control the display, grid and settings of 
 
 | Setting | Description |
 | ------- | ----------- |
-| **Number of Columns** | Defines the amount of columns. |
-| **Column Gap** | Defines the size of the gap between grid columns. |
-| **Row Gap** | Defines the size of the gap between grid rows. |
+| **Number of Columns** | The amount of grid columns. |
+| **Column Gap** | The size of the gap between grid columns. |
+| **Row Gap** | The size of the gap between grid rows. |
 
 ---
 

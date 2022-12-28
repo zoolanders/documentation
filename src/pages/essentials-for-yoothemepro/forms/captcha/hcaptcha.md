@@ -2,8 +2,8 @@
 title: hCaptcha Element
 description: An alternative captcha solution
 icon: '
-  <path fill="none" stroke-width="2" d="M21.502 5.247V1.996H8.498v3.251H5.247v3.251H1.996v13.004h3.251v3.251h3.251v3.251h13.004v-3.251h3.251v-3.251h3.251V8.498h-3.251V5.247h-3.25Z" transform="matrix(1.10908 0 0 1.10797 -1.636 -1.62)"/>
-  <path fill="none" d="m10.556 14.09.905-2.022c.328-.52.285-1.155-.076-1.515a.941.941 0 0 0-.16-.127.999.999 0 0 0-.833-.097c-.313.097-.58.303-.753.582-.174.28-1.239 2.888-1.699 4.186-.461 1.298-.277 3.678 1.5 5.459 1.883 1.881 4.61 2.312 6.35 1.008.072-.038.14-.082.203-.134l5.36-4.475c.258-.216.646-.659.3-1.164-.337-.495-.977-.158-1.24.01l-3.083 2.241a.137.137 0 0 1-.088.031.137.137 0 0 1-.111-.055c-.078-.095-.092-.35.03-.452l4.73-4.011c.408-.37.466-.904.134-1.27-.324-.36-.836-.349-1.247.023l-4.259 3.327a.19.19 0 0 1-.12.044.192.192 0 0 1-.152-.08c-.083-.092-.116-.254-.022-.348l4.822-4.68a.96.96 0 0 0 .047-1.33.9.9 0 0 0-.655-.28.955.955 0 0 0-.676.269l-4.927 4.627c-.118.117-.35 0-.376-.138a.148.148 0 0 1 .041-.137l3.771-4.295a.925.925 0 0 0 .296-.678.948.948 0 0 0-.93-.93.93.93 0 0 0-.677.293l-5.72 6.322c-.204.206-.507.215-.65.097a.219.219 0 0 1-.036-.3Z"/>
+  <path fill="none" stroke-width="2" d="M22.03 4.48V.99H8.06v3.49H4.57v3.49H1.08v13.95h3.49v3.49h3.49v3.49h13.97v-3.49h3.49v-3.49h3.49V7.97h-3.49V4.48h-3.49z"/>
+  <path fill="none" d="m10.75 14.07.87-1.96c.32-.5.28-1.12-.08-1.47a.91.91 0 0 0-.16-.12.97.97 0 0 0-.8-.1c-.3.1-.56.29-.73.56-.17.27-1.2 2.8-1.65 4.06-.45 1.25-.27 3.56 1.45 5.29 1.82 1.82 4.47 2.24 6.15.97a.64.64 0 0 0 .19-.13l5.19-4.34c.25-.2.63-.63.29-1.12-.32-.47-.94-.16-1.2.01l-2.98 2.17a.14.14 0 0 1-.09.03.14.14 0 0 1-.11-.05c-.08-.1-.09-.34.03-.44l4.58-3.89c.4-.36.46-.87.13-1.23-.31-.35-.8-.33-1.2.03l-4.13 3.22a.18.18 0 0 1-.12.05.18.18 0 0 1-.15-.08c-.09-.09-.12-.25-.03-.34l4.68-4.53a.93.93 0 0 0 .04-1.29.87.87 0 0 0-.63-.27.93.93 0 0 0-.66.26l-4.77 4.49c-.12.11-.34 0-.37-.14a.15.15 0 0 1 .04-.14l3.65-4.16a.9.9 0 0 0 .29-.66.92.92 0 0 0-.9-.9.9.9 0 0 0-.66.28l-5.54 6.12c-.19.2-.49.21-.63.1a.21.21 0 0 1-.04-.29h.01z"/>
 '
 ---
 
@@ -13,22 +13,52 @@ icon: '
 
 The hCaptcha element integrates [hCaptcha](https://www.hcaptcha.com/) anti-bot solution that protects user privacy and rewards websites.
 
+{% image width="sm" %}
+![hCaptcha Element](/assets/ytp/forms/captcha/hcaptcha.webp)
+{% /image %}
+
 ---
 
 ## Settings
 
-TODO
+| Setting | Description |
+| ------- | ----------- |
+| **Type** | The type of captcha to display, `Checkbox` or `Invisible`. |
+| **Site/Secret Key** | The Site and Secret keys obtained from [hCaptcha](https://www.hcaptcha.com/) Dashboard. |
+| **Theme** | The theme style, `Light` or `Dark`. |
+| **Score Threshold** | The threshold over which to consider the submitter a bot. From `0.0` (no risk) to `1.0` (confirmed threat), available only for hCaptcha Enterprise. |
+| **Error Message** | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as placeholder, it will be replaced with the field label. | &#x2713; |  | &#x2713; |
+
+---
+
+### Checkbox
+
+A variation that will render a "checkbox" style field which challenge could be initiated by the user.
+
+{% image %}
+![hCaptcha Checkbox](/assets/ytp/forms/captcha/hcaptcha-checkbox.webp)
+{% /image %}
+
+| Setting | Description | Dynamic |
+| ------- | ----------- | :-----: |
+| **Label** | The title for the field that represent the field data. | &#x2713; |
+| **Size** | The size of the checkbox, `Normal` or `Compact`. |
+
+---
+
+### Invisible
+
+A variation that will only render the Compliance text initing the challenge when the form is submitted.
+
+| Setting | Description |
+| ------- | ----------- |
+| **Compliance** | A legally required text to comply with online privacy laws. Make sure it links to hCaptcha [Privacy Policy](https://www.hcaptcha.com/privacy) and [Terms of Service](https://hcaptcha.com/terms). |
 
 ---
 
 ## Integration
 
-### Obtain Keys
-
-1. Access the [hCaptcha](https://www.hcaptcha.com/) Dashboard.
-
-### Add to a Layout
-
+1. Access the [hCaptcha](https://www.hcaptcha.com/) Dashboard and obtain the Site & Secret Keys.
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
 1. Add a hCaptcha Element from the Form Essentials group.
-1. Access the element settings and input the obtained Site and Secret keys.
+1. Access the element settings and input the obtained keys.

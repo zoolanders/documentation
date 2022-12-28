@@ -40,7 +40,17 @@
                     "links": [
                         {
                             "title": "Button",
-                            "href": "./fields/button"
+                            "href": "./fields/button",
+                            "links": [
+                                {
+                                    "title": "Button Submit",
+                                    "href": "./fields/button-submit"
+                                },
+                                {
+                                    "title": "Button Reset",
+                                    "href": "./fields/button-reset"
+                                }
+                            ]
                         },
                         {
                             "title": "Input",

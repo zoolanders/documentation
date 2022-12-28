@@ -26,7 +26,7 @@ The **SaveToDatabase Action** stores each submission data as a new record in a l
 | **Database** | The name of the database to which to connect. | &#x2713; |
 | **Table** | The name of the database Table to which to connect. | &#x2713; |
 | **Content** | The [mapping configuration](#mapping) of the submission data to the table columns. | &#x2713; |
-| **Custom Connection** | Defines if the connection should be manually inputed instead of inherited from the system. |
+| **Custom Connection** | Should the connection be manually inputed instead of inherited from the system. |
 
 {% details summary="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
@@ -60,7 +60,7 @@ When Update Record setting is enabled the Submission Data will override an exist
 
 | Setting | Description | Dynamic | Required |
 | ------- | ----------- | :-----: | :------: |
-| **Update Record** | Defines if a record should be updated instead of appended. |
+| **Update Record** | Should a record be updated instead of appended. |
 | **Associative Key** | The table column key that will be used to associate the record. | | &#x2713; |
 | **Associative Value** | The table column value that will be used to associate the record. | &#x2713; | &#x2713; |
 

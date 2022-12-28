@@ -29,7 +29,7 @@ The **Email Action** sends preset emails with support for [Dynamic Workflow](../
 | **Recipients** | The list of addresses to which the email will be sent to, separated by comma. | &#x2713; | &#x2713; |
 | **CCs** | The list of addresses to which the email will be sent as a Carbon Copy, separated by comma. | &#x2713; | &#x2713; |
 | **BCCs** | The list of addresses to which the email will be sent as a Blind Carbon Copy, separated by comma. | &#x2713; | &#x2713; |
-| **Send as HTML** | Defines if the email content should be sent as HTML or plain text. |
+| **Send as HTML** | Should the email content be sent as HTML instead of plain text. |
 
 {% details summary="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
