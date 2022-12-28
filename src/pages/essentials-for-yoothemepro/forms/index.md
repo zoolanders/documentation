@@ -14,7 +14,7 @@ Let's create a simple form that will greet us on submission.
 
 ![Form Area](/assets/ytp/forms/formarea-integration.webp)
 
-### Structure
+### Fields
 
 A form must be structured inside of a Section or Column enabled as a [Form Area](form-area).
 
