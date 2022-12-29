@@ -27,7 +27,7 @@ The _Country_ Database allows resolving IP geolocation on the continent and coun
 
 ### Installation
 
-Download the chosen Database from [MaxMind](https://www.maxmind.com/en/geoip2-services-and-database), previous free registration required, and upload it to any chosen folder of your web project server. Copy the relative path to the Database file, prepend it with `~/`, and past it into `GEOIP DATABASE SOURCE` field from the `Customizer -> Essentials -> Advanced` panel, e.g. `~/geoip/GeoLite2-Country.mmdb`.
+Download the chosen Database from [MaxMind](https://www.maxmind.com/en/geoip2-services-and-database), previous free registration is required, and upload it to any chosen folder of your web project server. Copy the relative path to the Database file, prepend it with `~/`, and past it into `GEOIP DATABASE SOURCE` field from the `Customizer -> Essentials -> Advanced` panel, e.g. `~/geoip/GeoLite2-Country.mmdb`.
 
 {% callout title="3rd Party Plugins" %}
 You can rely on 3rd party plugins for the installation and posterior updates of the Database. Once installed make sure the path to the Database is updated in Essentials settings.

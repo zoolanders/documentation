@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **SaveToCSV Action** save each submission data as a new record in the specified local CSV or TSV file. Use it to store or log submissions.
+The **SaveToCSV Action** saves each submission data as a new record in the specified local CSV or TSV file. Use it to store or log submissions.
 
 ---
 
@@ -24,7 +24,7 @@ The **SaveToCSV Action** save each submission data as a new record in the specif
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **File** | The path to the file where the submission data will be added. | &#x2713; |
-| **Delimeter / Enclosure** | The characters the file is formated with, defaults to a comma (`,`) and double-quote (`"`). |
+| **Delimeter / Enclosure** | The characters the file is formatted with, defaults to a comma (`,`) and double-quote (`"`). |
 | **Content** | The [mapping configuration](#mapping) of the submission data to the file columns. | &#x2713; |
 
 {% details summary="Common Settings" %}
@@ -35,13 +35,13 @@ The **SaveToCSV Action** save each submission data as a new record in the specif
 
 ## Mapping
 
-Once the file has been chosen it columns will appear in the Content field ready to be mapped, being the column configuration pre-established by the file schema. The mapping will determine what value will be saved at what column of the record being saved or updated.
+Once the file has been chosen, its columns will appear in the Content field ready to be mapped, being the column configuration pre-established by the file schema. The mapping will determine what value will be saved at what column of the record that is being saved or updated.
 
 {% image %}
 ![SaveTo Action Mapping](/assets/ytp/forms/action-saveto-mapping.webp)
 {% /image %}
 
-Not all columns requires a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled the value can be inputed manually or dynamically with the use of the [Dynamic Workflow](../dynamic).
+Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled, the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic).
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |

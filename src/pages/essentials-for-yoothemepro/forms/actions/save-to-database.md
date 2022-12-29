@@ -45,14 +45,14 @@ The connection to the Database is by default system inherited with the possibili
 | Setting | Description |
 | ------- | ----------- |
 | **Host** | The server host IP or address to which to connect, e.g. `127.0.0.1`. |
-| **Port** | The port which to use for the connection, e.g. `3306`. |
+| **Port** | The port to use for the connection, e.g. `3306`. |
 | **Username / Password** | The username & password which to use for the connection. |
 
 ---
 
 ## Update Record
 
-When Update Record setting is enabled the Submission Data will override an existing table record which will be determined by the association configuration. If no associated record is found, a new record will be appended instead.
+When the Update Record setting is enabled the Submission Data will override an existing table record which will be determined by the association configuration. If no associated record is found, a new record will be appended instead.
 
 {% image %}
 ![SaveToDatabase Action Update](/assets/ytp/forms/action-savetodb-update.webp)
@@ -64,19 +64,19 @@ When Update Record setting is enabled the Submission Data will override an exist
 | **Associative Key** | The table column key that will be used to associate the record. | | &#x2713; |
 | **Associative Value** | The table column value that will be used to associate the record. | &#x2713; | &#x2713; |
 
-An example to understand the association is to think of an `Users Table` with an `ID` column as it primary key. In such scenario the submission data should contain the `user_id` value representing the user row being updated, the *Associative Key* should be set as `ID`, and the *Associative Value* mapped to the Form Submission `user_id`.
+An example to understand the association is to think of a `Users Table` with an `ID` column as its primary key. In such a scenario, the submission data should contain the `user_id` value representing the user row being updated, the *Associative Key* should be set as `ID`, and the *Associative Value* mapped to the Form Submission `user_id`.
 
 ---
 
 ## Mapping
 
-Once the table has been chosen it columns will appear in the Content field ready to be mapped, being the column configuration pre-established by the table schema. The mapping will determine what value will be saved at what column of the record being saved or updated.
+Once the table has been chosen, its columns will appear in the Content field ready to be mapped, being the column configuration pre-established by the table schema. The mapping will determine what value will be saved at what column of the record that is being saved or updated.
 
 {% image %}
 ![SaveTo Action Mapping](/assets/ytp/forms/action-saveto-mapping.webp)
 {% /image %}
 
-Not all columns requires a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled the value can be inputed manually or dynamically with the use of the [Dynamic Workflow](../dynamic).
+Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled, the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic).
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |

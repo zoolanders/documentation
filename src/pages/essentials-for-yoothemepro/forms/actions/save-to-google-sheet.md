@@ -26,7 +26,7 @@ The **SaveToGoogleSheet Action** stores each submission data as a new record in 
 | ------- | ----------- | :------: |
 | **Account** | The Google account used to connect to Google Drive via oAuth. | &#x2713; |
 | **Spreadsheet** | The Google Drive Spreadsheet to which to connect. | &#x2713; |
-| **Sheet** | The Spreadsheet Sheet which to use as data destination, defaults to the first sheet. |
+| **Sheet** | The Spreadsheet Sheet to use as the data destination, defaults to the first sheet. |
 | **Value Input Option** | Defines how the data will be interpreted when saved to the spreadsheet. `Raw`, the values will be stored as-is, or `User Entered`, the values will be parsed as if were typed into the UI. |
 
 {% details summary="Common Settings" %}
@@ -37,13 +37,13 @@ The **SaveToGoogleSheet Action** stores each submission data as a new record in 
 
 ## Mapping
 
-Once the spreadsheet has been chosen it columns will appear in the Content field ready to be mapped, being the column configuration pre-established by the sheet first row schema. The mapping will determine what value will be saved at what column of the record being saved or updated.
+Once the spreadsheet has been chosen, its columns will appear in the Content field ready to be mapped, being the column configuration pre-established by the sheet's first-row schema. The mapping will determine what value will be saved at what column of the record that is being saved or updated.
 
 {% image %}
 ![SaveTo Action Mapping](/assets/ytp/forms/action-saveto-mapping.webp)
 {% /image %}
 
-Not all columns requires a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled the value can be inputed manually or dynamically with the use of the [Dynamic Workflow](../dynamic).
+Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic).
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |

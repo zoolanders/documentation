@@ -4,7 +4,7 @@ title: Integration
 
 Make sure [Essentials for YOOtheme Pro](../) plugin has been properly installed, then access the **Customizer -> Essentials -> Advanced** panel, you should see the Forms Addon listed and enabled.
 
-Next create a Form Area step by step following the [guide](#create-a-form-area) below or jump to a [Quick Setup](#quick-setup).
+Next, create a Form Area step by step following the [guide](#create-a-form-area) below or jump to a [Quick Setup](#quick-setup).
 
 ---
 
@@ -24,7 +24,7 @@ A form must be structured inside of a Section or Column enabled as a [Form Area]
 
 Notice that the Form Configuration button has been enabled. We will get back to it later, but now let's finish the form structure.
 
-1. Go back to the builder main panel and add a Textarea and a Form Button elements to the Form Area.
+1. Go back to the builder main panel and add a Textarea and a Form Button element to the Form Area.
 1. Access the Textarea element configuration, and input `comment` in the **Control Name**.
 
 ### Actions

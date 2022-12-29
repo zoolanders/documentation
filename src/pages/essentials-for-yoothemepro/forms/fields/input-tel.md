@@ -44,7 +44,7 @@ It inherits common validation with the following specifics:
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add a Input Element from the Form Essentials group and a Input Tel element as it child.
+1. Add an Input Element from the Form Essentials group and an Input Tel element as its child.
 1. Access the child element settings and input a Control Name.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

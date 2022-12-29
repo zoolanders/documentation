@@ -16,7 +16,7 @@ Child of [Button Element](./button), the **Button Reset Element** displays a [\<
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
 | **Content** | The text for the button. | &#x2713; |
-| **Style** | The button style determined by the theme, `Default`, `Primary`, `Secondary`, `Danger`, `Text`, `Link`, `Link Muted`, or `Link Text`. |
+| **Style** | The button style as `Default`, `Primary`, `Secondary`, `Danger`, `Text`, `Link`, `Link Muted`, or `Link Text`. |
 | **Icon** | The name of the Icon that will be displayed inside the button. | &#x2713; |
 | **Icon Alignment** | The side of the button where the icon will be positioned, `Left` or `Right`. |
 
@@ -25,6 +25,6 @@ Child of [Button Element](./button), the **Button Reset Element** displays a [\<
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add a Button Element from the Form Essentials group and a Button Reset element as it child.
+1. Add a Button Element from the Form Essentials group and a Button Reset element as its child.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

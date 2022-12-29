@@ -1,6 +1,6 @@
 ---
 title: Email Action
-description: Send an email with dynamic workflow
+description: Send an email with a dynamic workflow
 icon: '
   <path fill="none" stroke-width="2" d="M27 5.087 9.107 18.338l.04 6.575 3.868-4.295 6.31 3.664L27 5.087 3 14.756l6.107 3.582"/>
 '
@@ -25,10 +25,10 @@ The **Email Action** sends preset emails with support for [Dynamic Workflow](../
 | **Body** | The content for the email body. | &#x2713; | &#x2713; | &#x2713; |
 | **Subject** | The content for the email subject. | &#x2713; | &#x2713; | &#x2713; |
 | **From Name/Email** | The name and email address of the email sender, defaults to the site configuration one. | &#x2713; | &#x2713; |
-| **Reply To** | The list of addresses to which the recipient will be replying to, separated by comma. | &#x2713; | &#x2713; |
-| **Recipients** | The list of addresses to which the email will be sent to, separated by comma. | &#x2713; | &#x2713; |
-| **CCs** | The list of addresses to which the email will be sent as a Carbon Copy, separated by comma. | &#x2713; | &#x2713; |
-| **BCCs** | The list of addresses to which the email will be sent as a Blind Carbon Copy, separated by comma. | &#x2713; | &#x2713; |
+| **Reply To** | The list of addresses to which the recipient will be replying, separated by a comma. | &#x2713; | &#x2713; |
+| **Recipients** | The list of addresses to which the email will be sent, separated by a comma. | &#x2713; | &#x2713; |
+| **CCs** | The list of addresses to which the email will be sent as a Carbon Copy, separated by a comma. | &#x2713; | &#x2713; |
+| **BCCs** | The list of addresses to which the email will be sent as a Blind Carbon Copy, separated by a comma. | &#x2713; | &#x2713; |
 | **Send as HTML** | Should the email content be sent as HTML instead of plain text. |
 
 {% details summary="Common Settings" %}
@@ -58,7 +58,7 @@ When dealing with email we must distinguish between sending and delivery. While 
 To rise the delivery rate it is important to ensure the emails are being sent from a trusted source, which is only possible with an SMTP server or 3rd party service.
 
 {% callout title="Delivery Test" %}
-We recommend the free service from [Mailtrap](https://mailtrap.io/) which allows you to test if an email has been sent and give it a delivery punctuation. If you don't want to open an account feel free to reach out to our support and we will assist you using ours.
+We recommend the free service from [Mailtrap](https://mailtrap.io/) which allows you to test if an email has been sent and give it delivery punctuation. If you don't want to open an account feel free to reach out to our support and we will assist you using ours.
 {% /callout %}
 
 ---

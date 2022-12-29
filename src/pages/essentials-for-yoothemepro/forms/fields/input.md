@@ -1,6 +1,6 @@
 ---
 title: Input Field Element
-description: Text, Email, Date and other one-line editing form controls
+description: Text, Email, Date, and other one-line editing form controls
 icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
   <path stroke-width="2" d="M 6 11 V 19 Z"/>
@@ -11,13 +11,13 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Input Element** displays a grid of [\<input\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) HTML elements with support for `text`, `date`, `email`, `number`, `password`, `tel`, `url`, `month`, `time`, and `week` types. Each type is wrapped into a child element with it specific features and validation covered in the next sections.
+The **Input Element** displays a grid of [\<input\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) HTML elements with support for `text`, `date`, `email`, `number`, `password`, `tel`, `url`, `month`, `time`, and `week` types. Each type is wrapped into a child element with its specific features and validation covered in the next sections.
 
 ---
 
 ## Settings
 
-Set multiple children of any type and control the display, grid and settings of all of them within the parent with option to override.
+Set multiple children of any type and control the display, grid, and settings of all of them within the parent with an option to override.
 
 {% image %}
 ![Input Element](/assets/ytp/forms/fields/input.webp)
@@ -73,4 +73,4 @@ Set multiple children of any type and control the display, grid and settings of 
 
 ## Integration
 
-Please refer to one of the child elements documentation for specific integration details.
+Please refer to one of the child elements' documentation for specific integration details.

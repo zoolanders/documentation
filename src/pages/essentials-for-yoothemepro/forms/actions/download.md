@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Download Action** triggers the download of the specified file. Use it to automatically start the download of a file after a successful submission.
+The **Download Action** triggers the download of the specified file. Use it to automatically start the download of a file after successful submission.
 
 ---
 

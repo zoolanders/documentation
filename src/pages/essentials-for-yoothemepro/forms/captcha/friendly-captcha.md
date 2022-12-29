@@ -27,9 +27,9 @@ The Friendly Captcha element integrates [Friendly Captcha](https://friendlycaptc
 | ------- | ----------- | :-----: |
 | **Site/API Key** | The Site and API keys obtained from [Friendly Captcha](https://friendlycaptcha.com/) Dashboard. |
 | **Label** | The title for the field that represent the field data. | &#x2713; |
-| **Endpoint** | The primary endpoint for the puzzles and verification requests. Note that this feature requires a FriendlyCaptcha premium plan and be specifically enabled in it App configuration. | &#x2713; |
+| **Endpoint** | The primary endpoint for the puzzles and verification requests. Note that this feature requires a FriendlyCaptcha premium plan and to be specifically enabled. | &#x2713; |
 | **Language** | The language for the captcha, defaults to the site language. | &#x2713; |
-| **Error Message** | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as placeholder, it will be replaced with the field label. | &#x2713; |
+| **Error Message** | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as a placeholder, it will be replaced with the field label. | &#x2713; |
 
 ---
 

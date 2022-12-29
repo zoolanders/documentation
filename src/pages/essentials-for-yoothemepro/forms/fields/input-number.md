@@ -27,7 +27,7 @@ It inherits common settings and the parent's [Fields Settings](./input#fields-se
 
 ## Validation
 
-While the browser validation invalidate any entry that isn't a number, it It inherits common validation with the following specifics:
+While the browser validation invalidates any entry that isn't a number, it inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
@@ -43,7 +43,7 @@ While the browser validation invalidate any entry that isn't a number, it It inh
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add a Input Element from the Form Essentials group and a Input Number element as it child.
+1. Add an Input Element from the Form Essentials group and an Input Number element as its child.
 1. Access the child element settings and input a Control Name.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

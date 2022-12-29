@@ -2,7 +2,7 @@
 title: Form Submission
 ---
 
-Validate the submitted data before it reach the server. {% .lead %}
+Validate the submitted data before it reaches the server. {% .lead %}
 
 For a submission to be processed it has to pass first the [fields validation](#fields-validation) as well as the [CAPTCHA validation](#captcha-validation), if any set.
 

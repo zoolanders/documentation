@@ -16,7 +16,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Checkbox Element** displays a group of [\<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) HTML elements wrapped in a `<label>`, use it to allow users choosing, by toggling boxes, a single or multiple prestablished options.
+The **Checkbox Element** displays a group of [\<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) HTML elements wrapped in a `<label>`, use it to allow users choosing, by toggling boxes, a single or multiple pre-established options.
 
 ![Checkbox Element](/assets/ytp/forms/fields/checkbox.webp)
 
@@ -38,7 +38,7 @@ It inherits common settings with the following specifics:
 
 ## Options
 
-Options are specified as child items that can be inputed manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
+Options are specified as child items that can be input manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
 
 {% image %}
 ![Field Options](/assets/ytp/forms/fields/options.webp)
@@ -49,7 +49,7 @@ Options are specified as child items that can be inputed manually as well as dyn
 | **Value** | The option value, must be a unique among its siblings. | &#x2713; |
 | **Text** | The option text, defaults to the value if omitted. HTML tags are supported. | &#x2713; |
 | **State** | Defines if the option is `Disabled` or `Enabled`. Disabled options are unusable and unclickable. | &#x2713; |
-| **Id** | The option ID attribute, it overrides any ID set in the parent element. | &#x2713; |
+| **Id** | The option ID attribute, overrides any ID set in the parent element. | &#x2713; |
 
 ---
 

@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputPassword.json
 
 An obscured password form control. {% .lead %}
 
-Child of [Input Element](./input), the **Input Password Element** displays a [\<input type="password"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password) HTML element, use it to create one-line text field where the user can input it password without it being visible. The text is obscured usually by replacing each character with a symbol such as the asterisk (`*`) or a dot (`•`). This character will vary depending on the user agent and operating system.
+Child of [Input Element](./input), the **Input Password Element** displays a [\<input type="password"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password) HTML element, use it to create one-line text field where the user can input it password without it being visible. The text is obscured usually by replacing each character with a symbol such as an asterisk (`*`) or a dot (`•`). This character will vary depending on the user agent and operating system.
 
 ![Input Password Element](/assets/ytp/forms/fields/input-password.webp)
 
@@ -44,7 +44,7 @@ It inherits common validation with the following specifics:
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add a Input Element from the Form Essentials group and a Input Password element as it child.
+1. Add an Input Element from the Form Essentials group and an Input Password element as its child.
 1. Access the child element settings and input a Control Name.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

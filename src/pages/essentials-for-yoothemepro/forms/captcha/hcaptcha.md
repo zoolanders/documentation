@@ -27,13 +27,13 @@ The hCaptcha element integrates [hCaptcha](https://www.hcaptcha.com/) anti-bot s
 | **Site/Secret Key** | The Site and Secret keys obtained from [hCaptcha](https://www.hcaptcha.com/) Dashboard. |
 | **Theme** | The theme style, `Light` or `Dark`. |
 | **Score Threshold** | The threshold over which to consider the submitter a bot. From `0.0` (no risk) to `1.0` (confirmed threat), available only for hCaptcha Enterprise. |
-| **Error Message** | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as placeholder, it will be replaced with the field label. | &#x2713; |  | &#x2713; |
+| **Error Message** | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as a placeholder, it will be replaced with the field label. | &#x2713; |  | &#x2713; |
 
 ---
 
 ### Checkbox
 
-A variation that will render a "checkbox" style field which challenge could be initiated by the user.
+A variation that will render a "checkbox" style field by which the captcha challenge could be initiated by the user.
 
 {% image %}
 ![hCaptcha Checkbox](/assets/ytp/forms/captcha/hcaptcha-checkbox.webp)

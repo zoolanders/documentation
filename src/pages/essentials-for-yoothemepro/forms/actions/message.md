@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Message Action** displays a custom message in a modal. Use it to show the submitter a *Thank You* message or additonal information.
+The **Message Action** displays a custom message in a modal. Use it to show the submitter a *Thank You* message or additional information.
 
 ---
 

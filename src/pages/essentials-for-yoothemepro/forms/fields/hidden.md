@@ -20,7 +20,7 @@ The **Hidden Element** displays a [\<input type="hidden"\>](https://developer.mo
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
 | **Control** | The name that identifies the field control within the form. It's required and must be unique for the Form Area. |
-| **Value** | The value that will be submitted for the control. | &#x2713; |
+| **Value** | The value to submit for the control. | &#x2713; |
 
 ---
 

@@ -26,13 +26,13 @@ The reCAPTCHA element integrates [Google reCAPTCHA](https://developers.google.co
 | ------- | ----------- | :-----: |
 | **Type** | The type of captcha to display, `v2 Checkbox`, `v2 Invisible` or `v3`. |
 | **Site/Secret Key** | The sit and secret keys obtained from [reCAPTCHA](https://developers.google.com/recaptcha) Dashboard. |
-| **Error Message** | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as placeholder, it will be replaced with the field label. | &#x2713; |
+| **Error Message** | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as a placeholder, it will be replaced with the field label. | &#x2713; |
 
 ---
 
 ### reCAPTCHA v2
 
-reCAPTCHA v2 verifies if an interaction is legitimate with a captcha challenge presented in two variations. By default only the most suspicious traffic will be prompted to solve a captcha. To alter this behavior edit the site security preference under the [reCAPTCHA Admin Console](#admin-console) advanced settings.
+reCAPTCHA v2 verifies if an interaction is legitimate with a captcha challenge presented in two variations. By default, only the most suspicious traffic will be prompted to solve a captcha. To alter this behavior edit the site security preference under the [reCAPTCHA Admin Console](#admin-console) advanced settings.
 
 #### "I'm not a robot" Checkbox
 
@@ -59,7 +59,7 @@ A captcha might be invoked when the form is submitted, but the badge is always v
 | Setting | Description |
 | ------- | ----------- |
 | **Position** | The badge position, `Bottom Left`, `Bottom Right`, or `Inline`. |
-| **Label** | The title for the field that should represent the field data, when position as `Inline`.|
+| **Label** | The title for the field that should represent the field data, when the position is set as `Inline`.|
 | **Theme** | The badge style output, `Light` or `Dark`. |
 
 ---
@@ -70,8 +70,8 @@ reCAPTCHA v3 verifies if an interaction is legitimate without any user interacti
 
 | Setting | Description |
 | ------- | ----------- |
-| **Score Threshold** | The value below which to consider the submitter a bot. Score runs from `0.0` (bot) to `1.0` (human). |
-| **Action** | The [action](https://developers.google.com/recaptcha/docs/v3#actions) name for the captcha request used for more advanced integrations. May only contain alphanumeric characters and slashes. |
+| **Score Threshold** | The value below which to consider the submitter a bot. The score runs from `0.0` (bot) to `1.0` (human). |
+| **Action** | The [action](https://developers.google.com/recaptcha/docs/v3#actions) name for the captcha request. Used for more advanced integrations, may only contain alphanumeric characters and slashes. |
 
 ---
 

@@ -10,7 +10,7 @@ Child of [Input Element](./input), the **Input Date Element** displays a [\<inpu
 ![Input Date Element](/assets/ytp/forms/fields/input-date.webp)
 
 {% callout type="warning" title="Styling Limitations" %}
-Date input relies on the browser's native implementation, the picker and icon style is inconsistent and it customization is not possible.
+Date input relies on the browser's native implementation, the picker and icon style is inconsistent and its customization is not possible.
 {% /callout %}
 
 ---
@@ -45,7 +45,7 @@ It inherits common validation with the following specifics:
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add a Input Element from the Form Essentials group and a Input Date element as it child.
+1. Add an Input Element from the Form Essentials group and an Input Date element as its child.
 1. Access the child element settings and input a Control Name.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

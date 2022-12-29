@@ -27,11 +27,11 @@ It inherits common settings with the following specifics:
 | ------- | ----------- | :-----: |
 | **Upload to** | The server path where the file will be uploaded to. | &#x2713; |
 | **Filename** | An optional filename to rename the uploaded file with. | &#x2713; |
-| **Allow multiple** | Should be allowed to uploaded multiple files simultanously. |
-| **Avoid collisions** | Should the uploaded filename be renamed in the case of a name conflict with a prexisting file. The new name will be the original name appended with `_{n}`, being `n` a sequential number. |
+| **Allow multiple** | Should be allowed to upload multiple files simultaneously. |
+| **Avoid collisions** | Should the uploaded filename be renamed in the case of a name conflict with a pre-existing file. The new name will be the original name appended with `_{n}`, being `n` a sequential number. |
 
 {% details summary="Common Settings" %}
-    {% partial file="ytp-formarea-field-common-settings.md" /%}
+  {% partial file="ytp-formarea-field-common-settings.md" /%}
 {% /details %}
 
 ---
@@ -44,7 +44,7 @@ It inherits common settings with the following specifics:
 
 | Setting | Description |
 | ------- | ----------- |
-| **Display** | The combination of HTML elements to show, `Button & Input`, `Button`, `Link` or `Native` . |
+| **Display** | The combination of HTML elements to show, `Button & Input`, `Button`, `Link`, or `Native`. |
 | **Text** | The text for the button or link, if those are displayed. |
 
 ---
@@ -58,7 +58,7 @@ It inherits common settings with the following specifics:
 | Setting | Description |
 | ------- | ----------- |
 | **Icon** | The name of the Icon that will be displayed inside the input field. |
-| **Icon Alignment** | The side of the field where the icon will be aligned, `left` or `right`. |
+| **Icon Alignment** | The side of the field where the icon will be aligned, `Left` or `Right`. |
 
 ---
 
@@ -72,7 +72,7 @@ It inherits common settings with the following specifics:
 | ------- | ----------- |
 | **Full Width** | Should the button occupy the full width of its parent. |
 | **Icon** | The name of the Icon that will be displayed inside the input field. |
-| **Icon Alignment** | The side of the button where the icon will be aligned, `left` or `right`. |
+| **Icon Alignment** | The side of the button where the icon will be aligned, `Left` or `Right`. |
 
 ---
 
@@ -96,7 +96,7 @@ It inherits common validation with the following specifics:
 ## Integration
 
 1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
-1. Add a Upload Element from the Form Essentials group.
+1. Add an Upload Element from the Form Essentials group.
 1. Access the element settings and input a Control Name.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

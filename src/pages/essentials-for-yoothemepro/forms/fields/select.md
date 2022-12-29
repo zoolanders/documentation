@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Select Element** displays a [\<select\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) HTML element, use it to allow users choosing, by selection, a single or multiple prestablished options.
+The **Select Element** displays a [\<select\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) HTML element, use it to allow users to choose, by selection, a single or multiple pre-established options.
 
 ![Select Element](/assets/ytp/forms/fields/select.webp)
 
@@ -37,7 +37,7 @@ It inherits common settings with the following specifics:
 
 ## Options
 
-Options are specified as child items that can be inputed manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
+Options are specified as child items that can be input manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
 
 {% image %}
 ![Field Options](/assets/ytp/forms/fields/options.webp)
@@ -45,7 +45,7 @@ Options are specified as child items that can be inputed manually as well as dyn
 
 | Setting | Description |
 | ------- | ----------- |
-| **Value** | The option value, must be a unique among its siblings. | &#x2713; |
+| **Value** | The option value, must be unique among its siblings. | &#x2713; |
 | **Text** | The option text, defaults to the value if omitted. HTML tags will be stripped. | &#x2713; |
 | **State** | Defines if the option is `Disabled` or `Enabled`. Disabled options are unusable and unclickable. | &#x2713; |
 

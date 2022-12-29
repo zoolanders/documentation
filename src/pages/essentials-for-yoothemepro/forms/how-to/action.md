@@ -26,11 +26,11 @@ class MyCustomAction extends StandardAction
         // This is the `Form` class. It holds all the form configurations
         $form = $response->submission()->form();
 
-        // This is the user submitted data
+        // This is the user-submitted data
         $data = $response->submission()->data();
 
         // by calling $next() the next action in queue will
-        // be exexuted recieving the altered response
+        // be executed receiving the altered response
         return $next($response->withData([]));
     }
 }
@@ -76,6 +76,6 @@ return [
 
 ## Prebuilt Example
 
-The example actions on [GitHub](https://github.com/joolanders/ytp-form-actions) demonstrates with more details this workflow, simply download the repository and follow the Getting Started guide.
+The example actions on [GitHub](https://github.com/joolanders/ytp-form-actions) demonstrate with more details this workflow, simply download the repository and follow the Getting Started guide.
 
 Core actions are as well a useful resource to get started when creating a custom action. They can be found in the `modules/form-actions` directory of the Essentials downloaded package.

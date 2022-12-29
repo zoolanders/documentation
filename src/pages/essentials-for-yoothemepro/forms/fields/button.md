@@ -45,4 +45,4 @@ Control the size and grid for all children.
 
 ## Integration
 
-Please refer to one of the child elements documentation for specific integration details.
+Please refer to one of the child elements' documentation for specific integration details.
