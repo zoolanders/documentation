@@ -22,16 +22,16 @@
                     "href": "./addon/forms"
                 },
                 {
+                    "title": "Sources",
+                    "href": "./addon/sources"
+                },
+                {
                     "title": "Access",
                     "href": "./addon/access"
                 },
                 {
                     "title": "Dynamic",
                     "href": "./addon/dynamic"
-                },
-                {
-                    "title": "Sources",
-                    "href": "./addon/sources"
                 },
                 {
                     "title": "Icons",
