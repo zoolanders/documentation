@@ -7,10 +7,6 @@
                 {
                     "title": "Integration",
                     "href": "./"
-                },
-                {
-                    "title": "Presets",
-                    "href": "./presets"
                 }
             ]
         },
@@ -18,175 +14,21 @@
             "title": "Core Concepts",
             "links": [
                 {
-                    "title": "Form Area",
-                    "href": "./form-area"
+                    "title": "Source Instance",
+                    "href": "./instance"
                 },
                 {
-                    "title": "Submission",
-                    "href": "./submission"
-                },
-                {
-                    "title": "Dynamic Workflow",
-                    "href": "./dynamic"
+                    "title": "Authentication",
+                    "href": "./authentication"
                 }
             ]
         },
         {
-            "title": "Reference",
+            "title": "Sources",
             "links": [
                 {
-                    "title": "Fields",
-                    "href": "./fields",
-                    "links": [
-                        {
-                            "title": "Button",
-                            "href": "./fields/button",
-                            "links": [
-                                {
-                                    "title": "Button Submit",
-                                    "href": "./fields/button-submit"
-                                },
-                                {
-                                    "title": "Button Reset",
-                                    "href": "./fields/button-reset"
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Input",
-                            "href": "./fields/input",
-                            "links": [
-                                {
-                                    "title": "Input Text",
-                                    "href": "./fields/input-text"
-                                },
-                                {
-                                    "title": "Input Number",
-                                    "href": "./fields/input-number"
-                                },
-                                {
-                                    "title": "Input Password",
-                                    "href": "./fields/input-password"
-                                },
-                                {
-                                    "title": "Input Email",
-                                    "href": "./fields/input-email"
-                                },
-                                {
-                                    "title": "Input Url",
-                                    "href": "./fields/input-url"
-                                },
-                                {
-                                    "title": "Input Tel",
-                                    "href": "./fields/input-tel"
-                                },
-                                {
-                                    "title": "Input Date",
-                                    "href": "./fields/input-date"
-                                },
-                                {
-                                    "title": "Input Time",
-                                    "href": "./fields/input-time"
-                                },
-                                {
-                                    "title": "Input Month",
-                                    "href": "./fields/input-month"
-                                },
-                                {
-                                    "title": "Input Week",
-                                    "href": "./fields/input-week"
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Textarea",
-                            "href": "./fields/textarea"
-                        },
-                        {
-                            "title": "Select",
-                            "href": "./fields/select"
-                        },
-                        {
-                            "title": "Radio",
-                            "href": "./fields/radio"
-                        },
-                        {
-                            "title": "Checkbox",
-                            "href": "./fields/checkbox"
-                        },
-                        {
-                            "title": "Upload",
-                            "href": "./fields/upload"
-                        },
-                        {
-                            "title": "Range",
-                            "href": "./fields/range"
-                        },
-                        {
-                            "title": "Hidden",
-                            "href": "./fields/hidden"
-                        },
-                        {
-                            "title": "Fieldset",
-                            "href": "./fields/fieldset"
-                        }
-                    ]
-                },
-                {
-                    "title": "Captcha",
-                    "href": "./captcha",
-                    "links": [
-                        {
-                            "title": "reCaptcha",
-                            "href": "./captcha/recaptcha"
-                        },
-                        {
-                            "title": "hCaptcha",
-                            "href": "./captcha/hcaptcha"
-                        },
-                        {
-                            "title": "Friendly Captcha",
-                            "href": "./captcha/friendly-captcha"
-                        }
-                    ]
-                },
-                {
-                    "title": "Actions",
-                    "href": "./actions",
-                    "links": [
-                        {
-                            "title": "Email",
-                            "href": "./actions/email"
-                        },
-                        {
-                            "title": "Redirect",
-                            "href": "./actions/redirect"
-                        },
-                        {
-                            "title": "Message",
-                            "href": "./actions/message"
-                        },
-                        {
-                            "title": "Download",
-                            "href": "./actions/download"
-                        },
-                        {
-                            "title": "Data",
-                            "href": "./actions/data"
-                        },
-                        {
-                            "title": "SaveTo CSV",
-                            "href": "./actions/save-to-csv"
-                        },
-                        {
-                            "title": "SaveTo Database",
-                            "href": "./actions/save-to-database"
-                        },
-                        {
-                            "title": "SaveTo Google Sheet",
-                            "href": "./actions/save-to-google-sheet"
-                        }
-                    ]
+                    "title": "Instagram",
+                    "href": "./instagram"
                 }
             ]
         },
@@ -197,18 +39,6 @@
                     "title": "How To",
                     "href": "./how-to",
                     "links": [
-                        {
-                            "title": "Create a Custom Action",
-                            "href": "./how-to/action"
-                        },
-                        {
-                            "title": "Hook into the form events",
-                            "href": "./how-to/hook"
-                        },
-                        {
-                            "title": "Show form in a Modal",
-                            "href": "./how-to/modal"
-                        }
                     ]
                 },
                 {

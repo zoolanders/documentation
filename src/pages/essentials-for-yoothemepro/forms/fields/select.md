@@ -29,7 +29,7 @@ It inherits common settings with the following specifics:
 | **Height** | The number of rows in the list that will be visible by default, if Multiple Selection is enabled. |
 | **Multiple Selection** | Should it be allowed to choose more than one option. |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
 {% /details %}
 
@@ -60,7 +60,7 @@ It inherits common validation with the following specifics:
 | **Min** | The minimum amount of options that must be chosen, `greater than` or `equal to`. | &#x2713; | | &#x2713; |
 | **Max** | The maximum amount of options that can be chosen, `lower than` or `equal to`. | &#x2713; | | &#x2713; |
 
-{% details summary="Common Validation" %}
+{% details title="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}
 {% /details %}
 

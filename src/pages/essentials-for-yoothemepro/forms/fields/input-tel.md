@@ -19,7 +19,7 @@ It inherits common settings and the parent's [Fields Settings](./input#fields-se
 | ------- | ----------- | :-----: |
 | **Placeholder** | The text to be shown while there is no user input. | &#x2713; |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
 {% /details %}
 
@@ -35,7 +35,7 @@ It inherits common validation with the following specifics:
 | **Max Length** | The maximum content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 | **Pattern** | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
 
-{% details summary="Common Validation" %}
+{% details title="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}
 {% /details %}
 

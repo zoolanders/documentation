@@ -19,7 +19,7 @@ Month input relies on the browser's native implementation, the picker and icon s
 
 It inherits common settings and the parent's [Fields Settings](./input#fields-settings):
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
 {% /details %}
 
@@ -36,7 +36,7 @@ It inherits common validation with the following specifics:
 | **Min** | The minimum month that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 | **Max** | The maximum month that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
-{% details summary="Common Validation" %}
+{% details title="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}
 {% /details %}
 

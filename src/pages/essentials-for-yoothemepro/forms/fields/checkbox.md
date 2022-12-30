@@ -30,7 +30,7 @@ It inherits common settings with the following specifics:
 | ------- | ----------- |
 | **Layout** | The layout that will be used to display the options, `Vertical` or `Horizontal`. |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
 {% /details %}
 
@@ -62,7 +62,7 @@ It inherits common validation with the following specifics:
 | **Min** | The minimum amount of options that must be chosen, `greater than` or `equal to`. | &#x2713; | | &#x2713; |
 | **Max** | The maximum amount of options that can be chosen, `lower than` or `equal to`. | &#x2713; | | &#x2713; |
 
-{% details summary="Common Validation" %}
+{% details title="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}
 {% /details %}
 

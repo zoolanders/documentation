@@ -30,7 +30,7 @@ It inherits common settings with the following specifics:
 | ------- | ----------- |
 | **Layout** | The layout that will be used to display the options, `Vertical` or `Horizontal`. |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
 {% /details %}
 

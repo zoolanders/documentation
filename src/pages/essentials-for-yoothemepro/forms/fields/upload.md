@@ -30,7 +30,7 @@ It inherits common settings with the following specifics:
 | **Allow multiple** | Should be allowed to upload multiple files simultaneously. |
 | **Avoid collisions** | Should the uploaded filename be renamed in the case of a name conflict with a pre-existing file. The new name will be the original name appended with `_{n}`, being `n` a sequential number. |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
   {% partial file="ytp-formarea-field-common-settings.md" /%}
 {% /details %}
 
@@ -87,7 +87,7 @@ It inherits common validation with the following specifics:
 | **Min File Size** | The minimum size that the file must constrain to, `greater than` or `equal to`, using any standard size unit `B`, `KB`, `MB`, `GB`, `TB`, `PB`, `EB`, `ZB`, or `YB`.  | &#x2713; | | &#x2713; |
 | **Max File Size** | The maximum size that the file must constrain to, `lower than` or `equal to`, using the same size units as Min File Size. | &#x2713; | | &#x2713; |
 
-{% details summary="Common Validation" %}
+{% details title="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}
 {% /details %}
 

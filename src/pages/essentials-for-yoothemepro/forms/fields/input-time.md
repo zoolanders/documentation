@@ -19,7 +19,7 @@ Time input relies on the browser's native implementation, the picker and icon st
 
 It inherits common settings and the parent's [Fields Settings](./input#fields-settings):
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
 {% /details %}
 
@@ -36,7 +36,7 @@ It inherits common validation with the following specifics:
 | **Min** | The minimum time that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 | **Max** | The maximum time that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
-{% details summary="Common Validation" %}
+{% details title="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}
 {% /details %}
 

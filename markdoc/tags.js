@@ -35,7 +35,8 @@ const tags = {
   },
   details: {
     attributes: {
-      summary: { type: String }
+      title: { type: String },
+      description: { type: String }
     },
     render: Details,
   },

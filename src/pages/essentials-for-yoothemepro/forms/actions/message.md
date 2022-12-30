@@ -25,7 +25,7 @@ The **Message Action** displays a custom message in a modal. Use it to show the 
 | ------- | ----------- | :---------: | :-----: | :------: |
 | **Message** | The content to display in the modal. | &#x2713; | &#x2713; | &#x2713; |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
 {% /details %}
 

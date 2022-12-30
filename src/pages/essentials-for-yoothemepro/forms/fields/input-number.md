@@ -19,7 +19,7 @@ It inherits common settings and the parent's [Fields Settings](./input#fields-se
 | ------- | ----------- | :-----: |
 | **Placeholder** | The text to be shown while there is no user input. | &#x2713; |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
 {% /details %}
 
@@ -34,7 +34,7 @@ While the browser validation invalidates any entry that isn't a number, it inher
 | **Min** | The minimum amount that the input value must constrain to, `greater than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 | **Max** | The maximum amount that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
-{% details summary="Common Validation" %}
+{% details title="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}
 {% /details %}
 

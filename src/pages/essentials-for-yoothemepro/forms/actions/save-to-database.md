@@ -28,7 +28,7 @@ The **SaveToDatabase Action** stores each submission data as a new record in a l
 | **Content** | The [mapping configuration](#mapping) of the submission data to the table columns. | &#x2713; |
 | **Custom Connection** | Should the connection be manually inputed instead of inherited from the system. |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
 {% /details %}
 

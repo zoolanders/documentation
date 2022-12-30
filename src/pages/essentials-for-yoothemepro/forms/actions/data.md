@@ -38,7 +38,7 @@ Notice that this action must be executed before any other action relying on the 
 | **Data.Name** | The name or key for the data entry, if data already exists it value will be overwritten. | | | &#x2713; |
 | **Data.Value** | The value for the data entry. | &#x2713; | &#x2713; | &#x2713; |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
 {% /details %}
 

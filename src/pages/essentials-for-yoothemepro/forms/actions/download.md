@@ -26,7 +26,7 @@ The **Download Action** triggers the download of the specified file. Use it to a
 | ------- | ----------- | :---------: | :-----: | :------: |
 | **File** | The path to the file which download to trigger. | &#x2713; | &#x2713; | &#x2713; |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
 {% /details %}
 

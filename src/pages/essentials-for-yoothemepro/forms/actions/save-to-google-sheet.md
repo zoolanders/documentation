@@ -29,7 +29,7 @@ The **SaveToGoogleSheet Action** stores each submission data as a new record in 
 | **Sheet** | The Spreadsheet Sheet to use as the data destination, defaults to the first sheet. |
 | **Value Input Option** | Defines how the data will be interpreted when saved to the spreadsheet. `Raw`, the values will be stored as-is, or `User Entered`, the values will be parsed as if were typed into the UI. |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
 {% /details %}
 

@@ -27,7 +27,7 @@ The **SaveToCSV Action** saves each submission data as a new record in the speci
 | **Delimeter / Enclosure** | The characters the file is formatted with, defaults to a comma (`,`) and double-quote (`"`). |
 | **Content** | The [mapping configuration](#mapping) of the submission data to the file columns. | &#x2713; |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
 {% /details %}
 

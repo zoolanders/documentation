@@ -26,7 +26,7 @@ The **Redirect Action** redirects the browser to a specified URL, with an option
 | **New Window** | Should the redirection happen in a new window instead. |
 | **Timeout** | The seconds to wait before triggering the redirect. |
 
-{% details summary="Common Settings" %}
+{% details title="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
 {% /details %}
 
