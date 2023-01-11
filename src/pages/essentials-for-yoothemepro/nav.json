@@ -52,7 +52,13 @@
             "links": [
                 {
                     "title": "Settings",
-                    "href": "./settings"
+                    "href": "./settings",
+                    "links": [
+                        {
+                            "title": "Geolocation",
+                            "href": "./settings/geolocation"
+                        }
+                    ]
                 }
             ]
         }

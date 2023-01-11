@@ -14,12 +14,8 @@
             "title": "Core Concepts",
             "links": [
                 {
-                    "title": "Source Instance",
-                    "href": "./instance"
-                },
-                {
-                    "title": "Authentication",
-                    "href": "./authentication"
+                    "title": "Source Manager",
+                    "href": "./manager"
                 }
             ]
         },
