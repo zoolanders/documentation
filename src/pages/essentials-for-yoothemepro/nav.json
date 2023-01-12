@@ -15,6 +15,15 @@
             ]
         },
         {
+            "title": "Core Concepts",
+            "links": [
+                {
+                    "title": "Auths Manager",
+                    "href": "./auths-manager"
+                }
+            ]
+        },
+        {
             "title": "Addons",
             "links": [
                 {

@@ -4,7 +4,7 @@ title: Source Manager
 
 The Source Manager is the first step for creating a Dynamic Content source instance. {% .lead %}
 
-Introduced by Essentials, the Source Manager builds on top of the YOOtheme Pro [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content) a workflow of multiple, configuration scoped, source instances. This is a useful, but also necessary, step for sources which structure changes depending on the configuration, like would be a Database Table, or external services requiring [authentication](#authentication).
+Introduced by Essentials, the Source Manager builds on top of YOOtheme Pro [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content) a workflow of multiple, configuration scoped, source instances. This is a useful, but also necessary, step for sources which structure changes depending on the configuration, like would be a Database Table, or external services requiring [authentication](#authentication).
 
 ---
 
