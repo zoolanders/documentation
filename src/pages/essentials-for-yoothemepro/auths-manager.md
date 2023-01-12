@@ -79,4 +79,3 @@ As per the protocol, any permission granted can be revoked at any time within th
 ### oAuth App
 
 Using the [ZOOlanders OAuth App](#zoolanders-oauth-app) is convenient, but for most services is recommended to create a custom oAuth App and use it instead, which would further enhance security and bypass possible quota limitations.
-
