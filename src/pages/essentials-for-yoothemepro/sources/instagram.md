@@ -124,8 +124,6 @@ The mapping options are specified by the following `Object Types`, which one wil
 | Comments Count | `Int` | The total amount of comments (Business Account Only). |
 | Like Count | `Int` | The total amount of likes (Business Account Only). |
 
----
-
 ### User Type
 
 {% image %}

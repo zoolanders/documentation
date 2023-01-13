@@ -26,6 +26,10 @@
                     "href": "./submission"
                 },
                 {
+                    "title": "After Submit Actions",
+                    "href": "./after-submit-actions"
+                },
+                {
                     "title": "Dynamic Workflow",
                     "href": "./dynamic"
                 }

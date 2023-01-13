@@ -2,7 +2,7 @@
 title: Form Area
 ---
 
-A Form Area is a builder Section or Column enabled as an area that defines where the form will be structured. {% .lead %}
+A **Form Area** is a builder Section or Column enabled as an area that defines where the form will be structured. {% .lead %}
 
 The area is wrapped with a standard [\<form\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) HTML Element without losing builder capabilities, which implies that any valid form field markup inside it, e.g. a raw HTML `<input>`, it will be picked up during submission.
 
@@ -26,11 +26,23 @@ Even though it is possible to define a form field using raw HTML, the [Dynamic W
 
 ---
 
+## Actions
+
+Trigger actions after a successful submission. {% .lead %}
+
+![After Submit Actions](/assets/ytp/forms/actions.webp)
+
+**After Submit Actions**, or Actions, are functions that will execute after a form has been successfully submitted. Per design, submitted data is not processed, saved, or logged unless there is an action set for the task.
+
+The actions are managed in the [Form Area Settings](#settings), but being such a crucial part of the form workflow we have dedicated an entire section where you can [learn all about After Submit Actions](after-submit-actions).
+
+---
+
 ## Settings
 
 Manage the form workflow settings. {% .lead %}
 
-Once a Form Area has been [created](integration#create-a-form-area), its settings will become available in the chosen Section or Column Advanced Panel.
+Once a **Form Area** has been [created](integration#create-a-form-area), its settings will become available in the chosen Section or Column Advanced Panel.
 
 {% image %}
 ![Form Area Settings Shortcut](/assets/ytp/forms/formarea-settings-shortcut.webp)
@@ -42,7 +54,7 @@ As a shortcut, a `paper-plane` icon will appear in the builder's main panel to b
 ![Form Area Settings](/assets/ytp/forms/formarea-settings.webp)
 {% /image %}
 
-The main settings allow defining if the browser-side HTML5 validation should be executed during submission as well as managing the [After Submit Actions](after-submit-actions).
+The main settings allow defining if the browser-side HTML5 validation should be executed during submission as well as managing the [After Submit Actions](#actions).
 
 {% image %}
 ![Form Node Attributes](/assets/ytp/forms/formarea-settings-attrs.webp)
@@ -55,19 +67,3 @@ Optional `id`, `name`, and `class` attributes for the form node allow further cu
 {% /image %}
 
 Override the form **action** and **method** in order to submit the form to a 3rd party service or a custom URL. When enabled, the server-side validation will be omitted.
-
----
-
-## Actions
-
-Trigger actions after successful submission. {% .lead %}
-
-![After Submit Actions](/assets/ytp/forms/actions.webp)
-
-After Submit Actions are multi-instance functions that will run sequentially after a form has been validated and successfully submitted. Actions are crucial for the form workflow, as per design, submission data is not processed, saved, or logged unless there is an action set for the task.
-
-For integration and further details, please consult specific action documentation in the [Actions Reference](reference/actions) section.
-
-{% callout title="Custom Actions" %}
-Core actions will solve most form workflow needs, but it is relatively simple to add [custom actions](./forms/customizations#custom-after-submit-actions) as well.
-{% /callout %}
