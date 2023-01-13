@@ -20,15 +20,61 @@
             ]
         },
         {
-            "title": "Sources",
+            "title": "Reference",
             "links": [
                 {
-                    "title": "Instagram",
-                    "href": "./instagram"
-                },
-                {
-                    "title": "Facebook",
-                    "href": "./facebook"
+                    "title": "Sources",
+                    "href": "./providers",
+                    "links": [
+                        {
+                            "title": "Database",
+                            "href": "./providers/database"
+                        },
+                        {
+                            "title": "Google Sheet",
+                            "href": "./providers/google-sheet"
+                        },
+                        {
+                            "title": "CSV",
+                            "href": "./providers/csv"
+                        },
+                        {
+                            "title": "RSS",
+                            "href": "./providers/rss"
+                        },
+                        {
+                            "title": "Instagram",
+                            "href": "./providers/instagram"
+                        },
+                        {
+                            "title": "Facebook",
+                            "href": "./providers/facebook"
+                        },
+                        {
+                            "title": "Twitter",
+                            "href": "./providers/twitter"
+                        },
+                        {
+                            "title": "YouTube",
+                            "href": "./providers/youtube"
+                        },
+                        {
+                            "title": "Vimeo",
+                            "href": "./providers/vimeo"
+                        },
+                        {
+                            "title": "TikTok",
+                            "href": "./providers/tiktok"
+                        },
+                        {
+                            "title": "CloudFlare Stream",
+                            "href": "./providers/cloudflare-stream"
+                        },
+                        {
+                            "title": "Google Business Profile",
+                            "href": "./providers/google-business-profile"
+                        }
+                    ]
                 }
             ]
         },
