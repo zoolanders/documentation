@@ -20,6 +20,16 @@ Core actions will solve most form workflow needs, but it is relatively simple to
 
 ---
 
+## Multi-Instance
+
+Multi-instance is a term used for more than one identical instance that run parallel on in consequence to each other. In a multi-instance action setup that means that is possible to set multiple actions of the same type that will hold its own configuration and content.
+
+{% image %}
+![Multi-Instance Action](/assets/ytp/forms/form-action-multi-instance.png)
+{% /image %}
+
+---
+
 ## Execution
 
 Actions will run sequentially, one after another, as long as the chain is not disrupted by an error. {% .lead %}

@@ -29,7 +29,7 @@ It is also possible, and somewhat more convenient, to manage the auths while cre
 This is the process where you authenticate to 3rd party services using the oAuth protocol and grant [ZOOlanders OAuth App](#zoolanders-oauth-app), or your Auth App, permissions to access content or act on your behalf.
 
 {% image %}
-![oAuth](/assets/ytp/auth-oauth.webp)
+![oAuth](/assets/ytp/auths-oauth.webp)
 {% /image %}
 
 ---
@@ -39,7 +39,7 @@ This is the process where you authenticate to 3rd party services using the oAuth
 Some services do not yet support oAuth, or cannot as per the service nature, being an alternative a Key or a pair of a Key & a Secret.
 
 {% image %}
-![oAuth](/assets/ytp/auth-key.webp)
+![oAuth](/assets/ytp/auths-key.webp)
 {% /image %}
 
 ---
@@ -60,15 +60,25 @@ When using our oAuth App the API quota is shared among other users, even though 
 
 ---
 
+## Custom oAuth App
+
+For high traffic sites, or for anyone that has the skills to do it, we strongly advise to create your own oAuth App and use it client ID/Secret when authenticating. That would avoid any possible quota limitations and enhance further security.
+
+{% image %}
+![Custom oAuth App](/assets/ytp/auths-custom-app.webp)
+{% /image %}
+
+---
+
 ## Security
 
 The auth workflow has been built with security in mind but is important to understand the concepts behind it. {% .lead %}
 
 ### Encryption
 
-All auth tokens, keys & secrets are **encrypted** and stored in [Essentials Settings](./settings) which is ultimately a Database Table. This is important as you don't want to expose those, but even if that would happen the encryption would make them useless.
+All auth tokens, keys & secrets are strongly **encrypted** and stored in [Essentials Settings](./settings) which is ultimately a Database Table. This is important as you don't want to expose those, but even if that would happen the encryption would make them useless.
 
-Furthermore, the decryption only works in the site it was encrypted, meaning that porting the auths to a different site is not possible, those must be created again.
+Furthermore, the decryption would only work in the site it was encrypted because the site's secret key is used for the encryption. That means that porting the auths to a different site is not possible.
 
 ### oAuth Principles
 
@@ -78,4 +88,4 @@ As per the protocol, any permission granted can be revoked at any time within th
 
 ### oAuth App
 
-Using the [ZOOlanders OAuth App](#zoolanders-oauth-app) is convenient, but for most services is recommended to create a custom oAuth App and use it instead, which would further enhance security and bypass possible quota limitations.
+Using the [ZOOlanders OAuth App](#zoolanders-oauth-app) is convenient and save, we never store any login or token, we will just "pass those" on the fly to your site. Even so, for most services is recommended to create a custom oAuth App and use it instead, which would further enhance security and bypass possible quota limitations.
