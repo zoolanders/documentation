@@ -10,132 +10,117 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Instagram Source** feeds data from [Instagram](https://www.instagram.com/) Personal and Business accounts. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The **Database Source** feeds data from local or external MySQL Database Tables, supporting relations and dynamic filtering/ordering. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple databases with different configurations.
 
 ---
 
 ## Integration
 
-{% partial file="ytp-sources-integration.md" variables={source: "Instagram"} /%}
-
-{% callout title="Cache" %}
-You can adjust the cache time as needed but being this an API-driven source it is highly recommended to keep the cache active.
-{% /callout %}
+{% partial file="ytp-sources-integration.md" variables={source: "Database"} /%}
 
 ---
 
 ## Instance
 
-After following through [integration](#integration) an Instagram instance will become available which can be managed in the [Sources Manager](manager).
+After following through [integration](#integration) a Database instance will become available which can be managed in the [Sources Manager](manager).
+
+### Configuration
 
 {% image %}
-![Instagram Instance Configuration](/assets/ytp/sources/ig-config.webp)
+![Database Instance Configuration](/assets/ytp/sources/db-config.webp)
 {% /image %}
 
-| Setting | Description |
-| ------- | ----------- |
-| **Name** | The name that will identify this source instance, defaults to `Instagram`. |
-| **Account** | The account to which to connect to retrieve the media, requires [authentication](manager#authentication). |
-| **Page** | The Facebook Page associated with the account, when Instagram Business account. |
+| Setting | Description | Required |
+| ------- | ----------- | :------: |
+| **Name** | The name that will identify this source instance, defaults to `Database`. |
+| **Custom Connection** | Should the connection to the database be done using custom configuration instead of the site configuration. |
+| **Database** | The name of the database to which to connect to. | &#x2713; |
+| **Table** | The table from which to create the source. | &#x2713; |
+| **Primary Key** | The primary key of the selected table, this is specially important when using relations. | &#x2713; |
+| **Relations** | The list of [relations](#database-relations) and their configuration. |
 
 ---
 
-## Queries
+### Connection
 
-For each instance, the following queries will be available as Dynamic Content options under the Instagram Group.
-
-### Media Query
-
-Fetches all Media from the authenticated Personal or Business account, resolves to a list of [Media Type](#media-type).
+By default the connection to the database will be done using the site configuration, if Custom Connection is enabled the custom inputs will be used instead. Both connecting to a different database from the local server or a remote one is supported.
 
 {% image %}
-![Instagram Media Query](/assets/ytp/sources/ig-query-media.webp)
+![Database Instance Connection](/assets/ytp/sources/db-config-connection.webp)
 {% /image %}
 
-| Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Type** | `All` | The type of media to fetch, `All`, `Image`, or `Video`. |
-| **Amount** | `20` | The maximum amount of media to fetch. |
-| **Since/Until** | `null` | The `start` and/or `end` datetime the fetched media will be restricted to. |
-| **Cache** | `3680` | The duration in seconds before the cache is invalidated and the query re-executed. |
-
-### Media (Single) Query
-
-Fetches a Media from the authenticated Personal or Business account specified with its ID, resolves to a [Media Type](#media-type).
-
-{% image %}
-![Instagram Media Single Query](/assets/ytp/sources/ig-query-media-single.webp)
-{% /image %}
-
-| Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **ID** | `null` | The user ID. |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
-
-### Hashtagged Media Query
-
-Fetches all Media from the authenticated Instagram Business account that has been hashtagged with a specified hash, resolves to a list of [Media Type](#media-type).
-
-{% image %}
-![Instagram Hashtagged Media Query](/assets/ytp/sources/ig-query-hashtagged-media.webp)
-{% /image %}
-
-| Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Hashtag** | `null` | The hashtag to query for. |
-| **Edge** |`Top` | Should the query look for `Top Media` or `Recent Media` hashtagged with. |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
-
-### User Query
-
-Retrieves the authenticated Instagram Business User account information, resolves to a [User Type](#user-type).
-
-| Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Cache** | `0` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Required |
+| ------- | ----------- | :------: |
+| **Host** | The IP or domain of the remote database server. | &#x2713; |
+| **Port** | The port which to use to connect to the remote server. | &#x2713; |
+| **Username / Password** | The credentials which to use to connect to the remote server. | &#x2713; |
 
 ---
 
-## Mapping Options
+### Database Relations
 
-The mapping options are specified by the following `Object Types`, which one will be used is determined by the [queries](#queries).
+Complex data structures typically involve several tables related between them, if that's the case you can set as many relations as needed of the type:
 
-### Media Type
-
-{% image %}
-![Instagram Media Mapping](/assets/ytp/sources/ig-mapping-media.webp)
-{% /image %}
-
-| Option | Type | Description |
-| -----| ---- | ----------- |
-| ID | `String` | The Media ID. |
-| Type | `String` | The Media Type, `Album`, `Image`, or `Video`. |
-| URL | `String` | The Media URL, locally cached the first time is accessed. |
-| Thumbnail URL | `String` | The Media Thumbnail URL, locally cached the first time is accessed. |
-| Caption | `String` | The caption content. |
-| Permalink | `String` | The Permanent URL to the media. |
-| Timestamp | `String` | The ISO 8601-formatted creation date in UTC (default is UTC ±00:00). |
-| Username | `String` | The Username of the user who created the media. |
-| Hashtags | `String` | The Media hashtags listed with a custom separator. |
-| Hashtags | `ListOf` | The Media hashtags available as a multi-item content with an `id` and `name` available for mapping. |
-| Children | `ListOf` | The Media children when the Media is an `Album`. |
-| Comments Count | `Int` | The total amount of comments (Business Account Only). |
-| Like Count | `Int` | The total amount of likes (Business Account Only). |
-
-### User Type
+- **One to One**, also known as **BelongsTo**, where a single entry relates with another single entry, e.g. Article belongs to an Author.
+- **One to Many**, also known as **HasMany**, where a single entry relates with multiple entries, e.g. Article is assigned to many Categories.
 
 {% image %}
-![Instagram User Mapping](/assets/ytp/sources/ig-mapping-user.webp)
+![Database Instance Relations](/assets/ytp/sources/db-config-relations.webp)
 {% /image %}
 
-| Option | Type | Description |
-| -----| ---- | ----------- |
-| ID | `String` | The user ID. |
-| Name | `String` | The user name. |
-| Website | `String` | The user website. |
-| Biography | `String` | The user biography content. |
-| Picture URL | `String` | The user profile picture URL. |
-| Followers Count | `Int` | The total amount of profiles following the user. |
-| Follows Count | `Int` | The total amount of profiles the user is following. |
-| Media Count | `Int` | The total amount of media the user has posted. |
+| Setting | Description | Required |
+| ------- | ----------- | :------: |
+| **Name** | The name to associate the relation with. Shoule be meaningfull, e.g. `Author`. | &#x2713; |
+| **Relation Type** | The relation type, `One to One` or `One to Many`. | &#x2713; |
+| **Related Table** | The table that is being related with the main table. | &#x2713; |
+| **Main Table Key** | The column key from the main table to use for the relation. | &#x2713; |
+| **Related Table Key** | The column key from the related table to use for the relation. | &#x2713; |
 
+{% callout title="MySQL Views" %}
+Relations can get complex and difficult to debug, an alternative simpler approach is to create a [MySQL View](https://dev.mysql.com/doc/refman/8.0/en/view-syntax.html) with the relations solved and use that view as the main table.
+{% /callout %}
+
+---
+
+## Content Queries
+
+For each instance, the following queries will be available as Dynamic Content options under the Database Group.
+
+### Record Query
+
+Queries and filters down to a single record from the source instance database, resolves to a dynamically created `Object Type` based on the table columns.
+
+{% image %}
+![Database Record Query](/assets/ytp/sources/db-query-record.webp)
+{% /image %}
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Filters** | `[]` | The list of [filter conditions](../query-conditions#filter-conditions) applied to the query. |
+| **Ordering** | `[]` | The list of [ordering conditions](../query-conditions#order-conditions) applied to the query. |
+| **Random** | `false` | Should the ordering be randomized ignoring any ordering condition. |
+| **Start** | `1` | The offset applied to the query. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+### Records Query
+
+Queries records from the source instance database, resolves to a list of dynamically created `Object Type` based on the table columns.
+
+{% image %}
+![Database Records Query](/assets/ytp/sources/db-query-records.webp)
+{% /image %}
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Filters** | `[]` | The list of [filter conditions](../query-conditions#filter-conditions) applied to the query. |
+| **Ordering** | `[]` | The list of [ordering conditions](../query-conditions#order-conditions) applied to the query. |
+| **Random** | `false` | Should the ordering be randomized ignoring any ordering condition. |
+| **Start** | `1` | The offset applied to the query. |
+| **Quantity** | `20` | The limit applied to the query. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+---
+
+## Mapping Fields
+
+The `Object Types` specifying the mapping fields are generated programatically for each instance based on the table columns schema.

@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **CSV Source** feeds data from ...
+The **CSV Source** feeds data from local files formatted as **CSV** (comma-separated values) or **TSV** (tab-separated values), supporting dynamic filtering/ordering. Based on the [multi-instance](manager#multi-instance) source workflow it allows loading multiple files with different configurations.
 
 ---
 
@@ -19,6 +19,49 @@ The **CSV Source** feeds data from ...
 
 {% partial file="ytp-sources-integration.md" variables={source: "CSV"} /%}
 
-The cache is set to 3600 seconds by default, if your workflow requires immediate results disable the cache by setting it to 0, but being this an API-driven source it is not recommended.
+---
+
+## Instance
+
+After following through [integration](#integration) a CSV instance will become available which can be managed in the [Sources Manager](manager).
+
+### Configuration
+
+{% image %}
+![CSV Instance Configuration](/assets/ytp/sources/csv-config.webp)
+{% /image %}
+
+| Setting | Description | Required |
+| ------- | ----------- | :------: |
+| **Name** | The name that will identify this source instance, defaults to `CSV`. |
+| **File** | The relative or absolute local path to the file which to use as source. | &#x2713; |
+| **Delimeter** | The delimiter character the file content is formated with. | &#x2713; |
+| **Enclosure** | The enclosure character the file content is formated with. | &#x2713; |
 
 ---
+
+## Content Queries
+
+For each instance, the following queries will be available as Dynamic Content options under the CSV Group.
+
+### Records Query
+
+Queries records from the source instance database, resolves to a list of dynamically created `Object Type` based on the table columns.
+
+{% image %}
+![CSV Records Query](/assets/ytp/sources/csv-query-records.webp)
+{% /image %}
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Filters** | `[]` | The list of [filter conditions](../query-conditions#filter-conditions) applied to the query. |
+| **Ordering** | `[]` | The list of [ordering conditions](../query-conditions#order-conditions) applied to the query. |
+| **Start** | `1` | The offset applied to the query. |
+| **Quantity** | `20` | The limit applied to the query. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+---
+
+## Mapping Fields
+
+The `Object Types` specifying the mapping fields are generated programatically for each instance based on the file columns schema.

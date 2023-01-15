@@ -16,6 +16,10 @@
                 {
                     "title": "Sources Manager",
                     "href": "./manager"
+                },
+                {
+                    "title": "Query Conditions",
+                    "href": "./query-conditions"
                 }
             ]
         },

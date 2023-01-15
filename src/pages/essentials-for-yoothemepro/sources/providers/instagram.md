@@ -30,19 +30,27 @@ You can adjust the cache time as needed but being this an API-driven source it i
 
 After following through [integration](#integration) an Instagram instance will become available which can be managed in the [Sources Manager](manager).
 
+### Configuration
+
 {% image %}
 ![Instagram Instance Configuration](/assets/ytp/sources/ig-config.webp)
 {% /image %}
 
-| Setting | Description |
-| ------- | ----------- |
+| Setting | Description | Required |
+| ------- | ----------- | :------: |
 | **Name** | The name that will identify this source instance, defaults to `Instagram`. |
-| **Account** | The account to which to connect to retrieve the media, requires [authentication](manager#authentication). |
-| **Page** | The Facebook Page associated with the account, when Instagram Business account. |
+| **Account** | The account to which to connect to retrieve the media, requires [authentication](manager#authentication). | &#x2713; |
+| **Page** | The Facebook Page associated with the account, when Instagram Business account. | &#x2713; |
 
 ---
 
-## Queries
+### Authentication
+
+The authentication to the Instagram account is done via oAuth...
+
+---
+
+## Content Queries
 
 For each instance, the following queries will be available as Dynamic Content options under the Instagram Group.
 
@@ -59,7 +67,7 @@ Fetches all Media from the authenticated Personal or Business account, resolves 
 | **Type** | `All` | The type of media to fetch, `All`, `Image`, or `Video`. |
 | **Amount** | `20` | The maximum amount of media to fetch. |
 | **Since/Until** | `null` | The `start` and/or `end` datetime the fetched media will be restricted to. |
-| **Cache** | `3680` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ### Media (Single) Query
 
@@ -98,9 +106,9 @@ Retrieves the authenticated Instagram Business User account information, resolve
 
 ---
 
-## Mapping Options
+## Mapping Fields
 
-The mapping options are specified by the following `Object Types`, which one will be used is determined by the [queries](#queries).
+The mapping fields are specified by the following `Object Types` which will used by the [content queries](#content-queries).
 
 ### Media Type
 
@@ -140,4 +148,3 @@ The mapping options are specified by the following `Object Types`, which one wil
 | Followers Count | `Int` | The total amount of profiles following the user. |
 | Follows Count | `Int` | The total amount of profiles the user is following. |
 | Media Count | `Int` | The total amount of media the user has posted. |
-
