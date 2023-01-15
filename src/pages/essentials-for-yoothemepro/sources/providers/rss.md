@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **RSS Source** feeds data from ...
+The **RSS Source** feeds data from a RSS feed supporting RSS 0.9, 1.0, 2.0, and Atom specifications. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple feeds with different configurations.
 
 ---
 
@@ -19,6 +19,45 @@ The **RSS Source** feeds data from ...
 
 {% partial file="ytp-sources-integration.md" variables={source: "RSS"} /%}
 
-The cache is set to 3600 seconds by default, if your workflow requires immediate results disable the cache by setting it to 0, but being this an API-driven source it is not recommended.
+---
+
+## Instance
+
+After following through [integration](#integration) a RSS instance will become available which can be managed in the [Sources Manager](manager).
+
+### Configuration
+
+{% image %}
+![RSS Instance Configuration](/assets/ytp/sources/rss-config.webp)
+{% /image %}
+
+| Setting | Description | Default | Required |
+| ------- | ----------- | ------- | :------: |
+| **Name** | The name that will identify this source instance. | `RSS` |
+| **URL** | The feed URL from which to create the source. | | &#x2713; |
 
 ---
+
+## Content Queries
+
+For each instance, the following queries will be available as Dynamic Content options under the RSS Group.
+
+### Feed Query
+
+Queries the source instance feed information, resolves to a programatically generated feed `Object Type`.
+
+### Entries Query
+
+Queries entries from the source instance, resolves to a List Of programatically generated `Object Type` based on the feed schema.
+
+{% image %}
+![RSS Records Query](/assets/ytp/sources/rss-query-entries.webp)
+{% /image %}
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Filters** | `[]` | The list of [filter conditions](../query-conditions#filter-conditions) applied to the query. |
+| **Ordering** | `[]` | The list of [ordering conditions](../query-conditions#order-conditions) applied to the query. |
+| **Start** | `1` | The offset applied to the query. |
+| **Quantity** | `20` | The limit applied to the query. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |

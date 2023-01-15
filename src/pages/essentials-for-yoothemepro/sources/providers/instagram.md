@@ -39,14 +39,14 @@ After following through [integration](#integration) an Instagram instance will b
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Name** | The name that will identify this source instance, defaults to `Instagram`. |
-| **Account** | The account to which to connect to retrieve the media, requires [authentication](manager#authentication). | &#x2713; |
-| **Page** | The Facebook Page associated with the account, when Instagram Business account. | &#x2713; |
+| **Account** | The account to which to [authenticate](manager#authentication). | &#x2713; |
+| **Page** | The Facebook Page associated with the Instagram Business account, omitted for Personal accounts. | &#x2713; |
 
 ---
 
 ### Authentication
 
-The authentication to the Instagram account is done via oAuth...
+The authentication to the Instagram account is done through the oAuth protocol, simply follow the UI instructions or learn all about the [Auths Manager](../../auths-manager) first.
 
 ---
 

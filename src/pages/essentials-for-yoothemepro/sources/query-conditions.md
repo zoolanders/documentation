@@ -4,7 +4,7 @@ title: Query Conditions
 
 **Query Conditions** are the most performant way to fetch pre-filtered source content. {% .lead %}
 
-Introduced by Essentials, **Query Conditions** builds on top of YOOtheme Pro [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content) a workflow for processing content queries with **filter** and **order** conditions based on static or dynamic values. Supported by [Database](providers/database) and [CSV](providers/csv) sources the conditions allow setting advanced queries in the lines of "Fetch all Records authored by the Current User".
+Introduced by Essentials, **Query Conditions** builds on top of YOOtheme Pro [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content) a workflow for processing content queries with **filter** and **order** conditions based on static or dynamic values. Supported by [Database](providers/database), [CSV](providers/csv) and [RSS](providers/rss) sources, the conditions allow setting advanced queries in the lines of "Fetch all Records authored by the Current User".
 
 ---
 

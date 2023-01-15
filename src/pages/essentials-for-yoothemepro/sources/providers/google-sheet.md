@@ -29,58 +29,23 @@ After following through [integration](#integration) a Google Sheet instance will
 ### Configuration
 
 {% image %}
-![Google Sheet Instance Configuration](/assets/ytp/sources/google-sheet-config.webp)
+![Google Sheet Instance Configuration](/assets/ytp/sources/gsheet-config.webp)
 {% /image %}
 
-| Setting | Description | Required |
-| ------- | ----------- | :------: |
-| **Name** | The name that will identify this source instance, defaults to `Google Sheet`. |
-| **Custom Connection** | Should the connection to the database be done using custom configuration instead of the site configuration. |
-| **Google Sheet** | The name of the database to which to connect to. | &#x2713; |
-| **Table** | The table from which to create the source. | &#x2713; |
-| **Primary Key** | The primary key of the selected table, this is specially important when using relations. | &#x2713; |
-| **Relations** | The list of [relations](#database-relations) and their configuration. |
+| Setting | Description | Default | Required |
+| ------- | ----------- | ------- | :------: |
+| **Name** | The name that will identify this source instance. | `Google Sheet` |
+| **Account** | The account to which to [authenticate](manager#authentication). | | &#x2713; |
+| **Spreadsheet** | The spreadsheet which to retrieve. | | &#x2713; |
+| **Sheet Name** | The spreadsheet sheet from which to create the source. | `default` |
+| **Start Column** | The starting column from which to delimiter the content. | `A` |
+| **End Column** | The ending column until which to delimiter the content. | `` |
 
 ---
 
-### Connection
+### Authentication
 
-By default the connection to the database will be done using the site configuration, if Custom Connection is enabled the custom inputs will be used instead. Both connecting to a different database from the local server or a remote one is supported.
-
-{% image %}
-![Google Sheet Instance Connection](/assets/ytp/sources/google-sheet-config-connection.webp)
-{% /image %}
-
-| Setting | Description | Required |
-| ------- | ----------- | :------: |
-| **Host** | The IP or domain of the remote database server. | &#x2713; |
-| **Port** | The port which to use to connect to the remote server. | &#x2713; |
-| **Username / Password** | The credentials which to use to connect to the remote server. | &#x2713; |
-
----
-
-### Google Sheet Relations
-
-Complex data structures typically involve several tables related between them, if that's the case you can set as many relations as needed of the type:
-
-- **One to One**, also known as **BelongsTo**, where a single entry relates with another single entry, e.g. Article belongs to an Author.
-- **One to Many**, also known as **HasMany**, where a single entry relates with multiple entries, e.g. Article is assigned to many Categories.
-
-{% image %}
-![Google Sheet Instance Relations](/assets/ytp/sources/google-sheet-config-relations.webp)
-{% /image %}
-
-| Setting | Description | Required |
-| ------- | ----------- | :------: |
-| **Name** | The name to associate the relation with. Shoule be meaningfull, e.g. `Author`. | &#x2713; |
-| **Relation Type** | The relation type, `One to One` or `One to Many`. | &#x2713; |
-| **Related Table** | The table that is being related with the main table. | &#x2713; |
-| **Main Table Key** | The column key from the main table to use for the relation. | &#x2713; |
-| **Related Table Key** | The column key from the related table to use for the relation. | &#x2713; |
-
-{% callout title="MySQL Views" %}
-Relations can get complex and difficult to debug, an alternative simpler approach is to create a [MySQL View](https://dev.mysql.com/doc/refman/8.0/en/view-syntax.html) with the relations solved and use that view as the main table.
-{% /callout %}
+The authentication to the Instagram account is done through the oAuth protocol, simply follow the UI instructions or learn all about the [Auths Manager](../../auths-manager) first.
 
 ---
 
@@ -90,23 +55,14 @@ For each instance, the following queries will be available as Dynamic Content op
 
 ### Records Query
 
-Queries records from the source instance database, resolves to a list of dynamically created `Object Type` based on the table columns.
+Queries records from the source instance, resolves to a List Of programatically generated `Object Type` based on the spreadsheet columns schema.
 
 {% image %}
-![Google Sheet Records Query](/assets/ytp/sources/google-sheet-query-records.webp)
+![Google Sheet Records Query](/assets/ytp/sources/gsheet-query-records.webp)
 {% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
-| **Filters** | `[]` | The list of [filter conditions](../query-conditions#filter-conditions) applied to the query. |
-| **Ordering** | `[]` | The list of [ordering conditions](../query-conditions#order-conditions) applied to the query. |
-| **Random** | `false` | Should the ordering be randomized ignoring any ordering condition. |
 | **Start** | `1` | The offset applied to the query. |
 | **Quantity** | `20` | The limit applied to the query. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
-
----
-
-## Mapping Fields
-
-The `Object Types` specifying the mapping fields are generated programatically for each instance based on the spreadsheet columns schema.

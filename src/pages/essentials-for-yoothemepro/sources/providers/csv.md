@@ -46,7 +46,7 @@ For each instance, the following queries will be available as Dynamic Content op
 
 ### Records Query
 
-Queries records from the source instance database, resolves to a list of dynamically created `Object Type` based on the table columns.
+Queries records from the source instance, resolves to a List Of programatically generated `Object Type` based on the file columns schema.
 
 {% image %}
 ![CSV Records Query](/assets/ytp/sources/csv-query-records.webp)
@@ -59,9 +59,3 @@ Queries records from the source instance database, resolves to a list of dynamic
 | **Start** | `1` | The offset applied to the query. |
 | **Quantity** | `20` | The limit applied to the query. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
-
----
-
-## Mapping Fields
-
-The `Object Types` specifying the mapping fields are generated programatically for each instance based on the file columns schema.
