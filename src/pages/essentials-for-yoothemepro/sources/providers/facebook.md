@@ -60,6 +60,8 @@ Fetches the Facebook Page data, resolves to [Page Type](#page-type).
 | ------- | ------- | ----------- |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
+---
+
 ### Page Posts Query
 
 Fetches all posts from the Facebook Page, resolves to a list of [Page Post Type](#page-post-type).
@@ -119,9 +121,9 @@ The mapping fields are specified by the following `Object Types` which will used
 | ------ | ----------- | ---- | ------- |
 | **ID** | The ID of the post. | `String` |
 | **Permalink** | The permanent static URL to the post, e.g `www.facebook.com/.../posts/10153449196`. | `String` |
+| **Picture URL** | The full size picture attached to post. | `String` |
 | **Message** | The message written in the post. | `String` | `Limit` |
 | **From** | The name of the user, page, group, or event that published the post. | `String` |
-| **Picture Full Size URL** | The full size picture attached to post. | `String` |
 | **Tags** | The profiles tagged in post message as a custom formated string with `Separator`, `Show Link` and `Link Style` arguments. | `String` |
 | **Created At** | The time the post was published. | `String` | `Date` |
 | **Updated At** | The time the post was last updated, which occurs when a user comments on the post. | `String` | `Date` |

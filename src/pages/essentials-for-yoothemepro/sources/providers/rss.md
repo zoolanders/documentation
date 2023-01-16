@@ -46,6 +46,8 @@ For each instance, the following queries will be available as Dynamic Content op
 
 Queries the source instance feed information, resolves to a programatically generated feed `Object Type`.
 
+---
+
 ### Entries Query
 
 Queries entries from the source instance, resolves to a List Of programatically generated `Object Type` based on the feed schema.

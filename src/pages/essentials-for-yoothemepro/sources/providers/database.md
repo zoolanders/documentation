@@ -102,6 +102,8 @@ Queries and filters down to a single record from the source instance database, r
 | **Start** | `1` | The offset applied to the query. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
+---
+
 ### Records Query
 
 Queries records from the source instance, resolves to a List Of programatically generated `Object Type` based on the table columns schema.

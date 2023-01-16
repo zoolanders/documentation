@@ -69,6 +69,8 @@ Fetches all Media from the authenticated Personal or Business account, resolves 
 | **Since/Until** | `null` | The `start` and/or `end` datetime the fetched media will be restricted to. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
+---
+
 ### Media (Single) Query
 
 Fetches a Media from the authenticated Personal or Business account specified with its ID, resolves to a [Media Type](#media-type).
@@ -81,6 +83,13 @@ Fetches a Media from the authenticated Personal or Business account specified wi
 | ------- | ------- | ----------- |
 | **ID** | `null` | The user ID. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+| Multi Items Option | Description | Type |
+| ------------------ | ----------- | ---- |
+| **Hashtags** | Media hashtags with `Id` and `Name` mapping options. | `ListOf` |
+| **Children** | Media children available when the media is an `Album`. | `ListOf` [Media Album](#media-album-type) |
+
+---
 
 ### Hashtagged Media Query
 
@@ -95,6 +104,8 @@ Fetches all Media from the authenticated Instagram Business account that has bee
 | **Hashtag** | `null` | The hashtag to query for. |
 | **Edge** |`Top` | Should the query look for `Top Media` or `Recent Media` hashtagged with. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+---
 
 ### User Query
 
@@ -116,21 +127,42 @@ The mapping fields are specified by the following `Object Types` which will used
 ![Instagram Media Mapping](/assets/ytp/sources/ig-mapping-media.webp)
 {% /image %}
 
-| Option | Type | Description |
-| -----| ---- | ----------- |
-| ID | `String` | The Media ID. |
-| Type | `String` | The Media Type, `Album`, `Image`, or `Video`. |
-| URL | `String` | The Media URL, locally cached the first time is accessed. |
-| Thumbnail URL | `String` | The Media Thumbnail URL, locally cached the first time is accessed. |
-| Caption | `String` | The caption content. |
-| Permalink | `String` | The Permanent URL to the media. |
-| Timestamp | `String` | The ISO 8601-formatted creation date in UTC (default is UTC ±00:00). |
-| Username | `String` | The Username of the user who created the media. |
-| Hashtags | `String` | The Media hashtags listed with a custom separator. |
-| Hashtags | `ListOf` | The Media hashtags available as a multi-item content with an `id` and `name` available for mapping. |
-| Children | `ListOf` | The Media children when the Media is an `Album`. |
-| Comments Count | `Int` | The total amount of comments (Business Account Only). |
-| Like Count | `Int` | The total amount of likes (Business Account Only). |
+| Option | Description | Type | Filters |
+| ------ | ----------- | ---- | ------- |
+| **ID** | The ID of the media. | `String` |
+| **Type** | The type of the media, `Album`, `Image`, or `Video`. | `String` |
+| **URL** | The path to the locally cached media asset. | `String` |
+| **Thumbnail URL** | The path to the locally cached media thumbnail asset. | `String` |
+| **Permalink** | The Instagram Media URL, e.g. `www.instagram.com/p/CO9O62hnpR5nkt`. | `String` |
+| **Caption** | The caption content. | `String` | `Limit` |
+| **Hashtags** | The media hashtags as a custom formated string with `Separator` argument. | `String` |
+| **Created At** | The time the media was created. | `String` | `Date` |
+| **Created By** | The username of the user who created the media. | `String` |
+
+| Business Only Options | Description | Type |
+| --------------------- | ----------- | ---- |
+| **Total Comments** | Number of comments made one the media. | `Int` |
+| **Total Likes** | Number of user that liked the media. | `Int` |
+
+---
+
+### Media Album Type
+
+{% image %}
+![Instagram Media Album Mapping](/assets/ytp/sources/ig-mapping-media-album.webp)
+{% /image %}
+
+| Option | Description | Type | Filters |
+| ------ | ----------- | ---- | ------- |
+| **ID** | The ID of the media. | `String` |
+| **Type** | The type of the media, `Album`, `Image`, or `Video`. | `String` |
+| **URL** | The path to the locally cached media asset. | `String` |
+| **Thumbnail URL** | The path to the locally cached media thumbnail asset. | `String` |
+| **Permalink** | The Instagram Media URL, e.g. `www.instagram.com/p/CO9O62hnpR5nkt`. | `String` |
+| **Created At** | The time the media was created. | `String` | `Date` |
+| **Created By** | The username of the user who created the media. | `String` |
+
+---
 
 ### User Type
 
@@ -138,13 +170,13 @@ The mapping fields are specified by the following `Object Types` which will used
 ![Instagram User Mapping](/assets/ytp/sources/ig-mapping-user.webp)
 {% /image %}
 
-| Option | Type | Description |
-| -----| ---- | ----------- |
-| ID | `String` | The user ID. |
-| Name | `String` | The user name. |
-| Website | `String` | The user website. |
-| Biography | `String` | The user biography content. |
+| Option | Description | Type | Filters |
+| ------ | ----------- | ---- | ------- |
+| ID | `String` | The ID of the user. |
+| Name | `String` | The name of the user. |
+| Website | `String` | The website of the user profile. |
+| Biography | `String` | The biography of the user profile. | `Limit` |
 | Picture URL | `String` | The user profile picture URL. |
-| Followers Count | `Int` | The total amount of profiles following the user. |
-| Follows Count | `Int` | The total amount of profiles the user is following. |
-| Media Count | `Int` | The total amount of media the user has posted. |
+| Total Followers | `Int` | Number of Instagram users following the user. |
+| Total Follows | `Int` | Number of Instagram users the user follows. |
+| Total Media | `Int` | Number of Instagram Media published on the user. |
