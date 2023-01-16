@@ -39,7 +39,7 @@ After following through [integration](#integration) an Instagram instance will b
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Name** | The name that will identify this source instance, defaults to `Instagram`. |
-| **Account** | The account to which to [authenticate](manager#authentication). | &#x2713; |
+| **Account** | The Instagram account to which to [authenticate](manager#authentication). | &#x2713; |
 | **Page** | The Facebook Page associated with the Instagram Business account, omitted for Personal accounts. | &#x2713; |
 
 ---
@@ -172,11 +172,11 @@ The mapping fields are specified by the following `Object Types` which will used
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |
-| ID | `String` | The ID of the user. |
-| Name | `String` | The name of the user. |
-| Website | `String` | The website of the user profile. |
-| Biography | `String` | The biography of the user profile. | `Limit` |
-| Picture URL | `String` | The user profile picture URL. |
-| Total Followers | `Int` | Number of Instagram users following the user. |
-| Total Follows | `Int` | Number of Instagram users the user follows. |
-| Total Media | `Int` | Number of Instagram Media published on the user. |
+| **ID** | The ID of the user. | `String` |
+| **Name** | The name of the user. | `String` |
+| **Website** | The website of the user profile. | `String` |
+| **Biography** | The biography of the user profile. | `String` | `Limit` |
+| **Picture URL**  | The user profile picture URL. | `String` |
+| **Total Followers** | Number of Instagram users following the user. | `Int` |
+| **Total Follows** | Number of Instagram users the user follows. | `Int` |
+| **Total Media** | Number of Instagram Media published on the user. | `Int` |

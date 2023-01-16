@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Twitter Source** feeds data from ...
+The **Twitter Source** feeds data from [Twitter](https://www.twitter.com/). Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -18,6 +18,106 @@ The **Twitter Source** feeds data from ...
 
 {% partial file="ytp-sources-integration.md" variables={source: "Twitter"} /%}
 
-The cache is set to 3600 seconds by default, if your workflow requires immediate results disable the cache by setting it to 0, but being this an API-driven source it is not recommended.
+{% callout title="Cache" %}
+You can adjust the cache time as needed but being this an API-driven source it is highly recommended to keep the cache active.
+{% /callout %}
 
 ---
+
+## Instance
+
+After following through [integration](#integration) an Twitter instance will become available which can be managed in the [Sources Manager](manager).
+
+### Configuration
+
+{% image %}
+![Twitter Instance Configuration](/assets/ytp/sources/twitter-config.webp)
+{% /image %}
+
+| Setting | Description | Required |
+| ------- | ----------- | :------: |
+| **Name** | The name that will identify this source instance, defaults to `Twitter`. |
+| **Account** | The Twitter account to which to [authenticate](manager#authentication). | &#x2713; |
+
+---
+
+### Authentication
+
+The authentication to the Twitter account is done through the oAuth protocol, simply follow the UI instructions or learn all about the [Auths Manager](../../auths-manager) first.
+
+---
+
+## Content Queries
+
+For each instance, the following queries will be available as Dynamic Content options under the Twitter Group.
+
+### Tweets Query
+
+Fetches all tweets from the authenticated account, resolves to a list of [Tweet Type](#tweet-type).
+
+{% image %}
+![Twitter Tweets Query](/assets/ytp/sources/twitter-query-tweets.webp)
+{% /image %}
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Amount** | `20` | The maximum amount of tweets to fetch. |
+| **Since/Until** | `null` | The `start` and/or `end` datetime the fetched tweets will be restricted to. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+---
+
+### User Query
+
+Fetches the Twitter User data, resolves to [User Type](#user-type).
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+---
+
+## Mapping Fields
+
+The mapping fields are specified by the following `Object Types` which will used by the [content queries](#content-queries).
+
+### Tweet Type
+
+{% image %}
+![Twitter Tweet Mapping](/assets/ytp/sources/twitter-mapping-tweet.webp)
+{% /image %}
+
+| Option | Description | Type | Filters |
+| ------ | ----------- | ---- | ------- |
+| **ID** | Unique identifier of this Tweet. | `String` |
+| **Text** | The content of the Tweet. | `String` | `Limit` |
+| **Text HTML** | The content of the Tweet as HTML. | `String` | `Limit` |
+| **Permalink** | The Tweet URL, e.g. `twitter.com/Twitter/status/154685484"`. | `String` |
+| **Created At** | The time this Tweet was created. | `String` | `Date` |
+| **Language** | Language of the Tweet, if detected by Twitter. Returned as a BCP47 language tag. | `String` |
+| **Total Retweets** | Number of times this Tweet has been Retweeted. | `Int` |
+| **Total Replies** | Number of Replies of this Tweet. | `Int` |
+| **Total Likes** | Number of Likes of this Tweet. | `Int` |
+| **Total Quotes** | Number of times this Tweet has been Retweeted with a comment (also known as Quote). | `Int` |
+
+---
+
+### User Type
+
+{% image %}
+![Twitter User Mapping](/assets/ytp/sources/twitter-mapping-user.webp)
+{% /image %}
+
+| Option | Description | Type | Filters |
+| ------ | ----------- | ---- | ------- |
+| **ID** | Unique identifier of this user. | `String` |
+| **Username** | The Twitter handle (screen name) of this user. | `String` |
+| **Created At** | The time this user account was created. | `String` | `Date` |
+| **Profile URL** | The URL specified in the user's profile, if present. | `String` |
+| **Profile Name** | The friendly name of this user, as shown on their profile. | `String` |
+| **Profile Image** | The path to the locally cached profile image for this user, as shown on the user's profile. | `String` |
+| **Profile Description** | The text of this user's profile description (also known as bio), if the user provided one. | `String` | `Limit` |
+| **Total Followers** | Number of users who follows this user. | `Int` |
+| **Total Following** | Number of users this user is following. | `Int` |
+| **Total Tweets** | Number of Tweets (including Retweets) posted by this user. | `Int` |
+| **Total Listed** | Number of lists that include this user. | `Int` |

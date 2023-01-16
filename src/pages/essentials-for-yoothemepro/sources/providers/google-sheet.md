@@ -35,11 +35,11 @@ After following through [integration](#integration) a Google Sheet instance will
 | Setting | Description | Default | Required |
 | ------- | ----------- | ------- | :------: |
 | **Name** | The name that will identify this source instance. | `Google Sheet` |
-| **Account** | The account to which to [authenticate](manager#authentication). | | &#x2713; |
-| **Spreadsheet** | The spreadsheet which to retrieve. | | &#x2713; |
-| **Sheet Name** | The spreadsheet sheet from which to create the source. | `default` |
-| **Start Column** | The starting column from which to delimiter the content. | `A` |
-| **End Column** | The ending column until which to delimiter the content. | `` |
+| **Account** | The Google account to which to [authenticate](manager#authentication). | | &#x2713; |
+| **Spreadsheet** | The spreadsheet which to connect. | | &#x2713; |
+| **Sheet** | The spreadsheet sheet which data to create the source with. | `0` |
+| **Start Column** | The starting column to restrict the sheet data. | `A` |
+| **End Column** | The ending column to restrict the sheet data. | `Z` |
 
 ---
 

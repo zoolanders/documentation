@@ -37,8 +37,7 @@ A single condition configuration.
 | **Operator** | The operator for the evaluation, see full list bellow. | | &#x2713; |
 | **Value** | The static or dynamic value that the field is being evaluated with. | &#x2713; | &#x2713; |
 
-{% details title="List of Operators" %}
-| Operator | Description |
+| Operators | Description |
 | -------- | ----------- |
 | **Is Null** | The field must `be null`. |
 | **Is not Null** | The field must `not be null`. |
@@ -54,7 +53,6 @@ A single condition configuration.
 | **Ends with** | The field must `end with` the specified value. |
 | **LIKE** | The field must `match a pattern` specified in value.  |
 | **LIKE %%** | The field must `match a pattern` specified in value which will be wrapped with `%` wildcard that represents `zero`, `one`, or `multiple` characters. |
-{% /details %}
 
 ### Evaluation Logic
 
