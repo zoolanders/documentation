@@ -89,3 +89,119 @@ As per the protocol, any permission granted can be revoked at any time within th
 ### oAuth App
 
 Using the [ZOOlanders OAuth App](#zoolanders-oauth-app) is convenient and save, we never store any login or token, we will just "pass those" on the fly to your site. Even so, for most services is recommended to create a custom oAuth App and use it instead, which would further enhance security and bypass possible quota limitations.
+
+---
+
+## Drivers
+
+**Auth Drivers** manage the authentication process or secrets for specific services, listed bellow are the ones supported out of the box.
+
+### Facebook oAuth Driver
+
+The **Facebook oAuth Driver** manage Facebook oAuth protocol to authenticate and grant scope permissions.
+
+{% image %}
+![Facebook oAuth Driver](/assets/ytp/auths/driver-fb-oauth.webp)
+{% /image %}
+
+| Setting | Description |
+| ------- | ----------- |
+| **Name** | The name that will identify this auth. |
+| **Scopes** | The list of scopes this auth has access to, those can be revoked at [facebook.com/settings](https://www.facebook.com/settings?tab=business_tools&ref=business_login_reentry). |
+| **Authentication** | Triggers the oAuth authentication and permission grant. |
+| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+
+---
+
+### Google oAuth Driver
+
+The **Google oAuth Driver** manage Google oAuth 2.0 protocol to authenticate and grant scope permissions.
+
+{% image %}
+![Google oAuth Driver](/assets/ytp/auths/driver-google-oauth.webp)
+{% /image %}
+
+| Setting | Description |
+| ------- | ----------- |
+| **Name** | The name that will identify this auth. |
+| **Scopes** | The list of scopes this auth has access to, those can be revoked at [myaccount.google.com/permissions](https://myaccount.google.com/permissions). |
+| **Authentication** | Triggers the oAuth authentication and permission grant. |
+| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+
+---
+
+### Google API Key Driver
+
+The **Google API Key Driver** manage Google API keys obtained through the [Google Cloud Platform](https://console.cloud.google.com/apis/credentials) dashboard.
+
+{% image %}
+![Google API Key Auth Driver](/assets/ytp/auths/driver-google-apikey.webp)
+{% /image %}
+
+---
+
+### Instagram oAuth Driver
+
+The **Instagram oAuth Driver** manage Instagram oAuth protocol to authenticate and grant scope permissions.
+
+{% image %}
+![Instagram oAuth Driver](/assets/ytp/auths/driver-ig-oauth.webp)
+{% /image %}
+
+| Setting | Description |
+| ------- | ----------- |
+| **Name** | The name that will identify this auth. |
+| **Scopes** | The list of scopes this auth has access to, those can be revoked at [instagram.com/accounts](https://www.instagram.com/accounts/manage_access). |
+| **Authentication** | Triggers the oAuth authentication and permission grant. |
+| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+
+---
+
+### TikTok oAuth Driver
+
+The **TikTok oAuth Driver** manage TikTok oAuth protocol to authenticate and grant scope permissions.
+
+{% image %}
+![Instagram oAuth Driver](/assets/ytp/auths/driver-tiktok-oauth.webp)
+{% /image %}
+
+| Setting | Description |
+| ------- | ----------- |
+| **Name** | The name that will identify this auth. |
+| **Scopes** | The list of scopes this auth has access to, learn more about it and how to revoke permissions at [support.tiktok.com/en/safety-hc/account-and-user-safety/connect-to-third-party-apps](https://support.tiktok.com/en/safety-hc/account-and-user-safety/connect-to-third-party-apps). |
+| **Authentication** | Triggers the oAuth authentication and permission grant. |
+| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+
+---
+
+### Twitter oAuth Driver
+
+The **Twitter oAuth Driver** manage Twitter oAuth protocol to authenticate and grant scope permissions.
+
+{% image %}
+![Instagram oAuth Driver](/assets/ytp/auths/driver-twitter-oauth.webp)
+{% /image %}
+
+| Setting | Description |
+| ------- | ----------- |
+| **Name** | The name that will identify this auth. |
+| **Scopes** | The list of scopes this auth has access to, those can be revoked at [twitter.com/settings](https://twitter.com/settings/apps_and_sessions). |
+| **Authentication** | Triggers the oAuth authentication and permission grant. |
+| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+
+---
+
+### Vimeo oAuth Driver
+
+The **Vimeo oAuth Driver** manage Vimeo oAuth protocol to authenticate and grant scope permissions.
+
+{% image %}
+![Instagram oAuth Driver](/assets/ytp/auths/driver-vimeo-oauth.webp)
+{% /image %}
+
+| Setting | Description |
+| ------- | ----------- |
+| **Name** | The name that will identify this auth. |
+| **Scopes** | The list of scopes this auth has access to, those can be revoked at [vimeo.com/settings](https://vimeo.com/settings/apps). |
+| **Authentication** | Triggers the oAuth authentication and permission grant. |
+| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |

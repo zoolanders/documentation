@@ -24,33 +24,25 @@ You can adjust the cache time as needed but being this an API-driven source it i
 
 ---
 
-## Instance
+## Content Source
 
-After following through [integration](#integration) an Facebook instance will become available which can be managed in the [Sources Manager](manager).
-
-### Configuration
+Follow through [integration](#integration) to create a source instance from a Facebook Page, create as many as needed.
 
 {% image %}
-![Facebook Instance Configuration](/assets/ytp/sources/fb-config.webp)
+![Facebook Source Configuration](/assets/ytp/sources/fb-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
-| **Name** | The name that will identify this source instance, defaults to `Facebook`. |
-| **Account** | The account to which to [authenticate](manager#authentication). | &#x2713; |
-| **Page** | The Facebook Page from which to create the source. | &#x2713; |
-
----
-
-### Authentication
-
-The authentication to the Facebook account is done through the oAuth protocol, simply follow the UI instructions or learn all about the [Auths Manager](../../auths-manager) first.
+| **Name** | The name that will identify this source, defaults to `Facebook`. |
+| **Account** | The Facebook Account which to [authenticate](../../auths-manager#facebook-oauth-driver) with. | &#x2713; |
+| **Page** | The Facebook Page from which to create this source. | &#x2713; |
 
 ---
 
 ## Content Queries
 
-For each instance, the following queries will be available as Dynamic Content options under the Facebook Group.
+For each content source instance, the following queries will be available as Dynamic Content options under the Facebook Group.
 
 ### Page Query
 
@@ -73,9 +65,15 @@ Fetches all posts from the Facebook Page, resolves to a list of [Page Post Type]
 
 ---
 
-## Mapping Fields
+### Events Query
 
-The mapping fields are specified by the following `Object Types` which will used by the [content queries](#content-queries).
+Unfortunately, access to Events on Users and Pages is only available to Facebook Marketing Partners. We cannot provide this query.
+
+---
+
+## Content Mapping
+
+The mapping fields are specified by the following `Object Types`.
 
 ### Page Type
 
@@ -85,29 +83,27 @@ The mapping fields are specified by the following `Object Types` which will used
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |
-| **ID** | The ID of the Page. | `String` |
-| **Name** | The name of the Page. | `String` |
-| **Username** | The alias of the Page, e.g for `www.facebook.com/platform` the username is `platform`. | `String` |
+| **ID** | Unique identifier of this Page. | `String` |
+| **Name** | The name of this Page. | `String` |
+| **Username** | The alias of this Page, e.g for `www.facebook.com/platform` the username is `platform`. | `String` |
 | **Link** | The Page's Facebook URL. | `String` |
 | **Category** | The Page's category, e.g. `Product/Service`, `Computers/Technology`. | `String` |
-| **Description** | The description of the Page. | `String` | `Limit` |
-| **Description HTML** | The description of the Page in raw HTML. | `String` |
-| **About** | Information about the Page. | `String` | `Limit` |
-| **General Info** | General information provided by the Page. | `String` | `Limit` |
-| **Website** | The URL of the Page's website. | `String` |
-| **WhatsApp Number** | The WhatsApp number of the Page. | `String` |
-| **Total Ratings** | Number of public ratings for the Page. | `Int` |
+| **Description** | The description of this Page. | `String` | `Limit` |
+| **Description HTML** | The description of this Page in raw HTML. | `String` |
+| **About** | Information about this Page. | `String` | `Limit` |
+| **General Info** | General information provided by this Page. | `String` | `Limit` |
+| **Website** | The URL of this Page's website. | `String` |
+| **WhatsApp Number** | The WhatsApp number of this Page. | `String` |
+| **Total Ratings** | Number of public ratings for this Page. | `Int` |
 | **Total Followers** | Number of page followers. | `Int` |
-| **Total Mentions** | Number of people talking about the Page. | `Int` |
+| **Total Mentions** | Number of people talking about this Page. | `Int` |
 
-### Page Person Type
-
-| Option | Description | Type | Filters |
+| Page Person Options | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |
-| **Birthday** | The birthday of ther Person Page. | `String` | `Date` |
-| **Personal Info** | The Person Page personal info. | `String` | `Limit` |
-| **Personal Interests** | The Person Page personal interests. | `String` | `Limit` |
-| **Affiliation** | The Person Page affiliation. | `String` | `Limit` |
+| **Birthday** | The birthday of this Person Page. | `String` | `Date` |
+| **Personal Info** | The personal info of this Person Page. | `String` | `Limit` |
+| **Personal Interests** | The personal interests of this Person Page. | `String` | `Limit` |
+| **Affiliation** | The affiliation of this Person Page. | `String` | `Limit` |
 
 ---
 
@@ -119,20 +115,20 @@ The mapping fields are specified by the following `Object Types` which will used
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |
-| **ID** | The ID of the post. | `String` |
-| **Permalink** | The permanent static URL to the post, e.g `www.facebook.com/.../posts/10153449196`. | `String` |
-| **Picture URL** | The full size picture attached to post. | `String` |
-| **Message** | The message written in the post. | `String` | `Limit` |
-| **From** | The name of the user, page, group, or event that published the post. | `String` |
+| **ID** | Unique identifier of this post. | `String` |
+| **Permalink** | The permanent static URL of this post, e.g `www.facebook.com/.../posts/10153449196`. | `String` |
+| **Picture URL** | The full size picture attached to this post. | `String` |
+| **Message** | The message written in this post. | `String` | `Limit` |
+| **From** | The name of the user, page, group, or event that published this post. | `String` |
 | **Tags** | The profiles tagged in post message as a custom formated string with `Separator`, `Show Link` and `Link Style` arguments. | `String` |
-| **Created At** | The time the post was published. | `String` | `Date` |
-| **Updated At** | The time the post was last updated, which occurs when a user comments on the post. | `String` | `Date` |
-| **Is Published** | Whether the post was published. | `Boolean` |
-| **Is Expired** | Whether the post has expiration time that has passed. | `Boolean` |
-| **Is Hidden** | Whether the post has been set to hidden. | `Boolean` |
-| **Is Popular** | Whether the post is currently popular based on whether the total actions as a percentage of reach exceeds a certain threshold. | `Boolean` |
-| **Total Shares** | Number of times the post has been shared. | `Int` |
-| **Total Likes** | Number of times the post has been liked. | `Int` |
-| **Total Comments** | Number of comments made on the post. | `Int` |
-| **Total Reactions** | Number of times people reacted to the post. | `Int` |
-| **Parent ID** | The ID of a parent post for this post, if it exists. | `String` |
+| **Created At** | The time this post was published. | `String` | `Date` |
+| **Updated At** | The time this post was last updated, which occurs when a user comments on this post. | `String` | `Date` |
+| **Is Published** | Whether this post was published. | `Boolean` |
+| **Is Expired** | Whether this post has expiration time that has passed. | `Boolean` |
+| **Is Hidden** | Whether this post has been set to hidden. | `Boolean` |
+| **Is Popular** | Whether this post is currently popular based on whether the total actions as a percentage of reach exceeds a certain threshold. | `Boolean` |
+| **Total Shares** | Number of times this post has been shared. | `Int` |
+| **Total Likes** | Number of times this post has been liked. | `Int` |
+| **Total Comments** | Number of comments made on this post. | `Int` |
+| **Total Reactions** | Number of times people reacted to this post. | `Int` |
+| **Parent ID** | Unique identifier of a parent post for this post, if it exists. | `String` |

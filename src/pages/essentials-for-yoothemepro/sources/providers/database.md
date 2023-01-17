@@ -1,6 +1,6 @@
 ---
 title: Database Source
-description: Content Source based on MySQL Database Tables
+description: Content Source based on Database
 icon: '
     <path stroke-width=".3" d="M15 2C9 2 4.475 4.044 4.475 6.755V23.24c0 2.71 4.525 4.758 10.525 4.758s10.525-2.042 10.525-4.758V6.754C25.525 4.043 21 2 15 2zm9.225 15.745c0 1.634-3.788 3.459-9.225 3.459-5.437 0-9.225-1.82-9.225-3.459V14.61c1.761 1.454 5.15 2.398 9.225 2.398 4.074 0 7.47-.944 9.225-2.398v3.135zm0-5.496c0 1.634-3.788 3.46-9.225 3.46-5.437 0-9.225-1.82-9.225-3.46V9.114c1.761 1.454 5.15 2.398 9.225 2.398 4.074 0 7.47-.944 9.225-2.398v3.135zM15 3.3c5.437 0 9.225 1.82 9.225 3.459 0 1.64-3.788 3.459-9.225 3.459-5.437 0-9.225-1.82-9.225-3.459C5.775 5.119 9.563 3.3 15 3.3zm0 23.394c-5.437 0-9.225-1.82-9.225-3.458V20.1c1.761 1.453 5.15 2.397 9.225 2.397 4.074 0 7.47-.944 9.225-2.397v3.135c0 1.639-3.788 3.458-9.225 3.458z"/>
 '
@@ -20,9 +20,9 @@ The **Database Source** feeds data from local or external MySQL Database Tables,
 
 ---
 
-## Instance
+## Content Source
 
-After following through [integration](#integration) a Database instance will become available which can be managed in the [Sources Manager](manager).
+Follow through [integration](#integration) to create a source instance from a Database Table records, create as many as needed.
 
 ### Configuration
 
@@ -32,7 +32,7 @@ After following through [integration](#integration) a Database instance will bec
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
-| **Name** | The name that will identify this source instance, defaults to `Database`. |
+| **Name** | The name that will identify this source, defaults to `Database`. |
 | **Custom Connection** | Should the connection to the database be done using custom configuration instead of the site configuration. |
 | **Database** | The name of the database to which to connect to. | &#x2713; |
 | **Table** | The table from which to create the source. | &#x2713; |
@@ -84,7 +84,7 @@ Relations can get complex and difficult to debug, an alternative simpler approac
 
 ## Content Queries
 
-For each instance, the following queries will be available as Dynamic Content options under the Database Group.
+For each content source instance, the following queries will be available as Dynamic Content options under the Database group.
 
 ### Record Query
 

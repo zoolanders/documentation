@@ -1,6 +1,6 @@
 ---
 title: Twitter Source
-description: Content Source based on Twitter accounts tweets and profiles
+description: Content Source based on Twitter
 icon: '
     <path fill="none" stroke-width="1.5" stroke-linejoin="round" d="M25.338 9.696c.016.23.016.459.016.69 0 7.048-5.366 15.177-15.177 15.177v-.004A15.1 15.1 0 0 1 2 23.168a10.711 10.711 0 0 0 7.894-2.21 5.34 5.34 0 0 1-4.983-3.705c.8.154 1.624.122 2.408-.092a5.335 5.335 0 0 1-4.278-5.229v-.067a5.3 5.3 0 0 0 2.42.667 5.34 5.34 0 0 1-1.65-7.122 15.14 15.14 0 0 0 10.993 5.573 5.34 5.34 0 0 1 9.09-4.865 10.704 10.704 0 0 0 3.388-1.295 5.354 5.354 0 0 1-2.345 2.95A10.609 10.609 0 0 0 28 6.933a10.837 10.837 0 0 1-2.662 2.763Z"/>
 '
@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Twitter Source** feeds data from [Twitter](https://www.twitter.com/). Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The **Twitter Source** feeds data from [Twitter](https://www.twitter.com) profiles and tweets. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -24,32 +24,24 @@ You can adjust the cache time as needed but being this an API-driven source it i
 
 ---
 
-## Instance
+## Content Source
 
-After following through [integration](#integration) an Twitter instance will become available which can be managed in the [Sources Manager](manager).
-
-### Configuration
+Follow through [integration](#integration) to create a source instance from a Twitter account, create as many as needed.
 
 {% image %}
-![Twitter Instance Configuration](/assets/ytp/sources/twitter-config.webp)
+![Twitter Source Configuration](/assets/ytp/sources/twitter-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
-| **Name** | The name that will identify this source instance, defaults to `Twitter`. |
-| **Account** | The Twitter account to which to [authenticate](manager#authentication). | &#x2713; |
-
----
-
-### Authentication
-
-The authentication to the Twitter account is done through the oAuth protocol, simply follow the UI instructions or learn all about the [Auths Manager](../../auths-manager) first.
+| **Name** | The name that will identify this source, defaults to `Twitter`. |
+| **Account** | The Facebook Account which to [authenticate](../../auths-manager#twitter-oauth-driver) with. | &#x2713; |
 
 ---
 
 ## Content Queries
 
-For each instance, the following queries will be available as Dynamic Content options under the Twitter Group.
+For each content source instance, the following queries will be available as Dynamic Content options under the Twitter Group.
 
 ### Tweets Query
 
@@ -77,9 +69,9 @@ Fetches the Twitter User data, resolves to [User Type](#user-type).
 
 ---
 
-## Mapping Fields
+## Content Mapping
 
-The mapping fields are specified by the following `Object Types` which will used by the [content queries](#content-queries).
+The mapping fields are specified by the following `Object Types`.
 
 ### Tweet Type
 
