@@ -42,7 +42,7 @@ Follow through [integration](#integration) to create a source instance from a Fa
 
 ## Content Queries
 
-For each content source instance, the following queries will be available as Dynamic Content options under the Facebook Group.
+For each source instance, the following queries will be available as Dynamic Content options under the Facebook Group.
 
 ### Page Query
 

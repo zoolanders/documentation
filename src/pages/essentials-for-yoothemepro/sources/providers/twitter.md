@@ -35,13 +35,13 @@ Follow through [integration](#integration) to create a source instance from a Tw
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Name** | The name that will identify this source, defaults to `Twitter`. |
-| **Account** | The Facebook Account which to [authenticate](../../auths-manager#twitter-oauth-driver) with. | &#x2713; |
+| **Account** | The Twitter Account which to [authenticate](../../auths-manager#twitter-oauth-driver) with. | &#x2713; |
 
 ---
 
 ## Content Queries
 
-For each content source instance, the following queries will be available as Dynamic Content options under the Twitter Group.
+For each source instance, the following queries will be available as Dynamic Content options under the Twitter Group.
 
 ### Tweets Query
 
@@ -84,7 +84,7 @@ The mapping fields are specified by the following `Object Types`.
 | **ID** | Unique identifier of this Tweet. | `String` |
 | **Text** | The content of the Tweet. | `String` | `Limit` |
 | **Text HTML** | The content of the Tweet as HTML. | `String` | `Limit` |
-| **Permalink** | The Tweet URL, e.g. `twitter.com/Twitter/status/154685484"`. | `String` |
+| **Permalink** | The Tweet URL, e.g. `twitter.com/Twitter/status/123456789`. | `String` |
 | **Created At** | The time this Tweet was created. | `String` | `Date` |
 | **Language** | Language of the Tweet, if detected by Twitter. Returned as a BCP47 language tag. | `String` |
 | **Total Retweets** | Number of times this Tweet has been Retweeted. | `Int` |

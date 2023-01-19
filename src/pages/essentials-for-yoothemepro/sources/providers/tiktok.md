@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **TikTok Source** feeds data from ...
+The **TikTok Source** feeds data from [TikTok](https://www.vimeo.com) media. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -18,6 +18,72 @@ The **TikTok Source** feeds data from ...
 
 {% partial file="ytp-sources-integration.md" variables={source: "TikTok"} /%}
 
-The cache is set to 3600 seconds by default, if your workflow requires immediate results disable the cache by setting it to 0, but being this an API-driven source it is not recommended.
+{% callout title="Cache" %}
+You can adjust the cache time as needed but being this an API-driven source it is highly recommended to keep the cache active.
+{% /callout %}
 
 ---
+
+## Content Source
+
+Follow through [integration](#integration) to create a source instance from TikTok media, create as many as needed.
+
+{% image %}
+![TikTok Source Configuration](/assets/ytp/sources/tiktok-config.webp)
+{% /image %}
+
+| Setting | Description | Required |
+| ------- | ----------- | :------: |
+| **Name** | The name that will identify this source, defaults to `TikTok`. |
+| **Account** | The TikTok Account which to [authenticate](../../auths-manager#tiktok-oauth-driver) with. | &#x2713; |
+
+---
+
+## Content Queries
+
+For each source instance, the following queries will be available as Dynamic Content options under the TikTok Group.
+
+### Videos Query
+
+Fetches videos uploaded by the authenticated account, resolves to a list of [Video Type](#video-type).
+
+{% image %}
+![TikTok Videos Query](/assets/ytp/sources/tiktok-query-videos.webp)
+{% /image %}
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Before Than** | | Limit the results to videos created before the specified date. |
+| **Start** | `1` | The starting point, e.g of a list of 20 videos start from the number 2. |
+| **Quantity** | `20` | The maximum amount of videos to retrieve. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+---
+
+## Content Mapping
+
+The mapping fields are specified by the following `Object Types`.
+
+### Video Type
+
+{% image %}
+![TikTok Video Mapping](/assets/ytp/sources/tiktok-mapping-video.webp)
+{% /image %}
+
+| Option | Description | Type | Filters |
+| ------ | ----------- | ---- | ------- |
+| **ID** | The unique identifier of this video. | `String` |
+| **Title** | The title of this video, max length 150. | `String` | `Limit` |
+| **Description** |  The description for this video, max length 150. | `String` | `Limit` |
+| **Duration** | The duration of this video in seconds. | `Int` |
+| **Width** | The width of this video. | `Int` |
+| **Height** | The height of this video. | `Int` |
+| **Cover** | The path to the locally cached video cover. | `String` |
+| **Embed Link** | The embed link of tiktok.com for this video. | `String` |
+| **Embed HTML** | The HTML code for embedded video. | `String` |
+| **Share URL** | A shareable link for this video. Note that the website behaves differently on Mobile and Desktop devices. | `String` |
+| **Created At** | The time this video was created. | `String` | `Date` |
+| **Total Shares** | Number of times this video has been shared. | `Int` |
+| **Total Likes** | Number of times this video has been liked. | `Int` |
+| **Total Comments** | Number of times this video has been commented. | `Int` |
+| **Total Views** | Number of times this video has been viewed. | `Int` |

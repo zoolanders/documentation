@@ -84,7 +84,7 @@ Relations can get complex and difficult to debug, an alternative simpler approac
 
 ## Content Queries
 
-For each content source instance, the following queries will be available as Dynamic Content options under the Database group.
+For each source instance, the following queries will be available as Dynamic Content options under the Database group.
 
 ### Record Query
 

@@ -168,7 +168,7 @@ The **TikTok oAuth Driver** manage TikTok oAuth protocol to authenticate and gra
 | Setting | Description |
 | ------- | ----------- |
 | **Name** | The name that will identify this auth. |
-| **Scopes** | The list of scopes this auth has access to, learn more about it and how to revoke permissions at [support.tiktok.com/en/safety-hc/account-and-user-safety/connect-to-third-party-apps](https://support.tiktok.com/en/safety-hc/account-and-user-safety/connect-to-third-party-apps). |
+| **Scopes** | The list of scopes this auth has access to, learn more about it and how to revoke permissions at [support.tiktok.com](https://support.tiktok.com/en/safety-hc/account-and-user-safety/connect-to-third-party-apps). |
 | **Authentication** | Triggers the oAuth authentication and permission grant. |
 | **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
 

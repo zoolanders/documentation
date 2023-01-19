@@ -38,7 +38,7 @@ Follow through [integration](#integration) to create a source instance from a RS
 
 ## Content Queries
 
-For each content source instance, the following query will be available as Dynamic Content options under the RSS group.
+For each source instance, the following query will be available as Dynamic Content options under the RSS group.
 
 ### Feed Query
 

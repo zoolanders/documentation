@@ -56,7 +56,7 @@ Fetches public videos with an API Key and advanced params, resolves to a list of
 | **Language** | | Restricts the results to videos that are most relevant to the specified language. The value is typically an [ISO 639-1 two-letter](https://www.loc.gov/standards/iso639-2/php/code_list.php) language code, however, you should use the values `zh-Hans` for simplified Chinese and `zh-Hant` for traditional Chinese. Note that results in other languages will still be returned if they are highly relevant to the search query term. |
 | **Definition** | `Any` | Restricts the results based on the videos quality, either `High Definition`, `Standard Definition`,  or `Any`. HD videos are available for playback in at least 720p, though higher resolutions, like 1080p, might also be available. |
 | **Duration** | `Any` | Restricts the results based on the videos duration, either `Long`, longer than 20 minutes, `Medium`, between four and 20 minutes, `Short`, less than four minutes, or `Any`. |
-| **Start** | `1` | The starting point of the videos results, e.g of a list of 20 vidoes start listing from the number 2. |
+| **Start** | `1` | The starting point, e.g of a list of 20 videos start from the number 2. |
 | **Quantity** | `20` | The maximum amount of videos to retrieve. |
 | **Order** | `Relevance` | The order in which the videos will be returned, within `Date`, reverse chronological order based on the date the videos were created, `Rating`, from highest to lowest rating, `Relevance`, based on their relevance to the search query, `Title`, alphabetically by title, or `View Count`, from highest to lowest number of views. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
@@ -71,7 +71,7 @@ Fetches public videos with an API Key and advanced params, resolves to a list of
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
-| **Name** | The name that will identify this source, defaults to `My YouTube Channel`. |
+| **Name** | The name that will identify this source, defaults to `YouTube My Channel`. |
 | **Account** | The Google Account which to [authenticate](../../auths-manager#google-oauth-driver) with. | &#x2713; |
 | **Channel** | The YouTube Channel from which to create the source. | &#x2713; |
 
@@ -112,7 +112,7 @@ Fetches videos from the authenticated channel, resolves to a list of [Video Type
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
-| **Name** | The name that will identify this source, defaults to `My YouTube Playlist`. |
+| **Name** | The name that will identify this source, defaults to `YouTube My Playlist`. |
 | **Account** | The Google Account which to [authenticate](../../auths-manager#google-oauth-driver) with. | &#x2713; |
 | **Playlist** | The YouTube Playlist from which to create the source. | &#x2713; |
 

@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Vimeo Source** feeds data from ...
+The **Vimeo Source** feeds data from [Vimeo](https://www.vimeo.com) media. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -18,6 +18,141 @@ The **Vimeo Source** feeds data from ...
 
 {% partial file="ytp-sources-integration.md" variables={source: "Vimeo"} /%}
 
-The cache is set to 3600 seconds by default, if your workflow requires immediate results disable the cache by setting it to 0, but being this an API-driven source it is not recommended.
+{% callout title="Cache" %}
+You can adjust the cache time as needed but being this an API-driven source it is highly recommended to keep the cache active.
+{% /callout %}
 
 ---
+
+## Content Source
+
+Follow through [integration](#integration) to create a source instance from Vimeo media, create as many as needed.
+
+{% image %}
+![Vimeo Source Configuration](/assets/ytp/sources/vimeo-config.webp)
+{% /image %}
+
+| Setting | Description | Required |
+| ------- | ----------- | :------: |
+| **Name** | The name that will identify this source, defaults to `Vimeo`. |
+| **Account** | The Facebook Account which to [authenticate](../../auths-manager#vimeo-oauth-driver) with. | &#x2713; |
+
+---
+
+## Content Queries
+
+For each source instance, the following queries will be available as Dynamic Content options under the Vimeo Group.
+
+### My Videos Query
+
+Fetches videos uploaded by the authenticated account, resolves to a list of [Video Type](#video-type).
+
+{% image %}
+![My Vimeo Videos Query](/assets/ytp/sources/vimeo-query-myvideos.webp)
+{% /image %}
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Query** | | The search term by which to filter the videos. |
+| **Attribute** | | The video attribute by which to filter the videos, within `Featured`, `Live`, and `No Live`. |
+| **Tags** | | Comma separated tags by which to filter the videos. |
+| **Sort** | `Default` | The order of the videos, within `Default`, `Alphabetical`, `Date`, `Modified`, `Duration`, `Last User Action`, `Total Plays`, and `Total Likes`. |
+| **Direction** | `Descending` | The order direction of the videos, `Ascending` or `Descending`. |
+| **Page** | `1` | The page number of the videos. |
+| **Per Page** | `25` | The number of videos to return on each page, up to a maximum of 100. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+---
+
+### My Folder Videos Query
+
+Fetches videos uploaded by the authenticated account to a specific folder, resolves to a list of [Video Type](#video-type).
+
+{% image %}
+![My Vimeo Folder Videos Query](/assets/ytp/sources/vimeo-query-myfolder-videos.webp)
+{% /image %}
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Folder ID** | | The unique identifier of the folder from which to retrieve the videos. |
+| **Include Subfolders** | | Wheter to include videos of all subfolders. |
+| **Query** | | The search term by which to filter the videos. |
+| **Sort** | `Default` | The order of the videos, within `Default`, `Alphabetical`, `Date`, `Duration`, and `Last User Action`. |
+| **Direction** | `Descending` | The order direction of the videos, `Ascending` or `Descending`. |
+| **Page** | `1` | The page number of the videos. |
+| **Per Page** | `25` | The number of videos to return on each page, up to a maximum of 100. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+---
+
+### My Showcase Videos Query
+
+Fetches videos uploaded by the authenticated account to a specific showcase, resolves to a list of [Video Type](#video-type).
+
+{% image %}
+![My Vimeo Showcase Videos Query](/assets/ytp/sources/vimeo-query-myshowcase-videos.webp)
+{% /image %}
+
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Showcase ID** | | The unique identifier of the showcase from which to retrieve the videos. |
+| **Password** | | The password of the showcase in case it has one. |
+| **Query** | | The search term by which to filter the videos. |
+| **Sort** | `Default` | The order of the videos, within `Default`, `Alphabetical`, `Comments`, `Date`, `Modified`,  `Duration`, `Total Plays`, and `Total Likes`. |
+| **Direction** | `Descending` | The order direction of the videos, `Ascending` or `Descending`. |
+| **Page** | `1` | The page number of the videos. |
+| **Per Page** | `25` | The number of videos to return on each page, up to a maximum of 100. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+---
+
+## Content Mapping
+
+The mapping fields are specified by the following `Object Types`.
+
+### Video Type
+
+{% image %}
+![Vimeo Video Mapping](/assets/ytp/sources/vimeo-mapping-video.webp)
+{% /image %}
+
+| Option | Description | Type | Filters |
+| ------ | ----------- | ---- | ------- |
+| **ID** | The unique identifier of this video. | `String` |
+| **URL** | The URL of this video, e.g. `vimeo.com/123456789`. | `String` |
+| **Custom URL** | The custom URL of this video. | `String` |
+| **Type** | The type of this video, `live` (is or was a live event), `stock` (is a Vimeo Stock video), or `video` (standard Vimeo video). | `String` |
+| **Title** | The title of this video. | `String` | `Limit` |
+| **Description** |  A brief explanation of this video's content. | `String` | `Limit` |
+| **Duration** | The duration of this video in seconds. | `Int` |
+| **Language** | The primary language of this video. | `String` |
+| **License** | The [Creative Commons](https://creativecommons.org/licenses/) license given to this video under `BY`, `BY-NC`, `BY-NC-ND`, `BY-NC-SA`, `BY-ND`, `BY-SA`, or `CC0`. | `String` |
+| **Thumbnail** | The path to the locally cached video picture. | `String` |
+| **Width** | The width of this video in pixels. | `Int` |
+| **Height** | The height of this video in pixels. | `Int` |
+| **Tags** | A formated list of all tags assigned to this video, joined with a custom separator. | `String` |
+| **Categories** | A formated list of all categories this video belongs to, joined with a custom separator, optional link and style. | `String` |
+| **Created At** | The time this video was created. | `String` | `Date` |
+| **Released At** | The time this video was released. | `String` | `Date` |
+| **Modified At** | The time this video was modified. | `String` | `Date` |
+| **Total Plays** | Number of times this video has been played. | `Int` |
+| **Total Comments** | Number of times this video has been commented. | `Int` |
+
+---
+
+### User Type
+
+{% image %}
+![Vimeo User Mapping](/assets/ytp/sources/vimeo-mapping-user.webp)
+{% /image %}
+
+| Option | Description | Type | Filters |
+| ------ | ----------- | ---- | ------- |
+| **ID** | The unique identifier of this user. | `String` |
+| **URL** | The absolute URL of this user profile page. | `String` |
+| **Name** | The display name of this user. | `String` |
+| **Gender** | The gender of this user. | `String` |
+| **Bio** | The long bio text of this user. | `String` | `Limit` |
+| **Bio Short** | The short bio text of this user. | `String` | `Limit` |
+| **Location** | The location of this user. | `String` |
+| **Is Expert** | Whether the creator enrolled in and successfully completed the Vimeo Experts program. | `String` |
