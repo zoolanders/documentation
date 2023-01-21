@@ -135,7 +135,7 @@ The **Google oAuth Driver** manage Google oAuth 2.0 protocol to authenticate and
 The **Google API Key Driver** manage Google API keys obtained through the [Google Cloud Platform](https://console.cloud.google.com/apis/credentials) dashboard.
 
 {% image %}
-![Google API Key Auth Driver](/assets/ytp/auths/driver-google-apikey.webp)
+![Google API Key Driver](/assets/ytp/auths/driver-google-apikey.webp)
 {% /image %}
 
 ---
@@ -205,3 +205,13 @@ The **Vimeo oAuth Driver** manage Vimeo oAuth protocol to authenticate and grant
 | **Scopes** | The list of scopes this auth has access to, those can be revoked at [vimeo.com/settings](https://vimeo.com/settings/apps). |
 | **Authentication** | Triggers the oAuth authentication and permission grant. |
 | **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+
+---
+
+### Cloudflare API Token Driver
+
+The **Cloudflare API Token Driver** manage Cloudflare API tokens obtained through the [Cloudflare Profile Dashboard](https://dash.cloudflare.com/profile/api-tokens).
+
+{% image %}
+![Cloudflare API Token Driver](/assets/ytp/auths/driver-cloudflare-apitoken.webp)
+{% /image %}
