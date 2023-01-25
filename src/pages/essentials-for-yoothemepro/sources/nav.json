@@ -31,20 +31,20 @@
                     "href": "./providers",
                     "links": [
                         {
-                            "title": "Database",
-                            "href": "./providers/database"
-                        },
-                        {
-                            "title": "Google Sheet",
-                            "href": "./providers/google-sheet"
-                        },
-                        {
                             "title": "CSV",
                             "href": "./providers/csv"
                         },
                         {
                             "title": "RSS",
                             "href": "./providers/rss"
+                        },
+                        {
+                            "title": "Database",
+                            "href": "./providers/database"
+                        },
+                        {
+                            "title": "Google Sheet",
+                            "href": "./providers/google-sheet"
                         },
                         {
                             "title": "Instagram",

@@ -77,7 +77,7 @@ Fetches public videos with an API Key and advanced params, resolves to a list of
 
 #### My Channel Video Query
 
-Fetches a single video from the authenticated channel, resolves to a [Video Type](#video-type).
+Fetches a single video from the authenticated account channel, resolves to a [Video Type](#video-type).
 
 {% image %}
 ![My YouTube Channel Video Query](/assets/ytp/sources/youtube-mychannel-video.webp)
@@ -90,7 +90,7 @@ Fetches a single video from the authenticated channel, resolves to a [Video Type
 
 #### My Channel Videos Query
 
-Fetches videos from the authenticated channel, resolves to a list of [Video Type](#video-type).
+Fetches videos from the authenticated account channel, resolves to a list of [Video Type](#video-type).
 
 {% image %}
 ![My YouTube Channel Videos Query](/assets/ytp/sources/youtube-mychannel-videos.webp)
@@ -116,9 +116,22 @@ Fetches videos from the authenticated channel, resolves to a list of [Video Type
 | **Account** | The Google Account which to [authenticate](../../auths-manager#google-oauth-driver) with. | &#x2713; |
 | **Playlist** | The YouTube Playlist from which to create the source. | &#x2713; |
 
+#### My Playlist Video Query
+
+Fetches a single video from the authenticated account playlist, resolves to a [Video Type](#video-type).
+
+{% image %}
+![My YouTube Playlist Video Query](/assets/ytp/sources/youtube-mychannel-video.webp)
+{% /image %}
+
+| Setting | Description |
+| ------- | ----------- |
+| **Video** | The unique identifier of the video to retrieve. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
 #### My Playlist Videos Query
 
-Queries videos from the authenticated playlist, resolves to a list of [Video Type](#video-type).
+Fetches videos from the authenticated account playlist, resolves to a list of [Video Type](#video-type).
 
 {% image %}
 ![My YouTube Playlist Videos Query](/assets/ytp/sources/youtube-myplaylist-videos.webp)
