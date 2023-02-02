@@ -84,7 +84,7 @@ For each [Twitter Source](#twitter-source) a **User Query** will be created on t
 The **Tweet Type** defines the mapping options of a Twitter Tweet object.
 
 {% image %}
-![Twitter Tweet Mapping](/assets/ytp/sources/twitter-mapping-tweet.webp)
+![Twitter Tweet Mapping](/assets/ytp/sources/twitter-type-tweet.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -107,7 +107,7 @@ The **Tweet Type** defines the mapping options of a Twitter Tweet object.
 The **User Type** defines the mapping options of a Twitter User object.
 
 {% image %}
-![Twitter User Mapping](/assets/ytp/sources/twitter-mapping-user.webp)
+![Twitter User Mapping](/assets/ytp/sources/twitter-type-user.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

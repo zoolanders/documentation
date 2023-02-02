@@ -74,7 +74,7 @@ For each [TikTok Source](#tiktok-source) a **My Videos Query** will be created o
 The **Video Type** defines the mapping options of a TikTok Video object.
 
 {% image %}
-![TikTok Video Mapping](/assets/ytp/sources/tiktok-mapping-video.webp)
+![TikTok Video Mapping](/assets/ytp/sources/tiktok-type-video.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

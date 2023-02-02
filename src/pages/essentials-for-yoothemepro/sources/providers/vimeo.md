@@ -122,7 +122,7 @@ For each [Vimeo Source](#vimeo-source) a **My Showcase Query** will be created o
 The **Video Type** defines the mapping options of a Vimeo Video object.
 
 {% image %}
-![Vimeo Video Mapping](/assets/ytp/sources/vimeo-mapping-video.webp)
+![Vimeo Video Mapping](/assets/ytp/sources/vimeo-type-video.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -154,7 +154,7 @@ The **Video Type** defines the mapping options of a Vimeo Video object.
 The **User Type** defines the mapping options of a Vimeo User object.
 
 {% image %}
-![Vimeo User Mapping](/assets/ytp/sources/vimeo-mapping-user.webp)
+![Vimeo User Mapping](/assets/ytp/sources/vimeo-type-user.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

@@ -95,7 +95,7 @@ For each [Stream Source](#stream-source) a **Videos Query** will be created on t
 The **Video Type** defines the mapping options of a Cloudflare Stream Video object.
 
 {% image %}
-![Cloudflare Stream Video Mapping](/assets/ytp/sources/cf-stream-mapping-video.webp)
+![Cloudflare Stream Video Mapping](/assets/ytp/sources/cf-stream-type-video.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

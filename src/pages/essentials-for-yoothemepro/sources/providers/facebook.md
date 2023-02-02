@@ -81,7 +81,7 @@ For each [Page Source](#page-source) a **Page Posts Query** will be created on t
 The **Page Type** defines the mapping options of a Facebook Page object.
 
 {% image %}
-![Facebook Page Mapping](/assets/ytp/sources/fb-mapping-page.webp)
+![Facebook Page Mapping](/assets/ytp/sources/fb-type-page.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -115,7 +115,7 @@ The **Page Type** defines the mapping options of a Facebook Page object.
 The **Page Post Type** defines the mapping options of a Facebook Page Post object.
 
 {% image %}
-![Facebook Page Post Mapping](/assets/ytp/sources/fb-mapping-post.webp)
+![Facebook Page Post Mapping](/assets/ytp/sources/fb-type-post.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
