@@ -40,6 +40,10 @@ The **RSS Source** creates a Dynamic Content source from a RSS feed.
 
 For each [Source](#source) a **Feed Query** is created on the fly and made available as Dynamic Content option under the RSS Group. It fetches information from the feed and resolves to a dynamically generated feed type based on it schema.
 
+{% image %}
+![RSS Feed Query](/assets/ytp/sources/rss-query-feed.webp)
+{% /image %}
+
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
@@ -51,7 +55,7 @@ For each [Source](#source) a **Feed Query** is created on the fly and made avail
 For each [Source](#source) a **Records Query** is created on the fly and made available as Dynamic Content option under the RSS Group. It fetches records from the feed and resolves to a list of dynamically generated record type based on the feed schema.
 
 {% image %}
-![RSS Records Query](/assets/ytp/sources/rss-query-entries.webp)
+![RSS Entries Query](/assets/ytp/sources/rss-query-entries.webp)
 {% /image %}
 
 | Setting | Default | Description |

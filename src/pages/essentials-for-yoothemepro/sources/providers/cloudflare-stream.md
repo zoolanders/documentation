@@ -42,7 +42,7 @@ Follow through [integration](#integration) to create one or more Cloudflare Stre
 
 ### Stream Source
 
-Follow through [integration](#integration) to create a source instance from Cloudflare Stream media, create as many as needed.
+The **Cloudflare Stream Source** creates a Dynamic Content source from Cloudflare Stream videos authenticating with an [API Token](../../auths-manager#cloudflare-api-token-driver).
 
 {% image %}
 ![Cloudflare Stream Source Configuration](/assets/ytp/sources/cf-stream-config.webp)
@@ -51,7 +51,7 @@ Follow through [integration](#integration) to create a source instance from Clou
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Name** | The name that will identify this source, defaults to `Cloudflare Stream`. |
-| **Token** | The Cloudflare API Token which to [authenticate](../../auths-manager#cloudflare-api-token-driver) with. | &#x2713; |
+| **Token** | The Cloudflare API Token which to authenticate with. | &#x2713; |
 | **Account** | The Cloudflare account which to connecto to. | &#x2713; |
 | **Signing Key** | An auto-generated key used to signing private videos. | |
 
@@ -65,9 +65,9 @@ For each [Stream Source](#stream-source) a **Video Query** will be created on th
 ![Cloudflare Stream Video Query](/assets/ytp/sources/cf-stream-query-video.webp)
 {% /image %}
 
-| Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Video** | | The Cloudflare Stream video to create the source from. |
+| Setting | Default | Description | Required |
+| ------- | ------- | ----------- | :------: |
+| **Video** | | The Cloudflare Stream video to create the source from. | &#x2713; |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ---

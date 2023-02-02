@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **YouTube Source** creates sources based on [YouTube](https://www.youtube.com/) content, such as [Videos Source](#videos-source), [My Channel Videos Source](#my-channel-source), and [My Playlists Videos Source](#my-playlist-source). Based on the [multi-instance](manager#multi-instance) source workflow, it allows connecting to multiple accounts with different configurations.
+The **YouTube Source** creates sources based on [YouTube](https://www.youtube.com/) content. Based on the [multi-instance](manager#multi-instance) source workflow, it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -32,15 +32,16 @@ Follow through [integration](#integration) to create one or more YouTube source 
 | Source / Query | Resolves To | Description |
 | -------------- | ----------- | ----------- |
 | [Videos Source](#videos-source) | | General source authenticated with an API key. |
-| -- [Videos](#videos-query) | [Video Type](#video-type) | Fetches public videos with advanced search params. |
+| -- [Videos Query](#videos-query) | [Video Type](#video-type) | Fetches public videos with advanced search params. |
 | [My Channel Source](#my-channel-source) | | Source based on a channel belonging to the authenticated account. |
-| -- [Video](#my-channel-videos-query) | [Video Type](#video-type) | Fetches a single video from the channel. |
-| -- [Videos](#my-channel-videos-query) | [Video Type](#video-type) | Fetches videos from the channel. |
-| -- [Playlist](#my-channel-playlist-query) | [Playlist Type](#playlist-type) | Fetches a specific playlist content from the channel. |
-| -- -- [Playlist Videos](#my-channel-playlist-videos-query) | [Video Type](#video-type) | Fetches videos from the channel specific playlist. |
+| -- [Channel Query](#my-channel-query) | [Channel Type](#channel-type) | Fetches the channel content. |
+| -- [Video Query](#my-channel-videos-query) | [Video Type](#video-type) | Fetches a single video from the channel. |
+| -- [Videos Query](#my-channel-videos-query) | [Video Type](#video-type) | Fetches videos from the channel. |
+| -- [Playlist Query](#my-channel-playlist-query) | [Playlist Type](#playlist-type) | Fetches a specific playlist content from the channel. |
+| {% nowrap %}-- -- [Playlist Videos Query](#my-channel-playlist-videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos from the channel specific playlist. |
 | [My Playlist Source](#my-playlist-source) | | Source based on a playlist belonging to the authenticated account. |
-| -- [Video](#my-playlist-video-query) | [Video Type](#video-type) | Fetches a single video from the playlist. |
-| -- [Videos](#my-playlist-videos-query) | [Video Type](#video-type) | Fetches videos from the playlist. |
+| -- [Video Query](#my-playlist-video-query) | [Video Type](#video-type) | Fetches a single video from the playlist. |
+| -- [Videos Query](#my-playlist-videos-query) | [Video Type](#video-type) | Fetches videos from the playlist. |
 
 ---
 
@@ -114,6 +115,20 @@ For each [Videos Source](#videos-source) a **Videos Query** is created on the fl
 | **Start** | `1` | The starting point, e.g of a list of 20 videos start from the number 2. |
 | **Quantity** | `20` | The maximum amount of videos to retrieve. |
 | **Order** | `Relevance` | The order in which the videos will be returned, within `Date`, reverse chronological order based on the date the videos were created, `Rating`, from highest to lowest rating, `Relevance`, based on their relevance to the search query, `Title`, alphabetically by title, or `View Count`, from highest to lowest number of views. |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+
+---
+
+### My Channel Query
+
+For each [My Channel Source](#my-channel-source) a **My Channel Query** is created on the fly and made available as Dynamic Content option under the YouTube Group. It fetches the channel content resolving to a [Channel Type](#channel-type).
+
+{% image %}
+![My YouTube Channel Query](/assets/ytp/sources/youtube-mychannel.webp)
+{% /image %}
+
+| Setting | Default | Description | Required |
+| ------- | ------- | ----------- | :------: |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ---
@@ -230,10 +245,34 @@ The **Video Type** defines the mapping options of a YouTube Video object.
 | **Thumbnail URL** | The URL to this video thumbnail with different size options, `Low`, `Medium` (default), `High Resolution`, `Standard`, and `Max Resolution` | `String` |
 | **Thumbnail Width** | The width of this video thumbnail with same size options as for URL. | `String` |
 | **Thumbnail Height** | The height of this video thumbnail with same size options as for URL. | `String` |
-| **Total Views** | Number of times this video has been viewed. | `String` |
-| **Total Comments** | Number of comments for this video. | `String` |
-| **Total Likes** | Number of users that have indicated they like this video. | `String` |
-| **Total Dislikes** | Number of users that have indicated they dislike this video. | `String` |
+| **Total Views** | Number of times this video has been viewed. | `Int` |
+| **Total Comments** | Number of comments for this video. | `Int` |
+| **Total Likes** | Number of users that have indicated they like this video. | `Int` |
+| **Total Dislikes** | Number of users that have indicated they dislike this video. | `Int` |
+
+---
+
+### Channel Type
+
+The **Channel Type** defines the mapping options of a YouTube Channel object.
+
+{% image %}
+![YouTube Channel Mapping](/assets/ytp/sources/youtube-type-channel.webp)
+{% /image %}
+
+| Option | Description | Type | Filters |
+| ------ | ----------- | ---- | ------- |
+| **ID** | The unique identifier of this channel. | `String` |
+| **Title** | The title of this channel. | `String` | `Limit` |
+| **Description** | The description of this channel. | `String` | `Limit` |
+| **Country** | The country with which this channel is associated. | `String` |
+| **Published At** | The date this channel was published. | `String` | `Date` |
+| **Thumbnail URL** | The URL to this channel thumbnail with different size options, `Low`, `Medium` (default), `High Resolution`, `Standard`, and `Max Resolution` | `String` |
+| **Thumbnail Width** | The width of this channel thumbnail with same size options as for URL. | `String` |
+| **Thumbnail Height** | The height of this channel thumbnail with same size options as for URL. | `String` |
+| **Total Views** | Number of times this channel has been viewed. | `Int` |
+| **Total Videos** | Number of public videos uploaded to this channel. | `Int` |
+| **Total Subscribers** | Number of subscribers this channel has, the value is rounded down to three significant figures. | `Int` |
 
 ---
 

@@ -73,6 +73,10 @@ For each [Twitter Source](#twitter-source) a **My Tweets Query** will be created
 
 For each [Twitter Source](#twitter-source) a **User Query** will be created on the fly and made available as Dynamic Content option under the Twitter Group. It fetches the tweets from the account resolving to a list of [User Type](#user-type).
 
+{% image %}
+![Twitter User Query](/assets/ytp/sources/twitter-query-user.webp)
+{% /image %}
+
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |

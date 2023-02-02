@@ -83,9 +83,9 @@ For each [Vimeo Source](#vimeo-source) a **My Folder Query** will be created on 
 ![My Vimeo Folder Videos Query](/assets/ytp/sources/vimeo-query-myfolder-videos.webp)
 {% /image %}
 
-| Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Folder ID** | | The unique identifier of the folder from which to retrieve the videos. |
+| Setting | Default | Description | Required |
+| ------- | ------- | ----------- | :------: |
+| **Folder ID** | | The unique identifier of the folder from which to retrieve the videos. | &#x2713; |
 | **Include Subfolders** | | Wheter to include videos of all subfolders. |
 | **Query** | | The search term by which to filter the videos. |
 | **Sort** | `Default` | The order of the videos, within `Default`, `Alphabetical`, `Date`, `Duration`, and `Last User Action`. |
@@ -104,9 +104,9 @@ For each [Vimeo Source](#vimeo-source) a **My Showcase Query** will be created o
 ![My Vimeo Showcase Videos Query](/assets/ytp/sources/vimeo-query-myshowcase-videos.webp)
 {% /image %}
 
-| Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Showcase ID** | | The unique identifier of the showcase from which to retrieve the videos. |
+| Setting | Default | Description | Required |
+| ------- | ------- | ----------- | :------: |
+| **Showcase ID** | | The unique identifier of the showcase from which to retrieve the videos. | &#x2713; |
 | **Password** | | The password of the showcase in case it has one. |
 | **Query** | | The search term by which to filter the videos. |
 | **Sort** | `Default` | The order of the videos, within `Default`, `Alphabetical`, `Comments`, `Date`, `Modified`,  `Duration`, `Total Plays`, and `Total Likes`. |

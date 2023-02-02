@@ -30,18 +30,18 @@ The **Google Sheet Source** creates a Dynamic Content source from a Google Sheet
 ![Google Sheet Instance Configuration](/assets/ytp/sources/gsheet-config.webp)
 {% /image %}
 
-| Setting | Description | Default | Required |
-| ------- | ----------- | ------- | :------: |
-| **Name** | The name that will identify this source. | `Google Sheet` |
-| **Account** | The Google Account which to authenticate with. | &#x2713; |
-| **Spreadsheet** | The spreadsheet which to connect. | | &#x2713; |
-| **Sheet** | The spreadsheet sheet which data to create the source with. | `0` |
-| **Start Column** | The starting column to restrict the sheet data. | `A` |
-| **End Column** | The ending column to restrict the sheet data. | `Z` |
+| Setting | Default | Description | Required |
+| ------- | ------- | ----------- | :------: |
+| **Name** | {% nowrap %}`Google Sheet`{% /nowrap %} | The name that will identify this source. |
+| **Account** | | The Google Account which to authenticate with. | &#x2713; |
+| **Spreadsheet** | | The spreadsheet which to retrieve the data from. | &#x2713; |
+| **Sheet** | `0` | The spreadsheet sheet which data to create the source with. |
+| **Start Column** | `A`  | The starting column to restrict the sheet data with. |
+| **End Column** | `Z` | The ending column to restrict the sheet data with. |
 
 ## Records Query
 
-For each [Source](#source) a **Records Query** is created on the fly and made available as Dynamic Content option under the Google Sheet Group. It fetches records from the spreadsheet and resolves to a dynamically generated list of record type based on the sheet schema.
+For each [Google Sheet Source](#source) a **Records Query** is created on the fly and made available as Dynamic Content option under the Google Sheet Group. It fetches records from the spreadsheet and resolves to a dynamically generated list of record type based on the sheet schema.
 
 {% image %}
 ![Google Sheet Records Query](/assets/ytp/sources/gsheet-query-records.webp)

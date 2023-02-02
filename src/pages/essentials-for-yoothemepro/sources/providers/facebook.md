@@ -59,6 +59,10 @@ The **Page Source** creates a Dynamic Content source from one of the Facebook pa
 
 For each [Page Source](#page-source) a **Page Query** will be created on the fly and made available as Dynamic Content option under the Facebook Group. It fetches the content from the page resolving to a list of [Page Type](#page-type).
 
+{% image %}
+![Facebook Page Query](/assets/ytp/sources/fb-query-page.webp)
+{% /image %}
+
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
@@ -68,6 +72,10 @@ For each [Page Source](#page-source) a **Page Query** will be created on the fly
 ### Page Posts Query
 
 For each [Page Source](#page-source) a **Page Posts Query** will be created on the fly and made available as Dynamic Content option under the Facebook Group. It fetches the posts from the page resolving to a list of [Page Post Type](#page-post-type).
+
+{% image %}
+![Facebook Page Posts Query](/assets/ytp/sources/fb-query-page-posts.webp)
+{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |

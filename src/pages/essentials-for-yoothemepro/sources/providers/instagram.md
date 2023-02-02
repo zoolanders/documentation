@@ -107,10 +107,9 @@ For each [Personal Account Source](#personal-account-source) and [Business Accou
 | ------- | ------- | ----------- | :------: |
 | **ID** | | Unique identifier of the media to retrieve. | &#x2713; |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| **Children** | | A Multi Item option resolving to [Album Media Query](#album-media-query). |
 
-| Multi Items Option | Description | Type |
-| ------------------ | ----------- | ---- |
-| **Children** | Media children available when the media is an `Album`. | `ListOf` [Media Album](#media-album-type) |
+---
 
 ### Album Media Query
 
@@ -146,6 +145,10 @@ For each [Business Account Source](#business-account-source) a **Hashtagged Medi
 ### User Query
 
 For each [Business Account Source](#business-account-source) an **User Query** is created on the fly and made available as Dynamic Content option under the Instagram Group. It fetches the user profile from the authenticated account and resolves to a [User Type](#user-type).
+
+{% image %}
+![Instagram User Query](/assets/ytp/sources/ig-query-user.webp)
+{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |

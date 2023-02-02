@@ -80,7 +80,7 @@ Relations can get complex and difficult to debug, an alternative simpler approac
 
 ## Record Query
 
-For each [Source](#source) a **Record Query** is created on the fly and made available as Dynamic Content option under the Database Group. It fetches a single record from the table and resolves to a dynamically generated record type based on the table schema.
+For each [Database Source](#source) a **Record Query** is created on the fly and made available as Dynamic Content option under the Database Group. It fetches a single record from the table and resolves to a dynamically generated record type based on the table schema.
 
 {% image %}
 ![Database Record Query](/assets/ytp/sources/db-query-record.webp)
@@ -98,7 +98,7 @@ For each [Source](#source) a **Record Query** is created on the fly and made ava
 
 ## Records Query
 
-For each [Source](#source) a **Records Query** is created on the fly and made available as Dynamic Content option under the Database Group. It fetches records from the table and resolves to a dynamically generated list of record type based on the table schema.
+For each [Database Source](#source) a **Records Query** is created on the fly and made available as Dynamic Content option under the Database Group. It fetches records from the table and resolves to a dynamically generated list of record type based on the table schema.
 
 {% image %}
 ![Database Records Query](/assets/ytp/sources/db-query-records.webp)
