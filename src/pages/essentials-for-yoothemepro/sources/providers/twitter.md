@@ -24,9 +24,23 @@ You can adjust the cache time as needed but being this an API-driven source it i
 
 ---
 
-## Content Source
+## Source and Queries
 
-Follow through [integration](#integration) to create a source instance from a Twitter account, create as many as needed.
+Follow through [integration](#integration) to create one or more Twitter source instances. Refer to the following table for all the available sources and it queries.
+
+| Source / Query | Resolves To | Description |
+| -------------- | ----------- | ----------- |
+| [Twitter Source](#twitter-source) | | Source based on a Twitter account content. |
+| {% nowrap %}-- [My Tweets Query](#my-tweets-query){% /nowrap %} | [Tweet Type](#tweet-type) | Fetches tweets belonging to the authenticated account. |
+| {% nowrap %}-- [User Query](#user-query){% /nowrap %} | [User Type](#user-type) | Fetches the user profile content. |
+
+---
+
+## Reference
+
+### Twitter Source
+
+The **Twitter Source** creates a Dynamic Content source from the [oAuth authenticated](../../auths-manager#twitter-oauth-driver) account.
 
 {% image %}
 ![Twitter Source Configuration](/assets/ytp/sources/twitter-config.webp)
@@ -35,17 +49,13 @@ Follow through [integration](#integration) to create a source instance from a Tw
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Name** | The name that will identify this source, defaults to `Twitter`. |
-| **Account** | The Twitter Account which to [authenticate](../../auths-manager#twitter-oauth-driver) with. | &#x2713; |
+| **Account** | The Twitter Account which to authenticate with. | &#x2713; |
 
 ---
 
-## Content Queries
+### My Tweets Query
 
-For each source instance, the following queries will be available as Dynamic Content options under the Twitter Group.
-
-### Tweets Query
-
-Fetches all tweets from the authenticated account, resolves to a list of [Tweet Type](#tweet-type).
+For each [Twitter Source](#twitter-source) a **My Tweets Query** will be created on the fly and made available as Dynamic Content option under the Twitter Group. It fetches the tweets from the account resolving to a list of [Tweet Type](#tweet-type).
 
 {% image %}
 ![Twitter Tweets Query](/assets/ytp/sources/twitter-query-tweets.webp)
@@ -61,7 +71,7 @@ Fetches all tweets from the authenticated account, resolves to a list of [Tweet 
 
 ### User Query
 
-Fetches the Twitter User data, resolves to [User Type](#user-type).
+For each [Twitter Source](#twitter-source) a **User Query** will be created on the fly and made available as Dynamic Content option under the Twitter Group. It fetches the tweets from the account resolving to a list of [User Type](#user-type).
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -69,11 +79,9 @@ Fetches the Twitter User data, resolves to [User Type](#user-type).
 
 ---
 
-## Content Mapping
-
-The mapping fields are specified by the following `Object Types`.
-
 ### Tweet Type
+
+The **Tweet Type** defines the mapping options of a Twitter Tweet object.
 
 {% image %}
 ![Twitter Tweet Mapping](/assets/ytp/sources/twitter-mapping-tweet.webp)
@@ -95,6 +103,8 @@ The mapping fields are specified by the following `Object Types`.
 ---
 
 ### User Type
+
+The **User Type** defines the mapping options of a Twitter User object.
 
 {% image %}
 ![Twitter User Mapping](/assets/ytp/sources/twitter-mapping-user.webp)

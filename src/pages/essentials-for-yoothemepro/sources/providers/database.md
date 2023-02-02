@@ -20,9 +20,9 @@ The **Database Source** feeds data from local or external MySQL Database Tables,
 
 ---
 
-## Content Source
+## Source
 
-Follow through [integration](#integration) to create a source instance from a Database Table records, create as many as needed.
+The **Database Source** creates a Dynamic Content source from a local or remote Database Table.
 
 ### Configuration
 
@@ -37,13 +37,9 @@ Follow through [integration](#integration) to create a source instance from a Da
 | **Database** | The name of the database to which to connect to. | &#x2713; |
 | **Table** | The table from which to create the source. | &#x2713; |
 | **Primary Key** | The primary key of the selected table, this is specially important when using relations. | &#x2713; |
-| **Relations** | The list of [relations](#database-relations) and their configuration. |
+| **Relations** | The list of [relations](#table-relations) and their configuration. |
 
----
-
-### Connection
-
-By default the connection to the database will be done using the site configuration, if Custom Connection is enabled the custom inputs will be used instead. Both connecting to a different database from the local server or a remote one is supported.
+By default the connection to the database will be done using the site configuration, if *Custom Connection* is enabled the custom inputs will be used instead with support the local as remote servers.
 
 {% image %}
 ![Database Instance Connection](/assets/ytp/sources/db-config-connection.webp)
@@ -51,13 +47,13 @@ By default the connection to the database will be done using the site configurat
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
-| **Host** | The IP or domain of the remote database server. | &#x2713; |
-| **Port** | The port which to use to connect to the remote server. | &#x2713; |
-| **Username / Password** | The credentials which to use to connect to the remote server. | &#x2713; |
+| **Host** | The IP or domain of the database server. | &#x2713; |
+| **Port** | The port which to use to connect to the server. | &#x2713; |
+| **Username / Password** | The credentials which to use to connect to the server. | &#x2713; |
 
 ---
 
-### Database Relations
+### Table Relations
 
 Complex data structures typically involve several tables related between them, if that's the case you can set as many relations as needed of the type:
 
@@ -82,13 +78,9 @@ Relations can get complex and difficult to debug, an alternative simpler approac
 
 ---
 
-## Content Queries
+## Record Query
 
-For each source instance, the following queries will be available as Dynamic Content options under the Database group.
-
-### Record Query
-
-Queries and filters down to a single record from the source instance database, resolves to a dynamically created `Object Type` based on the table columns.
+For each [Source](#source) a **Record Query** is created on the fly and made available as Dynamic Content option under the Database Group. It fetches a single record from the table and resolves to a dynamically generated record type based on the table schema.
 
 {% image %}
 ![Database Record Query](/assets/ytp/sources/db-query-record.webp)
@@ -104,9 +96,9 @@ Queries and filters down to a single record from the source instance database, r
 
 ---
 
-### Records Query
+## Records Query
 
-Queries records from the source instance, resolves to a List Of programatically generated `Object Type` based on the table columns schema.
+For each [Source](#source) a **Records Query** is created on the fly and made available as Dynamic Content option under the Database Group. It fetches records from the table and resolves to a dynamically generated list of record type based on the table schema.
 
 {% image %}
 ![Database Records Query](/assets/ytp/sources/db-query-records.webp)

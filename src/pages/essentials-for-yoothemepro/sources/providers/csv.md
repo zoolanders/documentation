@@ -21,9 +21,9 @@ The **CSV Source** feeds data from local files formatted as **CSV** (comma-separ
 
 ---
 
-## Content Source
+## Source
 
-Follow through [integration](#integration) to create a source instance from a CSV file records, create as many as needed.
+The **CSV Source** creates a Dynamic Content source from a local CSV or TSV formated file.
 
 {% image %}
 ![CSV Instance Configuration](/assets/ytp/sources/csv-config.webp)
@@ -38,9 +38,9 @@ Follow through [integration](#integration) to create a source instance from a CS
 
 ---
 
-## Content Queries
+## Records Query
 
-For each instance a dynamically generated source query and mapping `Object Type` will be available as Dynamic Content option under the CSV group.
+For each [Source](#source) a **Records Query** is created on the fly and made available as Dynamic Content option under the CSV Group. It fetches records from the file and resolves to a list of dynamically generated CSV record type based on the file schema.
 
 {% image %}
 ![CSV Records Query](/assets/ytp/sources/csv-query-records.webp)

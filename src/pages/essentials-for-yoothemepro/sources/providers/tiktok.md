@@ -24,9 +24,22 @@ You can adjust the cache time as needed but being this an API-driven source it i
 
 ---
 
-## Content Source
+## Source and Queries
 
-Follow through [integration](#integration) to create a source instance from TikTok media, create as many as needed.
+Follow through [integration](#integration) to create one or more TikTok source instances. Refer to the following table for all the available sources and it queries.
+
+| Source / Query | Resolves To | Description |
+| -------------- | ----------- | ----------- |
+| [TikTok Source](#tiktok-source) | | Source based on a TikTok account content. |
+| {% nowrap %}-- [My Videos Query](#my-videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos belonging to the authenticated account. |
+
+---
+
+## Reference
+
+### TikTok Source
+
+The **TikTok Source** creates a Dynamic Content source from the [oAuth authenticated](../../auths-manager#tiktok-oauth-driver) account.
 
 {% image %}
 ![TikTok Source Configuration](/assets/ytp/sources/tiktok-config.webp)
@@ -35,17 +48,13 @@ Follow through [integration](#integration) to create a source instance from TikT
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Name** | The name that will identify this source, defaults to `TikTok`. |
-| **Account** | The TikTok Account which to [authenticate](../../auths-manager#tiktok-oauth-driver) with. | &#x2713; |
+| **Account** | The TikTok Account which to authenticate with. | &#x2713; |
 
 ---
 
-## Content Queries
+### My Videos Query
 
-For each source instance, the following queries will be available as Dynamic Content options under the TikTok Group.
-
-### Videos Query
-
-Fetches videos uploaded by the authenticated account, resolves to a list of [Video Type](#video-type).
+For each [TikTok Source](#tiktok-source) a **My Videos Query** will be created on the fly and made available as Dynamic Content option under the TikTok Group. It fetches videos from the authenticated account and resolves to a list of [Video Type](#video-type).
 
 {% image %}
 ![TikTok Videos Query](/assets/ytp/sources/tiktok-query-videos.webp)
@@ -60,11 +69,9 @@ Fetches videos uploaded by the authenticated account, resolves to a list of [Vid
 
 ---
 
-## Content Mapping
-
-The mapping fields are specified by the following `Object Types`.
-
 ### Video Type
+
+The **Video Type** defines the mapping options of a TikTok Video object.
 
 {% image %}
 ![TikTok Video Mapping](/assets/ytp/sources/tiktok-mapping-video.webp)

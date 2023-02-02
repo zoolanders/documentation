@@ -26,11 +26,30 @@ You can adjust the cache time as needed but being this an API-driven source it i
 
 ---
 
-## Content Sources
+## Source and Queries
 
-Follow through [integration](#integration) to create an Instagram source instance from a Personal or Business account, create as many as needed.
+Follow through [integration](#integration) to create one or more Instagram source instances. Refer to the following table for all the available sources and it queries.
+
+| Source / Query | Resolves To | Description |
+| -------------- | ----------- | ----------- |
+| [Personal Account Source](#personal-account-source) | | Source based on an Instagram Personal account. |
+| -- [Media](#media-query) | [Media Type](#media-type) | Fetches media from the source. |
+| -- [Media Single](#media-single-query) | [Media Type](#media-type) | Fetches a single media from the source. |
+| -- -- [Album Media](#album-media-query) | [Album Media Type](#album-media-type) | Fetches child media from the parent media if it's an Album. |
+| [Business Account Source](#business-account-source) | | Source based on an Instagram Business source. |
+| -- [Media](#media-query) | [Media Type](#media-type) | Fetches media from the source. |
+| -- [Media Single](#media-single-query) | [Media Type](#media-type) | Fetches a single media from the source. |
+| -- -- [Album Media](#album-media-query) | [Album Media Type](#album-media-type) | Fetches child media from the parent media if it's an Album. |
+| -- [Hashtagged Media](#hashtagged-media-query) | [Media Type](#media-type) | Fetches media that have been hashtagged with a specific hash. |
+| -- [User](#user-query) | [User Type](#user-type) | Fetches the Business Account user profile. |
+
+---
+
+## Reference
 
 ### Personal Account Source
+
+The **Personal Account Source** creates a Dynamic Content source from the [oAuth authenticated](../../auths-manager#google-oauth-driver) Instagram Personal Account.
 
 {% image %}
 ![Instagram Personal Source Configuration](/assets/ytp/sources/ig-personal-config.webp)
@@ -45,6 +64,8 @@ Follow through [integration](#integration) to create an Instagram source instanc
 
 ### Business Account Source
 
+The **Business Account Source** creates a Dynamic Content source from the [oAuth authenticated](../../auths-manager#google-oauth-driver) Instagram Business Account.
+
 {% image %}
 ![Instagram Business Source Configuration](/assets/ytp/sources/ig-business-config.webp)
 {% /image %}
@@ -57,13 +78,9 @@ Follow through [integration](#integration) to create an Instagram source instanc
 
 ---
 
-## Content Queries
-
- For each source instance, the following queries will be available as Dynamic Content options under the Instagram Group.
-
 ### Media Query
 
-Fetches media from the authenticated Personal or Business account, resolves to a list of [Media Type](#media-type).
+For each [Personal Account Source](#personal-account-source) and [Business Account Source](#business-account-source) a **Media Query** is created on the fly and made available as Dynamic Content option under the Instagram Group. It fetches media from the authenticated account and resolves to a list of [Media Type](#media-type).
 
 {% image %}
 ![Instagram Media Query](/assets/ytp/sources/ig-query-media.webp)
@@ -80,43 +97,55 @@ Fetches media from the authenticated Personal or Business account, resolves to a
 
 ### Media Single Query
 
-Fetches a single media from the authenticated Personal or Business account, resolves to a [Media Type](#media-type).
+For each [Personal Account Source](#personal-account-source) and [Business Account Source](#business-account-source) a **Media Single Query** is created on the fly and made available as Dynamic Content option under the Instagram Group. It fetches a single media from the authenticated account and resolves to a [Media Type](#media-type).
 
 {% image %}
 ![Instagram Media Single Query](/assets/ytp/sources/ig-query-media-single.webp)
 {% /image %}
 
-| Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **ID** | `null` | Unique identifier of the media to retrieve. |
+| Setting | Default | Description | Required |
+| ------- | ------- | ----------- | :------: |
+| **ID** | | Unique identifier of the media to retrieve. | &#x2713; |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 | Multi Items Option | Description | Type |
 | ------------------ | ----------- | ---- |
-| **Hashtags** | Media hashtags with `Id` and `Name` mapping options. | `ListOf` |
 | **Children** | Media children available when the media is an `Album`. | `ListOf` [Media Album](#media-album-type) |
+
+### Album Media Query
+
+Part of the [Media Single Query](#media-single-query) as `Multiple Items Source -> Children Media` it fetches media from the parent Media if it's of the type Album, resolves to a list of [Album Media Type](#album-media-type).
+
+{% image %}
+![Instagram Album Media Query](/assets/ytp/sources/ig-query-media-single.webp)
+{% /image %}
+
+| Setting | Default | Description | Required |
+| ------- | ------- | ----------- | :------: |
+| **ID** | | Unique identifier of the media to retrieve. | &#x2713; |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ---
 
-### Business Hashtagged Media Query
+### Hashtagged Media Query
 
-Fetches media from the authenticated Instagram Business account that has been hashtagged with a specified hash, resolves to a list of [Media Type](#media-type).
+For each [Business Account Source](#business-account-source) a **Hashtagged Media Query** is created on the fly and made available as Dynamic Content option under the Instagram Group. It fetches top and recent hashtagged media from the authenticated business account and resolves to a list of [Media Type](#media-type).
 
 {% image %}
 ![Instagram Hashtagged Media Query](/assets/ytp/sources/ig-query-hashtagged-media.webp)
 {% /image %}
 
-| Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Hashtag** | `null` | The hashtag to query for. |
+| Setting | Default | Description | Required |
+| ------- | ------- | ----------- | :------: |
+| **Hashtag** | | The hashtag to query for. | &#x2713; |
 | **Edge** |`Top` | Should the query look for `Top Media` or `Recent Media` hashtagged with. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ---
 
-### Business User Query
+### User Query
 
-Fetches the user profile from the authenticated Instagram Business account, resolves to a [User Type](#user-type).
+For each [Business Account Source](#business-account-source) an **User Query** is created on the fly and made available as Dynamic Content option under the Instagram Group. It fetches the user profile from the authenticated account and resolves to a [User Type](#user-type).
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -124,14 +153,10 @@ Fetches the user profile from the authenticated Instagram Business account, reso
 
 ---
 
-## Content Mapping
-
-The mapping fields are specified by the following `Object Types`.
-
 ### Media Type
 
 {% image %}
-![Instagram Media Mapping](/assets/ytp/sources/ig-mapping-media.webp)
+![Instagram Media Mapping](/assets/ytp/sources/ig-type-media.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -153,10 +178,10 @@ The mapping fields are specified by the following `Object Types`.
 
 ---
 
-### Media Album Type
+### Album Media Type
 
 {% image %}
-![Instagram Media Album Mapping](/assets/ytp/sources/ig-mapping-media-album.webp)
+![Instagram Album Media Mapping](/assets/ytp/sources/ig-type-album-media.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -174,7 +199,7 @@ The mapping fields are specified by the following `Object Types`.
 ### User Type
 
 {% image %}
-![Instagram User Mapping](/assets/ytp/sources/ig-mapping-user.webp)
+![Instagram User Mapping](/assets/ytp/sources/ig-type-user.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

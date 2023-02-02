@@ -24,9 +24,24 @@ You can adjust the cache time as needed but being this an API-driven source it i
 
 ---
 
-## Content Source
+## Source and Queries
 
-Follow through [integration](#integration) to create a source instance from Vimeo media, create as many as needed.
+Follow through [integration](#integration) to create one or more Vimeo source instances. Refer to the following table for all the available sources and it queries.
+
+| Source / Query | Resolves To | Description |
+| -------------- | ----------- | ----------- |
+| [Vimeo Source](#vimeo-source) | | Source based on Vimeo content. |
+| {% nowrap %}-- [My Videos Query](#my-videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos belonging to the authenticated account. |
+| {% nowrap %}-- [My Folder Videos Query](#my-folder-videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos from an authenticated account specific folder. |
+| {% nowrap %}-- [My Showcase Videos Query](#my-showcase-videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos from an authenticated account specific showcase. |
+
+---
+
+## Reference
+
+### Vimeo Source
+
+The **Vimeo Source** creates a Dynamic Content source from the [oAuth authenticated](../../auths-manager#vimeo-oauth-driver) account.
 
 {% image %}
 ![Vimeo Source Configuration](/assets/ytp/sources/vimeo-config.webp)
@@ -35,17 +50,13 @@ Follow through [integration](#integration) to create a source instance from Vime
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Name** | The name that will identify this source, defaults to `Vimeo`. |
-| **Account** | The Facebook Account which to [authenticate](../../auths-manager#vimeo-oauth-driver) with. | &#x2713; |
+| **Account** | The Facebook Account which to authenticate with. | &#x2713; |
 
 ---
 
-## Content Queries
-
-For each source instance, the following queries will be available as Dynamic Content options under the Vimeo Group.
-
 ### My Videos Query
 
-Fetches videos uploaded by the authenticated account, resolves to a list of [Video Type](#video-type).
+For each [Vimeo Source](#vimeo-source) a **My Videos Query** will be created on the fly and made available as Dynamic Content option under the Vimeo Group. It fetches videos from the authenticated account and resolves to a list of [Video Type](#video-type).
 
 {% image %}
 ![My Vimeo Videos Query](/assets/ytp/sources/vimeo-query-myvideos.webp)
@@ -66,7 +77,7 @@ Fetches videos uploaded by the authenticated account, resolves to a list of [Vid
 
 ### My Folder Videos Query
 
-Fetches videos uploaded by the authenticated account to a specific folder, resolves to a list of [Video Type](#video-type).
+For each [Vimeo Source](#vimeo-source) a **My Folder Query** will be created on the fly and made available as Dynamic Content option under the Vimeo Group. It fetches videos from an authenticated account specific folder and resolves to a list of [Video Type](#video-type).
 
 {% image %}
 ![My Vimeo Folder Videos Query](/assets/ytp/sources/vimeo-query-myfolder-videos.webp)
@@ -87,7 +98,7 @@ Fetches videos uploaded by the authenticated account to a specific folder, resol
 
 ### My Showcase Videos Query
 
-Fetches videos uploaded by the authenticated account to a specific showcase, resolves to a list of [Video Type](#video-type).
+For each [Vimeo Source](#vimeo-source) a **My Showcase Query** will be created on the fly and made available as Dynamic Content option under the Vimeo Group. It fetches videos from an authenticated account specific showcase and resolves to a list of [Video Type](#video-type).
 
 {% image %}
 ![My Vimeo Showcase Videos Query](/assets/ytp/sources/vimeo-query-myshowcase-videos.webp)
@@ -106,11 +117,9 @@ Fetches videos uploaded by the authenticated account to a specific showcase, res
 
 ---
 
-## Content Mapping
-
-The mapping fields are specified by the following `Object Types`.
-
 ### Video Type
+
+The **Video Type** defines the mapping options of a Vimeo Video object.
 
 {% image %}
 ![Vimeo Video Mapping](/assets/ytp/sources/vimeo-mapping-video.webp)
@@ -141,6 +150,8 @@ The mapping fields are specified by the following `Object Types`.
 ---
 
 ### User Type
+
+The **User Type** defines the mapping options of a Vimeo User object.
 
 {% image %}
 ![Vimeo User Mapping](/assets/ytp/sources/vimeo-mapping-user.webp)

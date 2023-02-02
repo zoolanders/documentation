@@ -27,7 +27,20 @@ You can adjust the cache time as needed but being this an API-driven source it i
 
 ---
 
-## Content Source
+## Source and Queries
+
+Follow through [integration](#integration) to create one or more Cloudflare Stream source instances. Refer to the following table for all the available sources and it queries.
+
+| Source / Query | Resolves To | Description |
+| -------------- | ----------- | ----------- |
+| [Stream Source](#stream-source) | | Source based on a Cloudflare Stream content. |
+| {% nowrap %}-- [Videos Query](#videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos belonging to the authenticated account. |
+
+---
+
+## Reference
+
+### Stream Source
 
 Follow through [integration](#integration) to create a source instance from Cloudflare Stream media, create as many as needed.
 
@@ -44,13 +57,9 @@ Follow through [integration](#integration) to create a source instance from Clou
 
 ---
 
-## Content Queries
-
-For each source instance, the following queries will be available as Dynamic Content options under the Cloudflare Stream Group.
-
 ### Video Query
 
-Fetches a single video from the authenticated account, resolves to a [Video Type](#video-type).
+For each [Stream Source](#stream-source) a **Video Query** will be created on the fly and made available as Dynamic Content option under the Cloudflare Stream Group. It fetches a single video from the authenticated account and resolves to a [Video Type](#video-type).
 
 {% image %}
 ![Cloudflare Stream Video Query](/assets/ytp/sources/cf-stream-query-video.webp)
@@ -65,7 +74,7 @@ Fetches a single video from the authenticated account, resolves to a [Video Type
 
 ### Videos Query
 
-Fetches videos from the authenticated account, resolves to a list of [Video Type](#video-type).
+For each [Stream Source](#stream-source) a **Videos Query** will be created on the fly and made available as Dynamic Content option under the Cloudflare Stream Group. It fetches videos from the authenticated account and resolves to a list of [Video Type](#video-type).
 
 {% image %}
 ![Cloudflare Stream Videos Query](/assets/ytp/sources/cf-stream-query-videos.webp)
@@ -81,11 +90,9 @@ Fetches videos from the authenticated account, resolves to a list of [Video Type
 
 ---
 
-## Content Mapping
-
-The mapping fields are specified by the following `Object Types`.
-
 ### Video Type
+
+The **Video Type** defines the mapping options of a Cloudflare Stream Video object.
 
 {% image %}
 ![Cloudflare Stream Video Mapping](/assets/ytp/sources/cf-stream-mapping-video.webp)

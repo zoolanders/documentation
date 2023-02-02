@@ -61,6 +61,11 @@ const tags = {
       </figure>
     ),
   },
+  nowrap: {
+    render: ({children}) => (
+      <span className='whitespace-nowrap'>{children}</span>
+    ),
+  },
   'quick-links': {
     render: QuickLinks,
   },

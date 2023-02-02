@@ -24,9 +24,24 @@ You can adjust the cache time as needed but being this an API-driven source it i
 
 ---
 
-## Content Source
+## Source and Queries
 
-Follow through [integration](#integration) to create a source instance from a Facebook Page, create as many as needed.
+Follow through [integration](#integration) to create one or more Facebook source instances. Refer to the following table for all the available sources and it queries.
+
+| Source / Query | Resolves To | Description |
+| -------------- | ----------- | ----------- |
+| [Page Source](#page-source) | | Source based on a Facebook page content. |
+| {% nowrap %}-- [Page Query](#page-query){% /nowrap %} | [Page Type](#page-type) | Fetches public videos with advanced search params. |
+| {% nowrap %}-- [Page Posts Query](#page-posts-query){% /nowrap %} | [Page Post Type](#page-post-type) | Fetches public videos with advanced search params. |
+| Events Source | | Not available. API access to Facebook Events is limited to Facebook Marketing Partners. |
+
+---
+
+## Reference
+
+### Page Source
+
+The **Page Source** creates a Dynamic Content source from one of the Facebook pages which the [oAuth authenticated](../../auths-manager#facebook-oauth-driver) account has access to.
 
 {% image %}
 ![Facebook Source Configuration](/assets/ytp/sources/fb-config.webp)
@@ -35,18 +50,14 @@ Follow through [integration](#integration) to create a source instance from a Fa
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Name** | The name that will identify this source, defaults to `Facebook`. |
-| **Account** | The Facebook Account which to [authenticate](../../auths-manager#facebook-oauth-driver) with. | &#x2713; |
-| **Page** | The Facebook Page from which to create this source. | &#x2713; |
+| **Account** | The Facebook Account which to authenticate with. | &#x2713; |
+| **Page** | The Facebook page from which to create this source. | &#x2713; |
 
 ---
 
-## Content Queries
-
-For each source instance, the following queries will be available as Dynamic Content options under the Facebook Group.
-
 ### Page Query
 
-Fetches the Facebook Page data, resolves to [Page Type](#page-type).
+For each [Page Source](#page-source) a **Page Query** will be created on the fly and made available as Dynamic Content option under the Facebook Group. It fetches the content from the page resolving to a list of [Page Type](#page-type).
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -56,7 +67,7 @@ Fetches the Facebook Page data, resolves to [Page Type](#page-type).
 
 ### Page Posts Query
 
-Fetches all posts from the Facebook Page, resolves to a list of [Page Post Type](#page-post-type).
+For each [Page Source](#page-source) a **Page Posts Query** will be created on the fly and made available as Dynamic Content option under the Facebook Group. It fetches the posts from the page resolving to a list of [Page Post Type](#page-post-type).
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -65,17 +76,9 @@ Fetches all posts from the Facebook Page, resolves to a list of [Page Post Type]
 
 ---
 
-### Events Query
-
-Unfortunately, access to Events on Users and Pages is only available to Facebook Marketing Partners. We cannot provide this query.
-
----
-
-## Content Mapping
-
-The mapping fields are specified by the following `Object Types`.
-
 ### Page Type
+
+The **Page Type** defines the mapping options of a Facebook Page object.
 
 {% image %}
 ![Facebook Page Mapping](/assets/ytp/sources/fb-mapping-page.webp)
@@ -108,6 +111,8 @@ The mapping fields are specified by the following `Object Types`.
 ---
 
 ### Page Post Type
+
+The **Page Post Type** defines the mapping options of a Facebook Page Post object.
 
 {% image %}
 ![Facebook Page Post Mapping](/assets/ytp/sources/fb-mapping-post.webp)

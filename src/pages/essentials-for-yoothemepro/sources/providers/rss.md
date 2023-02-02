@@ -21,9 +21,9 @@ The **RSS Source** feeds data from RSS 0.9, 1.0, 2.0, and Atom specifications. B
 
 ---
 
-## Content Source
+## Source
 
-Follow through [integration](#integration) to create a source instance from a RSS feed, create as many as needed.
+The **RSS Source** creates a Dynamic Content source from a RSS feed.
 
 {% image %}
 ![RSS Instance Configuration](/assets/ytp/sources/rss-config.webp)
@@ -36,19 +36,19 @@ Follow through [integration](#integration) to create a source instance from a RS
 
 ---
 
-## Content Queries
+## Feed Query
 
-For each source instance, the following query will be available as Dynamic Content options under the RSS group.
+For each [Source](#source) a **Feed Query** is created on the fly and made available as Dynamic Content option under the RSS Group. It fetches information from the feed and resolves to a dynamically generated feed type based on it schema.
 
-### Feed Query
-
-Queries the source instance feed information, resolves to a programatically generated feed `Object Type`.
+| Setting | Default | Description |
+| ------- | ------- | ----------- |
+| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ---
 
-### Entries Query
+## Entries Query
 
-Queries entries from the source instance, resolves to a List Of programatically generated `Object Type` based on the feed schema.
+For each [Source](#source) a **Records Query** is created on the fly and made available as Dynamic Content option under the RSS Group. It fetches records from the feed and resolves to a list of dynamically generated record type based on the feed schema.
 
 {% image %}
 ![RSS Records Query](/assets/ytp/sources/rss-query-entries.webp)
