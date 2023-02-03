@@ -35,7 +35,7 @@ Follow through [integration](#integration) to create one or more YouTube source 
 | -- [Videos Query](#videos-query) | [Video Type](#video-type) | Fetches public videos with advanced search params. |
 | [My Channel Source](#my-channel-source) | | Source based on a channel belonging to the authenticated account. |
 | -- [Channel Query](#my-channel-query) | [Channel Type](#channel-type) | Fetches the channel content. |
-| -- [Video Query](#my-channel-videos-query) | [Video Type](#video-type) | Fetches a single video from the channel. |
+| -- [Video Query](#my-channel-video-query) | [Video Type](#video-type) | Fetches a single video from the channel. |
 | -- [Videos Query](#my-channel-videos-query) | [Video Type](#video-type) | Fetches videos from the channel. |
 | -- [Playlist Query](#my-channel-playlist-query) | [Playlist Type](#playlist-type) | Fetches a specific playlist content from the channel. |
 | {% nowrap %}-- -- [Playlist Videos Query](#my-channel-playlist-videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos from the channel specific playlist. |
