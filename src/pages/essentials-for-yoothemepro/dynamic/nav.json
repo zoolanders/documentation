@@ -1,0 +1,51 @@
+{
+    "title": "Dynamic",
+    "sections": [
+        {
+            "title": "Getting Started",
+            "links": [
+                {
+                    "title": "Integration",
+                    "href": "./"
+                }
+            ]
+        },
+        {
+            "title": "Core Concepts",
+            "links": [
+                {
+                    "title": "Source Inheritance",
+                    "href": "./source-inheritance"
+                },
+                {
+                    "title": "Field Sources",
+                    "href": "./field-sources"
+                },
+                {
+                    "title": "Dynamic Conditions",
+                    "href": "./dynamic-conditions"
+                },
+                {
+                    "title": "Global Queries",
+                    "href": "./global-queries"
+                }
+            ]
+        },
+        {
+            "title": "Reference",
+            "links": [
+            ]
+        },
+        {
+            "title": "Advanced",
+            "links": [
+                {
+                    "title": "How To",
+                    "href": "./how-to",
+                    "links": [
+                    ]
+                }
+            ]
+        }
+    ]
+}
