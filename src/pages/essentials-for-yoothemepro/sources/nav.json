@@ -89,11 +89,11 @@
                     "title": "How To",
                     "href": "./how-to",
                     "links": [
+                        {
+                            "title": "Create a Custom Source",
+                            "href": "./how-to/source"
+                        }
                     ]
-                },
-                {
-                    "title": "Troubleshooting",
-                    "href": "./troubleshooting"
                 }
             ]
         }

@@ -13,7 +13,7 @@ Introduced by Essentials, the **Sources Manager** builds on top of YOOtheme Pro 
 The **Sources Manager** can be accessed at `Customizer -> Essentials -> Sources` panel, in case the panel is not present make sure the Sources Addon is enabled in the [Essentials Settings](../settings).
 
 {% image %}
-![Sources Manager](/assets/ytp/sources/manager.gif)
+![Sources Manager](/assets/ytp/sources-manager.gif)
 {% /image %}
 
 ---
