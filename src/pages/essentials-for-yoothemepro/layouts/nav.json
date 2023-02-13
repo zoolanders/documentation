@@ -1,0 +1,48 @@
+{
+    "title": "Layouts",
+    "sections": [
+        {
+            "title": "Overview",
+            "links": [
+                {
+                    "title": "Integration",
+                    "href": "./"
+                }
+            ]
+        },
+        {
+            "title": "Core concepts",
+            "links": [
+                {
+                    "title": "Layout Library",
+                    "href": "./library"
+                },
+                {
+                    "title": "Storage",
+                    "href": "./storage"
+                }
+            ]
+        },
+        {
+            "title": "Reference",
+            "links": [
+                {
+                    "title": "Storage Adapters",
+                    "href": "./storage/adapters",
+                    "links": [
+                        {
+                            "title": "Local",
+                            "href": "./storage/adapters/local"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Advanced",
+            "links": [
+
+            ]
+        }
+    ]
+}

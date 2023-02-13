@@ -3,9 +3,11 @@ import navForms from '@/pages/essentials-for-yoothemepro/forms/nav.json'
 import navSources from '@/pages/essentials-for-yoothemepro/sources/nav.json'
 import navAccess from '@/pages/essentials-for-yoothemepro/access/nav.json'
 import navDynamic from '@/pages/essentials-for-yoothemepro/dynamic/nav.json'
+import navLayout from '@/pages/essentials-for-yoothemepro/layouts/nav.json'
 
 const navs = {
     '/essentials-for-yoothemepro': navYtp,
+    '/essentials-for-yoothemepro/layouts': navLayout,
     '/essentials-for-yoothemepro/access': navAccess,
     '/essentials-for-yoothemepro/dynamic': navDynamic,
     '/essentials-for-yoothemepro/sources': navSources,
