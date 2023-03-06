@@ -22,10 +22,6 @@
                     "href": "./field-sources"
                 },
                 {
-                    "title": "Dynamic Conditions",
-                    "href": "./dynamic-conditions"
-                },
-                {
                     "title": "Global Queries",
                     "href": "./global-queries"
                 }

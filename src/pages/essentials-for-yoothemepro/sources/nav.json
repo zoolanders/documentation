@@ -18,8 +18,8 @@
                     "href": "./manager"
                 },
                 {
-                    "title": "Content Conditions",
-                    "href": "./content-conditions"
+                    "title": "Conditions & Filters",
+                    "href": "./conditions-and-filters"
                 }
             ]
         },
@@ -81,8 +81,12 @@
                     ]
                 },
                 {
-                    "title": "Query Conditions",
-                    "href": "./query-conditions"
+                    "title": "Filter Conditions",
+                    "href": "./filter-conditions"
+                },
+                {
+                    "title": "Order Conditions",
+                    "href": "./order-conditions"
                 }
             ]
         },
