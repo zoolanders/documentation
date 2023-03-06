@@ -18,8 +18,8 @@
                     "href": "./manager"
                 },
                 {
-                    "title": "Query Conditions",
-                    "href": "./query-conditions"
+                    "title": "Content Conditions",
+                    "href": "./content-conditions"
                 }
             ]
         },
@@ -79,6 +79,10 @@
                             "href": "./providers/google-business-profile"
                         }
                     ]
+                },
+                {
+                    "title": "Query Conditions",
+                    "href": "./query-conditions"
                 }
             ]
         },
