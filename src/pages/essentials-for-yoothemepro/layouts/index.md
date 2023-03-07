@@ -1,12 +1,11 @@
 ---
-title: Essential Addon Layout
-pageTitle: Essential Layout - Getting started with Essential Addon Layout for YOOtheme Pro
-description:
+title: Integration
 ---
 
-Make sure [Essentials for YOOtheme Pro](../) plugin has been properly installed, then access the **Customizer -> Essentials -> Advanced** panel, you should see the Layouts Addon listed and enabled.
 
-Next, create a new Library  following the [step by step guide](#create-a-layout-library) below or jump to a [Quick Setup](#quick-setup).
+Make sure [Essentials for YOOtheme Pro](../) plugin has been properly installed, then access the `Customizer -> Essentials -> Advanced` panel, you should see the **Layouts Addon** listed and enabled.
+
+Next, create a new Library following the [step by step guide](#create-a-layout-library) below or jump to a [Quick Setup](#quick-setup).
 
 ---
 

@@ -1,0 +1,44 @@
+{
+    "title": "Icons",
+    "sections": [
+        {
+            "title": "Overview",
+            "links": [
+                {
+                    "title": "Integration",
+                    "href": "./"
+                }
+            ]
+        },
+        {
+            "title": "Core concepts",
+            "links": [
+                {
+                    "title": "Icon Collection",
+                    "href": "./collection"
+                }
+            ]
+        },
+        {
+            "title": "Reference",
+            "links": [
+                {
+                    "title": "Collections",
+                    "href": "./collection",
+                    "links": [
+                        {
+                            "title": "Font Awesome",
+                            "href": "./collection/font-awesome"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Advanced",
+            "links": [
+
+            ]
+        }
+    ]
+}

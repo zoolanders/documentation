@@ -2,9 +2,9 @@
 title: Integration
 ---
 
-Make sure [Essentials for YOOtheme Pro](../) plugin has been properly installed, then access the **Customizer -> Essentials -> Advanced** panel, you should see the Forms Addon listed and enabled.
+Make sure [Essentials for YOOtheme Pro](../) plugin has been properly installed, then access the `Customizer -> Essentials -> Advanced` panel, you should see the **Forms Addon** listed and enabled.
 
-Next, create a Form Area step by step following the [guide](#create-a-form-area) below or jump to a [Quick Setup](#quick-setup).
+Next, create a **Form Area** following the step by step [guide](#create-a-form-area) below or jump to a [Quick Setup](#quick-setup).
 
 ---
 

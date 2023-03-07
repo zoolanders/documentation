@@ -1,0 +1,35 @@
+{
+    "title": "Elements",
+    "sections": [
+        {
+            "title": "Overview",
+            "links": [
+                {
+                    "title": "Integration",
+                    "href": "./"
+                }
+            ]
+        },
+        {
+            "title": "Reference",
+            "links": [
+                {
+                    "title": "Elements",
+                    "href": "./element",
+                    "links": [
+                        {
+                            "title": "Markdown",
+                            "href": "./element/markdown"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Advanced",
+            "links": [
+
+            ]
+        }
+    ]
+}

@@ -15,4 +15,4 @@ Being Essentials Settings independent from the Theme, the only way to backup and
 
 ## Addons Execution
 
-In the **Customizer -> Essentials -> Advanced** panel toggle the loading of addons individually. A disabled addon will be completely skipped from execution and is a good way to debug issues or to keep the execution as smooth as possible.
+In the `Customizer -> Essentials -> Advanced` panel toggle the loading of addons individually. A disabled addon will be completely skipped from execution and is a good way to debug issues or to keep the execution as smooth as possible.

@@ -14,8 +14,8 @@
             "title": "Core Concepts",
             "links": [
                 {
-                    "title": "Sources Manager",
-                    "href": "./manager"
+                    "title": "Multi-Instance Sources",
+                    "href": "./multi-instance-sources"
                 },
                 {
                     "title": "Conditions & Filters",
