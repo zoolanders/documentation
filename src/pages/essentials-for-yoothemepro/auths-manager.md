@@ -109,7 +109,7 @@ The **Facebook oAuth Driver** manage Facebook oAuth protocol to authenticate and
 | **Name** | The name that will identify this auth. |
 | **Scopes** | The list of scopes this auth has access to, those can be revoked at [facebook.com/settings](https://www.facebook.com/settings?tab=business_tools&ref=business_login_reentry). |
 | **Authentication** | Triggers the oAuth authentication and permission grant. |
-| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+| **Custom App** | Whether to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
 
 ---
 
@@ -126,7 +126,7 @@ The **Google oAuth Driver** manage Google oAuth 2.0 protocol to authenticate and
 | **Name** | The name that will identify this auth. |
 | **Scopes** | The list of scopes this auth has access to, those can be revoked at [myaccount.google.com/permissions](https://myaccount.google.com/permissions). |
 | **Authentication** | Triggers the oAuth authentication and permission grant. |
-| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+| **Custom App** | Whether to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
 
 ---
 
@@ -153,7 +153,7 @@ The **Instagram oAuth Driver** manage Instagram oAuth protocol to authenticate a
 | **Name** | The name that will identify this auth. |
 | **Scopes** | The list of scopes this auth has access to, those can be revoked at [instagram.com/accounts](https://www.instagram.com/accounts/manage_access). |
 | **Authentication** | Triggers the oAuth authentication and permission grant. |
-| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+| **Custom App** | Whether to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
 
 ---
 
@@ -170,7 +170,7 @@ The **TikTok oAuth Driver** manage TikTok oAuth protocol to authenticate and gra
 | **Name** | The name that will identify this auth. |
 | **Scopes** | The list of scopes this auth has access to, learn more about it and how to revoke permissions at [support.tiktok.com](https://support.tiktok.com/en/safety-hc/account-and-user-safety/connect-to-third-party-apps). |
 | **Authentication** | Triggers the oAuth authentication and permission grant. |
-| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+| **Custom App** | Whether to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
 
 ---
 
@@ -187,7 +187,7 @@ The **Twitter oAuth Driver** manage Twitter oAuth protocol to authenticate and g
 | **Name** | The name that will identify this auth. |
 | **Scopes** | The list of scopes this auth has access to, those can be revoked at [twitter.com/settings](https://twitter.com/settings/apps_and_sessions). |
 | **Authentication** | Triggers the oAuth authentication and permission grant. |
-| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+| **Custom App** | Whether to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
 
 ---
 
@@ -204,7 +204,7 @@ The **Vimeo oAuth Driver** manage Vimeo oAuth protocol to authenticate and grant
 | **Name** | The name that will identify this auth. |
 | **Scopes** | The list of scopes this auth has access to, those can be revoked at [vimeo.com/settings](https://vimeo.com/settings/apps). |
 | **Authentication** | Triggers the oAuth authentication and permission grant. |
-| **Custom App** | Wheter to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
+| **Custom App** | Whether to use a [custom oAuth App](#custom-oauth-app) instead of [ZOOlanders'](#zoolanders-oauth-app). |
 
 ---
 

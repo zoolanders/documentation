@@ -86,7 +86,7 @@ For each [Vimeo Source](#vimeo-source) a **My Folder Query** will be created on 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
 | **Folder ID** | | The unique identifier of the folder from which to retrieve the videos. | &#x2713; |
-| **Include Subfolders** | | Wheter to include videos of all subfolders. |
+| **Include Subfolders** | | Whether to include videos of all subfolders. |
 | **Query** | | The search term by which to filter the videos. |
 | **Sort** | `Default` | The order of the videos, within `Default`, `Alphabetical`, `Date`, `Duration`, and `Last User Action`. |
 | **Direction** | `Descending` | The order direction of the videos, `Ascending` or `Descending`. |

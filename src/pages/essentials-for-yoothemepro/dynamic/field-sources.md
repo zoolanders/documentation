@@ -10,7 +10,7 @@ title: Field Sources
 
 ## Dynamic Options
 
-Above each element field a **Dynamic** button will appear allowing to map a dynamic content wheter the element has set a source in the **Advanced Tab** or not. The **Dynamic Options** will vary, however, depending on the element, the parent element and global queries configuration.
+Above each element field a **Dynamic** button will appear allowing to map a dynamic content Whether the element has set a source in the **Advanced Tab** or not. The **Dynamic Options** will vary, however, depending on the element, the parent element and global queries configuration.
 
 {% image %}
 ![Field Dynamic Options](/assets/ytp/dynamic/field-dynamic-options.webp)
