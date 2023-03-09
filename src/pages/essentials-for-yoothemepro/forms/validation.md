@@ -1,16 +1,16 @@
 ---
-title: Form Submission
+title: Validation
 ---
 
-Validate the submitted data before it reaches the server. {% .lead %}
+Before a submission is accepted the data must be validated. {% .lead %}
 
-For a submission to be processed it has to pass first the [fields validation](#fields-validation) as well as the [CAPTCHA validation](#captcha-validation), if any set.
+For a submission to be accepted and further processed it must pass the [fields validation](#fields-validation) as well as the [CAPTCHA validation](#captcha-validation), if any.
 
 ---
 
 ## Fields Validation
 
-Fields are validated first by the browser's native HTML5 validation, and once again via server-side ajax request. If desired, HTML5 validation can be disabled in the [Form Area settings](form-area#settings).
+Fields are validated first by the browser's native HTML5 validation, and once again via server-side ajax request. If desired, HTML5 validation can be disabled in the [Form Area Settings](form-area#settings).
 
 Validation rules are set independently on each Field Element under the Validation Tab. For integration and further details, please consult the [Fields Reference](fields) section.
 

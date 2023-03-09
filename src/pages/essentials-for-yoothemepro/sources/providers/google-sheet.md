@@ -24,7 +24,7 @@ The **Google Sheet Source** feeds data from a Google Sheet spreadsheet. Based on
 
 ## Source
 
-The **Google Sheet Source** creates a Dynamic Content source from a Google Sheet spreadsheet that an [oAuth authenticated](../../auths-manager#google-oauth-driver) account has access to.
+The **Google Sheet Source** creates a Dynamic Content source from a Google Sheet spreadsheet that an [OAuth authenticated](../../auths-manager#google-oauth-driver) account has access to.
 
 {% image %}
 ![Google Sheet Instance Configuration](/assets/ytp/sources/gsheet-config.webp)

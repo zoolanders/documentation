@@ -41,7 +41,7 @@ Follow through [integration](#integration) to create one or more Vimeo source in
 
 ### Vimeo Source
 
-The **Vimeo Source** creates a Dynamic Content source from the [oAuth authenticated](../../auths-manager#vimeo-oauth-driver) account.
+The **Vimeo Source** creates a Dynamic Content source from the [OAuth authenticated](../../auths-manager#vimeo-oauth-driver) account.
 
 {% image %}
 ![Vimeo Source Configuration](/assets/ytp/sources/vimeo-config.webp)

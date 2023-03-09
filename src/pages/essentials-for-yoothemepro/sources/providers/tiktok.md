@@ -39,7 +39,7 @@ Follow through [integration](#integration) to create one or more TikTok source i
 
 ### TikTok Source
 
-The **TikTok Source** creates a Dynamic Content source from the [oAuth authenticated](../../auths-manager#tiktok-oauth-driver) account.
+The **TikTok Source** creates a Dynamic Content source from the [OAuth authenticated](../../auths-manager#tiktok-oauth-driver) account.
 
 {% image %}
 ![TikTok Source Configuration](/assets/ytp/sources/tiktok-config.webp)

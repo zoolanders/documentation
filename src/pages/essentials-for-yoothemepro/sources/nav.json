@@ -5,8 +5,12 @@
             "title": "Getting Started",
             "links": [
                 {
-                    "title": "Integration",
+                    "title": "Overview",
                     "href": "./"
+                },
+                {
+                    "title": "Integration",
+                    "href": "./integration"
                 }
             ]
         },
@@ -14,8 +18,8 @@
             "title": "Core Concepts",
             "links": [
                 {
-                    "title": "Multi-Instance Sources",
-                    "href": "./multi-instance-sources"
+                    "title": "Multi-Instance Source",
+                    "href": "./multi-instance-source"
                 },
                 {
                     "title": "Conditions & Filters",
@@ -95,7 +99,7 @@
             "links": [
                 {
                     "title": "Create a Custom Source",
-                    "href": "./how-to/source"
+                    "href": "./create-custom-source"
                 }
             ]
         }

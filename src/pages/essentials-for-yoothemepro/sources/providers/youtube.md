@@ -64,7 +64,7 @@ The **Videos Source** creates a Dynamic Content source from YouTube videos authe
 
 ### My Channel Source
 
-The **My Channel Source** creates a Dynamic Content source from one of the YouTube channels owned by the [oAuth authenticated](../../auths-manager#google-oauth-driver) account.
+The **My Channel Source** creates a Dynamic Content source from one of the YouTube channels owned by the [OAuth authenticated](../../auths-manager#google-oauth-driver) account.
 
 {% image %}
 ![My YouTube Channel Source](/assets/ytp/sources/youtube-mychannel-config.webp)
@@ -80,7 +80,7 @@ The **My Channel Source** creates a Dynamic Content source from one of the YouTu
 
 ### My Playlist Source
 
-The **My Playlist Source** creates a Dynamic Content source from one of the YouTube playlists owned by the [oAuth authenticated](../../auths-manager#google-oauth-driver) account.
+The **My Playlist Source** creates a Dynamic Content source from one of the YouTube playlists owned by the [OAuth authenticated](../../auths-manager#google-oauth-driver) account.
 
 {% image %}
 ![My YouTube Playlist Source](/assets/ytp/sources/youtube-myplaylist-config.webp)

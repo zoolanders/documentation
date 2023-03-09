@@ -2,7 +2,7 @@
 title: Access Condition
 ---
 
-**Access Condition** evaluated if an element should be rendered. {% .lead %}
+**Access Condition** evaluates if an element should be rendered. {% .lead %}
 
 An **Access Condition** is a set of rules with a predefined or custom evaluation logic which final result will determine if the current element will be rendered or not, with support for Dynamic Content, custom evaluation logic and logs.
 

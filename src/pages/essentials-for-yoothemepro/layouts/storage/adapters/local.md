@@ -22,9 +22,9 @@ In case you're using a folder within your site's folder, remember that the **fil
 ![Local Storage Settings](/assets/ytp/layouts/storage-local.webp)
 {% /image %}
 
-| Setting  | Description                                                                                                                         | Required |
-|----------|-------------------------------------------------------------------------------------------------------------------------------------| :------: |
-| **Name** | A name to identify this storage.                                                                                                    | &#x2713; |
+| Setting  | Description | Required |
+|----------| ----------- | :------: |
+| **Name** | A name to identify this storage. | &#x2713; |
 | **Root** | The path to the folder. If it starts with `/` it's considered to be absolute, otherwise it's relative to the site's root directory. | &#x2713; |
 
 ---

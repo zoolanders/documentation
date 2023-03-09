@@ -41,7 +41,7 @@ Follow through [integration](#integration) to create one or more Facebook source
 
 ### Page Source
 
-The **Page Source** creates a Dynamic Content source from one of the Facebook pages which the [oAuth authenticated](../../auths-manager#facebook-oauth-driver) account has access to.
+The **Page Source** creates a Dynamic Content source from one of the Facebook pages which the [OAuth authenticated](../../auths-manager#facebook-oauth-driver) account has access to.
 
 {% image %}
 ![Facebook Source Configuration](/assets/ytp/sources/fb-config.webp)

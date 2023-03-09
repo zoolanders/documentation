@@ -5,8 +5,12 @@
             "title": "Getting Started",
             "links": [
                 {
-                    "title": "Integration",
+                    "title": "Overview",
                     "href": "./"
+                },
+                {
+                    "title": "Integration",
+                    "href": "./integration"
                 }
             ]
         },
@@ -119,7 +123,7 @@
             "links": [
                 {
                     "title": "Create a Custom Rule",
-                    "href": "./how-to/custom-rule"
+                    "href": "./create-custom-rule"
                 }
             ]
         }

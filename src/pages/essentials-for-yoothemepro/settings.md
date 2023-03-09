@@ -3,7 +3,9 @@ title: Essentials Settings
 pageTitle: Essentials for YOOtheme Pro Settings
 ---
 
-Essentials Settings hold most of Essentials Addons configuration under the _Essentials_ namespace of the Customizer root menu.
+**Essentials Settings** is in a sense the Essentials Dashboard where most configuration is held. {% .lead %}
+
+**Essentials Settings**, accessible under `Customizer -> Essentials` panel, holds Essentials configuration independently from the Theme settings.
 
 ---
 

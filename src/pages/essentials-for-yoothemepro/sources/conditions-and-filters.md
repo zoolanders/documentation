@@ -9,8 +9,8 @@ In order to have full control over a dynamic content it is important to understa
 | Type | Description | Execution Time | Dynamic Support |
 | ---- | ----------- | -------------- | --------------- |
 | [Query Conditions](#query-conditions) | Provided by each source individually. | Query | Partial |
-| [Dynamic Conditions](#dynamic-conditions) | Provided globally as part of the Dynamic Content core workflow. | Render | None |
-| [Access Conditions](#access-conditions) | Provided globally as part of the Essentials Access addon workflow. | Render | Full |
+| [Dynamic Condition](#dynamic-condition) | Provided globally as part of the Dynamic Content core workflow. | Render | None |
+| [Access Condition](#access-condition) | Provided globally as part of the Essentials Access addon workflow. | Render | Full |
 
 ---
 
@@ -24,7 +24,7 @@ In order to have full control over a dynamic content it is important to understa
 
 ---
 
-## Dynamic Conditions
+## Dynamic Condition
 
 **Dynamic Conditions**, part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#dynamic-conditions) core workflow, is a condition set during a source mapping to determine should the element be displayed. The amount of conditions is limited to one, and cannot use other dynamic values during the evaluation.
 
@@ -34,9 +34,9 @@ In order to have full control over a dynamic content it is important to understa
 
 ---
 
-## Access Conditions
+## Access Condition
 
-**Access Conditions**, part of the [Essentials Access Addon](../access/) workflow, work in a similar way as [Dynamic Conditions](#dynamic-conditions) do, but with support for dynamic values, multiple conditions and evaluation logic. You can opt to use them instead as per the benefits.
+**Access Conditions**, part of the [Essentials Access Addon](../access/) workflow, work in a similar way as [Dynamic Condition](#dynamic-condition) do, but with support for dynamic content, multiple rules and custom evaluation logic. You can opt to use them instead as per the benefits.
 
 {% image %}
 ![Access Conditions](/assets/ytp/sources/access-conditions.webp)

@@ -11,6 +11,44 @@
                 {
                     "title": "Integration",
                     "href": "./integration"
+                },
+                {
+                    "title": "Settings",
+                    "href": "./settings"
+                },
+                {
+                    "title": "Addons",
+                    "href": "./addons",
+                    "links": [
+                        {
+                            "title": "Forms",
+                            "href": "./forms"
+                        },
+                        {
+                            "title": "Sources",
+                            "href": "./addons/sources"
+                        },
+                        {
+                            "title": "Access",
+                            "href": "./addons/access"
+                        },
+                        {
+                            "title": "Dynamic",
+                            "href": "./addons/dynamic"
+                        },
+                        {
+                            "title": "Icons",
+                            "href": "./addons/icons"
+                        },
+                        {
+                            "title": "Layouts",
+                            "href": "./addons/layouts"
+                        },
+                        {
+                            "title": "Elements",
+                            "href": "./addons/elements"
+                        }
+                    ]
                 }
             ]
         },
@@ -18,41 +56,77 @@
             "title": "Core Concepts",
             "links": [
                 {
-                    "title": "Auths Manager",
-                    "href": "./auths-manager"
+                    "title": "OAuth, Keys & Secrets",
+                    "href": "./oauth-keys-secrets"
                 }
             ]
         },
         {
-            "title": "Addons",
+            "title": "Reference",
             "links": [
                 {
-                    "title": "Forms",
-                    "href": "./addon/forms"
+                    "title": "Auth Drivers",
+                    "href": "./auth/drivers",
+                    "links": [
+                        {
+                            "title": "AWS",
+                            "href": "./auths/drivers/aws"
+                        },
+                        {
+                            "title": "Google OAuth",
+                            "href": "./auths/drivers/google-oauth"
+                        },
+                        {
+                            "title": "Google API Key",
+                            "href": "./auths/drivers/google-api-key"
+                        },
+                        {
+                            "title": "Facebook OAuth",
+                            "href": "./auths/drivers/facebook-oauth"
+                        },
+                        {
+                            "title": "Instagram OAuth",
+                            "href": "./auths/drivers/instagram-oauth"
+                        },
+                        {
+                            "title": "TikTok OAuth",
+                            "href": "./auths/drivers/tiktok-oauth"
+                        },
+                        {
+                            "title": "Twitter OAuth",
+                            "href": "./auths/drivers/twitter-oauth"
+                        },
+                        {
+                            "title": "Vimeo OAuth",
+                            "href": "./auths/drivers/vimeo-oauth"
+                        },
+                        {
+                            "title": "Cloudflare API Token",
+                            "href": "./auths/drivers/cloudflare-api-token"
+                        },
+                        {
+                            "title": "API Key",
+                            "href": "./auths/drivers/api-key"
+                        }
+                    ]
                 },
                 {
-                    "title": "Sources",
-                    "href": "./addon/sources"
-                },
-                {
-                    "title": "Access",
-                    "href": "./addon/access"
-                },
-                {
-                    "title": "Dynamic",
-                    "href": "./addon/dynamic"
-                },
-                {
-                    "title": "Icons",
-                    "href": "./addon/icons"
-                },
-                {
-                    "title": "Layouts",
-                    "href": "./addon/layouts"
-                },
-                {
-                    "title": "Elements",
-                    "href": "./addon/elements"
+                    "title": "Storage Adapters",
+                    "href": "./storage/adapters",
+                    "links": [
+                        {
+                            "title": "Local",
+                            "href": "./storage/adapters/local"
+                        },
+                        {
+                            "title": "FTP",
+                            "href": "./storage/adapters/ftp"
+                        },
+                        {
+                            "title": "S3",
+                            "href": "./storage/adapters/s3"
+                        }
+                    ]
                 }
             ]
         },
@@ -60,14 +134,8 @@
             "title": "Advanced",
             "links": [
                 {
-                    "title": "Settings",
-                    "href": "./settings",
-                    "links": [
-                        {
-                            "title": "Geolocation",
-                            "href": "./settings/geolocation"
-                        }
-                    ]
+                    "title": "Geolocation",
+                    "href": "./geolocation"
                 }
             ]
         }

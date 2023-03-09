@@ -44,7 +44,7 @@ Follow through [integration](#integration) to create one or more Google Business
 
 ### Profile Location Source
 
-The **Profile Location Source** creates a Dynamic Content source from one of the Google Business Profile locations owned by the [oAuth authenticated](../../auths-manager#google-oauth-driver) account.
+The **Profile Location Source** creates a Dynamic Content source from one of the Google Business Profile locations owned by the [OAuth authenticated](../../auths-manager#google-oauth-driver) account.
 
 {% image %}
 ![Google Business Profile location Source](/assets/ytp/sources/gbp-location-config.webp)

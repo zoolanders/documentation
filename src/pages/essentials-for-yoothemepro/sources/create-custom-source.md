@@ -1,9 +1,9 @@
 ---
-title: Custom Content Source
-description: Create a custom Content Source
+title: Custom Multi-Instance Source
+description: Learn now to create a custom Multi-Instance Source
 ---
 
-Let's learn how to create a custom Content Source based on the Essentials [Source Manager](../manager) workflow.
+Learn how to create a custom source based on the [Multi-Instance Source](./multi-instance-source) workflow. {% .lead %}
 
 ---
 
@@ -236,5 +236,4 @@ class MySourceQueryType extends AbstractQueryType implements HasSourceInterface
 }
 ```
 
-That's all that is needed to create a simple Source Provider, but being it a standard YOOtheme Pro module there are no
-constraints on creating a more advanced and/or service-dependent one. Be creative and happy coding!
+That's all that is needed to create a simple Source Provider, but being it a standard YOOtheme Pro module there are no constraints on creating a more advanced and/or service-dependent one. Be creative and happy coding!

@@ -49,7 +49,7 @@ Follow through [integration](#integration) to create one or more Instagram sourc
 
 ### Personal Account Source
 
-The **Personal Account Source** creates a Dynamic Content source from the [oAuth authenticated](../../auths-manager#google-oauth-driver) Instagram Personal Account.
+The **Personal Account Source** creates a Dynamic Content source from the [OAuth authenticated](../../auths-manager#google-oauth-driver) Instagram Personal Account.
 
 {% image %}
 ![Instagram Personal Source Configuration](/assets/ytp/sources/ig-personal-config.webp)
@@ -64,7 +64,7 @@ The **Personal Account Source** creates a Dynamic Content source from the [oAuth
 
 ### Business Account Source
 
-The **Business Account Source** creates a Dynamic Content source from the [oAuth authenticated](../../auths-manager#google-oauth-driver) Instagram Business Account.
+The **Business Account Source** creates a Dynamic Content source from the [OAuth authenticated](../../auths-manager#google-oauth-driver) Instagram Business Account.
 
 {% image %}
 ![Instagram Business Source Configuration](/assets/ytp/sources/ig-business-config.webp)

@@ -5,8 +5,12 @@
             "title": "Getting Started",
             "links": [
                 {
-                    "title": "Integration",
+                    "title": "Overview",
                     "href": "./"
+                },
+                {
+                    "title": "Integration",
+                    "href": "./integration"
                 },
                 {
                     "title": "Presets",
@@ -22,8 +26,8 @@
                     "href": "./form-area"
                 },
                 {
-                    "title": "Submission",
-                    "href": "./submission"
+                    "title": "Data Validation",
+                    "href": "./validation"
                 },
                 {
                     "title": "After Submit Actions",
@@ -198,20 +202,20 @@
             "title": "Advanced",
             "links": [
                 {
-                    "title": "Troubleshooting",
-                    "href": "./troubleshooting"
-                },
-                {
                     "title": "Form Events",
                     "href": "./form-events"
                 },
                 {
-                    "title": "Show form in a Modal",
+                    "title": "Display Form in a Modal",
                     "href": "./how-to/modal"
                 },
                 {
                     "title": "Create a Custom Action",
                     "href": "./how-to/action"
+                },
+                {
+                    "title": "Troubleshooting",
+                    "href": "./troubleshooting"
                 }
             ]
         }

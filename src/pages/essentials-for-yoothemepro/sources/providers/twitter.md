@@ -40,7 +40,7 @@ Follow through [integration](#integration) to create one or more Twitter source 
 
 ### Twitter Source
 
-The **Twitter Source** creates a Dynamic Content source from the [oAuth authenticated](../../auths-manager#twitter-oauth-driver) account.
+The **Twitter Source** creates a Dynamic Content source from the [OAuth authenticated](../../auths-manager#twitter-oauth-driver) account.
 
 {% image %}
 ![Twitter Source Configuration](/assets/ytp/sources/twitter-config.webp)
