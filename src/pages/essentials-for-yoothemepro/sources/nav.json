@@ -94,14 +94,8 @@
             "title": "Advanced",
             "links": [
                 {
-                    "title": "How To",
-                    "href": "./how-to",
-                    "links": [
-                        {
-                            "title": "Create a Custom Source",
-                            "href": "./how-to/source"
-                        }
-                    ]
+                    "title": "Create a Custom Source",
+                    "href": "./how-to/source"
                 }
             ]
         }

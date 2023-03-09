@@ -1,5 +1,5 @@
 ---
-title: Hook into the form
+title: Form Events
 description: Learn how to hook into the form front-end events
 ---
 

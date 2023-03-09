@@ -30,7 +30,7 @@ Notice that this conditions is specific to Joomla only.
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |
 | **Selection** | The groups that the user must match, at least one, for the condition to be considered valid. | &#x2713; | &#x2713; |
-| **Match All** | Whether all groups must be matched for the validation to pass. | | &#x2713; |
+| **Match All** | Whether all groups must be matched for the validation to pass. |
 | **Reversed** | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
 
 {% details title="Advanced Settings" %}

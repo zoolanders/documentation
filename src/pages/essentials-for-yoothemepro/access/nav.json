@@ -14,14 +14,18 @@
             "title": "Core concepts",
             "links": [
                 {
-                    "title": "Concept 1",
-                    "href": "./builder"
+                    "title": "Access Condition",
+                    "href": "./condition"
                 }
             ]
         },
         {
             "title": "Reference",
             "links": [
+                {
+                    "title": "Dynamic Rule",
+                    "href": "./rules/dynamic"
+                },
                 {
                     "title": "Site Rules",
                     "href": "./rules/site",
@@ -113,6 +117,10 @@
         {
             "title": "Advanced",
             "links": [
+                {
+                    "title": "Create a Custom Rule",
+                    "href": "./how-to/custom-rule"
+                }
             ]
         }
     ]

@@ -1,0 +1,86 @@
+# Custom Rule
+
+A **Custom Rule** is a combination of a PHP Class, a config JSON file and an icon. Once the class is declared it will become available as any core rule in all **Access Condition** configurations.
+
+---
+
+Start by creating a custom Class and store it into a [Child Theme or Custom Plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
+
+The class has to extendd the `ZOOlanders\YOOessentials\Access\AbstractRule` and declare the `group`, `name`, `namespace`, `description`, `resolve`, `icon` and `fields` functions.
+
+```php
+use ZOOlanders\YOOessentials\Access\AbstractRule;
+
+class MyCustomRule extends AbstractRule
+{
+    public function group() : string
+    {
+        return 'custom'; // existent groups: user, datetime, site, device
+    }
+
+    public function name() : string
+    {
+        return 'My Custom Rule';
+    }
+
+    public function namespace() : string
+    {
+        return 'yooessentials_access_mycustomrule';
+    }
+
+    public function description() : string
+    {
+        return 'Validates if...';
+    }
+
+    public function icon() : string
+    {
+        return '/absolute/url/to/icon.svg';
+    }
+
+    /**
+     * @param \stdClass $props The settings values from the rule fields
+     * @param \stdClass $node The current element node being evaluated
+     */
+    public function resolve($props, $node) : bool
+    {
+      // if (!isset($props->options) || empty($props->options)) {
+      //   return true;
+      // }
+
+      // return in_array('value', $props->option);
+    }
+
+    public function fields() : array
+    {
+      return [
+        'checkbox' => [
+          'type' => 'checkbox',
+          'description' => ''
+        ],
+        'options' => [
+          'type' => 'select',
+          'description' => '',
+          'options' => [
+            'Option 1' => '1'
+          ]
+        ]
+      ];
+    }
+```
+
+Then declare each rule by adding a `yooessentials-access-rules` key to you `config.php` if you are in a [child theme](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality) or `bootstrap.php` if you are in a [custom plugin](https://yootheme.com/support/yootheme-pro/joomla/developers-modules) with a list of rule classes you want to add
+
+```php
+<?php
+
+require_once __DIR__ . '/MyCustomRule.php';
+
+return [
+
+    'yooessentials-access-rules' => [
+        MyCustomRule::class
+    ]
+
+];
+```
