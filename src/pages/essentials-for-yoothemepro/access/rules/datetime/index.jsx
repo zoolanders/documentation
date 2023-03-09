@@ -3,7 +3,7 @@ import {getAllPosts} from '@/api'
 import {ReferenceIndex} from '@/components/ReferenceIndex'
 import navigation from '../../nav.json'
 
-export default function FormAreaFields({index = []}) {
+export default function SectionIndex({index = []}) {
   return (
     <>
       <ReferenceIndex index={index}/>
@@ -12,7 +12,7 @@ export default function FormAreaFields({index = []}) {
 }
 
 export async function getStaticProps() {
-  const posts = getAllPosts('essentials-for-yoothemepro/access/rules/date', [
+  const posts = getAllPosts('essentials-for-yoothemepro/access/rules/datetime', [
     'title',
     'slug',
     'description',
@@ -20,7 +20,7 @@ export async function getStaticProps() {
     'preset'
   ])
 
-  const index = get(navigation, 'sections.2.links')
+  const index = get(navigation, 'sections.2.links.3.links')
     .map(link => posts.find(p => link.href === p.slug))
     .filter(Boolean)
 

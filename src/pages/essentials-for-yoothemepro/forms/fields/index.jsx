@@ -3,7 +3,7 @@ import {getAllPosts} from '@/api'
 import {ReferenceIndex} from '@/components/ReferenceIndex'
 import navigation from '../nav.json'
 
-export default function FormAreaFields({index = []}) {
+export default function SectionIndex({index = []}) {
   return (
     <>
       <ReferenceIndex index={index}/>
