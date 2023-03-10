@@ -14,7 +14,7 @@ An **Access Condition** is a set of rules with a predefined or custom evaluation
 
 ## Rules
 
-There are 16+ core rules organized in groups of [Site](./rules/site), [Device](./rules/device), and [DateTime](./rules/datetime). A condition can have multiple types of the same rule with diferent configurations.
+There are 16+ core rules organized in groups of [Site](./rules/site), [Device](./rules/device), [DateTime](./rules/datetime) and a fit it all rule called [Dynamic](./rules/dynamic). A condition can have multiple types of the same rule with diferent configurations.
 
 {% image %}
 ![Access Condition Rules](/assets/ytp/access/access-condition-rules.webp)

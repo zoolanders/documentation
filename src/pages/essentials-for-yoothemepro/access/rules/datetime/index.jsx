@@ -1,32 +1,27 @@
-import {get} from 'lodash'
-import {getAllPosts} from '@/api'
-import {ReferenceIndex} from '@/components/ReferenceIndex'
-import navigation from '../../nav.json'
+import { getAllPosts } from '@/api'
+import { ReferenceIndex } from '@/components/ReferenceIndex'
 
-export default function SectionIndex({index = []}) {
+export default function SectionIndex({ index }) {
   return (
     <>
-      <ReferenceIndex index={index}/>
+      <ReferenceIndex index={index} />
     </>
   )
 }
-
 export async function getStaticProps() {
-  const posts = getAllPosts('essentials-for-yoothemepro/access/rules/datetime', [
-    'title',
-    'slug',
-    'description',
-    'icon',
-    'preset'
-  ])
-
-  const index = get(navigation, 'sections.2.links.3.links')
-    .map(link => posts.find(p => link.href === p.slug))
-    .filter(Boolean)
+  const index = getAllPosts(
+    'essentials-for-yoothemepro/access/rules/datetime',
+    ['title','slug','description','icon']
+  )
 
   return {
     props: {
-      index
+      markdoc: {
+        frontmatter: {
+          title: 'Site Rules',
+        },
+      },
+      index,
     },
   }
 }

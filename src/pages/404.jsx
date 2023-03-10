@@ -18,8 +18,10 @@ export default function Custom404() {
                   Sorry, we couldn&apos;t find the page you&apos;re looking for.
                 </p>
               </div>
-              <div className="mt-10 flex space-x-3 sm:border-l sm:border-transparent sm:pl-6 font-display text-base text-slate-900 dark:text-white">
-                <Link href="/" className="text-primary">Go back home <span aria-hidden="true"> &rarr;</span></Link>
+              <div className="mt-10 flex space-x-3 font-display text-base text-slate-900 dark:text-white sm:border-l sm:border-transparent sm:pl-6">
+                <Link href="/" className="text-primary">
+                  Go back home <span aria-hidden="true"> &rarr;</span>
+                </Link>
               </div>
             </div>
           </main>

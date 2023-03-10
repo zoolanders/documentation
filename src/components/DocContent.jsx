@@ -1,6 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
-import {flatMap, flatMapDeep} from 'lodash'
+import { flatMap } from 'lodash'
 import { useRouter } from 'next/router'
 import { useCallback, useEffect, useState } from 'react'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
@@ -113,8 +113,11 @@ export function DocContent({ children, frontmatter, content, navigation }) {
   // const description = frontmatter.description
   const tableOfContents = collectHeadings(content)
 
-  const allLinks = flatMap(flatMap(navigation, 'links'), link => [link, ...flatMap(link.links, link => [link, ...flatMap(link.links)])])
-  const linkIndex = allLinks.findIndex(link => link.href === router.pathname)
+  const allLinks = flatMap(flatMap(navigation, 'links'), (link) => [
+    link,
+    ...flatMap(link.links, (link) => [link, ...flatMap(link.links)]),
+  ])
+  const linkIndex = allLinks.findIndex((link) => link.href === router.pathname)
   const previousPage = allLinks[linkIndex - 1]
   const nextPage = allLinks[linkIndex + 1]
   const section = navigation.find((section) =>
@@ -134,7 +137,6 @@ export function DocContent({ children, frontmatter, content, navigation }) {
 
   return (
     <div className="relative mx-auto flex max-w-8xl justify-center lg:px-8">
-
       <div className="hidden lg:relative lg:block lg:flex-none">
         <div className="absolute inset-y-0 right-0 w-[50vw] bg-slate-50 dark:hidden" />
         <div className="sticky top-[4.5rem] -ml-0.5 h-[calc(100vh-4.5rem)] overflow-y-auto py-16 pl-0.5">
@@ -251,7 +253,6 @@ export function DocContent({ children, frontmatter, content, navigation }) {
           )}
         </nav>
       </div>
-
     </div>
   )
 }

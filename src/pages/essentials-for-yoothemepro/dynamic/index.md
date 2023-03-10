@@ -1,7 +1,13 @@
 ---
-title: Integration
+title: Essential Addon Dynamic
+pageTitle: Essential Dynamic - Getting started with Essential Addon Dynamic for YOOtheme Pro
 ---
 
-Make sure [Essentials for YOOtheme Pro](../) plugin has been properly installed, then access the `Customizer -> Essentials -> Advanced` panel, you should see the **Dynamic Addon** listed and enabled.
+The **Dynamic Addon** extends YOOtheme Pro with a better [Dynamic Condition](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#field-mapping) workflow supporting composable rules, dynamic values and a custom evaluation logic.
 
-Next, start building your layouts using advanced dynamic features such as [Field Sources](./dynamic/field-sources), [Global Queries](dynamic/global-queries), and others.
+{% quick-links %}
+
+{% quick-link title="Field Sources" href="./field-sources" description="Learn about the Field Sources workflow." /%}
+{% quick-link title="Global Query" href="./global-queries" description="Create a Global Query." /%}
+
+{% /quick-links %}
