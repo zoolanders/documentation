@@ -1,6 +1,6 @@
 ---
-title: S/FTP Storage Adapter
-description: An adapter to store files in a remote server using the S/FTP protocol
+title: FTP Storage Adapter
+description: A storage adapter for the S/FTP protocol
 icon: '
   <path stroke="none" d="M20.57 13.056H9.426a.233.233 0 0 0-.233.232v11.666c0 .128.105.233.233.233H20.57a.233.233 0 0 0 .232-.233V13.288a.233.233 0 0 0-.232-.232Zm-9.52 1.857h7.895v3.395h-7.894v-3.395Zm7.895 8.416h-7.894v-3.395h7.894v3.395Z"/>
   <path stroke="none" d="M12.444 21.82c0 .51.42.929.929.929.509 0 .928-.42.928-.929 0-.51-.42-.929-.928-.929-.51 0-.929.42-.929.93Zm0-5.166c0 .51.42.929.929.929.509 0 .928-.42.928-.929 0-.51-.42-.929-.928-.929-.51 0-.929.42-.929.929Z"/>
@@ -21,3 +21,12 @@ The **S/FTP Storage Adapter** stores files in a remote server using the S/FTP pr
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Name** | A name to identify this storage. |
+| **Host** | The URL to the server hosting the folder. | &#x2713; |
+| **Port** | The port to use for establishing the connection with the server, defualts to `21`. |
+| **Username/Password** | The credentials for establishing the connection with the server. | &#x2713; |
+| **Root** | The remote path that will be used as the storage root. |
+| **Write Permission** | Wether the storage will have Write in addition to Read permission. |
+| **Passive Mode** | Wether to use Passive Mode for the connection. |
+| **SSL** | Wether to use SSL for the connection. |
+| **UTF8** | Wether to use UTF8 as the files content encoding format. |
+| **Ignore Passive Address** | Wether to ignore Passive Address for the connection. |
