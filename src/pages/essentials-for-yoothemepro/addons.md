@@ -9,8 +9,8 @@ Each addon holds a set of features with a specific purpose and is independent fr
 
 {% quick-links %}
 
-{% quick-link title="Forms" href="./../forms" description="Extend the builder with a submission workflow." /%}
-{% quick-link title="Sources" href="./../sources" description="Extend the builder with a submission workflow." /%}
-{% quick-link title="Access" href="./../access" description="Extend the builder with a submission workflow." /%}
+{% quick-link title="Forms" href="./../addon/forms" description="Extend the builder with a submission workflow." /%}
+{% quick-link title="Sources" href="./../addon/sources" description="Extend the builder with a submission workflow." /%}
+{% quick-link title="Access" href="./../addon/access" description="Extend the builder with a submission workflow." /%}
 
 {% /quick-links %}

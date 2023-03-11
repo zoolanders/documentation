@@ -1,21 +1,21 @@
 import navYtp from '@/pages/essentials-for-yoothemepro/nav.json'
-import navForms from '@/pages/essentials-for-yoothemepro/forms/nav.json'
-import navSources from '@/pages/essentials-for-yoothemepro/sources/nav.json'
-import navAccess from '@/pages/essentials-for-yoothemepro/access/nav.json'
-import navDynamic from '@/pages/essentials-for-yoothemepro/dynamic/nav.json'
-import navLayout from '@/pages/essentials-for-yoothemepro/layouts/nav.json'
-import navIcons from '@/pages/essentials-for-yoothemepro/icons/nav.json'
-import navElements from '@/pages/essentials-for-yoothemepro/elements/nav.json'
+import navForms from '@/pages/essentials-for-yoothemepro/addon/forms/nav.json'
+import navSources from '@/pages/essentials-for-yoothemepro/addon/sources/nav.json'
+import navAccess from '@/pages/essentials-for-yoothemepro/addon/access/nav.json'
+import navDynamic from '@/pages/essentials-for-yoothemepro/addon/dynamic/nav.json'
+import navLayout from '@/pages/essentials-for-yoothemepro/addon/layouts/nav.json'
+import navIcons from '@/pages/essentials-for-yoothemepro/addon/icons/nav.json'
+import navElements from '@/pages/essentials-for-yoothemepro/addon/elements/nav.json'
 
 const navs = {
     '/essentials-for-yoothemepro': navYtp,
-    '/essentials-for-yoothemepro/elements': navElements,
-    '/essentials-for-yoothemepro/icons': navIcons,
-    '/essentials-for-yoothemepro/layouts': navLayout,
-    '/essentials-for-yoothemepro/access': navAccess,
-    '/essentials-for-yoothemepro/dynamic': navDynamic,
-    '/essentials-for-yoothemepro/sources': navSources,
-    '/essentials-for-yoothemepro/forms': navForms,
+    '/essentials-for-yoothemepro/addon/elements': navElements,
+    '/essentials-for-yoothemepro/addon/icons': navIcons,
+    '/essentials-for-yoothemepro/addon/layouts': navLayout,
+    '/essentials-for-yoothemepro/addon/access': navAccess,
+    '/essentials-for-yoothemepro/addon/dynamic': navDynamic,
+    '/essentials-for-yoothemepro/addon/sources': navSources,
+    '/essentials-for-yoothemepro/addon/forms': navForms,
 }
 
 export function getNav(forPath) {

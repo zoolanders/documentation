@@ -22,31 +22,31 @@
                     "links": [
                         {
                             "title": "Forms",
-                            "href": "./forms"
+                            "href": "./addon/forms"
                         },
                         {
                             "title": "Sources",
-                            "href": "./addons/sources"
+                            "href": "./addon/sources"
                         },
                         {
                             "title": "Access",
-                            "href": "./addons/access"
+                            "href": "./addon/access"
                         },
                         {
                             "title": "Dynamic",
-                            "href": "./addons/dynamic"
+                            "href": "./addon/dynamic"
                         },
                         {
                             "title": "Icons",
-                            "href": "./addons/icons"
+                            "href": "./addon/icons"
                         },
                         {
                             "title": "Layouts",
-                            "href": "./addons/layouts"
+                            "href": "./addon/layouts"
                         },
                         {
                             "title": "Elements",
-                            "href": "./addons/elements"
+                            "href": "./addon/elements"
                         }
                     ]
                 }
