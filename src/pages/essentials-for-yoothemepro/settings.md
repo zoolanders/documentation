@@ -5,7 +5,7 @@ pageTitle: Essentials for YOOtheme Pro Settings
 
 **Essentials Settings** is in a sense the Essentials Dashboard where most configuration is held. {% .lead %}
 
-**Essentials Settings**, accessible under `Customizer -> Essentials` panel, holds Essentials configuration independently from the Theme settings.
+**Essentials Settings** is accessed at `Customizer -> Essentials` panel and holds Essentials configuration independently from the Theme settings.
 
 ---
 

@@ -1,15 +1,12 @@
 ---
-title: Essentials for YOOtheme Pro Integration
+title: Essentials Integration
 ---
 
-## Installation
+**Essentials** is in essence a plugin and has to be installed like any other Joomla or WordPress plugin. {% .lead %}
 
-Essentials is in essence a plugin and has to be installed like any other Joomla or WordPress plugin. [Download](https://www.zoolanders.com/downloads) the required platform version, then follow the specific installation guide.
+[Download](https://www.zoolanders.com/downloads) the required platform version, then follow the targeted platform installation guide, [Joomla](https://docs.joomla.org/Installing_an_extension) or [WordPress](https://wordpress.org/support/article/managing-plugins/#installing-plugins-1).
 
-- [Joomla](https://docs.joomla.org/Installing_an_extension)
-- [WordPress](https://wordpress.org/support/article/managing-plugins/#installing-plugins-1)
-
-After a successful installation, a plugin named Essentials YOOtheme Pro (a.k.a `yooessentials`) should be listed and enabled.
+After a successful installation, a plugin named **Essentials YOOtheme Pro** (a.k.a `yooessentials`) should be listed and enabled.
 
 {% callout title="Installation Folder" %}
 The plugin will be installed under the `plugins/system/yooessentials` for Joomla and `wp-contents/plugins/yooessentials` directory for WordPress.
@@ -17,9 +14,9 @@ The plugin will be installed under the `plugins/system/yooessentials` for Joomla
 
 ---
 
-## Update
+## Automatic Updates
 
-New available versions will be notified in the `Joomla Extensions Update` or `WordPress Plugins` control panels. Within it, you can easily update with a one-click action considering that for the Premium version, you will have to set your [ZOOlanders Download ID](#download-id).
+New available versions will be notified in the **Joomla Extensions Update** or **WordPress Plugins** control panels. Within it, you can easily update with a one-click action considering that for the Premium version, you will have to set your [ZOOlanders Download ID](#download-id) first.
 
 {% callout title="Manuall Update" %}
 You can as well update manually by [downloading](https://www.zoolanders.com/downloads) the latest version and installing over. A previous installation will be detected and an update made instead.
@@ -29,12 +26,16 @@ You can as well update manually by [downloading](https://www.zoolanders.com/down
 
 ## Download ID
 
-A ZOOlanders Download ID is an alphanumeric code created in the [ZOOlanders Download IDs section](https://zoolanders.com/account/download-ids) that is required to update the Premium version.
+A **ZOOlanders Download ID** is an alphanumeric code created in the [ZOOlanders Download IDs section](https://zoolanders.com/account/download-ids) that is required to update the Premium version.
 
 ![Download ID](/download-id.png)
 
-Once you have created a Download ID you must set it in your site, an action that slightly differs in Joomla and WordPress.
+Once you have created a Download ID you must set it in your site, an action that slightly differs on each platform.
 
-If using Joomla, go to the plugins control panel and locate the ZOOlanders Installer Plugin. Input the Download ID into the plugin settings.
+### Joomla
 
-If WordPress, go to the Global Settings menu and locate the ZOOlanders Settings Panel, input the Download ID into the panel settings.
+In the **Joomla Plugins** control panel locate the **ZOOlanders Installer Plugin**, then input the Download ID into the plugin settings.
+
+### WordPress
+
+In the **WordPress Global Settings** menu locate the **ZOOlanders Settings Panel**, then input the Download ID into the panel settings.

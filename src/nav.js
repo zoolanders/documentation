@@ -10,12 +10,12 @@ import navElements from '@/pages/essentials-for-yoothemepro/addon/elements/nav.j
 const navs = {
     '/essentials-for-yoothemepro': navYtp,
     '/essentials-for-yoothemepro/addon/elements': navElements,
-    '/essentials-for-yoothemepro/addon/icons': navIcons,
     '/essentials-for-yoothemepro/addon/layouts': navLayout,
-    '/essentials-for-yoothemepro/addon/access': navAccess,
     '/essentials-for-yoothemepro/addon/dynamic': navDynamic,
-    '/essentials-for-yoothemepro/addon/sources': navSources,
+    '/essentials-for-yoothemepro/addon/icons': navIcons,
     '/essentials-for-yoothemepro/addon/forms': navForms,
+    '/essentials-for-yoothemepro/addon/sources': navSources,
+    '/essentials-for-yoothemepro/addon/access': navAccess,
 }
 
 export function getNav(forPath) {
