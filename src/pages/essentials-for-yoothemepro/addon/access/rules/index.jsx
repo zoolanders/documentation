@@ -22,22 +22,22 @@ export default function SectionIndex({ misc, site, device, datetime }) {
 }
 export async function getStaticProps() {
   const misc = getAllPosts(
-    'essentials-for-yoothemepro/access/rules',
+    'essentials-for-yoothemepro/addon/access/rules',
     ['title','slug','description','icon']
   )
 
   const site = getAllPosts(
-    'essentials-for-yoothemepro/access/rules/site',
+    'essentials-for-yoothemepro/addon/access/rules/site',
     ['title', 'slug', 'description', 'icon']
   )
 
   const device = getAllPosts(
-    'essentials-for-yoothemepro/access/rules/device',
+    'essentials-for-yoothemepro/addon/access/rules/device',
     ['title', 'slug', 'description', 'icon']
   )
 
   const datetime = getAllPosts(
-    'essentials-for-yoothemepro/access/rules/datetime',
+    'essentials-for-yoothemepro/addon/access/rules/datetime',
     ['title', 'slug', 'description', 'icon']
   )
 

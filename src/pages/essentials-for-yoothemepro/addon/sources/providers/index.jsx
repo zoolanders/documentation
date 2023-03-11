@@ -12,7 +12,7 @@ export default function SourcesProviders({index = []}) {
 }
 
 export async function getStaticProps() {
-  const posts = getAllPosts('essentials-for-yoothemepro/sources/providers', [
+  const posts = getAllPosts('essentials-for-yoothemepro/addon/sources/providers', [
     'title',
     'slug',
     'description',

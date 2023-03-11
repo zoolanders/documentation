@@ -12,7 +12,7 @@ export default function SectionIndex({index = []}) {
 }
 
 export async function getStaticProps() {
-  const posts = getAllPosts('essentials-for-yoothemepro/forms/captcha', [
+  const posts = getAllPosts('essentials-for-yoothemepro/addon/forms/captcha', [
     'title',
     'slug',
     'description',

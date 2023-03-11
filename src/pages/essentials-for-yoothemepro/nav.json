@@ -13,6 +13,32 @@
                     "href": "./integration"
                 },
                 {
+                    "title": "Changelog",
+                    "href": "./changelog"
+                }
+            ]
+        },
+        {
+            "title": "Core Concepts",
+            "links": [
+                {
+                    "title": "OAuth, Keys & Secrets",
+                    "href": "./oauth-keys-secrets"
+                },
+                {
+                    "title": "Storage Abstraction",
+                    "href": "./storage-abstraction"
+                },
+                {
+                    "title": "Geolocation",
+                    "href": "./geolocation"
+                }
+            ]
+        },
+        {
+            "title": "Reference",
+            "links": [
+                {
                     "title": "Settings",
                     "href": "./settings"
                 },
@@ -21,24 +47,24 @@
                     "href": "./addons",
                     "links": [
                         {
-                            "title": "Forms",
-                            "href": "./addon/forms"
+                            "title": "Access",
+                            "href": "./addon/access"
                         },
                         {
                             "title": "Sources",
                             "href": "./addon/sources"
                         },
                         {
-                            "title": "Access",
-                            "href": "./addon/access"
-                        },
-                        {
-                            "title": "Dynamic",
-                            "href": "./addon/dynamic"
+                            "title": "Forms",
+                            "href": "./addon/forms"
                         },
                         {
                             "title": "Icons",
                             "href": "./addon/icons"
+                        },
+                        {
+                            "title": "Dynamic",
+                            "href": "./addon/dynamic"
                         },
                         {
                             "title": "Layouts",
@@ -49,64 +75,50 @@
                             "href": "./addon/elements"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "title": "Core Concepts",
-            "links": [
-                {
-                    "title": "OAuth, Keys & Secrets",
-                    "href": "./oauth-keys-secrets"
-                }
-            ]
-        },
-        {
-            "title": "Reference",
-            "links": [
+                },
                 {
                     "title": "Auth Drivers",
                     "href": "./auth/drivers",
                     "links": [
                         {
                             "title": "AWS",
-                            "href": "./auths/drivers/aws"
+                            "href": "./auth/drivers/aws"
                         },
                         {
                             "title": "Google OAuth",
-                            "href": "./auths/drivers/google-oauth"
+                            "href": "./auth/drivers/google-oauth"
                         },
                         {
                             "title": "Google API Key",
-                            "href": "./auths/drivers/google-api-key"
+                            "href": "./auth/drivers/google-api-key"
                         },
                         {
                             "title": "Facebook OAuth",
-                            "href": "./auths/drivers/facebook-oauth"
+                            "href": "./auth/drivers/facebook-oauth"
                         },
                         {
                             "title": "Instagram OAuth",
-                            "href": "./auths/drivers/instagram-oauth"
+                            "href": "./auth/drivers/instagram-oauth"
                         },
                         {
                             "title": "TikTok OAuth",
-                            "href": "./auths/drivers/tiktok-oauth"
+                            "href": "./auth/drivers/tiktok-oauth"
                         },
                         {
                             "title": "Twitter OAuth",
-                            "href": "./auths/drivers/twitter-oauth"
+                            "href": "./auth/drivers/twitter-oauth"
                         },
                         {
                             "title": "Vimeo OAuth",
-                            "href": "./auths/drivers/vimeo-oauth"
+                            "href": "./auth/drivers/vimeo-oauth"
                         },
                         {
                             "title": "Cloudflare API Token",
-                            "href": "./auths/drivers/cloudflare-api-token"
+                            "href": "./auth/drivers/cloudflare-api-token"
                         },
                         {
                             "title": "API Key",
-                            "href": "./auths/drivers/api-key"
+                            "href": "./auth/drivers/api-key"
                         }
                     ]
                 },
@@ -127,15 +139,6 @@
                             "href": "./storage/adapters/s3"
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "title": "Advanced",
-            "links": [
-                {
-                    "title": "Geolocation",
-                    "href": "./geolocation"
                 }
             ]
         }

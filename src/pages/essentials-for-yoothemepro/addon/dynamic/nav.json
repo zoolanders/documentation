@@ -18,12 +18,12 @@
             "title": "Core Concepts",
             "links": [
                 {
-                    "title": "Source Inheritance",
-                    "href": "./source-inheritance"
+                    "title": "Field Sources",
+                    "href": "./field-sources"
                 },
                 {
-                    "title": "Field Source Queries",
-                    "href": "./field-source-queries"
+                    "title": "Source Inheritance",
+                    "href": "./source-inheritance"
                 },
                 {
                     "title": "Global Queries",

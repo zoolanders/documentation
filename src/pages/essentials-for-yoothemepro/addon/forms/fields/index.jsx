@@ -12,7 +12,7 @@ export default function SectionIndex({index = []}) {
 }
 
 export async function getStaticProps() {
-  const posts = getAllPosts('essentials-for-yoothemepro/forms/fields', [
+  const posts = getAllPosts('essentials-for-yoothemepro/addon/forms/fields', [
     'title',
     'slug',
     'description',

@@ -4,15 +4,13 @@ title: OAuths, Keys & Secrets
 
 **OAuths, Keys & Secrets** is sensitive authentication data that we simply call **auths**. {% .lead %}
 
-**Essentials** builds on top of **YOOtheme Pro** a workflow to authenticate to 3rd party services with the [OAuth](#oauth) protocol as well as to store [Keys and Secrets](#keys-and-secrets) used across the system. The auth workflow has been built with [security](#security) in mind, as well as convenience through a [manager](#auth-manager).
-
-Ultimately, the authentication responsibility relies on the [Auth Driver](./auths/drivers) which manage the process for specific services under constrained scopes.
+**Essentials** builds on top of **YOOtheme Pro** a workflow to authenticate to 3rd party services with the [OAuth](#oauth) protocol as well as to store [Keys and Secrets](#keys-and-secrets). The auth workflow has been built with [security](#security) in mind, as well as convenience through a [manager](#auth-manager).
 
 ---
 
 ## Auth Manager
 
-The **Auth Manager**, accessible at `Customizer -> Essentials -> Auths` panel, manages existing OAuths, Keys & Srecrets. You can alter those and delete them withing the manager, but you cannot create new ones as an auth is tied to specific scopes and/or purpose only known while building the layouts.
+The **Auth Manager**, accessible at `Customizer -> Essentials -> Auths` panel, manages existing **OAuths, Keys & Secrets**. You can alter those and delete them withing the manager, but you cannot create new ones as an auth is tied to specific scopes and/or purpose only known while building the layouts.
 
 {% image %}
 ![Auth Manager](/assets/ytp/auths-manager.gif)
@@ -26,9 +24,15 @@ It is also possible, and somewhat more convenient, to manage the auths while cre
 
 ---
 
+## Auth Driver
+
+Every auth requires an **Auth Driver** that will manage the authentication workflow or specify the secrets to be stored. Common [Auth Drivers](./auth/drivers) are provided out of the box while is also possible to register custom ones.
+
+---
+
 ## OAuth
 
-This is the process where you authenticate to 3rd party services using the **OAuth** protocol and grant [ZOOlanders OAuth App](#zoolanders-oauth-app), or your **Auth App**, permissions to access content or act on your behalf.
+This is the process where you authenticate to 3rd party services using the **OAuth** protocol and grant [ZOOlanders OAuth App](#zoolanders-oauth-app), or your [Custom OAuth App](#custom-oauth-app), permissions to access content or act on your behalf.
 
 {% image %}
 ![OAuth](/assets/ytp/auths-oauth.webp)
@@ -36,17 +40,7 @@ This is the process where you authenticate to 3rd party services using the **OAu
 
 ---
 
-## Keys and Secrets
-
-Some services do not yet support **OAuth**, or cannot as per the service nature, being an alternative a **Key** or a pair of a **Key** & a **Secret**.
-
-{% image %}
-![OAuth](/assets/ytp/auths-key.webp)
-{% /image %}
-
----
-
-## ZOOlanders OAuth App
+### ZOOlanders OAuth App
 
 For each service using the **OAuth** protocol, there must be an **OAuth App** created within the service with an approval process. Creating those is security-wise recommended, but is time-consuming and can be somewhat challenging.
 
@@ -62,12 +56,22 @@ When using our **OAuth App** the API quota is shared among other users, even tho
 
 ---
 
-## Custom OAuth App
+### Custom OAuth App
 
 For high traffic sites, or for anyone that has the skills to do it, we strongly advise to create your own **OAuth App** and use it client **ID**/**Secret** when authenticating. That would avoid any possible quota limitations and enhance further security.
 
 {% image %}
 ![Custom OAuth App](/assets/ytp/auths-custom-app.webp)
+{% /image %}
+
+---
+
+## Keys and Secrets
+
+Many features and services relies on **Keys & Secrets** for authentication or configuration, it's convenient to have a central and [secure](#security) place where to store and manage them.
+
+{% image %}
+![Keys & Secrets](/assets/ytp/auths-key.webp)
 {% /image %}
 
 ---
@@ -80,7 +84,7 @@ The auth workflow has been built with security in mind but is important to under
 
 All auth tokens, keys & secrets are strongly **encrypted** and stored in [Essentials Settings](./settings) which is ultimately a Database Table. This is important as you don't want to expose those, but even if that would happen the encryption would make them useless.
 
-Furthermore, the decryption would only work in the site it was encrypted because the site's secret key is used for the encryption. That means that porting the auths to a different site is not possible.
+Furthermore, the decryption would only work in the same site it was encrypted by, because the site's secret key is used for the encryption. That means that porting the auths to a different site is not possible.
 
 ### OAuth Principles
 

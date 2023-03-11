@@ -10,7 +10,7 @@ export default function SectionIndex({ index }) {
 }
 export async function getStaticProps() {
   const index = getAllPosts(
-    'essentials-for-yoothemepro/access/rules/datetime',
+    'essentials-for-yoothemepro/addon/access/rules/datetime',
     ['title','slug','description','icon']
   )
 
