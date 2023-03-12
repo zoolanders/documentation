@@ -3,9 +3,9 @@ title: Essential Addon Icons
 pageTitle: Essential Icons - Getting started with Essential Addon Icons for YOOtheme Pro
 ---
 
-The **Icons Addon** extends [YOOtheme Pro Builder](https://yootheme.com/support/yootheme-pro/joomla/page-builder) with an **Icons Condition** that will determine if an **Element** should be rendered or not. The condition is composed of rules with support for **Dynamic Content**, custom evaluation logic and logs.
+Add custom and 3rd party **Icon Collections** perfectly integrated with the builder worfklow, a combined collection of more than 12k icons from libraries as Font Awesome, Bootstrap, Ionicons, and many others. {% .lead %}
 
-Learn how to get started in the next section or jump to one of the topics bellow.
+Get started in the next section or dive into one of the topics bellow.
 
 {% quick-links %}
 

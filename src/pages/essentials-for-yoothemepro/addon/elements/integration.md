@@ -1,7 +1,19 @@
 ---
-title: Integration
+title: Elements Addon Integration
 ---
 
-Make sure [Essentials for YOOtheme Pro](../) plugin has been properly installed, then access the `Customizer -> Essentials -> Advanced` panel, you should see the **Elements Addon** listed and enabled.
+Follow through to learn how to set one of the elements in a Builder Layout, even if you are already familiar with the concept you might learn something new. {% .lead %}
 
-<!-- Next, create a new Library  following the [step by step guide](#create-a-layout-library) below or jump to a [Quick Setup](#quick-setup). -->
+Before starting, make sure Essentials has been properly [installed](../../integration), then access the `Customizer -> Essentials -> Advanced` section and enable the **Elements Addon**. Save the changes and refresh the page.
+
+{% image caption="If the addon is not listed double check Essentials Premium has been installed."%}
+![Enable Elements Addon](/assets/ytp/elements/integration/enable-addon.gif)
+{% /image %}
+
+---
+
+## Follow Through
+
+### 1.
+
+### 2.

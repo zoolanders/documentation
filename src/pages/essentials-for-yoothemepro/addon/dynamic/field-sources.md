@@ -2,9 +2,9 @@
 title: Field Sources
 ---
 
-**Field Sources** simplifies the creation of advanced layouts with dynamic content.  {% .lead %}
+**Field Sources** makes it easier to create advanced layouts without workarounds. {% .lead %}
 
-**Field Sources** expand on the YOOtheme Pro [Field Mapping](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#field-mapping) concept with the possibility to choose the source for each field individually. By default, the core worklow limits the mapping to the content of the source selected on the element level which is, per design, limited. By removing that limitation becomes possible the creation of advanced layouts using just core elements.
+**Field Sources** extends [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content) workflow with Field level **Dynamic Options** such as **Parent Inheritance**, **Global Sources**, **Page Queries**, and **Global Queries**. All options are set directly, without having to set the source at Element level, while that option remains and both combine together.
 
 ---
 
@@ -16,7 +16,9 @@ Above each element field a **Dynamic** button will appear allowing to map a dyna
 ![Field Dynamic Options](/assets/ytp/dynamic/field-dynamic-options.webp)
 {% /image %}
 
-### Inherit Node
+### Parent Inheritance
+
+**Source Inheritance** allows a **Child Element** to map **Dynamic Content** set on a **Parent Element**. {% .lead %}
 
 The **Inherit Node** option allows mapping the content of the source set on the element. This presents a great versatily as it supports combining the element level source with field level source on the same configuration. It works great even with multi-item content in which case each transient element will inherit the appropiate item content.
 

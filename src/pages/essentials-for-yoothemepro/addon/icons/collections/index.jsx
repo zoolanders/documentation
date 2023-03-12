@@ -1,7 +1,7 @@
 import {get} from 'lodash'
 import {getAllPosts} from '@/api'
 import {ReferenceIndex} from '@/components/ReferenceIndex'
-import navigation from '../../nav.json'
+import navigation from '../nav.json'
 
 export default function SectionIndex({index = []}) {
   return (
@@ -12,7 +12,7 @@ export default function SectionIndex({index = []}) {
 }
 
 export async function getStaticProps() {
-  const posts = getAllPosts('essentials-for-yoothemepro/addon/icons/collection', [
+  const posts = getAllPosts('essentials-for-yoothemepro/addon/icons/collections', [
     'title',
     'slug',
     'description',

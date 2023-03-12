@@ -1,7 +1,7 @@
 import {get} from 'lodash'
 import {getAllPosts} from '@/api'
 import {ReferenceIndex} from '@/components/ReferenceIndex'
-import navigation from '../../nav.json'
+import navigation from '../nav.json'
 
 export default function SectionIndex({index = []}) {
   return (

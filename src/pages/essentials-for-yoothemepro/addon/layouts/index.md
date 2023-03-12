@@ -3,9 +3,9 @@ title: Essential Addon Layouts
 pageTitle: Essential Layouts - Getting started with Essential Addon Layouts for YOOtheme Pro
 ---
 
-The **Layouts Addon** extends [YOOtheme Pro Builder](https://yootheme.com/support/yootheme-pro/joomla/page-builder) with an **Layouts Condition** that will determine if an **Element** should be rendered or not. The condition is composed of rules with support for **Dynamic Content**, custom evaluation logic and logs.
+Create custom builder Layout and Element Presets Libraries, keep them local os share them across-sites with an external storage as FTP or Amazon S3. {% .lead %}
 
-Learn how to get started in the next section or jump to one of the topics bellow.
+Get started in the next section or dive into one of the topics bellow.
 
 {% quick-links %}
 

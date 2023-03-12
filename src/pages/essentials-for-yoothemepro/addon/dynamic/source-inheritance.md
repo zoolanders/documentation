@@ -1,10 +1,10 @@
 ---
-title: Field Sources
+title: Source Inheritance
 ---
 
-**Field Sources** simplifies the creation of advanced layouts with dynamic content.  {% .lead %}
+**Source Inheritance** allows a **Child Element** to map **Dynamic Content** set on a **Parent Element**. {% .lead %}
 
-**Field Sources** expand on the YOOtheme Pro [Field Mapping](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#field-mapping) concept with the possibility to choose the source for each field individually. By default, the core worklow limits the mapping to the content of the source selected on the element level which is, per design, limited. By removing that limitation becomes possible the creation of advanced layouts using just core elements.
+**Source Inheritance** expands on the [YOOtheme Pro Field Mapping](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#field-mapping) concept with the possibility to choose the source for each field individually. By default, the core worklow limits the mapping to the content of the source selected on the element level which is, per design, limited. By removing that limitation becomes possible the creation of advanced layouts using just core elements.
 
 ---
 

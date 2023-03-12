@@ -3,9 +3,9 @@ title: Essential Addon Elements
 pageTitle: Essential Elements - Getting started with Essential Addon Elements for YOOtheme Pro
 ---
 
-The **Elements Addon** extends [YOOtheme Pro Builder](https://yootheme.com/support/yootheme-pro/joomla/page-builder) with an **Elements Condition** that will determine if an **Element** should be rendered or not. The condition is composed of rules with support for **Dynamic Content**, custom evaluation logic and logs.
+Create visually impressive charts from static and dynamic data, process markdown content or let users share the current page on their social media. {% .lead %}
 
-Learn how to get started in the next section or jump to one of the topics bellow.
+Get started in the next section or dive into one of the topics bellow.
 
 {% quick-links %}
 

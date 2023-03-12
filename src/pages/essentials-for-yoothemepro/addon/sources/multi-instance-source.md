@@ -2,9 +2,9 @@
 title: Multi-Instance Source
 ---
 
-A **Multi-Instance Source** is a standard source that can have multiple instances with different configurations. {% .lead %}
+A **Multi-Instance Source** is a standard source running in paralel multiple instances with different configurations. {% .lead %}
 
-A **Multi-Instance Source** is based on the same core principles introduced by YOOtheme Pro [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content), whith one important difference. A Multi-Instance Source can run more than one identical instance parallel to each other while each instance has its own configuration and dynamic content queries created on demand.
+A **Multi-Instance Source** is based on the same core principles introduced by [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content) sources, but running more than one identical instance parallel to each other while each instance has its own configuration and dynamic content queries created on demand.
 
 This creation process is done once and the result stored in the builder **GraphQL Schema**, being the final result and performance identical as of a standard source.
 

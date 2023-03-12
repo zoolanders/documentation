@@ -22,10 +22,6 @@
                     "href": "./field-sources"
                 },
                 {
-                    "title": "Source Inheritance",
-                    "href": "./source-inheritance"
-                },
-                {
                     "title": "Global Queries",
                     "href": "./global-queries"
                 }

@@ -3,9 +3,9 @@ title: Essential Addon Forms
 pageTitle: Essential Forms - Getting started with Essential Addon Forms for YOOtheme Pro
 ---
 
-The **Forms Addon** extends [YOOtheme Pro Builder](https://yootheme.com/support/yootheme-pro/joomla/page-builder) with a submission workflow, enabling any **Section** or **Column** as a **Form Area** with full builder capabilities. {% .lead %}
+Enable a Section or Column as a **Form Area** with full submission workflow and builder capabilities, validate the submitted data and run actions after. {% .lead %}
 
-Learn how to get started in the next section or jump to one of the topics bellow.
+Get started in the next section or dive into one of the topics bellow.
 
 {% quick-links %}
 

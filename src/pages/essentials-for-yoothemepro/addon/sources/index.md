@@ -3,9 +3,9 @@ title: Essential Addon Sources
 pageTitle: Essential Sources - Getting started with Essential Addon Sources for YOOtheme Pro
 ---
 
-The **Sources Addon** extends [YOOtheme Pro Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content) with a workflow of multiple, configuration scoped, source instances. This allows the introduction of sources which structure varies depending on the configuration, like a **Database Table** or **Instagram Media**. {% .lead %}
+Create content sources from structurally complex or service dependent data, such as Database Tables, CSV files, Instagram Media, Google Spreadsheet, and many other. {% .lead %}
 
-Learn how to get started in the next section or jump to one of the topics bellow.
+Get started in the next section or dive into one of the topics bellow.
 
 {% quick-links %}
 
