@@ -1,6 +1,6 @@
 ---
-title: Essential Addon Layouts
-pageTitle: Essential Layouts - Getting started with Essential Addon Layouts for YOOtheme Pro
+title: Layouts Addon
+pageTitle: Layouts Addon - An Essential addon for YOOtheme Pro
 ---
 
 Create custom builder Layout and Element Presets Libraries, keep them local os share them across-sites with an external storage as FTP or Amazon S3. {% .lead %}

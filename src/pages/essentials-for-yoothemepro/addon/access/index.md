@@ -1,9 +1,9 @@
 ---
-title: Essential Addon Access
-pageTitle: Essential Access - Getting started with Essential Addon Access for YOOtheme Pro
+title: Access Addon
+pageTitle: Access Addon - An Essential addon for YOOtheme Pro
 ---
 
-Compose rules that will evaluate if an element should be rendered or not. Use static or dynamic values, set custom evaluation logic and review logs directly in the builder to better understand the evaluation result. {% .lead %}
+Compose rules which evaluation will determine if an element will be rendered, use static or dynamic values, set custom evaluation logic and review logs directly in the builder to better understand the evaluation result. {% .lead %}
 
 Get started in the next section or dive into one of the topics bellow.
 

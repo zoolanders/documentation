@@ -1,6 +1,6 @@
 ---
-title: Essential Addon Icons
-pageTitle: Essential Icons - Getting started with Essential Addon Icons for YOOtheme Pro
+title: Icons Addon
+pageTitle: Icons Addon - An Essential addon for YOOtheme Pro
 ---
 
 Add custom and 3rd party **Icon Collections** perfectly integrated with the builder worfklow, a combined collection of more than 12k icons from libraries as Font Awesome, Bootstrap, Ionicons, and many others. {% .lead %}

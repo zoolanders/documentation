@@ -16,7 +16,9 @@ Before starting, make sure Essentials has been properly [installed](../../integr
 
 Next, start building your layouts using advanced dynamic features such as [Field Sources](./dynamic/field-sources), [Global Queries](dynamic/global-queries), and others.
 
-## Dynamic Options
+## 1.
+
+Dynamic Options
 
 Above each element field a **Dynamic** button will appear allowing to map a dynamic content whether the element has set a source in the **Advanced Tab** or not. The **Dynamic Options** will vary, however, depending on the element, the parent element and global queries configuration.
 

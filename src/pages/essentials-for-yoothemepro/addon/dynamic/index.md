@@ -1,6 +1,6 @@
 ---
-title: Essential Addon Dynamic
-pageTitle: Essential Dynamic - Getting started with Essential Addon Dynamic for YOOtheme Pro
+title: Dynamic Addon
+pageTitle: Dynamic Addon - An Essential addon for YOOtheme Pro
 ---
 
 Create advanced layouts easier with content sources mapped directly to an element field, inherit a parent source, and declare source queries on a global level. {% .lead %}

@@ -2,7 +2,7 @@
 title: Access Condition
 ---
 
-**Access Condition** evaluates if an element should be rendered. {% .lead %}
+Compose rules which evaluation will determine if an element will be rendered. {% .lead %}
 
 An **Access Condition** is a set of rules with a predefined or custom evaluation logic which final result will determine if the current element will be rendered or not, with support for Dynamic Content, custom evaluation logic and logs.
 
@@ -12,7 +12,7 @@ An **Access Condition** is a set of rules with a predefined or custom evaluation
 
 ---
 
-## Rules
+## Composable Rules
 
 There are 16+ core rules organized in groups of [Site](./rules/site), [Device](./rules/device), [DateTime](./rules/datetime) and a fit it all rule called [Dynamic](./rules/dynamic). A condition can have multiple types of the same rule with diferent configurations.
 
@@ -22,7 +22,7 @@ There are 16+ core rules organized in groups of [Site](./rules/site), [Device](.
 
 ---
 
-## Evaluation
+## Evaluation Mode
 
 A condition will evaluate the specified rules individually, then apply an `AND`, `OR`, or `Custom` evaluation mode logic to the final result.
 
@@ -40,7 +40,7 @@ The `Custom` mode requires the custom logic to evaluate as `true` for the condit
 
 ## Evaluation Logs
 
-While in the customizer, the **Access Condition** will have access to evaluation logs for each rule individually as for the final result. Use those to understand what is going on during the evaluation process and solve possible logic issues.
+While in the customizer, the Access Condition will have access to evaluation logs for each rule individually as for the final result. Use those to understand what is going on during the evaluation process and solve possible logic issues.
 
 {% image %}
 ![Access Condition Evaluation Logs](/assets/ytp/access/access-condition-logs.webp)

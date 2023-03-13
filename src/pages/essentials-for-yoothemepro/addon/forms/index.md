@@ -1,6 +1,6 @@
 ---
-title: Essential Addon Forms
-pageTitle: Essential Forms - Getting started with Essential Addon Forms for YOOtheme Pro
+title: Forms Addon
+pageTitle: Forms Addon - An Essential addon for YOOtheme Pro
 ---
 
 Enable a Section or Column as a **Form Area** with full submission workflow and builder capabilities, validate the submitted data and run actions after. {% .lead %}

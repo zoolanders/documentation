@@ -1,6 +1,6 @@
 ---
-title: Essential Addon Sources
-pageTitle: Essential Sources - Getting started with Essential Addon Sources for YOOtheme Pro
+title: Sources Addon
+pageTitle: Sources Addon - An Essential addon for YOOtheme Pro
 ---
 
 Create content sources from structurally complex or service dependent data, such as Database Tables, CSV files, Instagram Media, Google Spreadsheet, and many other. {% .lead %}
