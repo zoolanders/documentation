@@ -17,32 +17,9 @@ The **Cloudflare Source** feeds data from [Cloudflare Stream](https://www.cloudf
 
 ---
 
-## Integration
+## Settings
 
-{% partial file="ytp-sources-integration.md" variables={source: "Cloudflare Stream"} /%}
-
-{% callout title="Cache" %}
-You can adjust the cache time as needed but being this an API-driven source it is highly recommended to keep the cache active.
-{% /callout %}
-
----
-
-## Source and Queries
-
-Follow through [integration](#integration) to create one or more Cloudflare Stream source instances. Refer to the following table for all the available sources and it queries.
-
-| Source / Query | Resolves To | Description |
-| -------------- | ----------- | ----------- |
-| [Stream Source](#stream-source) | | Source based on a Cloudflare Stream content. |
-| {% nowrap %}-- [Videos Query](#videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos belonging to the authenticated account. |
-
----
-
-## Reference
-
-### Stream Source
-
-The **Cloudflare Stream Source** creates a Dynamic Content source from Cloudflare Stream videos authenticating with an [API Token](../../auths-manager#cloudflare-api-token-driver).
+The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
 ![Cloudflare Stream Source Configuration](/assets/ytp/sources/cf-stream-config.webp)
@@ -50,16 +27,35 @@ The **Cloudflare Stream Source** creates a Dynamic Content source from Cloudflar
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
-| **Name** | The name that will identify this source, defaults to `Cloudflare Stream`. |
 | **Token** | The Cloudflare API Token which to authenticate with. | &#x2713; |
 | **Account** | The Cloudflare account which to connecto to. | &#x2713; |
 | **Signing Key** | An auto-generated key used to signing private videos. | |
 
+{% partial file="ytp-sources-common-settings.md" variables={name: "Cloudflare Stream"} /%}
+
 ---
+
+### Authentication
+
+Authentication is based on an API Token driven by the [Cloudflare API Token Driver](/essentials-for-yoothemepro/auth/drivers/cloudflare-api-token).
+
+{% image %}
+![Cloudflare API Key Driver](/assets/ytp/auths/driver-cloudflare-api-token.webp)
+{% /image %}
+
+{% callout title="Keys Security" %}
+Learn more about Essentials [Keys security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+{% /callout %}
+
+---
+
+## Content Queries
+
+For every source instance the following content queries will be made available as Dynamic Content option.
 
 ### Video Query
 
-For each [Stream Source](#stream-source) a **Video Query** will be created on the fly and made available as Dynamic Content option under the Cloudflare Stream Group. It fetches a single video from the authenticated account and resolves to a [Video Type](#video-type).
+Fetches a single video from the authenticated account and resolves to a [Video Type](#video-type).
 
 {% image %}
 ![Cloudflare Stream Video Query](/assets/ytp/sources/cf-stream-query-video.webp)
@@ -74,7 +70,7 @@ For each [Stream Source](#stream-source) a **Video Query** will be created on th
 
 ### Videos Query
 
-For each [Stream Source](#stream-source) a **Videos Query** will be created on the fly and made available as Dynamic Content option under the Cloudflare Stream Group. It fetches videos from the authenticated account and resolves to a list of [Video Type](#video-type).
+Fetches videos from the authenticated account and resolves to a list of [Video Type](#video-type).
 
 {% image %}
 ![Cloudflare Stream Videos Query](/assets/ytp/sources/cf-stream-query-videos.webp)
@@ -89,6 +85,10 @@ For each [Stream Source](#stream-source) a **Videos Query** will be created on t
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ---
+
+## Content Types
+
+The content types define the mapping options for the source content.
 
 ### Video Type
 

@@ -14,7 +14,7 @@ Before starting, make sure Essentials has been properly [installed](../../integr
 
 ## 1. Open the Condition Panel
 
-In a YOOtheme Pro Customizer view which layout elements rendering should be conditioned, enter the Builder, choose the element to condition, and open the Access Condition Rules panel under it [Advanced Settings](https://yootheme.com/support/yootheme-pro/joomla/elements).
+Within a YOOtheme Pro Customizer view, which layout elements rendering should be conditioned, enter the Builder and choose the element to condition. Open the Access Condition Rules panel under it [Advanced Settings](https://yootheme.com/support/yootheme-pro/joomla/elements).
 
 {% image %}
 ![Open Access Condition Panel](/assets/ytp/access/integration/open-condition-panel.gif)
@@ -24,7 +24,7 @@ In a YOOtheme Pro Customizer view which layout elements rendering should be cond
 
 ## 2. Compose the Condition
 
-Consult the [rules reference](./rules) for insights and compose the condition as required. For this use case we are going to add a Day rule.
+Consult the [rules reference](./rules) for insights and compose the condition as required. For this case we are going to add a Day rule.
 
 {% image %}
 ![Compose Access Condition](/assets/ytp/access/integration/compose-condition.gif)
@@ -36,7 +36,7 @@ Consult the [rules reference](./rules) for insights and compose the condition as
 
 When a condition is composed by more than one rule, the default evaluation `AND` will validate the condition if all rules evaluate as true. The mode, hovewer, can be set as `OR` or even as `Custom`.
 
-Consult the [Access Condition](./condition) for more information about the evaluation mode, for this use case we are going to keep the default mode.
+Consult the [Access Condition](./condition) for more information about the evaluation mode, for this case we are going to keep the default mode.
 
 {% image %}
 ![Set Access Condition Evaluation Mode](/assets/ytp/access/integration/set-evaluation-mode.gif)

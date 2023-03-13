@@ -14,33 +14,9 @@ The **Twitter Source** feeds data from [Twitter](https://www.twitter.com) profil
 
 ---
 
-## Integration
+## Settings
 
-{% partial file="ytp-sources-integration.md" variables={source: "Twitter"} /%}
-
-{% callout title="Cache" %}
-You can adjust the cache time as needed but being this an API-driven source it is highly recommended to keep the cache active.
-{% /callout %}
-
----
-
-## Source and Queries
-
-Follow through [integration](#integration) to create one or more Twitter source instances. Refer to the following table for all the available sources and it queries.
-
-| Source / Query | Resolves To | Description |
-| -------------- | ----------- | ----------- |
-| [Twitter Source](#twitter-source) | | Source based on a Twitter account content. |
-| {% nowrap %}-- [My Tweets Query](#my-tweets-query){% /nowrap %} | [Tweet Type](#tweet-type) | Fetches tweets belonging to the authenticated account. |
-| {% nowrap %}-- [User Query](#user-query){% /nowrap %} | [User Type](#user-type) | Fetches the user profile content. |
-
----
-
-## Reference
-
-### Twitter Source
-
-The **Twitter Source** creates a Dynamic Content source from the [OAuth authenticated](../../auths-manager#twitter-oauth-driver) account.
+The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
 ![Twitter Source Configuration](/assets/ytp/sources/twitter-config.webp)
@@ -48,14 +24,33 @@ The **Twitter Source** creates a Dynamic Content source from the [OAuth authenti
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
-| **Name** | The name that will identify this source, defaults to `Twitter`. |
 | **Account** | The Twitter Account which to authenticate with. | &#x2713; |
+
+{% partial file="ytp-sources-common-settings.md" variables={name: "Twitter"} /%}
 
 ---
 
+### Authentication
+
+Authentication is based on the OAuth protocol driven by the [Twitter OAuth Driver](/essentials-for-yoothemepro/auth/drivers/twitter-oauth).
+
+{% image %}
+![Twitter OAuth Driver](/assets/ytp/auths/driver-twitter-oauth.webp)
+{% /image %}
+
+{% callout title="OAuth Security" %}
+Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+{% /callout %}
+
+---
+
+## Content Queries
+
+For every source instance the following content queries will be made available as Dynamic Content option.
+
 ### My Tweets Query
 
-For each [Twitter Source](#twitter-source) a **My Tweets Query** will be created on the fly and made available as Dynamic Content option under the Twitter Group. It fetches the tweets from the account resolving to a list of [Tweet Type](#tweet-type).
+Fetches tweets from the authenticated account resolving to a list of [Tweet Type](#tweet-type).
 
 {% image %}
 ![Twitter Tweets Query](/assets/ytp/sources/twitter-query-tweets.webp)
@@ -71,7 +66,7 @@ For each [Twitter Source](#twitter-source) a **My Tweets Query** will be created
 
 ### User Query
 
-For each [Twitter Source](#twitter-source) a **User Query** will be created on the fly and made available as Dynamic Content option under the Twitter Group. It fetches the tweets from the account resolving to a list of [User Type](#user-type).
+Fetches the authenticated user account resolving to a list of [User Type](#user-type).
 
 {% image %}
 ![Twitter User Query](/assets/ytp/sources/twitter-query-user.webp)
@@ -82,6 +77,10 @@ For each [Twitter Source](#twitter-source) a **User Query** will be created on t
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ---
+
+## Content Types
+
+The content types define the mapping options for the source content.
 
 ### Tweet Type
 

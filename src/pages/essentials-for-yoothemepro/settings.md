@@ -3,25 +3,13 @@ title: Essentials Settings
 pageTitle: Essentials for YOOtheme Pro Settings
 ---
 
-**Essentials Settings** holds addons and global configuration. {% .lead %}
+Essentials global data and configuration. {% .lead %}
 
-The settings are accessed at `Customizer -> Essentials` panel where, beside addons configuration, other global data and configuration is displayed. The data is stored independently from the theme in a Database table.
+Essentials Settings are accessed at `Customizer -> Essentials` panel where, beside addons configuration, other global data and configuration is displayed. The data is stored independently from the theme in a Database table.
 
 {% image %}
 ![Essentials Settings](/assets/ytp/essentials-settings.gif)
 {% /image %}
-
----
-
-## Storages Section
-
-The `Customizer -> Essentials -> Storages` is the section where [Storage Instances](./storage-abstraction) are managed.
-
----
-
-## Auths Section
-
-The `Customizer -> Essentials -> Auths` is the section where the [OAuths, Keys & Secrets](./oauth-keys-secrets) are managed.
 
 ---
 
@@ -43,11 +31,19 @@ Being Essentials Settings independent from the Theme, the only way to backup and
 
 ### Debug Data
 
-If the support team requests it, here is where you can generate and download **Debug Data** information which includes a copy of the **Theme Settings**, **Essentials Settings**, **Sources Schema**, and the server configuration. As it might include sensitive data, be carefull who you share this with.
+If the support team requests it, here is where you can generate and download Debug Data information which includes a copy of the Theme Settings, Essentials Settings, Sources Schema, and the server configuration. As it might include sensitive data, be carefull who you share this with.
 
 ---
 
 ## Other Sections
+
+### Storages Section
+
+The `Customizer -> Essentials -> Storages` is the section where [Storage Instances](./storage-abstraction) are managed.
+
+### Auths Section
+
+The `Customizer -> Essentials -> Auths` is the section where the [OAuths, Keys & Secrets](./oauth-keys-secrets) are managed.
 
 ### Sources Section
 

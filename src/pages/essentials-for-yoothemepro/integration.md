@@ -2,7 +2,7 @@
 title: Essentials Integration
 ---
 
-**Essentials** is in essence a plugin and has to be installed like any other Joomla or WordPress plugin. {% .lead %}
+Essentials is in essence a plugin and has to be installed like any other Joomla or WordPress plugin. {% .lead %}
 
 Follow through the [installation](#installation), optionally setup [automatic updates](#automatic-updates), then choose which [addons to enable](#addons-selection) for the project in hands.
 
@@ -32,7 +32,7 @@ You can as well update manually by [downloading](https://www.zoolanders.com/down
 
 ### Download ID
 
-A **ZOOlanders Download ID** is an alphanumeric code created in the [ZOOlanders Download IDs section](https://zoolanders.com/account/download-ids) that is required to update the Premium version.
+A ZOOlanders Download ID is an alphanumeric code created in the [ZOOlanders Download IDs section](https://zoolanders.com/account/download-ids) that is required to update the Premium version.
 
 ![Download ID](/download-id.png)
 
@@ -46,7 +46,7 @@ In the **WordPress Global Settings** menu locate the **ZOOlanders Settings Panel
 
 ## Addons Selection
 
-**Essentials for YOOtheme Pro** is structured into what we call addons. Each addon holds a set of features with a specific purpose and is independent from the others. Decide which ones are needed for the project in hand and disable the rest in the `Customizer -> Essentials -> Advanced` panel.
+Essentials is structured into what we call addons. Each addon holds a set of features with a specific purpose and is independent from the others. Decide which ones are needed for the project in hand and enable them in the `Customizer -> Essentials -> Advanced` panel, keep the rest disabled as best practice.
 
 {% image %}
 ![Essentials Settings Advanced Panel](/assets/ytp/settings-advanced.webp)

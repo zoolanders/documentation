@@ -3,7 +3,7 @@ title: Sources Addon
 pageTitle: Sources Addon - An Essential addon for YOOtheme Pro
 ---
 
-Create content sources from structurally complex or service dependent data, such as Database Tables, CSV files, Instagram Media, Google Spreadsheet, and many other. {% .lead %}
+Create content sources from configuration or service dependent data, such as Database Tables, CSV files, Instagram Media, Google Spreadsheet, and many other. {% .lead %}
 
 Get started in the next section or dive into one of the topics bellow.
 

@@ -6,7 +6,6 @@ import navigation from '../../nav.json'
 export default function SectionIndex({index = []}) {
   return (
     <>
-      <p className="lead">Available Drivers for <a href="/essentials-for-yoothemepro/oauth-keys-secrets">Auths, Keys & Secrets</a>.</p>
       <ReferenceIndex index={index}/>
     </>
   )

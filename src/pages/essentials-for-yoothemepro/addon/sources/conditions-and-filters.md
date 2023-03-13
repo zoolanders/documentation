@@ -2,7 +2,7 @@
 title: Conditions and Filters
 ---
 
-**Conditions & Filters** specify what and when a source content will be fetched and/or rendered. {% .lead %}
+Apply conditions to the source content during fetching and/or rendering phase. {% .lead %}
 
 In order to have full control over a dynamic content it is important to understand that there are different types of conditions executed at different moments of the rendering workflow. Learn them individually, their differences and how to combine them.
 
@@ -16,7 +16,7 @@ In order to have full control over a dynamic content it is important to understa
 
 ## Query Conditions
 
-**Query Conditions** are conditions set during a source mapping that determine what content should be returned. Those will vary on every source and are usually static with the exception of [Filter](./query-conditions#filter-conditions)/[Order](./query-conditions#order-conditions) conditions of [Database](providers/database), [CSV](providers/csv) and [RSS](providers/rss) sources.
+Filter and/or order query conditions are rules, applied during a query execution, that the content must evaluate to in order to be included in the fetched results. The conditions are provided and supported by every source individually.
 
 {% image %}
 ![Query Conditions](/assets/ytp/sources/query-conditions.webp)
@@ -26,7 +26,7 @@ In order to have full control over a dynamic content it is important to understa
 
 ## Dynamic Condition
 
-**Dynamic Conditions**, part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#dynamic-conditions) core workflow, is a condition set during a source mapping to determine should the element be displayed. The amount of conditions is limited to one, and cannot use other dynamic values during the evaluation.
+Part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#dynamic-conditions) core workflow, Dynamic Condition is set during a source mapping to determine should the element be displayed. The amount of conditions is limited to one, and cannot use other dynamic values during the evaluation.
 
 {% image %}
 ![Dynamic Conditions](/assets/ytp/sources/dynamic-conditions.webp)
@@ -36,7 +36,7 @@ In order to have full control over a dynamic content it is important to understa
 
 ## Access Condition
 
-**Access Conditions**, part of the [Essentials Access Addon](../access/) workflow, work in a similar way as [Dynamic Condition](#dynamic-condition) do, but with support for dynamic content, multiple rules and custom evaluation logic. You can opt to use them instead as per the benefits.
+Part of the [Access Addon](/essentials-for-yoothemepro/addon/access) workflow, Access Condition has the same purpose as the [Dynamic Condition](#dynamic-condition) do, but with support for dynamic content, multiple rules and custom evaluation logic. You can opt to use it instead as per the benefits.
 
 {% image %}
 ![Access Conditions](/assets/ytp/sources/access-conditions.webp)
@@ -50,7 +50,7 @@ When using **Query Conditions**, the content is fetched pre-filtered and the loa
 
 When using **Dynamic Conditions**  or **Access Conditions**, all content is fetched into memory, then filtered during runtime, e.g. from 500 items 500 items would be loaded, then filtered to 20 and rendered.
 
-Considering that the more data is loaded into memory the longer it takes for the page to load and higher the risk of getting an exhausted memory fatal error, we can conclude that **Query Conditions** are the way to go and should be prefered when available. When that is not the case, we should try the next best approach, combine them.
+Considering that the more data is loaded into memory the longer it takes for the page to load and higher the risk of getting an exhausted memory fatal error, we can conclude that Query Conditions are the way to go and should be prefered when available. When that is not the case, we should try the next best approach, combine them.
 
 ---
 

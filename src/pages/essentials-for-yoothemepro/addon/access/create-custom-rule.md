@@ -1,8 +1,9 @@
-# Create an Access Condition Rule
+---
+title: Create a Custom Rule
+description: Learn now to create a Custom Access Condition Rule
+---
 
-Learn how to create a **Custom Rule** with a PHP Class, a config file, and an icon. {% .lead %}
-
-Once the class is declared it will become available as part of [Access Condition](./condition) rules.
+Learn how to create a Custom Access Condition Rule. {% .lead %}
 
 {% callout type="warning" title="Extending YOOtheme Pro" %}
 The following guide assumes you are already familar with code, PHP, and [extending YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
@@ -10,9 +11,9 @@ The following guide assumes you are already familar with code, PHP, and [extendi
 
 ---
 
-## 1. Create a Rule Class
+## 1. Create the Rule Class
 
-Start by creating a PHP Class that extends `ZOOlanders\YOOessentials\Access\AccessRule` and declares a `resolve` function. Store it into a Child Theme or a Custom Plugin.
+Start by creating a PHP Class that extends `ZOOlanders\YOOessentials\Access\AccessRule` and declares a `resolve` function. Store it into a YOOtheme Pro Child Theme or a Module.
 
 ```php
 use ZOOlanders\YOOessentials\Access\AccessRule;
@@ -40,9 +41,9 @@ class MyCustomRule extends AccessRule
 
 ---
 
-## 2. Create a Rule Config
+## 2. Create the Rule Config
 
-Create a config file in JSON format that will specify the rules configuration, store it beside the PHP class.
+Create a config file in JSON format that will specify the rule configuration, store it beside the PHP class as `config.json`.
 
 ```json
 {

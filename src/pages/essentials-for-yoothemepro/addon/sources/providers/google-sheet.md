@@ -1,6 +1,6 @@
 ---
 title: Google Sheet Source
-description: Content Source based on Google Sheet spreadsheets
+description: Content Source based on Google Sheet
 icon: '
     <path stroke="none" d="M7.687 2c4.328-.011 1.71-.023 8.94 0 .727.002.727 1.623 0 1.625-7.23.023-4.612.011-8.94 0a.819.819 0 00-.813.817v21.121c0 .447.366.813.813.813h14.626a.815.815 0 00.813-.813s-.014-15.412 0-15.439c.358-.695 1.191-.686 1.624 0 .011.018 0 15.44 0 15.44A2.438 2.438 0 0122.313 28H7.687a2.438 2.438 0 01-2.437-2.437V4.442A2.446 2.446 0 017.687 2z"/>
     <path stroke="none" d="M20.215 13.095H9.785a.87.87 0 00-.869.87v10.429c0 .48.39.869.87.869h10.429c.48 0 .869-.39.869-.87V13.965a.87.87 0 00-.87-.869zm-9.56 5.215h3.476v1.738h-3.477V18.31zm5.214 0h3.477v1.738h-3.477V18.31zm3.477-1.738h-3.477v-1.739h3.477v1.739zm-5.215-1.739v1.739h-3.477v-1.739h3.477zm-3.477 6.953h3.477v1.739h-3.477v-1.739zm5.215 1.739v-1.739h3.477v1.739h-3.477z"/>
@@ -16,15 +16,9 @@ The **Google Sheet Source** feeds data from a Google Sheet spreadsheet. Based on
 
 ---
 
-## Integration
+## Settings
 
-{% partial file="ytp-sources-integration.md" variables={source: "Google Sheet"} /%}
-
----
-
-## Source
-
-The **Google Sheet Source** creates a Dynamic Content source from a Google Sheet spreadsheet that an [OAuth authenticated](../../auths-manager#google-oauth-driver) account has access to.
+The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
 ![Google Sheet Instance Configuration](/assets/ytp/sources/gsheet-config.webp)
@@ -32,16 +26,37 @@ The **Google Sheet Source** creates a Dynamic Content source from a Google Sheet
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
-| **Name** | {% nowrap %}`Google Sheet`{% /nowrap %} | The name that will identify this source. |
 | **Account** | | The Google Account which to authenticate with. | &#x2713; |
 | **Spreadsheet** | | The spreadsheet which to retrieve the data from. | &#x2713; |
-| **Sheet** | `0` | The spreadsheet sheet which data to create the source with. |
+| **Sheet** | `Default` | The spreadsheet sheet which data to create the source with. |
 | **Start Column** | `A`  | The starting column to restrict the sheet data with. |
 | **End Column** | `Z` | The ending column to restrict the sheet data with. |
 
-## Records Query
+{% partial file="ytp-sources-common-settings.md" variables={name: "Google Sheet"} /%}
 
-For each [Google Sheet Source](#source) a **Records Query** is created on the fly and made available as Dynamic Content option under the Google Sheet Group. It fetches records from the spreadsheet and resolves to a dynamically generated list of record type based on the sheet schema.
+---
+
+### Authentication
+
+Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yoothemepro/auth/drivers/google-oauth).
+
+{% image %}
+![Google OAuth Driver](/assets/ytp/auths/driver-google-oauth.webp)
+{% /image %}
+
+{% callout title="OAuth Security" %}
+Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+{% /callout %}
+
+---
+
+## Content Queries
+
+For every source instance the following content queries will be made available as Dynamic Content option.
+
+### Records Query
+
+Fetches records from the spreadsheet and resolves to a dynamically generated list of record type based on the sheet schema.
 
 {% image %}
 ![Google Sheet Records Query](/assets/ytp/sources/gsheet-query-records.webp)

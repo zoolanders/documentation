@@ -15,32 +15,31 @@ The **CSV Source** feeds data from local files formatted as **CSV** (comma-separ
 
 ---
 
-## Integration
+## Settings
 
-{% partial file="ytp-sources-integration.md" variables={source: "CSV"} /%}
-
----
-
-## Source
-
-The **CSV Source** creates a Dynamic Content source from a local CSV or TSV formated file.
+The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
-![CSV Instance Configuration](/assets/ytp/sources/csv-config.webp)
+![CSV Instance Settings](/assets/ytp/sources/csv-config.webp)
 {% /image %}
 
-| Setting | Description | Required |
-| ------- | ----------- | :------: |
-| **Name** | The name that will identify this source, defaults to `CSV`. |
-| **File** | The relative or absolute local path to the file which to use as source. | &#x2713; |
-| **Delimeter** | The delimiter character the file content is formated with. | &#x2713; |
-| **Enclosure** | The enclosure character the file content is formated with. | &#x2713; |
+| Setting | Default | Description | Required |
+| ------- | ------- | ----------- | :------: |
+| **File** | | The relative or absolute local path to the file which to use as source. | &#x2713; |
+| **Delimeter** | `,` | The delimiter character the content is formated with. |
+| **Enclosure** | `"` | The enclosure character the content is formated with. |
+
+{% partial file="ytp-sources-common-settings.md" variables={name: "CSV"} /%}
 
 ---
 
-## Records Query
+## Content Queries
 
-For each [Source](#source) a **Records Query** is created on the fly and made available as Dynamic Content option under the CSV Group. It fetches records from the file and resolves to a list of dynamically generated CSV record type based on the file schema.
+For every source instance the following content queries will be made available as Dynamic Content option.
+
+### Records Query
+
+Fetches records from the file and resolves to a list of dynamically generated CSV record type based on the file schema.
 
 {% image %}
 ![CSV Records Query](/assets/ytp/sources/csv-query-records.webp)

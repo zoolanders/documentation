@@ -66,6 +66,11 @@ const tags = {
       <span className='whitespace-nowrap'>{children}</span>
     ),
   },
+  code: {
+    render: ({children}) => (
+      <code>{children}</code>
+    ),
+  },
   'quick-links': {
     render: QuickLinks,
   },

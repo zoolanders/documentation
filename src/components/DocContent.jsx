@@ -1,4 +1,3 @@
-import clsx from 'clsx'
 import Link from 'next/link'
 import { flatMap } from 'lodash'
 import { useRouter } from 'next/router'
@@ -6,6 +5,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
 
 import { DocNavigation } from '@/components/DocNavigation'
+import { DocContentTable } from '@/components/DocContentTable'
 import { Prose } from '@/components/Prose'
 
 function getNodeText(node) {
@@ -110,7 +110,6 @@ export function DocContent({ children, frontmatter, content, navigation }) {
   const router = useRouter()
 
   const title = frontmatter.title
-  // const description = frontmatter.description
   const tableOfContents = collectHeadings(content)
 
   const allLinks = flatMap(flatMap(navigation, 'links'), (link) => [
@@ -123,17 +122,6 @@ export function DocContent({ children, frontmatter, content, navigation }) {
   const section = navigation.find((section) =>
     section.links.find((link) => link.href === router.pathname)
   )
-  const currentSection = useTableOfContents(tableOfContents)
-
-  function isActive(section) {
-    if (section.id === currentSection) {
-      return true
-    }
-    if (!section.children) {
-      return false
-    }
-    return section.children.findIndex(isActive) > -1
-  }
 
   return (
     <div className="relative mx-auto flex max-w-8xl justify-center lg:px-8">
@@ -201,58 +189,7 @@ export function DocContent({ children, frontmatter, content, navigation }) {
         </dl>
       </div>
 
-      <div className="hidden xl:sticky xl:top-[4.5rem] xl:-mr-6 xl:block xl:h-[calc(100vh-4.5rem)] xl:flex-none xl:overflow-y-auto xl:py-16 xl:pr-6">
-        <nav aria-labelledby="on-this-page-title" className="w-56">
-          {tableOfContents.length > 0 && (
-            <>
-              <span
-                id="on-this-page-title"
-                className="font-display text-sm font-medium text-slate-900 dark:text-white"
-              >
-                On this page
-              </span>
-              <ol role="list" className="mt-4 space-y-3 text-sm">
-                {tableOfContents.map((section) => (
-                  <li key={section.id}>
-                    <Link
-                      href={`#${section.id}`}
-                      className={clsx(
-                        isActive(section)
-                          ? 'text-primary'
-                          : 'font-normal text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-300'
-                      )}
-                    >
-                      {section.title}
-                    </Link>
-
-                    {section.children.length > 0 && (
-                      <ol
-                        role="list"
-                        className="mt-2 space-y-3 pl-5 text-slate-500 dark:text-slate-400"
-                      >
-                        {section.children.map((subSection) => (
-                          <li key={subSection.id}>
-                            <Link
-                              href={`#${subSection.id}`}
-                              className={
-                                isActive(subSection)
-                                  ? 'text-primary'
-                                  : 'hover:text-slate-600 dark:hover:text-slate-300'
-                              }
-                            >
-                              {subSection.title}
-                            </Link>
-                          </li>
-                        ))}
-                      </ol>
-                    )}
-                  </li>
-                ))}
-              </ol>
-            </>
-          )}
-        </nav>
-      </div>
+      <DocContentTable tableOfContents={tableOfContents} frontmatter={frontmatter}/>
     </div>
   )
 }

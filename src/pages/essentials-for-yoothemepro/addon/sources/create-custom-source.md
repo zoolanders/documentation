@@ -1,54 +1,23 @@
 ---
-title: Custom Multi-Instance Source
-description: Learn now to create a custom Multi-Instance Source
+title: Create a Custom Source
+description: Learn now to create a custom multi-instance source
 ---
 
-Learn how to create a custom source based on the [Multi-Instance Source](./multi-instance-source) workflow. {% .lead %}
+Learn how to create a Custom Multi-Instance Source. {% .lead %}
+
+{% callout type="warning" title="Extending YOOtheme Pro" %}
+The following guide assumes you are already familar with code, PHP, and [extending YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
+{% /callout %}
 
 ---
 
-## Custom Content Source
+## 1. Create the Source Main Class
 
-Let's start by creating a `bootstrap.php` file.
+Start by creating a PHP Class that extends `ZOOlanders\YOOessentials\Source\Type\AbstractSourceType` and implements
+the `ZOOlanders\YOOessentials\Source\Type\SourceInterface` interface. Store it into a YOOtheme Pro Child Theme or Module.
 
 ```php
 <?php
-
-namespace MySourceModule;
-
-return [
-    'yooessentials-sources' => [
-        'my-source' => MySource::class
-    ]
-];
-```
-
-and `config.json` files for our custom module.
-
-```json
-{
-  "name": "my-source",
-  "title": "My Source",
-  "description": "My First Source.",
-  "icon": "${url:icon.svg}",
-  "fields": {
-    "name": {
-      "label": "Name",
-      "description": "A name to identify this source."
-    },
-    ...
-  }
-}
-```
-
-The bootstrap registers the `MySource` class to the Sources Manager which is, among others, responsible to declare the
-source types. It has to extend the `ZOOlanders\YOOessentials\Source\Type\AbstractSourceType` class and implement
-the `ZOOlanders\YOOessentials\Source\Type\SourceInterface` interface.
-
-```php
-<?php
-
-namespace MySourceModule;
 
 use ZOOlanders\YOOessentials\Source\Type\AbstractSourceType;
 use ZOOlanders\YOOessentials\Source\Type\SourceInterface;
@@ -56,62 +25,46 @@ use ZOOlanders\YOOessentials\Source\SourceService;
 
 class MySource extends AbstractSourceType implements SourceInterface
 {
-    public function types(): array
-    {
-        return [
-            new MySourceType($this),
-            new MySourceQueryType($this)
-        ];
-    },
-
-    public function resolve(array $args): array
-    {
-        $args = array_filter($args);
-
-        // if something is wrong, emit an error event and return early
-        if (!$args['required_field']) {
-            Event::emit('yooessentials.error', [
-                'addon' => 'source',
-                'provider' => 'my-source',
-                'error' => 'Something is not right'
-            ]);
-
-            return [];
-        }
-
-        $result = [];
-
-        // resolve the query and return an array of results
-        foreach ($values as $value) {
-            $data = [];
-
-            foreach ($row as $key => $value) {
-                // we recommend to cleanup the fields names as
-                // to ensure it follows GraphQL Schema standards
-                $data[SourceService::encodeField($key)] = $value;
-            }
-
-            $result[] = $data;
-        }
-
-        return $result;
-    }
+    // declare here the source types and queries
+    public function types(): array;
 }
 ```
 
-The `Type` and `QueryType` are
-extended [Source Type Objects](https://yootheme.com/support/yootheme-pro/joomla/developers-sources) that the Source
-Manager will use to dynamically create the Types and Queries for each one of the configurations of the source set in the
-Builder.
+---
 
-Create a `MySourceType` class which will represent the source single item type. We provide
-an `ZOOlanders\YOOessentials\Source\GraphQL\AbstractObjectType` that will help you with the basics, like accessing your
-source configuration.
+## 2. Create the Source Config
+
+Create a config file in JSON format that will specify the source configuration, store it beside the PHP class as `config.json`.
+
+```json
+{
+    "name": "",
+    "title": "",
+    "icon": "",
+    "description": "",
+    "fields": {}
+}
+```
+
+| Prop | Description | Required |
+| ------- | -------- | :------: |
+| **Name** | The source name prefixed, e.g. `mysource`. | &#x2713; |
+| **Title** | The source title as should appear in the UI, e.g. `My Source`. | &#x2713; |
+| **Icon** | The absolute path to the source icon. | &#x2713; |
+| **Fields** | The source fields configuration. Those will hold the values of the configuration and are based on the same workflow as the [Elements Fields](https://yootheme.com/support/yootheme-pro/joomla/developers-elements). | &#x2713; |
+| **Description** | The source description explaining what the source is for. |
+| **Group** | Sources with the same group will be displayed under the same section in the UI. |
+| **Collection** | Sources of the same collection will be displayed joined in the UI, indicating a strong relation between them. |
+
+---
+
+## 3. Create a Source Type Class
+
+Create a PHP Class that specifies the source content mapping configuration, it must extend `ZOOlanders\YOOessentials\Source\GraphQL\AbstractObjectType` and implement
+the `ZOOlanders\YOOessentials\Source\GraphQL\HasSourceInterface` interface. Store it beside the main class.
 
 ```php
 <?php
-
-namespace MySourceModule;
 
 use ZOOlanders\YOOessentials\Source\GraphQL\AbstractObjectType;
 use ZOOlanders\YOOessentials\Source\GraphQL\HasSourceInterface;
@@ -157,14 +110,13 @@ class MySourceType extends AbstractObjectType implements HasSourceInterface
 }
 ```
 
-The `MySourceQueryType` on the other hand will use the query arguments to resolve and retrieve the source data. We
-provide a base `ZOOlanders\YOOessentials\Source\GraphQL\AbstractQueryType` class to help you in building a new Source
-Query.
+## 4. Create a Source Query Class
+
+Create a PHP Class that specifies the source content query arguments and resolving, it must extend `ZOOlanders\YOOessentials\Source\GraphQL\AbstractQueryType` and implement
+the `ZOOlanders\YOOessentials\Source\GraphQL\HasSourceInterface` interface. Store it beside the main class.
 
 ```php
 <?php
-
-namespace MySourceModule;
 
 use ZOOlanders\YOOessentials\Source\GraphQL\AbstractQueryType;
 use ZOOlanders\YOOessentials\Source\GraphQL\HasSourceInterface;
@@ -236,4 +188,38 @@ class MySourceQueryType extends AbstractQueryType implements HasSourceInterface
 }
 ```
 
-That's all that is needed to create a simple Source Provider, but being it a standard YOOtheme Pro module there are no constraints on creating a more advanced and/or service-dependent one. Be creative and happy coding!
+## 5. Declare the Source
+
+Now that the classes are ready we can update the Main Class and declare it as a source.
+
+```php
+<?php
+
+class MySource extends AbstractSourceType implements SourceInterface
+{
+    // update this function
+    public function types(): array
+    {
+        return [
+            new MySourceType($this),
+            new MySourceQueryType($this)
+        ];
+    }
+
+    ...
+}
+```
+
+Declare the custom source by adding a `yooessentials-sources` key to the `config.php` or `bootstrap.php` file referencing the class.
+
+```php
+<?php
+
+require_once __DIR__ . '/sources/MySource/MySource.php';
+
+return [
+    'yooessentials-sources' => [
+        'my-source' => MySource::class
+    ]
+];
+```

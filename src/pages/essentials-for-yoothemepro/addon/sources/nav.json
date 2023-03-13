@@ -52,7 +52,17 @@
                         },
                         {
                             "title": "Instagram",
-                            "href": "./providers/instagram"
+                            "href": "./providers/instagram",
+                            "links": [
+                                {
+                                    "title": "Personal",
+                                    "href": "./providers/instagram/personal"
+                                },
+                                {
+                                    "title": "Business",
+                                    "href": "./providers/instagram/business"
+                                }
+                            ]
                         },
                         {
                             "title": "Facebook",
@@ -64,7 +74,21 @@
                         },
                         {
                             "title": "YouTube",
-                            "href": "./providers/youtube"
+                            "href": "./providers/youtube",
+                            "links": [
+                                {
+                                    "title": "Videos",
+                                    "href": "./providers/youtube/videos"
+                                },
+                                {
+                                    "title": "My Channel",
+                                    "href": "./providers/youtube/mychannel"
+                                },
+                                {
+                                    "title": "My Playlist",
+                                    "href": "./providers/youtube/myplaylist"
+                                }
+                            ]
                         },
                         {
                             "title": "Vimeo",
@@ -85,12 +109,8 @@
                     ]
                 },
                 {
-                    "title": "Filter Conditions",
-                    "href": "./filter-conditions"
-                },
-                {
-                    "title": "Order Conditions",
-                    "href": "./order-conditions"
+                    "title": "Query Conditions",
+                    "href": "./query-conditions"
                 }
             ]
         },
@@ -100,6 +120,10 @@
                 {
                     "title": "Create a Custom Source",
                     "href": "./create-custom-source"
+                },
+                {
+                    "title": "Troubleshooting",
+                    "href": "./troubleshooting"
                 }
             ]
         }

@@ -1,6 +1,6 @@
 ---
 title: Facebook Source
-description: Content Source based on Facebook Pages and Posts
+description: Content Source based on Facebook
 icon: '
     <path fill="none" stroke-width="1.7" stroke-linejoin="round" d="M27.999 15c0-7.179-5.82-12.999-13-12.999C7.82 2.001 2 7.821 2 15.001c0 6.488 4.754 11.866 10.968 12.841v-9.084h-3.3v-3.757h3.3v-2.864c0-3.258 1.941-5.058 4.91-5.058 1.423 0 2.91.254 2.91.254v3.199H19.15c-1.615 0-2.118 1.002-2.118 2.03v2.439h3.605l-.576 3.757h-3.03v9.084C23.246 26.867 28 21.489 28 15.001Z"/>
 '
@@ -14,34 +14,9 @@ The **Facebook Source** feeds data from [Facebook](https://www.facebook.com/) Pa
 
 ---
 
-## Integration
+## Settings
 
-{% partial file="ytp-sources-integration.md" variables={source: "Facebook"} /%}
-
-{% callout title="Cache" %}
-You can adjust the cache time as needed but being this an API-driven source it is highly recommended to keep the cache active.
-{% /callout %}
-
----
-
-## Source and Queries
-
-Follow through [integration](#integration) to create one or more Facebook source instances. Refer to the following table for all the available sources and it queries.
-
-| Source / Query | Resolves To | Description |
-| -------------- | ----------- | ----------- |
-| [Page Source](#page-source) | | Source based on a Facebook page content. |
-| {% nowrap %}-- [Page Query](#page-query){% /nowrap %} | [Page Type](#page-type) | Fetches public videos with advanced search params. |
-| {% nowrap %}-- [Page Posts Query](#page-posts-query){% /nowrap %} | [Page Post Type](#page-post-type) | Fetches public videos with advanced search params. |
-| Events Source | | Not available. API access to Facebook Events is limited to Facebook Marketing Partners. |
-
----
-
-## Reference
-
-### Page Source
-
-The **Page Source** creates a Dynamic Content source from one of the Facebook pages which the [OAuth authenticated](../../auths-manager#facebook-oauth-driver) account has access to.
+The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
 ![Facebook Source Configuration](/assets/ytp/sources/fb-config.webp)
@@ -49,15 +24,34 @@ The **Page Source** creates a Dynamic Content source from one of the Facebook pa
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
-| **Name** | The name that will identify this source, defaults to `Facebook`. |
 | **Account** | The Facebook Account which to authenticate with. | &#x2713; |
-| **Page** | The Facebook page from which to create this source. | &#x2713; |
+| **Page** | The Facebook page from which to create the source content. | &#x2713; |
+
+{% partial file="ytp-sources-common-settings.md" variables={name: "Facebook"} /%}
 
 ---
 
+### Authentication
+
+Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/essentials-for-yoothemepro/auth/drivers/facebook-oauth).
+
+{% image %}
+![Facebook OAuth Driver](/assets/ytp/auths/driver-facebook-oauth.webp)
+{% /image %}
+
+{% callout title="OAuth Security" %}
+Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+{% /callout %}
+
+---
+
+## Content Queries
+
+For every source instance the following content queries will be made available as Dynamic Content option.
+
 ### Page Query
 
-For each [Page Source](#page-source) a **Page Query** will be created on the fly and made available as Dynamic Content option under the Facebook Group. It fetches the content from the page resolving to a list of [Page Type](#page-type).
+Fetches the content from the page resolving to a list of [Page Type](#page-type).
 
 {% image %}
 ![Facebook Page Query](/assets/ytp/sources/fb-query-page.webp)
@@ -71,7 +65,7 @@ For each [Page Source](#page-source) a **Page Query** will be created on the fly
 
 ### Page Posts Query
 
-For each [Page Source](#page-source) a **Page Posts Query** will be created on the fly and made available as Dynamic Content option under the Facebook Group. It fetches the posts from the page resolving to a list of [Page Post Type](#page-post-type).
+Fetches the posts from the page resolving to a list of [Page Post Type](#page-post-type).
 
 {% image %}
 ![Facebook Page Posts Query](/assets/ytp/sources/fb-query-page-posts.webp)
@@ -84,9 +78,13 @@ For each [Page Source](#page-source) a **Page Posts Query** will be created on t
 
 ---
 
+## Content Types
+
+The content types define the mapping options for the source content.
+
 ### Page Type
 
-The **Page Type** defines the mapping options of a Facebook Page object.
+Defines the mapping options of a Facebook Page object.
 
 {% image %}
 ![Facebook Page Mapping](/assets/ytp/sources/fb-type-page.webp)
@@ -120,7 +118,7 @@ The **Page Type** defines the mapping options of a Facebook Page object.
 
 ### Page Post Type
 
-The **Page Post Type** defines the mapping options of a Facebook Page Post object.
+Defines the mapping options of a Facebook Page Post object.
 
 {% image %}
 ![Facebook Page Post Mapping](/assets/ytp/sources/fb-type-post.webp)

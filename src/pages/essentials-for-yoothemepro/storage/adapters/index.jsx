@@ -20,12 +20,17 @@ export async function getStaticProps() {
     'preset'
   ])
 
-  const index = get(navigation, 'sections.2.links.1.links')
+  const index = get(navigation, 'sections.2.links.3.links')
     .map(link => posts.find(p => link.href === p.slug))
     .filter(Boolean)
 
   return {
     props: {
+      markdoc: {
+        frontmatter: {
+          title: 'Storage Adapters',
+        },
+      },
       index
     },
   }

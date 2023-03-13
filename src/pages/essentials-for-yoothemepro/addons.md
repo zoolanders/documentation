@@ -1,9 +1,7 @@
 ---
-title: Essential Addons
-pageTitle: Essential Addons - Getting started with Essential Addons for YOOtheme Pro
+title: Addons
+pageTitle: Essential Addons
 ---
-
-**Essentials** is structured into what we call addons. {% .lead %}
 
 {% quick-links %}
 
