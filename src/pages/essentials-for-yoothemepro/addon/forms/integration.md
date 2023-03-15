@@ -12,57 +12,61 @@ Before starting, make sure Essentials has been properly [installed](../../integr
 
 ---
 
-## Follow Through
+## 1. Create a Form Area
 
-### 1. Create a Form Area
+A form must be structured inside of a Section or Column enabled as a [Form Area](form-area). Doing so is matter of a few clicks.
 
-Let's create a simple form that will greet us on submission.
+{% image %}
+![Create a Form Area](/assets/ytp/forms/integration/create-form-area.gif)
+{% /image %}
 
-![Form Area](/assets/ytp/forms/formarea-integration.webp)
+1. Access the Customizer Builder area.
+1. Locate a Section or Column which should be enabled as Form Area.
+1. Open it `Advanced Settings` Tab and toggle the `Enable as Form Area` checkbox.
 
-### 2. Set Form Fields
+---
 
-A form must be structured inside of a Section or Column enabled as a [Form Area](form-area).
+## 2. Add After Submit Actions
 
-1. Open the builder and edit a new or an existing Layout.
-1. Add a new Section and access its settings Advanced Panel.
-1. Toggle the **Enable as Form Area** checkbox.
+Every form must have set at least one [After Submit Action](after-submit-actions), as nothing happens unless there is one. In this case we are going to add a Message Action to greet the user, but in a more advanced scenario you would most likely add an Email and SaveTo actions in order to send an email and save the submitted data.
 
-Notice that the Form Configuration button has been enabled. We will get back to it later, but now let's finish the form structure.
+{% image %}
+![Add After Submit Actions](/assets/ytp/forms/integration/add-form-actions.gif)
+{% /image %}
 
-1. Go back to the builder main panel and add a Textarea and a Form Button element to the Form Area.
-1. Access the Textarea element configuration, and input `comment` in the **Control Name**.
-
-### 3. Set After Submit Actions
-
-Go ahead and click on the Submit button. A warning is triggered because, by design, nothing happens unless there is an [After Submit Action](after-submit-actions) set that triggers some action. For now, let's add a simple action that will display a greeting message.
-
-1. Access the Form Area configuration created in the previous steps.
-1. Locate the Actions fields and add a new action of the type **Display Message**.
-1. The action panel configuration will open automatically, input in the **Message** field a `Thank you for your submission, your comment was {comment}!`.
+1. Open the Form Area configuration created in the previous step.
+1. In the Actions tab add a new action of the type **Display Message**.
+1. Input in the **Message** field a `Thank you for your submission, your comment was {comment}!`.
 
 {% callout title="Notice the `{comment}` part" %}
 It's what we call [Data Placeholders](dynamic#data-placeholders), and is one of the ways to set a dynamic workflow.
 {% /callout %}
 
-### 4. Test The Submission
+---
 
-Now that there is at least one action set, let's go and try the submission.
+## 3. Add Form Fields
 
-1. Locate the form in the Builder preview.
-1. Input a message in the Textarea and press the Submit button.
+All our form needs now is fields! Let's add a Comment field and a Submit button.
 
-Congrats! If all went well, you should see a modal greeting you. If you don't, load the preset from [Quick Setup](#quick-setup) and try to spot the mistake.
+{% image %}
+![Add Form Fields](/assets/ytp/forms/integration/add-form-fields.gif)
+{% /image %}
+
+1. Go back to the builder main panel and add an Element of a type Textarea.
+1. Open it configuration panel and input `comment` in the `Control Name` setting.
+1. Add another Element of the type Form Button and try to submit.
 
 ---
 
-## Quick Setup
+## 4. Test The Submission
 
-We strongly recommend you to follow through the guide, but if you are looking for a Quick Setup, [load](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) one of the following presets directly into a layout.
+Let's go and try our creation.
 
-{% quick-links %}
+{% image %}
+![Form Submission Test](/assets/ytp/forms/integration/submission-test.webp)
+{% /image %}
 
-    {% quick-link title="Form Area Preset" href="/assets/ytp/presets/FormArea-Preset.json" description="Download the above guide resulting Form Area preset." download="true" /%}
-    {% quick-link title="Advanced Presets" href="presets" description="Explore presets with more advanced Form Area workflows." /%}
+1. Locate the form in the Builder preview.
+1. Input a message in the Textarea and Submit.
 
-{% /quick-links %}
+If you are seeing a Modal with the submitted message, congrats! If you are not, go back and try to find out what went wrong, but don't worry, in the next section you will be able to set forms using presets.
