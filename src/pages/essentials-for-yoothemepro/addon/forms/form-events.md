@@ -3,9 +3,7 @@ title: Form Events
 description: Learn how to hook into the form front-end events
 ---
 
-A form triggers JavaScript events for which is possible to add listeners and perform custom actions.
-
----
+JavaScript events triggered by each form for which is possible to add listeners and perform custom actions. Set those in a custom script as illustrated bellow or as a [Form Area Setting](settings#custom-scripts).
 
 ## On Submit
 
@@ -28,8 +26,6 @@ UIkit.ready(function() {
 })
 ```
 
----
-
 ## On Submitted
 
 Triggers after submission, preventing the action is no longer possible.
@@ -49,8 +45,6 @@ UIkit.ready(function() {
 
 });
 ```
-
----
 
 ## On Submission Error
 

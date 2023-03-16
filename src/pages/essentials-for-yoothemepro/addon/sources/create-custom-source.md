@@ -1,6 +1,6 @@
 ---
 title: Create a Custom Source
-description: Learn now to create a custom multi-instance source
+description: Learn how to create a custom multi-instance source
 ---
 
 Learn how to create a Custom Multi-Instance Source. {% .lead %}

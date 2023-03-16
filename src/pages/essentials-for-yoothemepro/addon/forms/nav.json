@@ -26,12 +26,12 @@
                     "href": "./form-area"
                 },
                 {
-                    "title": "Data Validation",
-                    "href": "./validation"
-                },
-                {
                     "title": "After Submit Actions",
                     "href": "./after-submit-actions"
+                },
+                {
+                    "title": "Data Validation",
+                    "href": "./validation"
                 },
                 {
                     "title": "Dynamic Workflow",
@@ -42,6 +42,52 @@
         {
             "title": "Reference",
             "links": [
+                {
+                    "title": "Settings",
+                    "href": "./settings"
+                },
+                {
+                    "title": "Actions",
+                    "href": "./actions",
+                    "links": [
+                        {
+                            "title": "Data",
+                            "href": "./actions/data"
+                        },
+                        {
+                            "title": "Validate",
+                            "href": "./actions/validate"
+                        },
+                        {
+                            "title": "Email",
+                            "href": "./actions/email"
+                        },
+                        {
+                            "title": "Redirect",
+                            "href": "./actions/redirect"
+                        },
+                        {
+                            "title": "Message",
+                            "href": "./actions/message"
+                        },
+                        {
+                            "title": "Download",
+                            "href": "./actions/download"
+                        },
+                        {
+                            "title": "SaveTo CSV",
+                            "href": "./actions/save-to-csv"
+                        },
+                        {
+                            "title": "SaveTo Database",
+                            "href": "./actions/save-to-database"
+                        },
+                        {
+                            "title": "SaveTo Google Sheet",
+                            "href": "./actions/save-to-google-sheet"
+                        }
+                    ]
+                },
                 {
                     "title": "Fields",
                     "href": "./fields",
@@ -159,42 +205,8 @@
                     ]
                 },
                 {
-                    "title": "Actions",
-                    "href": "./actions",
-                    "links": [
-                        {
-                            "title": "Email",
-                            "href": "./actions/email"
-                        },
-                        {
-                            "title": "Redirect",
-                            "href": "./actions/redirect"
-                        },
-                        {
-                            "title": "Message",
-                            "href": "./actions/message"
-                        },
-                        {
-                            "title": "Download",
-                            "href": "./actions/download"
-                        },
-                        {
-                            "title": "Data",
-                            "href": "./actions/data"
-                        },
-                        {
-                            "title": "SaveTo CSV",
-                            "href": "./actions/save-to-csv"
-                        },
-                        {
-                            "title": "SaveTo Database",
-                            "href": "./actions/save-to-database"
-                        },
-                        {
-                            "title": "SaveTo Google Sheet",
-                            "href": "./actions/save-to-google-sheet"
-                        }
-                    ]
+                    "title": "Form Events",
+                    "href": "./form-events"
                 }
             ]
         },
@@ -202,20 +214,16 @@
             "title": "Advanced",
             "links": [
                 {
-                    "title": "Form Events",
-                    "href": "./form-events"
+                    "title": "Troubleshooting",
+                    "href": "./troubleshooting"
                 },
                 {
                     "title": "Display Form in a Modal",
-                    "href": "./how-to/modal"
+                    "href": "./display-form-in-modal"
                 },
                 {
                     "title": "Create a Custom Action",
-                    "href": "./how-to/action"
-                },
-                {
-                    "title": "Troubleshooting",
-                    "href": "./troubleshooting"
+                    "href": "./create-custom-action"
                 }
             ]
         }

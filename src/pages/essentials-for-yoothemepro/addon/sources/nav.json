@@ -118,12 +118,12 @@
             "title": "Advanced",
             "links": [
                 {
-                    "title": "Create a Custom Source",
-                    "href": "./create-custom-source"
-                },
-                {
                     "title": "Troubleshooting",
                     "href": "./troubleshooting"
+                },
+                {
+                    "title": "Create a Custom Source",
+                    "href": "./create-custom-source"
                 }
             ]
         }

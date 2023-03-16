@@ -71,6 +71,14 @@ const tags = {
       <code>{children}</code>
     ),
   },
+  elink: {
+    attributes: {
+      href: { type: String }
+    },
+    render: ({children, href}) => (
+      <a href={href} target="_blank" rel="noreferrer">{children}</a>
+    ),
+  },
   'quick-links': {
     render: QuickLinks,
   },

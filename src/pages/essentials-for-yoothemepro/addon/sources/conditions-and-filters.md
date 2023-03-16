@@ -26,7 +26,7 @@ Filter and/or order query conditions are rules, applied during a query execution
 
 ## Dynamic Condition
 
-Part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#dynamic-conditions) core workflow, Dynamic Condition is set during a source mapping to determine should the element be displayed. The amount of conditions is limited to one, and cannot use other dynamic values during the evaluation.
+Part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#dynamic-conditions) core workflow, Dynamic Condition is set during a source mapping to determine should the element be displayed. The amount of conditions is limited to one, and cannot use dynamic content for more advanced evaluation.
 
 {% image %}
 ![Dynamic Conditions](/assets/ytp/sources/dynamic-conditions.webp)
@@ -36,7 +36,7 @@ Part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/d
 
 ## Access Condition
 
-Part of the [Access Addon](/essentials-for-yoothemepro/addon/access) workflow, Access Condition has the same purpose as the [Dynamic Condition](#dynamic-condition) do, but with support for dynamic content, multiple rules and custom evaluation logic. You can opt to use it instead as per the benefits.
+Part of the [Access Addon](/essentials-for-yoothemepro/addon/access) workflow, Access Condition has the same functionality as the [Dynamic Condition](#dynamic-condition), but with support for dynamic content, multiple rules and custom evaluation logic. You can opt to use it instead as per higher possibilities.
 
 {% image %}
 ![Access Conditions](/assets/ytp/sources/access-conditions.webp)
@@ -46,17 +46,17 @@ Part of the [Access Addon](/essentials-for-yoothemepro/addon/access) workflow, A
 
 ## Execution Performance
 
-When using **Query Conditions**, the content is fetched pre-filtered and the load in memory minimum, e.g. from 500 items 20 would be loaded and then rendered.
+With **Query Conditions**, the content is fetched pre-filtered and the load in memory minimum, e.g. from 500 items 20 would be loaded, then 20 elements rendered.
 
-When using **Dynamic Conditions**  or **Access Conditions**, all content is fetched into memory, then filtered during runtime, e.g. from 500 items 500 items would be loaded, then filtered to 20 and rendered.
+With **Dynamic or Access Condition**, all content is fetched into memory, then the elements are filtered during runtime, e.g. from 500 items 500 items would be loaded, then 500 elements conditioned during the pre-rendering phase, but only 20 rendered.
 
-Considering that the more data is loaded into memory the longer it takes for the page to load and higher the risk of getting an exhausted memory fatal error, we can conclude that Query Conditions are the way to go and should be prefered when available. When that is not the case, we should try the next best approach, combine them.
+Considering that the more data is loaded into memory and more processing during runtime, the longer it takes for the page to load and higher the risk of getting an exhausted memory fatal error, we can conclude that Query Conditions are the way to go and should be always prefered, if available. When that is not the case, try the next best approach, combining both.
 
 ---
 
 ## Combined Conditions
 
-Not all queries support conditions, and if do most likely do not support evaluating dynamic values. In such situations a good strategy is to combine **Query Conditions** with **Dynamic/Access Conditions**. In practice that would mean load the minimum amount of content into memory, e.g. from a specific category, then further filter down those during the rendering.
+Not all queries support conditions, and if do most likely do not support evaluating dynamic values. In such situations a good strategy is to combine **Query Conditions** with **Dynamic or Access Condition**. In practice that would mean load the minimum amount of content into memory, e.g. from a specific category, then further filter down those during the rendering.
 
 {% callout type="warning" title="Pagination Errors" %}
 Be aware of the pagination (offset and limit) while combining conditions as the results might not be what you expect. For example, you might set a limit condition of 20, but the final filtered result be 18.
