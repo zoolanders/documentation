@@ -13,7 +13,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Day Access Rule** will validate if the current day, e.g. `Monday`, matches one of the selected days. For more complex logic validation combine multiple rules instead.
+The Day Access Rule evaluates whether the current day matches one of the selected days.
 
 ---
 

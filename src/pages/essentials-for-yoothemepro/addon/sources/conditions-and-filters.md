@@ -4,7 +4,7 @@ title: Conditions and Filters
 
 Apply conditions to the source content during fetching and/or rendering phase. {% .lead %}
 
-In order to have full control over a dynamic content it is important to understand that there are different types of conditions executed at different moments of the rendering workflow. Learn them individually, their differences and how to combine them.
+It's important to understand the different types of conditions in dynamic content, their differences in execution time or dynamic values support, and learn how to combine them effectively.
 
 | Type | Description | Execution Time | Dynamic Support |
 | ---- | ----------- | -------------- | --------------- |
@@ -50,13 +50,13 @@ With **Query Conditions**, the content is fetched pre-filtered and the load in m
 
 With **Dynamic or Access Condition**, all content is fetched into memory, then the elements are filtered during runtime, e.g. from 500 items 500 items would be loaded, then 500 elements conditioned during the pre-rendering phase, but only 20 rendered.
 
-Considering that the more data is loaded into memory and more processing during runtime, the longer it takes for the page to load and higher the risk of getting an exhausted memory fatal error, we can conclude that Query Conditions are the way to go and should be always prefered, if available. When that is not the case, try the next best approach, combining both.
+To optimize page loading speed and minimize the risk of memory errors, Query Conditions are the preferred method and should always be used if available. If not available, the next best approach is to combine different types of conditions. This is because the more data loaded into memory and processing required during runtime, the slower the page loads and the higher the risk of running into memory errors.
 
 ---
 
 ## Combined Conditions
 
-Not all queries support conditions, and if do most likely do not support evaluating dynamic values. In such situations a good strategy is to combine **Query Conditions** with **Dynamic or Access Condition**. In practice that would mean load the minimum amount of content into memory, e.g. from a specific category, then further filter down those during the rendering.
+Not all queries support conditions, and if do most likely do not support evaluating dynamic values. In such situations a good strategy is to combine **Query Conditions** with **Dynamic or Access Condition**. In practice that would mean load the minimum amount of content into memory, e.g. load items from a specific category, then further filter down those during the rendering.
 
 {% callout type="warning" title="Pagination Errors" %}
 Be aware of the pagination (offset and limit) while combining conditions as the results might not be what you expect. For example, you might set a limit condition of 20, but the final filtered result be 18.

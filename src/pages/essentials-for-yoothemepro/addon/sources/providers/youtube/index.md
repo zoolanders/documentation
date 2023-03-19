@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **YouTube Source** creates sources based on [YouTube](https://www.youtube.com/) content. Based on the [multi-instance](manager#multi-instance) source workflow, it allows connecting to multiple accounts with different configurations.
+The YouTube Source creates sources based on [YouTube](https://www.youtube.com/) content. Based on the [multi-instance](manager#multi-instance) source workflow, it allows connecting to multiple accounts with different configurations.
 
 Refer to the following table for all the available sources and it queries.
 

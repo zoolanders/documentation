@@ -2,9 +2,9 @@
 title: Access Condition
 ---
 
-Compose rules which evaluation will determine if an element will be rendered. {% .lead %}
+Compose rules that will determine the evaluation criteria for rendering an element. {% .lead %}
 
-An **Access Condition** is a set of rules with a predefined or custom evaluation logic which final result will determine if the current element will be rendered or not, with support for Dynamic Content, custom evaluation logic and logs.
+An Access Condition is a set of rules with a predefined or custom evaluation logic that will decide whether or not the current element should be displayed. It also supports Dynamic Content and logs.
 
 {% image %}
 ![Access Condition](/assets/ytp/access/access-condition.webp)
@@ -14,7 +14,7 @@ An **Access Condition** is a set of rules with a predefined or custom evaluation
 
 ## Composable Rules
 
-There are 16+ core rules organized in groups of [Site](./rules/site), [Device](./rules/device), [DateTime](./rules/datetime) and a fit it all rule called [Dynamic](./rules/dynamic). A condition can have multiple types of the same rule with diferent configurations.
+The Access Condition includes a variety of core rules, totaling over 16, which are organized into groups as [Site](./rules/site), [Device](./rules/device), [DateTime](./rules/datetime), and a versatile rule called [Dynamic](./rules/dynamic). It is possible to include multiple types of the same rule within a single condition, with different configurations.
 
 {% image %}
 ![Access Condition Rules](/assets/ytp/access/access-condition-rules.webp)
@@ -24,23 +24,19 @@ There are 16+ core rules organized in groups of [Site](./rules/site), [Device](.
 
 ## Evaluation Mode
 
-A condition will evaluate the specified rules individually, then apply an `AND`, `OR`, or `Custom` evaluation mode logic to the final result.
+When an Access Condition is applied to an element, it will first evaluate each of the specified rules individually, then will apply an evaluation mode, `AND|OR|Custom`, to determine the final result. The `AND` mode requires all rules to pass, `OR` mode requires at least one, while `Custom` mode would apply a custom logic.
+
+A custom logic is inputed with a query that references each rule using their order number within brackets, such as `{1}`, and use `AND|OR` operators, such as `{1} AND {2}`, or `{1} OR {2}`. Parentheses can also be used to alter the execution order, such as `({1} AND {2}) OR {3}`.
 
 {% image %}
 ![Access Condition Evaluation](/assets/ytp/access/access-condition-evaluation.webp)
 {% /image %}
 
-The `AND` mode requires for all rules to evaluate as `true` for the condition to be considered valid.
-
-The `OR` mode requires at least one rule to evaluate as `true` for the condition to be considered valid.
-
-The `Custom` mode requires the custom logic to evaluate as `true` for the condition to be considered valid. The logic is inputed with a query referencing each rule with brackets and it order number, e.g. `{1}`, with `AND|OR` operators to form the evalution logic, e.g. `{1} AND {2}`, and parenthesis `()` for altering the execution order, e.g. `({1} AND {2}) OR {3}`.
-
 ---
 
 ## Evaluation Logs
 
-While in the customizer, the Access Condition will have access to evaluation logs for each rule individually as for the final result. Use those to understand what is going on during the evaluation process and solve possible logic issues.
+While in the customizer, the Access Condition will display evaluation logs for each rule as well the final result. These logs can be used to gain insights into the evaluation process and troubleshoot any issues with the logic.
 
 {% image %}
 ![Access Condition Evaluation Logs](/assets/ytp/access/access-condition-logs.webp)

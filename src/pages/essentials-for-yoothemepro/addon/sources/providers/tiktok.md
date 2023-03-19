@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **TikTok Source** feeds data from [TikTok](https://www.vimeo.com) media. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The TikTok Source feeds data from [TikTok](https://www.vimeo.com) media. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 

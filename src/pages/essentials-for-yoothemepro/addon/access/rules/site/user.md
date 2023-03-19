@@ -2,7 +2,7 @@
 name: User
 title: User Access Rule
 collection: Site
-description: Validates against the site User
+description: Validates against the current user
 icon: '
   <path fill="none" stroke-width="2" d="M4.596 26.891v-1.487C4.596 19.697 9.292 15 15 15s10.404 4.697 10.404 10.404v1.487M15 15c3.261 0 5.945-2.684 5.945-5.945 0-3.262-2.684-5.946-5.945-5.946S9.055 5.793 9.055 9.055C9.055 12.316 11.739 15 15 15z"/>
 '
@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **User Access Rule** will validate if the Site User `id` or `username` matches the selection.
+The User Rule evaluates whether the current user's `id` or `username` matches one of the selection.
 
 ---
 

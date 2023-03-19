@@ -3,17 +3,17 @@ title: Forms Addon
 pageTitle: Forms Addon - An Essential addon for YOOtheme Pro
 ---
 
-Enable a Section or Column as a **Form Area** with full submission workflow and builder capabilities, validate the submitted data and run actions after. {% .lead %}
+Empower a Section or Column to function as a Form Area with complete form submission and builder capabilities. Structure the area with form fields and trigger actions after a successful submission. {% .lead %}
 
-Get started in the next section or dive into one of the topics bellow.
+You can either get started in the next section or explore one of the topics listed below.
 
 {% quick-links %}
 
-{% quick-link title="Form Area" href="./form-area" description="Learn about Form Area scope, settings, and capabilities." /%}
-{% quick-link title="Validation" href="./validation" description="Learn how the submitted data validation is processed." /%}
-{% quick-link title="After Submit Actions" href="./after-submit-actions" description="Learn about After Submit Actions, it execution and settings." /%}
+{% quick-link title="Form Area" href="./form-area" description="Discover the concept, workflow, and possibilities of the Form Area." /%}
+{% quick-link title="After Submit Actions" href="./after-submit-actions" description="Find out why After Submit Actions are crucial to forms." /%}
+{% quick-link title="Validation" href="./validation" description="Learn how the validation of submitted data is processed." /%}
 {% quick-link title="Dynamic Workflow" href="./dynamic" description="Understand the dynamic content workflow and use it properly." /%}
-{% quick-link title="Fields" href="./fields" description="Explore all the available form fields and get detailed insights." /%}
-{% quick-link title="Presets" href="./presets" description="Download Form Area presets and start a new form right away." /%}
+{% quick-link title="Fields" href="./fields" description="Explore all the available form fields, their purpose and possibilities." /%}
+{% quick-link title="Presets" href="./presets" description="Download Form Area presets and get started with new form right away." /%}
 
 {% /quick-links %}

@@ -16,6 +16,6 @@ Start integrating Essentials in the next section or skip to one of the common to
 
 {% quick-link title="Settings" href="./settings" description="Get familiar with Essential Global Settings, consult the changelog or export debug data." /%}
 {% quick-link title="Addons" href="./addons" description="Explore Essential Addons and learn more about their workflow and insights." /%}
-{% quick-link title="OAuth, Keys & Secrets" href="./oauth-keys-secret" description="Learn how Essentials authenticates and keeps your secrets save." /%}
+{% quick-link title="OAuth, Keys & Secrets" href="./oauth-keys-secrets" description="Learn how Essentials authenticates and keeps your secrets save." /%}
 
 {% /quick-links %}

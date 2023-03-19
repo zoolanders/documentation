@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Google Business Profile Source** creates sources based on Google Business Profile (a.k.a Google My Business) content. Based on the [multi-instance](manager#multi-instance) source workflow, it allows connecting to multiple accounts with different configurations.
+The Google Business Profile Source creates sources based on Google Business Profile (a.k.a Google My Business) content. Based on the [multi-instance](manager#multi-instance) source workflow, it allows connecting to multiple accounts with different configurations.
 
 Refer to the following table for all the available sources and it queries.
 

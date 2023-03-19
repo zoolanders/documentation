@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Google Sheet Source** feeds data from a Google Sheet spreadsheet. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The Google Sheet Source feeds data from a Google Sheet spreadsheet. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 

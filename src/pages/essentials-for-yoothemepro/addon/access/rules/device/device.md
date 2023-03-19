@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Device Access Rule** will validate if the browser agent matches one of the selected device types, `Mobile`, `Table`, or `Desktop`. For more complex logic validation combine multiple rules instead.
+The Device Access Rule evaluates whether the browser agent matches one of the selected device types, `Mobile`, `Table`, or `Desktop`.
 
 {% callout type="warning" title="Limited Detection" %}
 Notice that browser detection is not always accurate, users can setup their browser to mimic other agents.

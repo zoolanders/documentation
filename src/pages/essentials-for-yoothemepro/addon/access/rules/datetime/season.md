@@ -13,7 +13,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Season Access Rule** will validate if the current season, e.g. `Autumn`, matches the selected seasons, e.g `Autumn` or `Spring`. For more complex logic validation combine multiple rules instead.
+The Season Access Rule evaluates whether the current season matches one of the selected seasons.
 
 ---
 

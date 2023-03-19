@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Vimeo Source** feeds data from [Vimeo](https://www.vimeo.com) media. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The Vimeo Source feeds data from [Vimeo](https://www.vimeo.com) media. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 

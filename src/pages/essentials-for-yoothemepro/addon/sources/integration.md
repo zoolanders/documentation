@@ -2,7 +2,7 @@
 title: Sources Addon Integration
 ---
 
-Follow through to learn how to create a Multi-Instance source, even if you are already familiar with the concept you might learn something new. {% .lead %}
+Follow through to learn how to create a Multi-Instance source. Even if you are already familiar with the concept you might learn something new. {% .lead %}
 
 Before starting, make sure Essentials has been properly [installed](../../integration), then access the `Customizer -> Essentials -> Advanced` section and enable the **Sources Addon**. Save the changes and refresh the page.
 
@@ -14,18 +14,30 @@ Before starting, make sure Essentials has been properly [installed](../../integr
 
 ## 1. Create a Source Instance
 
-Open the Source Manager at `Customizer -> Essentials -> Sources` and create a new source of any kind, for this case we are gonna choose the RSS one. Fulfill the instance configuration consulting the [sources](providers) settings reference, and `Save` when ready.
+The Source Manager will assist us on creating, and posterior management, of all source instances.
 
 {% image %}
 ![Create a Source Instance](/assets/ytp/sources/integration/create-source-instance.gif)
 {% /image %}
 
+1. Open the manager at `Customizer -> Essentials -> Sources`
+2. Create a new source of any kind, for this specific case we choose the RSS one.
+3. Fulfill the instance configuration consulting the [sources reference](providers).
+4. `Save` the new instance when ready.
+
 ---
 
 ## 2. Map the Source Content
 
-Once the source instance has been saved it schema will be generated based on the configuration and it content made available for mapping as any other source. Explore the [sources](providers) queries and mapping reference for further steps, in this case we are gonna map the feed entries to a List Element.
+Once the source instance has been created it schema will be generated based on the configuration and it content made available for mapping as any other source. In this case we are gonna map the feed entries to a List Element.
 
 {% image %}
 ![Map Source Content](/assets/ytp/sources/integration/map-source-content.gif)
 {% /image %}
+
+1. Open the builder and add a List Element.
+1. Add an Item to the element and open the new item Advanced Tab.
+1. Under `Dynamic Content`, select the source you want to use for the list. In this case, `RSS Entries` located under the RSS group.
+1. Open the item Content Tab and map some data to the item content field.
+
+At this point a list of data from the RSS feed should be rendered.

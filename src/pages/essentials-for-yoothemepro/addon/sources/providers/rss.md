@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **RSS Source** feeds data from RSS 0.9, 1.0, 2.0, and Atom specifications. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple feeds with different configurations.
+The RSS Source feeds data from RSS 0.9, 1.0, 2.0, and Atom specifications. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple feeds with different configurations.
 
 ---
 

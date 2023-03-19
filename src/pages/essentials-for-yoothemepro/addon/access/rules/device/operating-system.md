@@ -13,7 +13,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Operating System Access Rule** will validate if the browser agent matches one of the specified Operating Systems.
+The Operating System Access Rule evaluates whether the browser agent matches one of the specified patterns, e.g. `MacOS 10.1`.
 
 Supported OS: `Mac OS X`, `Mac OS Classic`, `Linux`, `Open BSD`, `Sun OS`, `QNX`, `BeOS`, `OS/2`, `Windows`, `Windows Vista`, `Windows Server 2003`, `Windows XP`, `Windows 2000 sp1`, `Windows 2000`, `Windows NT`, `Windows Me`, `Windows 98`, `Windows 95`, `Windows CE`.
 

@@ -14,7 +14,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **IP Geolocation Access Rule** will validate if the device IP location, determined by [MaxMind GeoIp Database](essentials-for-yoothemepro/settings/geolocation), matches the specified constrains.
+The IP Geolocation Access Rule evaluates whether the device ip location, determined by [MaxMind GeoIp Database](essentials-for-yoothemepro/settings/geolocation), matches one of the specified patterns.
 
 ---
 

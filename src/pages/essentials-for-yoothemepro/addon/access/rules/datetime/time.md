@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Time Access Rule** will validate if the current time is within the specified time range constraint.
+The Time Access Rule evaluates whether the current time matches the specified time range.
 
 ---
 

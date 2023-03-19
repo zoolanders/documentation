@@ -2,7 +2,9 @@
 title: My Icons
 ---
 
-Curate a list of theme specific icons. {% .lead %}
+Curate a project-relatef icons. {% .lead %}
+
+My Icons Tab exposes the icons from the Child Theme myicons folder, a great place to store project-related icon
 
 My Icons (opens new window)which would become available under the My Icons tab in the icons picker Modal. Its icons are expected under the {MyChildThemeDir}/myicons directory and is our recommendation to keep project-related icons safe and organized.
 

@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Twitter Source** feeds data from [Twitter](https://www.twitter.com) profiles and tweets. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The Twitter Source feeds data from [Twitter](https://www.twitter.com) profiles and tweets. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 

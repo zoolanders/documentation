@@ -13,7 +13,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Month Access Rule** will validate if the current month, e.g. `March`, matches the selected months, e.g `March` or `April`. For more complex logic validation combine multiple rules instead.
+The Month Access Rule evaluates whether the current month matches one of the selected months.
 
 ---
 

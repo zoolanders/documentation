@@ -2,7 +2,7 @@
 title: Layouts Addon Integration
 ---
 
-Follow through to learn how to create a Layout Library from a local storage, even if you are already familiar with the concept you might learn something new. {% .lead %}
+Follow through to learn how to create a Layout Library from a local storage. Even if you are already familiar with the concept you might learn something new. {% .lead %}
 
 Before starting, make sure Essentials has been properly [installed](../../integration), then access the `Customizer -> Essentials -> Advanced` section and enable the **Layouts Addon**. Save the changes and refresh the page.
 

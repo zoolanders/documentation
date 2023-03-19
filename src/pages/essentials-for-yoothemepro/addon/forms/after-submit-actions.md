@@ -2,11 +2,11 @@
 title: After Submit Actions
 ---
 
-Set sequentially executed functions after a successfull submission. {% .lead %}
+Configure a sequence of functions to be executed one after the other upon successful submission. {% .lead %}
 
-After Submit Actions, or simply actions, are [multi-instance](#multi-instance) functions, that will [execute](#execution) sequentially, after a form has been succesfully submitted. These are crucial for the form workflow where, per design, submission data is not processed nor logged unless there is an action set for the task.
+After Submit Actions are [multi-instance](#multi-instance) functions that will run sequentially, after a form has been successfully submitted, as long as the chain is not disrupted by an error. These are crucial for the form workflow, as submission data is not processed or logged unless there is an action set for the task.
 
-The [actions](actions) are set in the [Form Area Configuration](form-area#configuration), which tipically involves sending an Email and saving the submission to a CSV or Database.
+Actions are configured in the [Form Area Configuration](form-area#configuration) and tipically involves sending an email or saving the submission data to the database. For a full overview of available actions and their capabilities, consult the [actions reference](actions) section.
 
 {% image %}
 ![After Submit Actions](/assets/ytp/forms/actions.webp)
@@ -16,7 +16,7 @@ The [actions](actions) are set in the [Form Area Configuration](form-area#config
 
 ## Multi-Instance
 
-Multi-instance is a term used for more than one identical instance that run parallel on in consequence to each other. In a multi-instance action setup that means that is possible to set multiple actions of the same type that will hold its own configuration and content.
+In computing, "multi-instance" refers to the ability to have multiple identical instances running in parallel or in sequence to each other. In the context of actions, a multi-instance action setup means that it is possible to set up multiple actions of the same type, each with its own configuration and content.
 
 {% image %}
 ![Multi-Instance Action](/assets/ytp/forms/form-action-multi-instance.png)
@@ -24,11 +24,9 @@ Multi-instance is a term used for more than one identical instance that run para
 
 ---
 
-## Execution
+## Conditional Execution
 
-Actions will run sequentially, one after another, as long as the chain is not disrupted by an error. The execution of each actions can be disabled manually, by setting the action status as disabled, or dynamically, by composing an `Execution Condition` in the Advanced Tab.
-
-The execution condition supports Dynamic Content which makes it possible to execute actions depending on the [submitted data](dynamic#submission-data-source). This allows for advanced workflows, e.g. subscribe to a newsletter only if it has been indicated.
+Actions can be manually disabled by setting their status to `disabled`, or dynamically by composing an Execution Condition in the Advanced Tab. The condition supports Dynamic Content, including [submission data](dynamic#submission-data-source), which enables advanced workflows, e.g. subscribing to a newsletter only if it has been indicated in the form submission.
 
 {% image %}
 ![Actions Dynamic Execution](/assets/ytp/forms/form-action-exec-dynamic.webp)

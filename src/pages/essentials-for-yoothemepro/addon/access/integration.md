@@ -2,7 +2,7 @@
 title: Access Addon Integration
 ---
 
-Follow through to learn how to set an Access Condition, even if you are already familiar with the concept you might learn something new. {% .lead %}
+Follow through to learn how to set an Access Condition. Even if you are already familiar with the concept you might learn something new. {% .lead %}
 
 Before starting, make sure Essentials has been properly [installed](../../integration), then access the `Customizer -> Essentials -> Advanced` section and enable the **Access Addon**. Save the changes and refresh the page.
 
@@ -14,7 +14,7 @@ Before starting, make sure Essentials has been properly [installed](../../integr
 
 ## 1. Open the Condition Panel
 
-Within a YOOtheme Pro Customizer view, which layout elements rendering should be conditioned, enter the Builder and choose the element to condition. Open the Access Condition Rules panel under it [Advanced Settings](https://yootheme.com/support/yootheme-pro/joomla/elements).
+Navigate to the Builder and select the element you want to condition. From there, open the Access Condition Rules panel located under the [Advanced Settings](https://yootheme.com/support/yootheme-pro/joomla/elements).
 
 {% image %}
 ![Open Access Condition Panel](/assets/ytp/access/integration/open-condition-panel.gif)
@@ -24,7 +24,7 @@ Within a YOOtheme Pro Customizer view, which layout elements rendering should be
 
 ## 2. Compose the Condition
 
-Consult the [rules reference](./rules) for insights and compose the condition as required. For this case we are going to add a Day rule.
+Check the [rules reference](./rules) to gain insights and form the condition according to your needs. In this particular case, we will be using a Day rule.
 
 {% image %}
 ![Compose Access Condition](/assets/ytp/access/integration/compose-condition.gif)
@@ -34,9 +34,7 @@ Consult the [rules reference](./rules) for insights and compose the condition as
 
 ## 3. Set an Evaluation Mode
 
-When a condition is composed by more than one rule, the default evaluation `AND` will validate the condition if all rules evaluate as true. The mode, hovewer, can be set as `OR` or even as `Custom`.
-
-Consult the [Access Condition](./condition) for more information about the evaluation mode, for this case we are going to keep the default mode.
+If a condition is composed of multiple rules, the default evaluation mode is `AND`, meaning the condition will only be validated if all rules evaluate as true. However, you can also set the mode to `OR` or even `Custom`. In this case we are going to keep the default mode.
 
 {% image %}
 ![Set Access Condition Evaluation Mode](/assets/ytp/access/integration/set-evaluation-mode.gif)
@@ -46,7 +44,7 @@ Consult the [Access Condition](./condition) for more information about the evalu
 
 ## 4. Final Review
 
-Review the logs to ensure the evaluation is using the right data and the results are as expected.
+Review the logs to confirm that the evaluation is using the correct data and that the outcome match your expectation.
 
 {% image %}
 ![Review Access Condition Evaluation Logs](/assets/ytp/access/integration/review-evaluation-logs.gif)

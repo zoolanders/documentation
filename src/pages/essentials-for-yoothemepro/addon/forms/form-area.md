@@ -2,11 +2,17 @@
 title: Form Area
 ---
 
-Define a Section or Column as an area where the form will be structured. {% .lead %}
+Empower a Section or Column to function as a Form Area with complete form submission and builder capabilities. {% .lead %}
 
-The Section or Column defined as a Form Area is wrapped with a standard [\<form\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form) HTML Element without losing builder capabilities, which implies that any valid form field markup inside it, e.g. a raw HTML `<input>`, will be picked up during submission.
+When a Section or Column is defined as a Form Area, it is enclosed with a standard `<form\>` HTML element without losing any builder capabilities. A Form Area limits the scope of the form [configuration](#configuration) and the [control fields structure](#structure), enabling the placement of multiple forms in the same layout or even section.
+
+---
+
+## Configuration
 
 Once a Form Area has been created, a `paper-plane` icon will appear in the builder's main panel to both states that the specific Section or Column is a Form Area as well as to directly open its configuration panel.
+
+The Form Area Configuration panel contains both general and advanced configuration [settings](settings) for the form, as well as the [After Submit Actions](after-submit-actions), which are critical for the form workflow.
 
 {% image caption="Use the Form Area shortcut to access it configuration from the builder." %}
 ![Form Area Shortcut](/assets/ytp/forms/formarea-config-shortcut.webp)
@@ -14,20 +20,9 @@ Once a Form Area has been created, a `paper-plane` icon will appear in the build
 
 ---
 
-## Configuration
-
-The Form Area Configuration panel holds the form general and advanced configuration [settings](settings), including
-[After Submit Actions](after-submit-actions) which are crucial for the form workflow where, per design, submission data is not processed nor logged unless there is an action set for the task.
-
-{% image %}
-![After Submit Actions](/assets/ytp/forms/formarea-config-actions.webp)
-{% /image %}
-
----
-
 ## Structure
 
-The [Field Elements](reference/fields) structure the form as well establish individual field validation and specifics. These represent standard HTML form elements supported natively by [UIkit](https://getuikit.com/) and can be found in the [element library](https://yootheme.com/support/yootheme-pro/joomla/element-library) under `Form Essentials` group.
+[Field Elements](fields) are used to structure the form and define individual field validation and specifics. They represent standard HTML form elements that are natively supported by [UIkit](https://getuikit.com/) and can be found in the builder element library under the `Form Essentials` group.
 
 {% image %}
 ![Form Area Elements](/assets/ytp/forms/formarea-elements.webp)

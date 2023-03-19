@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **YouTube My Channel Source**, part of the [YouTube Source](../youtube) collection, creates sources based on a YouTube channel from the authenticated user.
+The YouTube My Channel Source, part of the [YouTube Source](../youtube) collection, creates sources based on a YouTube channel from the authenticated user.
 
 ---
 

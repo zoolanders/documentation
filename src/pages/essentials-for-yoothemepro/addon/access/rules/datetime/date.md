@@ -13,7 +13,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Date Access Rule** will validate if the current date is within the specified date range constraint.
+The Date Access Rule evaluates whether the current date matches the specified date range.
 
 ---
 

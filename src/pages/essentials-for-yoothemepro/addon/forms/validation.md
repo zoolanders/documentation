@@ -2,18 +2,18 @@
 title: Validation
 ---
 
-Validate submission data on the front as server side. {% .lead %}
+Submission data is validated both on the client and server-side. {% .lead %}
 
-For a form data to be submitted it must must pass the [fields validation](#fields-validation) as well as the [CAPTCHA validation](#captcha-validation), if any. Fields are validated first by the browser's native HTML5 validation, and once again via server-side ajax request.
+For a form data to be submitted it must pass the [fields validation](#fields-validation) as well as the [CAPTCHA validation](#captcha-validation), if any present. The validation is first run in the browser, and once again via server-side ajax request.
 
 ---
 
 ## Fields Validation
 
-Validation rules are set independently on each Field Element under the Validation Tab. For integration and further details, please consult the [Fields Reference](fields) section. HTML5 validation can be disabled in the [Form Area Settings](form-area#settings).
+Each Field Element has its own validation rules which can be set independently under the element settings Validation Tab. For more information and integration details, please refer to the [fields reference](fields) section.
 
 {% callout type="warning" title="Custom Error Message" %}
-Customizing the validation error messages is currently only possible for server-side validation.
+At the moment, it is only possible to customize the validation error messages for server-side validation, not for HTML5 validation. A posible solution is to disable HTML5 validation in the Form Area configuration.
 {% /callout %}
 
 ---
@@ -22,6 +22,6 @@ Customizing the validation error messages is currently only possible for server-
 
 ![Captcha Elements](/assets/ytp/forms/captcha/elements.webp)
 
-A [CAPTCHA](http://www.captcha.net) is a type of challenge–response test used to determine whether the user is human. There are several 3rd party captcha based service providers supported out of the box, these can be found in the [element library](https://yootheme.com/support/yootheme-pro/joomla/element-library) under Form Essentials group.
+A CAPTCHA is a type of test that is used to determine whether the user is human by presenting a challenge-response test. It is often used in online forms to prevent spam and abuse. There are various third-party CAPTCHA service providers that are supported out of the box, use them to set a workflow that will protect the form from such abuses.
 
-Use them to set a workflow that will protect the form from SPAM and abuse. For integration and further details, please consult the [Captcha Reference](captcha) section.
+For a list of supported providers and integration details, please refer to the [captcha reference](captcha) section.

@@ -2,7 +2,7 @@
 title: Forms Addon Integration
 ---
 
-Follow through to learn how to create a Form Area, even if you are already familiar with the concept you might learn something new. {% .lead %}
+Follow through to learn how to create a Form Area. Even if you are already familiar with the concept you might learn something new. {% .lead %}
 
 Before starting, make sure Essentials has been properly [installed](../../integration), then access the `Customizer -> Essentials -> Advanced` section and enable the **Forms Addon**. Save the changes and refresh the page.
 
@@ -14,7 +14,7 @@ Before starting, make sure Essentials has been properly [installed](../../integr
 
 ## 1. Create a Form Area
 
-A form must be structured inside of a Section or Column enabled as a [Form Area](form-area). Doing so is matter of a few clicks.
+A form must be structured inside of a Section or Column enabled as a [Form Area](form-area), which can be done easily with just a few clicks.
 
 {% image %}
 ![Create a Form Area](/assets/ytp/forms/integration/create-form-area.gif)
@@ -28,7 +28,7 @@ A form must be structured inside of a Section or Column enabled as a [Form Area]
 
 ## 2. Add After Submit Actions
 
-Every form must have set at least one [After Submit Action](after-submit-actions), as nothing happens unless there is one. In this case we are going to add a Message Action to greet the user, but in a more advanced scenario you would most likely add an Email and SaveTo actions in order to send an email and save the submitted data.
+At least one [After Submit Action](after-submit-actions) must be set for every form, otherwise, it will not trigger any action. In this case are going to greet the user adding a Message Action, but for more advanced scenarios, adding Email and SaveTo actions would be necessary to send an email and save the submitted data.
 
 {% image %}
 ![Add After Submit Actions](/assets/ytp/forms/integration/add-form-actions.gif)
@@ -46,7 +46,7 @@ It's what we call [Data Placeholders](dynamic#data-placeholders), and is one of 
 
 ## 3. Add Form Fields
 
-All our form needs now is fields! Let's add a Comment field and a Submit button.
+Now we need to add fields to our form. Let's include a Comment field and a Submit button.
 
 {% image %}
 ![Add Form Fields](/assets/ytp/forms/integration/add-form-fields.gif)
@@ -60,7 +60,7 @@ All our form needs now is fields! Let's add a Comment field and a Submit button.
 
 ## 4. Test The Submission
 
-Let's go and try our creation.
+Let's give it a try!
 
 {% image %}
 ![Form Submission Test](/assets/ytp/forms/integration/submission-test.webp)
@@ -69,4 +69,4 @@ Let's go and try our creation.
 1. Locate the form in the Builder preview.
 1. Input a message in the Textarea and Submit.
 
-If you are seeing a Modal with the submitted message, congrats! If you are not, go back and try to find out what went wrong, but don't worry, in the next section you will be able to set forms using presets.
+Congratulations if you can see a modal with the submitted message! If not, you can try to identify what went wrong, but don't worry, in the next section you will be able to set forms using presets.

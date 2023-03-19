@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Browser Access Rule** will validate if the browser agent matches one of the specified browsers.
+The Browser Access Rule evaluates whether the browser agent matches one of the specified patterns, e.g. `Firefox 90`.
 
 Supported browsers:
 

@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **YouTube My Playlist Source**, part of the [YouTube Source](../youtube) collection, creates sources based on a YouTube playlist from the authenticated user.
+The YouTube My Playlist Source, part of the [YouTube Source](../youtube) collection, creates sources based on a YouTube playlist from the authenticated user.
 
 ---
 

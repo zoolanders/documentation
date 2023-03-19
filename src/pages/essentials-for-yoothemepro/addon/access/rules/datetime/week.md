@@ -13,7 +13,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Week Access Rule** will validate if the current week number, e.g. `2`, matches the specified list or range of weeks, e.g `2-4`. For more complex logic validation combine multiple rules instead.
+The Week Access Rule evaluates whether the current week of the year matches one of the patterns.
 
 ---
 

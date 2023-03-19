@@ -3,14 +3,14 @@ title: Access Addon
 pageTitle: Access Addon - An Essential addon for YOOtheme Pro
 ---
 
-Compose rules which evaluation will determine if an element will be rendered, use static or dynamic values, set custom evaluation logic and review logs directly in the builder to better understand the evaluation result. {% .lead %}
+Compose rules that will determine the evaluation criteria for rendering an element. You can use static or dynamic values, establish custom evaluation logic, and view logs directly in the builder to gain a better understanding of the evaluation results. {% .lead %}
 
-Get started in the next section or dive into one of the topics bellow.
+You can either get started in the next section or explore one of the topics listed below.
 
 {% quick-links %}
 
-{% quick-link title="Access Condition" href="./condition" description="Learn insights about the Access Condition, it evaluation and logs." /%}
-{% quick-link title="Rules Reference" href="./rules" description="Explore all the available rules, their purpose and posibilities." /%}
-{% quick-link title="Custom Rules" href="./create-custom-source" description="Learn how to create a custom rule in case needed." /%}
+{% quick-link title="Access Condition" href="./condition" description="Discover the concept, workflow, and possibilities of the Access Condition." /%}
+{% quick-link title="Rules Reference" href="./rules" description="Explore all the available rules, their purpose and possibilities." /%}
+{% quick-link title="Custom Rules" href="./create-custom-source" description="Learn how to create a custom condition rule." /%}
 
 {% /quick-links %}

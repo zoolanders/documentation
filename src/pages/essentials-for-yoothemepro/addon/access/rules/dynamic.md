@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Dynamic Access Rule** will validate if the specified value validates against the custom evaluation logic.
+The Dynamic Access Rule evaluates whether the specified dynamic content passes a specified condition.
 
 ---
 

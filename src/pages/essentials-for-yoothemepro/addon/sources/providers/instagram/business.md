@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Instagram Business Source**, part of the [Instagram Source](../instagram) collection, creates sources based on the Instagram Business accounts content.
+The Instagram Business Source, part of the [Instagram Source](../instagram) collection, creates sources based on the Instagram Business accounts content.
 
 ---
 

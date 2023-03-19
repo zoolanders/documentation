@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Instagram Personal Source**, part of the [Instagram Source](../instagram) collection, creates sources based on the Instagram Personal accounts content.
+The Instagram Personal Source, part of the [Instagram Source](../instagram) collection, creates sources based on the Instagram Personal accounts content.
 
 ---
 

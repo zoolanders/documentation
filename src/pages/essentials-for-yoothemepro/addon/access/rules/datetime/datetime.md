@@ -14,7 +14,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **Datetime Access Rule** will validate if the current datetime is within the specified datetime range constraint.
+The Datetime Access Rule evaluates whether the current date & time matches the specified datetime range.
 
 ---
 

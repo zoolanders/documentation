@@ -14,7 +14,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-A condition based on the **IP Address Access Rule** will validate if the device IP Address matches the range of specified addresses.
+The IP Address Access Rule evaluates whether the device ip address matches one of the specified patterns.
 
 ---
 

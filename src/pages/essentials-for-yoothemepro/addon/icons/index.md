@@ -3,14 +3,14 @@ title: Icons Addon
 pageTitle: Icons Addon - An Essential addon for YOOtheme Pro
 ---
 
-Add custom and 3rd party **Icon Collections** seamlessly integrated within the builder worfklow. Get access to a combined collection of more than 12k icons from libraries as Font Awesome, Bootstrap, Ionicons, and many others. {% .lead %}
+Enhance the icon library by adding custom and third-party icons, resulting in a combined collection of more than 12k icons sourced from popular libraries such as Font Awesome, Bootstrap, Ionicons, and many others. {% .lead %}
 
-Get started in the next section or dive into one of the topics bellow.
+You can either get started in the next section or explore one of the topics listed below.
 
 {% quick-links %}
 
-{% quick-link title="Icons Collection" href="./condition" description="Learn insights about the Icons Collection, it evaluation and logs." /%}
-{% quick-link title="Rules Reference" href="./rules" description="Explore all the available rules, their purpose and posibilities." /%}
-{% quick-link title="Custom Rules" href="./create-custom-source" description="Learn how to create a custom rule in case needed." /%}
+{% quick-link title="Icon Collection" href="./icon-collection" description="Discover the concept, workflow, and possibilities of the Icon Collection." /%}
+{% quick-link title="My Icons" href="./my-icons" description="Find out how My Icons differs from Icon Collection and when to use it." /%}
+{% quick-link title="Custom Collection" href="./create-custom-collection" description="Learn how to create a custom icon collection." /%}
 
 {% /quick-links %}

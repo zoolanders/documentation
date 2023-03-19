@@ -3,15 +3,15 @@ title: Sources Addon
 pageTitle: Sources Addon - An Essential addon for YOOtheme Pro
 ---
 
-Create content sources from configuration or service dependent data, such as Database Tables, CSV files, Instagram Media, Google Spreadsheet, and many other. {% .lead %}
+Generate content sources from configuration or service-dependent data, such as database tables, CSV files, Instagram media, Google Spreadsheets, and more. {% .lead %}
 
-Get started in the next section or dive into one of the topics bellow.
+You can either get started in the next section or explore one of the topics listed below.
 
 {% quick-links %}
 
-{% quick-link title="Multi-Instance Source" href="./multi-instance-source" description="Learn more about multi-instance sources workflow." /%}
-{% quick-link title="Conditions & Filters" href="./providers" description="Learn how to apply conditions and filters to the sources content." /%}
-{% quick-link title="Sources Reference" href="./providers" description="Explore all the available sources and get detailed insights." /%}
+{% quick-link title="Multi-Instance Source" href="./multi-instance-source" description="Discover the concept and possibilities of the multi-instance source." /%}
+{% quick-link title="Conditions & Filters" href="./providers" description="Find out how content conditions and filters can improve your workflow." /%}
+{% quick-link title="Sources Reference" href="./providers" description="Explore all the available sources, their purpose and possibilities." /%}
 {% quick-link title="Custom Sources" href="./create-custom-source" description="Learn how to create a custom multi-instance source." /%}
 
 {% /quick-links %}

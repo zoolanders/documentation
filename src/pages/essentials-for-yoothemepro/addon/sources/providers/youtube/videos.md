@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **YouTube Videos Source**, part of the [YouTube Source](../youtube) collection, creates sources based on YouTube videos fetched with advanced search and API Key.
+The YouTube Videos Source, part of the [YouTube Source](../youtube) collection, creates sources based on YouTube videos fetched with advanced search and API Key.
 
 ---
 

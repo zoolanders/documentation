@@ -13,7 +13,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Cloudflare Source** feeds data from [Cloudflare Stream](https://www.cloudflare.com/products/cloudflare-stream/) videos. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The Cloudflare Source feeds data from [Cloudflare Stream](https://www.cloudflare.com/products/cloudflare-stream/) videos. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 

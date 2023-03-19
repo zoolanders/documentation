@@ -2,7 +2,9 @@
 title: Form Area Presets
 ---
 
-The following presets are made available for download as quick starting points. Simply download and [upload](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) them into the Builder Layouts Library. When ready, continue to the next section to learn more about forms core concepts.
+Download form presets as quick starting points. {% .lead %}
+
+Simply download and [upload](https://yootheme.com/support/yootheme-pro/joomla/layout-library#download-and-upload-layouts) any of the the following presents into the Builder Layouts Library. After that use them in any layout to quicly setup a new form.
 
 {% quick-links %}
     {% quick-link title="Contact Form" href="/assets/ytp/presets/FormArea-Preset.json" description="A contact form with Send Email and Display Message actions." download="true" /%}
