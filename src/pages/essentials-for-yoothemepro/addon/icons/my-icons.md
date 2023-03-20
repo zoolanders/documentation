@@ -2,16 +2,14 @@
 title: My Icons
 ---
 
-Curate a project-relatef icons. {% .lead %}
+Set a custom curated collection of project-related icons. {% .lead %}
 
-My Icons Tab exposes the icons from the Child Theme myicons folder, a great place to store project-related icon
+My Icons is a collection of custom curated icons by you for the project at hand. You can place icons in any `{childtheme}/myicons` folder, ahd those become natively integrated into the icon library and available for selection in the `My Icons Tab` of the builder Icon Picker.
 
-My Icons (opens new window)which would become available under the My Icons tab in the icons picker Modal. Its icons are expected under the {MyChildThemeDir}/myicons directory and is our recommendation to keep project-related icons safe and organized.
+{% image %}
+![My Icons](/assets/ytp/icons/my-icons.webp)
+{% /image %}
 
-TIP
-
-You can group the icons into subfolders, eg {MyChildThemeDir}/myicons/group-a or {MyChildThemeDir}/myicons/group-b.
-
-TIP
-
-UIkit expects clean SVG markup, if there are visual issues with your custom icons try cleaning them up with SVGO (opens new window)or SVGOMG (opens new window).
+{% callout %}
+You can group icons into subfolders as well, e.g. `{childtheme}/myicons/group-a`, `{childtheme}/myicons/group-b`.
+{% /callout %}

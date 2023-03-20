@@ -18,8 +18,8 @@
             "title": "Core Concepts",
             "links": [
                 {
-                    "title": "Multi-Instance Source",
-                    "href": "./multi-instance-source"
+                    "title": "Multi-Instance Sources",
+                    "href": "./multi-instance-sources"
                 },
                 {
                     "title": "Conditions & Filters",

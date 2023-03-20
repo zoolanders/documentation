@@ -12,5 +12,28 @@ Before starting, make sure Essentials has been properly [installed](../../integr
 
 ---
 
-## Follow Through
+## 1. Add an Icon Collection
 
+No collection is installed per default, so let's add one withing the Icon Collection Manager.
+
+{% image %}
+![Icon Collections Manager](/assets/ytp/icon-collections-manager.gif)
+{% /image %}
+
+1. Open the Icon Collections Manager.
+1. Click on the `Add Collection` button and choose the collection to be installed.
+1. Wait until the collection is listed in the manager.
+
+---
+
+## 2. Display an Icon
+
+Now that a collection is installed we can select any of it icons as a source for an icon display.
+
+{% image %}
+![Display Icon](/assets/ytp/icons/integration/display-icon.gif)
+{% /image %}
+
+1. Open the `Customizer -> Builder` section.
+1. Add an Icon Element and open it Icon Picker.
+1. In the picker Modal select the `Collections Tab` and select some icon.
