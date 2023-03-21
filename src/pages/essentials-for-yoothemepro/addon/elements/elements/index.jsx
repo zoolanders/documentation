@@ -12,7 +12,7 @@ export default function SectionIndex({index = []}) {
 }
 
 export async function getStaticProps() {
-  const posts = getAllPosts('essentials-for-yoothemepro/addon/elements/element', [
+  const posts = getAllPosts('essentials-for-yoothemepro/addon/elements/elements', [
     'title',
     'slug',
     'description',
@@ -20,7 +20,7 @@ export async function getStaticProps() {
     'preset'
   ])
 
-  const index = get(navigation, 'sections.2.links')
+  const index = get(navigation, 'sections.1.links.0.links')
     .map(link => posts.find(p => link.href === p.slug))
     .filter(Boolean)
 
