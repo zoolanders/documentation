@@ -11,7 +11,9 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Local Storage Adapter stores files in a local folder, inside or outside the site's root directory.
+With the Local Storage Adapter, you have the ability to set up a specific folder as a storage location. This folder can either be relative to the site directory, such as `layouts`, or absolute from the server root, such as `/home/user/layouts`.
+
+The designated folder must already exist and be accessible for reading and writing by the PHP user. Typically, this means that the folder should be located within the user's home directory.
 
 {% image %}
 ![Local Storage Adapter](/assets/ytp/storage/adapter-local.webp)
@@ -22,3 +24,7 @@ The Local Storage Adapter stores files in a local folder, inside or outside the 
 | **Name** | A name to identify this storage. |
 | **Root** | The path that will be used as the storage root, e.g. `layouts` as a site relative path or `/layouts` as a server absolute. |
 | **Write Permission** | Wether the storage will have Write in addition to Read permission. |
+
+{% callout type="warning" title="Security Reminder" %}
+Folders within the site's root directory are publicly accessible and exposed to those who know the folder path and its contents naming, unless you [explicitly deny access to it](https://stackoverflow.com/questions/9507645/htaccess-deny-from-all).
+{% /callout %}

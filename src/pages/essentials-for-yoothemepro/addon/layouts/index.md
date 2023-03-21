@@ -3,14 +3,12 @@ title: Layouts Addon
 pageTitle: Layouts Addon - An Essential addon for YOOtheme Pro
 ---
 
-Create custom builder Layout and Element Presets Libraries, keep them local os share them across-sites with an external storage as FTP or Amazon S3. {% .lead %}
+Create customized builder layout and element presets libraries, which can be saved locally or shared across multiple sites using external storage options such as FTP or Amazon S3. {% .lead %}
 
 You can either get started in the next section or explore one of the topics listed below.
 
 {% quick-links %}
 
-{% quick-link title="Layouts Condition" href="./condition" description="Discover the concept, workflow, and possibilities of custom Layout Libraries." /%}
-{% quick-link title="Rules Reference" href="./rules" description="Explore all the available rules, their purpose and posibilities." /%}
-{% quick-link title="Custom Rules" href="./create-custom-source" description="Learn how to create a custom rule in case needed." /%}
+{% quick-link title="Cross-Site Layouts Library" href="./cross-site-layout-library" description="Discover the concept, workflow, and possibilities of Cross-Site Layout Libraries." /%}
 
 {% /quick-links %}

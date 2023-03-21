@@ -9,13 +9,3 @@ Ensure Essentials has been installed correctly by following the [installation gu
 {% image caption="If the addon is not listed double check Essentials Premium has been installed."%}
 ![Enable Layouts Addon](/assets/ytp/layouts/integration/enable-addon.gif)
 {% /image %}
-
----
-
-## Follow through
-
-## 1. Create a Layout Library
-
-Let's create a new Layout Library on the current site to store all the Forms we'll create on our site.
-
-### 2.

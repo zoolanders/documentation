@@ -9,11 +9,3 @@ Ensure Essentials has been installed correctly by following the [installation gu
 {% image caption="If the addon is not listed double check Essentials Premium has been installed."%}
 ![Enable Elements Addon](/assets/ytp/elements/integration/enable-addon.gif)
 {% /image %}
-
----
-
-## Follow Through
-
-### 1.
-
-### 2.

@@ -18,34 +18,9 @@
             "title": "Core concepts",
             "links": [
                 {
-                    "title": "Layout Library",
-                    "href": "./library"
-                },
-                {
-                    "title": "Storage",
-                    "href": "./storage"
+                    "title": "Cross-Site Layout Library",
+                    "href": "./cross-site-layout-library"
                 }
-            ]
-        },
-        {
-            "title": "Reference",
-            "links": [
-                {
-                    "title": "Storage Adapters",
-                    "href": "./storage/adapters",
-                    "links": [
-                        {
-                            "title": "Local",
-                            "href": "./storage/adapters/local"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Advanced",
-            "links": [
-
             ]
         }
     ]
