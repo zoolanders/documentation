@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Facebook OAuth Driver** manage Facebook OAuth protocol to authenticate and grant scope permissions.
+The Facebook OAuth Driver manage Facebook OAuth protocol to authenticate and grant scope permissions.
 
 {% image %}
 ![Facebook OAuth Driver](/assets/ytp/auths/driver-facebook-oauth.webp)

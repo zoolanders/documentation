@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Google API Key Driver** manage Google API keys obtained through the [Google Cloud Platform](https://console.cloud.google.com/apis/credentials) dashboard.
+The Google API Key Driver manage Google API keys obtained through the [Google Cloud Platform](https://console.cloud.google.com/apis/credentials) dashboard.
 
 {% image %}
 ![Google API Key Driver](/assets/ytp/auths/driver-google-api-key.webp)

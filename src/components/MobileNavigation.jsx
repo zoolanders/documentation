@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useRouter } from 'next/router'
 import { Dialog } from '@headlessui/react'
+import {find} from 'lodash'
 
 import { DocNavigation } from '@/components/DocNavigation'
 
@@ -34,9 +35,11 @@ function CloseIcon(props) {
   )
 }
 
-export function MobileNavigation({ navigation }) {
+export function MobileNavigation({ navigation, tabs }) {
   let router = useRouter()
   let [isOpen, setIsOpen] = useState(false)
+
+  const activeTab = find(tabs, {active: true});
 
   useEffect(() => {
     if (!isOpen) return
@@ -80,7 +83,11 @@ export function MobileNavigation({ navigation }) {
               <CloseIcon className="h-6 w-6 stroke-slate-500" />
             </button>
           </div>
-          <DocNavigation navigation={navigation} className="mt-5 px-1" />
+
+          <div className='text-base px-1'>
+            {activeTab && (<div className="mt-10 font-display font-medium text-lg text-slate-900 dark:text-white">{activeTab.name} Addon</div>)}
+            <DocNavigation navigation={navigation} className="mt-8" />
+          </div>
         </Dialog.Panel>
       </Dialog>
     </>

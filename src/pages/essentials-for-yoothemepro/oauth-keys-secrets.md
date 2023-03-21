@@ -2,15 +2,15 @@
 title: OAuths, Keys & Secrets
 ---
 
-**OAuths, Keys & Secrets** is sensitive authentication data that we simply call **auths**. {% .lead %}
+OAuths, Keys & Secrets is sensitive authentication data that we simply call auths. {% .lead %}
 
-**Essentials** builds on top of **YOOtheme Pro** a workflow to authenticate to 3rd party services with the [OAuth](#oauth) protocol as well as to store [Keys and Secrets](#keys-and-secrets). The auth workflow has been built with [security](#security) in mind, as well as convenience through a [manager](#auth-manager).
+Essentials builds on top of YOOtheme Pro a workflow to authenticate to third-party services with the [OAuth](#oauth) protocol as well as to store [Keys and Secrets](#keys-and-secrets). The auth workflow has been built with [security](#security) in mind, as well as convenience through a [manager](#auth-manager).
 
 ---
 
 ## Auth Manager
 
-The **Auth Manager**, accessible at `Customizer -> Essentials -> Auths` panel, manages existing **OAuths, Keys & Secrets**. You can alter those and delete them withing the manager, but you cannot create new ones as an auth is tied to specific scopes and/or purpose only known while building the layouts.
+The Auth Manager can be accessed at `Customizer -> Essentials -> Auths` section. There you can manage OAuths, Keys & Secrets, but you cannot create new ones as an auth is tied to specific scopes and/or purpose only known while building the layouts.
 
 {% image %}
 ![Auth Manager](/assets/ytp/auths-manager.gif)
@@ -26,13 +26,13 @@ It is also possible, and somewhat more convenient, to manage the auths while cre
 
 ## Auth Driver
 
-Every auth requires an **Auth Driver** that will manage the authentication workflow or specify the secrets to be stored. Common [Auth Drivers](./auth/drivers) are provided out of the box while is also possible to register custom ones.
+Every auth requires an Auth Driver that will manage the authentication workflow or specify the secrets to be stored. Common [Auth Drivers](./auth/drivers) are provided out of the box while is also possible to register custom ones.
 
 ---
 
 ## OAuth
 
-This is the process where you authenticate to 3rd party services using the **OAuth** protocol and grant [ZOOlanders OAuth App](#zoolanders-oauth-app), or your [Custom OAuth App](#custom-oauth-app), permissions to access content or act on your behalf.
+This is the process where you authenticate to third-party services using the OAuth protocol and grant [ZOOlanders OAuth App](#zoolanders-oauth-app), or your [Custom OAuth App](#custom-oauth-app), permissions to access content or act on your behalf.
 
 {% image %}
 ![OAuth](/assets/ytp/auths-oauth.webp)
@@ -42,23 +42,23 @@ This is the process where you authenticate to 3rd party services using the **OAu
 
 ### ZOOlanders OAuth App
 
-For each service using the **OAuth** protocol, there must be an **OAuth App** created within the service with an approval process. Creating those is security-wise recommended, but is time-consuming and can be somewhat challenging.
+To use the OAuth protocol with a service, it is necessary to create an OAuth App within that service and go through its approval process. While creating an OAuth App is a recommended security measure, the process can be time-consuming and challenging.
 
-As a solution, we have created a **Web App** that acts as an intermediate step for all service-specific Apps we have already created and got approved for, which ultimately allows us to provide you with a simple and straightforward way to authenticate and grant permissions without having to go through the process your self.
+To address these challenges, we have developed a web app that acts as an intermediary for all service-specific apps that have already been created and approved. This approach provides a simple and straightforward way for you to authenticate and grant permissions without having to go through the process yourself.
 
 {% image %}
 ![ZOOlanders OAuth App](/assets/ytp/zl-oauth-app.webp)
 {% /image %}
 
 {% callout type="warning" title="Quota Limitations" %}
-When using our **OAuth App** the API quota is shared among other users, even though we didn't reach any limits so far it should be taken into consideration.
+It is important to keep in mind that when using our OAuth App, the API quota is shared among other users. Although we keep our requests optimized and have not yet reached any limits, it is still necessary to consider the possibility it might happen.
 {% /callout %}
 
 ---
 
 ### Custom OAuth App
 
-For high traffic sites, or for anyone that has the skills to do it, we strongly advise to create your own **OAuth App** and use it client **ID**/**Secret** when authenticating. That would avoid any possible quota limitations and enhance further security.
+We strongly recommend that high traffic sites, or anyone with the necessary skills, create their own OAuth App and use its client ID and secret for authentication. This approach helps to avoid any potential quota limitations and provides additional security measures. By creating your own OAuth App, you can have more control over the authentication process and tailor it to your specific needs.
 
 {% image %}
 ![Custom OAuth App](/assets/ytp/auths-custom-app.webp)
@@ -68,30 +68,28 @@ For high traffic sites, or for anyone that has the skills to do it, we strongly 
 
 ## Keys and Secrets
 
-Many features and services relies on **Keys & Secrets** for authentication or configuration, it's convenient to have a central and [secure](#security) place where to store and manage them.
+The auth workflow is a convenient way to securely manage keys and secrets that are required for certain features and services. By centralizing these keys and secrets you can ensure that they are stored securely and are easily accessible when needed. This helps simplify the management of these credentials and provide an additional layer of security.
 
 {% image %}
-![Keys & Secrets](/assets/ytp/auths-key.webp)
+![Keys and Secrets](/assets/ytp/auths-key.webp)
 {% /image %}
 
 ---
 
 ## Security
 
-The auth workflow has been built with security in mind but is important to understand the concepts behind it. {% .lead %}
+The auth workflow has been built with security in mind but is important to understand the concepts behind it. By having a solid understanding of these concepts, you can ensure that your applications and services are properly secured and protected against unauthorized access or data breaches.
 
 ### Encryption
 
-All auth tokens, keys & secrets are strongly **encrypted** and stored in [Essentials Settings](./settings) which is ultimately a Database Table. This is important as you don't want to expose those, but even if that would happen the encryption would make them useless.
-
-Furthermore, the decryption would only work in the same site it was encrypted by, because the site's secret key is used for the encryption. That means that porting the auths to a different site is not possible.
+All auth tokens, keys and secrets are securely **encrypted** and stored within the [Essentials Settings](./settings), which is essentially a database table. This is a critical security measure as it ensures that these sensitive credentials are not exposed. Even if they were somehow accessed, the encryption would render them useless to any unauthorized party.
 
 ### OAuth Principles
 
-The OAuth security principles are followed strictly and permissions are always required with the lowest possible scope. In practice, that means that for accessing a resource a Read Only scope is requested, if a resource is expected to be updated, only then a Read & Write scope is requested instead.
+We strictly follow the OAuth security principles and ensure that permissions are requested with the lowest possible scope required. In practical terms, this means that when accessing a resource, we request a read-only scope. Only when a resource is expected to be updated, do we request a read and write scope instead. By following these principles, we can minimize the amount of access granted, reducing the risk of unauthorized changes or data breaches.
 
-As per the protocol, any permission granted can be revoked at any time within the service provider which would immediately make all stored tokens stop working without the possibility to be reactivated.
+It's important to note that any granted permissions can be revoked at any time by the service provider as well as by your request. This would immediately render all stored tokens useless, without the possibility of reactivation. This allows to quickly revoke access in the event of a security breach or any other unauthorized access.
 
 ### OAuth App
 
-Using the [ZOOlanders OAuth App](#zoolanders-oauth-app) is convenient and save, we never store any login or token, we will just "pass those" on the fly to your site. Even so, for most services is recommended to create a custom **OAuth App** and use it instead, which would further enhance security and bypass possible quota limitations.
+Using the ZOOlanders OAuth App is a convenient and secure, we do not store any login or token information. Instead, we pass this information directly to your site. However, for most services, we recommend creating a custom OAuth App and using it instead. This provides an additional layer of security and can help bypass any potential quota limitations.

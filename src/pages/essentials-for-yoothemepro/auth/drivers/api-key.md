@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **API Key Driver** it's a generic API key driver in case a service specific one is missing.
+The API Key Driver it's a generic API key driver in case a service specific one is missing.
 
 {% image %}
 ![API Key Driver](/assets/ytp/auths/driver-api-key.webp)

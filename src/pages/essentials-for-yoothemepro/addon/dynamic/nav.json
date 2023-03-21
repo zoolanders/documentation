@@ -18,8 +18,8 @@
             "title": "Core Concepts",
             "links": [
                 {
-                    "title": "Field Sources",
-                    "href": "./field-sources"
+                    "title": "Per-Field Dynamic Content",
+                    "href": "./per-field-dynamic-content"
                 },
                 {
                     "title": "Global Queries",

@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { startsWith } from 'lodash'
 import clsx from 'clsx'
 
 export function DocNavigation({ navigation, className }) {
@@ -13,7 +12,7 @@ export function DocNavigation({ navigation, className }) {
   const isAnyChildActive = item => isChildActive(item) || isGrandChildActive(item)
 
   return (
-    <nav className={clsx('text-base lg:text-sm', className)}>
+    <nav className={clsx('lg:text-sm', className)}>
       <ul role="list" className="space-y-9">
         {navigation.map((section) => (
           <li key={section.title}>

@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **AWS Driver** manage API keys and secrets for [Amazon Web Services](https://aws.amazon.com).
+The AWS Driver manage API keys and secrets for [Amazon Web Services](https://aws.amazon.com).
 
 {% image %}
 ![AWS Driver](/assets/ytp/auths/driver-aws.webp)

@@ -107,6 +107,11 @@
   background: transparent;
   padding: 0 1rem 0 3rem;
   outline: none;
+  border: none;
+}
+
+.DocSearch-Input:focus {
+  box-shadow: none;
 }
 
 .DocSearch-Input::placeholder {

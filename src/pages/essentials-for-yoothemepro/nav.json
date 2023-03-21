@@ -39,10 +39,6 @@
             "title": "Reference",
             "links": [
                 {
-                    "title": "Settings",
-                    "href": "./settings"
-                },
-                {
                     "title": "Addons",
                     "href": "./addons",
                     "links": [
@@ -75,6 +71,10 @@
                             "href": "./addon/elements"
                         }
                     ]
+                },
+                {
+                    "title": "Settings",
+                    "href": "./settings"
                 },
                 {
                     "title": "Auth Drivers",

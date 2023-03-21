@@ -8,14 +8,14 @@ hero:
   image: /hero-ytp.png
 ---
 
-**Essentials for YOOtheme Pro** is a set of free and premium [addons](./addons) for the [YOOtheme Pro Builder](https://yootheme.com/page-builder) compatible with versions 2.x and 3.x for both WordPress and Joomla. {% .lead %}
+Essentials for YOOtheme Pro is a collection of [addons](./addons) specifically crafted for the [YOOtheme Pro](https://yootheme.com/page-builder) page builder. These addons are compatible with versions 2.x, 3.x, and 4.x of the builder and can be used on both WordPress and Joomla platforms. {% .lead %}
 
-Start integrating Essentials in the next section or skip to one of the common topics bellow.
+You can either get started in the next section or explore one of the topics listed below.
 
 {% quick-links %}
 
-{% quick-link title="Settings" href="./settings" description="Get familiar with Essential Global Settings, consult the changelog or export debug data." /%}
-{% quick-link title="Addons" href="./addons" description="Explore Essential Addons and learn more about their workflow and insights." /%}
+{% quick-link title="Addons" href="./addons" description="Explore Essential Addons and how can they help you with your projects." /%}
 {% quick-link title="OAuth, Keys & Secrets" href="./oauth-keys-secrets" description="Learn how Essentials authenticates and keeps your secrets save." /%}
+{% quick-link title="Settings" href="./settings" description="Get familiar with Essential Global Settings, consult the changelog or export debug data." /%}
 
 {% /quick-links %}

@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Twitter OAuth Driver** manage Twitter OAuth protocol to authenticate and grant scope permissions.
+The Twitter OAuth Driver manage Twitter OAuth protocol to authenticate and grant scope permissions.
 
 {% image %}
 ![Twitter OAuth Driver](/assets/ytp/auths/driver-twitter-oauth.webp)

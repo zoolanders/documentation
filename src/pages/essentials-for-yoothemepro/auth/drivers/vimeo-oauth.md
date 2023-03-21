@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Vimeo OAuth Driver** manage Vimeo OAuth protocol to authenticate and grant scope permissions.
+The Vimeo OAuth Driver manage Vimeo OAuth protocol to authenticate and grant scope permissions.
 
 {% image %}
 ![Vimeo OAuth Driver](/assets/ytp/auths/driver-vimeo-oauth.webp)

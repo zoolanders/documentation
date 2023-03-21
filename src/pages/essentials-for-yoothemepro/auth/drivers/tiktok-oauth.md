@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **TikTok OAuth Driver** manage TikTok OAuth protocol to authenticate and grant scope permissions.
+The TikTok OAuth Driver manage TikTok OAuth protocol to authenticate and grant scope permissions.
 
 {% image %}
 ![TikTok OAuth Driver](/assets/ytp/auths/driver-tiktok-oauth.webp)

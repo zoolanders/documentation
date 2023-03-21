@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **S/FTP Storage Adapter** stores files in a remote server using the S/FTP protocol.
+The S/FTP Storage Adapter stores files in a remote server using the S/FTP protocol.
 
 {% image %}
 ![S/FTP Storage Adapter](/assets/ytp/storage/adapter-ftp.webp)

@@ -11,7 +11,7 @@ export function DocLayout({ children, navigation, subnav = {}, markdoc = {} }) {
   const tabs = Object.keys(subnav).map(path => ({
     name: subnav[path]?.title,
     href: path,
-    current: router.pathname.startsWith(path)
+    active: router.pathname.startsWith(path)
   }))
 
   return (

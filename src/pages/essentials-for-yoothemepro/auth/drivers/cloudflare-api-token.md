@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Cloudflare API Token Driver** manage Cloudflare API tokens obtained through the [Cloudflare Profile Dashboard](https://dash.cloudflare.com/profile/api-tokens).
+The Cloudflare API Token Driver manage Cloudflare API tokens obtained through the [Cloudflare Profile Dashboard](https://dash.cloudflare.com/profile/api-tokens).
 
 {% image %}
 ![Cloudflare API Token Driver](/assets/ytp/auths/driver-cloudflare-api-token.webp)

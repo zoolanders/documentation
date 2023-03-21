@@ -18,7 +18,7 @@ function GitHubIcon(props) {
 
 export function Header({ navigation, tabs = [] }) {
     const { isScrolled } = useScroller()
-    const showTabs = Boolean(tabs.filter((t) => t.current).length)
+    const showTabs = Boolean(tabs.filter((t) => t.active).length)
 
     return (
         <header
@@ -32,14 +32,14 @@ export function Header({ navigation, tabs = [] }) {
             <div className="max-w-8xl mx-auto">
                 <div className="flex flex-wrap items-center justify-between px-4 sm:px-8 py-5">
                     <div className="mr-6 flex lg:hidden">
-                        <MobileNavigation navigation={navigation} />
+                        <MobileNavigation navigation={navigation} tabs={tabs} />
                     </div>
-                    <div className="relative hidden sm:block basis-0 items-center">
+                    <div className="relative block basis-0">
                         <Link href="/" aria-label="Home page">
                             <Logo className="h-6 w-auto" />
                         </Link>
                     </div>
-                    <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 sm:flex-grow">
+                    <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 flex-grow">
                         <Search />
                         <ThemeSelector className="relative z-10" />
                         <Link

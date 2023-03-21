@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Instagram OAuth Driver** manage Instagram OAuth protocol to authenticate and grant scope permissions.
+The Instagram OAuth Driver manage Instagram OAuth protocol to authenticate and grant scope permissions.
 
 {% image %}
 ![Instagram OAuth Driver](/assets/ytp/auths/driver-instagram-oauth.webp)

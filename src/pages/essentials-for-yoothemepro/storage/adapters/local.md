@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Local Storage Adapter** stores files in a local folder, inside or outside the site's root directory.
+The Local Storage Adapter stores files in a local folder, inside or outside the site's root directory.
 
 {% image %}
 ![Local Storage Adapter](/assets/ytp/storage/adapter-local.webp)
