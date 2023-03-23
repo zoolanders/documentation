@@ -1,0 +1,18 @@
+{
+    "title": "Layouts",
+    "sections": [
+        {
+            "title": "Getting Started",
+            "links": [
+                {
+                    "title": "Overview",
+                    "href": "./"
+                },
+                {
+                    "title": "Integration",
+                    "href": "./integration"
+                }
+            ]
+        }
+    ]
+}

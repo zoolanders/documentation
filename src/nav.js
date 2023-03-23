@@ -1,21 +1,21 @@
 import navYtp from '@/pages/essentials-for-yoothemepro/nav.json'
-import navForms from '@/pages/essentials-for-yoothemepro/addon/forms/nav.json'
-import navSources from '@/pages/essentials-for-yoothemepro/addon/sources/nav.json'
-import navAccess from '@/pages/essentials-for-yoothemepro/addon/access/nav.json'
-import navDynamic from '@/pages/essentials-for-yoothemepro/addon/dynamic/nav.json'
-import navLayout from '@/pages/essentials-for-yoothemepro/addon/layouts/nav.json'
-import navIcons from '@/pages/essentials-for-yoothemepro/addon/icons/nav.json'
-import navElements from '@/pages/essentials-for-yoothemepro/addon/elements/nav.json'
+import navForms from '@/pages/essentials-for-yoothemepro/addons/forms/nav.json'
+import navSources from '@/pages/essentials-for-yoothemepro/addons/sources/nav.json'
+import navAccess from '@/pages/essentials-for-yoothemepro/addons/access/nav.json'
+import navDynamic from '@/pages/essentials-for-yoothemepro/addons/dynamic/nav.json'
+import navLayout from '@/pages/essentials-for-yoothemepro/addons/layouts/nav.json'
+import navIcons from '@/pages/essentials-for-yoothemepro/addons/icons/nav.json'
+import navElements from '@/pages/essentials-for-yoothemepro/addons/elements/nav.json'
 
 const navs = {
     '/essentials-for-yoothemepro': navYtp,
-    '/essentials-for-yoothemepro/addon/elements': navElements,
-    '/essentials-for-yoothemepro/addon/layouts': navLayout,
-    '/essentials-for-yoothemepro/addon/dynamic': navDynamic,
-    '/essentials-for-yoothemepro/addon/icons': navIcons,
-    '/essentials-for-yoothemepro/addon/forms': navForms,
-    '/essentials-for-yoothemepro/addon/sources': navSources,
-    '/essentials-for-yoothemepro/addon/access': navAccess,
+    '/essentials-for-yoothemepro/addons/elements': navElements,
+    '/essentials-for-yoothemepro/addons/layouts': navLayout,
+    '/essentials-for-yoothemepro/addons/dynamic': navDynamic,
+    '/essentials-for-yoothemepro/addons/icons': navIcons,
+    '/essentials-for-yoothemepro/addons/forms': navForms,
+    '/essentials-for-yoothemepro/addons/sources': navSources,
+    '/essentials-for-yoothemepro/addons/access': navAccess,
 }
 
 export function getNav(forPath) {
