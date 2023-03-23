@@ -12,7 +12,7 @@ Ensure Essentials has been installed correctly by following the [installation gu
 
 ---
 
-## 1. Create a Library
+## 1. Create Library
 
 Let's create a custom layout library within the manager.
 
@@ -21,7 +21,11 @@ Let's create a custom layout library within the manager.
 {% /image %}
 
 1. Open the `Customizer -> Essentials -> Layout Libraries` section.
-1. Click on the `New Library` button.
+1. Click on the `New Library` button and set a name for it.
+
+---
+
+## 2. Create Library Storage
 
 In this case we are going to set a library with a local storage, but you can opt to set an external storage and that way enable layouts cross-site sharing.
 
@@ -29,15 +33,16 @@ In this case we are going to set a library with a local storage, but you can opt
 ![Create Layout Library](/assets/ytp/layouts/integration/create-library.gif)
 {% /image %}
 
-1. Set a name for the custom library.
-1. Choose or create a storage for the library layouts.
-1. Finish the layout creation by clicking on `Save`.
+1. In the `Storage` field click on the storage picker.
+1. Choose `local` storage or of choice.
+1. Another modal will open, set the name and details.
+1. Save the storage and library by clicking `Save` on both opened modals.
 
 ---
 
-## 2. Save a Layout
+## 2. Save Layout To Library
 
-The new library will appear in the Builder Library modal Tab with the name used during it creation, you can save and load layouts within it the same way you are already used to.
+The new library will appear in the [Layout Library](https://yootheme.com/support/yootheme-pro/joomla/layout-library) modal Tab with the name used during it creation as well as in the elements presets modal. You can now save and load layouts within the new Library in the same way you are already used to.
 
 {% image %}
 ![Save Layout To Library](/assets/ytp/layouts/integration/save-to-library.gif)

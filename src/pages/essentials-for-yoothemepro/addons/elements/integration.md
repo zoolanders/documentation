@@ -9,3 +9,9 @@ Ensure Essentials has been installed correctly by following the [installation gu
 {% image caption="If the addon is not listed double check Essentials Premium has been installed."%}
 ![Enable Elements Addon](/assets/ytp/elements/integration/enable-addon.gif)
 {% /image %}
+
+After enabling the addon, the elements will be accessible in the Builder Elements Modal under the `Essentials Group`. Add them to your content as you would any other element, and refer to the subsequent sections for more information about each element.
+
+{% image %}
+![Add Element](/assets/ytp/elements/integration/add-element.gif)
+{% /image %}

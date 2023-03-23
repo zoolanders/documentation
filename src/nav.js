@@ -1,4 +1,5 @@
-import navYtp from '@/pages/essentials-for-yoothemepro/nav.json'
+import navYtp from '@/pages/yoothemepro/nav.json'
+import navEssYtp from '@/pages/essentials-for-yoothemepro/nav.json'
 import navForms from '@/pages/essentials-for-yoothemepro/addons/forms/nav.json'
 import navSources from '@/pages/essentials-for-yoothemepro/addons/sources/nav.json'
 import navAccess from '@/pages/essentials-for-yoothemepro/addons/access/nav.json'
@@ -8,7 +9,8 @@ import navIcons from '@/pages/essentials-for-yoothemepro/addons/icons/nav.json'
 import navElements from '@/pages/essentials-for-yoothemepro/addons/elements/nav.json'
 
 const navs = {
-    '/essentials-for-yoothemepro': navYtp,
+    '/yoothemepro': navYtp,
+    '/essentials-for-yoothemepro': navEssYtp,
     '/essentials-for-yoothemepro/addons/elements': navElements,
     '/essentials-for-yoothemepro/addons/layouts': navLayout,
     '/essentials-for-yoothemepro/addons/dynamic': navDynamic,

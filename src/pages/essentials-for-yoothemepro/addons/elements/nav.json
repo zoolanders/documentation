@@ -1,5 +1,5 @@
 {
-    "title": "Elements (WIP)",
+    "title": "Elements",
     "sections": [
         {
             "title": "Getting Started",
@@ -18,14 +18,16 @@
             "title": "Reference",
             "links": [
                 {
-                    "title": "Elements",
-                    "href": "./element",
-                    "links": [
-                        {
-                            "title": "Markdown",
-                            "href": "./element/markdown"
-                        }
-                    ]
+                    "title": "Chart Element",
+                    "href": "./chart"
+                },
+                {
+                    "title": "Markdown Element",
+                    "href": "./markdown"
+                },
+                {
+                    "title": "Social Sharing Element",
+                    "href": "./social-sharing"
                 }
             ]
         }

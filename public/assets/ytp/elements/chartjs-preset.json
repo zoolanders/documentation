@@ -1,0 +1,80 @@
+{
+    "type": "section",
+    "children": [
+        {
+            "type": "row",
+            "children": [
+                {
+                    "type": "column",
+                    "children": [
+                        {
+                            "type": "yooessentials_chart",
+                            "props": {
+                                "chart_type": "doughnut",
+                                "chart_deferred": true,
+                                "chart_beginAtZero": true,
+                                "chart_width": "400px",
+                                "chart_height": "400px",
+                                "title_display": true,
+                                "legend_display": true,
+                                "tooltips_enabled": true,
+                                "tooltips_displayColors": true,
+                                "title_position": "top",
+                                "title_fontSize": 12
+                            },
+                            "children": [
+                                {
+                                    "type": "yooessentials_chart_dataset",
+                                    "props": {
+                                        "dataset_fill": false,
+                                        "dataset_showLine": true,
+                                        "dataset_borderWidth": 3,
+                                        "dataset_lineTension": 0.4,
+                                        "dataset_barPercentage": 0.9,
+                                        "dataset_label": "Default",
+                                        "dataset_type": "doughnut"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "yooessentials_chart_data",
+                                            "source": {
+                                                "query": {
+                                                    "name": "fileCSV_F60106_query",
+                                                    "arguments": {
+                                                        "offset": 0,
+                                                        "limit": 10
+                                                    }
+                                                },
+                                                "props": {
+                                                    "label": {
+                                                        "filters": {
+                                                            "search": ""
+                                                        },
+                                                        "name": "color"
+                                                    },
+                                                    "data": {
+                                                        "filters": {
+                                                            "search": ""
+                                                        },
+                                                        "name": "value"
+                                                    },
+                                                    "backgroundColor": {
+                                                        "filters": {
+                                                            "search": "",
+                                                            "before": "#"
+                                                        },
+                                                        "name": "hex"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
