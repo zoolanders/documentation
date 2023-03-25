@@ -2,35 +2,53 @@
 title: Dynamic Workflow
 ---
 
-Use Dynamic Content and Submission Data as natural part of the submission workflow. {% .lead %}
+Integrate Submission Data and Dynamic Content in advanced submission workflows. {% .lead %}
 
-As per the form's dynamic nature, there are several ways to reference and use the Submitted Data, as well as Dynamic Content, during the submission workflow.
-
----
-
-## Submission Data Placeholders
-
-Submission Data Placeholders are **plain string** references to the submitted data by its Control Name. Given an Input with a Control Name `email`, the placeholder reference would be `{email}`. These can be placed in actions input settings and would be replaced with the submitted data value during the action execution, e.g. `john@email.com`.
-
-For a quick reference, a list of available placeholders is shown in the Builder panels Placeholder Button, above each field supporting placeholders.
+As forms are dynamic in nature, there are various ways to reference submitted data during the submission workflow. By utilizing these, as well as Dynamic Content, forms can be customized to meet the specific needs of the workflow, enabling more complex and advanced form submission processes.
 
 ---
 
-## Submission Data Source
+## Data Placeholders
 
-Submission Data Source is a Dynamic Content Source created programmatically for each form configuration. Being a Source it allows mapping any submitted data to a field and applying filters on it.
+Data placeholders are plain string references to the submitted data based on their control names. For instance, if there is an input field with the control name `email`, the placeholder reference would be `{email}`. These placeholders can be placed in action settings and will be replaced with the submitted data value during the action execution.
 
-It will be listed as a dynamic source under the Dynamic button of each field supporting sources while editing Form Area settings.
+{% image caption="As a quick reference a list of available placeholders can be accessed by clicking the Placeholder Button." %}
+![Form Data Placeholders](/assets/ytp/forms/form-data-placeholders.webp)
+{% /image %}
 
-{% callout title="Alter Submitted Data" %}
-Sometimes submitted data will not be in the required format, e.g. a Date. Use the [Data Action](actions/data) to remap the value with Form Data Source and a dynamic filter. Access the new data in consequent actions with a placeholder.
+---
+
+## Form Sources
+
+For each Form Area, a dynamic content source is created as an alternative, and more convenient, way of accessing submitted data during the actions configuration. As a source, it has all the advantages of dynamic content, including the ability to use filters. The mapping option for the source will be listed as part of the `Dynamic` options under the `Submission Group`.
+
+{% image %}
+![Form Dynamic Content](/assets/ytp/forms/form-dynamic-content.webp)
+{% /image %}
+
+{% callout title="Alter Submission Data" %}
+Sometimes, submitted data may be in a format that is not convenient for a specific action workflow, e.g. displaying the inputted date in the email body.
+
+A workaround is to use the [Data Action](actions/data) to remap the value from the form source by applying a dynamic filter that changes the format of the data. The newly formatted value can then be used as a data placeholder in subsequent actions.
 {% /callout %}
 
 ---
 
-## Submission Contextual Data
+## Page Queries Content
 
-Submission Contextual Data such as the Datetime, page URL, user IP, etc. is not part of the submission, but being the information available in the context as Dynamic Content, it's simply a matter of mapping it when required. Typically that would be in combination with some of the `SaveTo` actions or the [Data Action](actions/data).
+In certain form workflows, there may be a need for dynamic content from the current page, also known as page queries. This content is available during the form rendering, but is not during the form submission, which is why it's not listed as a mapping option. To work around this limitation, the content can be mapped to a hidden field and referenced using the field placeholder as needed.
+
+{% callout type="warning" title="Hidden, Still Exposed" %}
+It's important to note that although hidden field content is not visible on the page, it is still exposed in the source code of the page.
+
+If the data is sensitive, it's crucial to enable the encryption setting in the hidden field to ensure that the data remains secure and protected from unauthorized access or disclosure.
+{% /callout %}
+
+---
+
+## Contextual Data
+
+Contextual data such as the datetime, page URL, and user IP is not included in the submission. However, since this information is available as dynamic content, it can be easily mapped when necessary, usually in combination with SaveTo actions or the [Data Action](actions/data).
 
 As a quick reference use these sources:
 
