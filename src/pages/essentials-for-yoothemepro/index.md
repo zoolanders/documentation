@@ -1,10 +1,10 @@
 ---
 title: Essentials for YOOtheme Pro
-pageTitle: Getting started with Essentials for YOOtheme Pro
-description: Essentials for YOOtheme Pro guides and examples
+pageTitle: Essentials for YOOtheme Pro Documentation
+description: Essentials for YOOtheme Pro guides and documentation
 hero:
   title: Essentials for YOOtheme Pro
-  description: Explore our guides and examples about Essentials for <span class="whitespace-nowrap">YOOtheme Pro</span>
+  description: Explore Essentials for <span class="whitespace-nowrap">YOOtheme Pro</span> guides and documentation
   image: /hero-ytp.png
 ---
 
