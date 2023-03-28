@@ -4,7 +4,7 @@ pageTitle: Essentials for YOOtheme Pro Documentation
 description: Essentials for YOOtheme Pro guides and documentation
 hero:
   title: Essentials for YOOtheme Pro
-  description: Explore Essentials for <span class="whitespace-nowrap">YOOtheme Pro</span> guides and documentation
+  description: Documentation and guides for <span class="whitespace-nowrap">YOOtheme Pro</span> Essentials
   image: /hero-ytp.png
 ---
 

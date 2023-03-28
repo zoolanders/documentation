@@ -1,5 +1,5 @@
 import { Search } from '@/components/Search'
-import Image from 'next/future/image'
+import Image from 'next/image'
 
 export function DocHero({title, description, image}) {
   // workaround to avoid wrap ytp word

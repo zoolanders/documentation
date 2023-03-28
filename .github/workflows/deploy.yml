@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - master
+      - deploy
 
 jobs:
   build:
@@ -35,5 +35,5 @@ jobs:
           username: docs@zoolanders.com
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: ./
+          server-dir: ./1.10/
           dangerous-clean-slate: true

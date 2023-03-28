@@ -2,22 +2,29 @@ const withMarkdoc = require('@markdoc/next.js')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  trailingSlash: true,
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md'],
-  swcMinify: true,
-  experimental: {
-    newNextLinkBehavior: true,
-    scrollRestoration: true,
-  },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/essentials-for-yoothemepro',
-        permanent: false,
-      }
-    ]
+  images: {
+    unoptimized: true
   }
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: '/',
+  //       destination: '/essentials-for-yoothemepro',
+  //       permanent: false,
+  //     }
+  //   ]
+  // }
+  // ,async rewrites() {
+  //   return [
+  //     {
+  //       source: '/essentials-for-yoothemepro',
+  //       destination: '/',
+  //     },
+  //   ]
+  // },
 }
 
 module.exports = withMarkdoc()(nextConfig)

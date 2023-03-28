@@ -31,11 +31,10 @@ export default function Custom404() {
   )
 }
 
-export async function getStaticProps(context) {
+export async function getStaticProps() {
   return {
-    // will be passed to the page component as props
     props: {
-      statusCode: 404,
-    },
+      layout: 'Page'
+    }
   }
 }

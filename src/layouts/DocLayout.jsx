@@ -4,7 +4,7 @@ import { DocHero } from '@/components/DocHero'
 import { DocContent } from '@/components/DocContent'
 import { useRouter } from 'next/router'
 
-export function DocLayout({ children, navigation, subnav = {}, markdoc = {} }) {
+export default function DocLayout({ children, navigation, subnav = {}, markdoc = {} }) {
   const router = useRouter()
   const {frontmatter = {}, content = []} = markdoc
 

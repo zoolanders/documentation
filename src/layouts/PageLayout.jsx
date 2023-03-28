@@ -1,8 +1,7 @@
 import { Header } from '@/components/Header'
-import { Footer } from '@/components/Footer'
+// import Footer from './_footer'
 
-export function PageLayout({ children }) {
-
+export default function PageLayout({ children }) {
   return (
     <>
       <Header />

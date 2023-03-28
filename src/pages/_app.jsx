@@ -1,28 +1,26 @@
 import React from 'react'
 import Head from 'next/head'
+import PageLayout from '@/layouts/PageLayout'
+import DocLayout from '@/layouts/DocLayout'
 import { NavContext } from '@/context'
 import { useRouter } from 'next/router'
-import { DocLayout } from '@/components/DocLayout'
-import { PageLayout } from '@/components/PageLayout'
 import { getNav, getSubnav } from '@/nav'
 
 import 'focus-visible'
 import '@/styles/tailwind.css'
 
+const layouts = {
+  Doc: DocLayout,
+  Page: PageLayout,
+}
+
 export default function App({ Component, pageProps }) {
   const router = useRouter()
   const { frontmatter = {} } = pageProps.markdoc || {}
-  const pageTitle =
-    frontmatter.pageTitle ||
-    'ZOOlanders Documentation' +
-      (frontmatter.title ? `- ${frontmatter.title}` : '')
+
+  const pageTitle = frontmatter.pageTitle || 'ZOOlanders Documentation' + (frontmatter.title ? `- ${frontmatter.title}` : '')
   const pageDescription = frontmatter.description
-
-  let Layout = DocLayout
-
-  if (pageProps.statusCode === 404) {
-    Layout = PageLayout
-  }
+  const Layout = layouts[frontmatter.layout || pageProps.layout || 'Doc'];
 
   const nav = getNav(router.pathname)
   const subnav = getSubnav(router.pathname.split('/').slice(0, 2).join('/'))
