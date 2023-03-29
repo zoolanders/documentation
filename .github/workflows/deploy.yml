@@ -22,10 +22,10 @@ jobs:
           args: zip -qq -r docs.zip dist
 
       - name: Copy over SSH
-        uses: garygrossgarten/github-action-scp@0.8.0
+        uses: appleboy/scp-action@master
         with:
-          local: docs.zip
-          remote: /home/u76-vmwxrromno93/www/docs.zoolanders.com/next/docs.zip
+          source: "docs.zip"
+          target: "/home/u76-vmwxrromno93/www/docs.zoolanders.com/next/docs.zip"
           host: ${{ secrets.SSH_HOST }}
           port: 18765
           username: ${{ secrets.SSH_USER }}
