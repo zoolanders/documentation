@@ -31,10 +31,10 @@ jobs:
           name: dist
           path: dist
 
-      - uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      - uses: SamKirkland/FTP-Deploy-Action@4.3.4
         with:
-          server: zoolanders.com
-          username: docs@zoolanders.com
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: ./1.10/
