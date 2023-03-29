@@ -1,7 +1,7 @@
 ---
 title: Range Field Element
 description: A number range form control
-preset: /assets/ytp/presets/FormArea-Range.json
+preset: /next/assets/ytp/presets/FormArea-Range.json
 icon: '
   <path stroke-width="2" d="M28 3H2h26z" transform="matrix(1.07712 0 0 1 -1.16509 12)"/>
   <ellipse stroke="none" cx="4.553" cy="24.48" rx="1.019" ry="1.054" transform="matrix(4.6174 0 0 4.42474 -6.02189 -93.31628)"/>
@@ -14,7 +14,7 @@ icon: '
 
 The **Range Element** displays a [\<input type="range"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range) HTML element, use it to allow users to enter a numeric value in a specified range which precise value, however, is not considered important.
 
-![Range Element](/assets/ytp/forms/fields/range.webp)
+![Range Element](/next/assets/ytp/forms/fields/range.webp)
 
 ---
 

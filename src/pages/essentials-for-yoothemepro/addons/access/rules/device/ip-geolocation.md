@@ -21,7 +21,7 @@ The IP Geolocation Access Rule evaluates whether the device ip location, determi
 ## Settings
 
 {% image %}
-![IP Geolocation Access Rule](/assets/ytp/access/rule-ip-geolocation.webp)
+![IP Geolocation Access Rule](/next/assets/ytp/access/rule-ip-geolocation.webp)
 {% /image %}
 
 | Setting | Description | Dynamic |

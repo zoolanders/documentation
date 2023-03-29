@@ -1,13 +1,13 @@
 ---
 title: Input Date Field Element
-preset: /assets/ytp/presets/FormArea-InputDate.json
+preset: /next/assets/ytp/presets/FormArea-InputDate.json
 ---
 
 A date form control. {% .lead %}
 
 Child of [Input Element](./input), the **Input Date Element** displays a [\<input type="date"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date) HTML element, use it to create one-line date edit fields.
 
-![Input Date Element](/assets/ytp/forms/fields/input-date.webp)
+![Input Date Element](/next/assets/ytp/forms/fields/input-date.webp)
 
 {% callout type="warning" title="Styling Limitations" %}
 Date input relies on the browser's native implementation, the picker and icon style is inconsistent and its customization is not possible.

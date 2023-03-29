@@ -14,7 +14,7 @@ Thanks to the library's integration with various storage options, you have the a
 For an overview of the storage workflow and it capabilities, consult the [Storage Abstraction](/essentials-for-yoothemepro/storage-abstraction) section.
 
 {% image %}
-![Layout Library Storage](/assets/ytp/storage/adapter-s3.webp)
+![Layout Library Storage](/next/assets/ytp/storage/adapter-s3.webp)
 {% /image %}
 
 ## Enhanced User Interface
@@ -22,7 +22,7 @@ For an overview of the storage workflow and it capabilities, consult the [Storag
 The user interface of the custom layout library is designed to be more advanced and user-friendly, featuring support for bulk layout management. This enables you to efficiently manage multiple layouts at once, making it easier to streamline your workflow and save time.
 
 {% image %}
-![Layout Library UI](/assets/ytp/layouts/library-ui.webp)
+![Layout Library UI](/next/assets/ytp/layouts/library-ui.webp)
 {% /image %}
 
 ## Layout Libraries Manager
@@ -30,5 +30,5 @@ The user interface of the custom layout library is designed to be more advanced 
 The Layout Libraries Manager can be accessed at `Customizer -> Essentials -> Layout Libraries` section. There you can create and manage your custom layout libraries which will become part of the core Layout Library workflow.
 
 {% image %}
-![Layout Libraries Manager](/assets/ytp/layout-libraries-manager.gif)
+![Layout Libraries Manager](/next/assets/ytp/layout-libraries-manager.gif)
 {% /image %}

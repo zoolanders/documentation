@@ -7,7 +7,7 @@ Follow through to learn how to create a Form Area. Even if you are already famil
 Ensure Essentials has been installed correctly by following the [installation guide](/essentials-for-yoothemepro/integration#installation). From there, open the `Customizer -> Essentials -> Advanced` section and enable the **Forms Addon**, then save the changes and refresh the page.
 
 {% image caption="If the addon is not listed double check Essentials Premium has been installed."%}
-![Enable Forms Addon](/assets/ytp/forms/integration/enable-addon.gif)
+![Enable Forms Addon](/next/assets/ytp/forms/integration/enable-addon.gif)
 {% /image %}
 
 ---
@@ -17,7 +17,7 @@ Ensure Essentials has been installed correctly by following the [installation gu
 A form must be structured inside of a Section or Column enabled as a [Form Area](form-area), which can be done easily with just a few clicks.
 
 {% image %}
-![Create a Form Area](/assets/ytp/forms/integration/create-form-area.gif)
+![Create a Form Area](/next/assets/ytp/forms/integration/create-form-area.gif)
 {% /image %}
 
 1. Access the Customizer Builder area.
@@ -31,7 +31,7 @@ A form must be structured inside of a Section or Column enabled as a [Form Area]
 At least one [After Submit Action](after-submit-actions) must be set for every form, otherwise, it will not trigger any action. In this case are going to greet the user adding a Message Action, but for more advanced scenarios, adding Email and SaveTo actions would be necessary to send an email and save the submitted data.
 
 {% image %}
-![Add After Submit Actions](/assets/ytp/forms/integration/add-form-actions.gif)
+![Add After Submit Actions](/next/assets/ytp/forms/integration/add-form-actions.gif)
 {% /image %}
 
 1. Open the Form Area configuration created in the previous step.
@@ -49,7 +49,7 @@ It's what we call [Data Placeholders](dynamic#data-placeholders), and is one of 
 Now we need to add fields to our form. Let's include a Comment field and a Submit button.
 
 {% image %}
-![Add Form Fields](/assets/ytp/forms/integration/add-form-fields.gif)
+![Add Form Fields](/next/assets/ytp/forms/integration/add-form-fields.gif)
 {% /image %}
 
 1. Go back to the builder main panel and add an Element of a type Textarea.
@@ -63,7 +63,7 @@ Now we need to add fields to our form. Let's include a Comment field and a Submi
 Let's give it a try!
 
 {% image %}
-![Form Submission Test](/assets/ytp/forms/integration/submission-test.webp)
+![Form Submission Test](/next/assets/ytp/forms/integration/submission-test.webp)
 {% /image %}
 
 1. Locate the form in the Builder preview.

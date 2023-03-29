@@ -13,7 +13,7 @@ icon: '
 The Google OAuth Driver manage Google OAuth 2.0 protocol to authenticate and grant scope permissions.
 
 {% image %}
-![Google OAuth Driver](/assets/ytp/auths/driver-google-oauth.webp)
+![Google OAuth Driver](/next/assets/ytp/auths/driver-google-oauth.webp)
 {% /image %}
 
 | Setting | Description |

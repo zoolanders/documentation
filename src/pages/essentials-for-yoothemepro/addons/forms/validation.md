@@ -20,7 +20,7 @@ At the moment, it is only possible to customize the validation error messages fo
 
 ## CAPTCHA Validation
 
-![Captcha Elements](/assets/ytp/forms/captcha/elements.webp)
+![Captcha Elements](/next/assets/ytp/forms/captcha/elements.webp)
 
 A CAPTCHA is a type of test that is used to determine whether the user is human by presenting a challenge-response test. It is often used in online forms to prevent spam and abuse. There are various third-party CAPTCHA service providers that are supported out of the box, use them to set a workflow that will protect the form from such abuses.
 

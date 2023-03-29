@@ -18,7 +18,7 @@ The **SaveToDatabase Action** stores each submission data as a new record in a l
 ## Settings
 
 {% image %}
-![SaveToDatabase Action Settings](/assets/ytp/forms/action-savetodb-settings.webp)
+![SaveToDatabase Action Settings](/next/assets/ytp/forms/action-savetodb-settings.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -39,7 +39,7 @@ The **SaveToDatabase Action** stores each submission data as a new record in a l
 The connection to the Database is by default system inherited with the possibility for manual override.
 
 {% image %}
-![SaveToDatabase Action Connection](/assets/ytp/forms/action-savetodb-connection.webp)
+![SaveToDatabase Action Connection](/next/assets/ytp/forms/action-savetodb-connection.webp)
 {% /image %}
 
 | Setting | Description |
@@ -55,7 +55,7 @@ The connection to the Database is by default system inherited with the possibili
 When the Update Record setting is enabled the Submission Data will override an existing table record which will be determined by the association configuration. If no associated record is found, a new record will be appended instead.
 
 {% image %}
-![SaveToDatabase Action Update](/assets/ytp/forms/action-savetodb-update.webp)
+![SaveToDatabase Action Update](/next/assets/ytp/forms/action-savetodb-update.webp)
 {% /image %}
 
 | Setting | Description | Dynamic | Required |
@@ -73,7 +73,7 @@ An example to understand the association is to think of a `Users Table` with an 
 Once the table has been chosen, its columns will appear in the Content field ready to be mapped, being the column configuration pre-established by the table schema. The mapping will determine what value will be saved at what column of the record that is being saved or updated.
 
 {% image %}
-![SaveTo Action Mapping](/assets/ytp/forms/action-saveto-mapping.webp)
+![SaveTo Action Mapping](/next/assets/ytp/forms/action-saveto-mapping.webp)
 {% /image %}
 
 Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled, the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic).

@@ -16,7 +16,7 @@ icon: '
 The Friendly Captcha element integrates [Friendly Captcha](https://friendlycaptcha.com/) anti-bot solution that is GDPR compliant and made in Europe.
 
 {% image width="sm" %}
-![Friendly Captcha Element](/assets/ytp/forms/captcha/fcaptcha.webp)
+![Friendly Captcha Element](/next/assets/ytp/forms/captcha/fcaptcha.webp)
 {% /image %}
 
 ---

@@ -1,13 +1,13 @@
 ---
 title: Button Submit Element
-preset: /assets/ytp/presets/FormArea-Buttons.json
+preset: /next/assets/ytp/presets/FormArea-Buttons.json
 ---
 
 An interactive form submit control. {% .lead %}
 
 Child of [Button Element](./button), the **Button Submit Element** displays a [\<button type="submit"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit) HTML element, use it to display a button that will submit the form.
 
-![Button Submit Element](/assets/ytp/forms/fields/button-submit.webp)
+![Button Submit Element](/next/assets/ytp/forms/fields/button-submit.webp)
 
 ---
 

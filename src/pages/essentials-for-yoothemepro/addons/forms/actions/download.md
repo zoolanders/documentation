@@ -19,7 +19,7 @@ The **Download Action** triggers the download of the specified file. Use it to a
 ## Settings
 
 {% image %}
-![Download Action Settings](/assets/ytp/forms/action-download-settings.webp)
+![Download Action Settings](/next/assets/ytp/forms/action-download-settings.webp)
 {% /image %}
 
 | Setting | Description | Placeholder | Dynamic | Required |

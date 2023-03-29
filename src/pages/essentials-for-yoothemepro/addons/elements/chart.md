@@ -18,7 +18,7 @@ The Chart Element allows you to display static and dynamic data using visually a
 Variety of chart types are supported, including Line, Vertical Bar, Horizontal Bar, Radar, Pie, Doughnut, Polar Area, Bubble, and Scatter. You can also customize the appearance of your charts using a range of options and settings.
 
 {% image %}
-![Chart Element](/assets/ytp/elements/chartjs-element.webp)
+![Chart Element](/next/assets/ytp/elements/chartjs-element.webp)
 {% /image %}
 
 ---
@@ -35,8 +35,8 @@ Setting up a Dynamic Chart can be somewhat overwhelming, for an easier start you
 1. In the `Advanced Tab` of the item choose the previously created CSV source as its Dynamic Content.
 
 {% quick-links %}
-    {% quick-link title="Builder Section" href="/assets/ytp/elements/chartjs-preset.json" description="Download the Builder Section." download="true" /%}
-    {% quick-link title="CSV Data" href="/assets/ytp/elements/chartjs-preset.csv" description="Download the CSV Data." download="true" /%}
+    {% quick-link title="Builder Section" href="/next/assets/ytp/elements/chartjs-preset.json" description="Download the Builder Section." download="true" /%}
+    {% quick-link title="CSV Data" href="/next/assets/ytp/elements/chartjs-preset.csv" description="Download the CSV Data." download="true" /%}
 {% /quick-links %}
 
 {% callout type="warning" title="Sources Addon Required" %}

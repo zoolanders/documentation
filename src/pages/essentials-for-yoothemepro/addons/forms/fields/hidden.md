@@ -1,7 +1,7 @@
 ---
 title: Hidden Element
 description: A hidden form control
-preset: /assets/ytp/presets/FormArea-Hidden.json
+preset: /next/assets/ytp/presets/FormArea-Hidden.json
 icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
 '

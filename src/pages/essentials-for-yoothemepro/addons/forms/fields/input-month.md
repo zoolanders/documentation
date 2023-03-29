@@ -1,13 +1,13 @@
 ---
 title: Input Month Field Element
-preset: /assets/ytp/presets/FormArea-InputMonth.json
+preset: /next/assets/ytp/presets/FormArea-InputMonth.json
 ---
 
 A month form control. {% .lead %}
 
 Child of [Input Element](./input), the **Input Month Element** displays a [\<input type="month"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month) HTML element, use it to create one-line month edit fields.
 
-![Input Month Element](/assets/ytp/forms/fields/input-month.webp)
+![Input Month Element](/next/assets/ytp/forms/fields/input-month.webp)
 
 {% callout type="warning" title="Styling Limitations" %}
 Month input relies on the browser's native implementation, the picker and icon style is inconsistent and its customization is not possible.

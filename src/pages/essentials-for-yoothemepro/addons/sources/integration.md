@@ -7,7 +7,7 @@ Follow through to learn how to create a Multi-Instance source. Even if you are a
 Ensure Essentials has been installed correctly by following the [installation guide](/essentials-for-yoothemepro/integration#installation). From there, open the `Customizer -> Essentials -> Advanced` section and enable the **Sources Addon**, then save the changes and refresh the page.
 
 {% image caption="If the addon is not listed double check Essentials Premium has been installed."%}
-![Enable Sources Addon](/assets/ytp/sources/integration/enable-addon.gif)
+![Enable Sources Addon](/next/assets/ytp/sources/integration/enable-addon.gif)
 {% /image %}
 
 ---
@@ -17,7 +17,7 @@ Ensure Essentials has been installed correctly by following the [installation gu
 The Source Manager will assist us on creating, and posterior management, of all source instances.
 
 {% image %}
-![Create a Source Instance](/assets/ytp/sources/integration/create-source-instance.gif)
+![Create a Source Instance](/next/assets/ytp/sources/integration/create-source-instance.gif)
 {% /image %}
 
 1. Open the manager at `Customizer -> Essentials -> Sources`
@@ -32,7 +32,7 @@ The Source Manager will assist us on creating, and posterior management, of all 
 Once the source instance has been created it schema will be generated based on the configuration and it content made available for mapping as any other source. In this case we are gonna map the feed entries to a List Element.
 
 {% image %}
-![Map Source Content](/assets/ytp/sources/integration/map-source-content.gif)
+![Map Source Content](/next/assets/ytp/sources/integration/map-source-content.gif)
 {% /image %}
 
 1. Open the builder and add a List Element.

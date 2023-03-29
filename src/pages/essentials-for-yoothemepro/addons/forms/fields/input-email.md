@@ -1,13 +1,13 @@
 ---
 title: Input Email Field Element
-preset: /assets/ytp/presets/FormArea-InputEmail.json
+preset: /next/assets/ytp/presets/FormArea-InputEmail.json
 ---
 
 A one-line email form control. {% .lead %}
 
 Child of [Input Element](./input), the **Input Email Element** displays a [\<input type="email"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) HTML element, use it to create one-line e-mail address edit fields.
 
-![Input Email Element](/assets/ytp/forms/fields/input-email.webp)
+![Input Email Element](/next/assets/ytp/forms/fields/input-email.webp)
 
 ---
 

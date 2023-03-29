@@ -18,7 +18,7 @@ The **SaveToCSV Action** saves each submission data as a new record in the speci
 ## Settings
 
 {% image %}
-![SaveToCSV Action Settings](/assets/ytp/forms/action-savetocsv-settings.webp)
+![SaveToCSV Action Settings](/next/assets/ytp/forms/action-savetocsv-settings.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -38,7 +38,7 @@ The **SaveToCSV Action** saves each submission data as a new record in the speci
 Once the file has been chosen, its columns will appear in the Content field ready to be mapped, being the column configuration pre-established by the file schema. The mapping will determine what value will be saved at what column of the record that is being saved or updated.
 
 {% image %}
-![SaveTo Action Mapping](/assets/ytp/forms/action-saveto-mapping.webp)
+![SaveTo Action Mapping](/next/assets/ytp/forms/action-saveto-mapping.webp)
 {% /image %}
 
 Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled, the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic).

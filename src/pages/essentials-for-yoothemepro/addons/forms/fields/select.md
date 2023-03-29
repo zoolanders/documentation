@@ -1,7 +1,7 @@
 ---
 title: Select Field Element
 description: A multi-option one-line form control
-preset: /assets/ytp/presets/FormArea-Select.json
+preset: /next/assets/ytp/presets/FormArea-Select.json
 icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
   <path fill="none" stroke-width="2" d="M24 14l-3 3-3-3"/>
@@ -14,7 +14,7 @@ icon: '
 
 The **Select Element** displays a [\<select\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) HTML element, use it to allow users to choose, by selection, a single or multiple pre-established options.
 
-![Select Element](/assets/ytp/forms/fields/select.webp)
+![Select Element](/next/assets/ytp/forms/fields/select.webp)
 
 ---
 
@@ -40,7 +40,7 @@ It inherits common settings with the following specifics:
 Options are specified as child items that can be input manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
 
 {% image %}
-![Field Options](/assets/ytp/forms/fields/options.webp)
+![Field Options](/next/assets/ytp/forms/fields/options.webp)
 {% /image %}
 
 | Setting | Description |

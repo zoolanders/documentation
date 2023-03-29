@@ -1,7 +1,7 @@
 ---
 title: Upload Field Element
 description: A one-line file upload form control
-preset: /assets/ytp/presets/FormArea-Upload.json
+preset: /next/assets/ytp/presets/FormArea-Upload.json
 icon: '
   <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
   <path fill="none" stroke-width="2" d="M11 15 15 11l4 4"/>
@@ -15,7 +15,7 @@ icon: '
 
 The **Upload Element** displays a [\<input type="file"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file) HTML element wrapped with a [UIkit Custom Control](https://getuikit.com/docs/form#custom-controls), use it to allow users uploading one or more files from their device.
 
-![Upload Element](/assets/ytp/forms/fields/upload.webp)
+![Upload Element](/next/assets/ytp/forms/fields/upload.webp)
 
 ---
 
@@ -39,7 +39,7 @@ It inherits common settings with the following specifics:
 ### Display
 
 {% image %}
-![Upload Display](/assets/ytp/forms/fields/upload-display.webp)
+![Upload Display](/next/assets/ytp/forms/fields/upload-display.webp)
 {% /image %}
 
 | Setting | Description |
@@ -52,7 +52,7 @@ It inherits common settings with the following specifics:
 ### Upload Input
 
 {% image %}
-![Upload Input](/assets/ytp/forms/fields/upload-input.webp)
+![Upload Input](/next/assets/ytp/forms/fields/upload-input.webp)
 {% /image %}
 
 | Setting | Description |
@@ -65,7 +65,7 @@ It inherits common settings with the following specifics:
 ### Upload Button
 
 {% image %}
-![Upload Button](/assets/ytp/forms/fields/upload-button.webp)
+![Upload Button](/next/assets/ytp/forms/fields/upload-button.webp)
 {% /image %}
 
 | Setting | Description |

@@ -21,7 +21,7 @@ The Instagram Personal Source, part of the [Instagram Source](../instagram) coll
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
-![Instagram Personal Settings](/assets/ytp/sources/ig-personal-config.webp)
+![Instagram Personal Settings](/next/assets/ytp/sources/ig-personal-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -37,7 +37,7 @@ The source settings determines the content structure, every time the instance is
 Authentication is based on the OAuth protocol driven by the [Instagram OAuth Driver](/essentials-for-yoothemepro/auth/drivers/instagram-oauth).
 
 {% image %}
-![Instagram OAuth Driver](/assets/ytp/auths/driver-instagram-oauth.webp)
+![Instagram OAuth Driver](/next/assets/ytp/auths/driver-instagram-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
@@ -55,7 +55,7 @@ For every source instance the following content queries will be made available a
 Fetches media from the authenticated account and resolves to a list of [Media Type](../instagram#media-type).
 
 {% image %}
-![Instagram Media Query](/assets/ytp/sources/ig-query-media.webp)
+![Instagram Media Query](/next/assets/ytp/sources/ig-query-media.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -72,7 +72,7 @@ Fetches media from the authenticated account and resolves to a list of [Media Ty
 Fetches a single media from the authenticated account and resolves to a [Media Type](../instagram#media-type).
 
 {% image %}
-![Instagram Media Single Query](/assets/ytp/sources/ig-query-media-single.webp)
+![Instagram Media Single Query](/next/assets/ytp/sources/ig-query-media-single.webp)
 {% /image %}
 
 | Setting | Default | Description | Required |
@@ -88,7 +88,7 @@ Fetches a single media from the authenticated account and resolves to a [Media T
 Part of the [Media Single Query](#media-single-query), as `Multiple Items Source -> Children Media`, fetches media from the parent Media if it's of the type Album, resolves to a list of [Album Media Type](../instagram#album-media-type).
 
 {% image %}
-![Instagram Album Media Query](/assets/ytp/sources/ig-query-media-single.webp)
+![Instagram Album Media Query](/next/assets/ytp/sources/ig-query-media-single.webp)
 {% /image %}
 
 | Setting | Default | Description | Required |

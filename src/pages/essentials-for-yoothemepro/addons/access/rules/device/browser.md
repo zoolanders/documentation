@@ -28,7 +28,7 @@ Notice that browser detection is not always accurate, users can setup their brow
 ## Settings
 
 {% image %}
-![Browser Access Rule](/assets/ytp/access/rule-browser.webp)
+![Browser Access Rule](/next/assets/ytp/access/rule-browser.webp)
 {% /image %}
 
 | Setting | Description | Required | Dynamic |

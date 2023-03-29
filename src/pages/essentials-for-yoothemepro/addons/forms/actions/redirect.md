@@ -17,7 +17,7 @@ The **Redirect Action** redirects the browser to a specified URL, with an option
 ## Settings
 
 {% image %}
-![Redirect Action Settings](/assets/ytp/forms/action-redirect-settings.webp)
+![Redirect Action Settings](/next/assets/ytp/forms/action-redirect-settings.webp)
 {% /image %}
 
 | Setting | Description | Placeholder | Dynamic | Required |

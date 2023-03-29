@@ -19,7 +19,7 @@ The Twitter Source feeds data from [Twitter](https://www.twitter.com) profiles a
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
-![Twitter Source Configuration](/assets/ytp/sources/twitter-config.webp)
+![Twitter Source Configuration](/next/assets/ytp/sources/twitter-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -35,7 +35,7 @@ The source settings determines the content structure, every time the instance is
 Authentication is based on the OAuth protocol driven by the [Twitter OAuth Driver](/essentials-for-yoothemepro/auth/drivers/twitter-oauth).
 
 {% image %}
-![Twitter OAuth Driver](/assets/ytp/auths/driver-twitter-oauth.webp)
+![Twitter OAuth Driver](/next/assets/ytp/auths/driver-twitter-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
@@ -53,7 +53,7 @@ For every source instance the following content queries will be made available a
 Fetches tweets from the authenticated account resolving to a list of [Tweet Type](#tweet-type).
 
 {% image %}
-![Twitter Tweets Query](/assets/ytp/sources/twitter-query-tweets.webp)
+![Twitter Tweets Query](/next/assets/ytp/sources/twitter-query-tweets.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -69,7 +69,7 @@ Fetches tweets from the authenticated account resolving to a list of [Tweet Type
 Fetches the authenticated user account resolving to a list of [User Type](#user-type).
 
 {% image %}
-![Twitter User Query](/assets/ytp/sources/twitter-query-user.webp)
+![Twitter User Query](/next/assets/ytp/sources/twitter-query-user.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -87,7 +87,7 @@ The content types define the mapping options for the source content.
 The **Tweet Type** defines the mapping options of a Twitter Tweet object.
 
 {% image %}
-![Twitter Tweet Mapping](/assets/ytp/sources/twitter-type-tweet.webp)
+![Twitter Tweet Mapping](/next/assets/ytp/sources/twitter-type-tweet.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -110,7 +110,7 @@ The **Tweet Type** defines the mapping options of a Twitter Tweet object.
 The **User Type** defines the mapping options of a Twitter User object.
 
 {% image %}
-![Twitter User Mapping](/assets/ytp/sources/twitter-type-user.webp)
+![Twitter User Mapping](/next/assets/ytp/sources/twitter-type-user.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

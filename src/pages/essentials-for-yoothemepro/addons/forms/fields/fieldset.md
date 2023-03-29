@@ -1,6 +1,6 @@
 ---
 title: Fieldset Element
-preset: /assets/ytp/presets/FormArea-Fieldset.json
+preset: /next/assets/ytp/presets/FormArea-Fieldset.json
 description: A control grouping
 icon: '
   <path fill="none" stroke-width="2" d="M1 4h28v22H1z"/>

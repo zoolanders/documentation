@@ -19,7 +19,7 @@ It's important to understand the different types of conditions in dynamic conten
 Filter and/or order query conditions are rules, applied during a query execution, that the content must evaluate to in order to be included in the fetched results. The conditions are provided and supported by every source individually.
 
 {% image %}
-![Query Conditions](/assets/ytp/sources/query-conditions.webp)
+![Query Conditions](/next/assets/ytp/sources/query-conditions.webp)
 {% /image %}
 
 ---
@@ -29,7 +29,7 @@ Filter and/or order query conditions are rules, applied during a query execution
 Part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#dynamic-conditions) core workflow, Dynamic Condition is set during a source mapping to determine should the element be displayed. The amount of conditions is limited to one, and cannot use dynamic content for more advanced evaluation.
 
 {% image %}
-![Dynamic Conditions](/assets/ytp/sources/dynamic-conditions.webp)
+![Dynamic Conditions](/next/assets/ytp/sources/dynamic-conditions.webp)
 {% /image %}
 
 ---
@@ -39,7 +39,7 @@ Part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/d
 Part of the [Access Addon](/essentials-for-yoothemepro/addons/access) workflow, Access Condition has the same functionality as the [Dynamic Condition](#dynamic-condition), but with support for dynamic content, multiple rules and custom evaluation logic. You can opt to use it instead as per higher possibilities.
 
 {% image %}
-![Access Conditions](/assets/ytp/sources/access-conditions.webp)
+![Access Conditions](/next/assets/ytp/sources/access-conditions.webp)
 {% /image %}
 
 ---

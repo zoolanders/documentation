@@ -18,7 +18,7 @@ The **Message Action** displays a custom message in a modal. Use it to show the 
 ## Settings
 
 {% image %}
-![Message Action Settings](/assets/ytp/forms/action-message-settings.webp)
+![Message Action Settings](/next/assets/ytp/forms/action-message-settings.webp)
 {% /image %}
 
 | Setting | Description | Placeholder | Dynamic | Required |

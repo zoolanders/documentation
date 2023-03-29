@@ -19,7 +19,7 @@ The **SaveToGoogleSheet Action** stores each submission data as a new record in 
 ## Settings
 
 {% image %}
-![SaveToGoogleSheet Action Settings](/assets/ytp/forms/action-savetogsheet-settings.webp)
+![SaveToGoogleSheet Action Settings](/next/assets/ytp/forms/action-savetogsheet-settings.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -40,7 +40,7 @@ The **SaveToGoogleSheet Action** stores each submission data as a new record in 
 Once the spreadsheet has been chosen, its columns will appear in the Content field ready to be mapped, being the column configuration pre-established by the sheet's first-row schema. The mapping will determine what value will be saved at what column of the record that is being saved or updated.
 
 {% image %}
-![SaveTo Action Mapping](/assets/ytp/forms/action-saveto-mapping.webp)
+![SaveTo Action Mapping](/next/assets/ytp/forms/action-saveto-mapping.webp)
 {% /image %}
 
 Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic).

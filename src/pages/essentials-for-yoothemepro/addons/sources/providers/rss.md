@@ -20,7 +20,7 @@ The RSS Source feeds data from RSS 0.9, 1.0, 2.0, and Atom specifications. Based
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
-![RSS Instance Settings](/assets/ytp/sources/rss-config.webp)
+![RSS Instance Settings](/next/assets/ytp/sources/rss-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -40,7 +40,7 @@ For every source instance the following content queries will be made available a
 Fetches information from the feed and resolves to a dynamically generated feed type based on it schema.
 
 {% image %}
-![RSS Feed Query](/assets/ytp/sources/rss-query-feed.webp)
+![RSS Feed Query](/next/assets/ytp/sources/rss-query-feed.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -54,7 +54,7 @@ Fetches information from the feed and resolves to a dynamically generated feed t
 Fetches records from the feed and resolves to a list of dynamically generated record type based on the feed schema.
 
 {% image %}
-![RSS Entries Query](/assets/ytp/sources/rss-query-entries.webp)
+![RSS Entries Query](/next/assets/ytp/sources/rss-query-entries.webp)
 {% /image %}
 
 | Setting | Default | Description |

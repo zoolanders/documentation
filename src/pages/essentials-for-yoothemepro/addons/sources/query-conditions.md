@@ -5,7 +5,7 @@ title: Query Conditions
 ## Filter Condition
 
 {% image %}
-![Query Filter Condition](/assets/ytp/sources/query-filter-condition.webp)
+![Query Filter Condition](/next/assets/ytp/sources/query-filter-condition.webp)
 {% /image %}
 
 | Setting | Description | Dynamic | Required |
@@ -35,7 +35,7 @@ title: Query Conditions
 ## Filter Evaluation Logic
 
 {% image %}
-![Query Filter Conditions](/assets/ytp/sources/query-filter-conditions.webp)
+![Query Filter Conditions](/next/assets/ytp/sources/query-filter-conditions.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -51,7 +51,7 @@ title: Query Conditions
 ## Order Condition
 
 {% image %}
-![Query Order Condition](/assets/ytp/sources/query-order-condition.webp)
+![Query Order Condition](/next/assets/ytp/sources/query-order-condition.webp)
 {% /image %}
 
 | Setting | Description | Dynamic | Required |

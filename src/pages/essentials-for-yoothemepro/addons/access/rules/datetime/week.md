@@ -20,7 +20,7 @@ The Week Access Rule evaluates whether the current week of the year matches one 
 ## Settings
 
 {% image %}
-![Week Access Rule](/assets/ytp/access/rule-week.webp)
+![Week Access Rule](/next/assets/ytp/access/rule-week.webp)
 {% /image %}
 
 | Setting | Description | Required | Dynamic |

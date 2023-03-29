@@ -22,7 +22,7 @@ The Cloudflare Source feeds data from [Cloudflare Stream](https://www.cloudflare
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
-![Cloudflare Stream Source Configuration](/assets/ytp/sources/cf-stream-config.webp)
+![Cloudflare Stream Source Configuration](/next/assets/ytp/sources/cf-stream-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -40,7 +40,7 @@ The source settings determines the content structure, every time the instance is
 Authentication is based on an API Token driven by the [Cloudflare API Token Driver](/essentials-for-yoothemepro/auth/drivers/cloudflare-api-token).
 
 {% image %}
-![Cloudflare API Key Driver](/assets/ytp/auths/driver-cloudflare-api-token.webp)
+![Cloudflare API Key Driver](/next/assets/ytp/auths/driver-cloudflare-api-token.webp)
 {% /image %}
 
 {% callout title="Keys Security" %}
@@ -58,7 +58,7 @@ For every source instance the following content queries will be made available a
 Fetches a single video from the authenticated account and resolves to a [Video Type](#video-type).
 
 {% image %}
-![Cloudflare Stream Video Query](/assets/ytp/sources/cf-stream-query-video.webp)
+![Cloudflare Stream Video Query](/next/assets/ytp/sources/cf-stream-query-video.webp)
 {% /image %}
 
 | Setting | Default | Description | Required |
@@ -73,7 +73,7 @@ Fetches a single video from the authenticated account and resolves to a [Video T
 Fetches videos from the authenticated account and resolves to a list of [Video Type](#video-type).
 
 {% image %}
-![Cloudflare Stream Videos Query](/assets/ytp/sources/cf-stream-query-videos.webp)
+![Cloudflare Stream Videos Query](/next/assets/ytp/sources/cf-stream-query-videos.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -95,7 +95,7 @@ The content types define the mapping options for the source content.
 The **Video Type** defines the mapping options of a Cloudflare Stream Video object.
 
 {% image %}
-![Cloudflare Stream Video Mapping](/assets/ytp/sources/cf-stream-type-video.webp)
+![Cloudflare Stream Video Mapping](/next/assets/ytp/sources/cf-stream-type-video.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

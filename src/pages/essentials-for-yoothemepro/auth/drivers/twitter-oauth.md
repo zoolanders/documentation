@@ -13,7 +13,7 @@ icon: '
 The Twitter OAuth Driver manage Twitter OAuth protocol to authenticate and grant scope permissions.
 
 {% image %}
-![Twitter OAuth Driver](/assets/ytp/auths/driver-twitter-oauth.webp)
+![Twitter OAuth Driver](/next/assets/ytp/auths/driver-twitter-oauth.webp)
 {% /image %}
 
 | Setting | Description |

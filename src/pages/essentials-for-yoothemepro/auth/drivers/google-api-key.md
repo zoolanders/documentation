@@ -13,5 +13,5 @@ icon: '
 The Google API Key Driver manage Google API keys obtained through the [Google Cloud Platform](https://console.cloud.google.com/apis/credentials) dashboard.
 
 {% image %}
-![Google API Key Driver](/assets/ytp/auths/driver-google-api-key.webp)
+![Google API Key Driver](/next/assets/ytp/auths/driver-google-api-key.webp)
 {% /image %}

@@ -19,7 +19,7 @@ The Time Access Rule evaluates whether the current time matches the specified ti
 ## Settings
 
 {% image %}
-![Time Access Rule](/assets/ytp/access/rule-time.webp)
+![Time Access Rule](/next/assets/ytp/access/rule-time.webp)
 {% /image %}
 
 | Setting | Description | Required | Dynamic |

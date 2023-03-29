@@ -11,7 +11,7 @@ The [Form Area](form-area) configuration has the following settings divided into
 At least one [After Submit Actions](after-submit-actions) is required, consult individual [action reference](actions) for specifics.
 
 {% image %}
-![Form Area Actions](/assets/ytp/forms/formarea-config-actions.webp)
+![Form Area Actions](/next/assets/ytp/forms/formarea-config-actions.webp)
 {% /image %}
 
 ---
@@ -21,7 +21,7 @@ At least one [After Submit Actions](after-submit-actions) is required, consult i
 Global validation settings, for field specific validation refer to [field settings](fields).
 
 {% image %}
-![Form Area Settings](/assets/ytp/forms/formarea-config-settings.webp)
+![Form Area Settings](/next/assets/ytp/forms/formarea-config-settings.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -35,7 +35,7 @@ Global validation settings, for field specific validation refer to [field settin
 Server and validation wise errors display options.
 
 {% image %}
-![Form Area Errors Display](/assets/ytp/forms/formarea-config-errors-display.webp)
+![Form Area Errors Display](/next/assets/ytp/forms/formarea-config-errors-display.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -51,7 +51,7 @@ Server and validation wise errors display options.
 Form HTML node `id`, `name`, and `class` attributes, useful for customizations.
 
 {% image %}
-![Form Attributes](/assets/ytp/forms/formarea-config-attr.webp)
+![Form Attributes](/next/assets/ytp/forms/formarea-config-attr.webp)
 {% /image %}
 
 ---
@@ -61,7 +61,7 @@ Form HTML node `id`, `name`, and `class` attributes, useful for customizations.
 Custom **action** and **method** attributes allows for a 3rd party service integration or a custom submission workflow.
 
 {% image %}
-![Form Action Override](/assets/ytp/forms/formarea-config-action-override.webp)
+![Form Action Override](/next/assets/ytp/forms/formarea-config-action-override.webp)
 {% /image %}
 
 | Setting | Description |
@@ -80,7 +80,7 @@ Notice that when a custom action URL is set, server-side validation and After Su
 Custom scripts that will run on form events, for a more advance integration consult [Form Events](form-events) section.
 
 {% image %}
-![Form Area Custom Scripts](/assets/ytp/forms/formarea-config-custom-scripts.webp)
+![Form Area Custom Scripts](/next/assets/ytp/forms/formarea-config-custom-scripts.webp)
 {% /image %}
 
 | Event | Scope Variables | Description |

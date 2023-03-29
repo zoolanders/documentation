@@ -17,7 +17,7 @@ The **Email Action** sends preset emails with support for [Dynamic Workflow](../
 ## Settings
 
 {% image %}
-![Email Action Settings](/assets/ytp/forms/action-email-settings.webp)
+![Email Action Settings](/next/assets/ytp/forms/action-email-settings.webp)
 {% /image %}
 
 | Setting | Description | Placeholder | Dynamic | Required |
@@ -42,7 +42,7 @@ The **Email Action** sends preset emails with support for [Dynamic Workflow](../
 Attachments can be set as **static**, a file from the local server, or as **dynamic**, a file submitted by the user. Each dynamic entry is a reference to a Form Area [Upload Field](../fields/upload).
 
 {% image %}
-![Email Action Attachments](/assets/ytp/forms/action-email-attachments.webp)
+![Email Action Attachments](/next/assets/ytp/forms/action-email-attachments.webp)
 {% /image %}
 
 {% callout type="warning" title="Submitted Attachments" %}

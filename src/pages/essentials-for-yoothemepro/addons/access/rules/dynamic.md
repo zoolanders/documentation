@@ -19,7 +19,7 @@ The Dynamic Access Rule evaluates whether the specified dynamic content passes a
 ## Settings
 
 {% image %}
-![Dynamic Access Rule](/assets/ytp/access/rule-dynamic.webp)
+![Dynamic Access Rule](/next/assets/ytp/access/rule-dynamic.webp)
 {% /image %}
 
 | Setting | Description | Required | Dynamic |

@@ -15,7 +15,7 @@ icon: '
 The S/FTP Storage Adapter stores files in a remote server using the S/FTP protocol.
 
 {% image %}
-![S/FTP Storage Adapter](/assets/ytp/storage/adapter-ftp.webp)
+![S/FTP Storage Adapter](/next/assets/ytp/storage/adapter-ftp.webp)
 {% /image %}
 
 | Setting | Description | Required |

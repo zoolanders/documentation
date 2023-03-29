@@ -4,7 +4,8 @@
     "dev": "next dev",
     "build": "next build && next export -o dist",
     "lint": "next lint",
-    "checklinks": "npx linkinator 'src/**/*.md' --markdown --skip '^http?s://' --verbosity error"
+    "http": "npx http-server",
+    "checklinks": "npx linkinator http://127.0.0.1:8080 -r --verbosity error"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {

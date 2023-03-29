@@ -9,7 +9,7 @@ An Icon Collection is a group of icons bundled together that can be added or rem
 You can find a full list and details of third-party collections in the [collections reference](collections) section.
 
 {% image %}
-![Icon Collections](/assets/ytp/icons/icon-collections.webp)
+![Icon Collections](/next/assets/ytp/icons/icon-collections.webp)
 {% /image %}
 
 ---
@@ -19,5 +19,5 @@ You can find a full list and details of third-party collections in the [collecti
 The Icon Collections Manager can be accessed at `Customizer -> Essentials -> Icon Collections` section. There you can manage the collections which icons will become part of the builder icon workflow.
 
 {% image %}
-![Icon Collections Manager](/assets/ytp/icon-collections-manager.gif)
+![Icon Collections Manager](/next/assets/ytp/icon-collections-manager.gif)
 {% /image %}

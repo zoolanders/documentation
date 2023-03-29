@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
@@ -9,7 +11,7 @@ export function HeaderTabs({className, tabs}) {
                 <div>
                     <nav className="-mb-px flex space-x-8" aria-label="Tabs">
                         {tabs.map((tab) => (
-                            <a
+                            <Link
                                 key={tab.name}
                                 href={tab.href}
                                 className={classNames(
@@ -21,7 +23,7 @@ export function HeaderTabs({className, tabs}) {
                                 aria-current={tab.active ? 'page' : undefined}
                             >
                                 {tab.name}
-                            </a>
+                            </Link>
                         ))}
                     </nav>
                 </div>

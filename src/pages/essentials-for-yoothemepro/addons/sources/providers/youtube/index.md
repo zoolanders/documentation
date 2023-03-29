@@ -39,7 +39,7 @@ The content types define the mapping options for the source content.
 The **Video Type** defines the mapping options of a YouTube Video object.
 
 {% image %}
-![YouTube Video Mapping](/assets/ytp/sources/youtube-type-video.webp)
+![YouTube Video Mapping](/next/assets/ytp/sources/youtube-type-video.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -65,7 +65,7 @@ The **Video Type** defines the mapping options of a YouTube Video object.
 The **Channel Type** defines the mapping options of a YouTube Channel object.
 
 {% image %}
-![YouTube Channel Mapping](/assets/ytp/sources/youtube-type-channel.webp)
+![YouTube Channel Mapping](/next/assets/ytp/sources/youtube-type-channel.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -89,7 +89,7 @@ The **Channel Type** defines the mapping options of a YouTube Channel object.
 The **Playlist Type** defines the mapping options of a YouTube Playlist object.
 
 {% image %}
-![YouTube Video Mapping](/assets/ytp/sources/youtube-type-playlist.webp)
+![YouTube Video Mapping](/next/assets/ytp/sources/youtube-type-playlist.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
