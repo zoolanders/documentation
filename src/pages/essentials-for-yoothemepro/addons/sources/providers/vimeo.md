@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Vimeo Source feeds data from [Vimeo](https://www.vimeo.com) media. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The Vimeo Source feeds data from [Vimeo](https://www.vimeo.com) media. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -32,14 +32,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Vimeo OAuth Driver](/essentials-for-yoothemepro/auth/drivers/vimeo-oauth).
+Authentication is based on the OAuth protocol driven by the [Vimeo OAuth Driver](/next/essentials-for-yoothemepro/auth/drivers/vimeo-oauth).
 
 {% image %}
 ![Vimeo OAuth Driver](/next/assets/ytp/auths/driver-vimeo-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [OAuth security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---

@@ -11,7 +11,7 @@ By setting a custom layout library within the [Layout Libraries Manager](#layout
 
 Thanks to the library's integration with various storage options, you have the ability to specify whether your layouts are located locally or externally. For instance, if you opt to use FTP or Amazon S3 as your storage option, you can utilize the same location for your layouts across multiple sites, enabling you to share layouts seamlessly between different sites.
 
-For an overview of the storage workflow and it capabilities, consult the [Storage Abstraction](/essentials-for-yoothemepro/storage-abstraction) section.
+For an overview of the storage workflow and it capabilities, consult the [Storage Abstraction](/next/essentials-for-yoothemepro/storage-abstraction) section.
 
 {% image %}
 ![Layout Library Storage](/next/assets/ytp/storage/adapter-s3.webp)

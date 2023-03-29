@@ -10,23 +10,23 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The YouTube Source creates sources based on [YouTube](https://www.youtube.com/) content. Based on the [multi-instance](manager#multi-instance) source workflow, it allows connecting to multiple accounts with different configurations.
+The YouTube Source creates sources based on [YouTube](https://www.youtube.com/) content. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow, it allows connecting to multiple accounts with different configurations.
 
 Refer to the following table for all the available sources and it queries.
 
 | Source / Query | Resolves To | Description |
 | -------------- | ----------- | ----------- |
-| [Videos Source](youtube/videos#videos-source) | | General source authenticated with an API key. |
-| -- [Videos Query](youtube/videos#videos-query) | [Video Type](#video-type) | Fetches public videos with advanced search params. |
-| [My Channel Source](youtube/mychannel#my-channel-source) | | Source based on a channel belonging to the authenticated account. |
-| -- [Channel Query](youtube/mychannel#my-channel-query) | [Channel Type](#channel-type) | Fetches the channel content. |
-| -- [Video Query](youtube/mychannel#my-channel-video-query) | [Video Type](#video-type) | Fetches a single video from the channel. |
-| -- [Videos Query](youtube/mychannel#my-channel-videos-query) | [Video Type](#video-type) | Fetches videos from the channel. |
-| -- [Playlist Query](youtube/mychannel#my-channel-playlist-query) | [Playlist Type](#playlist-type) | Fetches a specific playlist content from the channel. |
-| {% nowrap %}-- -- [Playlist Videos Query](youtube/mychannel#my-channel-playlist-videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos from the channel specific playlist. |
-| [My Playlist Source](youtube/myplaylist#my-playlist-source) | | Source based on a playlist belonging to the authenticated account. |
-| -- [Video Query](youtube/myplaylist#my-playlist-video-query) | [Video Type](#video-type) | Fetches a single video from the playlist. |
-| -- [Videos Query](youtube/myplaylist#my-playlist-videos-query) | [Video Type](#video-type) | Fetches videos from the playlist. |
+| [Videos Source](./videos#videos-source) | | General source authenticated with an API key. |
+| -- [Videos Query](./videos#videos-query) | [Video Type](#video-type) | Fetches public videos with advanced search params. |
+| [My Channel Source](./mychannel#my-channel-source) | | Source based on a channel belonging to the authenticated account. |
+| -- [Channel Query](./mychannel#my-channel-query) | [Channel Type](#channel-type) | Fetches the channel content. |
+| -- [Video Query](./mychannel#my-channel-video-query) | [Video Type](#video-type) | Fetches a single video from the channel. |
+| -- [Videos Query](./mychannel#my-channel-videos-query) | [Video Type](#video-type) | Fetches videos from the channel. |
+| -- [Playlist Query](./mychannel#my-channel-playlist-query) | [Playlist Type](#playlist-type) | Fetches a specific playlist content from the channel. |
+| {% nowrap %}-- -- [Playlist Videos Query](./mychannel#my-channel-playlist-videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos from the channel specific playlist. |
+| [My Playlist Source](./myplaylist#my-playlist-source) | | Source based on a playlist belonging to the authenticated account. |
+| -- [Video Query](./myplaylist#my-playlist-video-query) | [Video Type](#video-type) | Fetches a single video from the playlist. |
+| -- [Videos Query](./myplaylist#my-playlist-videos-query) | [Video Type](#video-type) | Fetches videos from the playlist. |
 
 ---
 

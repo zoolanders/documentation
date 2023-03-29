@@ -5,7 +5,7 @@ preset: /next/assets/ytp/presets/FormArea-InputEmail.json
 
 A one-line email form control. {% .lead %}
 
-Child of [Input Element](./input), the **Input Email Element** displays a [\<input type="email"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) HTML element, use it to create one-line e-mail address edit fields.
+Child of [Input Element](../input), the **Input Email Element** displays a [\<input type="email"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) HTML element, use it to create one-line e-mail address edit fields.
 
 ![Input Email Element](/next/assets/ytp/forms/fields/input-email.webp)
 
@@ -45,7 +45,7 @@ It inherits common validation with the following specifics:
 
 ## Integration
 
-1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
+1. Access a Builder layout and create a Form Area.
 1. Add an Input Element from the Form Essentials group and an Input Email element as its child.
 1. Access the child element settings and input a Control Name.
 

@@ -4,11 +4,14 @@ import matter from 'gray-matter'
 import {globbySync} from 'globby';
 
 export function getPostSlugs(dir) {
-  return globbySync(join('src/pages', dir, '*.md'))
+  return [
+    ...globbySync(join('src/pages', dir, '*.md')),
+    ...globbySync(join('src/pages', dir, '/*/index.md'))
+  ]
 }
 
 export function getPost(filepath, fields = []) {
-  const realSlug = filepath.replace(/\.md$/, '').replace('src/pages', '')
+  const realSlug = filepath.replace(/\.md$/, '').replace('src/pages', '').replace('/index', '')
   const fileContents = fs.readFileSync(filepath, 'utf8')
   const { data, content } = matter(fileContents)
 

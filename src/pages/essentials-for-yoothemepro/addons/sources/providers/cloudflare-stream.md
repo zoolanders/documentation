@@ -13,7 +13,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Cloudflare Source feeds data from [Cloudflare Stream](https://www.cloudflare.com/products/cloudflare-stream/) videos. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The Cloudflare Source feeds data from [Cloudflare Stream](https://www.cloudflare.com/products/cloudflare-stream/) videos. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -37,14 +37,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on an API Token driven by the [Cloudflare API Token Driver](/essentials-for-yoothemepro/auth/drivers/cloudflare-api-token).
+Authentication is based on an API Token driven by the [Cloudflare API Token Driver](/next/essentials-for-yoothemepro/auth/drivers/cloudflare-api-token).
 
 {% image %}
 ![Cloudflare API Key Driver](/next/assets/ytp/auths/driver-cloudflare-api-token.webp)
 {% /image %}
 
 {% callout title="Keys Security" %}
-Learn more about Essentials [Keys security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [Keys security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---

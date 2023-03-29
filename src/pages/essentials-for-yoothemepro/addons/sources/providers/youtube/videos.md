@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The YouTube Videos Source, part of the [YouTube Source](../youtube) collection, creates sources based on YouTube videos fetched with advanced search and API Key.
+The YouTube Videos Source, part of the [YouTube Source](../) collection, creates sources based on YouTube videos fetched with advanced search and API Key.
 
 ---
 
@@ -32,14 +32,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on an API Key driven by the [Google API Key Driver](/essentials-for-yoothemepro/auth/drivers/google-api-key).
+Authentication is based on an API Key driven by the [Google API Key Driver](/next/essentials-for-yoothemepro/auth/drivers/google-api-key).
 
 {% image %}
 ![Google API Key Driver](/next/assets/ytp/auths/driver-google-api-key.webp)
 {% /image %}
 
 {% callout title="Keys Security" %}
-Learn more about Essentials [Keys security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [Keys security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---

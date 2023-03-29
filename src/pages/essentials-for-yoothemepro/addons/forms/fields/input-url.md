@@ -5,7 +5,7 @@ preset: /next/assets/ytp/presets/FormArea-InputUrl.json
 
 An url form control. {% .lead %}
 
-Child of [Input Element](./input), the **Input Url Element** displays a [\<input type="url"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url) HTML element, use it to create one-line url edit fields.
+Child of [Input Element](../input), the **Input Url Element** displays a [\<input type="url"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url) HTML element, use it to create one-line url edit fields.
 
 ![Input Url Element](/next/assets/ytp/forms/fields/input-url.webp)
 
@@ -45,7 +45,7 @@ It inherits common validation with the following specifics:
 
 ## Integration
 
-1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
+1. Access a Builder layout and create a Form Area.
 1. Add an Input Element from the Form Essentials group and an Input Url element as its child.
 1. Access the child element settings and input a Control Name.
 

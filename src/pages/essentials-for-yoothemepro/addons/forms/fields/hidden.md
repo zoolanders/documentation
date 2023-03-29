@@ -26,7 +26,7 @@ The **Hidden Element** displays a [\<input type="hidden"\>](https://developer.mo
 
 ## Integration
 
-1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
+1. Access a Builder layout and create a Form Area.
 1. Add a Hidden Element from the Form Essentials group.
 1. Access the element settings and input a Control Name.
 

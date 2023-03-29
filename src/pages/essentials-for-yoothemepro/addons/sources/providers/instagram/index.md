@@ -12,22 +12,22 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Instagram Source feeds data from [Instagram](https://www.instagram.com/) Personal and Business accounts. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The Instagram Source feeds data from [Instagram](https://www.instagram.com/) Personal and Business accounts. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
 Refer to the following table for all the available sources and it queries.
 
 | Source / Query | Resolves To | Description |
 | -------------- | ----------- | ----------- |
-| [Personal Account Source](instagram/personal) | | Source based on an Instagram Personal account. |
-| -- [Media](instagram/personal#media-query) | [Media Type](#media-type) | Fetches media from the source. |
-| -- [Media Single](instagram/personal#media-single-query) | [Media Type](#media-type) | Fetches a single media from the source. |
-| -- -- [Album Media](instagram/personal#album-media-query) | [Album Media Type](#album-media-type) | Fetches child media from the parent media if it's an Album. |
-| [Business Account Source](instagram/business) | | Source based on an Instagram Business source. |
-| -- [Media](instagram/business#media-query) | [Media Type](#media-type) | Fetches media from the source. |
-| -- [Media Single](instagram/business#media-single-query) | [Media Type](#media-type) | Fetches a single media from the source. |
-| -- -- [Album Media](instagram/business#album-media-query) | [Album Media Type](#album-media-type) | Fetches child media from the parent media if it's an Album. |
-| -- [Hashtagged Media](instagram/business#hashtagged-media-query) | [Media Type](#media-type) | Fetches media that have been hashtagged with a specific hash. |
-| -- [User](instagram/business#user-query) | [User Type](#user-type) | Fetches the Business Account user profile. |
+| [Personal Account Source](./personal) | | Source based on an Instagram Personal account. |
+| -- [Media](./personal#media-query) | [Media Type](#media-type) | Fetches media from the source. |
+| -- [Media Single](./personal#media-single-query) | [Media Type](#media-type) | Fetches a single media from the source. |
+| -- -- [Album Media](./personal#album-media-query) | [Album Media Type](#album-media-type) | Fetches child media from the parent media if it's an Album. |
+| [Business Account Source](./business) | | Source based on an Instagram Business source. |
+| -- [Media](./business#media-query) | [Media Type](#media-type) | Fetches media from the source. |
+| -- [Media Single](./business#media-single-query) | [Media Type](#media-type) | Fetches a single media from the source. |
+| -- -- [Album Media](./business#album-media-query) | [Album Media Type](#album-media-type) | Fetches child media from the parent media if it's an Album. |
+| -- [Hashtagged Media](./business#hashtagged-media-query) | [Media Type](#media-type) | Fetches media that have been hashtagged with a specific hash. |
+| -- [User](./business#user-query) | [User Type](#user-type) | Fetches the Business Account user profile. |
 
 ---
 

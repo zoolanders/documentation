@@ -24,7 +24,7 @@ Child of [Button Element](./button), the **Button Reset Element** displays a [\<
 
 ## Integration
 
-1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
+1. Access a Builder layout and create a Form Area.
 1. Add a Button Element from the Form Essentials group and a Button Reset element as its child.
 
 {% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

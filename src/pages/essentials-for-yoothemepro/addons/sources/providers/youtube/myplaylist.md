@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The YouTube My Playlist Source, part of the [YouTube Source](../youtube) collection, creates sources based on a YouTube playlist from the authenticated user.
+The YouTube My Playlist Source, part of the [YouTube Source](../) collection, creates sources based on a YouTube playlist from the authenticated user.
 
 ---
 
@@ -31,14 +31,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yoothemepro/auth/drivers/google-oauth).
+Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/next/essentials-for-yoothemepro/auth/drivers/google-oauth).
 
 {% image %}
 ![Google OAuth Driver](/next/assets/ytp/auths/driver-google-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [OAuth security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---
@@ -49,7 +49,7 @@ For every source instance the following content queries will be made available a
 
 ### My Playlist Video Query
 
-Fetches a single video from the playlist resolving to a [Video Type](../youtube#video-type).
+Fetches a single video from the playlist resolving to a [Video Type](../#video-type).
 
 {% image %}
 ![My YouTube Playlist Video Query](/next/assets/ytp/sources/youtube-myplaylist-video.webp)
@@ -64,7 +64,7 @@ Fetches a single video from the playlist resolving to a [Video Type](../youtube#
 
 ### My Playlist Videos Query
 
-Fetches videos from the playlist resolving to a list of [Video Type](../youtube#video-type).
+Fetches videos from the playlist resolving to a list of [Video Type](../#video-type).
 
 {% image %}
 ![My YouTube Playlist Videos Query](/next/assets/ytp/sources/youtube-myplaylist-videos.webp)

@@ -1,7 +1,7 @@
 The following settings are common to all source instances.
 
 {% image %}
-![Source Instance Common Settings](/assets/ytp/sources/instance-common-settings.webp)
+![Source Instance Common Settings](/next/assets/ytp/sources/instance-common-settings.webp)
 {% /image %}
 
 | Setting | Default | Description |

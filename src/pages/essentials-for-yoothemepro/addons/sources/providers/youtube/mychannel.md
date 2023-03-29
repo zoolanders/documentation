@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The YouTube My Channel Source, part of the [YouTube Source](../youtube) collection, creates sources based on a YouTube channel from the authenticated user.
+The YouTube My Channel Source, part of the [YouTube Source](../) collection, creates sources based on a YouTube channel from the authenticated user.
 
 ---
 
@@ -33,14 +33,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yoothemepro/auth/drivers/google-oauth).
+Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/next/essentials-for-yoothemepro/auth/drivers/google-oauth).
 
 {% image %}
 ![Google OAuth Driver](/next/assets/ytp/auths/driver-google-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [OAuth security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---
@@ -51,7 +51,7 @@ For every source instance the following content queries will be made available a
 
 ### My Channel Query
 
-Fetches the channel content resolving to a [Channel Type](../youtube#channel-type).
+Fetches the channel content resolving to a [Channel Type](../#channel-type).
 
 {% image %}
 ![My YouTube Channel Query](/next/assets/ytp/sources/youtube-mychannel.webp)
@@ -65,7 +65,7 @@ Fetches the channel content resolving to a [Channel Type](../youtube#channel-typ
 
 ### My Channel Video Query
 
-Fetches a single video from the channel resolving to a [Video Type](../youtube#video-type).
+Fetches a single video from the channel resolving to a [Video Type](../#video-type).
 
 {% image %}
 ![My YouTube Channel Video Query](/next/assets/ytp/sources/youtube-mychannel-video.webp)
@@ -80,7 +80,7 @@ Fetches a single video from the channel resolving to a [Video Type](../youtube#v
 
 ### My Channel Videos Query
 
-Fetches videos from the channel resolving to a list of [Video Type](../youtube#video-type).
+Fetches videos from the channel resolving to a list of [Video Type](../#video-type).
 
 {% image %}
 ![My YouTube Channel Videos Query](/next/assets/ytp/sources/youtube-mychannel-videos.webp)
@@ -96,7 +96,7 @@ Fetches videos from the channel resolving to a list of [Video Type](../youtube#v
 
 ### My Channel Playlist Query
 
-Fetches a single playlist from the channel resolving to a [Playlist Type](../youtube#playlist-type).
+Fetches a single playlist from the channel resolving to a [Playlist Type](../#playlist-type).
 
 {% image %}
 ![My YouTube Channel Playlist Query](/next/assets/ytp/sources/youtube-mychannel-playlist.webp)
@@ -112,7 +112,7 @@ Fetches a single playlist from the channel resolving to a [Playlist Type](../you
 
 ### My Channel Playlist Videos Query
 
-Fetches videos from the playlist resolving to a list of [Video Type](../youtube#video-type).
+Fetches videos from the playlist resolving to a list of [Video Type](../#video-type).
 
 {% image %}
 ![My YouTube Channel Videos Query](/next/assets/ytp/sources/youtube-mychannel-playlist-videos.webp)

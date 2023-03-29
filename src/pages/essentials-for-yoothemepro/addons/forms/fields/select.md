@@ -68,7 +68,7 @@ It inherits common validation with the following specifics:
 
 ## Integration
 
-1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
+1. Access a Builder layout and create a Form Area.
 1. Add a Select Element from the Form Essentials group.
 1. Access the element settings and input a Control Name.
 
