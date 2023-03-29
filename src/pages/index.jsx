@@ -6,7 +6,7 @@ export default function Home() {
 
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Documentation for ZOOlanders' Essentials
+              Documentation for ZOOlanders Essentials
             </h1>
             <p className="mt-6 text-lg leading-8 text-slate-900">
             Start by selecting the relevant product, delve into the documentation and learn how to use Essentials for ZOO or YOOtheme Pro effectively.
