@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'yarn'
       - run: |
           yarn install
           yarn build
@@ -30,6 +31,7 @@ jobs:
           port: 18765
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.SSH_PASSWORD }}
           tar_tmp_path: "/home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/next/"
 
       - name: Unzip on server
@@ -39,4 +41,5 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           port: 18765
           key: ${{ secrets.SSH_KEY }}
+          passphrase: ${{ secrets.SSH_PASSWORD }}
           script: "cd /home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/next && unzip docs.zip -d ./"
