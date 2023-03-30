@@ -5,7 +5,7 @@ preset: /next/assets/ytp/presets/FormArea-InputMonth.json
 
 A month form control. {% .lead %}
 
-Child of [Input Element](./input), the **Input Month Element** displays a [\<input type="month"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month) HTML element, use it to create one-line month edit fields.
+Child of [Input Element](../input), the **Input Month Element** displays a [\<input type="month"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month) HTML element, use it to create one-line month edit fields.
 
 ![Input Month Element](/next/assets/ytp/forms/fields/input-month.webp)
 
@@ -44,7 +44,7 @@ It inherits common validation with the following specifics:
 
 ## Integration
 
-1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
+1. Access a Builder layout and create a Form Area.
 1. Add an Input Element from the Form Essentials group and an Input Month element as its child.
 1. Access the child element settings and input a Control Name.
 

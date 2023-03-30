@@ -14,9 +14,9 @@ You can either get started in the next section or explore the addons.
 
 {% quick-links %}
 
-{% quick-link title="Access Addon" href="./addons/forms" description="Explore Essential Addons and how can they help you with your projects." /%}
+{% quick-link title="Access Addon" href="./addons/access" description="Explore Essential Addons and how can they help you with your projects." /%}
 {% quick-link title="Forms Addon" href="./addons/forms" description="Explore Essential Addons and how can they help you with your projects." /%}
-{% quick-link title="Sources Addon" href="./addons/forms" description="Explore Essential Addons and how can they help you with your projects." /%}
+{% quick-link title="Sources Addon" href="./addons/sources" description="Explore Essential Addons and how can they help you with your projects." /%}
 {% quick-link title="..." href="./addons" description="Explore all Essential Addons." /%}
 
 {% /quick-links %}

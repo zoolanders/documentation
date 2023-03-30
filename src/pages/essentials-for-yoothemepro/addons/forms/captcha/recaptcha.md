@@ -84,6 +84,6 @@ The [reCAPTCHA Admin Console](https://www.google.com/recaptcha/admin) allows you
 ## Integration
 
 1. Access the [reCAPTCHA](https://www.google.com/recaptcha/admin) Admin and obtain the Site & Secret Keys.
-1. Access a Builder layout and [create](../../setup#creating-a-form) a Form Area.
+1. Access a Builder layout and create a Form Area.
 1. Add a reCAPTCHA Element from the Form Essentials group.
 1. Access the element settings and input the obtained keys.

@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The CSV Source feeds data from local files formatted as CSV (comma-separated values) or TSV (tab-separated values), supporting dynamic filtering/ordering. Based on the [multi-instance](manager#multi-instance) source workflow it allows loading multiple files with different configurations.
+The CSV Source feeds data from local files formatted as CSV (comma-separated values) or TSV (tab-separated values), supporting dynamic filtering/ordering. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows loading multiple files with different configurations.
 
 ---
 

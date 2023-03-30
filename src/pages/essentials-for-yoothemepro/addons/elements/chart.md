@@ -40,5 +40,5 @@ Setting up a Dynamic Chart can be somewhat overwhelming, for an easier start you
 {% /quick-links %}
 
 {% callout type="warning" title="Sources Addon Required" %}
-Notice that this preset is dependent on the premium [Sources Addon](/essentials-for-yoothemepro/addons/sources) for the CSV data source creation.
+Notice that this preset is dependent on the premium [Sources Addon](/next/essentials-for-yoothemepro/addons/sources) for the CSV data source creation.
 {% /callout %}

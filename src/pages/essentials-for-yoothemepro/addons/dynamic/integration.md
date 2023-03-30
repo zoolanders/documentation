@@ -2,7 +2,7 @@
 title: Dynamic Addon Integration
 ---
 
-Ensure Essentials has been installed correctly by following the [installation guide](/essentials-for-yoothemepro/integration#installation). From there, open the `Customizer -> Essentials -> Advanced` section and enable the **Addons Addon**, then save the changes and refresh the page.
+Ensure Essentials has been installed correctly by following the [installation guide](/next/essentials-for-yoothemepro/integration#installation). From there, open the `Customizer -> Essentials -> Advanced` section and enable the **Addons Addon**, then save the changes and refresh the page.
 
 {% image caption="If the addon is not listed double check Essentials Premium has been installed."%}
 ![Enable Dynamic Addon](/next/assets/ytp/dynamic/integration/enable-addon.gif)

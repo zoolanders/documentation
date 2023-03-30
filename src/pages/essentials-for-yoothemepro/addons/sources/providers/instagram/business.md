@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Instagram Business Source, part of the [Instagram Source](../instagram) collection, creates sources based on the Instagram Business accounts content.
+The Instagram Business Source, part of the [Instagram Source](../) collection, creates sources based on the Instagram Business accounts content.
 
 ---
 
@@ -35,14 +35,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/essentials-for-yoothemepro/auth/drivers/facebook-oauth).
+Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/next/essentials-for-yoothemepro/auth/drivers/facebook-oauth).
 
 {% image %}
 ![Facebook OAuth Driver](/next/assets/ytp/auths/driver-facebook-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [OAuth security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---
@@ -53,7 +53,7 @@ For every source instance the following content queries will be made available a
 
 ### Media Query
 
-Fetches media from the authenticated account and resolves to a list of [Media Type](../instagram#media-type).
+Fetches media from the authenticated account and resolves to a list of [Media Type](../#media-type).
 
 {% image %}
 ![Instagram Media Query](/next/assets/ytp/sources/ig-query-media.webp)
@@ -70,7 +70,7 @@ Fetches media from the authenticated account and resolves to a list of [Media Ty
 
 ### Media Single Query
 
-Fetches a single media from the authenticated account and resolves to a [Media Type](../instagram#media-type).
+Fetches a single media from the authenticated account and resolves to a [Media Type](../#media-type).
 
 {% image %}
 ![Instagram Media Single Query](/next/assets/ytp/sources/ig-query-media-single.webp)
@@ -86,7 +86,7 @@ Fetches a single media from the authenticated account and resolves to a [Media T
 
 ### Album Media Query
 
-Part of the [Media Single Query](#media-single-query), as `Multiple Items Source -> Children Media`, fetches media from the parent Media if it's of the type Album, resolves to a list of [Album Media Type](../instagram#album-media-type).
+Part of the [Media Single Query](#media-single-query), as `Multiple Items Source -> Children Media`, fetches media from the parent Media if it's of the type Album, resolves to a list of [Album Media Type](../#album-media-type).
 
 {% image %}
 ![Instagram Album Media Query](/next/assets/ytp/sources/ig-query-media-single.webp)
@@ -101,7 +101,7 @@ Part of the [Media Single Query](#media-single-query), as `Multiple Items Source
 
 ### Hashtagged Media Query
 
-Fetches top and recent hashtagged media from the authenticated business account and resolves to a list of [Media Type](../instagram#media-type).
+Fetches top and recent hashtagged media from the authenticated business account and resolves to a list of [Media Type](../#media-type).
 
 {% image %}
 ![Instagram Hashtagged Media Query](/next/assets/ytp/sources/ig-query-hashtagged-media.webp)
@@ -117,7 +117,7 @@ Fetches top and recent hashtagged media from the authenticated business account 
 
 ### User Query
 
-Fetches the user profile from the authenticated account and resolves to a [User Type](../instagram#user-type).
+Fetches the user profile from the authenticated account and resolves to a [User Type](../#user-type).
 
 {% image %}
 ![Instagram User Query](/next/assets/ytp/sources/ig-query-user.webp)

@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Facebook Source feeds data from [Facebook](https://www.facebook.com/) Pages. Based on the [multi-instance](manager#multi-instance) source workflow it allows connecting to multiple accounts with different configurations.
+The Facebook Source feeds data from [Facebook](https://www.facebook.com/) Pages. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -33,14 +33,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/essentials-for-yoothemepro/auth/drivers/facebook-oauth).
+Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/next/essentials-for-yoothemepro/auth/drivers/facebook-oauth).
 
 {% image %}
 ![Facebook OAuth Driver](/next/assets/ytp/auths/driver-facebook-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [OAuth security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---

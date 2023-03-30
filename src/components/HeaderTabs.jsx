@@ -17,7 +17,7 @@ export function HeaderTabs({className, tabs}) {
                                 className={classNames(
                                     tab.active
                                         ? 'text-white border-white dark:text-primary dark:border-primary'
-                                        : 'border-transparent text-[#febfca] hover:text-white dark:text-slate-400 dark:hover:text-slate-300',
+                                        : 'border-transparent text-slate-50 dark:text-slate-400 dark:hover:text-slate-300',
                                     'whitespace-nowrap px-1 font-semibold text-sm border-b-2'
                                 )}
                                 aria-current={tab.active ? 'page' : undefined}

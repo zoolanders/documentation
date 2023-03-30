@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Google Business Profile Source creates sources based on Google Business Profile (a.k.a Google My Business) content. Based on the [multi-instance](manager#multi-instance) source workflow, it allows connecting to multiple accounts with different configurations.
+The Google Business Profile Source creates sources based on Google Business Profile (a.k.a Google My Business) content. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow, it allows connecting to multiple accounts with different configurations.
 
 Refer to the following table for all the available sources and it queries.
 
@@ -47,14 +47,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yoothemepro/auth/drivers/google-oauth).
+Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/next/essentials-for-yoothemepro/auth/drivers/google-oauth).
 
 {% image %}
 ![Google OAuth Driver](/next/assets/ytp/auths/driver-google-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [OAuth security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---
