@@ -29,7 +29,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           port: 18765
           username: ${{ secrets.SSH_USER }}
-          password: ${{ secrets.SSH_PASSWORD }}
+          key: ${{ secrets.SSH_KEY }}
           tar_tmp_path: "/home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/next/"
 
       - name: Unzip on server
@@ -38,5 +38,5 @@ jobs:
           username: ${{ secrets.SSH_USER }}
           host: ${{ secrets.SSH_HOST }}
           port: 18765
-          password: ${{ secrets.SSH_PASSWORD }}
+          key: ${{ secrets.SSH_KEY }}
           script: "cd /home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/next && unzip docs.zip -d ./"
