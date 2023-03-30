@@ -42,4 +42,4 @@ jobs:
           port: 18765
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_PASSWORD }}
-          script: "cd /home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/next && unzip docs.zip -d ./ && rsync -a dist/ ./"
+          script: "cd /home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/next && unzip docs.zip -o -d ./ && rsync -a dist/ ./"
