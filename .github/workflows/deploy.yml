@@ -26,13 +26,13 @@ jobs:
         uses: appleboy/scp-action@master
         with:
           source: "docs.zip"
-          target: "/home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/next/"
+          target: "/home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/tmp"
           host: ${{ secrets.SSH_HOST }}
           port: 18765
           username: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_PASSWORD }}
-          tar_tmp_path: "/home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/next/"
+          tar_tmp_path: "/home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/tmp"
 
       - name: Unzip on server
         uses: appleboy/ssh-action@master
@@ -42,4 +42,9 @@ jobs:
           port: 18765
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.SSH_PASSWORD }}
-          script: "cd /home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/next && unzip -o -d ./ docs.zip && rsync -a dist/ ./"
+          script: |
+            cd /home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/tmp
+            unzip -o -d ./ docs.zip
+            rm -rf ../public_html/next
+            mv dist ../public_html/next
+
