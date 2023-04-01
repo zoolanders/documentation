@@ -3,6 +3,8 @@
 .idea
 .DS_Store
 .gitignore
+.vercel
+.next
 
 node_modules/
 dist/
