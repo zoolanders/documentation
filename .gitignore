@@ -21,6 +21,7 @@
 *.pem
 .idea
 package-lock.json
+/public/sitemap.xml
 
 # debug
 npm-debug.log*

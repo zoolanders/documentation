@@ -2,9 +2,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o dist",
+    "build": "yarn sitemap && next build && next export -o dist",
     "lint": "next lint",
     "http": "npx http-server",
+    "sitemap": "node ./scripts/sitemap.mjs",
     "checklinks": "npx linkinator http://localhost:3000/next/essentials-for-yoothemepro -r --verbosity error"
   },
   "browserslist": "defaults, not ie <= 11",
@@ -35,7 +36,7 @@
   "devDependencies": {
     "eslint": "8.19.0",
     "eslint-config-next": "^13.2.4",
-    "prettier": "^2.7.1",
-    "prettier-plugin-tailwindcss": "^0.1.13"
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.6"
   }
 }
