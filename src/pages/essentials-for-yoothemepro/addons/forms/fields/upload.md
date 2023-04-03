@@ -82,10 +82,10 @@ It inherits common validation with the following specifics:
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | ---------- | ----------- | :-----: | :----------: | :---------: |
-| **Mime Types** | The list of allowed mime types that the file must constrain to. | &#x2713; | &#x2713; | &#x2713; |
-| **Extensions** | The list of allowed file extensions that the file must constrain to. | &#x2713; | &#x2713; | &#x2713; |
-| **Min File Size** | The minimum size that the file must constrain to, `greater than` or `equal to`, using any standard size unit `B`, `KB`, `MB`, `GB`, `TB`, `PB`, `EB`, `ZB`, or `YB`.  | &#x2713; | | &#x2713; |
-| **Max File Size** | The maximum size that the file must constrain to, `lower than` or `equal to`, using the same size units as Min File Size. | &#x2713; | | &#x2713; |
+| **Mime Types** | The comma-separated list of mime types that the uploaded files must constrain to, e.g. `image/png, video/*`. | &#x2713; | &#x2713; | &#x2713; |
+| **Extensions** | The comma-separated list of file extensions that the uploaded files must constrain to, e.g. `png, jpg, gif`. | &#x2713; | &#x2713; | &#x2713; |
+| **Min File Size** | The minimum size that the uploaded files must constrain to, `greater than` or `equal to`, using any standard size unit `B`, `KB`, `MB`, `GB`, `TB`, `PB`, `EB`, `ZB`, or `YB`.  | &#x2713; | | &#x2713; |
+| **Max File Size** | The maximum size that the uploaded files must constrain to, `lower than` or `equal to`, using the same size units as Min File Size. | &#x2713; | | &#x2713; |
 
 {% details title="Common Validation" %}
     {% partial file="ytp-formarea-field-common-validation.md" /%}
