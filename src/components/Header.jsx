@@ -18,7 +18,9 @@ function GitHubIcon(props) {
 
 export function Header({ navigation, tabs = [] }) {
     const { isScrolled } = useScroller()
-    const showTabs = Boolean(tabs.filter((t) => t.active).length)
+
+    // const showTabs = Boolean(tabs.filter((t) => t.active).length)
+    const showTabs = true; // show always
 
     return (
         <header

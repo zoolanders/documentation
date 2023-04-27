@@ -14,6 +14,12 @@ export default function DocLayout({ children, navigation, subnav = {}, markdoc =
     active: router.pathname.startsWith(path)
   }))
 
+  tabs.unshift({
+    name: 'Essentials',
+    href: '/essentials-for-yoothemepro',
+    active: router.pathname.startsWith('/essentials-for-yoothemepro') && !tabs.some(tab => tab.active)
+  })
+
   return (
     <>
       <Header navigation={navigation} tabs={tabs}/>
