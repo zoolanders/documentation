@@ -19,9 +19,9 @@ To use the SaveToCSV action, you must provide a pre-existing and pre-formatted C
 
 ---
 
-## Integration
+## How To Integrate
 
-[Load or Create](../integration) a Form Area and access it configuration panel. Add an instance of a SaveToCSV action and fulfill the follosing settings inside it settings panel.
+To use the SaveToCSV action, first load or create a Form Area and access its configuration panel. Then, add an instance of the SaveToCSV action and configure its settings.
 
 {% image %}
 ![SaveToCSV Action Settings](/next/assets/ytp/forms/action-savetocsv-settings.webp)
@@ -30,17 +30,13 @@ To use the SaveToCSV action, you must provide a pre-existing and pre-formatted C
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **File** | The path to the pre-existing and pre-formatted file where the data will be appended. | &#x2713; |
-| **Delimeter / Enclosure** | The characters the file is formatted with, defaults to a comma (`,`) and double-quote (`"`). |
+| **Delimeter / Enclosure** | The characters used to format the file, defaults to a comma (`,`) and double-quote (`"`). |
 
 {% details title="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
 {% /details %}
 
----
-
-## Columns
-
-Once the file has been set a list of configurable panels will appear for each of it columns in the Columns field. By default the columns are disabled and no content is saved, resulting in a blank row being appended. That's why it is important to enable all columns that should contain data and set a static or [dynamic](../../dynamic) value inside it configuration panel.
+Once the file is set, a list of configurable panels will appear for each column in the Columns field. By default, the columns are disabled, and no content is saved, resulting in a blank row being appended. Therefore, it is essential to enable all columns that should contain data and set a static or dynamic value in their configuration panel.
 
 {% image %}
 ![SaveTo Action Mapping](/next/assets/ytp/forms/action-saveto-mapping.webp)
@@ -48,15 +44,5 @@ Once the file has been set a list of configurable panels will appear for each of
 
 | Action/Status | Description |
 | ------ | ----------- |
-| **Toggle** | First icon from the right. Toggles the column configuration as `enabled` or `disabled`. |
+| **Toggle** | First icon from the right. Toggles the column configuration as `enabled` or `disabled`. A disabled column will be greyed out and it content will result in an empty string. |
 | **Mapping Status** | Second icon from the right. Indicates wheter the column has a content set or is empty. |
-
-{% callout type="warning" title="No Columns" %}
-If no column appear make sure that at least one column header is set in the file's first row. As well that the Delimeter and Enclosure match the file configuration.
-{% /callout %}
-
-
-
-| Setting | Description | Dynamic |
-| ------- | ----------- | :-----: |
-| **Value** | The value that will be mapped to the column. | &#x2713; |
