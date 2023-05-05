@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Dynamic Access Rule evaluates whether the specified dynamic content passes a specified condition.
+The Dynamic Access Rule determines whether a given value satisfies a specific set of conditions. This rule is flexible and can be applied to [various scenarios](#use-cases) as both the value being evaluated and the condition value can be set either statically or dynamically.
 
 ---
 
@@ -38,3 +38,19 @@ The Dynamic Access Rule evaluates whether the specified dynamic content passes a
 ## Integration
 
 {% partial file="ytp-access-rule-integration.md" variables={rule: $markdoc.frontmatter.name, collection: $markdoc.frontmatter.collection} /%}
+
+---
+
+## Use Cases
+
+### Today Date Comparison
+
+Evaluate if a specific date is **before than** or **after than** today.
+
+{% image %}
+![Dynamic Access Rule Use Case Date](/next/assets/ytp/access/rule-dynamic-usecase-date.webp)
+{% /image %}
+
+1. Set the value as the date which should be compared with today, formated as `Y-m-d`.
+1. Set the condition field as **Greater than** or **Less than**.
+1. Set the condition value as dynamic mapped to a `Request Source -> Timestamp Field`, formated as `Y-m-d`.
