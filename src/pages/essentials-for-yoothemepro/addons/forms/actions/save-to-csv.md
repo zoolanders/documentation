@@ -13,9 +13,15 @@ icon: '
 
 The **SaveToCSV Action** saves each submission data as a new record in the specified local CSV or TSV file. Use it to store or log submissions.
 
+{% callout title="Pre-formatted CSV File" %}
+To use the SaveToCSV action, you must provide a pre-existing and pre-formatted CSV file. The action won't create or format the file by itself. The CSV file can be as basic as a list of column headers separated by commas set in the very first line, as for example `Name,Comment,Date`.
+{% /callout %}
+
 ---
 
-## Settings
+## Integration
+
+[Load or Create](../integration) a Form Area and access it configuration panel. Add an instance of a SaveToCSV action and fulfill the follosing settings inside it settings panel.
 
 {% image %}
 ![SaveToCSV Action Settings](/next/assets/ytp/forms/action-savetocsv-settings.webp)
@@ -23,9 +29,8 @@ The **SaveToCSV Action** saves each submission data as a new record in the speci
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
-| **File** | The path to the file where the submission data will be added. | &#x2713; |
+| **File** | The path to the pre-existing and pre-formatted file where the data will be appended. | &#x2713; |
 | **Delimeter / Enclosure** | The characters the file is formatted with, defaults to a comma (`,`) and double-quote (`"`). |
-| **Content** | The [mapping configuration](#mapping) of the submission data to the file columns. | &#x2713; |
 
 {% details title="Common Settings" %}
     {% partial file="ytp-formarea-action-common-settings.md" /%}
@@ -33,25 +38,25 @@ The **SaveToCSV Action** saves each submission data as a new record in the speci
 
 ---
 
-## Mapping
+## Columns
 
-Once the file has been chosen, its columns will appear in the Content field ready to be mapped, being the column configuration pre-established by the file schema. The mapping will determine what value will be saved at what column of the record that is being saved or updated.
+Once the file has been set a list of configurable panels will appear for each of it columns in the Columns field. By default the columns are disabled and no content is saved, resulting in a blank row being appended. That's why it is important to enable all columns that should contain data and set a static or [dynamic](../../dynamic) value inside it configuration panel.
 
 {% image %}
 ![SaveTo Action Mapping](/next/assets/ytp/forms/action-saveto-mapping.webp)
 {% /image %}
 
-Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled, the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic).
+| Action/Status | Description |
+| ------ | ----------- |
+| **Toggle** | First icon from the right. Toggles the column configuration as `enabled` or `disabled`. |
+| **Mapping Status** | Second icon from the right. Indicates wheter the column has a content set or is empty. |
+
+{% callout type="warning" title="No Columns" %}
+If no column appear make sure that at least one column header is set in the file's first row. As well that the Delimeter and Enclosure match the file configuration.
+{% /callout %}
+
+
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
 | **Value** | The value that will be mapped to the column. | &#x2713; |
-
----
-
-## Integration
-
-1. [Load or Create](../integration) a Form Area and access it Settings Panel.
-1. Add a SaveToDatabase action and fulfill the required settings.
-
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}
