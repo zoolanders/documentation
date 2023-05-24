@@ -99,4 +99,3 @@ It inherits common validation with the following specifics:
 1. Add an Upload Element from the Form Essentials group.
 1. Access the element settings and input a Control Name.
 
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

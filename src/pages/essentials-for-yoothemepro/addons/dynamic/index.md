@@ -9,7 +9,7 @@ You can either get started in the next section or explore one of the topics list
 
 {% quick-links %}
 
-{% quick-link title="Per-Field Dynamic Content" href="./field-sources" description="Explore the potential of per-field Dynamic Content." /%}
+{% quick-link title="Per-Field Dynamic Content" href="./per-field-dynamic-content" description="Explore the potential of per-field Dynamic Content." /%}
 {% quick-link title="Global Queries" href="./global-queries" description="Learn how and when to use Global Queries." /%}
 
 {% /quick-links %}

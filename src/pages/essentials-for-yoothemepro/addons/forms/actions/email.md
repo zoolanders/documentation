@@ -68,4 +68,3 @@ We recommend the free service from [Mailtrap](https://mailtrap.io/) which allows
 1. [Load or Create](../integration) a Form Area and access it Settings Panel.
 1. Add an Email action and populate the required settings *Subject* and *Body*.
 
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

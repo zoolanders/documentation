@@ -16,17 +16,17 @@ Refer to the following table for all the available sources and it queries.
 
 | Source / Query | Resolves To | Description |
 | -------------- | ----------- | ----------- |
-| [Videos Source](./videos#videos-source) | | General source authenticated with an API key. |
-| -- [Videos Query](./videos#videos-query) | [Video Type](#video-type) | Fetches public videos with advanced search params. |
-| [My Channel Source](./mychannel#my-channel-source) | | Source based on a channel belonging to the authenticated account. |
-| -- [Channel Query](./mychannel#my-channel-query) | [Channel Type](#channel-type) | Fetches the channel content. |
-| -- [Video Query](./mychannel#my-channel-video-query) | [Video Type](#video-type) | Fetches a single video from the channel. |
-| -- [Videos Query](./mychannel#my-channel-videos-query) | [Video Type](#video-type) | Fetches videos from the channel. |
-| -- [Playlist Query](./mychannel#my-channel-playlist-query) | [Playlist Type](#playlist-type) | Fetches a specific playlist content from the channel. |
-| {% nowrap %}-- -- [Playlist Videos Query](./mychannel#my-channel-playlist-videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos from the channel specific playlist. |
-| [My Playlist Source](./myplaylist#my-playlist-source) | | Source based on a playlist belonging to the authenticated account. |
-| -- [Video Query](./myplaylist#my-playlist-video-query) | [Video Type](#video-type) | Fetches a single video from the playlist. |
-| -- [Videos Query](./myplaylist#my-playlist-videos-query) | [Video Type](#video-type) | Fetches videos from the playlist. |
+| [Videos Source](../videos#videos-source) | | General source authenticated with an API key. |
+| -- [Videos Query](../videos#videos-query) | [Video Type](#video-type) | Fetches public videos with advanced search params. |
+| [My Channel Source](../mychannel#my-channel-source) | | Source based on a channel belonging to the authenticated account. |
+| -- [Channel Query](../mychannel#my-channel-query) | [Channel Type](#channel-type) | Fetches the channel content. |
+| -- [Video Query](../mychannel#my-channel-video-query) | [Video Type](#video-type) | Fetches a single video from the channel. |
+| -- [Videos Query](../mychannel#my-channel-videos-query) | [Video Type](#video-type) | Fetches videos from the channel. |
+| -- [Playlist Query](../mychannel#my-channel-playlist-query) | [Playlist Type](#playlist-type) | Fetches a specific playlist content from the channel. |
+| {% nowrap %}-- -- [Playlist Videos Query](../mychannel#my-channel-playlist-videos-query){% /nowrap %} | [Video Type](#video-type) | Fetches videos from the channel specific playlist. |
+| [My Playlist Source](../myplaylist#my-playlist-source) | | Source based on a playlist belonging to the authenticated account. |
+| -- [Video Query](../myplaylist#my-playlist-video-query) | [Video Type](#video-type) | Fetches a single video from the playlist. |
+| -- [Videos Query](../myplaylist#my-playlist-videos-query) | [Video Type](#video-type) | Fetches videos from the playlist. |
 
 ---
 

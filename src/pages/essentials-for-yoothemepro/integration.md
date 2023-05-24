@@ -4,7 +4,7 @@ title: Essentials Integration
 
 Essentials is in essence a plugin and has to be installed like any other Joomla or WordPress plugin. {% .lead %}
 
-Follow through the [installation](#installation), then choose which [addons](addons) to integrate for your current project. This will allow you to customize your experience and only use the addons that are relevant to your needs. Optionally, set up [automatic updates](#automatic-updates), to ensure that you have always the latest version.
+Follow through the [installation](#installation), then choose which [addons](../addons) to integrate for your current project. This will allow you to customize your experience and only use the addons that are relevant to your needs. Optionally, set up [automatic updates](#automatic-updates), to ensure that you have always the latest version.
 
 ---
 

@@ -14,7 +14,7 @@ Ensure Essentials has been installed correctly by following the [installation gu
 
 ## 1. Create a Form Area
 
-A form must be structured inside of a Section or Column enabled as a [Form Area](form-area), which can be done easily with just a few clicks.
+A form must be structured inside of a Section or Column enabled as a [Form Area](../form-area), which can be done easily with just a few clicks.
 
 {% image %}
 ![Create a Form Area](/assets/ytp/forms/integration/create-form-area.gif)
@@ -28,7 +28,7 @@ A form must be structured inside of a Section or Column enabled as a [Form Area]
 
 ## 2. Add After Submit Actions
 
-At least one [After Submit Action](after-submit-actions) must be set for every form, otherwise, it will not trigger any action. In this case are going to greet the user adding a Message Action, but for more advanced scenarios, adding Email and SaveTo actions would be necessary to send an email and save the submitted data.
+At least one [After Submit Action](../after-submit-actions) must be set for every form, otherwise, it will not trigger any action. In this case are going to greet the user adding a Message Action, but for more advanced scenarios, adding Email and SaveTo actions would be necessary to send an email and save the submitted data.
 
 {% image %}
 ![Add After Submit Actions](/assets/ytp/forms/integration/add-form-actions.gif)
@@ -39,7 +39,7 @@ At least one [After Submit Action](after-submit-actions) must be set for every f
 1. Input in the **Message** field a `Thank you for your submission, your comment was {comment}!`.
 
 {% callout title="Notice the `{comment}` part" %}
-It's what we call [Data Placeholders](dynamic#data-placeholders), and is one of the ways to set a dynamic workflow.
+It's what we call [Data Placeholders](../dynamic#data-placeholders), and is one of the ways to set a dynamic workflow.
 {% /callout %}
 
 ---
@@ -69,4 +69,4 @@ Let's give it a try!
 1. Locate the form in the Builder preview.
 1. Input a message in the Textarea and Submit.
 
-Congratulations if you can see a modal with the submitted message! If not, you can try to identify what went wrong, but don't worry, in the next section you will be able to set forms using presets.
+Congratulations if you can see a modal with the submitted message!

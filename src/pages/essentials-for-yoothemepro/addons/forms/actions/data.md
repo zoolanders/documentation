@@ -17,7 +17,7 @@ icon: '
 The **Data Action** adds or alters the submission data. Use it to:
 
 - Duplicate a submitted date with a custom format for consequent actions use.
-- Add context information to the Submission, e.g. the [Request](essentials-for-yoothemepro/sources/source/request) Timestamp (current date & time) or IP.
+- Add context information to the Submission, e.g. the `Request -> Timestamp` (current date & time) or IP.
 - Add sensitive data without the need to expose it in a hidden input.
 
 {% callout type="warning" title="Order is important" %}
@@ -48,5 +48,3 @@ Notice that this action must be executed before any other action relying on the 
 
 1. [Load or Create](../integration) a Form Area and access it Settings Panel.
 1. Add a Data action and input data entries as required.
-
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

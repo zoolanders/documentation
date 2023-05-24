@@ -14,6 +14,5 @@ You can either get started in the next section or explore one of the topics list
 {% quick-link title="Validation" href="./validation" description="Learn how the validation of submitted data is processed." /%}
 {% quick-link title="Dynamic Workflow" href="./dynamic" description="Understand the dynamic content workflow and use it properly." /%}
 {% quick-link title="Fields" href="./fields" description="Explore all the available form fields, their purpose and possibilities." /%}
-{% quick-link title="Presets" href="./presets" description="Download Form Area presets and get started with new form right away." /%}
 
 {% /quick-links %}

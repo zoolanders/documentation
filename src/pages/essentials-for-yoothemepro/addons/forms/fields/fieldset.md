@@ -32,4 +32,3 @@ The **Fieldset Element** displays a [\<fieldset\>](https://developer.mozilla.org
 1. Add a Fieldset Element from the Form Essentials group and add a field as a child element.
 1. Access the child element settings and input a Control Name.
 
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

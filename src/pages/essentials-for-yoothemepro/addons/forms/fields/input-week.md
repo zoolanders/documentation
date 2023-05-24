@@ -17,7 +17,7 @@ Week input relies on the browser's native implementation, the picker and icon st
 
 ## Settings
 
-It inherits common settings and the parent's [Fields Settings](./input#fields-settings):
+It inherits common settings and the parent's [Fields Settings](../input#fields-settings):
 
 {% details title="Common Settings" %}
     {% partial file="ytp-formarea-field-common-settings.md" /%}
@@ -48,4 +48,3 @@ It inherits common validation with the following specifics:
 1. Add an Input Element from the Form Essentials group and an Input Week element as its child.
 1. Access the child element settings and input a Control Name.
 
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

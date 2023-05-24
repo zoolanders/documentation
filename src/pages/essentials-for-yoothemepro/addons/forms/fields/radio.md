@@ -65,4 +65,3 @@ Options are specified as child items that can be input manually as well as dynam
 1. Add a Radio Element from the Form Essentials group.
 1. Access the element settings and input a Control Name.
 
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

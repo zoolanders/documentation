@@ -2,13 +2,13 @@
 title: Form Area Settings
 ---
 
-The [Form Area](form-area) configuration has the following settings divided into tabs.
+The [Form Area](../form-area) configuration has the following settings divided into tabs.
 
 ---
 
 ## Actions
 
-At least one [After Submit Actions](after-submit-actions) is required, consult individual [action reference](actions) for specifics.
+At least one [After Submit Actions](../after-submit-actions) is required, consult individual [action reference](../actions) for specifics.
 
 {% image %}
 ![Form Area Actions](/assets/ytp/forms/formarea-config-actions.webp)
@@ -18,7 +18,7 @@ At least one [After Submit Actions](after-submit-actions) is required, consult i
 
 ## Validation
 
-Global validation settings, for field specific validation refer to [field settings](fields).
+Global validation settings, for field specific validation refer to [field settings](../fields).
 
 {% image %}
 ![Form Area Settings](/assets/ytp/forms/formarea-config-settings.webp)
@@ -77,7 +77,7 @@ Notice that when a custom action URL is set, server-side validation and After Su
 
 ## Custom Scripts
 
-Custom scripts that will run on form events, for a more advance integration consult [Form Events](form-events) section.
+Custom scripts that will run on form events, for a more advance integration consult [Form Events](../form-events) section.
 
 {% image %}
 ![Form Area Custom Scripts](/assets/ytp/forms/formarea-config-custom-scripts.webp)

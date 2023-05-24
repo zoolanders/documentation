@@ -13,7 +13,7 @@ Child of [Input Element](../input), the **Input Email Element** displays a [\<in
 
 ## Settings
 
-It inherits common settings and the parent's [Fields Settings](./input#fields-settings) and the following specifics:
+It inherits common settings and the parent's [Fields Settings](../input#fields-settings) and the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
@@ -49,4 +49,3 @@ It inherits common validation with the following specifics:
 1. Add an Input Element from the Form Essentials group and an Input Email element as its child.
 1. Access the child element settings and input a Control Name.
 
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

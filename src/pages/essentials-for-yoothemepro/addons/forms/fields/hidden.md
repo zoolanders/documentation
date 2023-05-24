@@ -30,4 +30,3 @@ The **Hidden Element** displays a [\<input type="hidden"\>](https://developer.mo
 1. Add a Hidden Element from the Form Essentials group.
 1. Access the element settings and input a Control Name.
 
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

@@ -16,8 +16,7 @@ export async function getStaticProps() {
     'title',
     'slug',
     'description',
-    'icon',
-    'preset'
+    'icon'
   ])
 
   const index = get(navigation, 'sections.2.links.3.links')

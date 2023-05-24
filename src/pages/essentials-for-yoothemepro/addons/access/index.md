@@ -11,6 +11,6 @@ You can either get started in the next section or explore one of the topics list
 
 {% quick-link title="Access Condition" href="./condition" description="Discover the concept, workflow, and possibilities of the Access Condition." /%}
 {% quick-link title="Rules Reference" href="./rules" description="Explore all the available rules, their purpose and possibilities." /%}
-{% quick-link title="Custom Rules" href="./create-custom-source" description="Learn how to create a custom condition rule." /%}
+{% quick-link title="Custom Rules" href="./create-custom-rule" description="Learn how to create a custom condition rule." /%}
 
 {% /quick-links %}

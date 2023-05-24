@@ -26,7 +26,7 @@ It is also possible, and somewhat more convenient, to manage the auths while cre
 
 ## Auth Driver
 
-Every auth requires an Auth Driver that will manage the authentication workflow or specify the secrets to be stored. Common [Auth Drivers](./auth/drivers) are provided out of the box while is also possible to register custom ones.
+Every auth requires an Auth Driver that will manage the authentication workflow or specify the secrets to be stored. Common [Auth Drivers](../auth/drivers) are provided out of the box while is also possible to register custom ones.
 
 ---
 
@@ -82,7 +82,7 @@ The auth workflow has been built with security in mind but is important to under
 
 ### Encryption
 
-All auth tokens, keys and secrets are securely **encrypted** and stored within the [Essentials Settings](./settings), which is essentially a database table. This is a critical security measure as it ensures that these sensitive credentials are not exposed. Even if they were somehow accessed, the encryption would render them useless to any unauthorized party.
+All auth tokens, keys and secrets are securely **encrypted** and stored within the [Essentials Settings](../settings), which is essentially a database table. This is a critical security measure as it ensures that these sensitive credentials are not exposed. Even if they were somehow accessed, the encryption would render them useless to any unauthorized party.
 
 ### OAuth Principles
 

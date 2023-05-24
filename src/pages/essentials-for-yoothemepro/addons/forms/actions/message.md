@@ -36,4 +36,3 @@ The **Message Action** displays a custom message in a modal. Use it to show the 
 1. [Load or Create](../integration) a Form Area and access it Settings Panel.
 1. Add a Message action and set the Content of the message.
 
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

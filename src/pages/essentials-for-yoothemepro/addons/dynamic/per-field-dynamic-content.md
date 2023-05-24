@@ -44,7 +44,7 @@ Options under a Page group will appear if there are queries available for the cu
 
 ## Global Sources and Queries
 
-Some options under a Global group will always appear, as the `Site` source which content is globally available. Others will appear if pre-configured as a [Global Query](global-queries). It allows mapping those queries content.
+Some options under a Global group will always appear, as the `Site` source which content is globally available. Others will appear if pre-configured as a [Global Query](../global-queries). It allows mapping those queries content.
 
 {% image %}
 ![Field Global Query](/assets/ytp/dynamic/field-global-query.webp)

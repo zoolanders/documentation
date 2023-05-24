@@ -13,7 +13,7 @@ Child of [Input Element](../input), the **Input Number Element** displays a [\<i
 
 ## Settings
 
-It inherits common settings and the parent's [Fields Settings](./input#fields-settings) with the following specifics:
+It inherits common settings and the parent's [Fields Settings](../input#fields-settings) with the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
@@ -46,4 +46,3 @@ While the browser validation invalidates any entry that isn't a number, it inher
 1. Add an Input Element from the Form Essentials group and an Input Number element as its child.
 1. Access the child element settings and input a Control Name.
 
-{% partial file="ytp-formarea-field-integration.md" variables={preset: $markdoc.frontmatter.preset} /%}

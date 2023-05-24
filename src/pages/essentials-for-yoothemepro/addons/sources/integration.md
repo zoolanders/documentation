@@ -22,7 +22,7 @@ The Source Manager will assist us on creating, and posterior management, of all 
 
 1. Open the manager at `Customizer -> Essentials -> Sources`
 2. Create a new source of any kind, for this specific case we choose the RSS one.
-3. Fulfill the instance configuration consulting the [sources reference](providers).
+3. Fulfill the instance configuration consulting the [sources reference](../providers).
 4. `Save` the new instance when ready.
 
 ---

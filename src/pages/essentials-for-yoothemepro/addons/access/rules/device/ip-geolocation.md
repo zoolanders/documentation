@@ -14,7 +14,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The IP Geolocation Access Rule evaluates whether the device ip location, determined by [MaxMind GeoIp Database](essentials-for-yoothemepro/settings/geolocation), matches one of the specified patterns.
+The IP Geolocation Access Rule evaluates whether the device ip location, determined by [MaxMind GeoIp Database](/essentials-for-yoothemepro/settings/geolocation), matches one of the specified patterns.
 
 ---
 
