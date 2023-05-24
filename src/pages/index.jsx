@@ -20,7 +20,7 @@ export default function Home() {
                 Essentials for ZOO
               </a>
               <a
-                href="essentials-for-yoothemepro"
+                href="essentials-for-yootheme-pro"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-slate-900 shadow-sm"
               >
                 Essentials for YTP

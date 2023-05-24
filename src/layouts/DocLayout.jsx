@@ -16,8 +16,8 @@ export default function DocLayout({ children, navigation, subnav = {}, markdoc =
 
   tabs.unshift({
     name: 'Essentials',
-    href: '/essentials-for-yoothemepro',
-    active: router.pathname.startsWith('/essentials-for-yoothemepro') && !tabs.some(tab => tab.active)
+    href: '/essentials-for-yootheme-pro',
+    active: router.pathname.startsWith('/essentials-for-yootheme-pro') && !tabs.some(tab => tab.active)
   })
 
   return (

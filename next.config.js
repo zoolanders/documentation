@@ -12,7 +12,7 @@ const nextConfig = {
   //   return [
   //     {
   //       source: '/',
-  //       destination: '/essentials-for-yoothemepro',
+  //       destination: '/essentials-for-yootheme-pro',
   //       permanent: false,
   //     }
   //   ]
@@ -20,7 +20,7 @@ const nextConfig = {
   // ,async rewrites() {
   //   return [
   //     {
-  //       source: '/essentials-for-yoothemepro',
+  //       source: '/essentials-for-yootheme-pro',
   //       destination: '/',
   //     },
   //   ]
