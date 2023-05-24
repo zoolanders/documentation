@@ -1,4 +1,6 @@
 import navYtp from '@/pages/yoothemepro/nav.json'
+import navZoo from '@/pages/essentials-for-zoo/nav.json'
+import navZooFilter from '@/pages/essentials-for-zoo/filter/nav.json'
 import navEssYtp from '@/pages/essentials-for-yoothemepro/nav.json'
 import navForms from '@/pages/essentials-for-yoothemepro/addons/forms/nav.json'
 import navSources from '@/pages/essentials-for-yoothemepro/addons/sources/nav.json'
@@ -10,6 +12,8 @@ import navElements from '@/pages/essentials-for-yoothemepro/addons/elements/nav.
 
 const navs = {
     '/yoothemepro': navYtp,
+    '/essentials-for-zoo': navZoo,
+    '/essentials-for-zoo/filter': navZooFilter,
     '/essentials-for-yoothemepro': navEssYtp,
     '/essentials-for-yoothemepro/addons/elements': navElements,
     '/essentials-for-yoothemepro/addons/layouts': navLayout,

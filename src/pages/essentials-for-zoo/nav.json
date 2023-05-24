@@ -1,0 +1,39 @@
+{
+    "title": "Essentials ZOO",
+    "sections": [
+        {
+            "title": "Getting Started",
+            "links": [
+                {
+                    "title": "Introduction",
+                    "href": "./"
+                },
+                {
+                    "title": "Translation",
+                    "href": "./translation"
+                },
+                {
+                    "title": "Upgrade to ZOO 4",
+                    "href": "./upgrade-zoo-4"
+                }
+            ]
+        },
+        {
+            "title": "Core",
+            "links": [
+                {
+                    "title": "Import/Export",
+                    "href": "./core/import-export"
+                },
+                {
+                    "title": "Metadata",
+                    "href": "./core/metadata"
+                },
+                {
+                    "title": "SEO",
+                    "href": "./core/seo"
+                }
+            ]
+        }
+    ]
+}
