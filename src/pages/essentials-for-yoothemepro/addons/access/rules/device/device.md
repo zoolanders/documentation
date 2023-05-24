@@ -23,7 +23,7 @@ Notice that browser detection is not always accurate, users can setup their brow
 ## Settings
 
 {% image %}
-![Device Access Rule](/next/assets/ytp/access/rule-device.webp)
+![Device Access Rule](/assets/ytp/access/rule-device.webp)
 {% /image %}
 
 | Setting | Description | Required | Dynamic |

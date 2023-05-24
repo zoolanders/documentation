@@ -18,7 +18,7 @@ const formatted = sitemap => prettier.format(sitemap, { parser: 'html' });
     ${pages
       .map(page => {
         const path = page
-          .replace('src/pages/', 'next/')
+          .replace('src/pages/', '/')
           .replace(/\.(jsx|md)/, '')
           .replace(/\/index/g, '');
         const routePath = path === 'index' ? '' : path;

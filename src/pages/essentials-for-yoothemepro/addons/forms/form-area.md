@@ -15,7 +15,7 @@ Once a Form Area has been created, a `paper-plane` icon will appear in the build
 The Form Area Configuration panel contains both general and advanced configuration [settings](settings) for the form, as well as the [After Submit Actions](after-submit-actions), which are critical for the form workflow.
 
 {% image caption="Use the Form Area shortcut to access it configuration from the builder." %}
-![Form Area Shortcut](/next/assets/ytp/forms/formarea-config-shortcut.webp)
+![Form Area Shortcut](/assets/ytp/forms/formarea-config-shortcut.webp)
 {% /image %}
 
 ---
@@ -25,7 +25,7 @@ The Form Area Configuration panel contains both general and advanced configurati
 [Field Elements](fields) are used to structure the form and define individual field validation and specifics. They represent standard HTML form elements that are natively supported by [UIkit](https://getuikit.com/) and can be found in the builder element library under the `Form Essentials` group.
 
 {% image %}
-![Form Area Elements](/next/assets/ytp/forms/formarea-elements.webp)
+![Form Area Elements](/assets/ytp/forms/formarea-elements.webp)
 {% /image %}
 
 {% callout type="warning" title="Raw HTML fields limitations" %}

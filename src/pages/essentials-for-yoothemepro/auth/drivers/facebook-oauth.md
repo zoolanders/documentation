@@ -13,7 +13,7 @@ icon: '
 The Facebook OAuth Driver manage Facebook OAuth protocol to authenticate and grant scope permissions.
 
 {% image %}
-![Facebook OAuth Driver](/next/assets/ytp/auths/driver-facebook-oauth.webp)
+![Facebook OAuth Driver](/assets/ytp/auths/driver-facebook-oauth.webp)
 {% /image %}
 
 | Setting | Description |

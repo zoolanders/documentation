@@ -21,7 +21,7 @@ The URL Access Rule evaluates whether the site URL matches one of the specified 
 ## Settings
 
 {% image %}
-![URL Access Rule](/next/assets/ytp/access/rule-url.webp)
+![URL Access Rule](/assets/ytp/access/rule-url.webp)
 {% /image %}
 
 | Setting | Description | Required | Dynamic |

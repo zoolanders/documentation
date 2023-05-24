@@ -32,8 +32,8 @@ export default function App({ Component, pageProps }) {
         {pageDescription && (
           <meta name="description" content={pageDescription} />
         )}
-        <link rel="shortcut icon" href="/next/zoolanders-favicon.png"></link>
-        <link rel="apple-touch-icon" href="/next/zoolanders-touch-icon.png"></link>
+        <link rel="shortcut icon" href="/zoolanders-favicon.png"></link>
+        <link rel="apple-touch-icon" href="/zoolanders-touch-icon.png"></link>
       </Head>
       <NavContext.Provider value={nav}>
         <Layout {...pageProps} navigation={nav} subnav={subnav}>

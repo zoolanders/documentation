@@ -5,7 +5,7 @@ description: Essentials for YOOtheme Pro guides and documentation
 hero:
   title: Essentials for YOOtheme Pro
   description: Documentation and guides for <span class="whitespace-nowrap">YOOtheme Pro</span> Essentials
-  image: /next/hero-ytp.png
+  image: /hero-ytp.png
 ---
 
 Essentials for YOOtheme Pro is a collection of [addons](addons) specifically crafted for the [YOOtheme Pro](https://yootheme.com/page-builder) page builder. These addons are compatible with versions 2.x, 3.x, and 4.x of the builder and can be used on both WordPress and Joomla platforms. {% .lead %}

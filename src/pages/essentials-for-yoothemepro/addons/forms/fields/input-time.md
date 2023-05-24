@@ -1,13 +1,13 @@
 ---
 title: Input Time Field Element
-preset: /next/assets/ytp/presets/FormArea-InputTime.json
+preset: /assets/ytp/presets/FormArea-InputTime.json
 ---
 
 A time form control. {% .lead %}
 
 Child of [Input Element](../input), the **Input Time Element** displays a [\<input type="time"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time) HTML element, use it to create one-line time edit fields.
 
-![Input Time Element](/next/assets/ytp/forms/fields/input-time.webp)
+![Input Time Element](/assets/ytp/forms/fields/input-time.webp)
 
 {% callout type="warning" title="Styling Limitations" %}
 Time input relies on the browser's native implementation, the picker and icon style is inconsistent and its customization is not possible.

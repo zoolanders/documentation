@@ -13,5 +13,5 @@ icon: '
 The API Key Driver it's a generic API key driver in case a service specific one is missing.
 
 {% image %}
-![API Key Driver](/next/assets/ytp/auths/driver-api-key.webp)
+![API Key Driver](/assets/ytp/auths/driver-api-key.webp)
 {% /image %}

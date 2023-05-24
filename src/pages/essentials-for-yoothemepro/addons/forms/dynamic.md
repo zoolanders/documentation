@@ -13,7 +13,7 @@ As forms are dynamic in nature, there are various ways to reference submitted da
 Data placeholders are plain string references to the submitted data based on their control names. For instance, if there is an input field with the control name `email`, the placeholder reference would be `{email}`. These placeholders can be placed in action settings and will be replaced with the submitted data value during the action execution.
 
 {% image caption="As a quick reference a list of available placeholders can be accessed by clicking the Placeholder Button." %}
-![Form Data Placeholders](/next/assets/ytp/forms/form-data-placeholders.webp)
+![Form Data Placeholders](/assets/ytp/forms/form-data-placeholders.webp)
 {% /image %}
 
 ---
@@ -23,7 +23,7 @@ Data placeholders are plain string references to the submitted data based on the
 For each Form Area, a dynamic content source is created as an alternative, and more convenient, way of accessing submitted data during the actions configuration. As a source, it has all the advantages of dynamic content, including the ability to use filters. The mapping option for the source will be listed as part of the `Dynamic` options under the `Submission Group`.
 
 {% image %}
-![Form Dynamic Content](/next/assets/ytp/forms/form-dynamic-content.webp)
+![Form Dynamic Content](/assets/ytp/forms/form-dynamic-content.webp)
 {% /image %}
 
 {% callout title="Alter Submission Data" %}

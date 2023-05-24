@@ -20,7 +20,7 @@ The **Button Element** displays a grid of [\<button\>](https://developer.mozilla
 Control the size and grid for all children.
 
 {% image %}
-![Button Element](/next/assets/ytp/forms/fields/button-settings.webp)
+![Button Element](/assets/ytp/forms/fields/button-settings.webp)
 {% /image %}
 
 | Setting | Description |

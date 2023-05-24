@@ -16,7 +16,7 @@ With the Local Storage Adapter, you have the ability to set up a specific folder
 The designated folder must already exist and be accessible for reading and writing by the PHP user. Typically, this means that the folder should be located within the user's home directory.
 
 {% image %}
-![Local Storage Adapter](/next/assets/ytp/storage/adapter-local.webp)
+![Local Storage Adapter](/assets/ytp/storage/adapter-local.webp)
 {% /image %}
 
 | Setting | Description |

@@ -14,7 +14,7 @@ icon: '
 The hCaptcha element integrates [hCaptcha](https://www.hcaptcha.com/) anti-bot solution that protects user privacy and rewards websites.
 
 {% image width="sm" %}
-![hCaptcha Element](/next/assets/ytp/forms/captcha/hcaptcha.webp)
+![hCaptcha Element](/assets/ytp/forms/captcha/hcaptcha.webp)
 {% /image %}
 
 ---
@@ -36,7 +36,7 @@ The hCaptcha element integrates [hCaptcha](https://www.hcaptcha.com/) anti-bot s
 A variation that will render a "checkbox" style field by which the captcha challenge could be initiated by the user.
 
 {% image %}
-![hCaptcha Checkbox](/next/assets/ytp/forms/captcha/hcaptcha-checkbox.webp)
+![hCaptcha Checkbox](/assets/ytp/forms/captcha/hcaptcha-checkbox.webp)
 {% /image %}
 
 | Setting | Description | Dynamic |

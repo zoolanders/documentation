@@ -20,7 +20,7 @@ The **Input Element** displays a grid of [\<input\>](https://developer.mozilla.o
 Set multiple children of any type and control the display, grid, and settings of all of them within the parent with an option to override.
 
 {% image %}
-![Input Element](/next/assets/ytp/forms/fields/input.webp)
+![Input Element](/assets/ytp/forms/fields/input.webp)
 {% /image %}
 
 | Setting | Description |
@@ -29,7 +29,7 @@ Set multiple children of any type and control the display, grid, and settings of
 | **Show Icon** | Should the icon be displayed for all children. |
 
 {% image %}
-![Input Common Settings](/next/assets/ytp/forms/fields/input-commons.webp)
+![Input Common Settings](/assets/ytp/forms/fields/input-commons.webp)
 {% /image %}
 
 | Setting | Description |
@@ -41,7 +41,7 @@ Set multiple children of any type and control the display, grid, and settings of
 | **Icon Alignment** | The side of the field where the icon will be aligned, `Left` or `Right`. |
 
 {% image %}
-![Input Columns Settings](/next/assets/ytp/forms/fields/input-grid.webp)
+![Input Columns Settings](/assets/ytp/forms/fields/input-grid.webp)
 {% /image %}
 
 | Setting | Description |

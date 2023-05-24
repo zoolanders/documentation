@@ -8,5 +8,5 @@ The changelog contains information about the modifications made in each stable v
 To access the Essentials changelog and check the current version installed, you can go to the `Essentials -> About` section of the Customizer.
 
 {% image %}
-![Essentials Changelog](/next/assets/ytp/essentials-changelog.gif)
+![Essentials Changelog](/assets/ytp/essentials-changelog.gif)
 {% /image %}

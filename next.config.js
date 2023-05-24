@@ -2,7 +2,6 @@ const withMarkdoc = require('@markdoc/next.js')
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/next',
   trailingSlash: true,
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md'],

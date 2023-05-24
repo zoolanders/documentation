@@ -1,6 +1,6 @@
 ---
 title: Textarea Field Element
-preset: /next/assets/ytp/presets/FormArea-Textarea.json
+preset: /assets/ytp/presets/FormArea-Textarea.json
 description: A multi-line plain-text editing form control
 icon: '
   <path stroke-width="2" fill="none" d="M2 3h26v24H2z"/>
@@ -16,7 +16,7 @@ icon: '
 
 The **Textarea Element** displays a [\<textarea\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) HTML element, use it to allow users entering a sizeable amount of free-form text, for example, a comment on a review or feedback form.
 
-![Textarea Element](/next/assets/ytp/forms/fields/textarea.webp)
+![Textarea Element](/assets/ytp/forms/fields/textarea.webp)
 
 ---
 

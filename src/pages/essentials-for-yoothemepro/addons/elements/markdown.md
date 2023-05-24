@@ -13,5 +13,5 @@ icon: '
 Markdown is a lightweight markup language that is used to create content with plain text syntax. With the Markdown Element, static or dynamic markdown content can be rendered with [CommonMark](https://commonmark.org) and cached for optimal performance.
 
 {% image %}
-![Markdown Element](/next/assets/ytp/elements/markdown-element.webp)
+![Markdown Element](/assets/ytp/elements/markdown-element.webp)
 {% /image %}

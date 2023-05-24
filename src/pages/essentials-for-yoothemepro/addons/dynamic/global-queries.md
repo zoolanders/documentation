@@ -13,7 +13,7 @@ A Global Query is a custom query composed from a global source which is then mad
 The Global Queries Manager can be accessed at `Customizer -> Essentials -> Global Queries` section. There you can manage the queries for any source that is globally available.
 
 {% image %}
-![Global Queries](/next/assets/ytp/dynamic-global-queries.gif)
+![Global Queries](/assets/ytp/dynamic-global-queries.gif)
 {% /image %}
 
 In case the panel is not present make sure the **Dynamic Addon** is enabled in the [Essentials Settings](../settings).

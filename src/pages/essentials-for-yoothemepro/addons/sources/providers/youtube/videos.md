@@ -19,7 +19,7 @@ The YouTube Videos Source, part of the [YouTube Source](../) collection, creates
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
-![YouTube Videos Source](/next/assets/ytp/sources/youtube-videos-config.webp)
+![YouTube Videos Source](/assets/ytp/sources/youtube-videos-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -32,14 +32,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on an API Key driven by the [Google API Key Driver](/next/essentials-for-yoothemepro/auth/drivers/google-api-key).
+Authentication is based on an API Key driven by the [Google API Key Driver](/essentials-for-yoothemepro/auth/drivers/google-api-key).
 
 {% image %}
-![Google API Key Driver](/next/assets/ytp/auths/driver-google-api-key.webp)
+![Google API Key Driver](/assets/ytp/auths/driver-google-api-key.webp)
 {% /image %}
 
 {% callout title="Keys Security" %}
-Learn more about Essentials [Keys security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [Keys security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---
@@ -53,7 +53,7 @@ For every source instance the following content queries will be made available a
 Fetches public videos with advanced query params resolving to a list of [Video Type](../youtube#video-type).
 
 {% image %}
-![YouTube Videos Query](/next/assets/ytp/sources/youtube-videos-query.webp)
+![YouTube Videos Query](/assets/ytp/sources/youtube-videos-query.webp)
 {% /image %}
 
 | Setting | Default | Description |

@@ -1,13 +1,13 @@
 ---
 title: Button Reset Element
-preset: /next/assets/ytp/presets/FormArea-Buttons.json
+preset: /assets/ytp/presets/FormArea-Buttons.json
 ---
 
 An interactive form reset control. {% .lead %}
 
 Child of [Button Element](./button), the **Button Reset Element** displays a [\<button type="reset"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset) HTML element, use it to display a button that will reset the form.
 
-![Button Reset Element](/next/assets/ytp/forms/fields/button-reset.webp)
+![Button Reset Element](/assets/ytp/forms/fields/button-reset.webp)
 
 ---
 

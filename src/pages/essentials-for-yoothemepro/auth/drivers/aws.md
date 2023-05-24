@@ -13,5 +13,5 @@ icon: '
 The AWS Driver manage API keys and secrets for [Amazon Web Services](https://aws.amazon.com).
 
 {% image %}
-![AWS Driver](/next/assets/ytp/auths/driver-aws.webp)
+![AWS Driver](/assets/ytp/auths/driver-aws.webp)
 {% /image %}

@@ -1,7 +1,7 @@
 ---
 title: Checkbox Field Element
 description: A multi-option checkbox form control
-preset: /next/assets/ytp/presets/FormArea-Checkbox.json
+preset: /assets/ytp/presets/FormArea-Checkbox.json
 icon: '
   <path stroke-width="2" fill="none" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 -10.584083)"/>
   <path stroke-width="2" fill="none" d="M1.567 12.078h6.454v5.195H1.567z" transform="matrix(.89867 0 0 1.11653 .4461395 -1.484526)"/>
@@ -18,7 +18,7 @@ icon: '
 
 The **Checkbox Element** displays a group of [\<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) HTML elements wrapped in a `<label>`, use it to allow users choosing, by toggling boxes, a single or multiple pre-established options.
 
-![Checkbox Element](/next/assets/ytp/forms/fields/checkbox.webp)
+![Checkbox Element](/assets/ytp/forms/fields/checkbox.webp)
 
 ---
 
@@ -41,7 +41,7 @@ It inherits common settings with the following specifics:
 Options are specified as child items that can be input manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
 
 {% image %}
-![Field Options](/next/assets/ytp/forms/fields/options.webp)
+![Field Options](/assets/ytp/forms/fields/options.webp)
 {% /image %}
 
 | Setting | Description |

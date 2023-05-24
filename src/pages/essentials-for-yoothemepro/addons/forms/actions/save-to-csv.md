@@ -24,7 +24,7 @@ To use the SaveToCSV action, you must provide a pre-existing and pre-formatted C
 To use the SaveToCSV action, first load or create a Form Area and access its configuration panel. Then, add an instance of the SaveToCSV action and configure its settings.
 
 {% image %}
-![SaveToCSV Action Settings](/next/assets/ytp/forms/action-savetocsv-settings.webp)
+![SaveToCSV Action Settings](/assets/ytp/forms/action-savetocsv-settings.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -39,7 +39,7 @@ To use the SaveToCSV action, first load or create a Form Area and access its con
 Once the file is set, a list of configurable panels will appear for each column in the Columns field. By default, the columns are disabled, and no content is saved, resulting in a blank row being appended. Therefore, it is essential to enable all columns that should contain data and set a static or dynamic value in their configuration panel.
 
 {% image %}
-![SaveTo Action Mapping](/next/assets/ytp/forms/action-saveto-mapping.webp)
+![SaveTo Action Mapping](/assets/ytp/forms/action-saveto-mapping.webp)
 {% /image %}
 
 | Action/Status | Description |

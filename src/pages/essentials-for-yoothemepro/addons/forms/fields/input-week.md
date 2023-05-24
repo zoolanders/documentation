@@ -1,13 +1,13 @@
 ---
 title: Input Week Field Element
-preset: /next/assets/ytp/presets/FormArea-InputWeek.json
+preset: /assets/ytp/presets/FormArea-InputWeek.json
 ---
 
 A week form control. {% .lead %}
 
 Child of [Input Element](../input), the **Input Week Element** displays a [\<input type="week"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/week) HTML element, use it to create one-line week edit fields.
 
-![Input Week Element](/next/assets/ytp/forms/fields/input-week.webp)
+![Input Week Element](/assets/ytp/forms/fields/input-week.webp)
 
 {% callout type="warning" title="Styling Limitations" %}
 Week input relies on the browser's native implementation, the picker and icon style is inconsistent and it customization is not possible.

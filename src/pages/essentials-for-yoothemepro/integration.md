@@ -34,7 +34,7 @@ You can as well update manually by [downloading](https://www.zoolanders.com/down
 
 A ZOOlanders Download ID is an alphanumeric code created in the [ZOOlanders Download IDs section](https://zoolanders.com/account/download-ids) that is required to update the Premium version.
 
-![Download ID](/next/download-id.png)
+![Download ID](/download-id.png)
 
 Once you have created a Download ID you must set it in your site, an action that slightly differs on each platform.
 

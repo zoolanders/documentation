@@ -1,4 +1,4 @@
-Follow through the [integration section](/next/essentials-for-yoothemepro/addons/access/integration) for a detailed guide or go with these steps:
+Follow through the [integration section](/essentials-for-yoothemepro/addons/access/integration) for a detailed guide or go with these steps:
 
 1. Access the `Advanced Tab -> Access Conditions` panel of the lement which output you want to restrict.
 1. Add a **{% $rule %}** rule from the **{% $collection %}** collection.

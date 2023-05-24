@@ -20,7 +20,7 @@ The Season Access Rule evaluates whether the current season matches one of the s
 ## Settings
 
 {% image %}
-![Season Access Rule](/next/assets/ytp/access/rule-season.webp)
+![Season Access Rule](/assets/ytp/access/rule-season.webp)
 {% /image %}
 
 | Setting | Description | Required | Dynamic |

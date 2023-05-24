@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Vimeo Source feeds data from [Vimeo](https://www.vimeo.com) media. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
+The Vimeo Source feeds data from [Vimeo](https://www.vimeo.com) media. Based on the [multi-instance](/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -19,7 +19,7 @@ The Vimeo Source feeds data from [Vimeo](https://www.vimeo.com) media. Based on 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
-![Vimeo Source Configuration](/next/assets/ytp/sources/vimeo-config.webp)
+![Vimeo Source Configuration](/assets/ytp/sources/vimeo-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -32,14 +32,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Vimeo OAuth Driver](/next/essentials-for-yoothemepro/auth/drivers/vimeo-oauth).
+Authentication is based on the OAuth protocol driven by the [Vimeo OAuth Driver](/essentials-for-yoothemepro/auth/drivers/vimeo-oauth).
 
 {% image %}
-![Vimeo OAuth Driver](/next/assets/ytp/auths/driver-vimeo-oauth.webp)
+![Vimeo OAuth Driver](/assets/ytp/auths/driver-vimeo-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---
@@ -53,7 +53,7 @@ For every source instance the following content queries will be made available a
 Fetches videos from the authenticated account and resolves to a list of [Video Type](#video-type).
 
 {% image %}
-![My Vimeo Videos Query](/next/assets/ytp/sources/vimeo-query-myvideos.webp)
+![My Vimeo Videos Query](/assets/ytp/sources/vimeo-query-myvideos.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -74,7 +74,7 @@ Fetches videos from the authenticated account and resolves to a list of [Video T
 Fetches videos from the authenticated account specific folder and resolves to a list of [Video Type](#video-type).
 
 {% image %}
-![My Vimeo Folder Videos Query](/next/assets/ytp/sources/vimeo-query-myfolder-videos.webp)
+![My Vimeo Folder Videos Query](/assets/ytp/sources/vimeo-query-myfolder-videos.webp)
 {% /image %}
 
 | Setting | Default | Description | Required |
@@ -95,7 +95,7 @@ Fetches videos from the authenticated account specific folder and resolves to a 
 Fetches videos from the authenticated account specific showcase and resolves to a list of [Video Type](#video-type).
 
 {% image %}
-![My Vimeo Showcase Videos Query](/next/assets/ytp/sources/vimeo-query-myshowcase-videos.webp)
+![My Vimeo Showcase Videos Query](/assets/ytp/sources/vimeo-query-myshowcase-videos.webp)
 {% /image %}
 
 | Setting | Default | Description | Required |
@@ -120,7 +120,7 @@ The content types define the mapping options for the source content.
 The **Video Type** defines the mapping options of a Vimeo Video object.
 
 {% image %}
-![Vimeo Video Mapping](/next/assets/ytp/sources/vimeo-type-video.webp)
+![Vimeo Video Mapping](/assets/ytp/sources/vimeo-type-video.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -152,7 +152,7 @@ The **Video Type** defines the mapping options of a Vimeo Video object.
 The **User Type** defines the mapping options of a Vimeo User object.
 
 {% image %}
-![Vimeo User Mapping](/next/assets/ytp/sources/vimeo-type-user.webp)
+![Vimeo User Mapping](/assets/ytp/sources/vimeo-type-user.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

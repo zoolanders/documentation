@@ -13,4 +13,4 @@ After a source instance creation a fatal error is triggered without the possibil
 
 Delete the folder of the source instance provider that is triggering the error, then delete the orphan instance within the Source Manager.
 
-The source providers are located at `modules/sources/providers` directory relative to the [installation folder](/next/essentials-for-yoothemepro/integration#installation)
+The source providers are located at `modules/sources/providers` directory relative to the [installation folder](/essentials-for-yoothemepro/integration#installation)

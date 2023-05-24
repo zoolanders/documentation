@@ -17,7 +17,7 @@ icon: '
 Enable your users to share your website's content on their preferred social media platform, whether it be Twitter, Facebook, WhatsApp, Viber, a custom network that you have established, or even Email.
 
 {% image %}
-![Social Sharing Element](/next/assets/ytp/elements/social-sharing-element.webp)
+![Social Sharing Element](/assets/ytp/elements/social-sharing-element.webp)
 {% /image %}
 
 ---

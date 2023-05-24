@@ -1,13 +1,13 @@
 ---
 title: Input Password Field Element
-preset: /next/assets/ytp/presets/FormArea-InputPassword.json
+preset: /assets/ytp/presets/FormArea-InputPassword.json
 ---
 
 An obscured password form control. {% .lead %}
 
 Child of [Input Element](../input), the **Input Password Element** displays a [\<input type="password"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/password) HTML element, use it to create one-line text field where the user can input it password without it being visible. The text is obscured usually by replacing each character with a symbol such as an asterisk (`*`) or a dot (`•`). This character will vary depending on the user agent and operating system.
 
-![Input Password Element](/next/assets/ytp/forms/fields/input-password.webp)
+![Input Password Element](/assets/ytp/forms/fields/input-password.webp)
 
 ---
 

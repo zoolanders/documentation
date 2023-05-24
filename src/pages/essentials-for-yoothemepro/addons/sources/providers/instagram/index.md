@@ -12,7 +12,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Instagram Source feeds data from [Instagram](https://www.instagram.com/) Personal and Business accounts. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
+The Instagram Source feeds data from [Instagram](https://www.instagram.com/) Personal and Business accounts. Based on the [multi-instance](/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
 Refer to the following table for all the available sources and it queries.
 
@@ -38,7 +38,7 @@ The content types define the mapping options for the source content.
 ### Media Type
 
 {% image %}
-![Instagram Media Mapping](/next/assets/ytp/sources/ig-type-media.webp)
+![Instagram Media Mapping](/assets/ytp/sources/ig-type-media.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -63,7 +63,7 @@ The content types define the mapping options for the source content.
 ### Album Media Type
 
 {% image %}
-![Instagram Album Media Mapping](/next/assets/ytp/sources/ig-type-album-media.webp)
+![Instagram Album Media Mapping](/assets/ytp/sources/ig-type-album-media.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -81,7 +81,7 @@ The content types define the mapping options for the source content.
 ### User Type
 
 {% image %}
-![Instagram User Mapping](/next/assets/ytp/sources/ig-type-user.webp)
+![Instagram User Mapping](/assets/ytp/sources/ig-type-user.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

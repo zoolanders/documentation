@@ -13,7 +13,7 @@ icon: '
 The Vimeo OAuth Driver manage Vimeo OAuth protocol to authenticate and grant scope permissions.
 
 {% image %}
-![Vimeo OAuth Driver](/next/assets/ytp/auths/driver-vimeo-oauth.webp)
+![Vimeo OAuth Driver](/assets/ytp/auths/driver-vimeo-oauth.webp)
 {% /image %}
 
 | Setting | Description |

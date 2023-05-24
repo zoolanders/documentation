@@ -11,7 +11,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Google Business Profile Source creates sources based on Google Business Profile (a.k.a Google My Business) content. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow, it allows connecting to multiple accounts with different configurations.
+The Google Business Profile Source creates sources based on Google Business Profile (a.k.a Google My Business) content. Based on the [multi-instance](/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow, it allows connecting to multiple accounts with different configurations.
 
 Refer to the following table for all the available sources and it queries.
 
@@ -32,7 +32,7 @@ Refer to the following table for all the available sources and it queries.
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
-![Google Business Profile location Source](/next/assets/ytp/sources/gbp-location-config.webp)
+![Google Business Profile location Source](/assets/ytp/sources/gbp-location-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -47,14 +47,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/next/essentials-for-yoothemepro/auth/drivers/google-oauth).
+Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yoothemepro/auth/drivers/google-oauth).
 
 {% image %}
-![Google OAuth Driver](/next/assets/ytp/auths/driver-google-oauth.webp)
+![Google OAuth Driver](/assets/ytp/auths/driver-google-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---
@@ -68,7 +68,7 @@ For every source instance the following content queries will be made available a
 Fetches a single location from the profile resolving to a [Location Type](#location-type).
 
 {% image %}
-![Google Business Profile Location Query](/next/assets/ytp/sources/gbp-query-location.webp)
+![Google Business Profile Location Query](/assets/ytp/sources/gbp-query-location.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -85,7 +85,7 @@ Fetches a single location from the profile resolving to a [Location Type](#locat
 Fetches a single review from the profile location resolving to a [Review Type](#review-type).
 
 {% image %}
-![Google Business Profile Review Query](/next/assets/ytp/sources/gbp-query-review.webp)
+![Google Business Profile Review Query](/assets/ytp/sources/gbp-query-review.webp)
 {% /image %}
 
 | Setting | Default | Description | Required |
@@ -100,7 +100,7 @@ Fetches a single review from the profile location resolving to a [Review Type](#
 Fetches reviews from the profile location resolving to a list of [Review Type](#review-type).
 
 {% image %}
-![Google Business Profile Reviews Query](/next/assets/ytp/sources/gbp-query-reviews.webp)
+![Google Business Profile Reviews Query](/assets/ytp/sources/gbp-query-reviews.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -116,7 +116,7 @@ Fetches reviews from the profile location resolving to a list of [Review Type](#
 Fetches media from the profile location resolving to a list of [Media Type](#media-type).
 
 {% image %}
-![Google Business Profile Media Query](/next/assets/ytp/sources/gbp-query-media.webp)
+![Google Business Profile Media Query](/assets/ytp/sources/gbp-query-media.webp)
 {% /image %}
 
 | Setting | Default | Description | Required |
@@ -131,7 +131,7 @@ Fetches media from the profile location resolving to a list of [Media Type](#med
 Fetches posts from the profile location resolving to a list of [Post Type](#post-type).
 
 {% image %}
-![Google Business Profile Post Query](/next/assets/ytp/sources/gbp-query-posts.webp)
+![Google Business Profile Post Query](/assets/ytp/sources/gbp-query-posts.webp)
 {% /image %}
 
 | Setting | Default | Description | Required |
@@ -150,7 +150,7 @@ The content types define the mapping options for the source content.
 The **Location Type** defines the mapping options of a Google Business Profile Location object.
 
 {% image %}
-![Google Business Profile Location Mapping](/next/assets/ytp/sources/gbp-type-location.webp)
+![Google Business Profile Location Mapping](/assets/ytp/sources/gbp-type-location.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -182,7 +182,7 @@ The **Location Type** defines the mapping options of a Google Business Profile L
 The **Review Type** defines the mapping options of a Google Business Profile Location Review object.
 
 {% image %}
-![Google Business Profile Location Review Mapping](/next/assets/ytp/sources/gbp-type-review.webp)
+![Google Business Profile Location Review Mapping](/assets/ytp/sources/gbp-type-review.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -204,7 +204,7 @@ The **Review Type** defines the mapping options of a Google Business Profile Loc
 The **Review Reply Type** defines the mapping options of a Google Business Profile Review Reply object.
 
 {% image %}
-![Google Business Profile Review Reply Mapping](/next/assets/ytp/sources/gbp-type-review-reply.webp)
+![Google Business Profile Review Reply Mapping](/assets/ytp/sources/gbp-type-review-reply.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -219,7 +219,7 @@ The **Review Reply Type** defines the mapping options of a Google Business Profi
 The **Reviewer Type** defines the mapping options of a Google Business Profile Reviewer object.
 
 {% image %}
-![Google Business Profile Reviewer Mapping](/next/assets/ytp/sources/gbp-type-reviewer.webp)
+![Google Business Profile Reviewer Mapping](/assets/ytp/sources/gbp-type-reviewer.webp)
 {% /image %}
 
 | Option | Description | Type |
@@ -235,7 +235,7 @@ The **Reviewer Type** defines the mapping options of a Google Business Profile R
 The **Post Type** defines the mapping options of a Google Business Profile Post object.
 
 {% image %}
-![Google Business Profile Post Mapping](/next/assets/ytp/sources/gbp-type-post.webp)
+![Google Business Profile Post Mapping](/assets/ytp/sources/gbp-type-post.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -260,7 +260,7 @@ The **Post Type** defines the mapping options of a Google Business Profile Post 
 The **Media Type** defines the mapping options of a Google Business Profile Media object.
 
 {% image %}
-![Google Business Profile Media Mapping](/next/assets/ytp/sources/gbp-type-media.webp)
+![Google Business Profile Media Mapping](/assets/ytp/sources/gbp-type-media.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -290,7 +290,7 @@ The **Media Type** defines the mapping options of a Google Business Profile Medi
 The **Period Type** defines the mapping options of a Google Business Profile time period object.
 
 {% image %}
-![Google Business Profile Time Period Mapping](/next/assets/ytp/sources/gbp-type-period.webp)
+![Google Business Profile Time Period Mapping](/assets/ytp/sources/gbp-type-period.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -308,7 +308,7 @@ The **Period Type** defines the mapping options of a Google Business Profile tim
 The **Postal Address Type** defines the mapping options of a Google Business Profile Postal Address object.
 
 {% image %}
-![Google Business Profile Postal Address Mapping](/next/assets/ytp/sources/gbp-type-postal-address.webp)
+![Google Business Profile Postal Address Mapping](/assets/ytp/sources/gbp-type-postal-address.webp)
 {% /image %}
 
 | Option | Description | Type |

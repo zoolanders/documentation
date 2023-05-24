@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The TikTok Source feeds data from [TikTok](https://www.vimeo.com) media. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
+The TikTok Source feeds data from [TikTok](https://www.vimeo.com) media. Based on the [multi-instance](/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -19,7 +19,7 @@ The TikTok Source feeds data from [TikTok](https://www.vimeo.com) media. Based o
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
-![TikTok Source Configuration](/next/assets/ytp/sources/tiktok-config.webp)
+![TikTok Source Configuration](/assets/ytp/sources/tiktok-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -32,14 +32,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [TikTok OAuth Driver](/next/essentials-for-yoothemepro/auth/drivers/tiktok-oauth).
+Authentication is based on the OAuth protocol driven by the [TikTok OAuth Driver](/essentials-for-yoothemepro/auth/drivers/tiktok-oauth).
 
 {% image %}
-![TikTok OAuth Driver](/next/assets/ytp/auths/driver-tiktok-oauth.webp)
+![TikTok OAuth Driver](/assets/ytp/auths/driver-tiktok-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---
@@ -53,7 +53,7 @@ For every source instance the following content queries will be made available a
 Fetches videos from the authenticated account and resolves to a list of [Video Type](#video-type).
 
 {% image %}
-![TikTok Videos Query](/next/assets/ytp/sources/tiktok-query-videos.webp)
+![TikTok Videos Query](/assets/ytp/sources/tiktok-query-videos.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -74,7 +74,7 @@ The content types define the mapping options for the source content.
 The **Video Type** defines the mapping options of a TikTok Video object.
 
 {% image %}
-![TikTok Video Mapping](/next/assets/ytp/sources/tiktok-type-video.webp)
+![TikTok Video Mapping](/assets/ytp/sources/tiktok-type-video.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

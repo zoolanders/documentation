@@ -1,7 +1,7 @@
 ---
 title: Radio Field Element
 description: A single-option radio form control
-preset: /next/assets/ytp/presets/FormArea-Radio.json
+preset: /assets/ytp/presets/FormArea-Radio.json
 icon: '
   <path fill="none" stroke-width="2" d="M27.371 7.148c0 1.906-1.588 3.489-3.646 3.489-1.906 0-3.648-1.583-3.648-3.489 0-1.901 1.588-3.647 3.648-3.647 1.902 0 3.646 1.589 3.646 3.647z" transform="matrix(.86372 0 0 .88357 -15.5612161 17.802899)"/>
   <path fill="none" stroke-width="2" d="M27.371 7.148c0 1.906-1.588 3.489-3.646 3.489-1.906 0-3.648-1.583-3.648-3.489 0-1.901 1.588-3.647 3.648-3.647 1.902 0 3.646 1.589 3.646 3.647z" transform="matrix(.86372 0 0 .88357 -15.56121615 8.764207)"/>
@@ -18,7 +18,7 @@ icon: '
 
 The **Radio Element** displays a group of [\<input type="radio"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio) HTML elements wrapped in a `<label>`, use it to allow users choosing a single option from a pre-established group.
 
-![Radio Element](/next/assets/ytp/forms/fields/radio.webp)
+![Radio Element](/assets/ytp/forms/fields/radio.webp)
 
 ---
 
@@ -41,7 +41,7 @@ It inherits common settings with the following specifics:
 Options are specified as child items that can be input manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
 
 {% image %}
-![Field Options](/next/assets/ytp/forms/fields/options.webp)
+![Field Options](/assets/ytp/forms/fields/options.webp)
 {% /image %}
 
 | Setting | Description |

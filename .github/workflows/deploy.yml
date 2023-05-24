@@ -46,6 +46,6 @@ jobs:
           script: |
             cd /home/${{ secrets.SSH_USER }}/www/docs.zoolanders.com/tmp
             unzip -o -d ./ docs.zip
-            rm -rf ../public_html/next
-            mv dist ../public_html/next
+            rm -rf ../public_html
+            mv dist ../public_html
 

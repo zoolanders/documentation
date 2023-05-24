@@ -13,5 +13,5 @@ icon: '
 The Cloudflare API Token Driver manage Cloudflare API tokens obtained through the [Cloudflare Profile Dashboard](https://dash.cloudflare.com/profile/api-tokens).
 
 {% image %}
-![Cloudflare API Token Driver](/next/assets/ytp/auths/driver-cloudflare-api-token.webp)
+![Cloudflare API Token Driver](/assets/ytp/auths/driver-cloudflare-api-token.webp)
 {% /image %}

@@ -10,7 +10,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The Facebook Source feeds data from [Facebook](https://www.facebook.com/) Pages. Based on the [multi-instance](/next/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
+The Facebook Source feeds data from [Facebook](https://www.facebook.com/) Pages. Based on the [multi-instance](/essentials-for-yoothemepro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
 ---
 
@@ -19,7 +19,7 @@ The Facebook Source feeds data from [Facebook](https://www.facebook.com/) Pages.
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
 {% image %}
-![Facebook Source Configuration](/next/assets/ytp/sources/fb-config.webp)
+![Facebook Source Configuration](/assets/ytp/sources/fb-config.webp)
 {% /image %}
 
 | Setting | Description | Required |
@@ -33,14 +33,14 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/next/essentials-for-yoothemepro/auth/drivers/facebook-oauth).
+Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/essentials-for-yoothemepro/auth/drivers/facebook-oauth).
 
 {% image %}
-![Facebook OAuth Driver](/next/assets/ytp/auths/driver-facebook-oauth.webp)
+![Facebook OAuth Driver](/assets/ytp/auths/driver-facebook-oauth.webp)
 {% /image %}
 
 {% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/next/essentials-for-yoothemepro/oauth-keys-secrets#security).
+Learn more about Essentials [OAuth security protocols](/essentials-for-yoothemepro/oauth-keys-secrets#security).
 {% /callout %}
 
 ---
@@ -54,7 +54,7 @@ For every source instance the following content queries will be made available a
 Fetches the content from the page resolving to a list of [Page Type](#page-type).
 
 {% image %}
-![Facebook Page Query](/next/assets/ytp/sources/fb-query-page.webp)
+![Facebook Page Query](/assets/ytp/sources/fb-query-page.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -68,7 +68,7 @@ Fetches the content from the page resolving to a list of [Page Type](#page-type)
 Fetches the posts from the page resolving to a list of [Page Post Type](#page-post-type).
 
 {% image %}
-![Facebook Page Posts Query](/next/assets/ytp/sources/fb-query-page-posts.webp)
+![Facebook Page Posts Query](/assets/ytp/sources/fb-query-page-posts.webp)
 {% /image %}
 
 | Setting | Default | Description |
@@ -87,7 +87,7 @@ The content types define the mapping options for the source content.
 Defines the mapping options of a Facebook Page object.
 
 {% image %}
-![Facebook Page Mapping](/next/assets/ytp/sources/fb-type-page.webp)
+![Facebook Page Mapping](/assets/ytp/sources/fb-type-page.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |
@@ -121,7 +121,7 @@ Defines the mapping options of a Facebook Page object.
 Defines the mapping options of a Facebook Page Post object.
 
 {% image %}
-![Facebook Page Post Mapping](/next/assets/ytp/sources/fb-type-post.webp)
+![Facebook Page Post Mapping](/assets/ytp/sources/fb-type-post.webp)
 {% /image %}
 
 | Option | Description | Type | Filters |

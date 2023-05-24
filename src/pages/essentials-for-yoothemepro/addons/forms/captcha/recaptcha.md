@@ -15,7 +15,7 @@ icon: '
 The reCAPTCHA element integrates [Google reCAPTCHA](https://developers.google.com/recaptcha) service that helps protect websites from spam and abuse.
 
 {% image width="sm" %}
-![reCAPTCHA Element](/next/assets/ytp/forms/captcha/recaptcha.webp)
+![reCAPTCHA Element](/assets/ytp/forms/captcha/recaptcha.webp)
 {% /image %}
 
 ---
@@ -39,7 +39,7 @@ reCAPTCHA v2 verifies if an interaction is legitimate with a captcha challenge p
 Requires the user to click a checkbox indicating is not a robot.
 
 {% image className="max-w-xs" %}
-![reCAPTCHA v2 Checkbox](/next/assets/ytp/forms/captcha/recaptcha-checkbox.gif)
+![reCAPTCHA v2 Checkbox](/assets/ytp/forms/captcha/recaptcha-checkbox.gif)
 {% /image %}
 
 | Setting | Description | Dynamic |
@@ -53,7 +53,7 @@ Requires the user to click a checkbox indicating is not a robot.
 A captcha might be invoked when the form is submitted, but the badge is always visible.
 
 {% image className="max-w-xs" %}
-![reCAPTCHA v2 Invisible](/next/assets/ytp/forms/captcha/recaptcha-invisible.png)
+![reCAPTCHA v2 Invisible](/assets/ytp/forms/captcha/recaptcha-invisible.png)
 {% /image %}
 
 | Setting | Description |

@@ -29,7 +29,7 @@ Notice that this action must be executed before any other action relying on the 
 ## Settings
 
 {% image %}
-![Validate Action Settings](/next/assets/ytp/forms/action-data-settings.webp)
+![Validate Action Settings](/assets/ytp/forms/action-data-settings.webp)
 {% /image %}
 
 | Setting | Description | Placeholder | Dynamic | Required |

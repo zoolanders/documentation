@@ -20,7 +20,7 @@ The Date Access Rule evaluates whether the current date matches the specified da
 ## Settings
 
 {% image %}
-![Date Access Rule](/next/assets/ytp/access/rule-date.webp)
+![Date Access Rule](/assets/ytp/access/rule-date.webp)
 {% /image %}
 
 | Setting | Description | Required | Dynamic |
