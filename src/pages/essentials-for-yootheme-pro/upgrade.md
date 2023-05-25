@@ -2,7 +2,7 @@
 title: Upgrade
 ---
 
-Upgrading to Essentials 2.0 should be plan carefully as it's a major version release only compatible with YOOtheme Pro 4.0, which is itself a new major release. Follow these steps in the given order.
+Upgrading to Essentials 2.0 should be planned carefully as it's a major version release only compatible with YOOtheme Pro 4.0, which is itself a new major release. Follow these steps in the given order.
 
 1. Make a full, restorable backup of the site.
 
