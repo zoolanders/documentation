@@ -1,5 +1,5 @@
 ---
-title: Upgrade From Essentials 1.x
+title: Upgrade
 ---
 
 Upgrading to Essentials 2.0 should be plan carefully as it's a major version release only compatible with YOOtheme Pro 4.0, which is itself a new major release. Follow these steps in the given order.
