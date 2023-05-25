@@ -12,10 +12,6 @@
                     "title": "Installation",
                     "href": "./integration"
                 },
-              {
-                "title": "Upgrade from 1.x to 2.0",
-                "href": "./upgrade-2-0"
-              },
                 {
                     "title": "Changelog",
                     "href": "./changelog"
@@ -143,6 +139,15 @@
                             "href": "./storage/adapters/s3"
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "title": "Advanced",
+            "links": [
+                {
+                    "title": "Upgrade From 1.x",
+                    "href": "./upgrade-1-0"
                 }
             ]
         }
