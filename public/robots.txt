@@ -1,3 +1,6 @@
-# Block all crawlers
 User-agent: *
-Disallow: /
+Disallow: /_next
+Disallow: /404
+Disallow: /assets
+Disallow: /fonts
+Disallow: /yoothemepro
