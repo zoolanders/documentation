@@ -24,101 +24,96 @@
             ]
         },
         {
-            "title": "Reference",
+            "title": "Rules",
+            "href": "./rules",
             "links": [
                 {
-                    "title": "Rules",
-                    "href": "./rules",
+                    "title": "Dynamic Rule",
+                    "href": "./rules/dynamic"
+                },
+                {
+                    "title": "Site Rules",
+                    "href": "./rules/site",
                     "links": [
                         {
-                            "title": "Dynamic Rule",
-                            "href": "./rules/dynamic"
+                            "title": "Language",
+                            "href": "./rules/site/language"
                         },
                         {
-                            "title": "Site Rules",
-                            "href": "./rules/site",
-                            "links": [
-                                {
-                                    "title": "Language",
-                                    "href": "./rules/site/language"
-                                },
-                                {
-                                    "title": "URL",
-                                    "href": "./rules/site/url"
-                                },
-                                {
-                                    "title": "User",
-                                    "href": "./rules/site/user"
-                                },
-                                {
-                                    "title": "User Group",
-                                    "href": "./rules/site/user-group"
-                                },
-                                {
-                                    "title": "User Level",
-                                    "href": "./rules/site/user-level"
-                                }
-                            ]
+                            "title": "URL",
+                            "href": "./rules/site/url"
                         },
                         {
-                            "title": "Device Rules",
-                            "href": "./rules/device",
-                            "links": [
-                                {
-                                    "title": "Browser",
-                                    "href": "./rules/device/browser"
-                                },
-                                {
-                                    "title": "Device",
-                                    "href": "./rules/device/device"
-                                },
-                                {
-                                    "title": "IP Address",
-                                    "href": "./rules/device/ip-address"
-                                },
-                                {
-                                    "title": "IP Geolocation",
-                                    "href": "./rules/device/ip-geolocation"
-                                },
-                                {
-                                    "title": "Operating System",
-                                    "href": "./rules/device/operating-system"
-                                }
-                            ]
+                            "title": "User",
+                            "href": "./rules/site/user"
                         },
                         {
-                            "title": "DateTime Rules",
-                            "href": "./rules/datetime",
-                            "links": [
-                                {
-                                    "title": "Time",
-                                    "href": "./rules/datetime/time"
-                                },
-                                {
-                                    "title": "Date",
-                                    "href": "./rules/datetime/date"
-                                },
-                                {
-                                    "title": "Datetime",
-                                    "href": "./rules/datetime/datetime"
-                                },
-                                {
-                                    "title": "Day",
-                                    "href": "./rules/datetime/day"
-                                },
-                                {
-                                    "title": "Week",
-                                    "href": "./rules/datetime/week"
-                                },
-                                {
-                                    "title": "Month",
-                                    "href": "./rules/datetime/month"
-                                },
-                                {
-                                    "title": "Season",
-                                    "href": "./rules/datetime/season"
-                                }
-                            ]
+                            "title": "User Group",
+                            "href": "./rules/site/user-group"
+                        },
+                        {
+                            "title": "User Level",
+                            "href": "./rules/site/user-level"
+                        }
+                    ]
+                },
+                {
+                    "title": "Device Rules",
+                    "href": "./rules/device",
+                    "links": [
+                        {
+                            "title": "Browser",
+                            "href": "./rules/device/browser"
+                        },
+                        {
+                            "title": "Device",
+                            "href": "./rules/device/device"
+                        },
+                        {
+                            "title": "IP Address",
+                            "href": "./rules/device/ip-address"
+                        },
+                        {
+                            "title": "IP Geolocation",
+                            "href": "./rules/device/ip-geolocation"
+                        },
+                        {
+                            "title": "Operating System",
+                            "href": "./rules/device/operating-system"
+                        }
+                    ]
+                },
+                {
+                    "title": "DateTime Rules",
+                    "href": "./rules/datetime",
+                    "links": [
+                        {
+                            "title": "Time",
+                            "href": "./rules/datetime/time"
+                        },
+                        {
+                            "title": "Date",
+                            "href": "./rules/datetime/date"
+                        },
+                        {
+                            "title": "Datetime",
+                            "href": "./rules/datetime/datetime"
+                        },
+                        {
+                            "title": "Day",
+                            "href": "./rules/datetime/day"
+                        },
+                        {
+                            "title": "Week",
+                            "href": "./rules/datetime/week"
+                        },
+                        {
+                            "title": "Month",
+                            "href": "./rules/datetime/month"
+                        },
+                        {
+                            "title": "Season",
+                            "href": "./rules/datetime/season"
                         }
                     ]
                 }

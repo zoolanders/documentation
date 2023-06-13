@@ -20,7 +20,7 @@ export async function getStaticProps() {
     'preset'
   ])
 
-  const index = get(navigation, 'sections.2.links.2.links')
+  const index = get(navigation, 'sections.3.links.0.links')
     .map(link => posts.find(p => link.href === p.slug))
     .filter(Boolean)
 

@@ -1,5 +1,5 @@
 ---
-title: Friendly Captcha
+title: Friendly Captcha Element
 description: A friendly captcha solution
 icon: '
   <path fill="none" stroke-width="2" stroke-linejoin="round" d="M7.128 24.941c5.446 5.446 14.41 5.446 19.856 0l-2.978-2.977c-3.813 3.811-10.086 3.811-13.899 0L7.128 24.94Z"/>

@@ -28,86 +28,89 @@
             ]
         },
         {
-            "title": "Reference",
+            "title": "Source Providers",
             "links": [
                 {
-                    "title": "Sources",
-                    "href": "./providers",
+                    "title": "Overview",
+                    "href": "./providers"
+                },
+                {
+                    "title": "CSV",
+                    "href": "./providers/csv"
+                },
+                {
+                    "title": "RSS",
+                    "href": "./providers/rss"
+                },
+                {
+                    "title": "Database",
+                    "href": "./providers/database"
+                },
+                {
+                    "title": "Google Sheet",
+                    "href": "./providers/google-sheet"
+                },
+                {
+                    "title": "Instagram",
+                    "href": "./providers/instagram",
                     "links": [
                         {
-                            "title": "CSV",
-                            "href": "./providers/csv"
+                            "title": "Personal",
+                            "href": "./providers/instagram/personal"
                         },
                         {
-                            "title": "RSS",
-                            "href": "./providers/rss"
-                        },
-                        {
-                            "title": "Database",
-                            "href": "./providers/database"
-                        },
-                        {
-                            "title": "Google Sheet",
-                            "href": "./providers/google-sheet"
-                        },
-                        {
-                            "title": "Instagram",
-                            "href": "./providers/instagram",
-                            "links": [
-                                {
-                                    "title": "Personal",
-                                    "href": "./providers/instagram/personal"
-                                },
-                                {
-                                    "title": "Business",
-                                    "href": "./providers/instagram/business"
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Facebook",
-                            "href": "./providers/facebook"
-                        },
-                        {
-                            "title": "Twitter",
-                            "href": "./providers/twitter"
-                        },
-                        {
-                            "title": "YouTube",
-                            "href": "./providers/youtube",
-                            "links": [
-                                {
-                                    "title": "Videos",
-                                    "href": "./providers/youtube/videos"
-                                },
-                                {
-                                    "title": "My Channel",
-                                    "href": "./providers/youtube/mychannel"
-                                },
-                                {
-                                    "title": "My Playlist",
-                                    "href": "./providers/youtube/myplaylist"
-                                }
-                            ]
-                        },
-                        {
-                            "title": "Vimeo",
-                            "href": "./providers/vimeo"
-                        },
-                        {
-                            "title": "TikTok",
-                            "href": "./providers/tiktok"
-                        },
-                        {
-                            "title": "CloudFlare Stream",
-                            "href": "./providers/cloudflare-stream"
-                        },
-                        {
-                            "title": "Google Business Profile",
-                            "href": "./providers/google-business-profile"
+                            "title": "Business",
+                            "href": "./providers/instagram/business"
                         }
                     ]
                 },
+                {
+                    "title": "Facebook",
+                    "href": "./providers/facebook"
+                },
+                {
+                    "title": "Twitter",
+                    "href": "./providers/twitter"
+                },
+                {
+                    "title": "YouTube",
+                    "href": "./providers/youtube",
+                    "links": [
+                        {
+                            "title": "Videos",
+                            "href": "./providers/youtube/videos"
+                        },
+                        {
+                            "title": "My Channel",
+                            "href": "./providers/youtube/mychannel"
+                        },
+                        {
+                            "title": "My Playlist",
+                            "href": "./providers/youtube/myplaylist"
+                        }
+                    ]
+                },
+                {
+                    "title": "Vimeo",
+                    "href": "./providers/vimeo"
+                },
+                {
+                    "title": "TikTok",
+                    "href": "./providers/tiktok"
+                },
+                {
+                    "title": "CloudFlare Stream",
+                    "href": "./providers/cloudflare-stream"
+                },
+                {
+                    "title": "Google Business Profile",
+                    "href": "./providers/google-business-profile"
+                }
+            ]
+        },
+        {
+            "title": "Reference",
+            "links": [
                 {
                     "title": "Query Conditions",
                     "href": "./query-conditions"

@@ -36,56 +36,55 @@
             ]
         },
         {
-            "title": "Reference",
+            "title": "Actions",
             "links": [
                 {
-                    "title": "Settings",
-                    "href": "./settings"
+                    "title": "Overview",
+                    "href": "./actions"
                 },
                 {
-                    "title": "Actions",
-                    "href": "./actions",
-                    "links": [
-                        {
-                            "title": "Data",
-                            "href": "./actions/data"
-                        },
-                        {
-                            "title": "Validate",
-                            "href": "./actions/validate"
-                        },
-                        {
-                            "title": "Email",
-                            "href": "./actions/email"
-                        },
-                        {
-                            "title": "Redirect",
-                            "href": "./actions/redirect"
-                        },
-                        {
-                            "title": "Message",
-                            "href": "./actions/message"
-                        },
-                        {
-                            "title": "Download",
-                            "href": "./actions/download"
-                        },
-                        {
-                            "title": "SaveTo CSV",
-                            "href": "./actions/save-to-csv"
-                        },
-                        {
-                            "title": "SaveTo Database",
-                            "href": "./actions/save-to-database"
-                        },
-                        {
-                            "title": "SaveTo Google Sheet",
-                            "href": "./actions/save-to-google-sheet"
-                        }
-                    ]
+                    "title": "Data",
+                    "href": "./actions/data"
                 },
                 {
-                    "title": "Fields",
+                    "title": "Email",
+                    "href": "./actions/email"
+                },
+                {
+                    "title": "Redirect",
+                    "href": "./actions/redirect"
+                },
+                {
+                    "title": "Validate",
+                    "href": "./actions/validate"
+                },
+                {
+                    "title": "Message",
+                    "href": "./actions/message"
+                },
+                {
+                    "title": "Download",
+                    "href": "./actions/download"
+                },
+                {
+                    "title": "SaveTo CSV",
+                    "href": "./actions/save-to-csv"
+                },
+                {
+                    "title": "SaveTo Database",
+                    "href": "./actions/save-to-database"
+                },
+                {
+                    "title": "SaveTo Google Sheet",
+                    "href": "./actions/save-to-google-sheet"
+                }
+            ]
+        },
+        {
+            "title": "Fields",
+            "links": [
+                {
+                    "title": "Form",
                     "href": "./fields",
                     "links": [
                         {
@@ -199,16 +198,25 @@
                             "href": "./captcha/friendly-captcha"
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "title": "Reference",
+            "links": [
                 {
-                    "title": "Form Events",
-                    "href": "./form-events"
+                    "title": "Settings",
+                    "href": "./settings"
                 }
             ]
         },
         {
             "title": "Advanced",
             "links": [
+                {
+                    "title": "Form Events",
+                    "href": "./form-events"
+                },
                 {
                     "title": "Troubleshooting",
                     "href": "./troubleshooting"
