@@ -52,9 +52,9 @@ Now we need to add fields to our form. Let's include a Comment field and a Submi
 ![Add Form Fields](/assets/ytp/forms/integration/add-form-fields.gif)
 {% /image %}
 
-1. Go back to the builder main panel and add an Element of a type Textarea.
+1. Go back to the builder main panel and add an element of a type Textarea from the `Form Essentials` group.
 1. Open it configuration panel and input `comment` in the `Control Name` setting.
-1. Add another Element of the type Form Button and try to submit.
+1. Add a Submission button by adding a Form Button element from the same group.
 
 ---
 
