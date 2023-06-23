@@ -1,7 +1,6 @@
 import clsx from 'clsx'
 import Link from 'next/link'
 import { useScroller } from '@/state'
-
 import { Logo } from '@/components/Logo'
 import { Search } from '@/components/Search'
 import { HeaderTabs } from '@/components/HeaderTabs'

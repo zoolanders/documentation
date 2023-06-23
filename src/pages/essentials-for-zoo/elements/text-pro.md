@@ -2,17 +2,17 @@
 
 TextPro extends with new features the ZOO Text element. Once the element is set in the Type there are several configuration params that differ from the ZOO ones.
 
-{% callout %}
-In order to better understand the following read the [Integration Section](./integration.md).
-{% /callout %}
+---
 
 ## Config
 
-- `Additional Options`: Toggles the additional edit layout fields.
-- `Allowed Input`: Allows limiting the input allowed characters.
-- `Input Exceptions`: Used in combination with **Allowed Input** to set exceptions.
-- `Default`: Default field value when new Item is created.
-- `Maximum Characters`: The maximum amount of characters allowed inputting.
+- **Additional Options**: Toggles the additional edit layout fields.
+- **Allowed Input**: Allows limiting the input allowed characters.
+- **Input Exceptions**: Used in combination with **Allowed Input** to set exceptions.
+- **Default**: Default field value when new Item is created.
+- **Maximum Characters**: The maximum amount of characters allowed inputting.
+
+---
 
 ## Layouts
 
@@ -20,9 +20,9 @@ In order to better understand the following read the [Integration Section](./int
 
 Renders the text content.
 
-- `Prefix`: The text to be prefixed to the text.
-- `Suffix`: The text to be suffixed to the text.
-- `Maximum Characters`: The maximum amount of characters allowed to be rendered.
+- **Prefix**: The text to be prefixed to the text.
+- **Suffix**: The text to be suffixed to the text.
+- **Maximum Characters**: The maximum amount of characters allowed to be rendered.
 
 ### Widgetkit
 

@@ -31,15 +31,13 @@ export function Callout({ type = 'note', title, children }) {
         >
             <IconComponent className="h-8 w-8 flex-none" />
             <div className="ml-4 flex-auto">
-                <p
-                    className={clsx(
-                        'm-0 font-display text-xl',
-                        styles[type].title
-                    )}
-                >
+                {title && (<p className={clsx(
+                    'm-0 font-display text-xl mb-2.5',
+                    styles[type].title
+                )}>
                     {title}
-                </p>
-                <div className={clsx('prose mt-2.5', styles[type].body)}>
+                </p>)}
+                <div className={clsx('prose', styles[type].body)}>
                     {children}
                 </div>
             </div>

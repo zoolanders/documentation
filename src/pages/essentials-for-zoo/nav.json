@@ -34,6 +34,15 @@
                     "href": "./core/seo"
                 }
             ]
+        },
+        {
+            "title": "Misc",
+            "links": [
+                {
+                    "title": "Widgetkit",
+                    "href": "./widgetkit"
+                }
+            ]
         }
     ]
 }

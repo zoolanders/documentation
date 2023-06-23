@@ -1,16 +1,12 @@
 {
-    "title": "ZOO Filter",
+    "title": "ZOO Lingual",
     "sections": [
         {
             "title": "Getting Started",
             "links": [
                 {
-                    "title": "Introduction",
+                    "title": "Integration",
                     "href": "./"
-                },
-                {
-                    "title": "Module",
-                    "href": "./module"
                 },
                 {
                     "title": "F.A.Q.",

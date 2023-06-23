@@ -11,6 +11,10 @@
                 {
                     "title": "Conditional Rendering",
                     "href": "./conditional-rendering"
+                },
+                {
+                    "title": "Customizations",
+                    "href": "./customizations"
                 }
             ]
         },

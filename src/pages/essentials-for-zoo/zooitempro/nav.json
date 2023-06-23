@@ -1,0 +1,26 @@
+{
+    "title": "ZOOitem Pro",
+    "sections": [
+        {
+            "title": "Getting Started",
+            "links": [
+                {
+                    "title": "Getting Started",
+                    "href": "./"
+                },
+                {
+                    "title": "Layouts",
+                    "href": "./layouts"
+                },
+                {
+                    "title": "Settings",
+                    "href": "./settings"
+                },
+                {
+                    "title": "Customizations",
+                    "href": "./customizations"
+                }
+            ]
+        }
+    ]
+}
