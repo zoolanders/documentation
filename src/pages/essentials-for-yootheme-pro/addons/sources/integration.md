@@ -6,9 +6,13 @@ Follow through to learn how to create a Multi-Instance source. Even if you are a
 
 Ensure Essentials has been installed correctly by following the [installation guide](/essentials-for-yootheme-pro/integration#installation). From there, open the `Customizer -> Essentials -> Advanced` section and enable the **Sources Addon**, then save the changes and refresh the page.
 
-{% image caption="If the addon is not listed double check Essentials Premium has been installed."%}
+{% image %}
 ![Enable Sources Addon](/assets/ytp/sources/integration/enable-addon.gif)
 {% /image %}
+
+{% callout type="warning" %}
+If the addon is not listed in the Essentials Section [upgrade to the Premium version](/essentials-for-yootheme-pro/integration#upgrade-to-premium) as the Freemium one doesn't include this addon.
+{% /callout %}
 
 ---
 

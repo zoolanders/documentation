@@ -6,17 +6,17 @@ const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md'],
   images: {
-    unoptimized: true
-  }
-  // async redirects() {
-  //   return [
-  //     {
-  //       source: '/',
-  //       destination: '/essentials-for-yootheme-pro',
-  //       permanent: false,
-  //     }
-  //   ]
-  // }
+    unoptimized: true,
+  },
+  async redirects() {
+    return [
+      {
+        source: '/essentials-for-yootheme-pro/upgrade',
+        destination: '/essentials-for-yootheme-pro/integration#upgrade-to-v2',
+        permanent: true,
+      },
+    ]
+  },
   // ,async rewrites() {
   //   return [
   //     {

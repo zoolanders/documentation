@@ -9,12 +9,8 @@
                     "href": "./"
                 },
                 {
-                    "title": "Installation",
+                    "title": "Integration",
                     "href": "./integration"
-                },
-                {
-                    "title": "Upgrade",
-                    "href": "./upgrade"
                 },
                 {
                     "title": "Changelog",

@@ -20,13 +20,39 @@ The plugin will be installed under the `plugins/system/yooessentials` for Joomla
 
 ---
 
-## Automatic Updates
+## Updates
+
+### Automatic Updates
 
 New available versions will be notified in the **Joomla Extensions Update** or **WordPress Plugins** control panels. Within it, you can easily update with a one-click action considering that for the Premium version, you will have to set a [ZOOlanders Download ID](#download-id) first.
 
-{% callout title="Manuall Update" %}
+### Manual Updates
+
 You can as well update manually by [downloading](https://www.zoolanders.com/downloads) the latest version and installing over. A previous installation will be detected and an update made instead.
-{% /callout %}
+
+---
+
+## Upgrade to v2
+
+Upgrading Essentials v1.x to v2.x should be planned carefully as it's a major version release only compatible with YOOtheme Pro 4.0, which is itself a new major release. Follow these steps in the given order.
+
+1. Make a full, restorable backup of the site.
+
+1. In the Joomla backend head over to `System > Extensions > Plugins` and **disable** the *Essentials* plugin. In WordPress head over to `Plugins` and **deactivate** *the Essentials* plugin.
+
+1. Upgrade YOOtheme Pro to version 4.x.
+
+1. Upgrade Essentials to version 2.x.
+
+1. In the Joomla backend head over to `System > Extensions > Plugins` and **enable** the *Essentials* plugin. In WordPress head over to `Plugins` and **activate** *the Essentials* plugin.
+
+Thoroughly clear all caches, and test. If anything goes wrong, restore the backup.
+
+---
+
+## Upgrade to Premium
+
+The upgrade from Essentials Freemium to Premium version is as simple as [installing](#installation) the premium package without uninstalling the freemium one. The upgrade process must be done manually, after that [automatic-updates](#automatic-updates) can take over.
 
 ---
 
