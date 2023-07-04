@@ -2,14 +2,12 @@
 title: My Icons
 ---
 
-Set a custom curated collection of project-related icons. {% .lead %}
+Custom curated icons under a Child Theme scope. {% .lead %}
 
-My Icons is a collection of custom curated icons by you for the project at hand. You can place icons in any `{childtheme}/myicons` folder, ahd those become natively integrated into the icon library and available for selection in the `My Icons Tab` of the builder Icon Picker.
+My Icons is a collection of custom curated icons set under the scope of a Child Theme. By placing the icons in the `{childtheme}/myicons` folder the icons of the currently active Child Theme seamlessly integrate into the icon library under the My Icons tab.
+
+You can as well group them into subfolders, e.g. `{childtheme}/myicons/group-a`, `{childtheme}/myicons/group-b`.
 
 {% image %}
 ![My Icons](/assets/ytp/icons/my-icons.webp)
 {% /image %}
-
-{% callout %}
-You can group icons into subfolders as well, e.g. `{childtheme}/myicons/group-a`, `{childtheme}/myicons/group-b`.
-{% /callout %}

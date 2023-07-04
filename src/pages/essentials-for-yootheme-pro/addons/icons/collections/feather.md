@@ -22,19 +22,3 @@ A collection of {% code %}{% $markdoc.frontmatter.icons %}{% /code %} icons from
 {% image %}
 ![Feather Icon Collection](/assets/ytp/icons/collection-feather.webp)
 {% /image %}
-
----
-
-## Integration
-
-Follow through to install the {% $markdoc.frontmatter.name %} collection as part of the Essentials Icons workflow.
-
-
-1. Open the Icon Collections Manager
-1. Add a new collection
-
-Or go manually
-
-{% quick-links %}
-    {% quick-link title="Download" href=$markdoc.frontmatter.package description="foo" download="true" /%}
-{% /quick-links %}
