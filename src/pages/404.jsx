@@ -8,7 +8,7 @@ export default function Custom404() {
   // redirects
   React.useEffect(() => {
     if (router.asPath.match(/\/essentials-for-yootheme-pro\/upgrade/)) {
-      router.push('/essentials-for-yootheme-pro/integration')
+      router.push('/essentials-for-yootheme-pro/integration/#upgrade-to-v2')
     }
   }, [router]);
 
