@@ -14,13 +14,13 @@ export default function Home() {
 
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="essentials-for-zoo"
+                href="/essentials-for-zoo"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-slate-900 shadow-sm"
               >
                 Essentials for ZOO
               </a>
               <a
-                href="essentials-for-yootheme-pro"
+                href="/essentials-for-yootheme-pro"
                 className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-slate-900 shadow-sm"
               >
                 Essentials for YTP

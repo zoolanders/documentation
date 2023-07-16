@@ -1,6 +1,17 @@
 import Link from 'next/link'
+import React from 'react'
+import { useRouter } from 'next/router'
 
 export default function Custom404() {
+  const router = useRouter();
+
+  // redirects
+  React.useEffect(() => {
+    if (router.asPath.match(/\/essentials-for-yootheme-pro\/upgrade/)) {
+      router.push('/essentials-for-yootheme-pro/integration')
+    }
+  }, [router]);
+
   return (
     <>
       <div className="min-h-full px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">
