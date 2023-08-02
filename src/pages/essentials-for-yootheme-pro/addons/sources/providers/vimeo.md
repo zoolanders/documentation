@@ -38,10 +38,6 @@ Authentication is based on the OAuth protocol driven by the [Vimeo OAuth Driver]
 ![Vimeo OAuth Driver](/assets/ytp/auths/driver-vimeo-oauth.webp)
 {% /image %}
 
-{% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
-
 ---
 
 ## Content Queries

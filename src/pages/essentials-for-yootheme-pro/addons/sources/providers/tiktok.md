@@ -38,10 +38,6 @@ Authentication is based on the OAuth protocol driven by the [TikTok OAuth Driver
 ![TikTok OAuth Driver](/assets/ytp/auths/driver-tiktok-oauth.webp)
 {% /image %}
 
-{% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
-
 ---
 
 ## Content Queries

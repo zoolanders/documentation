@@ -22,3 +22,7 @@ The Google OAuth Driver manage Google OAuth 2.0 protocol to authenticate and gra
 | **Scopes** | The list of scopes this auth has access to, those can be revoked at [myaccount.google.com/permissions](https://myaccount.google.com/permissions). |
 | **Authentication** | Triggers the OAuth authentication and permission grant. |
 | **Custom App** | Whether to use a custom OAuth App instead of ZOOlanders one. |
+
+{% callout title="OAuth Security" %}
+Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
+{% /callout %}

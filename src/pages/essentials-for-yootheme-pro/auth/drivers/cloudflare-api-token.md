@@ -15,3 +15,7 @@ The Cloudflare API Token Driver manage Cloudflare API tokens obtained through th
 {% image %}
 ![Cloudflare API Token Driver](/assets/ytp/auths/driver-cloudflare-api-token.webp)
 {% /image %}
+
+{% callout title="OAuth Security" %}
+Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
+{% /callout %}

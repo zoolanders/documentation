@@ -20,5 +20,16 @@ The Twitter OAuth Driver manage Twitter OAuth protocol to authenticate and grant
 | ------- | ----------- |
 | **Name** | The name that will identify this auth. |
 | **Scopes** | The list of scopes this auth has access to, those can be revoked at [twitter.com/settings](https://twitter.com/settings/apps_and_sessions). |
-| **Authentication** | Triggers the OAuth authentication and permission grant. |
-| **Custom App** | Whether to use a custom OAuth App instead of ZOOlanders one. |
+| **Client ID** | The public identifier of your Twitter Dev App. |
+| **Client Secret** | The secret key of your Twitter Dev App. |
+| **Refresh Token** | The token that will allow us to obtain and refresh an Access Token. |
+
+{% callout type="warning" title="ZOOlanders OAuth" %}
+Notice that due to Twitter API policies updates is not longer possible to use the ZOOlanders oAuth, instead you must setup a custom Twitter Dev App following [their guide](https://developer.twitter.com/en/docs/twitter-api).
+
+Once ready, copy the resulting informations (Client ID, Client Secret and Refresh Token) into the respective fields.
+{% /callout %}
+
+{% callout title="OAuth Security" %}
+Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
+{% /callout %}

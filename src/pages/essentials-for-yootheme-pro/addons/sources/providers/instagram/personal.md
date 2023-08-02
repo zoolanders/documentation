@@ -40,10 +40,6 @@ Authentication is based on the OAuth protocol driven by the [Instagram OAuth Dri
 ![Instagram OAuth Driver](/assets/ytp/auths/driver-instagram-oauth.webp)
 {% /image %}
 
-{% callout title="OAuth Security" %}
-Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
-
 ---
 
 ## Content Queries
