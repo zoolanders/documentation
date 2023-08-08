@@ -37,6 +37,16 @@ The **Email Action** sends preset emails with support for [Dynamic Workflow](../
 
 ---
 
+## Content
+
+The main content of the email is set in the Body setting where [Data Placeholders](../../dynamic#data-placeholders) are supported and recommended to display data submitted by the form.
+
+{% callout type="warning" %}
+At the moment there are no templates or quick actions to create this content automatically for you, it's a manual process.
+{% /callout %}
+
+---
+
 ## Attachments
 
 Attachments can be set as **static**, a file from the local server, or as **dynamic**, a file submitted by the user. Each dynamic entry is a reference to a Form Area [Upload Field](../fields/upload).
@@ -67,4 +77,3 @@ We recommend the free service from [Mailtrap](https://mailtrap.io/) which allows
 
 1. [Load or Create](../integration) a Form Area and access it Settings Panel.
 1. Add an Email action and populate the required settings *Subject* and *Body*.
-
