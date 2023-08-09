@@ -6,7 +6,7 @@
     "lint": "next lint",
     "http": "npx http-server",
     "sitemap": "node ./scripts/sitemap.mjs",
-    "checklinks": "npx linkinator http://localhost:3000/essentials-for-yootheme-pro -r --verbosity error"
+    "checklinks": "npx linkinator http://localhost:3000 -r --verbosity error"
   },
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
