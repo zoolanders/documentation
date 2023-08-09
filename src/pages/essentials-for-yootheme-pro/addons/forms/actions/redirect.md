@@ -34,6 +34,6 @@ The **Redirect Action** redirects the browser to a specified URL, with an option
 
 ## Integration
 
-1. [Load or Create](../integration) a Form Area and access it Settings Panel.
+1. [Create](../../integration) a Form Area and access it Settings Panel.
 1. Add a Redirect action and set the URL in the *Redirect To* field.
 

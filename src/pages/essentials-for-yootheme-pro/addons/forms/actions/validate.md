@@ -46,6 +46,6 @@ Notice that this action must be executed before any other action relying on the 
 
 ## Integration
 
-1. [Load or Create](../integration) a Form Area and access it Settings Panel.
+1. [Create](../../integration) a Form Area and access it Settings Panel.
 1. Add a Validate action and input data entries as required.
 

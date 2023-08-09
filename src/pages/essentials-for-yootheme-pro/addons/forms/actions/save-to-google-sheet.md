@@ -53,6 +53,6 @@ Not all columns require a value, in fact, mapping is disabled by default and mus
 
 ## Integration
 
-1. [Load or Create](../integration) a Form Area and access it Settings Panel.
+1. [Create](../../integration) a Form Area and access it Settings Panel.
 1. Add a SaveToGoogleSheett action and fulfill the required settings.
 

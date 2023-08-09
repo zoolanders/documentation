@@ -34,6 +34,6 @@ The **Download Action** triggers the download of the specified file. Use it to a
 
 ## Integration
 
-1. [Load or Create](../integration) a Form Area and access it Settings Panel.
+1. [Create](../../integration) a Form Area and access it Settings Panel.
 1. Add a Download action and set a file in the settings.
 
