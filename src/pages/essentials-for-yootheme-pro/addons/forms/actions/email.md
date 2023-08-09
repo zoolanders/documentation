@@ -22,11 +22,11 @@ The **Email Action** sends preset emails with support for [Dynamic Workflow](../
 
 | Setting | Description | Placeholder | Dynamic | Required |
 | ------- | ----------- | :---------: | :-----: | :------: |
-| **Body** | The content for the email body. | &#x2713; | &#x2713; | &#x2713; |
-| **Subject** | The content for the email subject. | &#x2713; | &#x2713; | &#x2713; |
+| **Body** | The main content of the email. | &#x2713; | &#x2713; | &#x2713; |
+| **Subject** | The subject of the email. | &#x2713; | &#x2713; | &#x2713; |
+| **Recipients** | The list of addresses to which the email will be sent, separated by a comma. | &#x2713; | &#x2713; | &#x2713; |
 | **From Name/Email** | The name and email address of the email sender, defaults to the site configuration one. | &#x2713; | &#x2713; |
 | **Reply To** | The list of addresses to which the recipient will be replying, separated by a comma. | &#x2713; | &#x2713; |
-| **Recipients** | The list of addresses to which the email will be sent, separated by a comma. | &#x2713; | &#x2713; |
 | **CCs** | The list of addresses to which the email will be sent as a Carbon Copy, separated by a comma. | &#x2713; | &#x2713; |
 | **BCCs** | The list of addresses to which the email will be sent as a Blind Carbon Copy, separated by a comma. | &#x2713; | &#x2713; |
 | **Send as HTML** | Should the email content be sent as HTML instead of plain text. |
