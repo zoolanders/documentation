@@ -50,7 +50,7 @@ For every source instance the following content queries will be made available a
 
 ### Videos Query
 
-Fetches public videos with advanced query params resolving to a list of [Video Type](../youtube#video-type).
+Fetches public videos with advanced query params resolving to a list of [Video Type](..#video-type).
 
 {% image %}
 ![YouTube Videos Query](/assets/ytp/sources/youtube-videos-query.webp)

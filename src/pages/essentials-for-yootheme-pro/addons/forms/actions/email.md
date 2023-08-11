@@ -49,7 +49,7 @@ At the moment there are no templates or quick actions to create this content aut
 
 ## Attachments
 
-Attachments can be set as **static**, a file from the local server, or as **dynamic**, a file submitted by the user. Each dynamic entry is a reference to a Form Area [Upload Field](../fields/upload).
+Attachments can be set as **static**, a file from the local server, or as **dynamic**, a file submitted by the user. Each dynamic entry is a reference to a Form Area [Upload Field](../../fields/upload).
 
 {% image %}
 ![Email Action Attachments](/assets/ytp/forms/action-email-attachments.webp)

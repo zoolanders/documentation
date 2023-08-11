@@ -15,5 +15,3 @@ The Global Queries Manager can be accessed at `Customizer -> Essentials -> Globa
 {% image %}
 ![Global Queries](/assets/ytp/dynamic-global-queries.gif)
 {% /image %}
-
-In case the panel is not present make sure the **Dynamic Addon** is enabled in the [Essentials Settings](../settings).

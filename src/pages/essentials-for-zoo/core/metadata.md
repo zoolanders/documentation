@@ -55,7 +55,7 @@ Using the ZOOseo Item Metadata layout you can Drag & Drop the elements you would
 > For more information about Open Graph visit the [Open Graph official page](http://ogp.me/).
 
 {% callout %}
-Use the [Static Content Element](../elements/el-static-content) when the content is the same for each item.
+Use the [Static Content Element](../../elements/static-content) when the content is the same for each item.
 {% /callout %}
 
 {% callout %}
