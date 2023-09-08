@@ -45,6 +45,18 @@ RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 
 ---
 
+## Email Delivery
+
+When dealing with email we must distinguish between sending and delivery. While we can assure the email has been sent we cannot warranty it has been delivered, as that is beyond our control. Most of the time emails are not delivered because of server misconfiguration, but also because are simply discarded by the destination server.
+
+To rise the delivery rate it is important to ensure the emails are being sent from a trusted source, which is only possible with an SMTP server or 3rd party service.
+
+{% callout title="Delivery Test" %}
+We recommend the free service from [Mailtrap](https://mailtrap.io/) which allows you to test if an email has been sent and give it delivery punctuation. If you don't want to open an account feel free to reach out to our support and we will assist you using ours.
+{% /callout %}
+
+---
+
 ## SPAM
 
 SPAM is a problem that impacts all publicly accessible forms and fighting is complicated by the fact that spammers and bots are constantly evolving their methods. There are a number of solutions you can use to reduce the amount of spam, but note that there’s not any single anti-spam method in the world able to catch 100% of it.

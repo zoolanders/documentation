@@ -61,18 +61,6 @@ When a file is submitted by the user, the [Data Placeholder](../dynamic#data-pla
 
 ---
 
-## Delivery Rate
-
-When dealing with email we must distinguish between sending and delivery. While we can assure the email has been sent we cannot warranty it has been delivered, as that is beyond our control. Most of the time emails are not delivered because of server misconfiguration, but also because are simply discarded by the destination server.
-
-To rise the delivery rate it is important to ensure the emails are being sent from a trusted source, which is only possible with an SMTP server or 3rd party service.
-
-{% callout title="Delivery Test" %}
-We recommend the free service from [Mailtrap](https://mailtrap.io/) which allows you to test if an email has been sent and give it delivery punctuation. If you don't want to open an account feel free to reach out to our support and we will assist you using ours.
-{% /callout %}
-
----
-
 ## Integration
 
 1. [Create](../../integration) a Form Area and access it Settings Panel.
