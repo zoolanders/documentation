@@ -24,20 +24,22 @@ The Twitter OAuth Driver manage Twitter OAuth protocol to authenticate and grant
 | **Client Secret** | The secret key of your Twitter Dev App. |
 | **Refresh Token** | The token that will allow us to obtain and refresh an Access Token. |
 
+## Authentication
+
 {% callout type="warning" title="ZOOlanders OAuth" %}
 Notice that due to Twitter API policies updates is not longer possible to use the ZOOlanders oAuth, instead you must setup a custom Twitter Dev App and use your own credentials. We have tried to list all the steps required below. Beware that it's a pretty technical process that requires some development skill like interacting with REST APIs.
 
 Once ready, copy the resulting informations (Client ID, Client Secret and Refresh Token) into the respective fields.
 {% /callout %}
 
-1. Create a new Developer Application Following following [this Twitter guide](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api). Select the plan that best suits your case
+1. Create a new Developer Application Following following [this Twitter guide](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api). Select the plan that best suits your case.
 2. Once the app is created, you need to enable the OAuth2 support at the bottom of the App Page on the Twitter Developer Portal
 3. You will need to generate a refresh token manually by calling a couple of endpoints via REST APIs. The full guide is available [here](https://developer.twitter.com/en/docs/authentication/oauth-2-0/user-access-token).
 4. Following that guide, the first step is to generate a proper authorization url and visit it in your browser. The url will look something like this: `https://twitter.com/i/oauth2/authorize?response_type=code&client_id=YOUR_APP_CLIENT_ID&redirect_uri=https://www.example.com&scope=tweet.read%20users.read%20offline.access&state=state&code_challenge=challenge&code_challenge_method=plain`. Be sure that the redirect url you set there is the same you specified at step 2 in your app settings. It doesn't need to be a particular url, it can be whatever you want, but it should be the same as the one specified in the redirect_uri parameter.
 5. When visiting such url, you will be asked to authenticate with your desidered twitter account, and allow access.
 6. The system will redirect you to the url specified in the redirect_url parameter. Ignore the page itself and look at the url. Copy the value of the `code` pararameter. You will need it in the next step.
-7. Using your console or a tool like Postman, make a post request to create an access and refresh token: 
-```
+7. Using your console or a tool like Postman, make a post request to create an access and refresh token:
+```bash
 curl --location --request POST 'https://api.twitter.com/2/oauth2/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'code=THE_CODE_YOU_COPIED_AT_STEP_6' \
@@ -46,8 +48,9 @@ curl --location --request POST 'https://api.twitter.com/2/oauth2/token' \
 --data-urlencode 'redirect_uri=https://www.example.com' \
 --data-urlencode 'code_verifier=challenge'
 ```
-8. In the reply, copy the value of the refresh token.
-9. Fill in Client id, client secret and refresh token in Essentials configuration.
+In the reply, copy the value of the refresh token. Then fill in Client id, Client Secret and Refresh Token in Essentials configuration.
+
+## Security
 
 {% callout title="OAuth Security" %}
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
