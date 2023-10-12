@@ -59,7 +59,7 @@ UIkit.ready(function() {
   });
 
   // global
-  UIkit.util.on('#form-id', 'yooessentials-form:submission-error', function (e, ctx) {
+  UIkit.util.on(document, 'yooessentials-form:submission-error', function (e, ctx) {
     // ctx = {form, error, errors, validation}
   });
 
