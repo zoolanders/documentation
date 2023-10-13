@@ -73,7 +73,7 @@ Create a config file in JSON format that will specify the rule configuration, st
 
 ## 3. Declare the Rule
 
-Declare custom rules by adding a `yooessentials-access-rules` key to the `config.php` or `bootstrap.php` file referencing the rule class and a path to it config.
+Declare custom rules by adding a `yooessentials-condition-rules` key to the `config.php` or `bootstrap.php` file referencing the rule class and a path to it config.
 
 ```php
 <?php
@@ -83,7 +83,7 @@ require_once __DIR__ . '/rules/MyOtherCustomRule/MyOtherCustomRule.php';
 
 return [
 
-    'yooessentials-access-rules' => [
+    'yooessentials-condition-rules' => [
         MyCustomRule::class => __DIR__ . '/rules/MyCustomRule/config.json',
         MyOtherCustomRule::class => __DIR__ . '/rules/MyOtherCustomRule/config.json',
     ]
