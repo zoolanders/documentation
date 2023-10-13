@@ -5,7 +5,7 @@ description: Create a custom After Submit Action
 
 Learn how to create an [After Submit Action](../after-submit-actions). {% .lead %}
 
-Follow the bellow steps to create your first action, you can alternatively use this [action example](https://github.com/joolanders/ytp-form-actions) in GitHub which includes more details and a working code. Also notice that core actions are a very useful resource to get started and can be found in the `modules/forms/actions` directory relative to the [installation folder](/essentials-for-yootheme-pro/integration#installation).
+Follow the bellow steps to create your first action, you can alternatively use this [action example](https://github.com/zoolanders/ytp-form-actions) in GitHub which includes more details and a working code. Also notice that core actions are a very useful resource to get started and can be found in the `modules/forms/actions` directory relative to the [installation folder](/essentials-for-yootheme-pro/integration#installation).
 
 {% callout type="warning" title="Extending YOOtheme Pro" %}
 The following guide assumes you are already familar with code, PHP, and [extending YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
