@@ -31,5 +31,12 @@ module.exports = [
     children: [
       ['developers/core/', 'Core Concepts']
     ]
+  },
+  {
+    title: 'Sources',
+    collapsable: false,
+    children: [
+      'sources/instagram'
+    ]
   }
 ]
