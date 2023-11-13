@@ -56,7 +56,7 @@ Attachments can be set as **static**, a file from the local server, or as **dyna
 {% /image %}
 
 {% callout type="warning" title="Submitted Attachments" %}
-When a file is submitted by the user, the [Data Placeholder](../dynamic#data-placeholders)  of the uploaded file holds just the name of the file, if you would like to send that file within the email must be set as a Dynamic Attachment instead.
+When a file is submitted by the user, the [Data Placeholder](../../dynamic#data-placeholders)  of the uploaded file holds just the name of the file, if you would like to send that file within the email must be set as a Dynamic Attachment instead.
 {% /callout %}
 
 ---

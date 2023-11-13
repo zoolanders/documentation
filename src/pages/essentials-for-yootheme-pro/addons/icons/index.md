@@ -11,6 +11,6 @@ You can either get started in the next section or explore one of the topics list
 
 {% quick-link title="Icon Collections" href="./collections" description="Discover the concept, workflow, and possibilities of the Icon Collections." /%}
 {% quick-link title="My Icons" href="./my-icons" description="Find out how My Icons differs from Icon Collections and when to use it." /%}
-{% quick-link title="Custom Collection" href="./create-custom-collection" description="Learn how to create a custom icon collection." /%}
+{% quick-link title="Custom Collection" href="./custom-collections" description="Learn how to create a custom icon collection." /%}
 
 {% /quick-links %}

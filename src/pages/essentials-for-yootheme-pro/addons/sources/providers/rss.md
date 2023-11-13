@@ -59,8 +59,8 @@ Fetches records from the feed and resolves to a list of dynamically generated re
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
-| **Filters** | `[]` | The list of [filter conditions](../query-conditions#filter-conditions) applied to the query. |
-| **Ordering** | `[]` | The list of [ordering conditions](../query-conditions#order-conditions) applied to the query. |
+| **Filters** | `[]` | The list of filter conditions applied to the query. |
+| **Ordering** | `[]` | The list of ordering conditions applied to the query. |
 | **Start** | `1` | The offset applied to the query. |
 | **Quantity** | `20` | The limit applied to the query. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |

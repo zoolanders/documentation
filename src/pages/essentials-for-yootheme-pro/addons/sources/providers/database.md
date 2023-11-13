@@ -89,8 +89,8 @@ Fetches a single record from the table and resolves to a dynamically generated r
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
-| **Filters** | `[]` | The list of [filter conditions](../query-conditions#filter-conditions) applied to the query. |
-| **Ordering** | `[]` | The list of [ordering conditions](../query-conditions#order-conditions) applied to the query. |
+| **Filters** | `[]` | The list of filter conditions applied to the query. |
+| **Ordering** | `[]` | The list of ordering conditions applied to the query. |
 | **Random** | `false` | Should the ordering be randomized ignoring any ordering condition. |
 | **Start** | `1` | The offset applied to the query. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
@@ -107,8 +107,8 @@ Fetches records from the table and resolves to a dynamically generated list of r
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
-| **Filters** | `[]` | The list of [filter conditions](../query-conditions#filter-conditions) applied to the query. |
-| **Ordering** | `[]` | The list of [ordering conditions](../query-conditions#order-conditions) applied to the query. |
+| **Filters** | `[]` | The list of filter conditions applied to the query. |
+| **Ordering** | `[]` | The list of ordering conditions applied to the query. |
 | **Random** | `false` | Should the ordering be randomized ignoring any ordering condition. |
 | **Start** | `1` | The offset applied to the query. |
 | **Quantity** | `20` | The limit applied to the query. |
