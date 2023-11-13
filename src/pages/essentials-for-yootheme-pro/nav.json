@@ -9,8 +9,12 @@
                     "href": "./"
                 },
                 {
-                    "title": "Integration",
-                    "href": "./integration"
+                    "title": "Installation",
+                    "href": "./installation"
+                },
+                {
+                    "title": "Updating",
+                    "href": "./updating"
                 },
                 {
                     "title": "Changelog",
