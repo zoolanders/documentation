@@ -76,7 +76,7 @@ Once the table has been chosen, its columns will appear in the Content field rea
 ![SaveTo Action Mapping](/assets/ytp/forms/action-saveto-mapping.webp)
 {% /image %}
 
-Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled, the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic).
+Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled, the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../../dynamic).
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
