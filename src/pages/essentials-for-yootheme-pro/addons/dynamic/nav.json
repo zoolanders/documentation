@@ -22,6 +22,10 @@
                     "href": "./per-field-dynamic-content"
                 },
                 {
+                    "title": "Composable Sources",
+                    "href": "./composable-sources"
+                },
+                {
                     "title": "Global Queries",
                     "href": "./global-queries"
                 }
