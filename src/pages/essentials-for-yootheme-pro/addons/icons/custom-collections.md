@@ -13,10 +13,14 @@ The following guide assumes you are already familar with code, PHP, and [extendi
 
 ## Add Collection
 
-Adding a custom collection is simple as placing the collection in `media/yooessentials/icons/my-collection` for Joomla or `wp-content/yooessentials/icons/my-collection` for WordPress. The collection will be automatically picked up and displayed among other collections in the icons picker modal.
+Adding a custom collection is simple as placing the collection in `media/yooessentials/icons/mycollection` for Joomla or `wp-content/yooessentials/icons/mycollection` for WordPress. The collection will be automatically picked up and displayed among other collections in the icons picker modal.
 
 {% callout %}
-You can group the icons into subfolders for a better organization or style separation, eg `my-collection/group-a` or `my-collection/group-b`.
+You can group the icons into subfolders for a better organization or style separation, eg `mycollection/group-a` or `mycollection/group-b`.
+{% /callout %}
+
+{% callout type="warning"%}
+Notice that a collection name cannot contain hyphens `-`, while a group name doesn't have such limitation.
 {% /callout %}
 
 ---
