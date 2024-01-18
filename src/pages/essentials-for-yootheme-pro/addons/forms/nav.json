@@ -43,6 +43,10 @@
                     "href": "./actions"
                 },
                 {
+                    "title": "Airtable",
+                    "href": "./actions/airtable"
+                },
+                {
                     "title": "Data",
                     "href": "./actions/data"
                 },
