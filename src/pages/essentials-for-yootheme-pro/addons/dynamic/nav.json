@@ -18,16 +18,20 @@
             "title": "Core Concepts",
             "links": [
                 {
-                    "title": "Per-Field Dynamic Content",
+                    "title": "Global Queries",
+                    "href": "./global-queries"
+                },
+                {
+                    "title": "Dynamic Query Arguments",
+                    "href": "./dynamic-query-arguments"
+                },
+                {
+                    "title": "Field Sources",
                     "href": "./per-field-dynamic-content"
                 },
                 {
                     "title": "Composable Sources",
                     "href": "./composable-sources"
-                },
-                {
-                    "title": "Global Queries",
-                    "href": "./global-queries"
                 }
             ]
         }
