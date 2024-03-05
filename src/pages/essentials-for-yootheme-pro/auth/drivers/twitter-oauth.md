@@ -30,12 +30,12 @@ Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-
 
 ---
 
-## Authentication
+## Custom Twitter Dev App
 
-Due to Twitter API policies updates is not longer possible to use the ZOOlanders oAuth, instead you must setup a custom Twitter Dev App and use your own credentials. We have listed all the steps required below. Once ready, copy the resulting informations (Client ID, Client Secret and Refresh Token) into the respective fields.
+Due to Twitter API policies it is not possible to use a ZOOlanders oAuth App, instead you must setup a custom Twitter Dev App and use your own credentials. We have listed all the steps required below. Once ready, copy the resulting informations (`Client ID`, `Client Secret` and `Refresh Token`) into the respective fields.
 
 {% callout type="warning" title="ZOOlanders OAuth" %}
-Beware that it's a pretty technical process that requires some development skill like interacting with REST APIs.
+Beware that it's a technical process that requires some development skills like interacting with REST APIs.
 {% /callout %}
 
 ### Step 1. Create a new Developer Application

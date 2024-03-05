@@ -32,7 +32,7 @@ The source settings determines the content structure, every time the instance is
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Twitter OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/twitter-oauth).
+Authentication is based on the OAuth protocol driven by the [Twitter OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/twitter-oauth). Due to Twitter API policies it is not possible to use a ZOOlanders oAuth App, instead you must [setup a custom Twitter Dev App](/essentials-for-yootheme-pro/auth/drivers/twitter-oauth#custom-twitter-dev-app) and use your own credentials.
 
 {% image %}
 ![Twitter OAuth Driver](/assets/ytp/auths/driver-twitter-oauth.webp)
