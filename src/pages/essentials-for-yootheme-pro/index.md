@@ -8,7 +8,7 @@ hero:
   image: /hero-ytp.png
 ---
 
-Essentials for YOOtheme Pro is a collection of [addons](./addons) specifically crafted for the [YOOtheme Pro](https://yootheme.com/page-builder) page builder. These addons are compatible with YOOtheme Pro 4.x, PHP 7.4+ for WordPress and Joomla 3/4 platforms.{% .lead %}
+Essentials for YOOtheme Pro is a collection of [addons](./addons) specifically crafted for the [YOOtheme Pro](https://yootheme.com/page-builder) page builder. These addons are compatible with YOOtheme Pro 4.x, PHP 7.4+ for WordPress 5/6 and Joomla 3/4/5 platforms.{% .lead %}
 
 You can either get started in the next section or explore the addons.
 
