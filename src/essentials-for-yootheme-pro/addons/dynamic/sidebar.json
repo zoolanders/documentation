@@ -1,0 +1,39 @@
+{
+    "text": "Dynamic",
+    "items": [
+        {
+            "text": "Getting Started",
+            "items": [
+                {
+                    "text": "Overview",
+                    "link": "./"
+                },
+                {
+                    "text": "Integration",
+                    "link": "./integration"
+                }
+            ]
+        },
+        {
+            "text": "Core Concepts",
+            "items": [
+                {
+                    "text": "Global Queries",
+                    "link": "./global-queries"
+                },
+                {
+                    "text": "Dynamic Query Arguments",
+                    "link": "./dynamic-query-arguments"
+                },
+                {
+                    "text": "Field Sources",
+                    "link": "./per-field-dynamic-content"
+                },
+                {
+                    "text": "Composable Sources",
+                    "link": "./composable-sources"
+                }
+            ]
+        }
+    ]
+}

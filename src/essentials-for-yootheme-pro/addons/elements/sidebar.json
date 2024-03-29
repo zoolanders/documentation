@@ -1,0 +1,35 @@
+{
+    "text": "Elements",
+    "items": [
+        {
+            "text": "Getting Started",
+            "items": [
+                {
+                    "text": "Overview",
+                    "link": "./"
+                },
+                {
+                    "text": "Integration",
+                    "link": "./integration"
+                }
+            ]
+        },
+        {
+            "text": "Elements",
+            "items": [
+                {
+                    "text": "Chart Element",
+                    "link": "./chart"
+                },
+                {
+                    "text": "Markdown Element",
+                    "link": "./markdown"
+                },
+                {
+                    "text": "Social Sharing Element",
+                    "link": "./social-sharing"
+                }
+            ]
+        }
+    ]
+}

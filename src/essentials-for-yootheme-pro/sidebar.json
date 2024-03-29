@@ -1,0 +1,150 @@
+{
+    "text": "Essentials YTP",
+    "items": [
+        {
+            "text": "Getting Started",
+            "items": [
+                {
+                    "text": "Introduction",
+                    "link": "./"
+                },
+                {
+                    "text": "Installation",
+                    "link": "./installation"
+                },
+                {
+                    "text": "Updating",
+                    "link": "./updating"
+                },
+                {
+                    "text": "Changelog",
+                    "link": "./changelog"
+                }
+            ]
+        },
+        {
+            "text": "Core Concepts",
+            "items": [
+                {
+                    "text": "OAuth, Keys & Secrets",
+                    "link": "./oauth-keys-secrets"
+                },
+                {
+                    "text": "Storage Abstraction",
+                    "link": "./storage-abstraction"
+                },
+                {
+                    "text": "Geolocation",
+                    "link": "./geolocation"
+                }
+            ]
+        },
+        {
+            "text": "Reference",
+            "items": [
+                {
+                    "text": "Addons",
+                    "link": "./addons",
+                    "items": [
+                        {
+                            "text": "Access",
+                            "link": "./addons/access"
+                        },
+                        {
+                            "text": "Sources",
+                            "link": "./addons/sources"
+                        },
+                        {
+                            "text": "Forms",
+                            "link": "./addons/forms"
+                        },
+                        {
+                            "text": "Icons",
+                            "link": "./addons/icons"
+                        },
+                        {
+                            "text": "Dynamic",
+                            "link": "./addons/dynamic"
+                        },
+                        {
+                            "text": "Layouts",
+                            "link": "./addons/layouts"
+                        },
+                        {
+                            "text": "Elements",
+                            "link": "./addons/elements"
+                        }
+                    ]
+                },
+                {
+                    "text": "Settings",
+                    "link": "./settings"
+                },
+                {
+                    "text": "Auth Drivers",
+                    "link": "./auth/drivers",
+                    "items": [
+                        {
+                            "text": "AWS",
+                            "link": "./auth/drivers/aws"
+                        },
+                        {
+                            "text": "Google OAuth",
+                            "link": "./auth/drivers/google-oauth"
+                        },
+                        {
+                            "text": "Google API Key",
+                            "link": "./auth/drivers/google-api-key"
+                        },
+                        {
+                            "text": "Facebook OAuth",
+                            "link": "./auth/drivers/facebook-oauth"
+                        },
+                        {
+                            "text": "Instagram OAuth",
+                            "link": "./auth/drivers/instagram-oauth"
+                        },
+                        {
+                            "text": "TikTok OAuth",
+                            "link": "./auth/drivers/tiktok-oauth"
+                        },
+                        {
+                            "text": "Twitter OAuth",
+                            "link": "./auth/drivers/twitter-oauth"
+                        },
+                        {
+                            "text": "Vimeo OAuth",
+                            "link": "./auth/drivers/vimeo-oauth"
+                        },
+                        {
+                            "text": "Cloudflare API Token",
+                            "link": "./auth/drivers/cloudflare-api-token"
+                        },
+                        {
+                            "text": "API Key",
+                            "link": "./auth/drivers/api-key"
+                        }
+                    ]
+                },
+                {
+                    "text": "Storage Adapters",
+                    "link": "./storage/adapters",
+                    "items": [
+                        {
+                            "text": "Local",
+                            "link": "./storage/adapters/local"
+                        },
+                        {
+                            "text": "FTP",
+                            "link": "./storage/adapters/ftp"
+                        },
+                        {
+                            "text": "S3",
+                            "link": "./storage/adapters/s3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
