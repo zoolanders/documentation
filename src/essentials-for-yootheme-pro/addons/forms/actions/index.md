@@ -1,17 +1,34 @@
 ---
+index: true
+aside: false
 ---
 
 <script setup>
-import { data as posts } from './actions.data.js'
+import { ref } from 'vue'
+import {data} from './index.data.js'
+import TmIndex from '/components/TmIndex.vue'
+
+const actions = data.map(d => ({
+  ...d,
+  details: d.description || '',
+}))
+
+const coreActions = actions.filter(d => d.core)
+const otherActions = actions.filter(d => !d.core)
 </script>
 
 # Actions
 
-<ul>
-  <li v-for="post of posts">
-    <a :href="post.url">{{ post.frontmatter.title }}</a>
-    <span>{{ post.frontmatter.description }}</span>
-    <!-- <div v-html="post.excerpt"></div> -->
-    <img :src="`./${post.name}.svg`" alt="Description of image" width="40">
-  </li>
-</ul>
+List of [After Submit Actions](../after-submit-actions) available out of the box.
+
+## Core Actions
+
+<TmIndex
+  :items="coreActions"
+/>
+
+## Integration Actions
+
+<TmIndex
+  :items="otherActions"
+/>

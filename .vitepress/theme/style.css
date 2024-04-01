@@ -3,6 +3,23 @@
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
  */
 
+@font-face {
+  font-family: 'Varela Round';
+  font-weight: 100 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('/fonts/varela-round.regular.woff2') format('woff2');
+}
+
+:root {
+  --vp-font-family-base: 'Varela Round', 'Inter var', 'Inter', ui-sans-serif,
+  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+  'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif,
+  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  /* --vp-font-family-mono: code font */
+}
+
 /**
  * Colors
  *
@@ -75,11 +92,68 @@
 }
 
 /**
- * Component: Home
+ * Colors: Text
+ *
+ * - `text-1`: Used for primary text.
+ *
+ * - `text-2`: Used for muted texts, such as "inactive menu" or "info texts".
+ *
+ * - `text-3`: Used for subtle texts, such as "placeholders" or "caret icon".
  * -------------------------------------------------------------------------- */
 
+:root {
+  --vp-c-text-1: #444c55;
+  --vp-c-text-2: rgb(100 116 139/1)
+  --vp-c-text-3: rgba(60, 60, 67, 0.56);
+}
+
+.dark {
+  --vp-c-text-1: rgba(255, 255, 245, 0.86);
+  --vp-c-text-2: rgba(235, 235, 245, 0.6);
+  --vp-c-text-3: rgba(235, 235, 245, 0.38);
+}
+
+/**
+ * layout: Doc
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-code-bg: transparent;
+  --vp-code-color: rgb(14 165 233 / 1);
+}
+
+.vp-doc th,
+.vp-doc tr {
+  background-color: inherit !important;
+}
+
+.vp-doc th {
+  /* border: none; */
+  color: inherit;
+  font-weight: 500;
+}
+
+.vp-doc th,
+.vp-doc td,
+.vp-doc thead tr {
+  border: none;
+}
+
+.vp-doc strong {
+  font-weight: 500;
+}
+
 .vp-doc a:not(:hover) {
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+.vp-doc :not(pre) > code {
+  padding: 0;
+}
+
+.vp-doc :not(pre) > code:before,
+.vp-doc :not(pre) > code:after {
+  content: "`";
 }
 
 /**
@@ -88,7 +162,6 @@
 
 :root {
   --vp-home-hero-name-color: #444c55;
-
   --vp-c-bg-alt: rgb(248 250 252);
   --vp-sidebar-bg-color: var(--vp-c-bg-alt);
 }
@@ -122,18 +195,44 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-custom-block-tip-border: transparent;
-  --vp-custom-block-tip-text: var(--vp-c-text-1);
-  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
-  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
+  --vp-custom-block-tip-bg: rgb(240 249 255/1);
+  --vp-custom-block-tip-code-bg: transparent;
+}
+
+.custom-block .custom-block-title {
+  font-size: 16px;
+}
+
+.custom-block.tip code {
+  color: var(--vp-code-color);
+}
+
+.custom-block.details {
+  padding: 0;
+  background-color: transparent
+}
+
+.custom-block a {
+  color: var(--vp-c-brand-1) !important;
+}
+.custom-block a:hover {
+  opacity: 1;
 }
 
 /**
- * Component: SidebarItem
+ * Component: VPSidebarNav, SidebarItem
  * -------------------------------------------------------------------------- */
+
+#VPSidebarNav {
+  margin-top: 25px;
+}
 
 .VPSidebarItem.is-active > .item .indicator {
   background-color: var(--vp-c-brand-1);
+}
+
+.VPSidebarItem .VPLink .text {
+  color: rgb(100 116 139 / 1) !important;
 }
 
 /**

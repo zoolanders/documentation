@@ -40,10 +40,10 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
       {
-        text: 'Reference',
+        text: 'Addons',
         items: [
           {
-            text: 'YOOtheme Pro Addons',
+            text: 'Addons for YOOtheme Pro',
             items: [
               {
                 text: 'Forms',
@@ -75,6 +75,15 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: 'Addons for YOOtheme ZOO',
+            items: [
+              {
+                text: 'Filter',
+                link: '/essentials-for-zoo/addons/filter/',
+              },
+            ],
+          },
         ],
       },
     ],
@@ -103,6 +112,24 @@ export default defineConfig({
         link: 'https://discord.gg/3BT5nHauWr',
       },
     ],
+  },
+  transformHead({ assets }) {
+    const myFontFile = assets.find((file) => /varela-round\.\w+\.woff2/)
+
+    if (myFontFile) {
+      return [
+        [
+          'link',
+          {
+            rel: 'preload',
+            href: myFontFile,
+            as: 'font',
+            type: 'font/woff2',
+            crossorigin: '',
+          },
+        ],
+      ]
+    }
   },
 })
 

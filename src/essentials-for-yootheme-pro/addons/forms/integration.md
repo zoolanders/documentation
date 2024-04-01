@@ -2,12 +2,14 @@
 
 Follow through to learn how to create a Form Area. Even if you are already familiar with the concept you might learn something new.
 
-Ensure Essentials has been installed correctly by following the [installation guide](/essentials-for-yootheme-pro/installation). From there, open the `Customizer -> Essentials -> Advanced` section and enable the **Forms Addon**, then save the changes and refresh the page.
+::: details Ensure Forms Addon is enabled
+Assuming Essentials plugin has been [properly installed](/essentials-for-yootheme-pro/installation), open the `Customizer -> Essentials -> Advanced` section and make sure **Forms Addon** is enabled, then save the changes and refresh the page.
 
 ![Enable Forms Addon](./assets/integration/enable-addon.gif)
 
-{% callout type="warning
-If the addon is not listed in the Essentials Section [upgrade to the Premium version](/essentials-for-yootheme-pro/updating#upgrade-to-premium) as the Freemium one doesn't include this addon.
+<small>
+Notice that Forms is a premium addon and will not be listed if you are working with Essentials free version.
+</small>
 :::
 
 ## 1. Create a Form Area

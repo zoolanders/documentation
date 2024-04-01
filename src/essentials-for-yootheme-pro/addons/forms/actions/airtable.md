@@ -1,17 +1,15 @@
 ---
 title: Airtable
-description: Interact with Airtable
+description: Interact with Airtable base records
 ---
 
-# {{ $frontmatter.title }}
-
-<!-- {% elementIcon draw=$markdoc.frontmatter.icon /%} -->
+# {{ $frontmatter.title }} Action
 
 {{ $frontmatter.description }}.
 
-The **Airtable Action** interacts with [Airtable](https://airtable.com/) bases with support for [Dynamic Workflow](../../dynamic).
+## Create or Update Record
 
-## Create or Update a Record
+Create or Update an Airtable base record.
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -23,11 +21,9 @@ The **Airtable Action** interacts with [Airtable](https://airtable.com/) bases w
 | **Type Cast** | When enabled, Airtable API will perform best-effort for automatic data conversion. E.g. from a string to integer. |
 | **Replace** | When enabled, Airtable API will replace the entire record instead of patch it. |
 
-<!-- {% details title="Common Settings
-    {% partial file="ytp-formarea-action-common-settings.md" /%}
-{% /details %} -->
+## Delete Record
 
-## Delete a Record
+Delete an Airtable base record.
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -35,12 +31,3 @@ The **Airtable Action** interacts with [Airtable](https://airtable.com/) bases w
 | **Base** | The Airtable base which to connect to. | &#x2713; |
 | **Table** | The Airtable table which to connect to. | &#x2713; |
 | **Record** | The Airtable record ID which to delete. | &#x2713; |
-
-<!-- {% details title="Common Settings
-    {% partial file="ytp-formarea-action-common-settings.md" /%}
-{% /details %} -->
-
-## Integration
-
-1. [Create](../../integration) a Form Area and access it Settings Panel.
-1. Add an Airtable action and populate the required settings.

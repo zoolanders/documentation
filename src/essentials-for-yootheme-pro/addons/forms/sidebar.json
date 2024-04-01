@@ -36,174 +36,175 @@
             ]
         },
         {
-            "text": "Actions",
-            "collapsed": true,
-            "link": "./actions/",
-            "items": [
-                {
-                    "text": "Airtable",
-                    "link": "./actions/airtable"
-                },
-                {
-                    "text": "Data",
-                    "link": "./actions/data"
-                },
-                {
-                    "text": "Email",
-                    "link": "./actions/email"
-                },
-                {
-                    "text": "Redirect",
-                    "link": "./actions/redirect"
-                },
-                {
-                    "text": "Validate",
-                    "link": "./actions/validate"
-                },
-                {
-                    "text": "Message",
-                    "link": "./actions/message"
-                },
-                {
-                    "text": "Download",
-                    "link": "./actions/download"
-                },
-                {
-                    "text": "SaveTo CSV",
-                    "link": "./actions/save-to-csv"
-                },
-                {
-                    "text": "SaveTo Database",
-                    "link": "./actions/save-to-database"
-                },
-                {
-                    "text": "SaveTo Google Sheet",
-                    "link": "./actions/save-to-google-sheet"
-                }
-            ]
-        },
-        {
-            "text": "Fields",
-            "link": "./fields",
-            "items": [
-                {
-                    "text": "Button",
-                    "collapsed": true,
-                    "link": "./fields/button",
-                    "items": [
-                        {
-                            "text": "Button Submit",
-                            "link": "./fields/button-submit"
-                        },
-                        {
-                            "text": "Button Reset",
-                            "link": "./fields/button-reset"
-                        }
-                    ]
-                },
-                {
-                    "text": "Input",
-                    "collapsed": true,
-                    "link": "./fields/input",
-                    "items": [
-                        {
-                            "text": "Input Text",
-                            "link": "./fields/input-text"
-                        },
-                        {
-                            "text": "Input Number",
-                            "link": "./fields/input-number"
-                        },
-                        {
-                            "text": "Input Password",
-                            "link": "./fields/input-password"
-                        },
-                        {
-                            "text": "Input Email",
-                            "link": "./fields/input-email"
-                        },
-                        {
-                            "text": "Input Url",
-                            "link": "./fields/input-url"
-                        },
-                        {
-                            "text": "Input Tel",
-                            "link": "./fields/input-tel"
-                        },
-                        {
-                            "text": "Input Date",
-                            "link": "./fields/input-date"
-                        },
-                        {
-                            "text": "Input Time",
-                            "link": "./fields/input-time"
-                        },
-                        {
-                            "text": "Input Month",
-                            "link": "./fields/input-month"
-                        },
-                        {
-                            "text": "Input Week",
-                            "link": "./fields/input-week"
-                        }
-                    ]
-                },
-                {
-                    "text": "Textarea",
-                    "link": "./fields/textarea"
-                },
-                {
-                    "text": "Select",
-                    "link": "./fields/select"
-                },
-                {
-                    "text": "Radio",
-                    "link": "./fields/radio"
-                },
-                {
-                    "text": "Checkbox",
-                    "link": "./fields/checkbox"
-                },
-                {
-                    "text": "Upload",
-                    "link": "./fields/upload"
-                },
-                {
-                    "text": "Range",
-                    "link": "./fields/range"
-                },
-                {
-                    "text": "Hidden",
-                    "link": "./fields/hidden"
-                },
-                {
-                    "text": "Fieldset",
-                    "link": "./fields/fieldset"
-                }
-            ]
-        },
-        {
-            "text": "Captcha",
-            "collapsed": true,
-            "link": "./captcha",
-            "items": [
-                {
-                    "text": "reCaptcha",
-                    "link": "./captcha/recaptcha"
-                },
-                {
-                    "text": "hCaptcha",
-                    "link": "./captcha/hcaptcha"
-                },
-                {
-                    "text": "Friendly Captcha",
-                    "link": "./captcha/friendly-captcha"
-                }
-            ]
-        },
-        {
             "text": "Reference",
             "items": [
+                {
+                    "text": "Actions",
+                    "collapsed": true,
+                    "link": "./actions/",
+                    "items": [
+                        {
+                            "text": "Data",
+                            "link": "./actions/data"
+                        },
+                        {
+                            "text": "Download",
+                            "link": "./actions/download"
+                        },
+                        {
+                            "text": "Email",
+                            "link": "./actions/email"
+                        },
+                        {
+                            "text": "Message",
+                            "link": "./actions/message"
+                        },
+                        {
+                            "text": "Redirect",
+                            "link": "./actions/redirect"
+                        },
+                        {
+                            "text": "Validate",
+                            "link": "./actions/validate"
+                        },
+                        {
+                            "text": "Airtable",
+                            "link": "./actions/airtable"
+                        },
+                        {
+                            "text": "SaveTo CSV",
+                            "link": "./actions/save-to-csv"
+                        },
+                        {
+                            "text": "SaveTo Database",
+                            "link": "./actions/save-to-database"
+                        },
+                        {
+                            "text": "SaveTo Google Sheet",
+                            "link": "./actions/save-to-google-sheet"
+                        }
+                    ]
+                },
+                {
+                    "text": "Fields",
+                    "collapsed": true,
+                    "link": "./fields",
+                    "items": [
+                        {
+                            "text": "Button",
+                            "collapsed": true,
+                            "link": "./fields/button",
+                            "items": [
+                                {
+                                    "text": "Button Submit",
+                                    "link": "./fields/button-submit"
+                                },
+                                {
+                                    "text": "Button Reset",
+                                    "link": "./fields/button-reset"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Input",
+                            "collapsed": true,
+                            "link": "./fields/input",
+                            "items": [
+                                {
+                                    "text": "Input Text",
+                                    "link": "./fields/input-text"
+                                },
+                                {
+                                    "text": "Input Number",
+                                    "link": "./fields/input-number"
+                                },
+                                {
+                                    "text": "Input Password",
+                                    "link": "./fields/input-password"
+                                },
+                                {
+                                    "text": "Input Email",
+                                    "link": "./fields/input-email"
+                                },
+                                {
+                                    "text": "Input Url",
+                                    "link": "./fields/input-url"
+                                },
+                                {
+                                    "text": "Input Tel",
+                                    "link": "./fields/input-tel"
+                                },
+                                {
+                                    "text": "Input Date",
+                                    "link": "./fields/input-date"
+                                },
+                                {
+                                    "text": "Input Time",
+                                    "link": "./fields/input-time"
+                                },
+                                {
+                                    "text": "Input Month",
+                                    "link": "./fields/input-month"
+                                },
+                                {
+                                    "text": "Input Week",
+                                    "link": "./fields/input-week"
+                                }
+                            ]
+                        },
+                        {
+                            "text": "Textarea",
+                            "link": "./fields/textarea"
+                        },
+                        {
+                            "text": "Select",
+                            "link": "./fields/select"
+                        },
+                        {
+                            "text": "Radio",
+                            "link": "./fields/radio"
+                        },
+                        {
+                            "text": "Checkbox",
+                            "link": "./fields/checkbox"
+                        },
+                        {
+                            "text": "Upload",
+                            "link": "./fields/upload"
+                        },
+                        {
+                            "text": "Range",
+                            "link": "./fields/range"
+                        },
+                        {
+                            "text": "Hidden",
+                            "link": "./fields/hidden"
+                        },
+                        {
+                            "text": "Fieldset",
+                            "link": "./fields/fieldset"
+                        }
+                    ]
+                },
+                {
+                    "text": "Captcha",
+                    "collapsed": true,
+                    "link": "./captcha",
+                    "items": [
+                        {
+                            "text": "reCaptcha",
+                            "link": "./captcha/recaptcha"
+                        },
+                        {
+                            "text": "hCaptcha",
+                            "link": "./captcha/hcaptcha"
+                        },
+                        {
+                            "text": "Friendly Captcha",
+                            "link": "./captcha/friendly-captcha"
+                        }
+                    ]
+                },
                 {
                     "text": "Settings",
                     "link": "./settings"
