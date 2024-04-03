@@ -13,8 +13,29 @@
                     "href": "./module"
                 },
                 {
+                    "title": "Elements",
+                    "href": "./elements"
+                },
+                {
                     "title": "F.A.Q.",
                     "href": "./faq"
+                }
+            ]
+        },
+        {
+            "title": "Advanced",
+            "links": [
+                {
+                    "title": "Recipes",
+                    "href": "./advanced/recipes"
+                },
+                {
+                    "title": "Troubleshooting",
+                    "href": "./advanced/troubleshooting"
+                },
+                {
+                    "title": "Customizations",
+                    "href": "./advanced/customizations"
                 }
             ]
         }
