@@ -47,11 +47,17 @@ RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 
 ## Email Delivery
 
-When dealing with email we must distinguish between sending and delivery. While we can assure the email has been sent we cannot warranty it has been delivered, as that is beyond our control. Most of the time emails are not delivered because of server misconfiguration, but also because are simply discarded by the destination server.
+When dealing with email we must distinguish between sending and delivery. While we can assure the email has been sent we cannot warranty it has been delivered, as that is beyond our control. Most of the time emails are not delivered because of server misconfiguration, but also because are discarded for the following reasons:
 
-To rise the delivery rate it is important to ensure the emails are being sent from a trusted source, which is only possible with an SMTP server or 3rd party service.
+- **SPF Records**: SPF (Sender Policy Framework) records are used to prevent spammers from sending emails on behalf of your domain. If you change the "From" address to a domain that you do not have permission to send from, the recipient's email server may reject the email based on the SPF record.
+- **DMARC Policy**: DMARC (Domain-based Message Authentication, Reporting & Conformance) uses SPF and DKIM (DomainKeys Identified Mail) to determine the authenticity of an email message. If you're sending an email with a "From" address that's not aligned with the domain's DMARC policy, it could be rejected or sent to the spam folder.
+- **Reputation**: Email servers often consider the reputation of the sender's domain and IP address when deciding whether to accept or reject an email. If you change the "From" address to a domain or IP with a poor reputation, your email may not be delivered.
+- **Recipient Trust**: If the recipient doesn't recognize the "From" address, they might mark the email as spam, which can affect future email deliverability.
+- **Email Client Rules**: Some email clients allow users to set rules to automatically move emails from certain senders to specific folders. If you change the "From" address, these rules may not apply, and the email might not end up where the recipient expects it to be.
 
-{% callout title="Delivery Test" %}
+Therefore, to ensure your emails are delivered successfully use a consistent, recognizable "From" address that you have permission to send from and do so from a trusted SMTP server or 3rd party service.
+
+{% callout title="Email Delivery Test" %}
 We recommend the free service from [Mailtrap](https://mailtrap.io/) which allows you to test if an email has been sent and give it delivery punctuation. If you don't want to open an account feel free to reach out to our support and we will assist you using ours.
 {% /callout %}
 
