@@ -47,8 +47,8 @@
                     "href": "./actions/airtable"
                 },
                 {
-                    "title": "Data",
-                    "href": "./actions/data"
+                    "title": "Alter",
+                    "href": "./actions/alter"
                 },
                 {
                     "title": "Email",

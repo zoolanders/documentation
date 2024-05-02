@@ -1,5 +1,5 @@
 ---
-title: Data Action
+title: Alter Action
 description: Add or alter submission data
 icon: '
   <path fill="none" stroke-width="2" d="M28.992 15.341v13.651H1.008V1.008h13.651"/>
@@ -14,7 +14,7 @@ icon: '
 
 {% $markdoc.frontmatter.description %}. {% .lead %}
 
-The **Data Action** adds or alters the submission data. Use it to:
+The **Alter Action** adds or alters the submission data. Use it to:
 
 - Duplicate a submitted date with a custom format for consequent actions use.
 - Add context information to the Submission, e.g. the `Request -> Timestamp` (current date & time) or IP.
@@ -29,7 +29,7 @@ Notice that this action must be executed before any other action relying on the 
 ## Settings
 
 {% image %}
-![Data Action Settings](/assets/ytp/forms/action-data-settings.webp)
+![Alter Action Settings](/assets/ytp/forms/action-data-settings.webp)
 {% /image %}
 
 | Setting | Description | Placeholder | Dynamic | Required |
