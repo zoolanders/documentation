@@ -109,6 +109,15 @@ Fetches top and recent hashtagged media from the authenticated business account 
 | **Edge** |`Top` | Should the query look for `Top Media` or `Recent Media` hashtagged with. |
 | **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
+{% callout type="warning" title="API Limitations" %}
+Take into consideration that the API imposes the following limitations on this query:
+
+- Only returns public photos and videos.
+- Will not return promoted/boosted/ads media.
+- Responses will not always be in chronological order.
+- Maximum of 30 unique hashtags within a 7 day period.
+{% /callout %}
+
 ---
 
 ### User Query
