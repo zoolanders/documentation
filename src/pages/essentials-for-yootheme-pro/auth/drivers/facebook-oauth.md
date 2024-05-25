@@ -26,3 +26,81 @@ The Facebook OAuth Driver manage Facebook OAuth protocol to authenticate and gra
 {% callout title="OAuth Security" %}
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
 {% /callout %}
+
+---
+
+## Custom Facebook Dev App
+
+Create a custom Facebook Developer App to authenticate with it to Facebook and Instagram Business accounts.
+
+### Step 1. Create New App
+
+Go to [https://developers.facebook.com/apps/creation](https://developers.facebook.com/apps/creation) and choose "Other".
+
+{% image %}
+![Choose app purpose](/assets/ytp/auths/facebook/app-purpose.jpg)
+{% /image %}
+
+On Next Choose "Business".
+
+{% image %}
+![Choose app type](/assets/ytp/auths/facebook/app-type.jpg)
+{% /image %}
+
+On Next fill in the details and Create app.
+
+{% image %}
+![Fill in app details](/assets/ytp/auths/facebook/app-details.jpg)
+{% /image %}
+
+From the left column or from the dashboard, add both "Facebook Login for Business" and "Instagram Graph API" products leaving all settings as per their defaults.
+
+{% image %}
+![Add products to your app](/assets/ytp/auths/facebook/app-products.jpg)
+{% /image %}
+
+### Step 2. Generate Access Token
+
+Go to [https://developers.facebook.com/tools/explorer](https://developers.facebook.com/tools/explorer). Select from the list of apps on the right the app you just created, and add the following permissions in the permissions list:
+
+- instagram_basic
+- pages_show_list
+- pages_read_engagement
+- pages_read_user_content
+- business_management
+
+Be sure that the list matches with the screenshot and "Generate Access Token".
+
+{% image %}
+![Generate access token](/assets/ytp/auths/facebook/token-generate.jpg)
+{% /image %}
+
+- When prompted login with the account that created the app itself.
+- Select the business accounts (or all of them).
+- Select the pages you want to give access to.
+- Select the Instagram accounts you want to allow.
+- Confirm.
+
+{% callout title="Account Permissions" %}
+The Access Token should be generated with the account that created the app or at least one of the accounts listed in the app as "Testers", "Developers" or "Administrators". If you don’t do this, you will need to publish the app and get through the facebook review process (not recommended).
+{% /callout %}
+
+You now have an access token. Click on the Info icon and then on the "Open in Access Token Tool".
+
+{% image %}
+![Get access token info](/assets/ytp/auths/facebook/token-info.jpg)
+{% /image %}
+
+Click on "Extend Access Token" and copy the new Access Token. Use that token when authenticating a source with your custom app.
+
+### Step 3. Authenticate a Source
+
+Now that you have an access token create a Facebook or Instagram Business source. When authenticating choose "Custom App", past the generated access token and complete the source setup.
+
+{% image %}
+![Set access token](/assets/ytp/auths/facebook/source-auth.jpg)
+{% /image %}
+
+{% callout title="Token Expiration" %}
+Note that the token will be auto-renewed by the source when used, but it may expire if not used enough during the given time period. If it does, you will need to generate a new token.
+{% /callout %}
