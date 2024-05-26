@@ -1,6 +1,6 @@
 ---
 title: Addons
-pageTitle: Essential Addons
+titleTemplate: Essential Addons
 ---
 
 {% quick-links %}

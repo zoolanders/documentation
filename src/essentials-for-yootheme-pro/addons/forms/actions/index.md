@@ -6,7 +6,6 @@ aside: false
 <script setup>
 import { ref } from 'vue'
 import {data} from './index.data.js'
-import TmIndex from '/components/TmIndex.vue'
 
 const actions = data.map(d => ({
   ...d,

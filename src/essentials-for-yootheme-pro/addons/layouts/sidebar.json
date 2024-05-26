@@ -6,11 +6,24 @@
             "items": [
                 {
                     "text": "Overview",
-                    "links": "./"
+                    "link": "./"
+                }
+            ]
+        },
+        {
+            "text": "Core Concepts",
+            "items": [
+                {
+                    "text": "Cross-Site Layout Sharing",
+                    "link": "./cross-site-layout-sharing"
                 },
                 {
-                    "text": "Integration",
-                    "links": "./integration"
+                    "text": "Enhanced User Experience",
+                    "link": "./enhanced-user-experience"
+                },
+                {
+                    "text": "Libraries Manager",
+                    "link": "./libraries-manager"
                 }
             ]
         }

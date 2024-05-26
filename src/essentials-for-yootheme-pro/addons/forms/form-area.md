@@ -10,8 +10,9 @@ Once a Form Area has been created, a `paper-plane` icon will appear in the build
 
 The Form Area Configuration panel contains both general and advanced configuration [settings](../settings) for the form, as well as the [After Submit Actions](../after-submit-actions), which are critical for the form workflow.
 
-{% image caption="Use the Form Area shortcut to access it configuration from the builder.
 ![Form Area Shortcut](./assets/formarea-config-shortcut.webp)
+
+<small>Use the Form Area shortcut to access it configuration from the builder.</small>
 
 ## Structure
 

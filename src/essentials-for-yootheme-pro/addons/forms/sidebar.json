@@ -7,10 +7,6 @@
                 {
                     "text": "Overview",
                     "link": "./"
-                },
-                {
-                    "text": "Integration",
-                    "link": "./integration"
                 }
             ]
         },
@@ -41,7 +37,7 @@
                 {
                     "text": "Actions",
                     "collapsed": true,
-                    "link": "./actions/",
+                    "link": "./actions",
                     "items": [
                         {
                             "text": "Data",
@@ -192,7 +188,7 @@
                     "link": "./captcha",
                     "items": [
                         {
-                            "text": "reCaptcha",
+                            "text": "reCAPTCHA",
                             "link": "./captcha/recaptcha"
                         },
                         {

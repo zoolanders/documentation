@@ -18,9 +18,7 @@ The Datetime Access Rule evaluates whether the current date & time matches the s
 
 ## Settings
 
-{% image %}
 ![Datetime Access Rule](/assets/ytp/access/rule-datetime.webp)
-{% /image %}
 
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |

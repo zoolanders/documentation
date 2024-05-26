@@ -8,13 +8,11 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-{% $markdoc.frontmatter.description %}. {% .lead %}
+{% $markdoc.frontmatter.description %}.
 
 The API Key Driver it's a generic API key driver in case a service specific one is missing.
 
-{% image %}
 ![API Key Driver](/assets/ytp/auths/driver-api-key.webp)
-{% /image %}
 
 {% callout title="OAuth Security" %}
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).

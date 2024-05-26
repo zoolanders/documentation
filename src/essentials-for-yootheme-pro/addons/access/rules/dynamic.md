@@ -16,9 +16,7 @@ The Dynamic Access Rule determines whether a given value satisfies a specific se
 
 ## Settings
 
-{% image %}
 ![Dynamic Access Rule](/assets/ytp/access/rule-dynamic.webp)
-{% /image %}
 
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |
@@ -41,9 +39,7 @@ The Dynamic Access Rule determines whether a given value satisfies a specific se
 
 Evaluate if a specific date is **before than** or **after than** today.
 
-{% image %}
 ![Dynamic Access Rule Use Case Date](/assets/ytp/access/rule-dynamic-usecase-date.webp)
-{% /image %}
 
 1. Set the value as the date which should be compared with today, formated as `Y-m-d`.
 1. Set the condition field as **Greater than** or **Less than**.

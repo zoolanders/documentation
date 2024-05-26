@@ -17,9 +17,7 @@ The Day Access Rule evaluates whether the current day matches one of the selecte
 
 ## Settings
 
-{% image %}
 ![Day Access Rule](/assets/ytp/access/rule-day.webp)
-{% /image %}
 
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |

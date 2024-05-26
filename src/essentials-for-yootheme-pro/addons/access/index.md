@@ -1,16 +1,37 @@
 ---
-title: Access Addon
-pageTitle: Access Addon - An Essential addon for YOOtheme Pro
+addon: Access
 ---
+
+# Access Addon
 
 Compose rules that will determine the evaluation criteria for rendering an element. You can use static or dynamic values, establish custom evaluation logic, and view logs directly in the builder to gain a better understanding of the evaluation results.
 
-You can either get started in the next section or explore one of the topics listed below.
+## Integration
 
-<!-- {% quick-links %}
+Follow through to learn how to set an Access Condition. Even if you are already familiar with the concept you might learn something new.
 
-{% quick-link title="Access Condition" href="./condition" description="Discover the concept, workflow, and possibilities of the Access Condition." /%}
-{% quick-link title="Rules Reference" href="./rules" description="Explore all the available rules, their purpose and possibilities." /%}
-{% quick-link title="Custom Rules" href="./create-custom-rule" description="Learn how to create a custom condition rule." /%}
+<!--@include: ../_parts/enable-addon.md-->
 
-{% /quick-links %} -->
+### 1. Open the Condition Panel
+
+Navigate to the Builder and select the element you want to condition. From there, open the Access Condition Rules panel located under the [Advanced Settings](https://yootheme.com/support/yootheme-pro/joomla/elements).
+
+![Open Access Condition Panel](./assets/open-condition-panel.gif)
+
+### 2. Compose the Condition
+
+Check the [rules reference](../rules) to gain insights and form the condition according to your needs. In this particular case, we will be using a Day rule.
+
+![Compose Access Condition](./assets/compose-condition.gif)
+
+### 3. Set an Evaluation Mode
+
+If a condition is composed of multiple rules, the default evaluation mode is `AND`, meaning the condition will only be validated if all rules evaluate as true. However, you can also set the mode to `OR` or even `Custom`. In this case we are going to keep the default mode.
+
+![Set Access Condition Evaluation Mode](./assets/set-evaluation-mode.gif)
+
+### 4. Final Review
+
+Review the logs to confirm that the evaluation is using the correct data and that the outcome match your expectation.
+
+![Review Access Condition Evaluation Logs](./assets/review-evaluation-logs.gif)

@@ -16,9 +16,7 @@ The Facebook Source feeds data from [Facebook](https://www.facebook.com/) Pages.
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![Facebook Source Configuration](/assets/ytp/sources/fb-config.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -31,9 +29,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/facebook-oauth).
 
-{% image %}
 ![Facebook OAuth Driver](/assets/ytp/auths/driver-facebook-oauth.webp)
-{% /image %}
 
 ## Content Queries
 
@@ -43,9 +39,7 @@ For every source instance the following content queries will be made available a
 
 Fetches the content from the page resolving to a list of [Page Type](#page-type).
 
-{% image %}
 ![Facebook Page Query](/assets/ytp/sources/fb-query-page.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -55,9 +49,7 @@ Fetches the content from the page resolving to a list of [Page Type](#page-type)
 
 Fetches the posts from the page resolving to a list of [Page Post Type](#page-post-type).
 
-{% image %}
 ![Facebook Page Posts Query](/assets/ytp/sources/fb-query-page-posts.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -72,9 +64,7 @@ The content types define the mapping options for the source content.
 
 Defines the mapping options of a Facebook Page object.
 
-{% image %}
 ![Facebook Page Mapping](/assets/ytp/sources/fb-type-page.webp)
-{% /image %}
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |
@@ -104,9 +94,7 @@ Defines the mapping options of a Facebook Page object.
 
 Defines the mapping options of a Facebook Page Post object.
 
-{% image %}
 ![Facebook Page Post Mapping](/assets/ytp/sources/fb-type-post.webp)
-{% /image %}
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |

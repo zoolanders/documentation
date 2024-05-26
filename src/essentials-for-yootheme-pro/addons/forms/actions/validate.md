@@ -4,9 +4,7 @@ description: Add or alter submission data
 core: true
 ---
 
-# {{ $frontmatter.title }} Action
-
-{{ $frontmatter.description }}.
+<!--@include: ./parts/intro.md-->
 
 The **Validate Action** validates the submitted data with custom condition rules, if the validation fails no further actions will be executed.
 
@@ -17,3 +15,7 @@ The **Validate Action** validates the submitted data with custom condition rules
 | **Validate** | The list of data entries to add to the submission.  | | | &#x2713; |
 | **Validate.Name** | The name or key for the data entry, if data already exists it value will be overwritten. | | | &#x2713; |
 | **Validate.Value** | The value for the data entry. | &#x2713; | &#x2713; | &#x2713; |
+
+::: details Common Settings
+<!--@include: ./parts/common-settings.md-->
+:::

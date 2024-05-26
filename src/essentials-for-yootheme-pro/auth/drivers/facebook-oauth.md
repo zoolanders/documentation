@@ -8,13 +8,11 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-{% $markdoc.frontmatter.description %}. {% .lead %}
+{% $markdoc.frontmatter.description %}.
 
 The Facebook OAuth Driver manage Facebook OAuth protocol to authenticate and grant scope permissions.
 
-{% image %}
 ![Facebook OAuth Driver](/assets/ytp/auths/driver-facebook-oauth.webp)
-{% /image %}
 
 | Setting | Description |
 | ------- | ----------- |

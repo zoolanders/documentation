@@ -23,9 +23,7 @@ Notice that browser detection is not always accurate, users can setup their brow
 
 ## Settings
 
-{% image %}
 ![Operating System Access Rule](/assets/ytp/access/rule-os.webp)
-{% /image %}
 
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |

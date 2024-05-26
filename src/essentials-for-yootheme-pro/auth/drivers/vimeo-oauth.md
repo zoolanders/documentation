@@ -8,13 +8,11 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-{% $markdoc.frontmatter.description %}. {% .lead %}
+{% $markdoc.frontmatter.description %}.
 
 The Vimeo OAuth Driver manage Vimeo OAuth protocol to authenticate and grant scope permissions.
 
-{% image %}
 ![Vimeo OAuth Driver](/assets/ytp/auths/driver-vimeo-oauth.webp)
-{% /image %}
 
 | Setting | Description |
 | ------- | ----------- |

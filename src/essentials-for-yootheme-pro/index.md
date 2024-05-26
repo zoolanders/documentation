@@ -1,6 +1,6 @@
 ---
 title: Essentials for YOOtheme Pro
-pageTitle: Essentials for YOOtheme Pro Documentation
+titleTemplate: Essentials for YOOtheme Pro Documentation
 description: Essentials for YOOtheme Pro guides and documentation
 ---
 

@@ -16,9 +16,7 @@ The YouTube My Channel Source, part of the [YouTube Source](../) collection, cre
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![My YouTube Channel Source](/assets/ytp/sources/youtube-mychannel-config.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -31,9 +29,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/google-oauth).
 
-{% image %}
 ![Google OAuth Driver](/assets/ytp/auths/driver-google-oauth.webp)
-{% /image %}
 
 ## Content Queries
 
@@ -43,9 +39,7 @@ For every source instance the following content queries will be made available a
 
 Fetches the channel content resolving to a [Channel Type](../#channel-type).
 
-{% image %}
 ![My YouTube Channel Query](/assets/ytp/sources/youtube-mychannel.webp)
-{% /image %}
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -55,9 +49,7 @@ Fetches the channel content resolving to a [Channel Type](../#channel-type).
 
 Fetches a single video from the channel resolving to a [Video Type](../#video-type).
 
-{% image %}
 ![My YouTube Channel Video Query](/assets/ytp/sources/youtube-mychannel-video.webp)
-{% /image %}
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -68,9 +60,7 @@ Fetches a single video from the channel resolving to a [Video Type](../#video-ty
 
 Fetches videos from the channel resolving to a list of [Video Type](../#video-type).
 
-{% image %}
 ![My YouTube Channel Videos Query](/assets/ytp/sources/youtube-mychannel-videos.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -82,9 +72,7 @@ Fetches videos from the channel resolving to a list of [Video Type](../#video-ty
 
 Fetches a single playlist from the channel resolving to a [Playlist Type](../#playlist-type).
 
-{% image %}
 ![My YouTube Channel Playlist Query](/assets/ytp/sources/youtube-mychannel-playlist.webp)
-{% /image %}
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -96,9 +84,7 @@ Fetches a single playlist from the channel resolving to a [Playlist Type](../#pl
 
 Fetches videos from the playlist resolving to a list of [Video Type](../#video-type).
 
-{% image %}
 ![My YouTube Channel Videos Query](/assets/ytp/sources/youtube-mychannel-playlist-videos.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |

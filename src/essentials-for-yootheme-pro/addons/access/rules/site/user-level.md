@@ -17,9 +17,7 @@ The User Level Access Rule evaluates whether the current user's access or role l
 
 ## Settings
 
-{% image %}
 ![User Level Access Rule](/assets/ytp/access/rule-user-level.webp)
-{% /image %}
 
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |

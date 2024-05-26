@@ -16,9 +16,7 @@ The YouTube Videos Source, part of the [YouTube Source](../) collection, creates
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![YouTube Videos Source](/assets/ytp/sources/youtube-videos-config.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -30,9 +28,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on an API Key driven by the [Google API Key Driver](/essentials-for-yootheme-pro/auth/drivers/google-api-key).
 
-{% image %}
 ![Google API Key Driver](/assets/ytp/auths/driver-google-api-key.webp)
-{% /image %}
 
 {% callout title="Keys Security" %}
 Learn more about Essentials [Keys security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
@@ -46,9 +42,7 @@ For every source instance the following content queries will be made available a
 
 Fetches public videos with advanced query params resolving to a list of [Video Type](..#video-type).
 
-{% image %}
 ![YouTube Videos Query](/assets/ytp/sources/youtube-videos-query.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |

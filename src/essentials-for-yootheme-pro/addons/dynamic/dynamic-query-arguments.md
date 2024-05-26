@@ -1,14 +1,12 @@
 ---
-title: Dynamic Query Arguments
+titleTemplate: Advanced Dynamic Workflow for YOOtheme Pro
 ---
 
-Empower core and custom sources by turning their queries arguments dynamic.
+# Dynamic Query Arguments
 
 YOOtheme Pro Dynamic capabilities are restricted to the elements fields and when a dynamic source is selected, its arguments are limited to static configuration. Dynamic Query Arguments breakes through that limitation and allow you to set a dynamic value to any core or custom source query argument.
 
-{% image %}
-![Dynamic Query Arguments](/assets/ytp/dynamic/dynamic-query-arguments.webp)
-{% /image %}
+![Dynamic Query Arguments](./assets/dynamic-query-arguments.webp)
 
 The dynamic values are limited to Page, Global and Custom Queries with support for composing any combination of those with a Composable Source. That's intentional as it would not be possible to choose a Node Source content while that content hasn't been set yet!
 

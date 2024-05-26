@@ -1,22 +1,16 @@
 ---
+title: Upload
 description: A one-line file upload form control
 preset: /assets/ytp/presets/FormArea-Upload.json
-icon: '
-  <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
-  <path fill="none" stroke-width="2" d="M11 15 15 11l4 4"/>
-  <path fill="none" stroke-width="2" d="M15 11v9"/>
-'
 ---
 
-# Upload Field Element
+# {{ $frontmatter.title }} Field Element
 
-{% elementIcon draw=$markdoc.frontmatter.icon /%}
-
-{% $markdoc.frontmatter.description %}.
+{{ $frontmatter.description }}.
 
 The **Upload Element** displays a [\<input type="file"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file) HTML element wrapped with a [UIkit Custom Control](https://getuikit.com/docs/form#custom-controls), use it to allow users uploading one or more files from their device.
 
-![Upload Element](./assets/fields/upload.webp)
+![Upload Element](./assets/upload.webp)
 
 ## Settings
 
@@ -29,13 +23,13 @@ It inherits common settings with the following specifics:
 | **Allow multiple** | Should be allowed to upload multiple files simultaneously. |
 | **Avoid collisions** | Should the uploaded filename be renamed in the case of a name conflict with a pre-existing file. The new name will be the original name appended with `_{n}`, being `n` a sequential number. |
 
-{% details title="Common Settings
-  {% partial file="ytp-formarea-field-common-settings.md" /%}
-{% /details %}
+::: details Common Settings
+<!--@include: ./parts/common-settings.md-->
+:::
 
 ### Display
 
-![Upload Display](./assets/fields/upload-display.webp)
+![Upload Display](./assets/upload-display.webp)
 
 | Setting | Description |
 | ------- | ----------- |
@@ -44,7 +38,7 @@ It inherits common settings with the following specifics:
 
 ### Upload Input
 
-![Upload Input](./assets/fields/upload-input.webp)
+![Upload Input](./assets/upload-input.webp)
 
 | Setting | Description |
 | ------- | ----------- |
@@ -53,7 +47,7 @@ It inherits common settings with the following specifics:
 
 ### Upload Button
 
-![Upload Button](./assets/fields/upload-button.webp)
+![Upload Button](./assets/upload-button.webp)
 
 | Setting | Description |
 | ------- | ----------- |
@@ -72,9 +66,9 @@ It inherits common validation with the following specifics:
 | **Min File Size** | The minimum size that the uploaded files must constrain to, `greater than` or `equal to`, using any standard size unit `B`, `KB`, `MB`, `GB`, `TB`, `PB`, `EB`, `ZB`, or `YB`.  | &#x2713; | | &#x2713; |
 | **Max File Size** | The maximum size that the uploaded files must constrain to, `lower than` or `equal to`, using the same size units as Min File Size. | &#x2713; | | &#x2713; |
 
-{% details title="Common Validation
-    {% partial file="ytp-formarea-field-common-validation.md" /%}
-{% /details %}
+::: details Common Validation
+<!--@include: ./parts/common-validation.md-->
+:::
 
 ## Integration
 

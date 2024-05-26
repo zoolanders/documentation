@@ -17,9 +17,7 @@ The Google Calendar source feeds data from the Google Calendar service. Based on
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![Google Calendar Configuration](/assets/ytp/sources/google-calendar-config.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -32,9 +30,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/google-oauth).
 
-{% image %}
 ![Google OAuth Driver](/assets/ytp/auths/driver-google-oauth.webp)
-{% /image %}
 
 ## Content Queries
 

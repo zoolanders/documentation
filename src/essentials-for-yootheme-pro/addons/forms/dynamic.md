@@ -1,7 +1,5 @@
 # Dynamic Workflow
 
-Integrate Submission Data and Dynamic Content in advanced submission workflows.
-
 As forms are dynamic in nature, there are various ways to reference submitted data during the submission workflow. By utilizing these, as well as Dynamic Content, forms can be customized to meet the specific needs of the workflow, enabling more complex and advanced form submission processes.
 
 ## Data Placeholders

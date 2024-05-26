@@ -4,9 +4,7 @@ core: true
 description: Send transactional emails
 ---
 
-# {{ $frontmatter.title }} Action
-
-{{ $frontmatter.description }}.
+<!--@include: ./parts/intro.md-->
 
 The **Email Action** sends preset emails with support for [Dynamic Workflow](../../dynamic) and [Attachments](#attachments). Use it to send a *Thank You* email to the submitter, a transactional email to the site owner, etc.
 
@@ -22,6 +20,10 @@ The **Email Action** sends preset emails with support for [Dynamic Workflow](../
 | **CCs** | The list of addresses to which the email will be sent as a Carbon Copy, separated by a comma. | &#x2713; | &#x2713; |
 | **BCCs** | The list of addresses to which the email will be sent as a Blind Carbon Copy, separated by a comma. | &#x2713; | &#x2713; |
 | **Send as HTML** | Should the email content be sent as HTML instead of plain text. |
+
+::: details Common Settings
+<!--@include: ./parts/common-settings.md-->
+:::
 
 ## Content
 

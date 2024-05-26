@@ -35,9 +35,7 @@ The content types define the mapping options for the source content.
 
 ### Media Type
 
-{% image %}
 ![Instagram Media Mapping](/assets/ytp/sources/ig-type-media.webp)
-{% /image %}
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |
@@ -58,9 +56,7 @@ The content types define the mapping options for the source content.
 
 ### Album Media Type
 
-{% image %}
 ![Instagram Album Media Mapping](/assets/ytp/sources/ig-type-album-media.webp)
-{% /image %}
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |
@@ -74,9 +70,7 @@ The content types define the mapping options for the source content.
 
 ### User Type
 
-{% image %}
 ![Instagram User Mapping](/assets/ytp/sources/ig-type-user.webp)
-{% /image %}
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |

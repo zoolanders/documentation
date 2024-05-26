@@ -17,9 +17,7 @@ The Month Access Rule evaluates whether the current month matches one of the sel
 
 ## Settings
 
-{% image %}
 ![Month Access Rule](/assets/ytp/access/rule-month.webp)
-{% /image %}
 
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |

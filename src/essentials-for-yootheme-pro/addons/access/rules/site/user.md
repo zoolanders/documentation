@@ -16,9 +16,7 @@ The User Rule evaluates whether the current user's `id` or `username` matches on
 
 ## Settings
 
-{% image %}
 ![User Access Rule](/assets/ytp/access/rule-user.webp)
-{% /image %}
 
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |

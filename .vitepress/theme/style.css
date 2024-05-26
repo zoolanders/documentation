@@ -4,16 +4,25 @@
  */
 
 @font-face {
-  font-family: 'Varela Round';
-  font-weight: 100 900;
+  font-family: 'Nunito';
+  font-weight: 100 600;
   font-display: block;
   font-style: normal;
   font-named-instance: 'Regular';
-  src: url('/fonts/varela-round.regular.woff2') format('woff2');
+  src: url('/fonts/Nunito-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-weight: 800 900;
+  font-display: block;
+  font-style: bold;
+  font-named-instance: 'Bold';
+  src: url('/fonts/Nunito-Bold.woff2') format('woff2');
 }
 
 :root {
-  --vp-font-family-base: 'Varela Round', 'Inter var', 'Inter', ui-sans-serif,
+  --vp-font-family-base: 'Nunito', 'Inter var', 'Inter', ui-sans-serif,
   system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
   'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif,
   'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
@@ -114,12 +123,39 @@
 }
 
 /**
+ * theme: General
+ * -------------------------------------------------------------------------- */
+
+ .tm-lead {
+  font-size: 1.25em;
+  line-height: 1.6;
+ }
+
+
+/**
  * layout: Doc
  * -------------------------------------------------------------------------- */
 
 :root {
   --vp-code-bg: transparent;
   --vp-code-color: rgb(14 165 233 / 1);
+}
+
+.vp-doc p,
+.vp-doc summary {
+  margin: 25px 0;
+}
+
+.vp-doc strong {
+  font-weight: 800;
+}
+
+.vp-doc h2 {
+  padding-top: 32px;
+}
+
+.vp-doc h2 .header-anchor {
+  top: 32px;
 }
 
 .vp-doc th,
@@ -139,10 +175,6 @@
   border: none;
 }
 
-.vp-doc strong {
-  font-weight: 500;
-}
-
 .vp-doc a:not(:hover) {
   text-decoration: none !important;
 }
@@ -154,6 +186,10 @@
 .vp-doc :not(pre) > code:before,
 .vp-doc :not(pre) > code:after {
   content: "`";
+}
+
+.vp-doc hr {
+  margin: 3em 0;
 }
 
 /**
@@ -195,27 +231,39 @@
  * -------------------------------------------------------------------------- */
 
 :root {
+  --vp-custom-block-font-size: 15px;
+
   --vp-custom-block-tip-bg: rgb(240 249 255/1);
   --vp-custom-block-tip-code-bg: transparent;
+
+  /* --vp-custom-block-warning-bg: rgb(255 247 237); */
+  /* --vp-custom-block-warning-text: rgb(180, 83, 9); */
 }
 
-.custom-block .custom-block-title {
-  font-size: 16px;
+.vp-doc .custom-block {
+  margin: 36px 0;
+  padding: 16px 16px 8px;
+  border-radius: 8px;
 }
 
-.custom-block.tip code {
+.vp-doc .custom-block .custom-block-title {
+  font-weight: 800;
+}
+
+.vp-doc .custom-block.tip code {
   color: var(--vp-code-color);
 }
 
-.custom-block.details {
+.vp-doc .custom-block.details {
   padding: 0;
   background-color: transparent
 }
 
-.custom-block a {
+.vp-doc .custom-block a {
   color: var(--vp-c-brand-1) !important;
 }
-.custom-block a:hover {
+
+.vp-doc .custom-block a:hover {
   opacity: 1;
 }
 
@@ -225,6 +273,10 @@
 
 #VPSidebarNav {
   margin-top: 25px;
+}
+
+.VPSidebar .group + .group {
+  border-top: 0;
 }
 
 .VPSidebarItem.is-active > .item .indicator {

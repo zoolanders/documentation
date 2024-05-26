@@ -2,7 +2,7 @@
 title: OAuths, Keys & Secrets
 ---
 
-OAuths, Keys & Secrets is sensitive authentication data that we simply call auths. {% .lead %}
+OAuths, Keys & Secrets is sensitive authentication data that we simply call auths.
 
 Essentials builds on top of YOOtheme Pro a workflow to authenticate to third-party services with the [OAuth](#oauth) protocol as well as to store [Keys and Secrets](#keys-and-secrets). The auth workflow has been built with [security](#security) in mind, as well as convenience through a [manager](#auth-manager).
 
@@ -12,15 +12,11 @@ Essentials builds on top of YOOtheme Pro a workflow to authenticate to third-par
 
 The Auth Manager can be accessed at `Customizer -> Essentials -> Auths` section. There you can manage OAuths, Keys & Secrets, but you cannot create new ones as an auth is tied to specific scopes and/or purpose only known while building the layouts.
 
-{% image %}
 ![Auth Manager](/assets/ytp/auths-manager.gif)
-{% /image %}
 
 It is also possible, and somewhat more convenient, to manage the auths while creating the resources that require them.
 
-{% image %}
 ![Auth Manager Field](/assets/ytp/auths-manager-field.webp)
-{% /image %}
 
 ---
 
@@ -34,9 +30,7 @@ Every auth requires an Auth Driver that will manage the authentication workflow 
 
 This is the process where you authenticate to third-party services using the OAuth protocol and grant [ZOOlanders OAuth App](#zoolanders-oauth-app), or your [Custom OAuth App](#custom-oauth-app), permissions to access content or act on your behalf.
 
-{% image %}
 ![OAuth](/assets/ytp/auths-oauth.webp)
-{% /image %}
 
 ---
 
@@ -46,9 +40,7 @@ To use the OAuth protocol with a service, it is necessary to create an OAuth App
 
 To address these challenges, we have developed a web app that acts as an intermediary for all service-specific apps that have already been created and approved. This approach provides a simple and straightforward way for you to authenticate and grant permissions without having to go through the process yourself.
 
-{% image %}
 ![ZOOlanders OAuth App](/assets/ytp/zl-oauth-app.webp)
-{% /image %}
 
 {% callout type="warning" title="Quota Limitations" %}
 It is important to keep in mind that when using our OAuth App, the API quota is shared among other users. Although we keep our requests optimized and have not yet reached any limits, it is still necessary to consider the possibility it might happen.
@@ -60,9 +52,7 @@ It is important to keep in mind that when using our OAuth App, the API quota is 
 
 We strongly recommend that high traffic sites, or anyone with the necessary skills, create their own OAuth App and use its client ID and secret for authentication. This approach helps to avoid any potential quota limitations and provides additional security measures. By creating your own OAuth App, you can have more control over the authentication process and tailor it to your specific needs.
 
-{% image %}
 ![Custom OAuth App](/assets/ytp/auths-custom-app.webp)
-{% /image %}
 
 ---
 
@@ -70,9 +60,7 @@ We strongly recommend that high traffic sites, or anyone with the necessary skil
 
 The auth workflow is a convenient way to securely manage keys and secrets that are required for certain features and services. By centralizing these keys and secrets you can ensure that they are stored securely and are easily accessible when needed. This helps simplify the management of these credentials and provide an additional layer of security.
 
-{% image %}
 ![Keys and Secrets](/assets/ytp/auths-key.webp)
-{% /image %}
 
 ---
 

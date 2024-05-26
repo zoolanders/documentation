@@ -1,21 +1,16 @@
 ---
+title: Select
 description: A multi-option one-line form control
 preset: /assets/ytp/presets/FormArea-Select.json
-icon: '
-  <path fill="none" stroke-width="2" d="M2 7.5h26v15H2z"/>
-  <path fill="none" stroke-width="2" d="M24 14l-3 3-3-3"/>
-'
 ---
 
-# Select Field Element
+# {{ $frontmatter.title }} Field Element
 
-{% elementIcon draw=$markdoc.frontmatter.icon /%}
-
-{% $markdoc.frontmatter.description %}.
+{{ $frontmatter.description }}.
 
 The **Select Element** displays a [\<select\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) HTML element, use it to allow users to choose, by selection, a single or multiple pre-established options.
 
-![Select Element](./assets/fields/select.webp)
+![Select Element](./assets/select.webp)
 
 ## Settings
 
@@ -28,15 +23,15 @@ It inherits common settings with the following specifics:
 | **Height** | The number of rows in the list that will be visible by default, if Multiple Selection is enabled. |
 | **Multiple Selection** | Should it be allowed to choose more than one option. |
 
-{% details title="Common Settings
-    {% partial file="ytp-formarea-field-common-settings.md" /%}
-{% /details %}
+::: details Common Settings
+<!--@include: ./parts/common-settings.md-->
+:::
 
 ## Options
 
 Options are specified as child items that can be input manually as well as dynamically with the use of a Dynamic Content source. Each option has the following settings:
 
-![Field Options](./assets/fields/options.webp)
+![Field Options](./assets/options.webp)
 
 | Setting | Description |
 | ------- | ----------- |
@@ -53,9 +48,9 @@ It inherits common validation with the following specifics:
 | **Min** | The minimum amount of options that must be chosen, `greater than` or `equal to`. | &#x2713; | | &#x2713; |
 | **Max** | The maximum amount of options that can be chosen, `lower than` or `equal to`. | &#x2713; | | &#x2713; |
 
-{% details title="Common Validation
-    {% partial file="ytp-formarea-field-common-validation.md" /%}
-{% /details %}
+::: details Common Validation
+<!--@include: ./parts/common-validation.md-->
+:::
 
 ## Integration
 

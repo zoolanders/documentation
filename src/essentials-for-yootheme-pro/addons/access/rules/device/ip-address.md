@@ -18,9 +18,7 @@ The IP Address Access Rule evaluates whether the device ip address matches one o
 
 ## Settings
 
-{% image %}
 ![IP Address Access Rule](/assets/ytp/access/rule-ip-address.webp)
-{% /image %}
 
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |

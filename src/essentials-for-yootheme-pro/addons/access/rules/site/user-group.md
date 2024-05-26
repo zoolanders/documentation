@@ -21,9 +21,7 @@ Notice that this rule is specific to Joomla.
 
 ## Settings
 
-{% image %}
 ![User Group Access Rule](/assets/ytp/access/rule-user-group.webp)
-{% /image %}
 
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |

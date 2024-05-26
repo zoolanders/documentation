@@ -7,17 +7,13 @@ export default createContentLoader(
     transform(rawData) {
       return (
         rawData
-          // .sort((a, b) => {
-          //   return +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date)
-          // })
           .filter((item) => !item.frontmatter?.index)
           .map((item) => {
-            // const name = item.url.split('/').pop().replace('.html', '')
-            const name = item.frontmatter?.title?.toLowerCase()
+            const name = item.frontmatter?.title?.toLowerCase().replace(/ /g, '-');
 
             return {
               ...item.frontmatter,
-              icon: `/essentials-for-yootheme-pro/addons/forms/actions/assets/${name}.svg`,
+              icon: `/essentials-for-yootheme-pro/addons/forms/actions/assets/icon/${name}.svg`,
               link: item.url,
             }
           })

@@ -3,6 +3,8 @@ import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import './style.css'
 
+import TmIndex from './components/TmIndex.vue'
+
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
@@ -12,6 +14,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('TmIndex', TmIndex)
   },
 }

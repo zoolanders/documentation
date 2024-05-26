@@ -1,6 +1,6 @@
 # Troubleshooting
 
-Solve common issues.
+Find solutions to common issues.
 
 ## Submission Fails With Vague Error
 

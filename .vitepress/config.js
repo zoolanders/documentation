@@ -37,8 +37,7 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Guides', link: '/guides' },
       {
         text: 'Addons',
         items: [
@@ -131,6 +130,35 @@ export default defineConfig({
       ]
     }
   },
+  async transformPageData(pageData, { siteConfig }) {
+    const filePath = pageData.filePath;
+
+    // Forms Addon
+    switch (true) {
+      // actions
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/forms/actions') && !filePath.endsWith('index.md'):
+      pageData.titleTemplate = ':title Action | Forms Builder for YOOtheme Pro'
+        break
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/forms/fields') && !filePath.endsWith('index.md'):
+      pageData.titleTemplate = ':title Field Element | Form Builder for YOOtheme Pro'
+        break
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/forms/captcha') && !filePath.endsWith('index.md'):
+      pageData.titleTemplate = ':title Field Element | Form Builder for YOOtheme Pro'
+        break
+
+      // fallback
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/forms/'):
+      pageData.titleTemplate = ':title | Form Builder for YOOtheme Pro'
+        break
+    }
+
+    // Dynamic Addon
+    switch (true) {
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/dynamic'):
+      pageData.titleTemplate = ':title | Advanced Dynamic Content for YOOtheme Pro'
+        break
+    }
+  }
 })
 
 function prependBase(basePath, items) {

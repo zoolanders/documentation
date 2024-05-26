@@ -8,13 +8,11 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-{% $markdoc.frontmatter.description %}. {% .lead %}
+{% $markdoc.frontmatter.description %}.
 
 The TikTok OAuth Driver manage TikTok OAuth protocol to authenticate and grant scope permissions.
 
-{% image %}
 ![TikTok OAuth Driver](/assets/ytp/auths/driver-tiktok-oauth.webp)
-{% /image %}
 
 | Setting | Description |
 | ------- | ----------- |

@@ -17,9 +17,7 @@ The Language Access Rule evaluates whether the site language matches one of the 
 
 ## Settings
 
-{% image %}
 ![Language Access Rule](/assets/ytp/access/rule-language.webp)
-{% /image %}
 
 | Setting | Description | Required | Dynamic |
 | ------- | ----------- | :------: | :-----: |

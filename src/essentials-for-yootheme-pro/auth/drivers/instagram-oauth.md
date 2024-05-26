@@ -10,13 +10,11 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-{% $markdoc.frontmatter.description %}. {% .lead %}
+{% $markdoc.frontmatter.description %}.
 
 The Instagram OAuth Driver manage Instagram OAuth protocol to authenticate and grant scope permissions.
 
-{% image %}
 ![Instagram OAuth Driver](/assets/ytp/auths/driver-instagram-oauth.webp)
-{% /image %}
 
 | Setting | Description |
 | ------- | ----------- |

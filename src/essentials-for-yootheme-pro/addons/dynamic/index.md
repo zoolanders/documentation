@@ -1,17 +1,15 @@
 ---
-title: Dynamic Addon
-pageTitle: Dynamic Addon - An Essential addon for YOOtheme Pro
+addon: Dynamic
 ---
+
+# Dynamic Addon
 
 Expand the possibilities of YOOtheme Pro Dynamic Content with per-field sources, source inheritance, global queries, dynamic query arguments and more.
 
-You can either get started in the next section or explore one of the topics listed below.
+# Integration
 
-<!-- {% quick-links %}
+<!--@include: ../_parts/enable-addon.md-->
 
-{% quick-link title="Global Queries" href="./global-queries" description="Learn how and when to use Global Queries." /%}
-{% quick-link title="Dynamic Query Arguments" href="./global-queries" description="Empower your workflow with Dynamic Query Arguments." /%}
-{% quick-link title="Field Sources" href="./per-field-dynamic-content" description="Explore the potential of per-field dynamic content." /%}
-{% quick-link title="Composable Sources" href="./composable-sources" description="Compose a source combining text and dynamic content." /%}
+Now that the Dynamic Content workflow has been expanded to include [Per-Field Dynamic Content](../per-field-dynamic-content) and [Global Queries](../global-queries), take the time to delve into both concepts. Incorporate them into your layouts as needed, using the familiar approach, but now with a wider range of mapping options available.
 
-{% /quick-links %} -->
+![Field Dynamic Options](./assets/field-dynamic-options.webp)

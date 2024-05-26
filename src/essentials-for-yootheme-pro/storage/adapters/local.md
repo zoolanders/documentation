@@ -9,15 +9,13 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-{% $markdoc.frontmatter.description %}. {% .lead %}
+{% $markdoc.frontmatter.description %}.
 
 With the Local Storage Adapter, you have the ability to set up a specific folder as a storage location. This folder can either be relative to the site directory, such as `layouts`, or absolute from the server root, such as `/home/user/layouts`.
 
 The designated folder must already exist and be accessible for reading and writing by the PHP user. Typically, this means that the folder should be located within the user's home directory.
 
-{% image %}
 ![Local Storage Adapter](/assets/ytp/storage/adapter-local.webp)
-{% /image %}
 
 | Setting | Description |
 | ------- | ----------- |

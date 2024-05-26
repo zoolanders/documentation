@@ -16,9 +16,7 @@ The TikTok Source feeds data from [TikTok](https://www.vimeo.com) media. Based o
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![TikTok Source Configuration](/assets/ytp/sources/tiktok-config.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -30,9 +28,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [TikTok OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/tiktok-oauth).
 
-{% image %}
 ![TikTok OAuth Driver](/assets/ytp/auths/driver-tiktok-oauth.webp)
-{% /image %}
 
 ## Content Queries
 
@@ -42,9 +38,7 @@ For every source instance the following content queries will be made available a
 
 Fetches videos from the authenticated account and resolves to a list of [Video Type](#video-type).
 
-{% image %}
 ![TikTok Videos Query](/assets/ytp/sources/tiktok-query-videos.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -61,9 +55,7 @@ The content types define the mapping options for the source content.
 
 The **Video Type** defines the mapping options of a TikTok Video object.
 
-{% image %}
 ![TikTok Video Mapping](/assets/ytp/sources/tiktok-type-video.webp)
-{% /image %}
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |

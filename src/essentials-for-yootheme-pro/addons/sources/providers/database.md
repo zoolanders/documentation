@@ -16,9 +16,7 @@ The Database Source feeds data from local or external MySQL Database Tables, sup
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![Database Instance Configuration](/assets/ytp/sources/db-config.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -34,9 +32,7 @@ The source settings determines the content structure, every time the instance is
 
 The connection to the database will use the site configuration, but if `Custom Connection` is enabled the settings inputs will be used instead with support for local as remote servers.
 
-{% image %}
 ![Database Instance Connection](/assets/ytp/sources/db-config-connection.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -51,9 +47,7 @@ Complex data structures typically involve several tables related between them, i
 - **One to One**, also known as **BelongsTo**, where a single entry relates with another single entry, e.g. Article belongs to an Author.
 - **One to Many**, also known as **HasMany**, where a single entry relates with multiple entries, e.g. Article is assigned to many Categories.
 
-{% image %}
 ![Database Instance Relations](/assets/ytp/sources/db-config-relations.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -75,9 +69,7 @@ For every source instance the following content queries will be made available a
 
 Fetches a single record from the table and resolves to a dynamically generated record type based on the table schema.
 
-{% image %}
 ![Database Record Query](/assets/ytp/sources/db-query-record.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -91,9 +83,7 @@ Fetches a single record from the table and resolves to a dynamically generated r
 
 Fetches records from the table and resolves to a dynamically generated list of record type based on the table schema.
 
-{% image %}
 ![Database Records Query](/assets/ytp/sources/db-query-records.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |

@@ -1,14 +1,15 @@
 ---
+title: Button Submit
+description: Interactive form submit control
 preset: /assets/ytp/presets/FormArea-Buttons.json
+child: true
 ---
 
-# Button Submit Element
-
-An interactive form submit control.
+<!--@include: ./parts/intro.md-->
 
 Child of [Button Element](../button), the **Button Submit Element** displays a [\<button type="submit"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit) HTML element, use it to display a button that will submit the form.
 
-![Button Submit Element](./assets/fields/button-submit.webp)
+![Button Submit Element](./assets/button-submit.webp)
 
 ## Settings
 

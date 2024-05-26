@@ -1,22 +1,13 @@
 ---
+title: reCAPTCHA
 description: A captcha solution from Google
-icon: '
-  <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M1.806 16.304c0 .173.004.345.012.516v9.745l2.694-2.694a12.002 12.002 0 0 0 9.317 4.423c3.91 0 7.384-1.866 9.58-4.757l-4.416-4.462a5.858 5.858 0 0 1-1.789 2.007c-.771.602-1.864 1.093-3.375 1.093-.182 0-.323-.021-.427-.061a5.824 5.824 0 0 1-4.451-2.681l3.126-3.126c-3.959.016-8.432.025-10.271-.002"/>
-  <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M28.194 13.7a12.648 12.648 0 0 0-.012-.516V3.439l-2.694 2.694c-2.205-2.699-4.485-4.427-8.243-4.427v6.025c1.818.469 3.06 1.27 3.804 2.84l-3.126 3.126c3.959-.015 8.432-.025 10.271.002"/>
-  <path fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M13.795 1.706c-.173 0-.344.005-.515.012H3.534l2.694 2.694c-2.699 2.205-4.407 7.245-4.405 8.408 0 0 6.177-.019 6.2-.011.148-1.872 1.144-3.002 2.643-3.958l3.126 3.126c-.015-3.959-.024-8.432.002-10.271"/>
-'
 ---
 
-# reCAPTCHA Element
-
-{% elementIcon draw=$markdoc.frontmatter.icon /%}
-
-{% $markdoc.frontmatter.description %}.
+<!--@include: ./parts/intro.md-->
 
 The reCAPTCHA element integrates [Google reCAPTCHA](https://developers.google.com/recaptcha) service that helps protect websites from spam and abuse.
 
-{% image width="sm
-![reCAPTCHA Element](./assets/captcha/recaptcha.webp)
+![reCAPTCHA Element](./assets/recaptcha.webp)
 
 ## Settings
 
@@ -34,8 +25,7 @@ reCAPTCHA v2 verifies if an interaction is legitimate with a captcha challenge p
 
 Requires the user to click a checkbox indicating is not a robot.
 
-{% image className="max-w-xs
-![reCAPTCHA v2 Checkbox](./assets/captcha/recaptcha-checkbox.gif)
+![reCAPTCHA v2 Checkbox](./assets/recaptcha-checkbox.gif)
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
@@ -47,8 +37,7 @@ Requires the user to click a checkbox indicating is not a robot.
 
 A captcha might be invoked when the form is submitted, but the badge is always visible.
 
-{% image className="max-w-xs
-![reCAPTCHA v2 Invisible](./assets/captcha/recaptcha-invisible.png)
+![reCAPTCHA v2 Invisible](./assets/recaptcha-invisible.png)
 
 | Setting | Description |
 | ------- | ----------- |

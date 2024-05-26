@@ -1,15 +1,13 @@
 ---
 title: Essentials Settings
-pageTitle: Essentials for YOOtheme Pro Settings
+titleTemplate: Essentials for YOOtheme Pro Settings
 ---
 
-Essentials global data and configuration. {% .lead %}
+Essentials global data and configuration.
 
 Essentials Settings are accessed at `Customizer -> Essentials` panel where, beside addons configuration, other global data and configuration is displayed. The data is stored independently from the theme in a Database table.
 
-{% image %}
 ![Essentials Settings](/assets/ytp/essentials-settings.gif)
-{% /image %}
 
 ---
 

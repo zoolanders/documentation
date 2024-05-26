@@ -2,7 +2,7 @@
 title: Updating Essentials
 ---
 
-Essentials can be updated using the Joomla or WordPress update system. {% .lead %}
+Essentials can be updated using the Joomla or WordPress update system.
 
 Whenever a new version is available, you will receive a notification in the system dashboard. You can then download the latest version from the [downloads section](https://www.zoolanders.com/downloads) and install it over, or enable a 1-click update to semi or fully automate the process.
 

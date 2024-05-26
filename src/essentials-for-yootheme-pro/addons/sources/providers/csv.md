@@ -17,9 +17,7 @@ The CSV Source feeds data from local files formatted as CSV (comma-separated val
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![CSV Instance Settings](/assets/ytp/sources/csv-config.webp)
-{% /image %}
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -37,9 +35,7 @@ For every source instance the following content queries will be made available a
 
 Fetches records from the file and resolves to a list of dynamically generated CSV record type based on the file schema.
 
-{% image %}
 ![CSV Records Query](/assets/ytp/sources/csv-query-records.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |

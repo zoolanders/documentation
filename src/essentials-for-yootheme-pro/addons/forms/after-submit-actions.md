@@ -1,7 +1,5 @@
 # After Submit Actions
 
-Configure a sequence of functions to be executed one after the other upon successful submission.
-
 After Submit Actions are [multi-instance](#multi-instance) functions that will run sequentially, after a form has been successfully submitted, as long as the chain is not disrupted by an error. These are crucial for the form workflow, as submission data is not processed or logged unless there is an action set for the task.
 
 Actions are configured in the [Form Area Configuration](../form-area#configuration) and tipically involves sending an email or saving the submission data to the database. For a full overview of available actions and their capabilities, consult the [actions reference](../actions) section.

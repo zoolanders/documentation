@@ -1,6 +1,4 @@
----
-title: My Icons
----
+# My Icons
 
 Custom curated icons under a Child Theme scope.
 
@@ -8,6 +6,4 @@ My Icons is a collection of custom curated icons set under the scope of a Child 
 
 You can as well group them into subfolders, e.g. `{childtheme}/myicons/group-a`, `{childtheme}/myicons/group-b`.
 
-{% image %}
-![My Icons](/assets/ytp/icons/my-icons.webp)
-{% /image %}
+![My Icons](./assets/my-icons.webp)

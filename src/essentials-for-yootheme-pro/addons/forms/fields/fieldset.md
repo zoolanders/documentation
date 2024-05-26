@@ -1,17 +1,10 @@
 ---
+title: Fieldset
+description: Control grouping
 preset: /assets/ytp/presets/FormArea-Fieldset.json
-description: A control grouping
-icon: '
-  <path fill="none" stroke-width="2" d="M1 4h28v22H1z"/>
-  <path stroke-width="2" d="M5 17h19zM5 13h19zM5 9h10z"/>
-'
 ---
 
-# Fieldset Element
-
-{% elementIcon draw=$markdoc.frontmatter.icon /%}
-
-{% $markdoc.frontmatter.description %}.
+<!--@include: ./parts/intro.md-->
 
 The **Fieldset Element** displays a [\<fieldset\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Fieldset) HTML element, use it to group fields for visual and accessibility purposes.
 

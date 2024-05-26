@@ -16,9 +16,7 @@ The Airtable Source feeds data from Airtable platform. Based on the [multi-insta
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![Google Sheet Instance Configuration](/assets/ytp/sources/airtable-config.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -32,9 +30,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the Airtable Personal Access Token driven by the [Airtable Token Driver](/essentials-for-yootheme-pro/auth/drivers/airtable-access-token).
 
-{% image %}
 ![Airtable Access Token Driver](/assets/ytp/auths/driver-airtable-access-token.webp)
-{% /image %}
 
 ## Content Queries
 

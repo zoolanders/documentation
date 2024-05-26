@@ -18,9 +18,7 @@ The Google Sheet Source feeds data from a Google Sheet spreadsheet. Based on the
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![Google Sheet Instance Configuration](/assets/ytp/sources/gsheet-config.webp)
-{% /image %}
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -36,9 +34,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/google-oauth).
 
-{% image %}
 ![Google OAuth Driver](/assets/ytp/auths/driver-google-oauth.webp)
-{% /image %}
 
 ## Content Queries
 
@@ -48,9 +44,7 @@ For every source instance the following content queries will be made available a
 
 Fetches records from the spreadsheet and resolves to a dynamically generated list of record type based on the sheet schema.
 
-{% image %}
 ![Google Sheet Records Query](/assets/ytp/sources/gsheet-query-records.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |

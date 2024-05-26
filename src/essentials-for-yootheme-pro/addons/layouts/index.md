@@ -1,34 +1,41 @@
 ---
-title: Layouts Addon
-pageTitle: Layouts Addon - An Essential addon for YOOtheme Pro
+addon: Layouts
 ---
+
+# Layouts Addons
 
 Create custom layout libraries which layouts can be stored locally or shared across multiple sites through the use of external storage options like FTP or Amazon S3.
 
 By setting a custom layout library within the [Layout Libraries Manager](#layout-libraries-manager), you can load and browse page builder layouts in a workflow similar to the core [Layout Library](https://yootheme.com/support/yootheme-pro/joomla/layout-library). However, a custom library come with some valuable enhancements.
 
-## Cross-Site Layout Sharing
+## Integration
 
-Thanks to the library's integration with various storage options, you have the ability to specify whether your layouts are located locally or externally. For instance, if you opt to use FTP or Amazon S3 as your storage option, you can utilize the same location for your layouts across multiple sites, enabling you to share layouts seamlessly between different sites.
+Follow through to learn how to create a custom builder layout library from a local or external storage. Even if you are already familiar with the concept you might learn something new.
 
-For an overview of the storage workflow and it capabilities, consult the [Storage Abstraction](/essentials-for-yootheme-pro/storage-abstraction) section.
+<!--@include: ../_parts/enable-addon.md-->
 
-<!-- {% image %}
-![Layout Library Storage](/assets/ytp/storage/adapter-s3.webp)
-{% /image %} -->
+### 1. Create Library
 
-## Enhanced User Interface
+Let's create a custom layout library within the manager.
 
-The user interface of the custom layout library is designed to be more advanced and user-friendly, featuring support for bulk layout management. This enables you to efficiently manage multiple layouts at once, making it easier to streamline your workflow and save time.
+![Layout Libraries Manager](./assets/libraries-manager.gif)
 
-<!-- {% image %}
-![Layout Library UI](/assets/ytp/layouts/library-ui.webp)
-{% /image %} -->
+1. Open the `Customizer -> Essentials -> Layout Libraries` section.
+1. Click on the `New Library` button and set a name for it.
 
-## Layout Libraries Manager
+### 2. Create Library Storage
 
-The Layout Libraries Manager can be accessed at `Customizer -> Essentials -> Layout Libraries` section. There you can create and manage your custom layout libraries which will become part of the core Layout Library workflow.
+In this case we are going to set a library with a local storage, but you can opt to set an external storage and that way enable layouts cross-site sharing.
 
-<!-- {% image %}
-![Layout Libraries Manager](/assets/ytp/layout-libraries-manager.gif)
-{% /image %} -->
+![Create Layout Library](./assets/create-library.gif)
+
+1. In the `Storage` field click on the storage picker.
+1. Choose `local` storage or of choice.
+1. Another modal will open, set the name and details.
+1. Save the storage and library by clicking `Save` on both opened modals.
+
+### 3. Save Layout To Library
+
+The new library will appear in the [Layout Library](https://yootheme.com/support/yootheme-pro/joomla/layout-library) modal Tab with the name used during it creation as well as in the elements presets modal. You can now save and load layouts within the new Library in the same way you are already used to.
+
+![Save Layout To Library](./assets/save-to-library.gif)

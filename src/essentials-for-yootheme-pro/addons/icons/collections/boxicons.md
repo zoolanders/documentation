@@ -20,6 +20,4 @@ icon: '
 
 A collection of {% code %}{% $markdoc.frontmatter.icons %}{% /code %} icons from {% elink href=$markdoc.frontmatter.url %}{% $markdoc.frontmatter.name %}{% /elink %} released on {% $markdoc.frontmatter.release %} under the {% code %}{% $markdoc.frontmatter.license %}{% /code %} license as version {% code %}{% $markdoc.frontmatter.version %}{% /code %}.
 
-{% image %}
 ![Boxicons Icon Collection](/assets/ytp/icons/collection-boxicons.webp)
-{% /image %}

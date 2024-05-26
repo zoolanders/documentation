@@ -8,13 +8,11 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-{% $markdoc.frontmatter.description %}. {% .lead %}
+{% $markdoc.frontmatter.description %}.
 
 The Google API Key Driver manage Google API keys obtained through the [Google Cloud Platform](https://console.cloud.google.com/apis/credentials) dashboard.
 
-{% image %}
 ![Google API Key Driver](/assets/ytp/auths/driver-google-api-key.webp)
-{% /image %}
 
 {% callout title="OAuth Security" %}
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).

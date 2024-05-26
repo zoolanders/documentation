@@ -16,9 +16,7 @@ The YouTube My Playlist Source, part of the [YouTube Source](../) collection, cr
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![My YouTube Playlist Source](/assets/ytp/sources/youtube-myplaylist-config.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -31,9 +29,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/google-oauth).
 
-{% image %}
 ![Google OAuth Driver](/assets/ytp/auths/driver-google-oauth.webp)
-{% /image %}
 
 ## Content Queries
 
@@ -43,9 +39,7 @@ For every source instance the following content queries will be made available a
 
 Fetches a single video from the playlist resolving to a [Video Type](../#video-type).
 
-{% image %}
 ![My YouTube Playlist Video Query](/assets/ytp/sources/youtube-myplaylist-video.webp)
-{% /image %}
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -56,9 +50,7 @@ Fetches a single video from the playlist resolving to a [Video Type](../#video-t
 
 Fetches videos from the playlist resolving to a list of [Video Type](../#video-type).
 
-{% image %}
 ![My YouTube Playlist Videos Query](/assets/ytp/sources/youtube-myplaylist-videos.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |

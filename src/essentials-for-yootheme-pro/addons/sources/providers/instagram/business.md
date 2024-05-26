@@ -18,9 +18,7 @@ The Instagram Business Source, part of the [Instagram Source](../) collection, c
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-{% image %}
 ![Instagram Business Settings](/assets/ytp/sources/ig-business-config.webp)
-{% /image %}
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
@@ -33,9 +31,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/facebook-oauth).
 
-{% image %}
 ![Facebook OAuth Driver](/assets/ytp/auths/driver-facebook-oauth.webp)
-{% /image %}
 
 ## Content Queries
 
@@ -45,9 +41,7 @@ For every source instance the following content queries will be made available a
 
 Fetches media from the authenticated account and resolves to a list of [Media Type](../#media-type).
 
-{% image %}
 ![Instagram Media Query](/assets/ytp/sources/ig-query-media.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -60,9 +54,7 @@ Fetches media from the authenticated account and resolves to a list of [Media Ty
 
 Fetches a single media from the authenticated account and resolves to a [Media Type](../#media-type).
 
-{% image %}
 ![Instagram Media Single Query](/assets/ytp/sources/ig-query-media-single.webp)
-{% /image %}
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -74,9 +66,7 @@ Fetches a single media from the authenticated account and resolves to a [Media T
 
 Part of the [Media Single Query](#media-single-query), as `Multiple Items Source -> Children Media`, fetches media from the parent Media if it's of the type Album, resolves to a list of [Album Media Type](../#album-media-type).
 
-{% image %}
 ![Instagram Album Media Query](/assets/ytp/sources/ig-query-media-single.webp)
-{% /image %}
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -87,9 +77,7 @@ Part of the [Media Single Query](#media-single-query), as `Multiple Items Source
 
 Fetches top and recent hashtagged media from the authenticated business account and resolves to a list of [Media Type](../#media-type).
 
-{% image %}
 ![Instagram Hashtagged Media Query](/assets/ytp/sources/ig-query-hashtagged-media.webp)
-{% /image %}
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -101,9 +89,7 @@ Fetches top and recent hashtagged media from the authenticated business account 
 
 Fetches the user profile from the authenticated account and resolves to a [User Type](../#user-type).
 
-{% image %}
 ![Instagram User Query](/assets/ytp/sources/ig-query-user.webp)
-{% /image %}
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |

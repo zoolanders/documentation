@@ -8,13 +8,11 @@ icon: '
 
 {% elementIcon draw=$markdoc.frontmatter.icon /%}
 
-{% $markdoc.frontmatter.description %}. {% .lead %}
+{% $markdoc.frontmatter.description %}.
 
 The Airtable Access Token Driver manage Airtable Personal Access Tokens obtained through the [Airtable](https://airtable.com/create/tokens) dashboard.
 
-{% image %}
 ![Airtable Access Token Driver](/assets/ytp/auths/driver-airtable-access-token.webp)
-{% /image %}
 
 | Setting | Description |
 | ------- | ----------- |

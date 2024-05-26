@@ -1,16 +1,11 @@
----
-title: Elements Addon
-pageTitle: Elements Addon - An Essential addon for YOOtheme Pro
----
+# Elements Addon
 
 Create visually appealing charts from static and dynamic data, process markdown content or let users share your site page on their social media.
 
-You can either get started in the next section or explore the elements listed below.
-<!--
-{% quick-links %}
+## Integration
 
-{% quick-link title="Chart Element" href="./chart" description="Create visually appealing charts from static and dynamic data." /%}
-{% quick-link title="Markdown Element" href="./markdown" description="Process markdown content with CommonMark." /%}
-{% quick-link title="Social Sharing Element" href="./social-sharing" description="Let users share your page on their social media." /%}
+Follow through to learn how to set one of the elements in a Builder Layout. Even if you are already familiar with the concept you might learn something new.
 
-{% /quick-links %} -->
+<!--@include: ../_parts/enable-addon.md-->
+
+![Add Element](./assets/add-element.gif)

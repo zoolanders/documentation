@@ -1,7 +1,5 @@
 # Validation
 
-Submission data is validated both on the client and server-side.
-
 For a form data to be submitted it must pass the [fields validation](#fields-validation) as well as the [CAPTCHA validation](#captcha-validation), if any present. The validation is first run in the browser, and once again via server-side ajax request.
 
 ## Fields Validation

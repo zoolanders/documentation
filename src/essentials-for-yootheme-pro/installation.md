@@ -2,7 +2,7 @@
 title: Installing Essentials
 ---
 
-Essentials is in essence a plugin and has to be installed like any other Joomla or WordPress plugin. {% .lead %}
+Essentials is in essence a plugin and has to be installed like any other Joomla or WordPress plugin.
 
 Follow through the [installation](#installation), then choose which [addons](../addons) to integrate for your current project. This will allow you to customize your experience and only use the addons that are relevant to your needs.
 
