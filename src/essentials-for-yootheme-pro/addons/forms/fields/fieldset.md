@@ -4,7 +4,7 @@ description: Control grouping
 preset: /assets/ytp/presets/FormArea-Fieldset.json
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials_/intro.md-->
 
 The **Fieldset Element** displays a [\<fieldset\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Fieldset) HTML element, use it to group fields for visual and accessibility purposes.
 

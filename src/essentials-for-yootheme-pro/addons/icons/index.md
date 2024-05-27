@@ -10,7 +10,7 @@ Expand the icon library with custom and curated third-party collections such as 
 
 Follow through to learn how to install an Icon Collection and chose an icon from it. Even if you are already familiar with the concept you might learn something new.
 
-<!--@include: ../_parts/enable-addon.md-->
+<!--@include: ../_partials/enable-addon.md-->
 
 ### 1. Add an Icon Collection
 
@@ -26,7 +26,7 @@ No collection is installed per default, so let's add one withing the Icon Collec
 
 Now that a collection is installed we can select any of it icons as a source for an icon display.
 
-![Display Icon](./assets/icons/display-icon.gif)
+![Display Icon](./assets/display-icon.gif)
 
 1. Open the `Customizer -> Builder` section.
 1. Add an Icon Element and open it Icon Picker.

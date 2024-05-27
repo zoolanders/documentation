@@ -12,7 +12,7 @@ By setting a custom layout library within the [Layout Libraries Manager](#layout
 
 Follow through to learn how to create a custom builder layout library from a local or external storage. Even if you are already familiar with the concept you might learn something new.
 
-<!--@include: ../_parts/enable-addon.md-->
+<!--@include: ../_partials/enable-addon.md-->
 
 ### 1. Create Library
 

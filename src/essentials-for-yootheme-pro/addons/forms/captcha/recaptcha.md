@@ -3,7 +3,7 @@ title: reCAPTCHA
 description: A captcha solution from Google
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials/intro.md-->
 
 The reCAPTCHA element integrates [Google reCAPTCHA](https://developers.google.com/recaptcha) service that helps protect websites from spam and abuse.
 

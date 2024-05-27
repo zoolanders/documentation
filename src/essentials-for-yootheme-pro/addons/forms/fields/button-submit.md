@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-Buttons.json
 child: true
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials_/intro.md-->
 
 Child of [Button Element](../button), the **Button Submit Element** displays a [\<button type="submit"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit) HTML element, use it to display a button that will submit the form.
 

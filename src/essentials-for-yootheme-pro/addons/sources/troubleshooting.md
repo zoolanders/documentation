@@ -1,7 +1,4 @@
----
-title: Troubleshooting
-toclevel: 1
----
+# Troubleshooting
 
 ## A Source is Triggering a Fatal Error
 

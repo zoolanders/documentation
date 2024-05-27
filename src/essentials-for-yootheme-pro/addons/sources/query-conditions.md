@@ -1,10 +1,8 @@
----
-title: Query Conditions
----
+# Query Conditions
 
 ## Filter Condition
 
-![Query Filter Condition](/assets/ytp/sources/query-filter-condition.webp)
+![Query Filter Condition](./assets/query-filter-condition.webp)
 
 | Setting | Description | Dynamic | Required |
 | ------- | ----------- | :-----: | :------: |
@@ -30,7 +28,7 @@ title: Query Conditions
 
 ## Filter Evaluation Logic
 
-![Query Filter Conditions](/assets/ytp/sources/query-filter-conditions.webp)
+![Query Filter Conditions](./assets/query-filter-conditions.webp)
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -42,7 +40,7 @@ title: Query Conditions
 
 ## Order Condition
 
-![Query Order Condition](/assets/ytp/sources/query-order-condition.webp)
+![Query Order Condition](./assets/query-order-condition.webp)
 
 | Setting | Description | Dynamic | Required |
 | ------- | ----------- | :-----: | :------: |

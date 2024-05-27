@@ -4,7 +4,7 @@ description: Multi-option checkbox form control
 preset: /assets/ytp/presets/FormArea-Checkbox.json
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials_/intro.md-->
 
 The **Checkbox Element** displays a group of [\<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) HTML elements wrapped in a `<label>`, use it to allow users choosing, by toggling boxes, a single or multiple pre-established options.
 
@@ -19,7 +19,7 @@ It inherits common settings with the following specifics:
 | **Layout** | The layout that will be used to display the options, `Vertical` or `Horizontal`. |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Options
@@ -45,7 +45,7 @@ It inherits common validation with the following specifics:
 | **Max** | The maximum amount of options that can be chosen, `lower than` or `equal to`. | &#x2713; | | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./parts/common-validation.md-->
+<!--@include: ./_partials/common-validation.md-->
 :::
 
 ## Integration

@@ -24,7 +24,7 @@ It inherits common settings with the following specifics:
 | **Multiple Selection** | Should it be allowed to choose more than one option. |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Options
@@ -49,7 +49,7 @@ It inherits common validation with the following specifics:
 | **Max** | The maximum amount of options that can be chosen, `lower than` or `equal to`. | &#x2713; | | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./parts/common-validation.md-->
+<!--@include: ./_partials/common-validation.md-->
 :::
 
 ## Integration

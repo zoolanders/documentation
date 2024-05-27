@@ -23,6 +23,6 @@ The designated folder must already exist and be accessible for reading and writi
 | **Root** | The path that will be used as the storage root, e.g. `layouts` as a site relative path or `/layouts` as a server absolute. |
 | **Write Permission** | Wether the storage will have Write in addition to Read permission. |
 
-{% callout type="warning" title="Security Reminder" %}
+::: warning Security Reminder
 Folders within the site's root directory are publicly accessible and exposed to those who know the folder path and its contents naming, unless you [explicitly deny access to it](https://stackoverflow.com/questions/9507645/htaccess-deny-from-all).
-{% /callout %}
+:::

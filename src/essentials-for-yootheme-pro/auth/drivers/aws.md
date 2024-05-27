@@ -12,8 +12,8 @@ icon: '
 
 The AWS Driver manage API keys and secrets for [Amazon Web Services](https://aws.amazon.com).
 
-![AWS Driver](/assets/ytp/auths/driver-aws.webp)
+![AWS Driver](/essentials-for-yootheme-pro/assets/auths/driver-aws.webp)
 
-{% callout title="OAuth Security" %}
+::: tip OAuth Security
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
+:::

@@ -12,12 +12,12 @@ As per the license limitations, Essentials doesn't distribute either of them, if
 
 Download the chosen Database from MaxMind, previous free registration is required, and upload it to any chosen folder of your web project server. Copy the relative path to the Database file, prepend it with `~/`, and past it into the `GeoIP Database Source` field at the `Customizer -> Essentials -> Advanced` panel, e.g. `~/geoip/GeoLite2-Country.mmdb`.
 
-{% callout title="3rd Party Plugins" %}
+::: tip 3rd Party Plugins
 You can rely on 3rd party plugins for the installation and posterior updates of the Database. Once installed make sure the path to the Database is updated in Essentials settings.
 
 - [Joomla Akeeba GeoIP Provider](https://www.akeeba.com/download/akgeoip.html)
 - [WordPress Geolocation IP Detection](https://wordpress.org/plugins/geoip-detect/)
-{% /callout %}
+:::
 
 ---
 

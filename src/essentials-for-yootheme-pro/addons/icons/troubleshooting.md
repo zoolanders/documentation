@@ -1,7 +1,4 @@
----
-title: Troubleshooting
-toclevel: 1
----
+# Troubleshooting
 
 ## Icons Are Not Being Displayed
 

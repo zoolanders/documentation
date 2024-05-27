@@ -22,7 +22,7 @@ It inherits common settings with the following specifics:
 | **Width** | The field width applied with `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Validation
@@ -36,7 +36,7 @@ It inherits common validation with the following specifics:
 | **Step** | The multiple of which the input value must constrain to. | &#x2713; | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./parts/common-validation.md-->
+<!--@include: ./_partials/common-validation.md-->
 :::
 
 ## Integration

@@ -1,14 +1,9 @@
 ---
 title: Google Photos
 description: Content Source based on Google Photos media
-icon: '
-    <path fill="none" stroke-width="2" stroke-miterlimit="2" d="M8.01 7.376A6.99 6.99 0 0 1 15 14.365V15H1.656a.635.635 0 0 1-.635-.635 6.99 6.99 0 0 1 6.99-6.99ZM22.624 8.01A6.99 6.99 0 0 1 15.635 15H15V1.656c0-.35.284-.635.635-.635a6.99 6.99 0 0 1 6.99 6.99ZM21.99 22.624A6.99 6.99 0 0 1 15 15.635V15h13.344c.35 0 .635.284.635.635a6.99 6.99 0 0 1-6.99 6.99ZM7.376 21.99A6.99 6.99 0 0 1 14.365 15H15v13.344c0 .35-.284.635-.635.635a6.99 6.99 0 0 1-6.99-6.99Z"/>
-'
 ---
 
-{% elementIcon draw=$markdoc.frontmatter.icon /%}
-
-{% $markdoc.frontmatter.description %}.
+<!--@include: ../_partials/provider-intro.md-->
 
 The Google Photos source feeds media from the Google Photos service. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
@@ -16,19 +11,21 @@ The Google Photos source feeds media from the Google Photos service. Based on th
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-![Google Photos Configuration](/assets/ytp/sources/google-photos-config.webp)
+![Google Photos Configuration](../assets/providers/google-photos-config.webp)
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Account** | The Google account which to authenticate with. | &#x2713; |
 
-{% partial file="ytp-sources-common-settings.md" variables={name: "Google Photos"} /%}
+::: details Common Settings
+<!--@include: ../_partials/provider-common-settings.md-->
+:::
 
 ### Authentication
 
 Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/google-oauth).
 
-![Google OAuth Driver](/assets/ytp/auths/driver-google-oauth.webp)
+![Google OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-google-oauth.webp)
 
 ## Content Queries
 

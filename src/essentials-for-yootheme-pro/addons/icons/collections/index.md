@@ -1,15 +1,23 @@
 ---
-title: Icon Collections
+index: true
+aside: false
 ---
 
-Custom and curated third-party collections.
+<script setup>
+import { ref } from 'vue'
+import {data} from './index.data.js'
 
-An Icon Collection represents a collection of icons that can be added or removed collectively from the builder's icon library. After installation, these icons integrate with the builder and can be selected from the Collections tab within the Icon Picker.
+const icons = data.map(d => ({
+  ...d,
+  details: d.description || '',
+}))
 
-![Icon Collections](/assets/ytp/icons/icon-collections.webp)
+</script>
 
-## Collections Manager
+# Icon Collections
 
-The Icon Collections Manager can be accessed at `Customizer -> Essentials -> Icon Collections` section. There you can install new collections as to manage the existing ones.
+List of [Icon Collections](../collection) available out of the box.
 
-![Icon Collections Manager](/assets/ytp/icon-collections-manager.gif)
+<TmIndex
+  :items="icons"
+/>

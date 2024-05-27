@@ -12,8 +12,8 @@ icon: '
 
 The API Key Driver it's a generic API key driver in case a service specific one is missing.
 
-![API Key Driver](/assets/ytp/auths/driver-api-key.webp)
+![API Key Driver](/essentials-for-yootheme-pro/assets/auths/driver-api-key.webp)
 
-{% callout title="OAuth Security" %}
+::: tip OAuth Security
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
+:::

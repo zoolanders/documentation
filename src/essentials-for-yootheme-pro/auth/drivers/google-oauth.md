@@ -12,7 +12,7 @@ icon: '
 
 The Google OAuth Driver manage Google OAuth 2.0 protocol to authenticate and grant scope permissions.
 
-![Google OAuth Driver](/assets/ytp/auths/driver-google-oauth.webp)
+![Google OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-google-oauth.webp)
 
 | Setting | Description |
 | ------- | ----------- |
@@ -21,6 +21,6 @@ The Google OAuth Driver manage Google OAuth 2.0 protocol to authenticate and gra
 | **Authentication** | Triggers the OAuth authentication and permission grant. |
 | **Custom App** | Whether to use a custom OAuth App instead of ZOOlanders one. |
 
-{% callout title="OAuth Security" %}
+::: tip OAuth Security
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
+:::

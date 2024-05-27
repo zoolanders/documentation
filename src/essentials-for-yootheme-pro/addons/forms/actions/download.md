@@ -4,7 +4,7 @@ description: Trigger a file download
 core: true
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials/intro.md-->
 
 The **Download Action** triggers a download of a specified file. Use it to provide the submitter with an asset only after a validated submission.
 
@@ -15,5 +15,5 @@ The **Download Action** triggers a download of a specified file. Use it to provi
 | **File** | The path to the file which download to trigger. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::

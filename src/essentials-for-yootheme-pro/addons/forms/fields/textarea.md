@@ -24,7 +24,7 @@ It inherits common settings with the following specifics:
 | **Rows** | The number of visible text lines by setting a value for `rows` attribute. |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Validation
@@ -38,7 +38,7 @@ It inherits common validation with the following specifics:
 | **Pattern** | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./parts/common-validation.md-->
+<!--@include: ./_partials/common-validation.md-->
 :::
 
 ## Integration

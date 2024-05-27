@@ -3,7 +3,7 @@ title: Friendly Captcha
 description: A friendly captcha solution
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials/intro.md-->
 
 The Friendly Captcha element integrates [Friendly Captcha](https://friendlycaptcha.com/) anti-bot solution that is GDPR compliant and made in Europe.
 

@@ -12,8 +12,8 @@ icon: '
 
 The Cloudflare API Token Driver manage Cloudflare API tokens obtained through the [Cloudflare Profile Dashboard](https://dash.cloudflare.com/profile/api-tokens).
 
-![Cloudflare API Token Driver](/assets/ytp/auths/driver-cloudflare-api-token.webp)
+![Cloudflare API Token Driver](/essentials-for-yootheme-pro/assets/auths/driver-cloudflare-api-token.webp)
 
-{% callout title="OAuth Security" %}
+::: tip OAuth Security
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
+:::

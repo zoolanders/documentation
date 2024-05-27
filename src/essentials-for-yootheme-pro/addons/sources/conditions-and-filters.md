@@ -1,6 +1,4 @@
----
-title: Conditions and Filters
----
+# Conditions and Filters
 
 Apply conditions to the source content during fetching and/or rendering phase.
 
@@ -16,19 +14,19 @@ It's important to understand the different types of conditions in dynamic conten
 
 Filter and/or order query conditions are rules, applied during a query execution, that the content must evaluate to in order to be included in the fetched results. The conditions are provided and supported by every source individually.
 
-![Query Conditions](/assets/ytp/sources/query-conditions.webp)
+![Query Conditions](./assets/query-conditions.webp)
 
 ## Dynamic Condition
 
 Part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#dynamic-conditions) core workflow, Dynamic Condition is set during a source mapping to determine should the element be displayed. The amount of conditions is limited to one, and cannot use dynamic content for more advanced evaluation.
 
-![Dynamic Conditions](/assets/ytp/sources/dynamic-conditions.webp)
+![Dynamic Conditions](./assets/dynamic-conditions.webp)
 
 ## Access Condition
 
 Part of the [Access Addon](/essentials-for-yootheme-pro/addons/access) workflow, Access Condition has the same functionality as the [Dynamic Condition](#dynamic-condition), but with support for dynamic content, multiple rules and custom evaluation logic. You can opt to use it instead as per higher possibilities.
 
-![Access Conditions](/assets/ytp/sources/access-conditions.webp)
+![Access Conditions](./assets/access-conditions.webp)
 
 ## Execution Performance
 
@@ -42,8 +40,8 @@ To optimize page loading speed and minimize the risk of memory errors, Query Con
 
 Not all queries support conditions, and if do most likely do not support evaluating dynamic values. In such situations a good strategy is to combine **Query Conditions** with **Dynamic or Access Condition**. In practice that would mean load the minimum amount of content into memory, e.g. load items from a specific category, then further filter down those during the rendering.
 
-{% callout type="warning" title="Pagination Errors" %}
+::: warning Pagination Errors
 Be aware of the pagination (offset and limit) while combining conditions as the results might not be what you expect. For example, you might set a limit condition of 20, but the final filtered result be 18.
 
 As a rule of thumb, when an exact amount of items is required do not combine conditions.
-{% /callout %}
+:::

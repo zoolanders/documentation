@@ -1,13 +1,10 @@
----
-title: Create a Custom Source
-description: Learn how to create a custom multi-instance source
----
+# Create a Custom Source
 
 Learn how to create a Custom Multi-Instance Source.
 
-{% callout type="warning" title="Extending YOOtheme Pro" %}
+::: warning Extending YOOtheme Pro
 The following guide assumes you are already familar with code, PHP, and [extending YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
-{% /callout %}
+:::
 
 ## 1. Create the Source Main Class
 

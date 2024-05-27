@@ -14,8 +14,8 @@ Follow through the [installation](#installation), then choose which [addons](../
 
 After a successful installation, a plugin named **Essentials YOOtheme Pro** (a.k.a. `yooessentials`) should be listed and enabled.
 
-{% callout title="Installation Folder" %}
+::: tip Installation Folder
 The plugin will be installed under the `plugins/system/yooessentials` for Joomla and `wp-contents/plugins/yooessentials` directory for WordPress.
-{% /callout %}
+:::
 
 Next, ensure to keep up to date with latest releases by setting up [automatic updates](../updating).

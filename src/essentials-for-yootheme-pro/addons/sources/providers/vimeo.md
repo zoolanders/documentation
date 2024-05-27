@@ -1,14 +1,9 @@
 ---
-title: Vimeo Source
+title: Vimeo
 description: Content Source based on Vimeo
-icon: '
-    <path fill="none" stroke-width="1.7" stroke-linejoin="round" d="M27.987 8.92c-.115 2.547-1.883 6.034-5.302 10.46-3.535 4.623-6.526 6.934-8.972 6.934-1.515 0-2.799-1.407-3.846-4.223l-2.099-7.742c-.778-2.815-1.612-4.223-2.504-4.223-.195 0-.875.412-2.04 1.232L2 9.772a328.813 328.813 0 0 0 3.794-3.404c1.712-1.488 2.997-2.27 3.853-2.35 2.023-.195 3.269 1.196 3.736 4.175.505 3.215.855 5.214 1.051 5.996.584 2.667 1.225 3.998 1.927 3.998.544 0 1.361-.865 2.45-2.594 1.09-1.73 1.673-3.046 1.752-3.95.155-1.493-.429-2.242-1.751-2.242-.623 0-1.264.145-1.924.43 1.277-4.212 3.719-6.257 7.322-6.14 2.672.079 3.931 1.822 3.777 5.23Z"/>
-'
 ---
 
-{% elementIcon draw=$markdoc.frontmatter.icon /%}
-
-{% $markdoc.frontmatter.description %}.
+<!--@include: ../_partials/provider-intro.md-->
 
 The Vimeo Source feeds data from [Vimeo](https://www.vimeo.com) media. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
@@ -16,19 +11,21 @@ The Vimeo Source feeds data from [Vimeo](https://www.vimeo.com) media. Based on 
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-![Vimeo Source Configuration](/assets/ytp/sources/vimeo-config.webp)
+![Vimeo Source Configuration](../assets/providers/vimeo-config.webp)
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Account** | The Vimeo Account which to authenticate with. | &#x2713; |
 
-{% partial file="ytp-sources-common-settings.md" variables={name: "Vimeo"} /%}
+::: details Common Settings
+<!--@include: ../_partials/provider-common-settings.md-->
+:::
 
 ### Authentication
 
 Authentication is based on the OAuth protocol driven by the [Vimeo OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/vimeo-oauth).
 
-![Vimeo OAuth Driver](/assets/ytp/auths/driver-vimeo-oauth.webp)
+![Vimeo OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-vimeo-oauth.webp)
 
 ## Content Queries
 
@@ -38,7 +35,7 @@ For every source instance the following content queries will be made available a
 
 Fetches videos from the authenticated account and resolves to a list of [Video Type](#video-type).
 
-![My Vimeo Videos Query](/assets/ytp/sources/vimeo-query-myvideos.webp)
+![My Vimeo Videos Query](../assets/providers/vimeo-query-myvideos.webp)
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -55,7 +52,7 @@ Fetches videos from the authenticated account and resolves to a list of [Video T
 
 Fetches videos from the authenticated account specific folder and resolves to a list of [Video Type](#video-type).
 
-![My Vimeo Folder Videos Query](/assets/ytp/sources/vimeo-query-myfolder-videos.webp)
+![My Vimeo Folder Videos Query](../assets/providers/vimeo-query-myfolder-videos.webp)
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -72,7 +69,7 @@ Fetches videos from the authenticated account specific folder and resolves to a 
 
 Fetches videos from the authenticated account specific showcase and resolves to a list of [Video Type](#video-type).
 
-![My Vimeo Showcase Videos Query](/assets/ytp/sources/vimeo-query-myshowcase-videos.webp)
+![My Vimeo Showcase Videos Query](../assets/providers/vimeo-query-myshowcase-videos.webp)
 
 | Setting | Default | Description | Required |
 | ------- | ------- | ----------- | :------: |
@@ -93,7 +90,7 @@ The content types define the mapping options for the source content.
 
 The **Video Type** defines the mapping options of a Vimeo Video object.
 
-![Vimeo Video Mapping](/assets/ytp/sources/vimeo-type-video.webp)
+![Vimeo Video Mapping](../assets/providers/vimeo-type-video.webp)
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |
@@ -121,7 +118,7 @@ The **Video Type** defines the mapping options of a Vimeo Video object.
 
 The **User Type** defines the mapping options of a Vimeo User object.
 
-![Vimeo User Mapping](/assets/ytp/sources/vimeo-type-user.webp)
+![Vimeo User Mapping](../assets/providers/vimeo-type-user.webp)
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |

@@ -21,7 +21,7 @@ It inherits common settings with the following specifics:
 | **Layout** | The layout that will be used to display the options, `Vertical` or `Horizontal`. |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Options
@@ -39,7 +39,7 @@ Options are specified as child items that can be input manually as well as dynam
 
 ## Validation
 
-<!--@include: ./parts/common-validation.md-->
+<!--@include: ./_partials/common-validation.md-->
 
 ## Integration
 

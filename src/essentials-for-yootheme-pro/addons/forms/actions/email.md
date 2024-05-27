@@ -4,7 +4,7 @@ core: true
 description: Send transactional emails
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials/intro.md-->
 
 The **Email Action** sends preset emails with support for [Dynamic Workflow](../../dynamic) and [Attachments](#attachments). Use it to send a *Thank You* email to the submitter, a transactional email to the site owner, etc.
 
@@ -22,7 +22,7 @@ The **Email Action** sends preset emails with support for [Dynamic Workflow](../
 | **Send as HTML** | Should the email content be sent as HTML instead of plain text. |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Content

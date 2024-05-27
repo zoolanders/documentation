@@ -12,7 +12,7 @@ icon: '
 
 The Airtable Access Token Driver manage Airtable Personal Access Tokens obtained through the [Airtable](https://airtable.com/create/tokens) dashboard.
 
-![Airtable Access Token Driver](/assets/ytp/auths/driver-airtable-access-token.webp)
+![Airtable Access Token Driver](/essentials-for-yootheme-pro/assets/auths/driver-airtable-access-token.webp)
 
 | Setting | Description |
 | ------- | ----------- |

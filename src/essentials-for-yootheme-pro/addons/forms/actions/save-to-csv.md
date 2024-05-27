@@ -3,7 +3,7 @@ title: CSV
 description: Save data to a CSV or TSV file
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials/intro.md-->
 
 The **SaveToCSV Action** saves each submission data as a new record in the specified local CSV or TSV file. Use it to store data or log submissions.
 
@@ -20,7 +20,7 @@ To use the SaveToCSV action, you must provide a pre-existing and pre-formatted C
 | **Enclosure** | The character used to enclose columns data, defaults to a double-quote (`"`). |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Content Mapping

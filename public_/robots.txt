@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /_next
-Disallow: /404
-Disallow: /assets
-Disallow: /fonts
-Disallow: /yoothemepro

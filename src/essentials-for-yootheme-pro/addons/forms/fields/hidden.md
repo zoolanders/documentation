@@ -4,7 +4,7 @@ description: Hidden form control
 preset: /assets/ytp/presets/FormArea-Hidden.json
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials_/intro.md-->
 
 The **Hidden Element** displays a [\<input type="hidden"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden) HTML element, use it to include data that cannot be seen or modified by users when a form is submitted.
 

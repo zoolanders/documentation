@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputEmail.json
 child: true
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials_/intro.md-->
 
 Child of [Input Element](../input), the **Input Email Element** displays a [\<input type="email"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) HTML element, use it to create one-line e-mail address edit fields.
 
@@ -20,7 +20,7 @@ It inherits common settings and the parent's [Fields Settings](../input#fields-s
 | **Placeholder** | The text to be shown while there is no user input. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Validation
@@ -36,7 +36,7 @@ It inherits common validation with the following specifics:
 | **Pattern** | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./parts/common-validation.md-->
+<!--@include: ./_partials/common-validation.md-->
 :::
 
 ## Integration

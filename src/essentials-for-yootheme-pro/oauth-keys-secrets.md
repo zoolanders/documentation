@@ -42,9 +42,9 @@ To address these challenges, we have developed a web app that acts as an interme
 
 ![ZOOlanders OAuth App](/assets/ytp/zl-oauth-app.webp)
 
-{% callout type="warning" title="Quota Limitations" %}
+::: warning Quota Limitations
 It is important to keep in mind that when using our OAuth App, the API quota is shared among other users. Although we keep our requests optimized and have not yet reached any limits, it is still necessary to consider the possibility it might happen.
-{% /callout %}
+:::
 
 ---
 

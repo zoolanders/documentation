@@ -12,7 +12,7 @@ icon: '
 
 The TikTok OAuth Driver manage TikTok OAuth protocol to authenticate and grant scope permissions.
 
-![TikTok OAuth Driver](/assets/ytp/auths/driver-tiktok-oauth.webp)
+![TikTok OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-tiktok-oauth.webp)
 
 | Setting | Description |
 | ------- | ----------- |
@@ -21,6 +21,6 @@ The TikTok OAuth Driver manage TikTok OAuth protocol to authenticate and grant s
 | **Authentication** | Triggers the OAuth authentication and permission grant. |
 | **Custom App** | Whether to use a custom OAuth App instead of ZOOlanders one. |
 
-{% callout title="OAuth Security" %}
+::: tip OAuth Security
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
+:::

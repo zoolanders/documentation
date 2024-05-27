@@ -1,14 +1,9 @@
 ---
-title: Facebook Source
+title: Facebook
 description: Content Source based on Facebook
-icon: '
-    <path fill="none" stroke-width="1.7" stroke-linejoin="round" d="M27.999 15c0-7.179-5.82-12.999-13-12.999C7.82 2.001 2 7.821 2 15.001c0 6.488 4.754 11.866 10.968 12.841v-9.084h-3.3v-3.757h3.3v-2.864c0-3.258 1.941-5.058 4.91-5.058 1.423 0 2.91.254 2.91.254v3.199H19.15c-1.615 0-2.118 1.002-2.118 2.03v2.439h3.605l-.576 3.757h-3.03v9.084C23.246 26.867 28 21.489 28 15.001Z"/>
-'
 ---
 
-{% elementIcon draw=$markdoc.frontmatter.icon /%}
-
-{% $markdoc.frontmatter.description %}.
+<!--@include: ../_partials/provider-intro.md-->
 
 The Facebook Source feeds data from [Facebook](https://www.facebook.com/) Pages. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
 
@@ -16,20 +11,22 @@ The Facebook Source feeds data from [Facebook](https://www.facebook.com/) Pages.
 
 The source settings determines the content structure, every time the instance is saved the structure will be regenerated.
 
-![Facebook Source Configuration](/assets/ytp/sources/fb-config.webp)
+![Facebook Source Configuration](../assets/providers/fb-config.webp)
 
 | Setting | Description | Required |
 | ------- | ----------- | :------: |
 | **Account** | The Facebook Account which to authenticate with. | &#x2713; |
 | **Page** | The Facebook page from which to create the source content. | &#x2713; |
 
-{% partial file="ytp-sources-common-settings.md" variables={name: "Facebook"} /%}
+::: details Common Settings
+<!--@include: ../_partials/provider-common-settings.md-->
+:::
 
 ### Authentication
 
 Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/facebook-oauth).
 
-![Facebook OAuth Driver](/assets/ytp/auths/driver-facebook-oauth.webp)
+![Facebook OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-facebook-oauth.webp)
 
 ## Content Queries
 
@@ -39,7 +36,7 @@ For every source instance the following content queries will be made available a
 
 Fetches the content from the page resolving to a list of [Page Type](#page-type).
 
-![Facebook Page Query](/assets/ytp/sources/fb-query-page.webp)
+![Facebook Page Query](../assets/providers/fb-query-page.webp)
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -49,7 +46,7 @@ Fetches the content from the page resolving to a list of [Page Type](#page-type)
 
 Fetches the posts from the page resolving to a list of [Page Post Type](#page-post-type).
 
-![Facebook Page Posts Query](/assets/ytp/sources/fb-query-page-posts.webp)
+![Facebook Page Posts Query](../assets/providers/fb-query-page-posts.webp)
 
 | Setting | Default | Description |
 | ------- | ------- | ----------- |
@@ -64,7 +61,7 @@ The content types define the mapping options for the source content.
 
 Defines the mapping options of a Facebook Page object.
 
-![Facebook Page Mapping](/assets/ytp/sources/fb-type-page.webp)
+![Facebook Page Mapping](../assets/providers/fb-type-page.webp)
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |
@@ -94,7 +91,7 @@ Defines the mapping options of a Facebook Page object.
 
 Defines the mapping options of a Facebook Page Post object.
 
-![Facebook Page Post Mapping](/assets/ytp/sources/fb-type-post.webp)
+![Facebook Page Post Mapping](../assets/providers/fb-type-post.webp)
 
 | Option | Description | Type | Filters |
 | ------ | ----------- | ---- | ------- |

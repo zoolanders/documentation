@@ -10,7 +10,7 @@ Empower a Section or Column as a Form Area with form builder and submission capa
 
 Follow through to learn how to create a Form Area. Even if you are already familiar with the concept you might learn something new.
 
-<!--@include: ../_parts/enable-addon.md-->
+<!--@include: ../_partials/enable-addon.md-->
 
 ### 1. Create a Form Area
 

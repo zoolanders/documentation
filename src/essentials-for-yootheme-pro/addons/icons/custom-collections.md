@@ -1,13 +1,10 @@
----
-title: Custom Collections
-description: Create and manage custom Icon Collections
----
+# Custom Collections
 
 Create and manage custom Icon Collections.
 
-{% callout type="warning" title="Extending YOOtheme Pro" %}
+::: warning Extending YOOtheme Pro
 The following guide assumes you are already familar with code, PHP, and [extending YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
-{% /callout %}
+:::
 
 ## Add Collection
 
@@ -15,9 +12,9 @@ Adding a custom collection is simple as placing the collection in `media/yooesse
 
 You can group the icons into subfolders for a better organization or style separation, eg `mycollection/group-a` or `mycollection/group-b`.
 
-{% callout type="warning"%}
+::: warning
 Notice that a collection name cannot contain hyphens `-`, while a group name doesn't have such limitation.
-{% /callout %}
+:::
 
 ## Distribute Collections
 

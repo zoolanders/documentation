@@ -3,7 +3,7 @@ title: Button
 description: Interactive form controls
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials_/intro.md-->
 
 The **Button Element** displays a grid of [\<button\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) HTML elements with support for `submit` and `reset` types. Each type is wrapped into a child element with its specific features covered in the next sections.
 

@@ -14,7 +14,7 @@ icon: '
 
 The Instagram OAuth Driver manage Instagram OAuth protocol to authenticate and grant scope permissions.
 
-![Instagram OAuth Driver](/assets/ytp/auths/driver-instagram-oauth.webp)
+![Instagram OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-instagram-oauth.webp)
 
 | Setting | Description |
 | ------- | ----------- |
@@ -23,6 +23,6 @@ The Instagram OAuth Driver manage Instagram OAuth protocol to authenticate and g
 | **Authentication** | Triggers the OAuth authentication and permission grant. |
 | **Custom App** | Whether to use a custom OAuth App instead of ZOOlanders one. |
 
-{% callout title="OAuth Security" %}
+::: tip OAuth Security
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
+:::

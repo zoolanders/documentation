@@ -12,7 +12,7 @@ icon: '
 
 The Vimeo OAuth Driver manage Vimeo OAuth protocol to authenticate and grant scope permissions.
 
-![Vimeo OAuth Driver](/assets/ytp/auths/driver-vimeo-oauth.webp)
+![Vimeo OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-vimeo-oauth.webp)
 
 | Setting | Description |
 | ------- | ----------- |
@@ -21,6 +21,6 @@ The Vimeo OAuth Driver manage Vimeo OAuth protocol to authenticate and grant sco
 | **Authentication** | Triggers the OAuth authentication and permission grant. |
 | **Custom App** | Whether to use a custom OAuth App instead of ZOOlanders one. |
 
-{% callout title="OAuth Security" %}
+::: tip OAuth Security
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
+:::

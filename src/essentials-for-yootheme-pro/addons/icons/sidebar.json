@@ -9,69 +9,21 @@
                     "link": "./"
                 },
                 {
+                    "text": "Icon Collection",
+                    "link": "./collection"
+                },
+                {
                     "text": "My Icons",
                     "link": "./my-icons"
                 }
             ]
         },
         {
-            "text": "Collections",
-            "link": "./collections",
+            "text": "Reference",
             "items": [
                 {
-                    "text": "Ant Design",
-                    "link": "./collections/antdesign"
-                },
-                {
-                    "text": "Bootstrap",
-                    "link": "./collections/bootstrap"
-                },
-                {
-                    "text": "Boxicons",
-                    "link": "./collections/boxicons"
-                },
-                {
-                    "text": "Font Awesome",
-                    "collapsed": true,
-                    "link": "./collections/fontawesome",
-                    "items": [
-                        {
-                            "text": "Font Awesome 5",
-                            "link": "./collections/fontawesome-5"
-                        }
-                    ]
-                },
-                {
-                    "text": "Feather",
-                    "link": "./collections/feather"
-                },
-                {
-                    "text": "Heroicons",
-                    "link": "./collections/heroicons"
-                },
-                {
-                    "text": "Ionicons",
-                    "link": "./collections/ionicons"
-                },
-                {
-                    "text": "Octicons",
-                    "link": "./collections/octicons"
-                },
-                {
-                    "text": "Remix Icon",
-                    "link": "./collections/remixicon"
-                },
-                {
-                    "text": "Tabler Icons",
-                    "link": "./collections/tablericons"
-                },
-                {
-                    "text": "Teeny Icons",
-                    "link": "./collections/teenyicons"
-                },
-                {
-                    "text": "Zondicons",
-                    "link": "./collections/zondicons"
+                    "text": "Collections",
+                    "link": "./collections"
                 }
             ]
         },

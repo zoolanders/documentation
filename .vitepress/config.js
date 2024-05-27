@@ -152,6 +152,64 @@ export default defineConfig({
         break
     }
 
+    // Sources Addon
+    switch (true) {
+      // sources
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/sources/providers') && !filePath.endsWith('index.md'):
+      pageData.titleTemplate = ':title Provider | Dynamic Content Sources for YOOtheme Pro'
+        break
+
+      // fallback
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/sources/'):
+      pageData.titleTemplate = ':title | Dynamic Content Sources for YOOtheme Pro'
+        break
+    }
+
+    // Access Addon
+    switch (true) {
+      // rules
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/access/rules') && !filePath.endsWith('index.md'):
+      pageData.titleTemplate = ':title Rule | Conditional Content for YOOtheme Pro'
+        break
+
+      // fallback
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/access/'):
+      pageData.titleTemplate = ':title | Conditional Content for YOOtheme Pro'
+        break
+    }
+
+    // Icons Addon
+    switch (true) {
+      // rules
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/icons/collections') && !filePath.endsWith('index.md'):
+      pageData.titleTemplate = ':title Collection | Custom and 3rd party Icons for YOOtheme Pro'
+        break
+
+      // fallback
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/icons/'):
+      pageData.titleTemplate = ':title | Custom and 3rd party Icons for YOOtheme Pro'
+        break
+    }
+
+    // Elements Addon
+    switch (true) {
+      // elements
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/elements') && !filePath.endsWith('index.md'):
+        pageData.titleTemplate = ':title Element | Free Elements for YOOtheme Pro'
+          break
+
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/elements/'):
+      pageData.titleTemplate = ':title | Free Elements for YOOtheme Pro'
+        break
+    }
+
+    // Layout Addon
+    switch (true) {
+      case filePath.startsWith('essentials-for-yootheme-pro/addons/layout'):
+      pageData.titleTemplate = ':title | Custom Layout Libraries for YOOtheme Pro'
+        break
+    }
+
     // Dynamic Addon
     switch (true) {
       case filePath.startsWith('essentials-for-yootheme-pro/addons/dynamic'):

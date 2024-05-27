@@ -3,7 +3,7 @@ title: Database
 description: Save data to a Database table
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials/intro.md-->
 
 The **SaveToDatabase Action** stores each submission data as a new record in a local or external Database Table. Use it to store data or log submissions.
 
@@ -17,7 +17,7 @@ The **SaveToDatabase Action** stores each submission data as a new record in a l
 | **Custom Connection** | Should the connection be manually inputed instead of inherited from the system. |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Connection

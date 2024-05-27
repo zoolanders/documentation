@@ -8,6 +8,6 @@ Essentials has several features that involve reading and/or writing data with ab
 
 You can find a full list and details of supported filesystems in the [storages reference](../storage/adapters) section.
 
-{% callout type="warning" title="Storage Usage" %}
+::: warning Storage Usage
 Notice that at the moment storage abstraction is only used by Layouts Addon, although it it possible to use it in custom addons as required.
-{% /callout %}
+:::

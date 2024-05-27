@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputNumber.json
 child: true
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials_/intro.md-->
 
 Child of [Input Element](../input), the **Input Number Element** displays a [\<input type="number"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number) HTML element, use it to create one-line fields restricted to numerical entries. The browser may opt to provide stepper arrows to let the user increase and decrease the value using their mouse or by tapping with a fingertip.
 
@@ -20,7 +20,7 @@ It inherits common settings and the parent's [Fields Settings](../input#fields-s
 | **Placeholder** | The text to be shown while there is no user input. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Validation
@@ -33,7 +33,7 @@ While the browser validation invalidates any entry that isn't a number, it inher
 | **Max** | The maximum amount that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./parts/common-validation.md-->
+<!--@include: ./_partials/common-validation.md-->
 :::
 
 ## Integration

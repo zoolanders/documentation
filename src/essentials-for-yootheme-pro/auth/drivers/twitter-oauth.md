@@ -12,7 +12,7 @@ icon: '
 
 The Twitter OAuth Driver manage Twitter OAuth protocol to authenticate and grant scope permissions.
 
-![Twitter OAuth Driver](/assets/ytp/auths/driver-twitter-oauth.webp)
+![Twitter OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-twitter-oauth.webp)
 
 | Setting | Description |
 | ------- | ----------- |
@@ -22,9 +22,9 @@ The Twitter OAuth Driver manage Twitter OAuth protocol to authenticate and grant
 | **Client Secret** | The secret key of your Twitter Dev App. |
 | **Refresh Token** | The token that will allow us to obtain and refresh an Access Token. |
 
-{% callout title="OAuth Security" %}
+::: tip OAuth Security
 Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
-{% /callout %}
+:::
 
 ---
 
@@ -32,9 +32,9 @@ Learn more about Essentials [OAuth security protocols](/essentials-for-yootheme-
 
 Due to Twitter API policies it is not possible to use a ZOOlanders oAuth App, instead you must setup a custom Twitter Dev App and use your own credentials. We have listed all the steps required below. Once ready, copy the resulting informations (`Client ID`, `Client Secret` and `Refresh Token`) into the respective fields.
 
-{% callout type="warning" title="ZOOlanders OAuth" %}
+::: warning ZOOlanders OAuth
 Beware that it's a technical process that requires some development skills like interacting with REST APIs.
-{% /callout %}
+:::
 
 ### Step 1. Create a new Developer Application
 

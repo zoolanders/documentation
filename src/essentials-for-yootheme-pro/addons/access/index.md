@@ -10,7 +10,7 @@ Compose rules that will determine the evaluation criteria for rendering an eleme
 
 Follow through to learn how to set an Access Condition. Even if you are already familiar with the concept you might learn something new.
 
-<!--@include: ../_parts/enable-addon.md-->
+<!--@include: ../_partials/enable-addon.md-->
 
 ### 1. Open the Condition Panel
 

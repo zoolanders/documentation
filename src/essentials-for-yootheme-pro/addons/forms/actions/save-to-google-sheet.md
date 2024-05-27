@@ -3,7 +3,7 @@ title: Google Sheet
 description: Save data to a Google Spreadsheet
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials/intro.md-->
 
 The **SaveToGoogleSheet Action** stores each submission data as a new record in the specified Google Drive Spreadsheet. Use it to store data or log submissions.
 
@@ -17,7 +17,7 @@ The **SaveToGoogleSheet Action** stores each submission data as a new record in 
 | **Value Input Option** | Defines how the data will be interpreted when saved to the spreadsheet. `Raw`, the values will be stored as-is, or `User Entered`, the values will be parsed as if were typed into the UI. |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Content Mapping

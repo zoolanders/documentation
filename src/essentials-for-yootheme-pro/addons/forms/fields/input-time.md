@@ -5,7 +5,7 @@ preset: /assets/ytp/presets/FormArea-InputTime.json
 child: true
 ---
 
-<!--@include: ./parts/intro.md-->
+<!--@include: ./_partials_/intro.md-->
 
 Child of [Input Element](../input), the **Input Time Element** displays a [\<input type="time"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/time) HTML element, use it to create one-line time edit fields.
 
@@ -20,7 +20,7 @@ Time input relies on the browser's native implementation, the picker and icon st
 It inherits common settings and the parent's [Fields Settings](../input#fields-settings):
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ## Validation
@@ -35,7 +35,7 @@ It inherits common validation with the following specifics:
 | **Max** | The maximum time that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./parts/common-validation.md-->
+<!--@include: ./_partials/common-validation.md-->
 :::
 
 ## Integration

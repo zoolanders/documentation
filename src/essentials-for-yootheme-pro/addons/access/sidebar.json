@@ -11,110 +11,15 @@
             ]
         },
         {
-            "text": "Core concepts",
+            "text": "Reference",
             "items": [
                 {
-                    "text": "Access Condition",
+                    "text": "Condition",
                     "link": "./condition"
-                }
-            ]
-        },
-        {
-            "text": "Rules",
-            "link": "./rules",
-            "items": [
-                {
-                    "text": "Dynamic Rule",
-                    "link": "./rules/dynamic"
                 },
                 {
-                    "text": "Site Rules",
-                    "collapsed": true,
-                    "link": "./rules/site",
-                    "items": [
-                        {
-                            "text": "Language",
-                            "link": "./rules/site/language"
-                        },
-                        {
-                            "text": "URL",
-                            "link": "./rules/site/url"
-                        },
-                        {
-                            "text": "User",
-                            "link": "./rules/site/user"
-                        },
-                        {
-                            "text": "User Group",
-                            "link": "./rules/site/user-group"
-                        },
-                        {
-                            "text": "User Level",
-                            "link": "./rules/site/user-level"
-                        }
-                    ]
-                },
-                {
-                    "text": "Device Rules",
-                    "collapsed": true,
-                    "link": "./rules/device",
-                    "items": [
-                        {
-                            "text": "Browser",
-                            "link": "./rules/device/browser"
-                        },
-                        {
-                            "text": "Device",
-                            "link": "./rules/device/device"
-                        },
-                        {
-                            "text": "IP Address",
-                            "link": "./rules/device/ip-address"
-                        },
-                        {
-                            "text": "IP Geolocation",
-                            "link": "./rules/device/ip-geolocation"
-                        },
-                        {
-                            "text": "Operating System",
-                            "link": "./rules/device/operating-system"
-                        }
-                    ]
-                },
-                {
-                    "text": "DateTime Rules",
-                    "collapsed": true,
-                    "link": "./rules/datetime",
-                    "items": [
-                        {
-                            "text": "Time",
-                            "link": "./rules/datetime/time"
-                        },
-                        {
-                            "text": "Date",
-                            "link": "./rules/datetime/date"
-                        },
-                        {
-                            "text": "Datetime",
-                            "link": "./rules/datetime/datetime"
-                        },
-                        {
-                            "text": "Day",
-                            "link": "./rules/datetime/day"
-                        },
-                        {
-                            "text": "Week",
-                            "link": "./rules/datetime/week"
-                        },
-                        {
-                            "text": "Month",
-                            "link": "./rules/datetime/month"
-                        },
-                        {
-                            "text": "Season",
-                            "link": "./rules/datetime/season"
-                        }
-                    ]
+                    "text": "Rules",
+                    "link": "./rules"
                 }
             ]
         },

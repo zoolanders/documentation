@@ -8,7 +8,7 @@ Expand the possibilities of YOOtheme Pro Dynamic Content with per-field sources,
 
 # Integration
 
-<!--@include: ../_parts/enable-addon.md-->
+<!--@include: ../_partials/enable-addon.md-->
 
 Now that the Dynamic Content workflow has been expanded to include [Per-Field Dynamic Content](../per-field-dynamic-content) and [Global Queries](../global-queries), take the time to delve into both concepts. Incorporate them into your layouts as needed, using the familiar approach, but now with a wider range of mapping options available.
 

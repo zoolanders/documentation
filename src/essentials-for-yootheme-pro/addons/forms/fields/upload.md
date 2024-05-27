@@ -24,7 +24,7 @@ It inherits common settings with the following specifics:
 | **Avoid collisions** | Should the uploaded filename be renamed in the case of a name conflict with a pre-existing file. The new name will be the original name appended with `_{n}`, being `n` a sequential number. |
 
 ::: details Common Settings
-<!--@include: ./parts/common-settings.md-->
+<!--@include: ./_partials/common-settings.md-->
 :::
 
 ### Display
@@ -67,7 +67,7 @@ It inherits common validation with the following specifics:
 | **Max File Size** | The maximum size that the uploaded files must constrain to, `lower than` or `equal to`, using the same size units as Min File Size. | &#x2713; | | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./parts/common-validation.md-->
+<!--@include: ./_partials/common-validation.md-->
 :::
 
 ## Integration
