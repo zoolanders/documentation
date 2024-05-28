@@ -1,5 +1,6 @@
 ---
-addon: Forms
+title: Forms
+description: Empower a Section or Column with form builder and submission capabilities
 ---
 
 # Forms Addon

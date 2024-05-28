@@ -1,5 +1,6 @@
 ---
-addon: Access
+title: Access
+description: Compose rules that will determine the evaluation criteria for rendering an element
 ---
 
 # Access Addon

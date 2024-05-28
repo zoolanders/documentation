@@ -1,5 +1,6 @@
 ---
-addon: Layouts
+title: Layouts
+description: Create custom layout libraries which layouts are stored locally or shared across sites
 ---
 
 # Layouts Addons

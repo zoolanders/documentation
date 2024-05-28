@@ -1,5 +1,6 @@
 ---
-addon: Icons
+title: Icons
+description: Expand the icon library with curated third-party collections of more than 12k icons
 ---
 
 # Icons Addon

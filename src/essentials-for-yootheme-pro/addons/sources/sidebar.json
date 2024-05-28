@@ -29,7 +29,7 @@
                 {
                     "text": "Sources",
                     "collapsed": true,
-                    "link": "./providers",
+                    "link": "./providers/",
                     "items": [
                         {
                             "text": "Airtable",

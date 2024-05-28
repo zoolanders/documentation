@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import MainNav from './nav.json';
+import EssentialsYtpSidebar from '../src/essentials-for-yootheme-pro/sidebar.json'
 import AccessAddonSidebar from '../src/essentials-for-yootheme-pro/addons/access/sidebar.json'
 import DynamicAddonSidebar from '../src/essentials-for-yootheme-pro/addons/dynamic/sidebar.json'
 import ElementsAddonSidebar from '../src/essentials-for-yootheme-pro/addons/elements/sidebar.json'
@@ -22,10 +24,12 @@ each(addons, (v, addon) => {
   prependBase(`/essentials-for-yootheme-pro/addons/${addon}/`, v.items)
 })
 
+prependBase('/essentials-for-yootheme-pro/', EssentialsYtpSidebar.items)
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: 'ZOOlanders Documentation',
-  description: 'Guides and Documentation for ZOOlanders.',
+  title: 'Essentials Documentation',
+  description: 'Guides and Documentation for Essential Addons.',
   srcDir: 'src',
   head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   themeConfig: {
@@ -36,58 +40,10 @@ export default defineConfig({
     },
 
     // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Guides', link: '/guides' },
-      {
-        text: 'Addons',
-        items: [
-          {
-            text: 'Addons for YOOtheme Pro',
-            items: [
-              {
-                text: 'Forms',
-                link: '/essentials-for-yootheme-pro/addons/forms/',
-              },
-              {
-                text: 'Dynamic',
-                link: '/essentials-for-yootheme-pro/addons/dynamic/',
-              },
-              {
-                text: 'Sources',
-                link: '/essentials-for-yootheme-pro/addons/sources/',
-              },
-              {
-                text: 'Access',
-                link: '/essentials-for-yootheme-pro/addons/access/',
-              },
-              {
-                text: 'Icons',
-                link: '/essentials-for-yootheme-pro/addons/icons/',
-              },
-              {
-                text: 'Layouts',
-                link: '/essentials-for-yootheme-pro/addons/layouts/',
-              },
-              {
-                text: 'Elements',
-                link: '/essentials-for-yootheme-pro/addons/elements/',
-              },
-            ],
-          },
-          {
-            text: 'Addons for YOOtheme ZOO',
-            items: [
-              {
-                text: 'Filter',
-                link: '/essentials-for-zoo/addons/filter/',
-              },
-            ],
-          },
-        ],
-      },
-    ],
+    nav: MainNav,
 
     sidebar: {
+      '/essentials-for-yootheme-pro/': EssentialsYtpSidebar,
       '/essentials-for-yootheme-pro/addons/access/': AccessAddonSidebar,
       '/essentials-for-yootheme-pro/addons/dynamic/': DynamicAddonSidebar,
       '/essentials-for-yootheme-pro/addons/elements/': ElementsAddonSidebar,
@@ -111,6 +67,11 @@ export default defineConfig({
         link: 'https://discord.gg/3BT5nHauWr',
       },
     ],
+
+    footer: {
+      message: 'Essentials for YOOtheme Pro and ZOO',
+      copyright: 'Copyright © <a href="https://zoolanders.com">ZOOlanders</a>'
+    }
   },
   transformHead({ assets }) {
     const myFontFile = assets.find((file) => /varela-round\.\w+\.woff2/)

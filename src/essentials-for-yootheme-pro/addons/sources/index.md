@@ -1,5 +1,6 @@
 ---
-addon: Sources
+title: Sources
+description: Generate content sources from configuration or service-dependent data
 ---
 
 # Sources Addon

@@ -241,9 +241,13 @@
 }
 
 .vp-doc .custom-block {
-  margin: 36px 0;
+  margin: 26px 0;
   padding: 16px 16px 8px;
   border-radius: 8px;
+}
+
+.vp-doc .custom-block + .custom-block {
+  margin-top: -26px;
 }
 
 .vp-doc .custom-block .custom-block-title {

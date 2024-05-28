@@ -1,0 +1,70 @@
+[
+  {
+    "text": "Guides",
+    "link": "/guides"
+  },
+  {
+    "text": "Core Concepts",
+    "items": [
+      {
+        "text": "Auth, Keys & Secrets",
+        "link": "/essentials-for-yootheme-pro/auth"
+      },
+      {
+        "text": "Storage Abstraction",
+        "link": "/essentials-for-yootheme-pro/storage"
+      },
+      {
+        "text": "Geolocation",
+        "link": "/essentials-for-yootheme-pro/geolocation"
+      }
+    ]
+  },
+  {
+    "text": "Reference",
+    "items": [
+      {
+        "text": "Addons for YOOtheme Pro",
+        "items": [
+          {
+            "text": "Forms",
+            "link": "/essentials-for-yootheme-pro/addons/forms/"
+          },
+          {
+            "text": "Dynamic",
+            "link": "/essentials-for-yootheme-pro/addons/dynamic/"
+          },
+          {
+            "text": "Sources",
+            "link": "/essentials-for-yootheme-pro/addons/sources/"
+          },
+          {
+            "text": "Access",
+            "link": "/essentials-for-yootheme-pro/addons/access/"
+          },
+          {
+            "text": "Icons",
+            "link": "/essentials-for-yootheme-pro/addons/icons/"
+          },
+          {
+            "text": "Layouts",
+            "link": "/essentials-for-yootheme-pro/addons/layouts/"
+          },
+          {
+            "text": "Elements",
+            "link": "/essentials-for-yootheme-pro/addons/elements/"
+          }
+        ]
+      },
+      {
+        "text": "Addons for YOOtheme ZOO",
+        "items": [
+          {
+            "text": "Filter",
+            "link": "/essentials-for-zoo/addons/filter/"
+          }
+        ]
+      }
+    ]
+  }
+]

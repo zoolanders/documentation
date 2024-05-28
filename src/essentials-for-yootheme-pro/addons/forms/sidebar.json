@@ -37,7 +37,7 @@
                 {
                     "text": "Actions",
                     "collapsed": true,
-                    "link": "./actions",
+                    "link": "./actions/",
                     "items": [
                         {
                             "text": "Data",
@@ -84,7 +84,7 @@
                 {
                     "text": "Fields",
                     "collapsed": true,
-                    "link": "./fields",
+                    "link": "./fields/",
                     "items": [
                         {
                             "text": "Button",
@@ -185,7 +185,7 @@
                 {
                     "text": "Captcha",
                     "collapsed": true,
-                    "link": "./captcha",
+                    "link": "./captcha/",
                     "items": [
                         {
                             "text": "reCAPTCHA",

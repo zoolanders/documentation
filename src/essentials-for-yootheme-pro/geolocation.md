@@ -1,12 +1,8 @@
----
-title: Geolocation Database
----
+# Geolocation Database
 
 Geolocation rely on [MaxMind](https://www.maxmind.com/en/geoip2-services-and-databases)'s **GeoIP2** (commercial) or **GeoLite2** (free) Database. While the free version is enough for the majority of projects, the commercial one is claimed to be more accurate and frequently updated.
 
 As per the license limitations, Essentials doesn't distribute either of them, if geolocation feature is required please proceed with the manual database installation.
-
----
 
 ## Database Installation
 
@@ -18,8 +14,6 @@ You can rely on 3rd party plugins for the installation and posterior updates of 
 - [Joomla Akeeba GeoIP Provider](https://www.akeeba.com/download/akgeoip.html)
 - [WordPress Geolocation IP Detection](https://wordpress.org/plugins/geoip-detect/)
 :::
-
----
 
 ## Country or City Database
 

@@ -1,5 +1,6 @@
 ---
-addon: Dynamic
+title: Dynamic
+description: Simplify the creation of layouts with per-field dynamic content and source inheritance
 ---
 
 # Dynamic Addon

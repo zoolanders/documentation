@@ -3,24 +3,26 @@
 layout: home
 
 hero:
-  name: "ZOOlanders Documentation"
-  # text: "ZOOlanders"
+  name: "ZOOlanders"
+  text: "Essentials Documentation"
   tagline: Explore guides and examples to integrate Essential Addons for YOOtheme Pro and ZOO
   image: hero.png
   actions:
     - theme: brand
-      text: Form Examples
-      link: /markdown-examples
+      text: Getting Started with Essentials
+      link: /essentials-for-yootheme-pro
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Guides
+      link: /guides
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Forms Builder
+    details: Learn all about Forms, a natively integrated form builder
+    link: /essentials-for-yootheme-pro/addons/forms
+  - title: Advanced Dynamic Workflow
+    details: Learn how to extend Dynamic Content with advanced queries
+    link: /essentials-for-yootheme-pro/addons/dynamic
+  - title: Other Addons
+    details: Learn what can Acees, Icons, Layouts and other addons do for you
+    link: /essentials-for-yootheme-pro/addons
 ---
-
