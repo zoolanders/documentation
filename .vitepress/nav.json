@@ -1,30 +1,13 @@
 [
   {
-    "text": "Guides",
-    "link": "/guides"
-  },
-  {
-    "text": "Core Concepts",
+    "text": "Essentials for YOOtheme Pro",
     "items": [
       {
-        "text": "Auth, Keys & Secrets",
-        "link": "/essentials-for-yootheme-pro/auth"
+        "text": "Getting Started",
+        "link": "/essentials-for-yootheme-pro"
       },
       {
-        "text": "Storage Abstraction",
-        "link": "/essentials-for-yootheme-pro/storage"
-      },
-      {
-        "text": "Geolocation",
-        "link": "/essentials-for-yootheme-pro/geolocation"
-      }
-    ]
-  },
-  {
-    "text": "Reference",
-    "items": [
-      {
-        "text": "Addons for YOOtheme Pro",
+        "text": "Addons",
         "items": [
           {
             "text": "Forms",
@@ -57,11 +40,56 @@
         ]
       },
       {
-        "text": "Addons for YOOtheme ZOO",
+        "items": [
+          {
+            "text": "Guides",
+            "link": "/essentials-for-yootheme-pro/guides"
+          },
+          {
+            "text": "Troublehooting",
+            "link": "/essentials-for-yootheme-pro/troublehooting"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Essentials for ZOO",
+    "items": [
+      {
+        "text": "Getting Started",
+        "link": "/essentials-for-zoo"
+      },
+      {
+        "text": "Addons",
         "items": [
           {
             "text": "Filter",
             "link": "/essentials-for-zoo/addons/filter/"
+          },
+          {
+            "text": "Lingual",
+            "link": "/essentials-for-zoo/addons/lingual/"
+          },
+          {
+            "text": "Elements",
+            "link": "/essentials-for-zoo/addons/elements/"
+          },
+          {
+            "text": "ZOOitem Pro",
+            "link": "/essentials-for-zoo/addons/zooitem-pro/"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "text": "Guides",
+            "link": "/essentials-for-zoo/guides"
+          },
+          {
+            "text": "Troublehooting",
+            "link": "/essentials-for-zoo/troublehooting"
           }
         ]
       }

@@ -27,7 +27,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on an API Token driven by the [Cloudflare API Token Driver](/essentials-for-yootheme-pro/auth/drivers/cloudflare-api-token).
 
-![Cloudflare API Key Driver](/essentials-for-yootheme-pro/assets/auths/driver-cloudflare-api-token.webp)
+![Cloudflare API Key Driver](/essentials-for-yootheme-pro/auth/assets/driver/cloudflare-api-token.webp)
 
 ::: tip Keys Security
 Learn more about Essentials [Keys security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).

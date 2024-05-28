@@ -2,33 +2,111 @@
     "text": "Access",
     "items": [
         {
-            "text": "Getting Started",
+            "text": "Access Addon",
             "items": [
                 {
                     "text": "Overview",
                     "link": "./"
-                }
-            ]
-        },
-        {
-            "text": "Reference",
-            "items": [
+                },
                 {
                     "text": "Condition",
                     "link": "./condition"
-                },
-                {
-                    "text": "Rules",
-                    "link": "./rules/"
                 }
             ]
         },
         {
-            "text": "Advanced",
+            "text": "Rules",
+            "link": "./rules",
             "items": [
                 {
-                    "text": "Create a Custom Rule",
-                    "link": "./create-custom-rule"
+                    "text": "Dynamic",
+                    "link": "./rules/dynamic"
+                },
+                {
+                    "text": "Site",
+                    "collapsed": true,
+                    "items": [
+                        {
+                            "text": "Language",
+                            "link": "./rules/language"
+                        },
+                        {
+                            "text": "URL",
+                            "link": "./rules/url"
+                        },
+                        {
+                            "text": "User",
+                            "link": "./rules/user"
+                        },
+                        {
+                            "text": "User Group",
+                            "link": "./rules/user-group"
+                        },
+                        {
+                            "text": "User Level",
+                            "link": "./rules/user-level"
+                        }
+                    ]
+                },
+                {
+                    "text": "Device",
+                    "collapsed": true,
+                    "items": [
+                        {
+                            "text": "Browser",
+                            "link": "./rules/browser"
+                        },
+                        {
+                            "text": "Device",
+                            "link": "./rules/device"
+                        },
+                        {
+                            "text": "IP Address",
+                            "link": "./rules/ip-address"
+                        },
+                        {
+                            "text": "IP Geolocation",
+                            "link": "./rules/ip-geolocation"
+                        },
+                        {
+                            "text": "Operating System",
+                            "link": "./rules/operating-system"
+                        }
+                    ]
+                },
+                {
+                    "text": "DateTime",
+                    "collapsed": true,
+                    "items": [
+                        {
+                            "text": "Time",
+                            "link": "./rules/time"
+                        },
+                        {
+                            "text": "Date",
+                            "link": "./rules/date"
+                        },
+                        {
+                            "text": "Datetime",
+                            "link": "./rules/datetime"
+                        },
+                        {
+                            "text": "Day",
+                            "link": "./rules/day"
+                        },
+                        {
+                            "text": "Week",
+                            "link": "./rules/week"
+                        },
+                        {
+                            "text": "Month",
+                            "link": "./rules/month"
+                        },
+                        {
+                            "text": "Season",
+                            "link": "./rules/season"
+                        }
+                    ]
                 }
             ]
         }

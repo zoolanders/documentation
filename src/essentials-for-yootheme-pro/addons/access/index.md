@@ -21,7 +21,7 @@ Navigate to the Builder and select the element you want to condition. From there
 
 ### 2. Compose the Condition
 
-Check the [rules reference](../rules) to gain insights and form the condition according to your needs. In this particular case, we will be using a Day rule.
+Check the [rules reference](./rules) to gain insights and form the condition according to your needs. In this particular case, we will be using a Day rule.
 
 ![Compose Access Condition](./assets/compose-condition.gif)
 

@@ -26,7 +26,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/facebook-oauth).
 
-![Facebook OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-facebook-oauth.webp)
+![Facebook OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/facebook-oauth.webp)
 
 ## Content Queries
 

@@ -4,4 +4,4 @@ Thanks to the library's integration with various storage options, you have the a
 
 For an overview of the storage workflow and it capabilities, consult the [Storage Abstraction](/essentials-for-yootheme-pro/storage-abstraction) section.
 
-![Layout Library Storage](../../assets/storage/adapter-s3.webp)
+![Layout Library Storage](../../storage/assets/s3.webp)

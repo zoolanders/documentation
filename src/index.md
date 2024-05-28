@@ -9,20 +9,9 @@ hero:
   image: hero.png
   actions:
     - theme: brand
-      text: Getting Started with Essentials
+      text: Essentials for YOOtheme Pro
       link: /essentials-for-yootheme-pro
     - theme: alt
-      text: Guides
-      link: /guides
-
-features:
-  - title: Forms Builder
-    details: Learn all about Forms, a natively integrated form builder
-    link: /essentials-for-yootheme-pro/addons/forms
-  - title: Advanced Dynamic Workflow
-    details: Learn how to extend Dynamic Content with advanced queries
-    link: /essentials-for-yootheme-pro/addons/dynamic
-  - title: Other Addons
-    details: Learn what can Acees, Icons, Layouts and other addons do for you
-    link: /essentials-for-yootheme-pro/addons
+      text: Essentials for ZOO
+      link: /essentials-for-zoo
 ---

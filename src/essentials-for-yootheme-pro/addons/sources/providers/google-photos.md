@@ -25,7 +25,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/google-oauth).
 
-![Google OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-google-oauth.webp)
+![Google OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/google-oauth.webp)
 
 ## Content Queries
 

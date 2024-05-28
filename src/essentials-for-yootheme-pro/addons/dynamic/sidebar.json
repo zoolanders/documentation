@@ -2,17 +2,12 @@
     "text": "Dynamic",
     "items": [
         {
-            "text": "Getting Started",
+            "text": "Dynamic Addon",
             "items": [
                 {
                     "text": "Overview",
                     "link": "./"
-                }
-            ]
-        },
-        {
-            "text": "Core Concepts",
-            "items": [
+                },
                 {
                     "text": "Global Queries",
                     "link": "./global-queries"

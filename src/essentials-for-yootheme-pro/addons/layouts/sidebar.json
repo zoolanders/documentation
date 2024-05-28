@@ -2,17 +2,12 @@
     "text": "Layouts",
     "items": [
         {
-            "text": "Getting Started",
+            "text": "Layouts Addon",
             "items": [
                 {
                     "text": "Overview",
                     "link": "./"
-                }
-            ]
-        },
-        {
-            "text": "Core Concepts",
-            "items": [
+                },
                 {
                     "text": "Cross-Site Layout Sharing",
                     "link": "./cross-site-layout-sharing"

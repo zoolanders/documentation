@@ -25,7 +25,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Instagram OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/instagram-oauth).
 
-![Instagram OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-instagram-oauth.webp)
+![Instagram OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/instagram-oauth.webp)
 
 ## Content Queries
 

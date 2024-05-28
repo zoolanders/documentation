@@ -2,7 +2,7 @@
     "text": "Essentials YTP",
     "items": [
         {
-            "text": "Getting Started",
+            "text": "Essentials YOOtheme Pro",
             "items": [
                 {
                     "text": "Integration",
@@ -17,80 +17,51 @@
                     "link": "./settings"
                 },
                 {
-                    "text": "Addons",
-                    "link": "./addons/"
+                    "text": "Auth, Keys & Secrets",
+                    "link": "./auth/"
+                },
+                {
+                    "text": "Storage Abstraction",
+                    "link": "./storage/"
                 }
             ]
         },
         {
-            "text": "Core Concepts",
+            "text": "Addons",
             "items": [
                 {
-                    "text": "Auth, Keys & Secrets",
-                    "link": "./auth/",
-                    "collapsed": true,
-                    "items": [
-                        {
-                            "text": "Airtable",
-                            "link": "./auth/airtable"
-                        },
-                        {
-                            "text": "API",
-                            "link": "./auth/api"
-                        },
-                        {
-                            "text": "AWS",
-                            "link": "./auth/aws"
-                        },
-                        {
-                            "text": "Cloudflare",
-                            "link": "./auth/cloudflare"
-                        },
-                        {
-                            "text": "Facebook",
-                            "link": "./auth/facebook"
-                        },
-                        {
-                            "text": "Google",
-                            "link": "./auth/google"
-                        },
-                        {
-                            "text": "Instagram",
-                            "link": "./auth/instagram"
-                        },
-                        {
-                            "text": "TikTok",
-                            "link": "./auth/tiktok"
-                        },
-                        {
-                            "text": "Twitter",
-                            "link": "./auth/twitter"
-                        },
-                        {
-                            "text": "Vimeo",
-                            "link": "./auth/vimeo"
-                        }
-                    ]
+                    "text": "Access",
+                    "link": "./addons/access"
                 },
                 {
-                    "text": "Storage Abstraction",
-                    "link": "./storage/",
-                    "collapsed": true,
-                    "items": [
-                        {
-                            "text": "Local",
-                            "link": "./storage/local"
-                        },
-                        {
-                            "text": "FTP",
-                            "link": "./storage/ftp"
-                        },
-                        {
-                            "text": "S3",
-                            "link": "./storage/s3"
-                        }
-                    ]
+                    "text": "Sources",
+                    "link": "./addons/sources"
                 },
+                {
+                    "text": "Forms",
+                    "link": "./addons/forms"
+                },
+                {
+                    "text": "Icons",
+                    "link": "./addons/icons"
+                },
+                {
+                    "text": "Dynamic",
+                    "link": "./addons/dynamic"
+                },
+                {
+                    "text": "Layouts",
+                    "link": "./addons/layouts"
+                },
+                {
+                    "text": "Elements",
+                    "link": "./addons/elements"
+                }
+            ]
+        },
+        {
+            "text": "Advanced",
+            "items": [
                 {
                     "text": "Geolocation",
                     "link": "./geolocation"

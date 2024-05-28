@@ -25,7 +25,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Vimeo OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/vimeo-oauth).
 
-![Vimeo OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-vimeo-oauth.webp)
+![Vimeo OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/vimeo-oauth.webp)
 
 ## Content Queries
 

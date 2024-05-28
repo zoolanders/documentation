@@ -2,7 +2,7 @@
     "text": "Icons",
     "items": [
         {
-            "text": "Getting Started",
+            "text": "Icons Addon",
             "items": [
                 {
                     "text": "Overview",
@@ -19,11 +19,56 @@
             ]
         },
         {
-            "text": "Reference",
+            "text": "Collections",
+            "link": "./collections/",
             "items": [
                 {
-                    "text": "Collections",
-                    "link": "./collections/"
+                    "text": "Ant Design",
+                    "link": "./collections/antdesign"
+                },
+                {
+                    "text": "Bootstrap",
+                    "link": "./collections/bootstrap"
+                },
+                {
+                    "text": "Boxicons",
+                    "link": "./collections/boxicons"
+                },
+                {
+                    "text": "Font Awesome",
+                    "link": "./collections/fontawesome"
+                },
+                {
+                    "text": "Feather",
+                    "link": "./collections/feather"
+                },
+                {
+                    "text": "Heroicons",
+                    "link": "./collections/heroicons"
+                },
+                {
+                    "text": "Ionicons",
+                    "link": "./collections/ionicons"
+                },
+                {
+                    "text": "Octicons",
+                    "link": "./collections/octicons"
+                },
+                {
+                    "text": "Remix Icon",
+                    "link": "./collections/remixicon"
+                },
+                {
+                    "text": "Tabler Icons",
+                    "link": "./collections/tablericons"
+                },
+                {
+                    "text": "Teeny Icons",
+                    "link": "./collections/teenyicons"
+                },
+                {
+                    "text": "Zondicons",
+                    "link": "./collections/zondicons"
                 }
             ]
         },
@@ -33,10 +78,6 @@
                 {
                     "text": "Troubleshooting",
                     "link": "./troubleshooting"
-                },
-                {
-                    "text": "Custom Collections",
-                    "link": "./custom-collections"
                 }
             ]
         }

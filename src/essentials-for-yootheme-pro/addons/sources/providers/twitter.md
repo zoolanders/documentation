@@ -25,7 +25,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [Twitter OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/twitter-oauth). Due to Twitter API policies it is not possible to use a ZOOlanders oAuth App, instead you must [setup a custom Twitter Dev App](/essentials-for-yootheme-pro/auth/drivers/twitter-oauth#custom-twitter-dev-app) and use your own credentials.
 
-![Twitter OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-twitter-oauth.webp)
+![Twitter OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/twitter-oauth.webp)
 
 ## Content Queries
 

@@ -1,10 +1,10 @@
 ---
-description: Learn now to create a Custom Access Condition Rule
+description: Learn now to create a Custom Access Condition Rule for Access and others
 ---
 
 # Create a Custom Condition Rule
 
-Learn how to create a Custom Access Condition Rule.
+{{ $frontmatter.description }}.
 
 Follow the bellow steps to create your custom rule, you can alternatively use this [rule example](https://github.com/zoolanders/ytp-condition-rules) in GitHub which includes more details and a working code. Also notice that core rules are a useful resource to get started and can be found in the `modules/condition/rules` directory relative to the [installation folder](/essentials-for-yootheme-pro/installation).
 

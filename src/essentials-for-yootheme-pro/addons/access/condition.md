@@ -6,7 +6,7 @@ An Access Condition is a set of rules with a predefined or custom evaluation log
 
 ## Composable Rules
 
-The Access Condition includes a variety of core rules, totaling over 16, which are organized into groups as [Site](../rules/site), [Device](../rules/device), [DateTime](../rules/datetime), and a versatile rule called [Dynamic](../rules/dynamic). It is possible to include multiple types of the same rule within a single condition, with different configurations.
+The Access Condition includes a variety of core rules, totaling over 16, which are organized into groups of Site, Device and DateTime. It is possible to include multiple types of the same rule within a single condition, with different configurations.
 
 ![Access Condition Rules](./assets/access-condition-rules.webp)
 

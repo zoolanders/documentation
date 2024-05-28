@@ -27,7 +27,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the Airtable Personal Access Token driven by the [Airtable Token Driver](/essentials-for-yootheme-pro/auth/drivers/airtable-access-token).
 
-![Airtable Access Token Driver](/essentials-for-yootheme-pro/assets/auths/driver-airtable-access-token.webp)
+![Airtable Access Token Driver](/essentials-for-yootheme-pro/auth/assets/driver/airtable-access-token.webp)
 
 ## Content Queries
 

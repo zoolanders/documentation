@@ -25,7 +25,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on the OAuth protocol driven by the [TikTok OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/tiktok-oauth).
 
-![TikTok OAuth Driver](/essentials-for-yootheme-pro/assets/auths/driver-tiktok-oauth.webp)
+![TikTok OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/tiktok-oauth.webp)
 
 ## Content Queries
 

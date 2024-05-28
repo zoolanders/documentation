@@ -2,17 +2,12 @@
     "text": "Forms",
     "items": [
         {
-            "text": "Getting Started",
+            "text": "Forms Addon",
             "items": [
                 {
                     "text": "Overview",
                     "link": "./"
-                }
-            ]
-        },
-        {
-            "text": "Core Concepts",
-            "items": [
+                },
                 {
                     "text": "Form Area",
                     "link": "./form-area"
@@ -27,7 +22,7 @@
                 },
                 {
                     "text": "Dynamic Workflow",
-                    "link": "./dynamic"
+                    "link": "./dynamic-workflow"
                 }
             ]
         },
@@ -200,10 +195,6 @@
                             "link": "./captcha/friendly-captcha"
                         }
                     ]
-                },
-                {
-                    "text": "Settings",
-                    "link": "./settings"
                 }
             ]
         },
@@ -217,14 +208,6 @@
                 {
                     "text": "Troubleshooting",
                     "link": "./troubleshooting"
-                },
-                {
-                    "text": "Display Form in a Modal",
-                    "link": "./display-form-in-modal"
-                },
-                {
-                    "text": "Create a Custom Action",
-                    "link": "./create-custom-action"
                 }
             ]
         }

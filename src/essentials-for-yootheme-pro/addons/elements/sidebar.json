@@ -2,7 +2,7 @@
     "text": "Elements",
     "items": [
         {
-            "text": "Getting Started",
+            "text": "Elements Addon",
             "items": [
                 {
                     "text": "Overview",
@@ -11,18 +11,18 @@
             ]
         },
         {
-            "text": "Reference",
+            "text": "Elements",
             "items": [
                 {
-                    "text": "Chart Element",
+                    "text": "Chart",
                     "link": "./chart"
                 },
                 {
-                    "text": "Markdown Element",
+                    "text": "Markdown",
                     "link": "./markdown"
                 },
                 {
-                    "text": "Social Sharing Element",
+                    "text": "Social Sharing",
                     "link": "./social-sharing"
                 }
             ]

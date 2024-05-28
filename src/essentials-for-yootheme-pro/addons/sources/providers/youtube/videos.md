@@ -25,7 +25,7 @@ The source settings determines the content structure, every time the instance is
 
 Authentication is based on an API Key driven by the [Google API Key Driver](/essentials-for-yootheme-pro/auth/drivers/google-api-key).
 
-![Google API Key Driver](/essentials-for-yootheme-pro/assets/auths/driver-google-api-key.webp)
+![Google API Key Driver](/essentials-for-yootheme-pro/auth/assets/driver/google-api-key.webp)
 
 ::: tip Keys Security
 Learn more about Essentials [Keys security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).

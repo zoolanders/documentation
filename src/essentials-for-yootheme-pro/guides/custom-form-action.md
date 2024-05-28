@@ -2,7 +2,7 @@
 description: Create a custom After Submit Action
 ---
 
-# Custom Action
+# Custom Form Action
 
 Learn how to create an [After Submit Action](../after-submit-actions).
 

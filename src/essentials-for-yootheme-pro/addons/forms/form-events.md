@@ -4,7 +4,7 @@ description: Learn how to hook into the form front-end events
 
 # Form Events
 
-JavaScript events triggered by each form for which is possible to add listeners and perform custom actions. Set those in a custom script as illustrated bellow or as a [Form Area Setting](../settings#custom-scripts).
+JavaScript events triggered by each form for which is possible to add listeners and perform custom actions. Set those in a custom script as illustrated bellow or as a [Form Area Setting](./form-area#settings).
 
 ## On Submit
 
