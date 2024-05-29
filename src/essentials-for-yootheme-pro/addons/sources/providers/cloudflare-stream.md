@@ -3,9 +3,9 @@ title: CloudFlare Stream
 description: Content Source based on CloudFlare Stream
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The Cloudflare Source feeds data from [Cloudflare Stream](https://www.cloudflare.com/products/cloudflare-stream/) videos. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
+The Cloudflare Source feeds data from [Cloudflare Stream](https://www.cloudflare.com/products/cloudflare-stream/) videos. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow it allows connecting to multiple accounts with different configurations.
 
 ## Settings
 
@@ -20,17 +20,17 @@ The source settings determines the content structure, every time the instance is
 | **Signing Key** | An auto-generated key used to signing private videos. | |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on an API Token driven by the [Cloudflare API Token Driver](/essentials-for-yootheme-pro/auth/drivers/cloudflare-api-token).
+Authentication is based on an API Token driven by the [Cloudflare API Token Driver](/essentials-for-yootheme-pro/auth/cloudflare).
 
 ![Cloudflare API Key Driver](/essentials-for-yootheme-pro/auth/assets/driver/cloudflare-api-token.webp)
 
 ::: tip Keys Security
-Learn more about Essentials [Keys security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
+Learn more about Essentials [Keys security protocols](/essentials-for-yootheme-pro/auth/#security).
 :::
 
 ## Content Queries

@@ -4,7 +4,7 @@ description: Add or alter submission data
 core: true
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The **Validate Action** validates the submitted data with custom condition rules, if the validation fails no further actions will be executed.
 
@@ -17,5 +17,5 @@ The **Validate Action** validates the submitted data with custom condition rules
 | **Validate.Value** | The value for the data entry. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ./_partials/common-settings.md-->
+<!--@include: ./_partials/common-settings-->
 :::

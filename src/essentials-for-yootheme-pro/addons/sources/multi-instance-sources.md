@@ -14,6 +14,6 @@ The Source Manager can be accessed at `Customizer -> Essentials -> Sources` sect
 
 ## Source Authentication
 
-This is the process where you grant permission to access private content or perform actions on your behalf that is required by a source, e.g. accessing media from an Instagram Business account. Learn more about [OAuth, Keys and Secrets](/essentials-for-yootheme-pro/oauth-keys-secrets) managed by Essentials.
+This is the process where you grant permission to access private content or perform actions on your behalf that is required by a source, e.g. accessing media from an Instagram Business account. Learn more about [OAuth, Keys and Secrets](/essentials-for-yootheme-pro/auth/) managed by Essentials.
 
 ![Source Authentication](./assets/source-authentication.webp)

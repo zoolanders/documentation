@@ -3,7 +3,7 @@ title: hCaptcha
 description: An alternative captcha solution
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The hCaptcha element integrates [hCaptcha](https://www.hcaptcha.com/) anti-bot solution that protects user privacy and rewards websites.
 

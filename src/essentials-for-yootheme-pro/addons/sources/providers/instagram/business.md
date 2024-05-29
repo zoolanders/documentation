@@ -3,7 +3,7 @@ title: Instagram Business
 description: Content Source based on Instagram Business account
 ---
 
-<!--@include: ../../parts/provider-intro.md-->
+<!--@include: ../../parts/provider-intro-->
 
 The Instagram Business Source, part of the [Instagram Source](../instagram) collection, creates sources based on the Instagram Business accounts content.
 
@@ -19,12 +19,12 @@ The source settings determines the content structure, every time the instance is
 | **Page** | The Facebook Page associated with the Instagram Business account. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/facebook-oauth).
+Authentication is based on the OAuth protocol driven by the [Facebook OAuth Driver](/essentials-for-yootheme-pro/auth/facebook).
 
 ![Facebook OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/facebook-oauth.webp)
 

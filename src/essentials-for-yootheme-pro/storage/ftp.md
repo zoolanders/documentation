@@ -3,7 +3,7 @@ title: FTP
 description: Storage abstraction for S/FTP protocol
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The S/FTP Storage Adapter stores files in a remote server using the S/FTP protocol.
 

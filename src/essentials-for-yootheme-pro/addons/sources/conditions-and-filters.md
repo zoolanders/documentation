@@ -81,7 +81,7 @@ Part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/d
 
 ## Access Condition
 
-Part of the [Access Addon](/essentials-for-yootheme-pro/addons/access) workflow, Access Condition has the same functionality as the [Dynamic Condition](#dynamic-condition), but with support for dynamic content, multiple rules and custom evaluation logic. You can opt to use it instead as per higher possibilities.
+Part of the [Access Addon](/essentials-for-yootheme-pro/addons/access/) workflow, Access Condition has the same functionality as the [Dynamic Condition](#dynamic-condition), but with support for dynamic content, multiple rules and custom evaluation logic. You can opt to use it instead as per higher possibilities.
 
 ![Access Conditions](./assets/access-conditions.webp)
 

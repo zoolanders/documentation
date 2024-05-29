@@ -3,7 +3,7 @@ title: Instagram Personal
 description: Content Source based on Instagram Personal account
 ---
 
-<!--@include: ../../parts/provider-intro.md-->
+<!--@include: ../../parts/provider-intro-->
 
 The Instagram Personal Source, part of the [Instagram Source](../instagram) collection, creates sources based on the Instagram Personal accounts content.
 
@@ -18,12 +18,12 @@ The source settings determines the content structure, every time the instance is
 | **Account** | The Instagram Account which to [authenticate](#authentication) with. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Instagram OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/instagram-oauth).
+Authentication is based on the OAuth protocol driven by the [Instagram OAuth Driver](/essentials-for-yootheme-pro/auth/instagram).
 
 ![Instagram OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/instagram-oauth.webp)
 

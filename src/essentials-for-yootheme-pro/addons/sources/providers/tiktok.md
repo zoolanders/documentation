@@ -3,9 +3,9 @@ title: TikTok
 description: Content Source based on TikTok
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The TikTok Source feeds data from [TikTok](https://www.vimeo.com) media. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
+The TikTok Source feeds data from [TikTok](https://www.vimeo.com) media. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow it allows connecting to multiple accounts with different configurations.
 
 ## Settings
 
@@ -18,12 +18,12 @@ The source settings determines the content structure, every time the instance is
 | **Account** | The TikTok Account which to authenticate with. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [TikTok OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/tiktok-oauth).
+Authentication is based on the OAuth protocol driven by the [TikTok OAuth Driver](/essentials-for-yootheme-pro/auth/tiktok).
 
 ![TikTok OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/tiktok-oauth.webp)
 

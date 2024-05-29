@@ -9,7 +9,7 @@ icons: 638
 version: 4.0.0
 ---
 
-<!--@include: ../_partials/intro-collection.md-->
+<!--@include: ../_partials/intro-collection-->
 
 A collection of {{ $frontmatter.icons }} icons from <a :href="$frontmatter.url" target="_blank">{{ $frontmatter.title }}</a> released on {{ $frontmatter.release }} under the {{ $frontmatter.license }} license as version `{{ $frontmatter.version }}`.
 

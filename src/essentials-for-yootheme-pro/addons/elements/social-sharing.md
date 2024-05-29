@@ -3,7 +3,7 @@ title: Social Sharing
 description: A social network sharing element
 ---
 
-<!--@include: ./_partials/intro-element.md-->
+<!--@include: ./_partials/intro-element-->
 
 Enable your users to share your website's content on their preferred social media platform, whether it be Twitter, Facebook, WhatsApp, Viber, a custom network that you have established, or even Email.
 

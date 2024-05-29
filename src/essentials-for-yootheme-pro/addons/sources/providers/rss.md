@@ -3,9 +3,9 @@ title: RSS
 description: Content Source based on RSS feeds
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The RSS Source feeds data from RSS 0.9, 1.0, 2.0, and Atom specifications. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple feeds with different configurations.
+The RSS Source feeds data from RSS 0.9, 1.0, 2.0, and Atom specifications. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow it allows connecting to multiple feeds with different configurations.
 
 ## Settings
 
@@ -18,7 +18,7 @@ The source settings determines the content structure, every time the instance is
 | **URL** | The feed URL from which to generate the source content. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ## Content Queries

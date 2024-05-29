@@ -3,9 +3,9 @@ title: Vimeo
 description: Content Source based on Vimeo
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The Vimeo Source feeds data from [Vimeo](https://www.vimeo.com) media. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
+The Vimeo Source feeds data from [Vimeo](https://www.vimeo.com) media. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow it allows connecting to multiple accounts with different configurations.
 
 ## Settings
 
@@ -18,12 +18,12 @@ The source settings determines the content structure, every time the instance is
 | **Account** | The Vimeo Account which to authenticate with. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Vimeo OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/vimeo-oauth).
+Authentication is based on the OAuth protocol driven by the [Vimeo OAuth Driver](/essentials-for-yootheme-pro/auth/vimeo).
 
 ![Vimeo OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/vimeo-oauth.webp)
 

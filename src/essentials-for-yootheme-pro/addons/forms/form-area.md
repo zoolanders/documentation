@@ -14,25 +14,25 @@ The Form Area Configuration panel contains both general and advanced configurati
 
 ## Structure
 
-[Field Elements](./fields) are used to structure the form and define individual field validation and specifics. They represent standard HTML form elements that are natively supported by [UIkit](https://getuikit.com/) and can be found in the builder element library under the `Form Essentials` group.
+[Field Elements](./fields/) are used to structure the form and define individual field validation and specifics. They represent standard HTML form elements that are natively supported by [UIkit](https://getuikit.com/) and can be found in the builder element library under the `Form Essentials` group.
 
 ![Form Area Elements](./assets/formarea-elements.webp)
 
 ::: warning Raw HTML fields limitations
-Even though it is possible to define a form field using raw HTML, the [Dynamic Workflow](./dynamic) will not be completely aware of these. When possible, opt to create a custom element instead.
+Even though it is possible to define a form field using raw HTML, the [Dynamic Workflow](./dynamic-workflow) will not be completely aware of these. When possible, opt to create a custom element instead.
 :::
 
 ## Settings
 
 ### Actions
 
-At least one [After Submit Actions](./after-submit-actions) is required, consult individual [action reference](./actions) for specifics.
+At least one [After Submit Actions](./after-submit-actions) is required, consult individual [action reference](./actions/) for specifics.
 
 ![Form Area Actions](./assets/formarea-config-actions.webp)
 
 ### Validation
 
-Global validation settings, for field specific validation refer to [field settings](./fields).
+Global validation settings, for field specific validation refer to [field settings](./fields/).
 
 ![Form Area Settings](./assets/formarea-config-settings.webp)
 

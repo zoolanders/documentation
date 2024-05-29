@@ -4,7 +4,7 @@ description: Redirect the browser to a custom URL
 core: true
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The **Redirect Action** redirects the browser to a specified URL, with an optional message that will be displayed using the Joomla or WordPress core message display system.
 
@@ -17,5 +17,5 @@ The **Redirect Action** redirects the browser to a specified URL, with an option
 | **Timeout** | The seconds to wait before triggering the redirect. |
 
 ::: details Common Settings
-<!--@include: ./_partials/common-settings.md-->
+<!--@include: ./_partials/common-settings-->
 :::

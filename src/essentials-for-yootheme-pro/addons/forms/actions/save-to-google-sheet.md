@@ -3,7 +3,7 @@ title: Google Sheet
 description: Save data to a Google Spreadsheet
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The **SaveToGoogleSheet Action** stores each submission data as a new record in the specified Google Drive Spreadsheet. Use it to store data or log submissions.
 
@@ -17,7 +17,7 @@ The **SaveToGoogleSheet Action** stores each submission data as a new record in 
 | **Value Input Option** | Defines how the data will be interpreted when saved to the spreadsheet. `Raw`, the values will be stored as-is, or `User Entered`, the values will be parsed as if were typed into the UI. |
 
 ::: details Common Settings
-<!--@include: ./_partials/common-settings.md-->
+<!--@include: ./_partials/common-settings-->
 :::
 
 ## Content Mapping
@@ -26,4 +26,4 @@ Once the spreadsheet has been chosen, its columns will appear in the Content fie
 
 ![SaveTo Action Mapping](./assets/action-saveto-mapping.webp)
 
-Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic).
+Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic-workflow).

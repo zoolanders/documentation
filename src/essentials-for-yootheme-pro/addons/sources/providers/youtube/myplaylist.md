@@ -3,7 +3,7 @@ title: YouTube My Playlist
 description: Content Source based on your YouTube Playlist
 ---
 
-<!--@include: ../../parts/provider-intro.md-->
+<!--@include: ../../parts/provider-intro-->
 
 The YouTube My Playlist Source, part of the [YouTube Source](../) collection, creates sources based on a YouTube playlist from the authenticated user.
 
@@ -19,12 +19,12 @@ The source settings determines the content structure, every time the instance is
 | **Playlist** | The YouTube Playlist from which to create the source. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../../parts/provider-common-settings.md-->
+<!--@include: ../../parts/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/google-oauth).
+Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/google).
 
 ![Google OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/google-oauth.webp)
 

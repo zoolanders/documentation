@@ -3,7 +3,7 @@ title: Vimeo
 description: A Driver for Vimeo OAuth authorization
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The Vimeo OAuth Driver manage Vimeo OAuth protocol to authenticate and grant scope permissions.
 

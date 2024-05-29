@@ -3,7 +3,7 @@ title: Airtable
 description: A Driver for Airtable Personal Access Tokens
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The Airtable Access Token Driver manage Airtable Personal Access Tokens obtained through the [Airtable](https://airtable.com/create/tokens) dashboard.
 

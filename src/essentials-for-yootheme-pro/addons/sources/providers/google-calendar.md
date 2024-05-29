@@ -3,9 +3,9 @@ title: Google Calendar
 description: Content Source based on Google Calendar
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The Google Calendar source feeds data from the Google Calendar service. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
+The Google Calendar source feeds data from the Google Calendar service. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow it allows connecting to multiple accounts with different configurations.
 
 ## Settings
 
@@ -19,12 +19,12 @@ The source settings determines the content structure, every time the instance is
 | **Calendar** | The Google calendar which data to create the source with. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/google-oauth).
+Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/google).
 
 ![Google OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/google-oauth.webp)
 

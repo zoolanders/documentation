@@ -4,7 +4,7 @@ description: Validates against current user
 collection: Site
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The User Rule evaluates whether the current user's `id` or `username` matches one of the selection.
 
@@ -18,5 +18,5 @@ The User Rule evaluates whether the current user's `id` or `username` matches on
 | **Reversed** | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
 
 ::: details Advanced Settings
-<!--@include: ./_partials/advanced-settings.md-->
+<!--@include: ./_partials/advanced-settings-->
 :::

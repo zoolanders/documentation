@@ -3,9 +3,9 @@ title: Google Business Profile
 description: Content Source based on Google Business Profile
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The Google Business Profile Source creates sources based on Google Business Profile (a.k.a Google My Business) content. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow, it allows connecting to multiple accounts with different configurations.
+The Google Business Profile Source creates sources based on Google Business Profile (a.k.a Google My Business) content. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow, it allows connecting to multiple accounts with different configurations.
 
 Refer to the following table for all the available sources and it queries.
 
@@ -32,12 +32,12 @@ The source settings determines the content structure, every time the instance is
 | **Location** | The Google Business Profile location from which to create the source. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/google-oauth).
+Authentication is based on the OAuth protocol driven by the [Google OAuth Driver](/essentials-for-yootheme-pro/auth/google).
 
 ![Google OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/google-oauth.webp)
 

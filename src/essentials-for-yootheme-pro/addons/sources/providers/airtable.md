@@ -3,9 +3,9 @@ title: Airtable
 description: Content Source based on Airtable apps
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The Airtable Source feeds data from Airtable platform. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
+The Airtable Source feeds data from Airtable platform. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow it allows connecting to multiple accounts with different configurations.
 
 ## Settings
 
@@ -20,12 +20,12 @@ The source settings determines the content structure, every time the instance is
 | **Table** | The Airtable base table which data to create the source with. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on the Airtable Personal Access Token driven by the [Airtable Token Driver](/essentials-for-yootheme-pro/auth/drivers/airtable-access-token).
+Authentication is based on the Airtable Personal Access Token driven by the [Airtable Token Driver](/essentials-for-yootheme-pro/auth/airtable).
 
 ![Airtable Access Token Driver](/essentials-for-yootheme-pro/auth/assets/driver/airtable-access-token.webp)
 

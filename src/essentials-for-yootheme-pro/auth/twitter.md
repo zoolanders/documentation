@@ -3,15 +3,16 @@ title: Twitter
 description: A Driver for Twitter OAuth authorization
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The Twitter OAuth Driver manage Twitter OAuth protocol to authenticate and grant scope permissions.
 
 ::: warning Custom Dev App
-Due to Twitter API policies it is not possible to use a ZOOlanders oAuth App, instead you must [create a custom Twitter Dev App](/guides/custom-twitter-dev-app) and use your own credentials.
+Due to Twitter API policies it is not possible to use a ZOOlanders oAuth App, instead you must [create a custom Twitter Dev App](/essentials-for-yootheme-pro/guides/custom-twitter-dev-app) and use your own credentials.
 :::
 
 ![Twitter OAuth Driver](./assets/driver/twitter-oauth.webp)
+
 | Setting | Description |
 | ------- | ----------- |
 | **Name** | The name that will identify this auth. |

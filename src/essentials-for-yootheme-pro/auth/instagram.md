@@ -3,7 +3,7 @@ title: Instagram
 description: A Driver for Instagram OAuth authorization
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The Instagram OAuth Driver manage Instagram OAuth protocol to authenticate and grant scope permissions.
 

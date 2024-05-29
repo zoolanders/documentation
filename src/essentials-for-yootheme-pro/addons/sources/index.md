@@ -11,7 +11,7 @@ Generate content sources from configuration or service-dependent data, such as d
 
 Follow through to learn how to create a Multi-Instance source. Even if you are already familiar with the concept you might learn something new.
 
-<!--@include: ../_partials/enable-addon.md-->
+<!--@include: ../_partials/enable-addon-->
 
 ### 1. Create a Source Instance
 
@@ -21,7 +21,7 @@ The Source Manager will assist us on creating, and posterior management, of all 
 
 1. Open the manager at `Customizer -> Essentials -> Sources`
 2. Create a new source of any kind, for this specific case we choose the RSS one.
-3. Fulfill the instance configuration consulting the [sources reference](../providers).
+3. Fulfill the instance configuration consulting the [sources reference](./providers/).
 4. `Save` the new instance when ready.
 
 ### 2. Map the Source Content

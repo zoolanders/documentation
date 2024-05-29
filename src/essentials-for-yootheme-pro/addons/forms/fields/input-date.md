@@ -5,9 +5,9 @@ preset: /assets/ytp/presets/FormArea-InputDate.json
 child: true
 ---
 
-<!--@include: ./_partials_/intro.md-->
+<!--@include: ./_partials/intro-->
 
-Child of [Input Element](../input), the **Input Date Element** displays a [\<input type="date"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date) HTML element, use it to create one-line date edit fields.
+Child of [Input Element](./input), the **Input Date Element** displays a [\<input type="date"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date) HTML element, use it to create one-line date edit fields.
 
 ![Input Date Element](./assets/input-date.webp)
 
@@ -17,10 +17,10 @@ Date input relies on the browser's native implementation, the picker and icon st
 
 ## Settings
 
-It inherits common settings and the parent's [Fields Settings](../input#fields-settings):
+It inherits common settings and the parent's [Fields Settings](./input#fields-settings):
 
 ::: details Common Settings
-<!--@include: ./_partials/common-settings.md-->
+<!--@include: ./_partials/common-settings-->
 :::
 
 ## Validation
@@ -35,7 +35,7 @@ It inherits common validation with the following specifics:
 | **Max** | The maximum date that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./_partials/common-validation.md-->
+<!--@include: ./_partials/common-validation-->
 :::
 
 ## Integration

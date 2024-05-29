@@ -4,7 +4,7 @@ description: Validates against the current date & time
 collection: Date & Time
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The Datetime Access Rule evaluates whether the current date & time matches the specified datetime range.
 
@@ -18,6 +18,6 @@ The Datetime Access Rule evaluates whether the current date & time matches the s
 | **Reversed** | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
 
 ::: details Advanced Settings
-<!--@include: ./_partials/advanced-settings.md-->
+<!--@include: ./_partials/advanced-settings-->
 :::
 

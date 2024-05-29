@@ -3,7 +3,7 @@ title: Database
 description: Save data to a Database table
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The **SaveToDatabase Action** stores each submission data as a new record in a local or external Database Table. Use it to store data or log submissions.
 
@@ -17,7 +17,7 @@ The **SaveToDatabase Action** stores each submission data as a new record in a l
 | **Custom Connection** | Should the connection be manually inputed instead of inherited from the system. |
 
 ::: details Common Settings
-<!--@include: ./_partials/common-settings.md-->
+<!--@include: ./_partials/common-settings-->
 :::
 
 ## Connection
@@ -52,4 +52,4 @@ Once the table has been chosen, its columns will appear in the Content field rea
 
 ![SaveTo Action Mapping](./assets/action-saveto-mapping.webp)
 
-Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled, the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../../dynamic).
+Not all columns require a value, in fact, mapping is disabled by default and must be enabled for each column independently. Once enabled, the value can be inputted manually or dynamically with the use of the [Dynamic Workflow](../dynamic-workflow).

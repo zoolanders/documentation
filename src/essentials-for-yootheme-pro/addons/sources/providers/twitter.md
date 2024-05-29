@@ -3,9 +3,9 @@ title: Twitter
 description: Content Source based on Twitter
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The Twitter Source feeds data from [Twitter](https://www.twitter.com) profiles and tweets. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple accounts with different configurations.
+The Twitter Source feeds data from [Twitter](https://www.twitter.com) profiles and tweets. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow it allows connecting to multiple accounts with different configurations.
 
 ## Settings
 
@@ -18,12 +18,12 @@ The source settings determines the content structure, every time the instance is
 | **Account** | The Twitter Account which to authenticate with. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on the OAuth protocol driven by the [Twitter OAuth Driver](/essentials-for-yootheme-pro/auth/drivers/twitter-oauth). Due to Twitter API policies it is not possible to use a ZOOlanders oAuth App, instead you must [setup a custom Twitter Dev App](/essentials-for-yootheme-pro/auth/drivers/twitter-oauth#custom-twitter-dev-app) and use your own credentials.
+Authentication is based on the OAuth protocol driven by the [Twitter OAuth Driver](/essentials-for-yootheme-pro/auth/twitter). Due to Twitter API policies it is not possible to use a ZOOlanders oAuth App, instead you must [setup a custom Twitter Dev App](/essentials-for-yootheme-pro/auth/twitter#custom-twitter-dev-app) and use your own credentials.
 
 ![Twitter OAuth Driver](/essentials-for-yootheme-pro/auth/assets/driver/twitter-oauth.webp)
 

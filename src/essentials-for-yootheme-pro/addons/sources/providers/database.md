@@ -3,9 +3,9 @@ title: Database
 description: Content Source based on MySQL Database
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The Database Source feeds data from local or external MySQL Database Tables, supporting relations and dynamic filtering/ordering. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows connecting to multiple databases with different configurations.
+The Database Source feeds data from local or external MySQL Database Tables, supporting relations and dynamic filtering/ordering. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow it allows connecting to multiple databases with different configurations.
 
 ## Settings
 
@@ -22,7 +22,7 @@ The source settings determines the content structure, every time the instance is
 | **Relations** | The list of [relations](#table-relations) and their configuration. |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ### Custom Connection

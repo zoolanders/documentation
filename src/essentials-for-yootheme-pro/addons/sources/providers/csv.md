@@ -3,9 +3,9 @@ title: CSV
 description: Content Source based on CSV files
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The CSV Source feeds data from local files formatted as CSV (comma-separated values) or TSV (tab-separated values), supporting dynamic filtering/ordering. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow it allows loading multiple files with different configurations.
+The CSV Source feeds data from local files formatted as CSV (comma-separated values) or TSV (tab-separated values), supporting dynamic filtering/ordering. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow it allows loading multiple files with different configurations.
 
 ## Settings
 
@@ -20,7 +20,7 @@ The source settings determines the content structure, every time the instance is
 | **Enclosure** | `"` | The enclosure character the content is formated with. |
 
 ::: details Common Settings
-<!--@include: ../_partials/provider-common-settings.md-->
+<!--@include: ../_partials/provider-common-settings-->
 :::
 
 ## Content Queries

@@ -5,9 +5,9 @@ preset: /assets/ytp/presets/FormArea-InputMonth.json
 child: true
 ---
 
-<!--@include: ./_partials_/intro.md-->
+<!--@include: ./_partials/intro-->
 
-Child of [Input Element](../input), the **Input Month Element** displays a [\<input type="month"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month) HTML element, use it to create one-line month edit fields.
+Child of [Input Element](./input), the **Input Month Element** displays a [\<input type="month"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/month) HTML element, use it to create one-line month edit fields.
 
 ![Input Month Element](./assets/input-month.webp)
 
@@ -17,10 +17,10 @@ Month input relies on the browser's native implementation, the picker and icon s
 
 ## Settings
 
-It inherits common settings and the parent's [Fields Settings](../input#fields-settings):
+It inherits common settings and the parent's [Fields Settings](./input#fields-settings):
 
 ::: details Common Settings
-<!--@include: ./_partials/common-settings.md-->
+<!--@include: ./_partials/common-settings-->
 :::
 
 ## Validation
@@ -35,7 +35,7 @@ It inherits common validation with the following specifics:
 | **Max** | The maximum month that the input value must constrain to, `lower than` or `equal to`. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./_partials/common-validation.md-->
+<!--@include: ./_partials/common-validation-->
 :::
 
 ## Integration

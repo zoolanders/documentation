@@ -3,9 +3,9 @@ title: YouTube
 description: Content Source based on YouTube
 ---
 
-<!--@include: ../_partials/provider-intro.md-->
+<!--@include: ../_partials/provider-intro-->
 
-The YouTube Source creates sources based on [YouTube](https://www.youtube.com/) content. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources/) source workflow, it allows connecting to multiple accounts with different configurations.
+The YouTube Source creates sources based on [YouTube](https://www.youtube.com/) content. Based on the [multi-instance](/essentials-for-yootheme-pro/addons/sources/multi-instance-sources) source workflow, it allows connecting to multiple accounts with different configurations.
 
 Refer to the following table for all the available sources and it queries.
 

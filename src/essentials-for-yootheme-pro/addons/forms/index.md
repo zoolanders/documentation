@@ -11,11 +11,11 @@ Empower a Section or Column as a Form Area with form builder and submission capa
 
 Follow through to learn how to create a Form Area. Even if you are already familiar with the concept you might learn something new.
 
-<!--@include: ../_partials/enable-addon.md-->
+<!--@include: ../_partials/enable-addon-->
 
 ### 1. Create a Form Area
 
-A form must be structured inside of a Section or Column enabled as a [Form Area](../form-area), which can be done easily with just a few clicks.
+A form must be structured inside of a Section or Column enabled as a [Form Area](./form-area), which can be done easily with just a few clicks.
 
 ![Create a Form Area](./assets/integration/create-form-area.gif)
 
@@ -25,7 +25,7 @@ A form must be structured inside of a Section or Column enabled as a [Form Area]
 
 ### 2. Add After Submit Actions
 
-At least one [After Submit Action](../after-submit-actions) must be set for every form, otherwise, it will not trigger any action. In this case are going to greet the user adding a Message Action, but for more advanced scenarios, adding Email and SaveTo actions would be necessary to send an email and save the submitted data.
+At least one [After Submit Action](./after-submit-actions) must be set for every form, otherwise, it will not trigger any action. In this case are going to greet the user adding a Message Action, but for more advanced scenarios, adding Email and SaveTo actions would be necessary to send an email and save the submitted data.
 
 ![Add After Submit Actions](./assets/integration/add-form-actions.gif)
 
@@ -34,7 +34,7 @@ At least one [After Submit Action](../after-submit-actions) must be set for ever
 1. Input in the **Message** field a `Thank you for your submission, your comment was {comment}!`.
 
 ::: tip Notice the `{comment}` part
-It's what we call [Data Placeholders](../dynamic#data-placeholders), and is one of the ways to set a dynamic workflow.
+It's what we call [Data Placeholders](./dynamic-workflow#data-placeholders), and is one of the ways to set a dynamic workflow.
 :::
 
 ### 3. Add Form Fields

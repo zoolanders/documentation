@@ -1,5 +1,5 @@
 ::: details Ensure {{ $frontmatter.title }} Addon is enabled
-Assuming Essentials plugin has been [properly installed](/essentials-for-yootheme-pro/installation), open the `Customizer -> Essentials -> Advanced` section and make sure **{{ $frontmatter.title }} Addon** is enabled, then save the changes and refresh the page.
+Assuming Essentials has been [properly installed](/essentials-for-yootheme-pro/#installation), open the `Customizer -> Essentials -> Advanced` section and make sure **{{ $frontmatter.title }} Addon** is enabled, then save the changes and refresh the page.
 
 ![Enable {{ $frontmatter.title }} Addon](./assets/enable-addon.gif)
 

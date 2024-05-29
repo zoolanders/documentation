@@ -15,14 +15,6 @@
                 {
                     "text": "Settings",
                     "link": "./settings"
-                },
-                {
-                    "text": "Auth, Keys & Secrets",
-                    "link": "./auth/"
-                },
-                {
-                    "text": "Storage Abstraction",
-                    "link": "./storage/"
                 }
             ]
         },
@@ -62,6 +54,14 @@
         {
             "text": "Advanced",
             "items": [
+                {
+                    "text": "Auth, Keys & Secrets",
+                    "link": "./auth/"
+                },
+                {
+                    "text": "Storage Abstraction",
+                    "link": "./storage/"
+                },
                 {
                     "text": "Geolocation",
                     "link": "./geolocation"

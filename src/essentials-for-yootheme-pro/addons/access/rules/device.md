@@ -4,7 +4,7 @@ description: Validates against the device type
 collection: Device
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The Device Access Rule evaluates whether the browser agent matches one of the selected device types, `Mobile`, `Table`, or `Desktop`.
 
@@ -22,6 +22,6 @@ Notice that browser detection is not always accurate, users can setup their brow
 | **Reversed** | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
 
 ::: details Advanced Settings
-<!--@include: ./_partials/advanced-settings.md-->
+<!--@include: ./_partials/advanced-settings-->
 :::
 

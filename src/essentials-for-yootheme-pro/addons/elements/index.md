@@ -11,6 +11,6 @@ Create visually appealing charts from static and dynamic data, process markdown 
 
 Follow through to learn how to set one of the elements in a Builder Layout. Even if you are already familiar with the concept you might learn something new.
 
-<!--@include: ../_partials/enable-addon.md-->
+<!--@include: ../_partials/enable-addon-->
 
 ![Add Element](./assets/add-element.gif)

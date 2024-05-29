@@ -4,7 +4,7 @@ description: Validates against dynamic content
 collection: Misc
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The Dynamic Access Rule determines whether a given value satisfies a specific set of conditions. This rule is flexible and can be applied to [various scenarios](#use-cases) as both the value being evaluated and the condition value can be set either statically or dynamically.
 
@@ -20,7 +20,7 @@ The Dynamic Access Rule determines whether a given value satisfies a specific se
 | **Reversed** | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
 
 ::: details Advanced Settings
-<!--@include: ./_partials/advanced-settings.md-->
+<!--@include: ./_partials/advanced-settings-->
 :::
 
 ## Use Cases

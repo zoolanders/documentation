@@ -3,7 +3,7 @@ title: Chart
 description: A chart element based on Chart.js
 ---
 
-<!--@include: ./_partials/intro-element.md-->
+<!--@include: ./_partials/intro-element-->
 
 The Chart Element allows you to display static and dynamic data using visually appealing charts and graphs based on the popular JavaScript library [Chart.js v4.3.0](https://www.chartjs.org/docs/4.3.0/).
 
@@ -28,5 +28,5 @@ Setting up a Dynamic Chart can be somewhat overwhelming, for an easier start you
 {% /quick-links %} -->
 
 ::: warning Sources Addon Required
-Notice that this preset is dependent on the premium [Sources Addon](/essentials-for-yootheme-pro/addons/sources) for the CSV data source creation.
+Notice that this preset is dependent on the premium [Sources Addon](/essentials-for-yootheme-pro/addons/sources/) for the CSV data source creation.
 :::

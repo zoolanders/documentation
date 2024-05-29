@@ -4,7 +4,7 @@ description: Validates against the site's URL
 collection: Site
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The URL Access Rule evaluates whether the site URL matches one of the specified patterns.
 
@@ -19,6 +19,6 @@ The URL Access Rule evaluates whether the site URL matches one of the specified 
 | **Reversed** | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
 
 ::: details Advanced Settings
-<!--@include: ./_partials/advanced-settings.md-->
+<!--@include: ./_partials/advanced-settings-->
 :::
 

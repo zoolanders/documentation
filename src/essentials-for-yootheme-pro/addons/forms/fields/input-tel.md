@@ -5,22 +5,22 @@ preset: /assets/ytp/presets/FormArea-InputTel.json
 child: true
 ---
 
-<!--@include: ./_partials_/intro.md-->
+<!--@include: ./_partials/intro-->
 
-Child of [Input Element](../input), the **Input Tel Element** displays a [\<input type="tel"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel) HTML element, use it to create one-line telephone number edit fields.
+Child of [Input Element](./input), the **Input Tel Element** displays a [\<input type="tel"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel) HTML element, use it to create one-line telephone number edit fields.
 
 ![Input Tel Element](./assets/input-tel.webp)
 
 ## Settings
 
-It inherits common settings and the parent's [Fields Settings](../input#fields-settings) with the following specifics:
+It inherits common settings and the parent's [Fields Settings](./input#fields-settings) with the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
 | **Placeholder** | The text to be shown while there is no user input. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ./_partials/common-settings.md-->
+<!--@include: ./_partials/common-settings-->
 :::
 
 ## Validation
@@ -34,7 +34,7 @@ It inherits common validation with the following specifics:
 | **Pattern** | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./_partials/common-validation.md-->
+<!--@include: ./_partials/common-validation-->
 :::
 
 ## Integration

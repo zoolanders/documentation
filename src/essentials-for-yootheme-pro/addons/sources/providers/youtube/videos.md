@@ -3,9 +3,9 @@ title: YouTube Videos
 description: Content Source based on YouTube Videos
 ---
 
-<!--@include: ../../parts/provider-intro.md-->
+<!--@include: ../../parts/provider-intro-->
 
-The YouTube Videos Source, part of the [YouTube Source](../) collection, creates sources based on YouTube videos fetched with advanced search and API Key.
+The YouTube Videos Source, part of the [YouTube Source](../youtube) collection, creates sources based on YouTube videos fetched with advanced search and API Key.
 
 ## Settings
 
@@ -18,17 +18,17 @@ The source settings determines the content structure, every time the instance is
 | **API Key** | The Google API Key which to [authenticate](#authentication) with. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ../../parts/provider-common-settings.md-->
+<!--@include: ../../parts/provider-common-settings-->
 :::
 
 ### Authentication
 
-Authentication is based on an API Key driven by the [Google API Key Driver](/essentials-for-yootheme-pro/auth/drivers/google-api-key).
+Authentication is based on an API Key driven by the [Google API Key Driver](/essentials-for-yootheme-pro/auth/google).
 
 ![Google API Key Driver](/essentials-for-yootheme-pro/auth/assets/driver/google-api-key.webp)
 
 ::: tip Keys Security
-Learn more about Essentials [Keys security protocols](/essentials-for-yootheme-pro/oauth-keys-secrets#security).
+Learn more about Essentials [Keys security protocols](/essentials-for-yootheme-pro/auth/#security).
 :::
 
 ## Content Queries
@@ -37,7 +37,7 @@ For every source instance the following content queries will be made available a
 
 ### Videos Query
 
-Fetches public videos with advanced query params resolving to a list of [Video Type](..#video-type).
+Fetches public videos with advanced query params resolving to a list of [Video Type](../youtube#video-type).
 
 ![YouTube Videos Query](../../assets/providers/youtube-videos-query.webp)
 

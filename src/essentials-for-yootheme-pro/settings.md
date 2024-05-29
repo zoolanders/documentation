@@ -28,9 +28,9 @@ If the support team requests it, here is where you can generate and download Deb
 
 | Location | Description |
 | -------- | ----------- |
-| `Essentials -> Sources` | Where [Dynamic Sources](./addons/sources/providers) are managed. |
+| `Essentials -> Sources` | Where [Dynamic Sources](./addons/sources/providers/) are managed. |
 | `Essentials -> Global Queries` | Where [Global Queries](./addons/dynamic/global-queries) are managed. |
 | `Essentials -> Layout Libraries` | Where [Layout Libraries](./addons/layouts/libraries-manager) are managed. |
 | `Essentials -> Icon Collections` | Where [Icon Collections](./addons/icons/collections/) are managed. |
-| `Essentials -> Storages` | Where [Storage Instances](./storage) are managed. |
-| `Essentials -> Auths` | Where [Auths, Keys & Secrets](./auth) are managed. |
+| `Essentials -> Storages` | Where [Storage Instances](./storage/) are managed. |
+| `Essentials -> Auths` | Where [Auths, Keys & Secrets](./auth/) are managed. |

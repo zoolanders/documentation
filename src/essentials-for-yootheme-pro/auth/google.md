@@ -3,7 +3,7 @@ title: Google
 description: A Driver for Google services
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 ## OAuth Driver
 

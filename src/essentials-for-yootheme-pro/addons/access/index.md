@@ -11,7 +11,7 @@ Compose rules that will determine the evaluation criteria for rendering an eleme
 
 Follow through to learn how to set an Access Condition. Even if you are already familiar with the concept you might learn something new.
 
-<!--@include: ../_partials/enable-addon.md-->
+<!--@include: ../_partials/enable-addon-->
 
 ### 1. Open the Condition Panel
 
@@ -21,7 +21,7 @@ Navigate to the Builder and select the element you want to condition. From there
 
 ### 2. Compose the Condition
 
-Check the [rules reference](./rules) to gain insights and form the condition according to your needs. In this particular case, we will be using a Day rule.
+Check the [rules reference](./rules/) to gain insights and form the condition according to your needs. In this particular case, we will be using a Day rule.
 
 ![Compose Access Condition](./assets/compose-condition.gif)
 

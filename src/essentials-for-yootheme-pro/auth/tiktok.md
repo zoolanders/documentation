@@ -3,7 +3,7 @@ title: TikTok
 description: A Driver for TikTok OAuth authorization
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The TikTok OAuth Driver manage TikTok OAuth protocol to authenticate and grant scope permissions.
 

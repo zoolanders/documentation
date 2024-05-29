@@ -1,12 +1,12 @@
 ---
-description: Create a custom After Submit Action
+description: Create a Custom After Submit Action
 ---
 
 # Custom Form Action
 
-Learn how to create an [After Submit Action](../after-submit-actions).
+Learn how to create a custom [After Submit Action](/essentials-for-yootheme-pro/addons/forms/after-submit-actions).
 
-Follow the bellow steps to create your first action, you can alternatively use this [action example](https://github.com/zoolanders/ytp-form-actions) in GitHub which includes more details and a working code. Also notice that core actions are a very useful resource to get started and can be found in the `modules/forms/actions` directory relative to the [installation folder](/essentials-for-yootheme-pro/installation).
+Follow the bellow steps to create your first action, you can alternatively use this [action example](https://github.com/zoolanders/ytp-form-actions) in GitHub which includes more details and a working code. Also notice that core actions are a very useful resource to get started and can be found in the `modules/forms/actions` directory relative to the [installation folder](/essentials-for-yootheme-pro/#installation).
 
 ::: warning Extending YOOtheme Pro
 The following guide assumes you are already familar with coding, PHP, and [extending YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).

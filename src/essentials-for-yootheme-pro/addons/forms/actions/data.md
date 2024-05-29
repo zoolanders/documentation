@@ -4,7 +4,7 @@ core: true
 description: Add or alter submission data
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 The **Data Action** adds or alters the submission data allowing a wide range of use cases.
 
@@ -25,5 +25,5 @@ Notice that this action must be executed before any other action that rely on th
 | **Data.Value** | The value for the data entry. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ./_partials/common-settings.md-->
+<!--@include: ./_partials/common-settings-->
 :::

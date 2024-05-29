@@ -5,22 +5,22 @@ preset: /assets/ytp/presets/FormArea-InputEmail.json
 child: true
 ---
 
-<!--@include: ./_partials_/intro.md-->
+<!--@include: ./_partials/intro-->
 
-Child of [Input Element](../input), the **Input Email Element** displays a [\<input type="email"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) HTML element, use it to create one-line e-mail address edit fields.
+Child of [Input Element](./input), the **Input Email Element** displays a [\<input type="email"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) HTML element, use it to create one-line e-mail address edit fields.
 
 ![Input Email Element](./assets/input-email.webp)
 
 ## Settings
 
-It inherits common settings and the parent's [Fields Settings](../input#fields-settings) and the following specifics:
+It inherits common settings and the parent's [Fields Settings](./input#fields-settings) and the following specifics:
 
 | Setting | Description | Dynamic |
 | ------- | ----------- | :-----: |
 | **Placeholder** | The text to be shown while there is no user input. | &#x2713; |
 
 ::: details Common Settings
-<!--@include: ./_partials/common-settings.md-->
+<!--@include: ./_partials/common-settings-->
 :::
 
 ## Validation
@@ -36,7 +36,7 @@ It inherits common validation with the following specifics:
 | **Pattern** | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; | &#x2713; | &#x2713; |
 
 ::: details Common Validation
-<!--@include: ./_partials/common-validation.md-->
+<!--@include: ./_partials/common-validation-->
 :::
 
 ## Integration

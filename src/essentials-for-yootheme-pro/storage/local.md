@@ -3,7 +3,7 @@ title: Local
 description: Storage abstraction for a local server
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 With the Local Storage Adapter, you have the ability to set up a specific folder as a storage location. This folder can either be relative to the site directory, such as `layouts`, or absolute from the server root, such as `/home/user/layouts`.
 

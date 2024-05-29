@@ -44,10 +44,6 @@
           {
             "text": "Guides",
             "link": "/essentials-for-yootheme-pro/guides"
-          },
-          {
-            "text": "Troublehooting",
-            "link": "/essentials-for-yootheme-pro/troublehooting"
           }
         ]
       }
@@ -78,18 +74,6 @@
           {
             "text": "ZOOitem Pro",
             "link": "/essentials-for-zoo/addons/zooitem-pro/"
-          }
-        ]
-      },
-      {
-        "items": [
-          {
-            "text": "Guides",
-            "link": "/essentials-for-zoo/guides"
-          },
-          {
-            "text": "Troublehooting",
-            "link": "/essentials-for-zoo/troublehooting"
           }
         ]
       }

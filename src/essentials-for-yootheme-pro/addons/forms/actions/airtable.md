@@ -3,7 +3,7 @@ title: Airtable
 description: Interact with Airtable base records
 ---
 
-<!--@include: ./_partials/intro.md-->
+<!--@include: ./_partials/intro-->
 
 ## Create or Update Record
 
@@ -20,7 +20,7 @@ Create or Update an Airtable base record.
 | **Replace** | When enabled, Airtable API will replace the entire record instead of patch it. |
 
 ::: details Common Settings
-<!--@include: ./_partials/common-settings.md-->
+<!--@include: ./_partials/common-settings-->
 :::
 
 ## Delete Record

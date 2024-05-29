@@ -5,9 +5,9 @@ preset: /assets/ytp/presets/FormArea-Buttons.json
 child: true
 ---
 
-<!--@include: ./_partials_/intro.md-->
+<!--@include: ./_partials/intro-->
 
-Child of [Button Element](../button), the **Button Reset Element** displays a [\<button type="reset"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset) HTML element, use it to display a button that will reset the form.
+Child of [Button Element](./button), the **Button Reset Element** displays a [\<button type="reset"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/reset) HTML element, use it to display a button that will reset the form.
 
 ![Button Reset Element](./assets/button-reset.webp)
 
@@ -24,4 +24,3 @@ Child of [Button Element](../button), the **Button Reset Element** displays a [\
 
 1. Access a Builder layout and create a Form Area.
 1. Add a Button Element from the Form Essentials group and a Button Reset element as its child.
-
