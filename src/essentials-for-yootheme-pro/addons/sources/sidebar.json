@@ -2,21 +2,16 @@
     "text": "Sources",
     "items": [
         {
-            "text": "Sources Addon",
-            "items": [
-                {
-                    "text": "Overview",
-                    "link": "./"
-                },
-                {
-                    "text": "Multi-Instance Sources",
-                    "link": "./multi-instance-sources"
-                },
-                {
-                    "text": "Conditions & Filters",
-                    "link": "./conditions-and-filters"
-                }
-            ]
+            "text": "Overview",
+            "link": "./"
+        },
+        {
+            "text": "Multi-Instance Sources",
+            "link": "./multi-instance-sources"
+        },
+        {
+            "text": "Conditions & Filters",
+            "link": "./conditions-and-filters"
         },
         {
             "text": "Source Providers",

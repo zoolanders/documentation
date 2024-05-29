@@ -1,22 +1,18 @@
 {
-    "text": "Access",
+    "text": "Conditional Access",
     "items": [
         {
-            "text": "Access Addon",
-            "items": [
-                {
-                    "text": "Overview",
-                    "link": "./"
-                },
-                {
-                    "text": "Condition",
-                    "link": "./condition"
-                }
-            ]
+            "text": "Overview",
+            "link": "./"
+        },
+        {
+            "text": "Condition",
+            "link": "./condition"
         },
         {
             "text": "Rules",
             "link": "./rules",
+            "collapsed": true,
             "items": [
                 {
                     "text": "Dynamic",

@@ -4,29 +4,28 @@
  */
 
 @font-face {
-  font-family: 'Nunito';
-  font-weight: 100 600;
-  font-display: block;
-  font-style: normal;
-  font-named-instance: 'Regular';
-  src: url('/fonts/Nunito-Regular.woff2') format('woff2');
+    font-family: 'Nunito';
+    font-weight: 100 500;
+    font-display: block;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url('/fonts/Nunito-Regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: 'Nunito';
-  font-weight: 800 900;
-  font-display: block;
-  font-style: bold;
-  font-named-instance: 'Bold';
-  src: url('/fonts/Nunito-Bold.woff2') format('woff2');
+    font-family: 'Nunito';
+    font-weight: 600 900;
+    font-display: block;
+    font-style: bold;
+    font-named-instance: 'Bold';
+    src: url('/fonts/Nunito-Bold.woff2') format('woff2');
 }
 
 :root {
-  --vp-font-family-base: 'Nunito', 'Inter var', 'Inter', ui-sans-serif,
-  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-  'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif,
-  'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  /* --vp-font-family-mono: code font */
+    --vp-font-family-base: 'Nunito', 'Inter var', 'Inter', ui-sans-serif, system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, 'Noto Sans',
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    /* --vp-font-family-mono: code font */
 }
 
 /**
@@ -69,35 +68,35 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
- :root {
-  --zl-primary-bg: #fb5c75;
-  --zl-secondary-bg: #44cf8f;
-  --zl-primary-color: rgb(239 68 68);
+:root {
+    --zl-primary-bg: #fb5c75;
+    --zl-secondary-bg: #44cf8f;
+    --zl-primary-color: rgb(239 68 68);
 
-  --vp-c-default-1: var(--vp-c-gray-1);
-  --vp-c-default-2: var(--vp-c-gray-2);
-  --vp-c-default-3: var(--vp-c-gray-3);
-  --vp-c-default-soft: var(--vp-c-gray-soft);
+    --vp-c-default-1: var(--vp-c-gray-1);
+    --vp-c-default-2: var(--vp-c-gray-2);
+    --vp-c-default-3: var(--vp-c-gray-3);
+    --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--zl-primary-color);
-  --vp-c-brand-2: var(--zl-primary-color);
-  --vp-c-brand-3: var(--zl-secondary-bg);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+    --vp-c-brand-1: var(--zl-primary-color);
+    --vp-c-brand-2: var(--zl-primary-color);
+    --vp-c-brand-3: var(--zl-secondary-bg);
+    --vp-c-brand-soft: var(--vp-c-indigo-soft);
 
-  --vp-c-tip-1: var(--vp-c-brand-1);
-  --vp-c-tip-2: var(--vp-c-brand-2);
-  --vp-c-tip-3: var(--vp-c-brand-3);
-  --vp-c-tip-soft: var(--vp-c-brand-soft);
+    --vp-c-tip-1: var(--vp-c-brand-1);
+    --vp-c-tip-2: var(--vp-c-brand-2);
+    --vp-c-tip-3: var(--vp-c-brand-3);
+    --vp-c-tip-soft: var(--vp-c-brand-soft);
 
-  --vp-c-warning-1: var(--vp-c-yellow-1);
-  --vp-c-warning-2: var(--vp-c-yellow-2);
-  --vp-c-warning-3: var(--vp-c-yellow-3);
-  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+    --vp-c-warning-1: var(--vp-c-yellow-1);
+    --vp-c-warning-2: var(--vp-c-yellow-2);
+    --vp-c-warning-3: var(--vp-c-yellow-3);
+    --vp-c-warning-soft: var(--vp-c-yellow-soft);
 
-  --vp-c-danger-1: var(--vp-c-red-1);
-  --vp-c-danger-2: var(--vp-c-red-2);
-  --vp-c-danger-3: var(--vp-c-red-3);
-  --vp-c-danger-soft: var(--vp-c-red-soft);
+    --vp-c-danger-1: var(--vp-c-red-1);
+    --vp-c-danger-2: var(--vp-c-red-2);
+    --vp-c-danger-3: var(--vp-c-red-3);
+    --vp-c-danger-soft: var(--vp-c-red-soft);
 }
 
 /**
@@ -111,85 +110,84 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-c-text-1: #444c55;
-  --vp-c-text-2: rgb(100 116 139/1)
-  --vp-c-text-3: rgba(60, 60, 67, 0.56);
+    --vp-c-text-1: #444c55;
+    --vp-c-text-2: rgb(100 116 139/1) --vp-c-text-3: rgba(60, 60, 67, 0.56);
 }
 
 .dark {
-  --vp-c-text-1: rgba(255, 255, 245, 0.86);
-  --vp-c-text-2: rgba(235, 235, 245, 0.6);
-  --vp-c-text-3: rgba(235, 235, 245, 0.38);
+    --vp-c-text-1: rgba(255, 255, 245, 0.86);
+    --vp-c-text-2: rgba(235, 235, 245, 0.6);
+    --vp-c-text-3: rgba(235, 235, 245, 0.38);
 }
 
 /**
  * theme: General
  * -------------------------------------------------------------------------- */
 
- .tm-lead {
-  font-size: 1.25em;
-  line-height: 1.6;
- }
-
+.tm-lead {
+    font-size: 1.25em;
+    line-height: 1.6;
+}
 
 /**
  * layout: Doc
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-code-bg: transparent;
-  --vp-code-color: rgb(14 165 233 / 1);
+    --vp-code-bg: transparent;
+    --vp-code-color: rgb(14 165 233 / 1);
 }
 
 .vp-doc p,
 .vp-doc summary {
-  margin: 25px 0;
+    margin: 25px 0;
 }
 
 .vp-doc strong {
-  font-weight: 800;
+    font-weight: 800;
 }
 
 .vp-doc h2 {
-  padding-top: 32px;
+    padding-top: 32px;
 }
 
 .vp-doc h2 .header-anchor {
-  top: 32px;
+    top: 32px;
 }
 
 .vp-doc th,
 .vp-doc tr {
-  background-color: inherit !important;
+    background-color: inherit !important;
 }
 
 .vp-doc th {
-  /* border: none; */
-  color: inherit;
-  font-weight: 500;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--vp-c-text-3);
 }
 
 .vp-doc th,
 .vp-doc td,
 .vp-doc thead tr {
-  border: none;
+    border: none;
 }
 
 .vp-doc a:not(:hover) {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 .vp-doc :not(pre) > code {
-  padding: 0;
+    padding: 0;
 }
 
 .vp-doc :not(pre) > code:before,
 .vp-doc :not(pre) > code:after {
-  content: "`";
+    content: '`';
 }
 
 .vp-doc hr {
-  margin: 3em 0;
+    margin: 3em 0;
 }
 
 /**
@@ -197,9 +195,9 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-home-hero-name-color: #444c55;
-  --vp-c-bg-alt: rgb(248 250 252);
-  --vp-sidebar-bg-color: var(--vp-c-bg-alt);
+    --vp-home-hero-name-color: #444c55;
+    --vp-c-bg-alt: rgb(248 250 252);
+    --vp-sidebar-bg-color: var(--vp-c-bg-alt);
 }
 
 /**
@@ -207,23 +205,23 @@
  * -------------------------------------------------------------------------- */
 
 .VPHero .main .name {
-  font-size: 34px;
+    font-size: 34px;
 }
 
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */
 
- :root {
-  --vp-button-brand-border: transparent;
-  --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: var(--vp-c-brand-3);
-  --vp-button-brand-hover-border: transparent;
-  --vp-button-brand-hover-text: var(--vp-c-white);
-  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
-  --vp-button-brand-active-border: transparent;
-  --vp-button-brand-active-text: var(--vp-c-white);
-  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+:root {
+    --vp-button-brand-border: transparent;
+    --vp-button-brand-text: var(--vp-c-white);
+    --vp-button-brand-bg: var(--vp-c-brand-3);
+    --vp-button-brand-hover-border: transparent;
+    --vp-button-brand-hover-text: var(--vp-c-white);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+    --vp-button-brand-active-border: transparent;
+    --vp-button-brand-active-text: var(--vp-c-white);
+    --vp-button-brand-active-bg: var(--vp-c-brand-1);
 }
 
 /**
@@ -231,44 +229,44 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-custom-block-font-size: 15px;
+    --vp-custom-block-font-size: 15px;
 
-  --vp-custom-block-tip-bg: rgb(240 249 255/1);
-  --vp-custom-block-tip-code-bg: transparent;
+    --vp-custom-block-tip-bg: rgb(240 249 255/1);
+    --vp-custom-block-tip-code-bg: transparent;
 
-  /* --vp-custom-block-warning-bg: rgb(255 247 237); */
-  /* --vp-custom-block-warning-text: rgb(180, 83, 9); */
+    /* --vp-custom-block-warning-bg: rgb(255 247 237); */
+    /* --vp-custom-block-warning-text: rgb(180, 83, 9); */
 }
 
 .vp-doc .custom-block {
-  margin: 26px 0;
-  padding: 16px 16px 8px;
-  border-radius: 8px;
+    margin: 26px 0;
+    padding: 16px 16px 8px;
+    border-radius: 8px;
 }
 
 .vp-doc .custom-block + .custom-block {
-  margin-top: -26px;
+    margin-top: -26px;
 }
 
 .vp-doc .custom-block .custom-block-title {
-  font-weight: 800;
+    font-weight: 800;
 }
 
 .vp-doc .custom-block.tip code {
-  color: var(--vp-code-color);
+    color: var(--vp-code-color);
 }
 
 .vp-doc .custom-block.details {
-  padding: 0;
-  background-color: transparent
+    padding: 0;
+    background-color: transparent;
 }
 
 .vp-doc .custom-block a {
-  color: var(--vp-c-brand-1) !important;
+    color: var(--vp-c-brand-1) !important;
 }
 
 .vp-doc .custom-block a:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 /**
@@ -276,19 +274,19 @@
  * -------------------------------------------------------------------------- */
 
 #VPSidebarNav {
-  margin-top: 25px;
+    margin-top: 25px;
 }
 
 .VPSidebar .group + .group {
-  border-top: 0;
+    border-top: 0;
 }
 
 .VPSidebarItem.is-active > .item .indicator {
-  background-color: var(--vp-c-brand-1);
+    background-color: var(--vp-c-brand-1);
 }
 
 .VPSidebarItem .VPLink .text {
-  color: rgb(100 116 139 / 1) !important;
+    color: rgb(100 116 139 / 1) !important;
 }
 
 /**
@@ -296,7 +294,7 @@
  * -------------------------------------------------------------------------- */
 
 .DocSearch {
-  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+    --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
 /**
@@ -304,65 +302,65 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-  --vp-nav-bg-color: var(--zl-primary-bg);
-  --vp-nav-logo-height: 38px;
-  --vp-nav-zl-icon: #febfca;
+    --vp-nav-bg-color: var(--zl-primary-bg);
+    --vp-nav-logo-height: 38px;
+    --vp-nav-zl-icon: #febfca;
 }
 
 .VPNav {
-  background-color: var(--vp-nav-bg-color);
+    background-color: var(--vp-nav-bg-color);
 }
 
 .VPNav .divider {
-  display: none;
+    display: none;
 }
 
 .VPNav .VPMenuGroup .title {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 .VPNav .VPNavBarMenuGroup .text,
 .VPNav .VPNavBarMenuLink {
-  color: var(--vp-c-white) !important;
+    color: var(--vp-c-white) !important;
 }
 
 .VPNav .VPNavBarMenuGroup:hover .text,
 .VPNav .VPNavBarMenuLink:hover {
-  color: var(--vp-c-white) !important;
+    color: var(--vp-c-white) !important;
 }
 
 .VPNav .VPNavBarMenuLink.active {
-  color: var(--vp-c-white) !important;
-  position: relative;
+    color: var(--vp-c-white) !important;
+    position: relative;
 }
 
 .VPNav .VPNavBarMenuLink.active::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  height: 3px;
-  background-color: var(--vp-c-white);
-  left: 0;
-  right: 0;
-  transition: none;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 3px;
+    background-color: var(--vp-c-white);
+    left: 0;
+    right: 0;
+    transition: none;
 }
 
 .VPNav .VPSocialLink {
-  color: var(--vp-nav-zl-icon);
+    color: var(--vp-nav-zl-icon);
 }
 
 .VPNav .VPSocialLink:hover {
-  color: var(--vp-c-white);
+    color: var(--vp-c-white);
 }
 
 .VPNav .VPNavBarHamburger .top,
 .VPNav .VPNavBarHamburger .middle,
 .VPNav .VPNavBarHamburger .bottom,
 .VPNav .VPNavBarExtra .vpi-more-horizontal {
-  background-color: var(--vp-c-white);
+    background-color: var(--vp-c-white);
 }
 
 .VPNav .VPNavBarTitle.has-sidebar .title {
-  border-bottom: none;
+    border-bottom: none;
 }

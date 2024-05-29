@@ -1,79 +1,74 @@
 <script setup>
-import { computed } from 'vue'
-import TmIndexItem from './TmIndexItem.vue'
+import { computed } from 'vue';
+import TmIndexItem from './TmIndexItem.vue';
 
-const props = defineProps({items: {type: Array, required: true}})
+const props = defineProps({ items: { type: Array, required: true } });
 
 const grid = computed(() => {
-  const length = props.items.length
+    const length = props.items.length;
 
-  if (length === 2) {
-    return 'grid-2'
-  } else if (length === 3) {
-    return 'grid-3'
-  } else if (length % 3 === 0) {
-    return 'grid-6'
-  } else if (length > 3) {
-    return 'grid-4'
-  }
+    if (length === 2) {
+        return 'grid-2';
+    } else if (length === 3) {
+        return 'grid-3';
+    } else if (length % 3 === 0) {
+        return 'grid-6';
+    } else if (length > 3) {
+        return 'grid-4';
+    }
 
-  return ''
-})
+    return '';
+});
 </script>
 
 <template>
-  <div v-if="items" class="TmIndexItems">
-    <div class="container">
-      <div class="items">
-        <div
-          v-for="item in items"
-          :key="item.title"
-          class="item"
-          :class="[grid]"
-        >
-          <TmIndexItem
-            :icon="item.icon"
-            :title="item.title"
-            :details="item.details"
-            :link="item.link"
-            :link-text="item.linkText"
-            :rel="item.rel"
-            :target="item.target"
-          />
+    <div v-if="items" class="TmIndexItems">
+        <div class="container">
+            <div class="items">
+                <div v-for="item in items" :key="item.title" class="item" :class="[grid]">
+                    <TmIndexItem
+                        :icon="item.icon"
+                        :title="item.title"
+                        :details="item.details"
+                        :link="item.link"
+                        :link-text="item.linkText"
+                        :rel="item.rel"
+                        :target="item.target"
+                    />
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
 </template>
 
 <style scoped>
 .TmIndexItems {
-  position: relative;
-  padding: 25px 0;
+    position: relative;
+    padding: 25px 0;
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 1152px;
+    margin: 0 auto;
+    max-width: 1152px;
 }
 
 .items {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -8px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px;
 }
 
 .item {
-  padding: 8px;
-  width: 100%;
+    padding: 8px;
+    width: 100%;
 }
 
 @media (min-width: 640px) {
-  .item.grid-2,
-  .item.grid-4,
-  .item.grid-6 {
-    width: calc(100% / 2);
-  }
+    .item.grid-2,
+    .item.grid-4,
+    .item.grid-6 {
+        width: calc(100% / 2);
+    }
 }
 /*
 @media (min-width: 768px) {

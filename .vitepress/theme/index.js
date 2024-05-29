@@ -1,19 +1,14 @@
 // https://vitepress.dev/guide/custom-theme
-import { h } from 'vue'
-import DefaultTheme from 'vitepress/theme-without-fonts'
-import './style.css'
+import DefaultTheme from 'vitepress/theme-without-fonts';
+import './style.css';
 
-import TmIndex from './components/TmIndex.vue'
+import TmIndex from './components/TmIndex.vue';
+import MyLayout from './components/MyLayout.vue';
 
-/** @type {import('vitepress').Theme} */
 export default {
-  extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-    })
-  },
-  enhanceApp({ app, router, siteData }) {
-    app.component('TmIndex', TmIndex)
-  },
-}
+    extends: DefaultTheme,
+    Layout: MyLayout,
+    enhanceApp({ app, router, siteData }) {
+        app.component('TmIndex', TmIndex);
+    },
+};

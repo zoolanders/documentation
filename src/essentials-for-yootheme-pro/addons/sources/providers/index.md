@@ -21,4 +21,3 @@ List of Source Providers available out of the box.
 <TmIndex
   :items="providers"
 />
-

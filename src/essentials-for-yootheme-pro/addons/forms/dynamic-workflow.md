@@ -39,7 +39,7 @@ Contextual data such as the datetime, page URL, and user IP is not included in t
 As a quick reference use these sources:
 
 | Data | Source |
-| ---- | ------ |
+| --- | --- |
 | Datetime | `Request -> Timestamp` |
 | User IP | `Request -> IP` |
 | Page URL | `Request -> Href` |

@@ -7,7 +7,6 @@ release: April 5, 2020
 license: MIT
 version: 4.28.0
 icons: 286
-
 ---
 
 <!--@include: ../_partials/intro-collection-->

@@ -6,33 +6,30 @@ const getDate = new Date().toISOString();
 
 const YOUR_AWESOME_DOMAIN = 'https://docs.zoolanders.com';
 
-const formatted = sitemap => prettier.format(sitemap, { parser: 'html' });
+const formatted = (sitemap) => prettier.format(sitemap, { parser: 'html' });
 
 (async () => {
-  const pages = await globby([
-    'src/pages/**/*.{md,jsx}',
-    '!src/pages/_*.jsx'
-  ]);
+    const pages = await globby(['src/pages/**/*.{md,jsx}', '!src/pages/_*.jsx']);
 
-  const pagesSitemap = `
+    const pagesSitemap = `
     ${pages
-      .map(page => {
-        const path = page
-          .replace('src/pages/', '/')
-          .replace(/\.(jsx|md)/, '')
-          .replace(/\/index/g, '');
-        const routePath = path === 'index' ? '' : path;
-        return `
+        .map((page) => {
+            const path = page
+                .replace('src/pages/', '/')
+                .replace(/\.(jsx|md)/, '')
+                .replace(/\/index/g, '');
+            const routePath = path === 'index' ? '' : path;
+            return `
           <url>
             <loc>${YOUR_AWESOME_DOMAIN}/${routePath}</loc>
             <lastmod>${getDate}</lastmod>
           </url>
         `;
-      })
-      .join("")}
+        })
+        .join('')}
   `;
 
-  const generatedSitemap = `
+    const generatedSitemap = `
     <?xml version="1.0" encoding="UTF-8"?>
     <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
@@ -43,7 +40,7 @@ const formatted = sitemap => prettier.format(sitemap, { parser: 'html' });
     </urlset>
   `;
 
-  const formattedSitemap = formatted(generatedSitemap);
+    const formattedSitemap = formatted(generatedSitemap);
 
-  fs.writeFileSync('./public/sitemap.xml', formattedSitemap, 'utf8');
+    fs.writeFileSync('./public/sitemap.xml', formattedSitemap, 'utf8');
 })();

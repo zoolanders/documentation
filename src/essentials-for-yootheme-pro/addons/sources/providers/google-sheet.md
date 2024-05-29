@@ -14,15 +14,17 @@ The source settings determines the content structure, every time the instance is
 ![Google Sheet Instance Configuration](../assets/providers/gsheet-config.webp)
 
 | Setting | Default | Description | Required |
-| ------- | ------- | ----------- | :------: |
-| **Account** | | The Google Account which to authenticate with. | &#x2713; |
-| **Spreadsheet** | | The spreadsheet which to retrieve the data from. | &#x2713; |
-| **Sheet** | `Default` | The spreadsheet sheet which data to create the source with. |
-| **Start Column** | `A`  | The starting column to restrict the sheet data with. |
-| **End Column** | `Z` | The ending column to restrict the sheet data with. |
+| --- | --- | --- | :---: |
+| *Account* | | The Google Account which to authenticate with. | &#x2713; |
+| *Spreadsheet* | | The spreadsheet which to retrieve the data from. | &#x2713; |
+| *Sheet* | `Default` | The spreadsheet sheet which data to create the source with. |
+| *Start Column* | `A` | The starting column to restrict the sheet data with. |
+| *End Column* | `Z` | The ending column to restrict the sheet data with. |
 
 ::: details Common Settings
+
 <!--@include: ../_partials/provider-common-settings-->
+
 :::
 
 ### Authentication
@@ -42,7 +44,7 @@ Fetches records from the spreadsheet and resolves to a dynamically generated lis
 ![Google Sheet Records Query](../assets/providers/gsheet-query-records.webp)
 
 | Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Start** | `1` | The offset applied to the query. |
-| **Quantity** | `20` | The limit applied to the query. |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- |
+| *Start* | `1` | The offset applied to the query. |
+| *Quantity* | `20` | The limit applied to the query. |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |

@@ -14,12 +14,14 @@ The source settings determines the content structure, every time the instance is
 ![My YouTube Channel Source](../../assets/providers/youtube-mychannel-config.webp)
 
 | Setting | Description | Required |
-| ------- | ----------- | :------: |
-| **Account** | The Google Account which to [authenticate](#authentication) with. | &#x2713; |
-| **Channel** | The YouTube Channel from which to create the source. | &#x2713; |
+| --- | --- | :---: |
+| *Account* | The Google Account which to [authenticate](#authentication) with. | &#x2713; |
+| *Channel* | The YouTube Channel from which to create the source. | &#x2713; |
 
 ::: details Common Settings
+
 <!--@include: ../../parts/provider-common-settings-->
+
 :::
 
 ### Authentication
@@ -39,8 +41,8 @@ Fetches the channel content resolving to a [Channel Type](../#channel-type).
 ![My YouTube Channel Query](../../assets/providers/youtube-mychannel.webp)
 
 | Setting | Default | Description | Required |
-| ------- | ------- | ----------- | :------: |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- | :---: |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ### My Channel Video Query
 
@@ -49,9 +51,9 @@ Fetches a single video from the channel resolving to a [Video Type](../#video-ty
 ![My YouTube Channel Video Query](../../assets/providers/youtube-mychannel-video.webp)
 
 | Setting | Default | Description | Required |
-| ------- | ------- | ----------- | :------: |
-| **Video** | | The playlist video which content to fetch. | &#x2713; |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- | :---: |
+| *Video* | | The playlist video which content to fetch. | &#x2713; |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ### My Channel Videos Query
 
@@ -60,10 +62,10 @@ Fetches videos from the channel resolving to a list of [Video Type](../#video-ty
 ![My YouTube Channel Videos Query](../../assets/providers/youtube-mychannel-videos.webp)
 
 | Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Start** | `1` | The starting position to retrieve the videos at. |
-| **Quantity** | `20` | The maximum amount of videos to fetch. |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- |
+| *Start* | `1` | The starting position to retrieve the videos at. |
+| *Quantity* | `20` | The maximum amount of videos to fetch. |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ### My Channel Playlist Query
 
@@ -72,10 +74,10 @@ Fetches a single playlist from the channel resolving to a [Playlist Type](../#pl
 ![My YouTube Channel Playlist Query](../../assets/providers/youtube-mychannel-playlist.webp)
 
 | Setting | Default | Description | Required |
-| ------- | ------- | ----------- | :------: |
-| **Playlist** | | The YouTube Playlist which content to fetch. | &#x2713; |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. Minimum amount allowed is `3600`. |
-| **Multi Items** | | The related multi-items content to query instead with `Videos` as the only option. |
+| --- | --- | --- | :---: |
+| *Playlist* | | The YouTube Playlist which content to fetch. | &#x2713; |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. Minimum amount allowed is `3600`. |
+| *Multi Items* | | The related multi-items content to query instead with `Videos` as the only option. |
 
 ### My Channel Playlist Videos Query
 
@@ -84,6 +86,6 @@ Fetches videos from the playlist resolving to a list of [Video Type](../#video-t
 ![My YouTube Channel Videos Query](../../assets/providers/youtube-mychannel-playlist-videos.webp)
 
 | Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Start** | `1` | The starting position to retrieve the videos at. |
-| **Quantity** | | The maximum amount of videos to fetch. |
+| --- | --- | --- |
+| *Start* | `1` | The starting position to retrieve the videos at. |
+| *Quantity* | | The maximum amount of videos to fetch. |

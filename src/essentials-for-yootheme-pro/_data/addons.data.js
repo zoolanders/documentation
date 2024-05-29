@@ -1,22 +1,13 @@
-import { createContentLoader } from 'vitepress'
+import { createContentLoader } from 'vitepress';
 
-export default createContentLoader(
-  '/essentials-for-yootheme-pro/addons/*/index.md',
-  {
+export default createContentLoader('/essentials-for-yootheme-pro/addons/*/index.md', {
     excerpt: true,
     transform(rawData) {
-      return (
-        rawData
-          // .filter((item) => !item.url?.endsWith('/'))
-          .map((item) => {
-            const name = item.frontmatter?.title?.toLowerCase().replace(/ /g, '-');
-
+        return rawData.map((item) => {
             return {
-              ...item.frontmatter,
-              link: item.url,
-            }
-          })
-      )
+                ...item.frontmatter,
+                link: item.url,
+            };
+        });
     },
-  },
-)
+});

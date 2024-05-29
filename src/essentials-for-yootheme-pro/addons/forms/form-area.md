@@ -12,16 +12,6 @@ The Form Area Configuration panel contains both general and advanced configurati
 
 <small>Use the Form Area shortcut to access it configuration from the builder.</small>
 
-## Structure
-
-[Field Elements](./fields/) are used to structure the form and define individual field validation and specifics. They represent standard HTML form elements that are natively supported by [UIkit](https://getuikit.com/) and can be found in the builder element library under the `Form Essentials` group.
-
-![Form Area Elements](./assets/formarea-elements.webp)
-
-::: warning Raw HTML fields limitations
-Even though it is possible to define a form field using raw HTML, the [Dynamic Workflow](./dynamic-workflow) will not be completely aware of these. When possible, opt to create a custom element instead.
-:::
-
 ## Settings
 
 ### Actions
@@ -37,8 +27,8 @@ Global validation settings, for field specific validation refer to [field settin
 ![Form Area Settings](./assets/formarea-config-settings.webp)
 
 | Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **HTML 5 Validation** | `true` | Whether the front side HTML5 validation should be executed before submission. Server side validation is always executed. |
+| --- | --- | --- |
+| *HTML 5 Validation* | `true` | Whether the front side HTML5 validation should be executed before submission. Server side validation is always executed. |
 
 ### Errors Display
 
@@ -47,10 +37,10 @@ Server and validation wise errors display options.
 ![Form Area Errors Display](./assets/formarea-config-errors-display.webp)
 
 | Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Display in Modal** | `false` | Wether to display server side errors in a Modal instead of the bottom block. |
-| **Modal Content** | | The content to be displayed in the modal, use `{errors}` as placeholder for the list of errors. |
-| **Center Modal** | `false`| Wether to vertically center the modal. |
+| --- | --- | --- |
+| *Display in Modal* | `false` | Wether to display server side errors in a Modal instead of the bottom block. |
+| *Modal Content* | | The content to be displayed in the modal, use `{errors}` as placeholder for the list of errors. |
+| *Center Modal* | `false` | Wether to vertically center the modal. |
 
 ### Form Attributes
 
@@ -65,9 +55,9 @@ Custom **action** and **method** attributes allows for a 3rd party service integ
 ![Form Action Override](./assets/formarea-config-action-override.webp)
 
 | Setting | Description |
-| ------- | ----------- |
-| **Action URL** | The URL where the form should submit the data to. |
-| **Action Method** | The method that should user for submitting the data, `GET` or `POST`. |
+| --- | --- |
+| *Action URL* | The URL where the form should submit the data to. |
+| *Action Method* | The method that should user for submitting the data, `GET` or `POST`. |
 
 ::: warning Side Effects
 Notice that when a custom action URL is set, server-side validation and After Submit Actions will not be executed.
@@ -80,8 +70,8 @@ Custom scripts that will run on form events, for a more advance integration cons
 ![Form Area Custom Scripts](./assets/formarea-config-custom-scripts.webp)
 
 | Event | Scope Variables | Description |
-| ----- | ---- | ----------- |
-| **Before Submission** | `event`, `form` | Executes before the submission allowing to prevent it. |
-| **After Submission** | `event`, `form`, `data`, `response` | Executes after successfull submission. |
-| **After Submission Error** | `event`, `form`, `data`, `errors`, `validation` | Executes after server side submission error, including validation errors. |
-| **After Validation Error** | `event`, `form`, `data` | Executes after front-end validation error. |
+| --- | --- | --- |
+| *Before Submission* | `event`, `form` | Executes before the submission allowing to prevent it. |
+| *After Submission* | `event`, `form`, `data`, `response` | Executes after successfull submission. |
+| *After Submission Error* | `event`, `form`, `data`, `errors`, `validation` | Executes after server side submission error, including validation errors. |
+| *After Validation Error* | `event`, `form`, `data` | Executes after front-end validation error. |

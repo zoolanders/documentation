@@ -14,13 +14,15 @@ The source settings determines the content structure, every time the instance is
 ![CSV Instance Settings](../assets/providers/csv-config.webp)
 
 | Setting | Default | Description | Required |
-| ------- | ------- | ----------- | :------: |
-| **File** | | The relative or absolute local path to the file which to use as source. | &#x2713; |
-| **Delimeter** | `,` | The delimiter character the content is formated with. |
-| **Enclosure** | `"` | The enclosure character the content is formated with. |
+| --- | --- | --- | :---: |
+| *File* | | The relative or absolute local path to the file which to use as source. | &#x2713; |
+| *Delimeter* | `,` | The delimiter character the content is formated with. |
+| *Enclosure* | `"` | The enclosure character the content is formated with. |
 
 ::: details Common Settings
+
 <!--@include: ../_partials/provider-common-settings-->
+
 :::
 
 ## Content Queries
@@ -34,9 +36,9 @@ Fetches records from the file and resolves to a list of dynamically generated CS
 ![CSV Records Query](../assets/providers/csv-query-records.webp)
 
 | Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Filters** | `[]` | The list of filter conditions applied to the query. |
-| **Ordering** | `[]` | The list of ordering conditions applied to the query. |
-| **Start** | `1` | The offset applied to the query. |
-| **Quantity** | `20` | The limit applied to the query. |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- |
+| *Filters* | `[]` | The list of filter conditions applied to the query. |
+| *Ordering* | `[]` | The list of ordering conditions applied to the query. |
+| *Start* | `1` | The offset applied to the query. |
+| *Quantity* | `20` | The limit applied to the query. |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |

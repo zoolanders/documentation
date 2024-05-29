@@ -14,12 +14,14 @@ The source settings determines the content structure, every time the instance is
 ![My YouTube Playlist Source](../../assets/providers/youtube-myplaylist-config.webp)
 
 | Setting | Description | Required |
-| ------- | ----------- | :------: |
-| **Account** | The Google Account which to [authenticate](#authentication) with. | &#x2713; |
-| **Playlist** | The YouTube Playlist from which to create the source. | &#x2713; |
+| --- | --- | :---: |
+| *Account* | The Google Account which to [authenticate](#authentication) with. | &#x2713; |
+| *Playlist* | The YouTube Playlist from which to create the source. | &#x2713; |
 
 ::: details Common Settings
+
 <!--@include: ../../parts/provider-common-settings-->
+
 :::
 
 ### Authentication
@@ -39,9 +41,9 @@ Fetches a single video from the playlist resolving to a [Video Type](../#video-t
 ![My YouTube Playlist Video Query](../../assets/providers/youtube-myplaylist-video.webp)
 
 | Setting | Default | Description | Required |
-| ------- | ------- | ----------- | :------: |
-| **Video** | | The playlist video which content to fetch. | &#x2713; |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- | :---: |
+| *Video* | | The playlist video which content to fetch. | &#x2713; |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ### My Playlist Videos Query
 
@@ -50,7 +52,7 @@ Fetches videos from the playlist resolving to a list of [Video Type](../#video-t
 ![My YouTube Playlist Videos Query](../../assets/providers/youtube-myplaylist-videos.webp)
 
 | Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Start** | `1` | The starting position to retrieve the videos at. |
-| **Quantity** | `20` | The maximum amount of videos to fetch. |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- |
+| *Start* | `1` | The starting position to retrieve the videos at. |
+| *Quantity* | `20` | The maximum amount of videos to fetch. |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |

@@ -1,4 +1,4 @@
-# Geolocation Database
+# GeoIP Database Installation
 
 Geolocation rely on [MaxMind](https://www.maxmind.com/en/geoip2-services-and-databases)'s **GeoIP2** (commercial) or **GeoLite2** (free) Database. While the free version is enough for the majority of projects, the commercial one is claimed to be more accurate and frequently updated.
 
@@ -13,8 +13,8 @@ You can rely on 3rd party plugins for the installation and posterior updates of 
 
 - [Joomla Akeeba GeoIP Provider](https://www.akeeba.com/download/akgeoip.html)
 - [WordPress Geolocation IP Detection](https://wordpress.org/plugins/geoip-detect/)
-:::
+  :::
 
 ## Country or City Database
 
-The **Country Database**  allows resolving IP geolocation on the continent and country level, while the **City Database** allows the same plus cities and postal code levels. The City one might seems the obvious choice, but taking into consideration that its size is considerably bigger, choose it only when necessary.
+The **Country Database** allows resolving IP geolocation on the continent and country level, while the **City Database** allows the same plus cities and postal code levels. The City one might seems the obvious choice, but taking into consideration that its size is considerably bigger, choose it only when necessary.

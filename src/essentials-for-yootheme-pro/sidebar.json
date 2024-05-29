@@ -1,72 +1,84 @@
-{
-    "text": "Essentials YTP",
-    "items": [
-        {
-            "text": "Essentials YOOtheme Pro",
-            "items": [
-                {
-                    "text": "Integration",
-                    "link": "./"
-                },
-                {
-                    "text": "Changelog",
-                    "link": "./changelog"
-                },
-                {
-                    "text": "Settings",
-                    "link": "./settings"
-                }
-            ]
-        },
-        {
-            "text": "Addons",
-            "items": [
-                {
-                    "text": "Access",
-                    "link": "./addons/access"
-                },
-                {
-                    "text": "Sources",
-                    "link": "./addons/sources"
-                },
-                {
-                    "text": "Forms",
-                    "link": "./addons/forms"
-                },
-                {
-                    "text": "Icons",
-                    "link": "./addons/icons"
-                },
-                {
-                    "text": "Dynamic",
-                    "link": "./addons/dynamic"
-                },
-                {
-                    "text": "Layouts",
-                    "link": "./addons/layouts"
-                },
-                {
-                    "text": "Elements",
-                    "link": "./addons/elements"
-                }
-            ]
-        },
-        {
-            "text": "Advanced",
-            "items": [
-                {
-                    "text": "Auth, Keys & Secrets",
-                    "link": "./auth/"
-                },
-                {
-                    "text": "Storage Abstraction",
-                    "link": "./storage/"
-                },
-                {
-                    "text": "Geolocation",
-                    "link": "./geolocation"
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "text": "Getting Started",
+        "base": "/essentials-for-yootheme-pro",
+        "items": [
+            {
+                "text": "Integration",
+                "link": "/"
+            },
+            {
+                "text": "Changelog",
+                "link": "/changelog"
+            }
+        ]
+    },
+    {
+        "text": "General",
+        "base": "/essentials-for-yootheme-pro/",
+        "items": [
+            {
+                "text": "Auth, Keys & Secrets",
+                "link": "auths-and-secrets"
+            },
+            {
+                "text": "Storage Abstraction",
+                "link": "storage/"
+            },
+            {
+                "text": "Geolocation",
+                "link": "geolocation"
+            },
+            {
+                "text": "Settings",
+                "link": "settings"
+            }
+        ]
+    },
+    {
+        "text": "Forms Builder",
+        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Form Area",
+                "link": "/form-area"
+            },
+            {
+                "text": "Actions",
+                "link": "/actions/"
+            },
+            {
+                "text": "Elements",
+                "link": "/elements"
+            },
+            {
+                "text": "Field Elements",
+                "link": "/field-elements"
+            },
+            {
+                "text": "Captcha Elements",
+                "link": "/captcha-elements"
+            },
+            {
+                "text": "Dynamic Workflow",
+                "link": "/dynamic-workflow"
+            },
+            {
+                "text": "Data Validation",
+                "link": "/validation"
+            },
+            {
+                "text": "Hook Events",
+                "link": "/hook-events"
+            },
+            {
+                "text": "Troubleshooting",
+                "link": "/troubleshooting"
+            }
+        ]
+    }
+]

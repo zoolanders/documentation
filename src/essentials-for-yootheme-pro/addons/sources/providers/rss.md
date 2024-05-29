@@ -14,11 +14,13 @@ The source settings determines the content structure, every time the instance is
 ![RSS Instance Settings](../assets/providers/rss-config.webp)
 
 | Setting | Description | Required |
-| ------- | ----------- | :------: |
-| **URL** | The feed URL from which to generate the source content. | &#x2713; |
+| --- | --- | :---: |
+| *URL* | The feed URL from which to generate the source content. | &#x2713; |
 
 ::: details Common Settings
+
 <!--@include: ../_partials/provider-common-settings-->
+
 :::
 
 ## Content Queries
@@ -32,8 +34,8 @@ Fetches information from the feed and resolves to a dynamically generated feed t
 ![RSS Feed Query](../assets/providers/rss-query-feed.webp)
 
 | Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ### Entries Query
 
@@ -42,9 +44,9 @@ Fetches records from the feed and resolves to a list of dynamically generated re
 ![RSS Entries Query](../assets/providers/rss-query-entries.webp)
 
 | Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Filters** | `[]` | The list of filter conditions applied to the query. |
-| **Ordering** | `[]` | The list of ordering conditions applied to the query. |
-| **Start** | `1` | The offset applied to the query. |
-| **Quantity** | `20` | The limit applied to the query. |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- |
+| *Filters* | `[]` | The list of filter conditions applied to the query. |
+| *Ordering* | `[]` | The list of ordering conditions applied to the query. |
+| *Start* | `1` | The offset applied to the query. |
+| *Quantity* | `20` | The limit applied to the query. |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |

@@ -14,11 +14,13 @@ The source settings determines the content structure, every time the instance is
 ![Instagram Personal Settings](../../assets/providers/ig-personal-config.webp)
 
 | Setting | Description | Required |
-| ------- | ----------- | :------: |
-| **Account** | The Instagram Account which to [authenticate](#authentication) with. | &#x2713; |
+| --- | --- | :---: |
+| *Account* | The Instagram Account which to [authenticate](#authentication) with. | &#x2713; |
 
 ::: details Common Settings
+
 <!--@include: ../_partials/provider-common-settings-->
+
 :::
 
 ### Authentication
@@ -38,11 +40,11 @@ Fetches media from the authenticated account and resolves to a list of [Media Ty
 ![Instagram Media Query](../../assets/providers/ig-query-media.webp)
 
 | Setting | Default | Description |
-| ------- | ------- | ----------- |
-| **Type** | `All` | The type of media to fetch, `All`, `Image`, or `Video`. |
-| **Amount** | `20` | The maximum amount of media to fetch. |
-| **Since/Until** | `null` | The `start` and/or `end` datetime the fetched media will be restricted to. |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- |
+| *Type* | `All` | The type of media to fetch, `All`, `Image`, or `Video`. |
+| *Amount* | `20` | The maximum amount of media to fetch. |
+| *Since/Until* | `null` | The `start` and/or `end` datetime the fetched media will be restricted to. |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ### Media Single Query
 
@@ -51,10 +53,10 @@ Fetches a single media from the authenticated account and resolves to a [Media T
 ![Instagram Media Single Query](../../assets/providers/ig-query-media-single.webp)
 
 | Setting | Default | Description | Required |
-| ------- | ------- | ----------- | :------: |
-| **ID** | | Unique identifier of the media to retrieve. | &#x2713; |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
-| **Children** | | A Multi Item option resolving to [Album Media Query](#album-media-query). |
+| --- | --- | --- | :---: |
+| *ID* | | Unique identifier of the media to retrieve. | &#x2713; |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Children* | | A Multi Item option resolving to [Album Media Query](#album-media-query). |
 
 ### Album Media Query
 
@@ -63,6 +65,6 @@ Part of the [Media Single Query](#media-single-query), as `Multiple Items Source
 ![Instagram Album Media Query](../../assets/providers/ig-query-media-single.webp)
 
 | Setting | Default | Description | Required |
-| ------- | ------- | ----------- | :------: |
-| **ID** | | Unique identifier of the media to retrieve. | &#x2713; |
-| **Cache** | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| --- | --- | --- | :---: |
+| *ID* | | Unique identifier of the media to retrieve. | &#x2713; |
+| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |

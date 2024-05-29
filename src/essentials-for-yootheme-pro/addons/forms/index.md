@@ -3,9 +3,9 @@ title: Forms
 description: Empower a Section or Column with form builder and submission capabilities
 ---
 
-# Forms Addon
+# Forms Builder
 
-Empower a Section or Column as a Form Area with form builder and submission capabilities. Structure the area with fields and trigger actions after a successful submission.
+Empower a Section, Column or Sublayout as a Form Area with form builder and submission capabilities. Structure the area with fields and trigger actions after a successful submission.
 
 ## Integration
 

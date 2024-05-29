@@ -13,14 +13,16 @@ The Dynamic Access Rule determines whether a given value satisfies a specific se
 ![Dynamic Access Rule](../assets/rules/rule-dynamic.webp)
 
 | Setting | Description | Required | Dynamic |
-| ------- | ----------- | :------: | :-----: |
-| **Value** | The value that must validate for the condition to be considered valid. | &#x2713; | &#x2713; |
-| **Evaluation** | The logic that will be applied to the specified value, `Is empty`, `Includes`, `Equals to`, `Greater than`, `Starts with` or `Ends with`. | &#x2713; |
-| **Evaluation Value** | The value that the main value will be evaluated with, if required by the evaluation logic. | &#x2713; | &#x2713; |
-| **Reversed** | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
+| --- | --- | :---: | :---: |
+| *Value* | The value that must validate for the condition to be considered valid. | &#x2713; | &#x2713; |
+| *Evaluation* | The logic that will be applied to the specified value, `Is empty`, `Includes`, `Equals to`, `Greater than`, `Starts with` or `Ends with`. | &#x2713; |
+| *Evaluation Value* | The value that the main value will be evaluated with, if required by the evaluation logic. | &#x2713; | &#x2713; |
+| *Reversed* | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
 
 ::: details Advanced Settings
+
 <!--@include: ./_partials/advanced-settings-->
+
 :::
 
 ## Use Cases
