@@ -2,14 +2,12 @@
 import { computed } from 'vue'
 import TmIndexItem from './TmIndexItem.vue'
 
-const props = defineProps(['items'])
+const props = defineProps({items: {type: Array, required: true}})
 
 const grid = computed(() => {
   const length = props.items.length
 
-  if (!length) {
-    return
-  } else if (length === 2) {
+  if (length === 2) {
     return 'grid-2'
   } else if (length === 3) {
     return 'grid-3'
@@ -18,6 +16,8 @@ const grid = computed(() => {
   } else if (length > 3) {
     return 'grid-4'
   }
+
+  return ''
 })
 </script>
 

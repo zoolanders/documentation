@@ -1,19 +1,23 @@
 {
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview",
-    "lint": "next lint",
-    "http": "npx http-server",
-    "sitemap": "node ./scripts/sitemap.mjs",
-    "checklinks": "npx linkinator http://localhost:3000 -r --verbosity error"
-  },
-  "devDependencies": {
-    "lodash-es": "^4.17.21",
-    "prettier": "^3.2.5",
-    "vitepress": "^1.0.1",
-    "vue": "^3.4.21"
-  }
+    "private": true,
+    "type": "module",
+    "packageManager": "yarn@1.22.19",
+    "scripts": {
+        "dev": "vitepress dev",
+        "build": "vitepress build",
+        "preview": "vitepress preview",
+        "eslint": "eslint ./",
+        "prettier-check": "prettier . --check",
+        "prettier-write": "prettier . --write"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.3.0",
+        "eslint": "^9.3.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-vue": "^9.26.0",
+        "lodash-es": "^4.17.21",
+        "prettier": "^3.2.5",
+        "vitepress": "^1.2.2",
+        "vue": "^3.4.21"
+    }
 }
