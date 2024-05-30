@@ -42,8 +42,8 @@ Choose the minimum stability for Essential updates on your site, either Stable o
 
 | Release | Description |
 | --- | --- |
-| `Stable` | This release is a version which has been thoroughly tested by both our team and the community. Use it for production sites. |
-| `Beta` | This release is a version which has been thoroughly tested by our team. Use it to help us test and prevent issues in the Stable release. |
+| *Stable* | This release is a version which has been thoroughly tested by both our team and the community. Use it for production sites. |
+| *Beta* | This release is a version which has been thoroughly tested by our team. Use it to help us test and prevent issues in the Stable release. |
 
 ::: details Joomla
 In Joomla go to the Installer Options in the **Global Configuration**.

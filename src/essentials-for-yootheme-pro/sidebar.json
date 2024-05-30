@@ -22,6 +22,10 @@
                 "link": "auths-and-secrets"
             },
             {
+                "text": "Auth Drivers",
+                "link": "auth-drivers"
+            },
+            {
                 "text": "Storage Abstraction",
                 "link": "storage/"
             },
@@ -72,12 +76,100 @@
                 "link": "/validation"
             },
             {
-                "text": "Hook Events",
-                "link": "/hook-events"
+                "text": "Events Hooks",
+                "link": "/events-hooks"
             },
             {
                 "text": "Troubleshooting",
                 "link": "/troubleshooting"
+            }
+        ]
+    },
+    {
+        "text": "Content Sources",
+        "base": "/essentials-for-yootheme-pro/addons/sources",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Sources",
+                "link": "/providers"
+            },
+            {
+                "text": "Conditions & Filters",
+                "link": "/conditions-and-filters"
+            },
+            {
+                "text": "Troubleshooting",
+                "link": "/troubleshooting"
+            }
+        ]
+    },
+    {
+        "text": "Dynamic Content",
+        "base": "/essentials-for-yootheme-pro/addons/dynamic",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Global Queries",
+                "link": "/global-queries"
+            },
+            {
+                "text": "Dynamic Query Arguments",
+                "link": "/dynamic-query-arguments"
+            },
+            {
+                "text": "Field Sources",
+                "link": "/per-field-dynamic-content"
+            },
+            {
+                "text": "Composable Sources",
+                "link": "/composable-sources"
+            }
+        ]
+    },
+    {
+        "text": "Icons",
+        "base": "/essentials-for-yootheme-pro/addons/icons",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Icon Collection",
+                "link": "/collection"
+            },
+            {
+                "text": "My Icons",
+                "link": "/my-icons"
+            },
+            {
+                "text": "Troubleshooting",
+                "link": "/troubleshooting"
+            }
+        ]
+    },
+    {
+        "text": "Elements",
+        "base": "/essentials-for-yootheme-pro/addons/elements",
+        "items": [
+            {
+                "text": "Chart",
+                "link": "/chart"
+            },
+            {
+                "text": "Markdown",
+                "link": "/markdown"
+            },
+            {
+                "text": "Social Sharing",
+                "link": "/social-sharing"
             }
         ]
     }

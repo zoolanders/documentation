@@ -40,6 +40,6 @@ As a quick reference use these sources:
 
 | Data | Source |
 | --- | --- |
-| Datetime | `Request -> Timestamp` |
-| User IP | `Request -> IP` |
-| Page URL | `Request -> Href` |
+| Datetime | *Request -> Timestamp* |
+| User IP | *Request -> IP* |
+| Page URL | *Request -> Href* |

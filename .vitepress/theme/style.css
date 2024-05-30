@@ -135,7 +135,8 @@
 
 :root {
     --vp-code-bg: transparent;
-    --vp-code-color: rgb(14 165 233 / 1);
+    --vp-color-highlight: rgb(14 165 233 / 1);
+    --vp-code-color: var(--vp-color-highlight)
 }
 
 .vp-doc p,
@@ -173,6 +174,12 @@
     border: none;
 }
 
+.vp-doc th,
+.vp-doc td,
+.vp-doc thead tr {
+    border: none;
+}
+
 .vp-doc a:not(:hover) {
     text-decoration: none !important;
 }
@@ -189,6 +196,19 @@
 .vp-doc hr {
     margin: 3em 0;
 }
+
+.vp-doc em {
+    color: var(--vp-color-highlight)
+}
+
+.vp-doc .tm-width-medium {
+    width: 350px;
+}
+
+.vp-doc img {
+    max-width: 450px;
+}
+
 
 /**
  * Component: Home

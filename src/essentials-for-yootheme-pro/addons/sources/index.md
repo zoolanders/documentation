@@ -36,3 +36,9 @@ Once the source instance has been created it schema will be generated based on t
 1. Open the item Content Tab and map some data to the item content field.
 
 At this point a list of data from the RSS feed should be rendered.
+
+## Source Manager
+
+The Source Manager can be accessed at `Customizer -> Essentials -> Sources` section. There you can manage source instances which will become part of the Dynamic Content workflow.
+
+![Source Manager](./assets/source-manager.gif)
