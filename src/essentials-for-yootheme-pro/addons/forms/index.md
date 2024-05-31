@@ -9,8 +9,6 @@ Empower a Section, Column or Sublayout as a Form Area with form builder and subm
 
 ## Integration
 
-Follow through to learn how to create a Form Area. Even if you are already familiar with the concept you might learn something new.
-
 <!--@include: ../_partials/enable-addon-->
 
 ### 1. Create a Form Area

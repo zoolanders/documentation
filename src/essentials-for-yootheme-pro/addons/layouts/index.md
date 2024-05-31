@@ -11,8 +11,6 @@ By setting a custom layout library within the [Libraries Manager](./libraries-ma
 
 ## Integration
 
-Follow through to learn how to create a custom builder layout library from a local or external storage. Even if you are already familiar with the concept you might learn something new.
-
 <!--@include: ../_partials/enable-addon-->
 
 ### 1. Create Library

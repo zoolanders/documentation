@@ -1,15 +1,18 @@
 [
     {
         "text": "Getting Started",
-        "base": "/essentials-for-yootheme-pro",
         "items": [
             {
-                "text": "Integration",
-                "link": "/"
+                "text": "Introduction",
+                "link": "/essentials-for-yootheme-pro"
+            },
+            {
+                "text": "Installation",
+                "link": "/essentials-for-yootheme-pro/installation"
             },
             {
                 "text": "Changelog",
-                "link": "/changelog"
+                "link": "https://www.zoolanders.com/essentials-for-yootheme-pro/changelog"
             }
         ]
     },
@@ -44,7 +47,7 @@
         "base": "/essentials-for-yootheme-pro/addons/forms",
         "items": [
             {
-                "text": "Overview",
+                "text": "Integration",
                 "link": "/"
             },
             {
@@ -86,33 +89,11 @@
         ]
     },
     {
-        "text": "Content Sources",
-        "base": "/essentials-for-yootheme-pro/addons/sources",
-        "items": [
-            {
-                "text": "Overview",
-                "link": "/"
-            },
-            {
-                "text": "Sources",
-                "link": "/providers"
-            },
-            {
-                "text": "Conditions & Filters",
-                "link": "/conditions-and-filters"
-            },
-            {
-                "text": "Troubleshooting",
-                "link": "/troubleshooting"
-            }
-        ]
-    },
-    {
         "text": "Dynamic Content",
         "base": "/essentials-for-yootheme-pro/addons/dynamic",
         "items": [
             {
-                "text": "Overview",
+                "text": "Integration",
                 "link": "/"
             },
             {
@@ -134,20 +115,20 @@
         ]
     },
     {
-        "text": "Icons",
-        "base": "/essentials-for-yootheme-pro/addons/icons",
+        "text": "Dynamic Sources",
+        "base": "/essentials-for-yootheme-pro/addons/sources",
         "items": [
             {
-                "text": "Overview",
+                "text": "Integration",
                 "link": "/"
             },
             {
-                "text": "Icon Collection",
-                "link": "/collection"
+                "text": "Sources",
+                "link": "/providers"
             },
             {
-                "text": "My Icons",
-                "link": "/my-icons"
+                "text": "Conditions & Filters",
+                "link": "/conditions-and-filters"
             },
             {
                 "text": "Troubleshooting",
@@ -156,9 +137,79 @@
         ]
     },
     {
+        "text": "Conditional Rules",
+        "base": "/essentials-for-yootheme-pro/addons/access",
+        "items": [
+            {
+                "text": "Integration",
+                "link": "/"
+            },
+            {
+                "text": "Condition",
+                "link": "/condition"
+            },
+            {
+                "text": "Rules",
+                "link": "/rules"
+            }
+        ]
+    },
+    {
+        "text": "Icons",
+        "base": "/essentials-for-yootheme-pro/addons/icons",
+        "items": [
+            {
+                "text": "Integration",
+                "link": "/"
+            },
+            {
+                "text": "Collection",
+                "link": "/collection"
+            },
+            {
+                "text": "My Icons",
+                "link": "/my-icons"
+            },
+            {
+                "text": "Collections",
+                "link": "/collections"
+            },
+            {
+                "text": "Troubleshooting",
+                "link": "/troubleshooting"
+            }
+        ]
+    },
+    {
+        "text": "Layout Libraries",
+        "base": "/essentials-for-yootheme-pro/addons/layouts",
+        "items": [
+            {
+                "text": "Integration",
+                "link": "/"
+            },
+            {
+                "text": "Cross-Site Layout Sharing",
+                "link": "/cross-site-layout-sharing"
+            },
+            {
+                "text": "Enhanced User Experience",
+                "link": "/enhanced-user-experience"
+            },
+            {
+                "text": "Libraries Manager",
+                "link": "/libraries-manager"
+            }
+        ]
+    },
+    {
         "text": "Elements",
         "base": "/essentials-for-yootheme-pro/addons/elements",
         "items": [
+            {
+                "text": "Integration",
+                "link": "/"
+            },
             {
                 "text": "Chart",
                 "link": "/chart"

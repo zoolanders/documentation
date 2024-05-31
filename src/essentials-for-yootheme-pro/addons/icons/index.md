@@ -9,8 +9,6 @@ Expand the icon library with custom and curated third-party collections such as 
 
 ## Integration
 
-Follow through to learn how to install an Icon Collection and chose an icon from it. Even if you are already familiar with the concept you might learn something new.
-
 <!--@include: ../_partials/enable-addon-->
 
 ### 1. Add an Icon Collection

@@ -9,8 +9,6 @@ Generate content sources from configuration or service-dependent data, such as d
 
 ## Integration
 
-Follow through to learn how to create a Multi-Instance source. Even if you are already familiar with the concept you might learn something new.
-
 <!--@include: ../_partials/enable-addon-->
 
 ### 1. Create a Source Instance

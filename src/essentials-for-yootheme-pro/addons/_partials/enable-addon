@@ -1,9 +1,9 @@
-::: details Ensure {{ $frontmatter.title }} Addon is enabled
-Assuming Essentials has been [properly installed](/essentials-for-yootheme-pro/#installation), open the `Customizer -> Essentials -> Advanced` section and make sure **{{ $frontmatter.title }} Addon** is enabled, then save the changes and refresh the page.
+Assuming Essentials has been [properly installed](/essentials-for-yootheme-pro/#installation), open the `Customizer -> Essentials -> Advanced` section and make sure **{{ $frontmatter.title }} Addon** is enabled. In case is not, enable it, save the changes and refresh the page.
 
 ![Enable {{ $frontmatter.title }} Addon](./assets/enable-addon.gif)
 
-<small>
-Notice that {{ $frontmatter.title }} is a premium addon and will not be listed if you are working with Essentials free version.
+<small v-if="$frontmatter.title !== 'Elements'">
+
+Notice that **{{ $frontmatter.title }}** is a premium addon and will not be listed if you are working with Essentials free release.
+
 </small>
-:::

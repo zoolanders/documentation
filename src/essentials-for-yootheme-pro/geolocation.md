@@ -13,7 +13,7 @@ You can rely on 3rd party plugins for the installation and posterior updates of 
 
 - [Joomla Akeeba GeoIP Provider](https://www.akeeba.com/download/akgeoip.html)
 - [WordPress Geolocation IP Detection](https://wordpress.org/plugins/geoip-detect/)
-  :::
+:::
 
 ## Country or City Database
 
