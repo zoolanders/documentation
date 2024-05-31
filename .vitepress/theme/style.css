@@ -71,7 +71,7 @@
 :root {
     --zl-primary-bg: #fb5c75;
     --zl-secondary-bg: #44cf8f;
-    --zl-primary-color: rgb(239 68 68);
+    --zl-primary-color: #f74e67;
 
     --vp-c-default-1: var(--vp-c-gray-1);
     --vp-c-default-2: var(--vp-c-gray-2);
@@ -134,7 +134,7 @@
  * -------------------------------------------------------------------------- */
 
 :root {
-    --vp-code-bg: transparent;
+    --vp-code-bg: #f8f8f8;
     --vp-color-highlight: rgb(14 165 233 / 1);
     --vp-code-color: var(--vp-color-highlight)
 }

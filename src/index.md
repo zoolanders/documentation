@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 'ZOOlanders'
   text: 'Essentials Documentation'
-  tagline: Explore guides and examples to integrate Essential Addons for YOOtheme Pro and ZOO
+  tagline: Explore how to integrate Essential Addons for YOOtheme Pro and ZOO
   image: hero.png
   actions:
     - theme: brand
@@ -14,7 +14,4 @@ hero:
     - theme: alt
       text: Essentials for ZOO
       link: /essentials-for-zoo/
-    - theme: alt
-      text: Guides
-      link: /guides/
 ---

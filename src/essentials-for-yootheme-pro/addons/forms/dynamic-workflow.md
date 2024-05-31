@@ -19,7 +19,7 @@ For each Form Area, a dynamic content source is created as an alternative, and m
 ::: tip Alter Submission Data
 Sometimes, submitted data may be in a format that is not convenient for a specific action workflow, e.g. displaying the inputted date in the email body.
 
-A workaround is to use the [Data Action](./actions/data) to remap the value from the form source by applying a dynamic filter that changes the format of the data. The newly formatted value can then be used as a data placeholder in subsequent actions.
+A workaround is to use the [Alter Action](./actions#alter-action) to remap the value from the form source by applying a dynamic filter that changes the format of the data. The newly formatted value can then be used as a data placeholder in subsequent actions.
 :::
 
 ## Page Queries Content
@@ -34,7 +34,7 @@ If the data is sensitive, it's crucial to enable the encryption setting in the h
 
 ## Contextual Data
 
-Contextual data such as the datetime, page URL, and user IP is not included in the submission. However, since this information is available as dynamic content, it can be easily mapped when necessary, usually in combination with SaveTo actions or the [Data Action](./actions/data).
+Contextual data such as the datetime, page URL, and user IP is not included in the submission. However, since this information is available as dynamic content, it can be easily mapped when necessary, usually in combination with SaveTo actions or the [Alter Action](./actions#alter).
 
 As a quick reference use these sources:
 

@@ -1,21 +1,10 @@
 [
     {
-        "text": "Docs",
-        "link": "/essentials-for-yootheme-pro/",
-        "activeMatch": "/essentials-for-yootheme-pro/",
-        "items": [
-            {
-                "text": "YOOtheme Pro Essentials",
-                "link": "/essentials-for-yootheme-pro/"
-            },
-            {
-                "text": "ZOO Essentials",
-                "link": "/essentials-for-zoo/"
-            }
-        ]
+        "text": "YOOtheme Pro Essentials",
+        "link": "/essentials-for-yootheme-pro/"
     },
     {
-        "text": "Guides",
-        "link": "/guides/"
+        "text": "ZOO Essentials",
+        "link": "/essentials-for-zoo/"
     }
 ]

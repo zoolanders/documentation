@@ -23,7 +23,7 @@ A form must be structured inside of a Section or Column enabled as a [Form Area]
 
 ### 2. Add After Submit Actions
 
-At least one [After Submit Action](./after-submit-actions) must be set for every form, otherwise, it will not trigger any action. In this case are going to greet the user adding a Message Action, but for more advanced scenarios, adding Email and SaveTo actions would be necessary to send an email and save the submitted data.
+At least one [After Submit Action](./actions) must be set for every form, otherwise, it will not trigger any action. In this case are going to greet the user adding a Message Action, but for more advanced scenarios, adding Email and SaveTo actions would be necessary to send an email and save the submitted data.
 
 ![Add After Submit Actions](./assets/integration/add-form-actions.gif)
 
