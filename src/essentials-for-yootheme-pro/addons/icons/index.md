@@ -9,7 +9,7 @@ Expand the icon library with custom and curated third-party collections such as 
 
 ## Integration
 
-<!--@include: ../_partials/enable-addon-->
+<!--@include: ../_partials/enable-addon.md-->
 
 ### 1. Add an Icon Collection
 

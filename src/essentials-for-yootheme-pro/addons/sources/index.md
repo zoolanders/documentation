@@ -3,40 +3,41 @@ title: Sources
 description: Generate content sources from configuration or service-dependent data
 ---
 
-# Sources Addon
+# Dynamic Sources
 
 Generate content sources from configuration or service-dependent data, such as database tables, CSV files, Instagram media, Google Spreadsheets, and more.
 
-## Integration
+---
 
-<!--@include: ../_partials/enable-addon-->
+<!--@include: ../_partials/enable-addon.md-->
 
-### 1. Create a Source Instance
+## 1. Create a Source Instance
 
-The Source Manager will assist us on creating, and posterior management, of all source instances.
+Essentials sources are not global, those do not pre-exist. Before being able to use an Essential source we must first create an instance of it.
 
 ![Create a Source Instance](./assets/create-source-instance.gif)
 
-1. Open the manager at `Customizer -> Essentials -> Sources`
-2. Create a new source of any kind, for this specific case we choose the RSS one.
-3. Fulfill the instance configuration consulting the [sources reference](./providers/).
-4. `Save` the new instance when ready.
+1. Open the [Source Manager](#source-manager) and click on Add Source.
+2. Choose the [source](./providers/) you want to make an instance from, e.g. [RSS](./providers#rss).
+3. Set the source name and the configuration basics, e.g. _My Feed_ and `https://www.theverge.com/rss/reviews/index.xml`.
+4. Leave the rest per default and save.
 
-### 2. Map the Source Content
+## 2. Map the Source Content
 
-Once the source instance has been created it schema will be generated based on the configuration and it content made available for mapping as any other source. In this case we are gonna map the feed entries to a List Element.
+Once the source instance has been created it schema will be generated based on it configuration and it content made available for mapping as any other dynamic core source. And now we can map it content to our layout.
 
 ![Map Source Content](./assets/map-source-content.gif)
 
-1. Open the builder and add a List Element.
-1. Add an Item to the element and open the new item Advanced Tab.
-1. Under `Dynamic Content`, select the source you want to use for the list. In this case, `RSS Entries` located under the RSS group.
-1. Open the item Content Tab and map some data to the item content field.
+1. Open the builder layout where you want to map the source.
+1. Add a new Text element to the layout and open the _Advanced Tab_.
+1. Open the `Dynamic Content` select field and locate the _RSS_ group.
+1. Choose _My Feed Entries_.
+1. Open the element _Content Tab_ and map some data to the content field.
 
-At this point a list of data from the RSS feed should be rendered.
+A list of the feed entries should render with the mapped data. For more insights about [YOOtheme Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content) workflow, consult the corresponding documentation.
 
 ## Source Manager
 
-The Source Manager can be accessed at `Customizer -> Essentials -> Sources` section. There you can manage source instances which will become part of the Dynamic Content workflow.
+The Source Manager let us create as well as manage dynamic sources instances. It cab be accessed at `Customizer -> Essentials -> Sources` section.
 
 ![Source Manager](./assets/source-manager.gif)

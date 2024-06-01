@@ -1,51 +1,43 @@
----
-links:
-  - title: FS Teaser Card
-    href: https://flart.studio/yootheme-pro/teaser-card
-    author: Flart Studio
-  - title: DJ-Popup
-    href: https://dj-extensions.com/yootheme/dj-popup
-    author: DJ Extensions
-  - title: JP CE Modal Pro
-    href: https://extensions.joomlapro.com/product/ce-modal-pro
-    author: JoomlaPro
----
-
 # Form Area
 
 When a Section, Column or Sublayout is defined as a Form Area, it is enclosed with a standard `<form\>` HTML element without losing any builder capabilities. A Form Area limits the scope of the form configuration and fields structure, enabling the placement of multiple forms in the same page.
 
-## Configuration
-
-When a Form Area is established, a `paper-plane` icon will appear in the builder's main panel to both states that the specific node is a Form Area as well as to directly open its configuration panel.
-
-The Form Area Configuration panel contains both general and advanced configuration [settings](#settings) for the form, as well as [After Submit Actions](#after-submit-actions), which are critical for the form workflow.
-
 ![Form Area Shortcut](./assets/formarea-config-shortcut.webp)
 
-<small>Use the Form Area shortcut to access it configuration from the builder.</small>
+A `paper-plane`  icon will appear in the builder's main panel to both state that the node is a Form Area as well as to allow directly opening its configuration panel when clicked.
 
-## Settings
+## After Submit Actions
 
-### Actions
+After Submit Actions, or simply actions, are multi-instance functions that will run sequentially, after a form has been successfully submitted, as long as the chain is not disrupted by an error. These are crucial for the form workflow, as submission data is not processed or logged unless there is an action set for the task.
 
-At least one [After Submit Actions](#after-submit-actions) is required, consult individual [action reference](./actions) for specifics.
+Actions are set in the Form Area [configuration](#form-area-configuration) and tipically involves sending an email or saving the submission data to the database. For a full overview of available actions and their capabilities, consult the [actions](./actions) section.
+
+![After Submit Actions](./assets/actions/actions.webp)
+
+Actions will by default be always executed unless their status has been manually set to `disabled`, or it execution condition dynamically been resolved to false. The execution condition supports Dynamic Content, including the form submitted data.
+
+![Actions Dynamic Execution](./assets/actions/exec-dynamic.webp)
+
+::: tip
+Use execution conditions for advanced workflows, e.g. subscribing to a newsletter only if a specific checkbox has been checked on.
+:::
+
+## Form Area Configuration
+
+The Form Area configuration panel contains form specific settings, including [after submit actions](#after-submit-actions).
 
 ![Form Area Actions](./assets/formarea-config-actions.webp)
-
-### Validation
-
-Global validation settings, for field specific validation refer to [field settings](./fields).
 
 ![Form Area Settings](./assets/formarea-config-settings.webp)
 
 | Setting | Default | Description |
 | --- | --- | --- |
+| *After Submit Actions* | `[]` | List of actions to execute after a successful submission. At least one action is necessary. |
 | *HTML 5 Validation* | `true` | Whether the front side HTML5 validation should be executed before submission. Server side validation is always executed. |
 
-### Errors Display
-
-Server and validation wise errors display options.
+::: tip Note
+For field specific validation refer to [elements field settings](./elements).
+:::
 
 ![Form Area Errors Display](./assets/formarea-config-errors-display.webp)
 
@@ -55,15 +47,13 @@ Server and validation wise errors display options.
 | *Modal Content* | | The content to be displayed in the modal, use `{errors}` as placeholder for the list of errors. |
 | *Center Modal* | `false` | Wether to vertically center the modal. |
 
-### Form Attributes
-
-Form HTML node `id`, `name`, and `class` attributes, useful for customizations.
-
 ![Form Attributes](./assets/formarea-config-attr.webp)
 
-### Form Action Override
-
-Custom **action** and **method** attributes allows for a 3rd party service integration or a custom submission workflow.
+| Setting | Default | Description |
+| --- | --- | --- |
+| *Name* |  | A custom name attribute for the form dom node. |
+| *ID* |  | A custom ID attribute for the form dom node. |
+| *Class* |  | Custom classes for the form dom node. |
 
 ![Form Action Override](./assets/formarea-config-action-override.webp)
 
@@ -73,12 +63,8 @@ Custom **action** and **method** attributes allows for a 3rd party service integ
 | *Action Method* | The method that should user for submitting the data, `GET` or `POST`. |
 
 ::: warning Side Effects
-Notice that when a custom action URL is set, server-side validation and After Submit Actions will not be executed.
+Notice that when a custom action URL is set, server-side validation and after submit actions will not be executed.
 :::
-
-### Custom Scripts
-
-Custom scripts that will run on form events, for a more advanced integration consult [Extending Forms](./extend) section.
 
 ![Form Area Custom Scripts](./assets/formarea-config-custom-scripts.webp)
 
@@ -89,32 +75,14 @@ Custom scripts that will run on form events, for a more advanced integration con
 | *After Submission Error* | `event`, `form`, `data`, `errors`, `validation` | Executes after server side submission error, including validation errors. |
 | *After Validation Error* | `event`, `form`, `data` | Executes after front-end validation error. |
 
-## After Submit Actions
+::: tip
+For more advanced customizations consult [Extending Forms](/essentials-for-yootheme-pro/developer/form-hooks) section.
+:::
 
-After Submit Actions, or simply actions, are [multi-instance](#multi-instance) functions that will run sequentially, after a form has been successfully submitted, as long as the chain is not disrupted by an error. These are crucial for the form workflow, as submission data is not processed or logged unless there is an action set for the task.
+## Form in a Modal
 
-Actions are configured in the [Form Area Configuration](./form-area#configuration) and tipically involves sending an email or saving the submission data to the database. For a full overview of available actions and their capabilities, consult the [actions reference](./actions) section.
+Out of the box, a form cannot be displayed in a Modal, but there are 3rd party solutions.
 
-![After Submit Actions](./assets/actions/actions.webp)
-
-### Multi-Instance
-
-In computing, "multi-instance" refers to the ability to have multiple identical instances running in parallel or in sequence to each other. In the context of actions, a multi-instance action setup means that it is possible to set up multiple actions of the same type, each with its own configuration and content.
-
-![Multi-Instance Action](./assets/actions/multi-instance.png)
-
-### Conditional Execution
-
-Actions can be manually disabled by setting their status to `disabled`, or dynamically by composing an Execution Condition in the Advanced Tab. The condition supports Dynamic Content, including [submission data](./dynamic-workflow#submission-data-source), which enables advanced workflows, e.g. subscribing to a newsletter only if it has been indicated in the form submission.
-
-![Actions Dynamic Execution](./assets/actions/exec-dynamic.webp)
-
-## Show in a Modal
-
-A Forms Area doesn't support being displayed in a module out of the box, but there are 3rd party solutions.
-
-<ul>
-    <li v-for="link in $frontmatter.links">
-        <a :href="link.href" target="_blank">{{ link.title }}</a> by {{ link.author }}
-    </li>
-</ul>
+- [FS Teaser Card](https://flart.studio/yootheme-pro/teaser-card) by Flart Studio
+- [DJ-Popup](https://dj-extensions.com/yootheme/dj-popup) by DJ Extensions
+- [JP CE Modal Pro](https://extensions.joomlapro.com/product/ce-modal-pro) by JoomlaPro

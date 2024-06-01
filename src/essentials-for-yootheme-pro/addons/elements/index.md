@@ -11,7 +11,7 @@ Essential elements can be found in the element library under `Essentials`. They 
 
 ## Integration
 
-<!--@include: ../_partials/enable-addon-->
+<!--@include: ../_partials/enable-addon.md-->
 
 At this point Essential Elements should be listed in the builder element library and ready to be added to any layout.
 

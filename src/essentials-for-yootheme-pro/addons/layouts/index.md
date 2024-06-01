@@ -11,7 +11,7 @@ By setting a custom layout library within the [Libraries Manager](./libraries-ma
 
 ## Integration
 
-<!--@include: ../_partials/enable-addon-->
+<!--@include: ../_partials/enable-addon.md-->
 
 ### 1. Create Library
 

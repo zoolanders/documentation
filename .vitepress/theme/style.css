@@ -196,7 +196,8 @@
     background-color: inherit !important;
 }
 
-.vp-doc th {
+.vp-doc th,
+.vp-doc td span.tm-table-head {
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
@@ -270,7 +271,7 @@
     border-radius: 8px;
 }
 
-.vp-doc .custom-block + .custom-block {
+.vp-doc .custom-block.details + .custom-block.details {
     margin-top: -26px;
 }
 
@@ -294,6 +295,22 @@
 .vp-doc .custom-block a:hover {
     opacity: 1;
 }
+/*
+.vp-doc .tip.custom-block {
+    margin: 0;
+    padding: 0;
+    background: none;;
+}
+
+.vp-doc .tip.custom-block > p {
+    display: inline;
+}
+
+.vp-doc .tip.custom-block .custom-block-title {
+    background-color: var(--vp-custom-block-tip-bg);
+    margin-right: 8px;
+    padding: 1px 4px;
+} */
 
 /**
  * Component: VPSidebarNav, SidebarItem

@@ -9,7 +9,7 @@ Compose rules that will determine the evaluation criteria for rendering an eleme
 
 ## Integration
 
-<!--@include: ../_partials/enable-addon-->
+<!--@include: ../_partials/enable-addon.md-->
 
 ### 1. Open the Condition Panel
 
