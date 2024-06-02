@@ -1,10 +1,12 @@
 [
     {
         "text": "YOOtheme Pro Essentials",
-        "link": "/essentials-for-yootheme-pro/"
+        "link": "/essentials-for-yootheme-pro/",
+        "activeMatch": "/essentials-for-yootheme-pro/"
     },
     {
         "text": "ZOO Essentials",
-        "link": "/essentials-for-zoo/"
+        "link": "/essentials-for-zoo/",
+        "activeMatch": "/essentials-for-zoo/"
     }
 ]

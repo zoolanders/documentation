@@ -1,6 +1,6 @@
 # Introduction
 
-Essentials for YOOtheme Pro is a library of free and premium addons for the [YOOtheme Pro](https://yootheme.com/page-builder) page builder compatible with both WordPress and Joomla. It expands the YOOtheme Pro framework natively and effectively with features that are considered _essential_.
+Essentials for YOOtheme Pro is a set of free and premium addons for the [YOOtheme Pro](https://yootheme.com/page-builder) page builder compatible with both WordPress and Joomla. It expands the YOOtheme Pro framework natively and effectively with features that are considered _essential_.
 
 ## Requirements
 
