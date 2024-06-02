@@ -1,9 +1,6 @@
----
-title: Social Sharing
-description: A social network sharing element
----
+# Social Sharing Element
 
-<!--@include: ./_partials/intro-element-->
+<span class="tm-lead">A social network sharing element.</span>
 
 Enable your users to share your website's content on their preferred social media platform, whether it be Twitter, Facebook, WhatsApp, Viber, a custom network that you have established, or even Email.
 

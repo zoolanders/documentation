@@ -7,8 +7,6 @@ description: Create custom layout libraries which layouts are stored locally or 
 
 Create custom layout libraries which layouts can be stored locally or shared across multiple sites through the use of external storage options like FTP or Amazon S3.
 
-By setting a custom layout library within the [Libraries Manager](./libraries-manager), you can load and browse page builder layouts in a workflow similar to the core [Layout Library](https://yootheme.com/support/yootheme-pro/joomla/layout-library). However, a custom library come with some valuable enhancements.
-
 <!--@include: ../_partials/enable-addon.md-->
 
 ## 1. Create Library

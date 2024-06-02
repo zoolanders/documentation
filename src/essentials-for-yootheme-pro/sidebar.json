@@ -91,20 +91,12 @@
                 "link": "/"
             },
             {
-                "text": "Field Sources",
-                "link": "/per-field-dynamic-content"
+                "text": "Extended Workflow",
+                "link": "/extended-workflow"
             },
             {
-                "text": "Global Queries",
-                "link": "/global-queries"
-            },
-            {
-                "text": "Dynamic Query Arguments",
-                "link": "/dynamic-query-arguments"
-            },
-            {
-                "text": "Composable Sources",
-                "link": "/composable-sources"
+                "text": "Composed Sources",
+                "link": "/composed-sources"
             }
         ]
     },
@@ -153,16 +145,12 @@
                 "link": "/addons/layouts/"
             },
             {
+                "text": "Libraries",
+                "link": "/addons/layouts/libraries"
+            },
+            {
                 "text": "Storage Abstraction",
                 "link": "/storage"
-            },
-            {
-                "text": "Cross-Site Layout Sharing",
-                "link": "/addons/layouts/cross-site-layout-sharing"
-            },
-            {
-                "text": "Enhanced User Experience",
-                "link": "/addons/layouts/enhanced-user-experience"
             }
         ]
     },

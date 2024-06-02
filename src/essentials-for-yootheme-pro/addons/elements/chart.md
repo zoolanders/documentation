@@ -1,9 +1,6 @@
----
-title: Chart
-description: A chart element based on Chart.js
----
+# Chart Element
 
-<!--@include: ./_partials/intro-element-->
+<span class="tm-lead">A chart element based on Chart.js.</span>
 
 The Chart Element allows you to display static and dynamic data using visually appealing charts and graphs based on the popular JavaScript library [Chart.js v4.3.0](https://www.chartjs.org/docs/4.3.0/).
 
