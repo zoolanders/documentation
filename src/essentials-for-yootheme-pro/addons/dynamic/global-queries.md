@@ -8,6 +8,6 @@ A Global Query is a custom query composed from a global source which is then mad
 
 ## Global Queries Manager
 
-The Global Queries Manager can be accessed at `Customizer -> Essentials -> Global Queries` section. There you can manage the queries for any source that is globally available.
+The Global Queries Manager can be accessed at _Customizer -> Essentials -> Global Queries_ section. There you can manage the queries for any source that is globally available.
 
 ![Global Queries](./assets/dynamic-global-queries.gif)

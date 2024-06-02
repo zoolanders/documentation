@@ -10,7 +10,7 @@ collection: Device
 
 The **Operating System Rule** evaluates whether the browser agent matches one of the specified patterns, e.g. `MacOS 10.1`.
 
-Supported OS: `Mac OS X`, `Mac OS Classic`, `Linux`, `Open BSD`, `Sun OS`, `QNX`, `BeOS`, `OS/2`, `Windows`, `Windows Vista`, `Windows Server 2003`, `Windows XP`, `Windows 2000 sp1`, `Windows 2000`, `Windows NT`, `Windows Me`, `Windows 98`, `Windows 95`, `Windows CE`.
+Supported OS: _Mac OS X_, _Mac OS Classic_, _Linux_, _Open BSD_, _Sun OS_, _QNX_, _BeOS_, _OS/2_, _Windows_, _Windows Vista_, _Windows Server 2003_, _Windows XP_, _Windows 2000 sp1_, _Windows 2000_, _Windows NT_, _Windows Me_, _Windows 98_, _Windows 95_, _Windows CE_.
 
 ::: warning Limited Detection
 Notice that browser detection is not always accurate, users can setup their browser to mimic other agents.

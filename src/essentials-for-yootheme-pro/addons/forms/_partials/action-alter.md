@@ -5,7 +5,7 @@
 The **Alter Action** adds or alters the submitted data allowing a wide range of use cases.
 
 - Duplicate a submitted date with a custom format for consequent actions use.
-- Add context information to the Submission, e.g. the `Request -> Timestamp` (current date & time) or IP.
+- Add context information to the Submission, e.g. the _Request -> Timestamp_ (current date & time) or IP.
 - Add sensitive data without the need to expose it in a hidden input.
 
 ::: warning Order is important

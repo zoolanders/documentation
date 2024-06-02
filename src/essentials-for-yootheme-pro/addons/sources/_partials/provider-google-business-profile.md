@@ -46,7 +46,7 @@ Fetches reviews from the profile location resolving to a list of [Google Busines
 
 | Setting | Default | Description |
 | --- | --- | --- |
-| *Order By* | `Latest` | The order by which to fetch the reviews, `Latest`, `Rating Ascending`, or `Rating Descending`. |
+| *Order By* | `Latest` | The order by which to fetch the reviews, _Latest_, _Rating Ascending_, or _Rating Descending_. |
 | *Quantity* | `10` | The maximum amount of reviews to fetch. |
 | *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
@@ -81,8 +81,8 @@ Defines the mapping options of a Google Business Profile Location object.
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | The unique identifier of this location. | *String* |
-| *Title* | The title of this location. | *String* | `Limit` |
-| *Description* | The description of this location. | *String* | `Limit` |
+| *Title* | The title of this location. | *String* | *Limit* |
+| *Description* | The description of this location. | *String* | *Limit* |
 | *Phone* | The primary phone number of this location. | *String* |
 | *Website* | The website of this location. | *String* |
 | *Category* | The primary category that describes this location business. | *String* |
@@ -109,12 +109,12 @@ Defines the mapping options of a Google Business Profile Location Review object.
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | The unique identifier of this location. | *String* |
-| *Comment* | The body of this review comment as plain text with markups. | *String* | `Limit` |
-| *Original Comment* | The comment of this review without translation. | *String* | `Limit` |
-| *Translated Comment* | The translated comment of this review. | *String* | `Limit` |
+| *Comment* | The body of this review comment as plain text with markups. | *String* | *Limit* |
+| *Original Comment* | The comment of this review without translation. | *String* | *Limit* |
+| *Translated Comment* | The translated comment of this review. | *String* | *Limit* |
 | *Star Rating* | The star rating given by this review where five is the highest rated. | *Int* |
-| *Created At* | The date this review was created. | *String* | `Date` |
-| *Updated At* | The date this review was last modified. | *String* | `Date` |
+| *Created At* | The date this review was created. | *String* | *Date* |
+| *Updated At* | The date this review was last modified. | *String* | *Date* |
 | *Reply* | The owner/manager of this location's reply to this review. | [Review Reply Type](#review-reply-type) |
 | *Reviewer* | The author of this review. | [Reviewer Type](#google-business-profile-reviewer-type) |
 
@@ -126,8 +126,8 @@ Defines the mapping options of a Google Business Profile Review Reply object.
 
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
-| *Comment* | The body of this reply as plain text with markups. | *String* | `Limit` |
-| *Updated At* | The date this reply was last modified. | *String* | `Date` |
+| *Comment* | The body of this reply as plain text with markups. | *String* | *Limit* |
+| *Updated At* | The date this reply was last modified. | *String* | *Date* |
 
 ### Google Business Profile Reviewer Type
 
@@ -151,12 +151,12 @@ Defines the mapping options of a Google Business Profile Post object.
 | --- | --- | --- | --- |
 | *ID* | The unique identifier of this post. | *String* |
 | *URL* | The link to the post in Google search. | *String* |
-| *Topic Type* | The topic type of the post, `STANDARD`, `EVENT`, `OFFER`, or `ALERT`. | *String* |
+| *Topic Type* | The topic type of the post, _STANDARD_, _EVENT_, _OFFER_, or _ALERT_. | *String* |
 | *Summary* | The description/body of the post. | *String* |
 | *Primary Media URL* | The path to the locally cached post primary media thumbnail. | *String* |
 | *Language* | The language of the post. | *String* |
-| *Created At* | The date this post was created. | *String* | `Date` |
-| *Updated At* | The date this post was last modified. | *String* | `Date` |
+| *Created At* | The date this post was created. | *String* | *Date* |
+| *Updated At* | The date this post was last modified. | *String* | *Date* |
 | *Offer* |
 | *Coupon Code* | Offer code that is usable in store or online. | *String* |
 | *Redeem Online URL* | Online link to redeem this offer. | *String* |
@@ -171,14 +171,14 @@ Defines the mapping options of a Google Business Profile Media object.
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | The unique identifier of this media. | *String* |
-| *Description* | The description of this media. | *String* | `Limit` |
-| *Format* | The format of this media, `PHOTO`, `VIDEO`, OR `MEDIA_FORMAT_UNSPECIFIED`. | *String* |
+| *Description* | The description of this media. | *String* | *Limit* |
+| *Format* | The format of this media, _PHOTO_, _VIDEO_, OR _MEDIA_FORMAT_UNSPECIFIED_. | *String* |
 | *Width* | The width of the media, in pixels. | *String* |
 | *Height* | The height of the media, in pixels. | *String* |
 | *Thumbnail URL* | The path to the locally cached media thumbnail. | *String* |
 | *Source URL* | A publicly accessible URL where the media can be retrieved from. | *String* |
 | *Google URL* | The Google-hosted URL for this media. For video this will be a preview image with an overlaid play icon. | *String* |
-| *Created At* | The date this media was created. | *String* | `Date` |
+| *Created At* | The date this media was created. | *String* | *Date* |
 | *Total Views* | The number of times this media has been viewed. | *Int* |
 | *Attribution* |
 | *Profile Name* | The name of the attributed user. | *String* |
@@ -199,8 +199,8 @@ Defines the mapping options of a Google Business Profile time period object.
 | *Open Period* | The current period during which the location is open, formated as `{start time} - {end time}` with a custom time format setting. | *String* |
 | *Open Day* | The day of the week this period starts on. | *String* |
 | *Close Day* | The day of the week this period ends on. | *String* |
-| *Open Time* | The time this period starts on. | *String* | `Time` |
-| *Close Time* | The time this period ends on. | *String* | `Time` |
+| *Open Time* | The time this period starts on. | *String* | *Time* |
+| *Close Time* | The time this period ends on. | *String* | *Time* |
 
 ### Google Business Profile Postal Address Type
 

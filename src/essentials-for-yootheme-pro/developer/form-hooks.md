@@ -1,4 +1,4 @@
-# Extending Forms
+# Forms Hooks
 
 JavaScript events triggered by each form for which is possible to add listeners and perform custom actions. Set those in a custom script as illustrated bellow or as a [Form Area Setting](../addons/forms/form-area#settings).
 

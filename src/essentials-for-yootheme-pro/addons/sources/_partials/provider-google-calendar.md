@@ -38,7 +38,7 @@ Fetches events from the calendar and resolves to a list of [Google Calendar Even
 | --- | --- | --- |
 | *Query* | | Optionaly filter matching terms in the summary, description, location, attendee\'s displayName and attendee\'s email fields. |
 | *Single Events Only* | | Whether to expand recurring events into instances and only return single one-off events and instances of recurring events, but not the underlying recurring events themselves. |
-| *Order By* | | The order by which to query the events, `Start Time (asc)` or `Updated (asc)`. |
+| *Order By* | | The order by which to query the events, _Start Time (asc)_ or _Updated (asc)_. |
 | *Quantity* | `250` | The maximum amount of events to query. |
 | *Time Min / Max* | | Lower and Upper bounds (exclusive) for an event\'s start or end time to filter by. |
 | *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
@@ -50,9 +50,9 @@ Defines the mapping options of a Google Calendar object.
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | Unique identifier of the calendar. | *String* |
-| *Summary* | Title of the calendar. | *String* | `Limit` |
-| *Description* | Description of the calendar. | *String* | `Limit` |
-| *Location* | Geographic location of the event as free-form text. | *String* | `Limit` |
+| *Summary* | Title of the calendar. | *String* | *Limit* |
+| *Description* | Description of the calendar. | *String* | *Limit* |
+| *Location* | Geographic location of the event as free-form text. | *String* | *Limit* |
 | *Time Zone* | The calendars default time zone. | *String* |
 
 ### Google Calendar Event Type
@@ -65,14 +65,14 @@ Defines the mapping options of a Google Calendar Event object.
 | *URL* | An absolute link to the event in the Google Calendar Web UI. | *String* |
 | *Type* | Specific type of the event, `default`, `outOfOffice`, `focusTime` or `workingLocation`. | *String* |
 | *Status* | Status of the event, `confirmed`, `tentative` or `cancelled`. - | *String* |
-| *Visibility* | Visibility of the event, `default`, `public`, `private`, or `confidential* | `String` |
-| *Summary* | Title of the event. | *String* | `Limit` |
-| *Description* | Description of the calendar. | *String* | `Limit` |
-| *Location* | Geographic location of the event as free-form text. | *String* | `Limit` |
-| *Start* | The (inclusive) start time of the event. For a recurring event, this is the start time of the first instance. | *String* | `Date` |
-| *End* | The (exclusive) end time of the event. For a recurring event, this is the end time of the first instance. | *String* | `Date` |
-| *Created* | Creation time of the event. | *String* | `Date` |
-| *Updated* | Last modification time of the event. | *String* | `Date` |
+| *Visibility* | Visibility of the event, `default`, `public`, `private`, or `confidential* | *String* |
+| *Summary* | Title of the event. | *String* | *Limit* |
+| *Description* | Description of the calendar. | *String* | *Limit* |
+| *Location* | Geographic location of the event as free-form text. | *String* | *Limit* |
+| *Start* | The (inclusive) start time of the event. For a recurring event, this is the start time of the first instance. | *String* | *Date* |
+| *End* | The (exclusive) end time of the event. For a recurring event, this is the end time of the first instance. | *String* | *Date* |
+| *Created* | Creation time of the event. | *String* | *Date* |
+| *Updated* | Last modification time of the event. | *String* | *Date* |
 | *Creator* | The creator of the event. | [Google Calendar Profile Type](#google-calendar-profile-type) |
 | *Organizer* | The organizer of the event. | [Google Calendar Profile Type](#google-calendar-profile-type) |
 | *Attendees* | The attendees of the event. | [Google Calendar Attendee Type](#google-calendar-attendee-type) |
@@ -86,7 +86,7 @@ Defines the mapping options of a Google Calendar Profile object.
 | --- | --- | --- | --- |
 | *ID* | Identifier of the profile. | *String* |
 | *Email* | The profile's email. | *String* |
-| *Name* | The profile's name. | *String* | `Limit` |
+| *Name* | The profile's name. | *String* | *Limit* |
 
 ### Google Calendar Attendee Type
 
@@ -96,8 +96,8 @@ Defines the mapping options of a Google Calendar Attendee object.
 | --- | --- | --- | --- |
 | *ID* | Identifier of the attendee. | *String* |
 | *Email* | The attendee's email. | *String* |
-| *Name* | The attendee's name. | *String* | `Limit` |
-| *Comment* | The attendee's name. | *String* | `Limit` |
+| *Name* | The attendee's name. | *String* | *Limit* |
+| *Comment* | The attendee's name. | *String* | *Limit* |
 | *Response Status* | The attendee's response status, `needsAction`, `declined`, `tentative` or `accepted`. | *String* |
 | *Is Organizer* | Whether the attendee is the organizer of the event. | *Boolean* |
 | *Is Resource* | Whether the attendee is a resource. | *Boolean* |
@@ -111,7 +111,7 @@ Defines the mapping options of a Google Calendar Attachment object.
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | Identifier of the attached file. | *String* |
-| *Title* | Title of the attachment. | *String* | `Limit` |
+| *Title* | Title of the attachment. | *String* | *Limit* |
 | *Mime Type* | Internet media type (MIME type) of the attachment. | *String* |
 | *File URL* | URL link to the attachment. | *String* |
 | *Icon URL* | URL link to the attachment's icon. | *String* |

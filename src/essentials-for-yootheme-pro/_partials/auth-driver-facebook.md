@@ -1,6 +1,6 @@
 ## Facebook Auth Driver
 
-The Facebook OAuth Driver manage Facebook OAuth protocol to authenticate and grant scope permissions.
+The **Facebook Auth Driver** manage Facebook OAuth protocol to authenticate and grant scope permissions.
 
 ![Facebook Auth Driver](./assets/auth/driver-facebook-oauth.webp)
 

@@ -29,10 +29,6 @@
                 "link": "auth-drivers"
             },
             {
-                "text": "Geolocation",
-                "link": "geolocation"
-            },
-            {
                 "text": "Settings",
                 "link": "settings"
             }
@@ -59,20 +55,12 @@
                 "link": "/elements"
             },
             {
-                "text": "Field Elements",
-                "link": "/field-elements"
+                "text": "Captcha",
+                "link": "/captcha"
             },
             {
-                "text": "Captcha Elements",
-                "link": "/captcha-elements"
-            },
-            {
-                "text": "Dynamic Workflow",
-                "link": "/dynamic-workflow"
-            },
-            {
-                "text": "Data Validation",
-                "link": "/validation"
+                "text": "Data Workflow",
+                "link": "/data-workflow"
             }
         ]
     },
@@ -147,16 +135,12 @@
                 "link": "/"
             },
             {
-                "text": "Collection",
-                "link": "/collection"
+                "text": "Collections",
+                "link": "/collections"
             },
             {
                 "text": "My Icons",
                 "link": "/my-icons"
-            },
-            {
-                "text": "Collections",
-                "link": "/collections"
             }
         ]
     },
@@ -170,7 +154,7 @@
             },
             {
                 "text": "Storage Abstraction",
-                "link": "/storage/"
+                "link": "/storage"
             },
             {
                 "text": "Cross-Site Layout Sharing",
@@ -179,10 +163,6 @@
             {
                 "text": "Enhanced User Experience",
                 "link": "/addons/layouts/enhanced-user-experience"
-            },
-            {
-                "text": "Libraries Manager",
-                "link": "/addons/layouts/libraries-manager"
             }
         ]
     },

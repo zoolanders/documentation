@@ -1,6 +1,6 @@
 # Custom Twitter Dev App
 
-Learn how to create a custom Twitter Dev App and get your own credentials. Once ready, you can use the resulting `Client ID`, `Client Secret` and `Refresh Token` into the respective [Twitter Auth](/essentials-for-yootheme-pro/auth/twitter) to authenticate.
+Learn how to create a custom Twitter Dev App and get your own credentials. Once ready, you can use the resulting _Client ID_, _Client Secret_ and _Refresh Token_ into the respective [Twitter Auth](/essentials-for-yootheme-pro/auth-drivers#twitter) to authenticate.
 
 ::: warning ZOOlanders OAuth
 Beware that it's a technical process that requires some development skills like interacting with REST APIs.
@@ -22,7 +22,7 @@ Be sure that the redirect url you set there is the same you specified at Step 1 
 
 ## 3. Authenticate With Twitter
 
-When visiting such url, you will be asked to authenticate with your desidered twitter account, and allow access. The system will redirect you to the url specified in the `redirect_url` parameter. Ignore the page itself and look at the url. Copy the value of the `code` pararameter, you will need it in the next step.
+When visiting such url, you will be asked to authenticate with your desidered twitter account, and allow access. The system will redirect you to the url specified in the _redirect_url_ parameter. Ignore the page itself and look at the url. Copy the value of the _code_ pararameter, you will need it in the next step.
 
 ## 4. Get a Refresh Token
 

@@ -1,4 +1,6 @@
-# Troubleshooting
+# Icon Issues
+
+Learn how to handle common issues with essential icons.
 
 ## Icons Are Not Being Displayed
 
@@ -16,6 +18,6 @@ Most likely the source code of your SVG icon is not as clean as UIkit expects it
 
 ## Unable to Download a Collection
 
-The process of installing a new collection withing the Customizer fails, giving you no option but to download the collection manually.
+The process of installing a new collection within the builder fails, giving you no option but to download the collection manually.
 
 Sometimes the servers can block petitions from other servers as for their security rules, in such download the collection from the link provided in the manager and follow the [Add Custom Collection](/essentials-for-yootheme-pro/developer/custom-icon-collection) guide.

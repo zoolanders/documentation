@@ -1,6 +1,6 @@
 # Installation
 
-Download the [Essentials for YOOtheme Pro]([Download](https://www.zoolanders.com/downloads)) plugin and install it by following the official [Joomla extension installation]([Joomla](https://docs.joomla.org/Installing_an_extension)) or the [WordPress plugin installation](https://wordpress.org/support/article/managing-plugins/#installing-plugins-1) instructions. After a successful installation, a plugin named **Essentials YOOtheme Pro** (a.k.a. `yooessentials`) should be listed and enabled.
+Download the [Essentials for YOOtheme Pro](https://www.zoolanders.com/downloads) plugin and install it by following the official [Joomla extension installation](https://docs.joomla.org/Installing_an_extension) or the [WordPress plugin installation](https://wordpress.org/support/article/managing-plugins/#installing-plugins-1) instructions. After a successful installation, a plugin named **Essentials YOOtheme Pro** (a.k.a. `yooessentials`) should be listed and enabled.
 
 ::: tip Installation Folder
 The plugin will be installed under the `plugins/system/yooessentials` for Joomla and `wp-contents/plugins/yooessentials` directory for WordPress.
@@ -62,9 +62,9 @@ The upgrade from Essentials Freemium to Premium version is as simple as [install
 Upgrading Essentials v1.x to v2.x should be planned carefully as it's a major version release only compatible with YOOtheme Pro 4.0, which is itself a new major release. Follow these steps in the given order.
 
 1. Make a full, restorable backup of the site.
-1. In the Joomla backend head over to `System > Extensions > Plugins` and **disable** the _Essentials_ plugin. In WordPress head over to `Plugins` and **deactivate** _the Essentials_ plugin.
+1. In the Joomla backend head over to _System > Extensions > Plugins_ and **disable** the _Essentials_ plugin. In WordPress head over to _Plugins_ and **deactivate** _the Essentials_ plugin.
 1. Upgrade YOOtheme Pro to version 4.x.
 1. Upgrade Essentials to version 2.x.
-1. In the Joomla backend head over to `System > Extensions > Plugins` and **enable** the _Essentials_ plugin. In WordPress head over to `Plugins` and **activate** _the Essentials_ plugin.
+1. In the Joomla backend head over to _System > Extensions > Plugins_ and **enable** the _Essentials_ plugin. In WordPress head over to _Plugins_ and **activate** _the Essentials_ plugin.
 
 Thoroughly clear all caches, and test. If anything goes wrong, restore the backup.

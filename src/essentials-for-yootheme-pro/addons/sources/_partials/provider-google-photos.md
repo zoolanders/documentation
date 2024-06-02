@@ -46,7 +46,7 @@ Defines the mapping options of a Google Photos Album object.
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | Unique identifier of the album. | *String* |
-| *Title* | Title of the album. | *String* | `Limit` |
+| *Title* | Title of the album. | *String* | *Limit* |
 | *Cover Photo URL* | The album cover photo URL. | *String* |
 | *Total Media Count* | The album total amount of media. | *Int* |
 
@@ -58,7 +58,7 @@ Defines the mapping options of a Google Photos Media object.
 | --- | --- | --- | --- |
 | *ID* | Opaque identifier of the media. | *String* |
 | *URL* | The path to the locally cached media file, with optionall arguments `Width` and `Height` . | *String* |
-| *Description* | Description of the media. This is shown to the user in the item's info section in the Google Photos app. | *String* | `Limit` |
+| *Description* | Description of the media. This is shown to the user in the item's info section in the Google Photos app. | *String* | *Limit* |
 | *Filename* | Filename of the media. This is shown to the user in the item's info section in the Google Photos app. | *String* |
 | *MIME Type* | MIME type of the media. For example, `image/jpeg`. | *String* |
 

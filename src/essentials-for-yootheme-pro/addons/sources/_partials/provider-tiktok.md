@@ -34,8 +34,8 @@ Defines the mapping options of a TikTok Video object.
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | The unique identifier of this video. | *String* |
-| *Title* | The title of this video, max length 150. | *String* | `Limit` |
-| *Description* | The description for this video, max length 150. | *String* | `Limit` |
+| *Title* | The title of this video, max length 150. | *String* | *Limit* |
+| *Description* | The description for this video, max length 150. | *String* | *Limit* |
 | *Duration* | The duration of this video in seconds. | *Int* |
 | *Width* | The width of this video. | *Int* |
 | *Height* | The height of this video. | *Int* |
@@ -43,7 +43,7 @@ Defines the mapping options of a TikTok Video object.
 | *Embed Link* | The embed link of tiktok.com for this video. | *String* |
 | *Embed HTML* | The HTML code for embedded video. | *String* |
 | *Share URL* | A shareable link for this video. Note that the website behaves differently on Mobile and Desktop devices. | *String* |
-| *Created At* | The time this video was created. | *String* | `Date` |
+| *Created At* | The time this video was created. | *String* | *Date* |
 | *Total Shares* | Number of times this video has been shared. | *Int* |
 | *Total Likes* | Number of times this video has been liked. | *Int* |
 | *Total Comments* | Number of times this video has been commented. | *Int* |

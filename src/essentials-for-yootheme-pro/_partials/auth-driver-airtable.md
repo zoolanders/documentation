@@ -1,6 +1,6 @@
 ## Airtable Auth Driver
 
-The **Airtable Driver** manages Airtable Personal Access Tokens obtained through the [Airtable](https://airtable.com/create/tokens) dashboard.
+The **Airtable Auth Driver** manage Airtable Personal Access Tokens obtained through the [Airtable](https://airtable.com/create/tokens) dashboard.
 
 ![Airtable Auth Driver](./assets/auth/driver-airtable-access-token.webp)
 

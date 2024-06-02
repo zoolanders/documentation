@@ -8,6 +8,6 @@ Essentials has several features that involve reading and/or writing data with ab
 Even storage abstraction is only used by Layouts Addon, at the moment, it is already possible to use in your custom addons.
 :::
 
-<!--@include: ./_parts/storage-local-->
-<!--@include: ./_parts/storage-ftp-->
-<!--@include: ./_parts/storage-s3-->
+<!--@include: ./_partials/storage-local.md-->
+<!--@include: ./_partials/storage-ftp.md-->
+<!--@include: ./_partials/storage-s3.md-->

@@ -8,9 +8,9 @@ The hCaptcha element integrates [hCaptcha](https://www.hcaptcha.com/) anti-bot s
 
 | Setting | Description | Dynamic |
 | --- | --- | :---: |
-| *Type* | The type of captcha to display, `Checkbox` or `Invisible`. |
+| *Type* | The type of captcha to display, _Checkbox_ or _Invisible_. |
 | *Site/Secret Key* | The Site and Secret keys obtained from [hCaptcha](https://www.hcaptcha.com/) Dashboard. |
-| *Theme* | The theme style, `Light` or `Dark`. |
+| *Theme* | The theme style, _Light_ or _Dark_. |
 | *Score Threshold* | The threshold over which to consider the submitter a bot. From `0.0` (no risk) to `1.0` (confirmed threat), available only for hCaptcha Enterprise. | |
 | *Error Message* | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as a placeholder, it will be replaced with the field label. | &#x2713; |
 
@@ -23,7 +23,7 @@ A variation that will render a "checkbox" style field by which the captcha chall
 | Setting | Description | Dynamic |
 | --- | --- | :---: |
 | *Label* | The title for the field that represent the field data. | &#x2713; |
-| *Size* | The size of the checkbox, `Normal` or `Compact`. | |
+| *Size* | The size of the checkbox, _Normal_ or _Compact_. | |
 
 ### Invisible
 

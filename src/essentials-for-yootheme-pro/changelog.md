@@ -2,7 +2,7 @@
 
 The changelog contains information about the modifications made in each stable version.
 
-To access the Essentials changelog and/or check the current version installed, go to the `Essentials -> About` section of the Customizer.
+To access the Essentials changelog and/or check the current version installed, go to the _Essentials -> About_ section of the Customizer.
 
 ![Essentials Changelog](./assets/essentials-changelog.gif)
 

@@ -16,7 +16,7 @@ The **Database Source** feeds data from local or external MySQL Database Tables,
 | *Custom Connection* | Should the connection to the database use custom connection instead of the site one. |
 | *Relations* | The list of relations and their configuration. |
 
-The connection to the database will use the site configuration, but if `Custom Connection` is enabled the settings inputs will be used instead with support for local as remote servers.
+The connection to the database will use the site configuration, but if _Custom Connection_ is enabled the settings inputs will be used instead with support for local as remote servers.
 
 ![Database Instance Connection](./assets/providers/db-config-connection.webp)
 
@@ -35,8 +35,8 @@ Complex data structures typically involve several tables related between them, i
 
 | Setting | Description | Required |
 | --- | --- | :---: |
-| *Name* | The name to associate the relation with. Should be meaningfull, e.g. `Author`. | &#x2713; |
-| *Relation Type* | The relation type, `One to One` or `One to Many`. | &#x2713; |
+| *Name* | The name to associate the relation with. Should be meaningfull, e.g. _Author_. | &#x2713; |
+| *Relation Type* | The relation type, _One to One_ or _One to Many_. | &#x2713; |
 | *Related Table* | The table that is being related with the main table. | &#x2713; |
 | *Main Table Key* | The column key from the main table to use for the relation. | &#x2713; |
 | *Related Table Key* | The column key from the related table to use for the relation. | &#x2713; |

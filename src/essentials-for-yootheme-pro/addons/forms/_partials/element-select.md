@@ -1,4 +1,4 @@
-## Select Element
+## Select Element {#select}
 
 ![Select Element](./assets/element-select.svg)
 
@@ -6,24 +6,18 @@ The **Select Element** displays a [\<select\>](https://developer.mozilla.org/en-
 
 ![Select Element](./assets/elements/select.webp)
 
-### Settings
-
 | Setting | Description |
 | --- | --- |
 | *Size* | The field size applied with `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
 | *Width* | The field width applied with `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
 | *Height* | The number of rows in the list that will be visible by default, if Multiple Selection is enabled. |
 | *Multiple Selection* | Should it be allowed to choose more than one option. |
-<!--@include: .//common-element-settings-->
+<!--@include: ./common-element-settings.md-->
 
-### Options
-
-<!--@include: .//common-element-options-->
-
-### Validation
+<!--@include: ./common-element-options.md-->
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | --- | --- | :---: | :---: | :---: |
 | *Min* | The minimum amount of options that must be chosen, `greater than` or `equal to`. | &#x2713; | |  &#x2713; |
 | *Max* | The maximum amount of options that can be chosen, `lower than` or `equal to`. | &#x2713; | |  &#x2713; |
-<!--@include: .//common-element-validation-->
+<!--@include: ./common-element-validation.md-->

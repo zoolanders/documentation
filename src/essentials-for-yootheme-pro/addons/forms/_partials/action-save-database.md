@@ -26,4 +26,4 @@ When the Update Record setting is enabled the submitted data will override an ex
 
 ![SaveToDatabase Action Update](./assets/actions/action-savetodb-update.webp)
 
-An example to understand the association is to think of a `Users Table` with an `ID` column as its primary key. In such a scenario, the submission data should contain the `user_id` value representing the user row being updated, the _Associative Key_ should be set as `ID`, and the _Associative Value_ mapped to the Form Submission `user_id`.
+An example to understand the association is to think of a _Users Table_ with an _ID_ column as its primary key. In such a scenario, the submission data should contain the _user_id_ value representing the user row being updated, the _Associative Key_ should be set as _ID_, and the _Associative Value_ mapped to the Form Submission _user_id_.

@@ -8,7 +8,7 @@ collection: Device
 
 ![Device Rule](./assets/rules/rule-device.svg)
 
-The **Device Rule** evaluates whether the browser agent matches one of the selected device types, `Mobile`, `Table`, or `Desktop`.
+The **Device Rule** evaluates whether the browser agent matches one of the selected device types, _Mobile_, _Table_, or _Desktop_.
 
 ::: warning Limited Detection
 Notice that browser detection is not always accurate, users can setup their browser to mimic other agents.

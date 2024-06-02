@@ -30,7 +30,7 @@ If the source is based on YouTube videos an API Key is required instead.
 
 ### YouTube Videos Query
 
-Fetches public videos with advanced query params resolving to a list of [YouTube Video Type](../youtube#youtube-video-type).
+Fetches public videos with advanced query params resolving to a list of [YouTube Video Type](#youtube-video-type).
 
 ![YouTube Videos Query](./assets/providers/youtube-videos-query.webp)
 
@@ -42,11 +42,11 @@ Fetches public videos with advanced query params resolving to a list of [YouTube
 | *Location/Radius* | | Location in conjunction with radius, defines a circular geographic area to which to restrict the videos. The location points the center of the area with latitude/longitude coordinates e.g. `37.42307,-122.08427`, while the radius is the maximum distance from the location in `m`, `km`, `ft`, or `mi` units, e.g `5km`. |
 | *Region* | | Restricts the results to videos that can be viewed in the specified country. The value is an [ISO 3166-1 alpha-2](https://www.iso.org/iso-3166-country-codes.html) country code, e.g `ES`. |
 | *Language* | | Restricts the results to videos that are most relevant to the specified language. The value is typically an [ISO 639-1 two-letter](https://www.loc.gov/standards/iso639-2/php/code_list.php) language code, however, you should use the values `zh-Hans` for simplified Chinese and `zh-Hant` for traditional Chinese. Note that results in other languages will still be returned if they are highly relevant to the search query term. |
-| *Definition* | `Any` | Restricts the results based on the videos quality, either `High Definition`, `Standard Definition`, or `Any`. HD videos are available for playback in at least 720p, though higher resolutions, like 1080p, might also be available. |
-| *Duration* | `Any` | Restricts the results based on the videos duration, either `Long`, longer than 20 minutes, `Medium`, between four and 20 minutes, `Short`, less than four minutes, or `Any`. |
+| *Definition* | `Any` | Restricts the results based on the videos quality, either _High Definition_, _Standard Definition_, or _Any_. HD videos are available for playback in at least 720p, though higher resolutions, like 1080p, might also be available. |
+| *Duration* | `Any` | Restricts the results based on the videos duration, either _Long_, longer than 20 minutes, `Medium`, between four and 20 minutes, _Short_, less than four minutes, or _Any_. |
 | *Start* | `1` | The starting point, e.g of a list of 20 videos start from the number 2. |
 | *Quantity* | `20` | The maximum amount of videos to retrieve. |
-| *Order* | `Relevance` | The order in which the videos will be returned, within `Date`, reverse chronological order based on the date the videos were created, `Rating`, from highest to lowest rating, `Relevance`, based on their relevance to the search query, `Title`, alphabetically by title, or `View Count`, from highest to lowest number of views. |
+| *Order* | `Relevance` | The order in which the videos will be returned, within *Date*, reverse chronological order based on the date the videos were created, _Rating_, from highest to lowest rating, _Relevance_, based on their relevance to the search query, _Title_, alphabetically by title, or _View Count_, from highest to lowest number of views. |
 | *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ### YouTube My Channel Query
@@ -92,7 +92,7 @@ Fetches a single playlist from the channel resolving to a [YouTube Playlist Type
 | --- | --- | --- | :---: |
 | *Playlist* | | The YouTube Playlist which content to fetch. | &#x2713; |
 | *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. Minimum amount allowed is `3600`. |
-| *Multi Items* | | The related multi-items content to query instead with `Videos` as the only option. |
+| *Multi Items* | | The related multi-items content to query instead with _Videos_ as the only option. |
 
 ### YouTube My Channel Playlist Videos Query
 
@@ -137,12 +137,12 @@ Defines the mapping options of a YouTube Video object.
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | The unique identifier of this video. | *String* |
-| *Title* | The title of this video. | *String* | `Limit` |
-| *Description* | The description of this video. | *String* | `Limit` |
+| *Title* | The title of this video. | *String* | *Limit* |
+| *Description* | The description of this video. | *String* | *Limit* |
 | *URL* | The YouTube public URL, e.g. `www.youtube.com/watch?v=c2pz2mlSfXA`. | *String* |
 | *Iframe Player* | Generates an HTML embed video player with several configuration settings. | *String* |
-| *Published At* | The date this video was published. | *String* | `Date` |
-| *Thumbnail URL* | The URL to this video thumbnail with different size options, `Low`, `Medium` (default), `High Resolution`, `Standard`, and `Max Resolution* | `String` |
+| *Published At* | The date this video was published. | *String* | *Date* |
+| *Thumbnail URL* | The URL to this video thumbnail with different size options, _Low_, _Medium_ (default), _High Resolution_, _Standard_, and `Max Resolution* | *String* |
 | *Thumbnail Width* | The width of this video thumbnail with same size options as for URL. | *String* |
 | *Thumbnail Height* | The height of this video thumbnail with same size options as for URL. | *String* |
 | *Total Views* | Number of times this video has been viewed. | *Int* |
@@ -159,11 +159,11 @@ Defines the mapping options of a YouTube Channel object.
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | The unique identifier of this channel. | *String* |
-| *Title* | The title of this channel. | *String* | `Limit` |
-| *Description* | The description of this channel. | *String* | `Limit` |
+| *Title* | The title of this channel. | *String* | *Limit* |
+| *Description* | The description of this channel. | *String* | *Limit* |
 | *Country* | The country with which this channel is associated. | *String* |
-| *Published At* | The date this channel was published. | *String* | `Date` |
-| *Thumbnail URL* | The URL to this channel thumbnail with different size options, `Low`, `Medium` (default), `High Resolution`, `Standard`, and `Max Resolution* | `String` |
+| *Published At* | The date this channel was published. | *String* | *Date* |
+| *Thumbnail URL* | The URL to this channel thumbnail with different size options, _Low_, _Medium_ (default), _High Resolution_, _Standard_, and _Max Resolution_ | *String* |
 | *Thumbnail Width* | The width of this channel thumbnail with same size options as for URL. | *String* |
 | *Thumbnail Height* | The height of this channel thumbnail with same size options as for URL. | *String* |
 | *Total Views* | Number of times this channel has been viewed. | *Int* |
@@ -179,10 +179,10 @@ Defines the mapping options of a YouTube Playlist object.
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | The unique identifier of this playlist. | *String* |
-| *Title* | The title of this playlist. | *String* | `Limit` |
-| *Description* | The description of this playlist. | *String* | `Limit` |
+| *Title* | The title of this playlist. | *String* | *Limit* |
+| *Description* | The description of this playlist. | *String* | *Limit* |
 | *Iframe Player* | Generates an HTML embed playlist player with several configuration settings. | *String* |
-| *Published At* | The date this playlist was published. | *String* | `Date` |
-| *Thumbnail URL* | The URL to this playlist thumbnail with different size options, `Low`, `Medium` (default), `High Resolution`, `Standard`, and `Max Resolution* | `String` |
+| *Published At* | The date this playlist was published. | *String* | *Date* |
+| *Thumbnail URL* | The URL to this playlist thumbnail with different size options, _Low_, _Medium_ (default), _High Resolution_, _Standard_, and _Max Resolution_ | *String* |
 | *Thumbnail Width* | The width of this playlist thumbnail with same size options as for URL. | *String* |
 | *Thumbnail Height* | The height of this playlist thumbnail with same size options as for URL. | *String* |

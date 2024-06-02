@@ -43,7 +43,7 @@ The auth workflow has been built with security in mind but is important to under
 
 ### Encryption
 
-All auth tokens, keys and secrets are securely **encrypted** and stored within the [Essentials Settings](../settings), which is essentially a database table. This is a critical security measure as it ensures that these sensitive credentials are not exposed. Even if they were somehow accessed, the encryption would render them useless to any unauthorized party.
+All auth tokens, keys and secrets are securely **encrypted** and stored within the [Essentials Settings](./settings), which is essentially a database table. This is a critical security measure as it ensures that these sensitive credentials are not exposed. Even if they were somehow accessed, the encryption would render them useless to any unauthorized party.
 
 ### OAuth Principles
 
@@ -57,7 +57,7 @@ Using the ZOOlanders OAuth App is a convenient and secure, we do not store any l
 
 ## Auth Manager
 
-The Auth Manager can be accessed at `Customizer -> Essentials -> Auths` section. There you can manage OAuths, Keys & Secrets, but you cannot create new ones as an auth is tied to specific scopes and/or purpose only known while building the layouts.
+The Auth Manager can be accessed at _Customizer -> Essentials -> Auths_ section. There you can manage OAuths, Keys & Secrets, but you cannot create new ones as an auth is tied to specific scopes and/or purpose only known while building the layouts.
 
 ![Auth Manager](./assets/auth/auths-manager.gif)
 

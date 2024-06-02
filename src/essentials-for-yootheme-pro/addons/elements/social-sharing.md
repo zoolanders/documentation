@@ -20,6 +20,6 @@ When a URL is shared in a Social Media or App is totally up to the plaform if an
 
 Sharing the current site page by email is possible, but requires additional steps.
 
-1. First of all we need to retreieve the current page URL. Do so using the global `Request` source part of Essentials Sources.
-1. Then map it `Href` property to the MailTo body field.
-1. Further customizer thee body content using the `before` and `after` filters.
+1. First of all we need to retreieve the current page URL. Do so using the global _Request_ source part of Essentials Sources.
+1. Then map it _Href_ property to the MailTo body field.
+1. Further customizer thee body content using the _before_ and _after_ filters.

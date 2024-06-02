@@ -12,8 +12,8 @@ The **Browser Rule** evaluates whether the browser agent matches one of the spec
 
 Supported browsers:
 
-- Desktop: `Chrome`, `Firefox`, `Opera`, `Safari`, `Edge`, `MSIE`.
-- Mobile: `Android`, `iPad`, `iPhone`, `iPod`, `Blackberry`, `IEMobile`, `NetFront`, `NokiaBrowser`, `Opera Mini`, `Opera Mobi`, `UC Browser`.
+- Desktop: _Chrome_, _Firefox_, _Opera_, _Safari_, _Edge_, _MSIE_.
+- Mobile: _Android_, _iPad_, _iPhone_, _iPod_, _Blackberry_, _IEMobile_, _NetFront_, _NokiaBrowser_, _Opera Mini_, _Opera Mobi_, _UC Browser_.
 
 ::: warning Limited Detection
 Notice that browser detection is not always accurate, users can setup their browser to mimic other agents.

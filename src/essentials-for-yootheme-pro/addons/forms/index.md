@@ -21,31 +21,31 @@ An Essential form is structured inside a [Form Area](./form-area). Lets create o
 
 ## 2. Add an After Submit Action
 
-The secton has been declared as a Form Area and we can now start adding field elements and after submit actions.
+The secton has now been declared as a Form Area and we can add and after submit actions to greet the submitter with a custom message.
 
-For more advanced scenarios, adding Email and SaveTo actions would be necessary to send an email and save the submitted data.
-
-Lets greet the submitter with a custom message after the submission.
+::: tip
+For more advanced scenarios, adding _Email_ and _SaveTo_ actions would be necessary to send an email and save the submitted data.
+:::
 
 ![Add After Submit Actions](./assets/integration/add-form-actions.gif)
 
 1. Open the Form Area configuration created in the previous step.
-1. In the Actions tab add a new action of the type **Display Message**.
-1. Input in the **Message** field a `Thank you for your submission, your comment was {comment}!`.
+1. In _After Submit Actions_ add a new action of the type _Display Message_.
+1. Input in the _Message_ field `Thank you for your submission, your comment was {comment}!`.
 
 ::: tip Notice the `{comment}` part
-It's what we call [Data Placeholders](./dynamic-workflow#data-placeholders), and is one of the ways to set a dynamic workflow.
+It's what we call [Data Placeholders](./data-workflow#data-placeholders), and is one of the simplest and direct ways to reference submitted data.
 :::
 
 ## 3. Add Form Fields
 
-Now we need to add fields to our form. Let's include a Comment field and a Submit button.
+Essentials comes with prebuild [elements](./elements) to structure a form as needed. Let's add a textarea to collect the comment and a submit button.
 
 ![Add Form Fields](./assets/integration/add-form-fields.gif)
 
-1. Go back to the builder main panel and add an element of a type Textarea from the `Form Essentials` group.
-1. Open it configuration panel and input `comment` in the `Control Name` setting.
-1. Add a Submission button by adding a Form Button element from the same group.
+1. Go back to the builder main panel and add an __Textarea Element__ from the `Form Essentials` group.
+1. Open it configuration panel and input `comment` in the _Control Name_ setting.
+1. Repeat the process adding a _Button Element_ which will render a submit button by default.
 
 ## 4. Test The Submission
 
@@ -53,7 +53,7 @@ Let's give it a try!
 
 ![Form Submission Test](./assets/integration/submission-test.webp)
 
-1. Locate the form in the Builder preview.
-1. Input a message in the Textarea and Submit.
+1. Locate the form in the builder preview.
+1. Input a message in the Comment textarea and Submit.
 
 You should see a modal with the submitted message!

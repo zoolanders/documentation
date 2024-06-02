@@ -13,15 +13,16 @@ Variety of chart types are supported, including Line, Vertical Bar, Horizontal B
 
 ## Quick Start
 
-Setting up a Dynamic Chart can be somewhat overwhelming, for an easier start you can download this combo of a `Section` plus `CSV Data` and then do this simple setup:
+Setting up a Dynamic Chart can be somewhat overwhelming, for an easier start you can download this combo of a _Section_ plus _CSV Data_ and then do this simple setup:
 
 1. Download both files bellow.
 1. Copy the CSV file to a folder of the site.
 1. Create a new CSV Source based on that file.
 1. Import the Section in the builder and open the Chart element configuration.
-1. Open the `Dataset`, then again open its `Data Item`.
-1. In the `Advanced Tab` of the item choose the previously created CSV source as its Dynamic Content.
+1. Open the _Dataset_, then again open its _Data Item_.
+1. In the _Advanced Tab_ of the item choose the previously created CSV source as its Dynamic Content.
 
+<!-- TODO -->
 <!-- {% quick-links %}
     {% quick-link title="Builder Section" href="/assets/ytp/elements/chartjs-preset.json" description="Download the Builder Section." download="true" /%}
     {% quick-link title="CSV Data" href="/assets/ytp/elements/chartjs-preset.csv" description="Download the CSV Data." download="true" /%}

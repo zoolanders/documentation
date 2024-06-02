@@ -1,6 +1,6 @@
 ## Google Auth Driver
 
-The Google OAuth Driver manage Google OAuth 2.0 protocol to authenticate and grant scope permissions.
+The **Google Auth Driver** manage Google OAuth 2.0 protocol to authenticate and grant scope permissions.
 
 ![Google Auth Driver](./assets/auth/driver-google-oauth.webp)
 

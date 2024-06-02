@@ -1,4 +1,4 @@
-## Radio Element
+## Radio Element {#radio}
 
 ![Radio Element](./assets/element-radio.svg)
 
@@ -6,19 +6,13 @@ The **Radio Element** displays a group of [\<input type="radio"\>](https://devel
 
 ![Radio Element](./assets/elements/radio.webp)
 
-### Settings
-
 | Setting | Description |
 | --- | --- |
 | *Layout* | The layout that will be used to display the options, `Vertical` or `Horizontal`. |
-<!--@include: .//common-element-settings-->
+<!--@include: ./common-element-settings.md-->
 
-### Options
-
-<!--@include: .//common-element-options-->
-
-### Validation
+<!--@include: ./common-element-options.md-->
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
 | --- | --- | :---: | :---: | :---: |
-<!--@include: .//common-element-validation-->
+<!--@include: ./common-element-validation.md-->

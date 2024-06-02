@@ -3,11 +3,9 @@ title: Dynamic
 description: Simplify the creation of layouts with per-field dynamic content and source inheritance
 ---
 
-# Dynamic Addon
+# Dynamic Content
 
 Expand the possibilities of YOOtheme Pro Dynamic Content with per-field sources, source inheritance, global queries, dynamic query arguments and more.
-
-## Integration
 
 <!--@include: ../_partials/enable-addon.md-->
 

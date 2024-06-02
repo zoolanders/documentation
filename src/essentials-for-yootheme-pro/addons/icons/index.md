@@ -3,30 +3,30 @@ title: Icons
 description: Expand the icon library with curated third-party collections of more than 12k icons
 ---
 
-# Icons Addon
+# Icons
 
 Expand the icon library with custom and curated third-party collections such as Font Awesome, Bootstrap, Ionicons, and others. Resulting in a combined collection of more than 12k icons natively integrated into the builder icons workflow.
 
-## Integration
-
 <!--@include: ../_partials/enable-addon.md-->
 
-### 1. Add an Icon Collection
+## 1. Add an Icon Collection
 
-No collection is installed per default, so let's add one withing the Icon Collection Manager.
+Before being able to choose an icon we must first install a collection within the [Icon Collections manager](/essentials-for-yootheme-pro/settings.html#icon-collections).
 
-![Icon Collections Manager](./assets/icon-collections-manager.gif)
+![Icon Collections Manager](/essentials-for-yootheme-pro/assets/icon-collections-manager.gif)
 
-1. Open the Icon Collections Manager.
-1. Click on the `Add Collection` button and choose the collection to be installed.
+1. Open the manager within _Customizer -> Essentials_ panel.
+1. Click on the _Add Collection_ button and choose some collection.
 1. Wait until the collection is listed in the manager.
 
-### 2. Display an Icon
+## 2. Display an Icon
 
-Now that a collection is installed we can select any of it icons as a source for an icon display.
+Now that a collection is installed we are ready to use them in our layouts.
 
 ![Display Icon](./assets/display-icon.gif)
 
-1. Open the `Customizer -> Builder` section.
-1. Add an Icon Element and open it Icon Picker.
-1. In the picker Modal select the `Collections Tab` and select some icon.
+1. Open some layout within the builder.
+1. Add an _Icon Element_ and click on the _Icon Picker_.
+1. In the picker Modal select the _Collections Tab_ and choose some icon.
+
+The chosen icon should be displayed!

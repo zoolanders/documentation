@@ -21,14 +21,14 @@ Fetches media from the authenticated account and resolves to a list of [Instagra
 
 | Setting | Default | Description |
 | --- | --- | --- |
-| *Type* | `All` | The type of media to fetch, `All`, `Image`, or `Video`. |
+| *Type* | `All` | The type of media to fetch, _All_, _Image_, or _Video_. |
 | *Amount* | `20` | The maximum amount of media to fetch. |
 | *Since/Until* | `null` | The `start` and/or `end` datetime the fetched media will be restricted to. |
 | *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 ### Instagram Media Single Query
 
-Fetches a single media from the authenticated account and resolves to a [Media Type](../instagram#media-type).
+Fetches a single media from the authenticated account and resolves to a [Media Type](#instagram-media-type).
 
 ![Instagram Media Single Query](./assets/providers/ig-query-media-single.webp)
 
@@ -59,7 +59,7 @@ This query is only available for Instagram Business Accounts
 | Setting | Default | Description | Required |
 | --- | --- | --- | :---: |
 | *Hashtag* | | The hashtag to query for. | &#x2713; |
-| *Edge* | `Top` | Should the query look for `Top Media` or `Recent Media` hashtagged with. |
+| *Edge* | `Top` | Should the query look for _Top Media_ or _Recent Media_ hashtagged with. |
 | *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
 
 #### Instagram User Query
@@ -83,13 +83,13 @@ This query is only available for Instagram Business Accounts
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | Unique identifier of this media. | *String* |
-| *Type* | The type of this media, `Album`, `Image`, or `Video`. | *String* |
+| *Type* | The type of this media, _Album_, _Image_, or _Video_. | *String* |
 | *URL* | The path to the locally cached media asset. | *String* |
 | *Thumbnail URL* | The path to the locally cached media thumbnail asset. | *String* |
 | *Permalink* | The Instagram Media URL, e.g. `www.instagram.com/p/CO9O62hnpR5nkt`. | *String* |
-| *Caption* | The caption content. | *String* | `Limit` |
-| *Hashtags* | The media hashtags as a custom formated string with `Separator` argument. | *String* |
-| *Created At* | The time this media was created. | *String* | `Date` |
+| *Caption* | The caption content. | *String* | *Limit* |
+| *Hashtags* | The media hashtags as a custom formated string with _Separator_ argument. | *String* |
+| *Created At* | The time this media was created. | *String* | *Date* |
 | *Created By* | The username of the user who created this media. | *String* |
 
 | Business Only Options | Description | Type |
@@ -104,11 +104,11 @@ This query is only available for Instagram Business Accounts
 | Option | Description | Type | Filters |
 | --- | --- | --- | --- |
 | *ID* | Unique identifier of this media. | *String* |
-| *Type* | The type of this media, `Album`, `Image`, or `Video`. | *String* |
+| *Type* | The type of this media, _Album_, _Image_, or _Video_. | *String* |
 | *URL* | The path to the locally cached media asset. | *String* |
 | *Thumbnail URL* | The path to the locally cached media thumbnail asset. | *String* |
 | *Permalink* | The Instagram Media URL, e.g. `www.instagram.com/p/CO9O62hnpR5nkt`. | *String* |
-| *Created At* | The time this media was created. | *String* | `Date` |
+| *Created At* | The time this media was created. | *String* | *Date* |
 | *Created By* | The username of the user who created this media. | *String* |
 
 ### Instagram User Type
@@ -120,7 +120,7 @@ This query is only available for Instagram Business Accounts
 | *ID* | Unique identifier of this user. | *String* |
 | *Name* | The name of this user. | *String* |
 | *Website* | The website of this user profile. | *String* |
-| *Biography* | The biography of this user profile. | *String* | `Limit` |
+| *Biography* | The biography of this user profile. | *String* | *Limit* |
 | *Picture URL* | The profile picture URL of this user. | *String* |
 | *Total Followers* | Number of Instagram users following this user. | *Int* |
 | *Total Follows* | Number of Instagram users this user follows. | *Int* |

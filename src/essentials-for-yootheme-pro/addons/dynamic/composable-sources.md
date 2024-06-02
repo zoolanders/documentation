@@ -14,7 +14,7 @@ Once you are inside the editor you will see that the dynamic content you previou
 
 ![Compose Editor](./assets/composable-sources/compose-editor.webp)
 
-To do so, just press the `Add Dynamic` button on the top right of the editor, and choose any field of the current dynamic content. You can also choose any other dynamic content from any other source, by pressing the 3 dots icon on the top right. Check the dedicated documentation for more information on how to use our Advanced Dynamic Content Workflow.
+To do so, just press the _Add Dynamic_ button on the top right of the editor, and choose any field of the current dynamic content. You can also choose any other dynamic content from any other source, by pressing the 3 dots icon on the top right. Check the dedicated documentation for more information on how to use our Advanced Dynamic Content Workflow.
 
 ![Compose Content](./assets/composable-sources/compose-dynamic-content.webp)
 
@@ -26,6 +26,6 @@ Once a dynamic content placeholder has been added to the content, you can click 
 
 ## Set an Alias
 
-Sometimes the placeholder name can get too long or not really meaningful for you usage. For these cases, you can set an alias by clicking on the placeholder, and then click on the `Set alias` link near the name of the source. Fill in any name there, and it will be used in the placeholder tag instead of the default one. Don't worry, this has no impact at all on the rendering of the page, it's just an editing utility!
+Sometimes the placeholder name can get too long or not really meaningful for you usage. For these cases, you can set an alias by clicking on the placeholder, and then click on the _Set alias_ link near the name of the source. Fill in any name there, and it will be used in the placeholder tag instead of the default one. Don't worry, this has no impact at all on the rendering of the page, it's just an editing utility!
 
 ![Compose Alias](./assets/composable-sources/compose-alias.webp)

@@ -1,15 +1,17 @@
 <script setup>
 import { ref } from 'vue'
-import {data} from './_data/collections.data.js'
+import {data} from './collections.data.js'
 
 const collections = data;
 </script>
 
 # Collections
 
-Install 3rd party Icon Collections
+An icon collection represents a set of icons that can be added or removed collectively from the builder's icon library. Those are distributed by Essentials as additional packages managed in the [Icon Collections](/essentials-for-yootheme-pro/settings.html#icon-collections) settings panel.
 
-To learn more about [icon collections](./collection.md), see the corresponding documentation.
+After installation, the collection icons will integrate natively and become available throughout the builder.
+
+![Icon Collections](./assets/icon-collections.webp)
 
 <template v-for="col in collections">
 
