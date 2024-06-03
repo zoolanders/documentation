@@ -1,6 +1,8 @@
 ## TikTok Source {#tiktok}
 
-![TikTok Source](/essentials-for-yootheme-pro/assets/brands/tiktok.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/tiktok.svg-->
+</div>
 
 The **TikTok Source** feeds media from [TikTok](https://www.vimeo.com) supporting [My Videos](#tiktok-my-videos-query) query.
 

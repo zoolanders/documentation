@@ -1,6 +1,8 @@
 ## Twitter Source {#twitter}
 
-![Twitter Source](/essentials-for-yootheme-pro/assets/brands/twitter.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/twitter.svg-->
+</div>
 
 The **Twitter Source** feeds data from [Twitter](https://www.twitter.com) supporting [My Tweets](#my-tweets-query) and [User](#twitter-user-query) queries.
 

@@ -6,7 +6,9 @@ collection: Date & Time
 
 ## Week Rule {#week}
 
-![Week Rule](./assets/rules/rule-week.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-week.svg-->
+</div>
 
 The **Week Rule** evaluates whether the current week of the year matches one of the patterns.
 

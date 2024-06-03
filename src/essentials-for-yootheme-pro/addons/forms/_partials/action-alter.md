@@ -1,6 +1,8 @@
 ## Alter Action {#alter}
 
-![Alter Action](./assets/action-alter.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/action-alter.svg-->
+</div>
 
 The **Alter Action** adds or alters the submitted data allowing a wide range of use cases.
 

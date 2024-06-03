@@ -6,7 +6,9 @@ collection: Date & Time
 
 ## Month Rule {#month}
 
-![Month Rule](./assets/rules/rule-month.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-month.svg-->
+</div>
 
 The **Month Rule** evaluates whether the current month matches one of the selected months.
 

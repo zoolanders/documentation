@@ -1,6 +1,8 @@
 ## Instagram Source {#instagram}
 
-![Instagram Source](/essentials-for-yootheme-pro/assets/brands/instagram.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/instagram.svg-->
+</div>
 
 The **Instagram Source** feeds data from Personal and Business [Instagram](https://www.instagram.com/) accounts supporting [Media](#instagram-media-query), [Media Single](#instagram-media-single-query), [Hashtagged Media](#instagram-hashtagged-media-query) and [User](#instagram-user-query) queries.
 

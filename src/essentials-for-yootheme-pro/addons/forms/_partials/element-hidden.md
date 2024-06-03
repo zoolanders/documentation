@@ -1,6 +1,8 @@
 ## Hidden Element {#hidden}
 
-![Hidden Element](./assets/element-hidden.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/element-hidden.svg-->
+</div>
 
 The **Hidden Element** displays a [\<input type="hidden"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/hidden) HTML element, use it to include data that cannot be seen or modified by users when a form is submitted.
 

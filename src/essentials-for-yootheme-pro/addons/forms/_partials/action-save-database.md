@@ -1,6 +1,8 @@
 ## Save to Database Action {#save-database}
 
-![Save to Database Action](./assets/action-save-database.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/action-save-database.svg-->
+</div>
 
 The **Save to Database Action** stores each submission data as a new record in a local or external database table. Use it to store data or log submissions.
 

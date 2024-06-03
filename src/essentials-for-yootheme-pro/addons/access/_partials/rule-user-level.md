@@ -6,7 +6,9 @@ collection: Site
 
 ## User Level Rule {#user-level}
 
-![User Level Rule](./assets/rules/rule-user-level.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-user-level.svg-->
+</div>
 
 The **User Level Rule** evaluates whether the current user's access or role level matches one of the selection.
 

@@ -6,7 +6,9 @@ collection: Device
 
 ## IP Address Rule {#ip-address}
 
-![IP Address Rule](./assets/rules/rule-ip-address.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-ip-address.svg-->
+</div>
 
 The **IP Address Rule** evaluates whether the device ip address matches one of the specified patterns.
 

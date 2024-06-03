@@ -197,6 +197,10 @@
                 "link": "/custom-icon-collection"
             },
             {
+                "text": "Custom Twitter Dev App",
+                "link": "/custom-twitter-dev-app"
+            },
+            {
                 "text": "Form Hooks",
                 "link": "/form-hooks"
             }

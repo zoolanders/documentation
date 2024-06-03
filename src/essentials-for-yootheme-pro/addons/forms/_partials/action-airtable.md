@@ -1,6 +1,8 @@
 ## Airtable Action {#airtable}
 
-![Airtable Action](/essentials-for-yootheme-pro/assets/brands/airtable.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/airtable.svg-->
+</div>
 
 The **Airtable Action** creates or deletes records from an [Airtable](https://airtable.com/) base.
 

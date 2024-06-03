@@ -1,6 +1,8 @@
 ## Checkbox Element {#checkbox}
 
-![Checkbox Element](./assets/element-checkbox.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/element-checkbox.svg-->
+</div>
 
 The **Checkbox Element** displays a group of [\<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) HTML elements wrapped in a `<label>`, use it to allow users choosing, by toggling boxes, a single or multiple pre-established options.
 

@@ -1,6 +1,8 @@
 ## YouTube Source {#youtube}
 
-![YouTube Source](/essentials-for-yootheme-pro/assets/brands/youtube.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/youtube.svg-->
+</div>
 
 The YouTube Source feeds data from [YouTube](https://www.youtube.com/) supporting [Videos](#youtube-videos-query), [My Channel](#youtube-my-channel-query), [My Channel Video](#youtube-my-channel-video-query), [My Channel Videos](#youtube-my-channel-videos-query), [My Channel Playlist](#youtube-my-channel-playlist-query), [My Channel Playlist Videos](#youtube-my-channel-playlist-videos-query), [My Playlist Video](#youtube-my-playlist-video-query) and [My Playlist Videos](#youtube-my-playlist-videos-query) queries.
 

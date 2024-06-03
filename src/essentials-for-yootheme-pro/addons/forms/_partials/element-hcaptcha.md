@@ -1,6 +1,8 @@
 ## hCaptcha
 
-![hCaptcha Element](./assets/element-hcaptcha.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/element-hcaptcha.svg-->
+</div>
 
 The hCaptcha element integrates [hCaptcha](https://www.hcaptcha.com/) anti-bot solution that protects user privacy and rewards websites.
 

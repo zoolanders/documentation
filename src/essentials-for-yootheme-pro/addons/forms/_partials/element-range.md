@@ -1,6 +1,8 @@
 ## Range Element {#range}
 
-![Range Element](./assets/element-range.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/element-range.svg-->
+</div>
 
 The **Range Element** displays a [\<input type="range"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range) HTML element, use it to allow users to enter a numeric value in a specified range which precise value, however, is not considered important.
 

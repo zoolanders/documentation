@@ -1,6 +1,8 @@
 ## Redirect Action {#redirect}
 
-![Redirect Action](./assets/action-redirect.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/action-redirect.svg-->
+</div>
 
 The **Redirect Action** redirects the browser to a specified URL, with an optional message that will be displayed using the Joomla or WordPress core message display system.
 

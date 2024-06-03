@@ -6,7 +6,9 @@ collection: Device
 
 ## IP Geolocation Rule {#ip-geolocation}
 
-![IP Geolocation Rule](./assets/rules/rule-ip-geolocation.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-ip-geolocation.svg-->
+</div>
 
 The **IP Geolocation Rule** evaluates whether the device ip location, determined by [MaxMind GeoIp Database](/essentials-for-yootheme-pro/settings#geoip-database), matches one of the specified patterns.
 

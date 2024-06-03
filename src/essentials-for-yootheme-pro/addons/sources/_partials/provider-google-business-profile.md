@@ -1,6 +1,8 @@
 ## Google Business Profile Source {#google-business-profile}
 
-![Google Business Profile Source](/essentials-for-yootheme-pro/assets/brands/google-business-profile.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/google-business-profile.svg-->
+</div>
 
 The **Google Business Profile Source** feeds data from [Google Business Profile](https://business.google.com/) supporting [Location](#google-business-profile-location-query), [Review](#google-business-profile-review-query), [Reviews](#google-business-profile-reviews-query), [Media](#google-business-profile-media-query) and [Posts](#google-business-profile-posts-query) queries.
 

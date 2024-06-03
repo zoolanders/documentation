@@ -6,7 +6,9 @@ collection: Site
 
 ## Language Rule {#language}
 
-![Language Rule](./assets/rules/rule-language.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-language.svg-->
+</div>
 
 The **Language Rule** evaluates whether the site language matches one of the selected languages.
 

@@ -6,7 +6,9 @@ collection: Device
 
 ## Device Rule {#device}
 
-![Device Rule](./assets/rules/rule-device.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-device.svg-->
+</div>
 
 The **Device Rule** evaluates whether the browser agent matches one of the selected device types, _Mobile_, _Table_, or _Desktop_.
 

@@ -1,6 +1,8 @@
 ## Google Sheets Source {#google-sheet}
 
-![Google Sheets Source](./assets/provider-google-sheets.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/provider-google-sheets.svg-->
+</div>
 
 The **Google Sheets Source** feeds data from [Google Sheets](https://www.google.com/sheets) supporting [Records](#google-sheets-records-query) query.
 

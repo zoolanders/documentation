@@ -6,7 +6,9 @@ collection: Date & Time
 
 ## Season Rule {#season}
 
-![Season Rule](./assets/rules/rule-season.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-season.svg-->
+</div>
 
 The **Season Rule** evaluates whether the current season matches one of the selected seasons.
 

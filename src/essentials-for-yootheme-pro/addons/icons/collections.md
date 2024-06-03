@@ -20,7 +20,7 @@ After installation, the collection icons will integrate natively and become avai
   <a class="header-anchor" :href="`#${col.name}`" :aria-label="`Permalink to &quot;${col.name}&quot;`">​</a>
 </h2>
 
-<img :src="`./_collections/${col.name}/icon.svg`" :alt="`${col.title} Icon Collection`" width="60">
+<div v-html="col.icon" class="tm-resource-icon"></div>
 
 A collection of `{{ col.icons }}` icons from <a :href="col.url" target="_blank">{{ col.title }}</a> released on {{ col.release }} under the {{ col.license }} license as version `{{ col.version }}`.
 

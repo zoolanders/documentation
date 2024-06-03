@@ -1,6 +1,8 @@
 ## reCAPTCHA
 
-![reCAPTCHA Element](./assets/element-recaptcha.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/element-recaptcha.svg-->
+</div>
 
 The reCAPTCHA element integrates [Google reCAPTCHA](https://developers.google.com/recaptcha) service that helps protect websites from spam and abuse, supporting both v2 and v3.
 

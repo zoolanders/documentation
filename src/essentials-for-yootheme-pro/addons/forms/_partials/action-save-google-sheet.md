@@ -1,6 +1,8 @@
 ## Save to Google Sheet Action {#save-google-sheet}
 
-![Save to Google Sheet Action](./assets/action-save-google-sheet.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/action-save-google-sheet.svg-->
+</div>
 
 The **Save to Google Sheet Action** stores each submission data as a new record in the specified Google Drive Spreadsheet. Use it to store data or log submissions.
 

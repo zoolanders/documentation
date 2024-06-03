@@ -6,7 +6,9 @@ collection: Date & Time
 
 ## Time Rule {#time}
 
-![Time Rule](./assets/rules/rule-time.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-time.svg-->
+</div>
 
 The **Time Rule** evaluates whether the current time matches the specified time range.
 

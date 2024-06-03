@@ -61,7 +61,7 @@ Using the ZOOseo Item Metadata layout you can Drag & Drop the elements you would
 | _Open Graph Custom_ | Allows setting custom OpenGraph properties using the element _Alternative Label_ field value as the property type. |
 
 ::: tip
-Use the [Static Content Element](../../elements/static-content) when the content is the same for each item.
+Use the [Static Content Element](./addons/elements/static-content) when the content is the same for each item.
 :::
 
 ::: tip

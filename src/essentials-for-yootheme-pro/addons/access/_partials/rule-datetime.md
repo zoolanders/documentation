@@ -6,7 +6,9 @@ collection: Date & Time
 
 ## Datetime Rule {#datetime}
 
-![Datetime Rule](./assets/rules/rule-datetime.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-datetime.svg-->
+</div>
 
 The **Datetime Rule** evaluates whether the current date & time matches the specified datetime range.
 

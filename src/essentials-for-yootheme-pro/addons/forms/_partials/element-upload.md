@@ -1,6 +1,8 @@
 ## Upload Element {#upload}
 
-![Upload Element](./assets/element-upload.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/element-upload.svg-->
+</div>
 
 The **Upload Element** displays a [\<input type="file"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file) HTML element wrapped with a [UIkit Custom Control](https://getuikit.com/docs/form#custom-controls), use it to allow users uploading one or more files from their device.
 

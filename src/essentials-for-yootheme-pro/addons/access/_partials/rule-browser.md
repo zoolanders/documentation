@@ -6,7 +6,9 @@ collection: Device
 
 ## Browser Rule {#browser}
 
-![Browser Rule](./assets/rules/rule-browser.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-browser.svg-->
+</div>
 
 The **Browser Rule** evaluates whether the browser agent matches one of the specified patterns, e.g. `Firefox 90`.
 

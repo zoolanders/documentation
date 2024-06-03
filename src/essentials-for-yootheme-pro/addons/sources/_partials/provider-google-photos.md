@@ -1,6 +1,8 @@
 ## Google Photos Source {#google-photos}
 
-![Google Photos Source](/essentials-for-yootheme-pro/assets/brands/google-photos.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/google-photos.svg-->
+</div>
 
 The **Google Photos Source** feeds media from [Google Photos](https://photos.google.com/) supporting [Album](#google-photos-album-query), [Albums](#google-photos-albums-query) and [Album Media](#google-photos-album-media-query) queries.
 

@@ -1,6 +1,8 @@
 ## Validate Action {#validate}
 
-![Validate Action](./assets/action-validate.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/action-validate.svg-->
+</div>
 
 The **Validate Action** validates the submitted data with custom condition rules, if the validation fails no further actions will be executed.
 

@@ -6,7 +6,9 @@ collection: Site
 
 ## URL Rule {#url}
 
-![URL Rule](./assets/rules/rule-url.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-url.svg-->
+</div>
 
 The **URL Rule** evaluates whether the site URL matches one of the specified patterns.
 

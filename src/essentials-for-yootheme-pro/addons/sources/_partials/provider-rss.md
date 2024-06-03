@@ -1,6 +1,8 @@
 ## RSS Source {#rss}
 
-![RSS Source](/essentials-for-yootheme-pro/assets/brands/rss.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/rss.svg-->
+</div>
 
 The **RSS Source** feeds data from [RSS](https://en.wikipedia.org/wiki/RSS) 0.9, 1.0, 2.0, and Atom specifications supporting [Feed](#rss-feed-query) and [Entries](#rss-entries-query) queries.
 

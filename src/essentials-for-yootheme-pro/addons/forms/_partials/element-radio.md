@@ -1,6 +1,8 @@
 ## Radio Element {#radio}
 
-![Radio Element](./assets/element-radio.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/element-radio.svg-->
+</div>
 
 The **Radio Element** displays a group of [\<input type="radio"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/radio) HTML elements wrapped in a `<label>`, use it to allow users choosing a single option from a pre-established group.
 

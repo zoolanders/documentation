@@ -1,6 +1,8 @@
 ## CSV Source {#csv}
 
-![CSV Source](./assets/provider-csv.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/provider-csv.svg-->
+</div>
 
 The **CSV Source** feeds data from local [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) or [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) files supporting [Records](#csv-records-query) query with dynamic filtering and/or ordering.
 

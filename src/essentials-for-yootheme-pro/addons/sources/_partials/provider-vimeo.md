@@ -1,6 +1,8 @@
 ## Vimeo Source {#vimeo}
 
-![Vimeo Source](/essentials-for-yootheme-pro/assets/brands/vimeo.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/vimeo.svg-->
+</div>
 
 The Vimeo Source feeds media from [Vimeo](https://www.vimeo.com) supporting [My Videos](#vimeo-my-videos-query), [My Folder Videos](#vimeo-my-folder-videos-query) and [My Showcase Videos](#vimeo-my-showcase-videos-query) queries.
 

@@ -1,6 +1,8 @@
 ## Friendly Captcha
 
-![Friendly Captcha Element](./assets/element-fcaptcha.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/element-fcaptcha.svg-->
+</div>
 
 The Friendly Captcha element integrates [Friendly Captcha](https://friendlycaptcha.com/) anti-bot solution that is GDPR compliant and made in Europe.
 

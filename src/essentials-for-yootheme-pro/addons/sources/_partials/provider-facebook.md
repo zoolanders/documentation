@@ -1,6 +1,8 @@
 ## Facebook Source {#facebook}
 
-![Facebook Source](/essentials-for-yootheme-pro/assets/brands/facebook.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/facebook.svg-->
+</div>
 
 The **Facebook Source** feeds data from [Facebook](https://www.facebook.com/) supporting [Page](#facebook-page-query) and [Page Posts](#facebook-page-posts-query) queries.
 

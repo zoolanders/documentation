@@ -1,6 +1,8 @@
 ## Save to CSV Action {#save-csv}
 
-![Sate to CSV Action](./assets/action-save-csv.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/action-save-csv.svg-->
+</div>
 
 The **Save to CSV Action** saves each submission data as a new record in the specified local [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) or [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) file. Use it to store data or log submissions.
 

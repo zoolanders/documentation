@@ -6,7 +6,9 @@ collection: Misc
 
 ## Dynamic Rule {#dynamic}
 
-![Dynamic Rule](./assets/rules/rule-dynamic.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-dynamic.svg-->
+</div>
 
 The **Dynamic Rule** determines whether a given value satisfies a specific set of conditions. This Rule is versatile and can be applied to multiple scenarios as both the value and the condition value can be set either static or dynamic.
 

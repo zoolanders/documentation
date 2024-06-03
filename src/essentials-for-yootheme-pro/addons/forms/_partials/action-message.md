@@ -1,6 +1,8 @@
 ## Message Action {#message}
 
-![Message Action](./assets/action-message.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/action-message.svg-->
+</div>
 
 The **Message Action** displays a custom message in a modal. Use it to show the submitter a _Thank You_ message or additional information.
 

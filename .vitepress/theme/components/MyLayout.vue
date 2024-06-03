@@ -1,18 +1,44 @@
 <script setup>
-import { useRoute } from 'vitepress';
-import DefaultTheme, { useSidebar } from 'vitepress/theme';
+import { watch, nextTick } from 'vue';
+import { useData, useRoute } from 'vitepress';
+import DefaultTheme from 'vitepress/theme';
 
-const { Layout } = DefaultTheme;
 const route = useRoute();
-// const sidebar = useSidebar();
+const { isDark } = useData();
+const { Layout } = DefaultTheme;
+
+function toggleResourceIconsColor(isDark) {
+    nextTick(() => {
+        const svgElements = document.querySelectorAll('.tm-resource-icon svg > *');
+
+        svgElements.forEach((el) => {
+            if (el.getAttribute('fill') !== 'none') {
+                el.setAttribute('fill', isDark ? '#fffff5db' : '#444');
+            }
+            if (el.getAttribute('stroke') !== 'none') {
+                el.setAttribute('stroke', isDark ? '#fffff5db' : '#444');
+            }
+        });
+    });
+}
+
+watch(() => isDark.value, toggleResourceIconsColor, {
+    immediate: true,
+});
+
+watch(
+    () => route.path,
+    () => {
+        toggleResourceIconsColor(isDark.value);
+    },
+    {
+        immediate: true,
+    }
+);
 </script>
 
 <template>
     <Layout>
-        <template #sidebar-nav-before>
-            <!-- {{ route.path }} -->
-            <!-- <img src="/zoolanders-docs.svg" alt="Logo" width="150px"/> -->
-            <!-- <img src="/essentials-yoothemepro.svg" alt="Logo" width="80px" style="margin-left: 20px;" /> -->
-        </template>
+        <template #sidebar-nav-before></template>
     </Layout>
 </template>

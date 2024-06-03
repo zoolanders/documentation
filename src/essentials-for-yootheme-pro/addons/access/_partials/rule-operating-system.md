@@ -6,7 +6,9 @@ collection: Device
 
 ## Operating System Rule {#operating-system}
 
-![Operating System Rule](./assets/rules/rule-operating-system.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-operating-system.svg-->
+</div>
 
 The **Operating System Rule** evaluates whether the browser agent matches one of the specified patterns, e.g. `MacOS 10.1`.
 

@@ -6,7 +6,9 @@ collection: Date & Time
 
 ## Day Rule {#day}
 
-![Day Rule](./assets/rules/rule-day.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-day.svg-->
+</div>
 
 The **Day Rule** evaluates whether the current day matches one of the selected days.
 

@@ -1,6 +1,8 @@
 ## Airtable Source {#airtable}
 
-![Airtable Source](/essentials-for-yootheme-pro/assets/brands/airtable.svg)
+<div class="tm-resource-icon">
+    <!--@include: @essentials-for-yootheme-pro/assets/brands/airtable.svg-->
+</div>
 
 The **Airtable Source** feeds data from [Airtable](https://airtable.com/) bases supporting [Record](#airtable-record-query) and [Records](#airtable-records-query) queries.
 

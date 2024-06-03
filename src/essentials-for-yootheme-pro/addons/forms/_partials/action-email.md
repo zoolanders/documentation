@@ -1,6 +1,8 @@
 ## Email Action {#email}
 
-![Email Action](./assets/action-email.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/action-email.svg-->
+</div>
 
 The **Email Action** sends preset emails with support for attachments. Use it to send a _Thank You_ email to the submitter, a transactional email to the site owner, etc.
 

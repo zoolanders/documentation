@@ -5,7 +5,9 @@ collection: Date & Time
 
 ## Date Rule {#date}
 
-![Date Rule](./assets/rules/rule-date.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-date.svg-->
+</div>
 
 The **Date Rule** evaluates whether the current date matches a specified date range.
 

@@ -6,7 +6,9 @@ collection: Site
 
 ## User Group Rule {#user-group}
 
-![User Group Rule](./assets/rules/rule-user-group.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-user-group.svg-->
+</div>
 
 The **User Group Rule** evaluates whether the current user is part of the selected user groups.
 

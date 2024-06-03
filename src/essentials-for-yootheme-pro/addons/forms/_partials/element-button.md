@@ -1,6 +1,8 @@
 ## Button Element {#button}
 
-![Button Element](./assets/element-button.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/element-button.svg-->
+</div>
 
 The **Form Button Element** displays a grid of [\<button\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) HTML elements with support for `submit` and `reset` types. Each type is wrapped into a child element with its specific features.
 

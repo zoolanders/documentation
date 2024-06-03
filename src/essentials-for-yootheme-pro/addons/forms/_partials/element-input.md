@@ -1,6 +1,8 @@
 ## Input Element {#input}
 
-![Input Element](./assets/element-input.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/element-input.svg-->
+</div>
 
 The **Input Element** displays a grid of [\<input\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) HTML elements with support for _text_, _date_, _email_, _number_, _password_, _tel_, _url_, _month_, _time_, and _week_ types. Each type is wrapped into a child element with its specific features and validation covered in the next sections.
 

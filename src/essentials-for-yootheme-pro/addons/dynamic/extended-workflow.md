@@ -34,7 +34,7 @@ If there are source queries related to the current view, e.g. _Article_ or _Post
 
 ### Global Sources
 
-Global sources will always be available under the group _Global_, such is the _Site Source_, as well as the custom set [global queries](./global-queries).
+Global sources will always be available under the group _Global_, such is the _Site Source_, as well as the custom set [global queries](#global-queries).
 
 ![Field Global Query](./assets/field-global-query.webp)
 

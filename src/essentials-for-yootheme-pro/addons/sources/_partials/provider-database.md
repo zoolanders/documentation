@@ -1,6 +1,8 @@
 ## Database Source {#database}
 
-![Database Source](./assets/provider-database.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/provider-database.svg-->
+</div>
 
 The **Database Source** feeds data from local or external MySQL Database Tables, supporting [Record](#database-record-query) and [Records](#database-records-query) queries with relations and dynamic filtering and/or ordering.
 

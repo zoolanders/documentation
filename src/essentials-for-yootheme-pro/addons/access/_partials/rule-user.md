@@ -6,7 +6,9 @@ collection: Site
 
 ## User Rule {#user}
 
-![User Rule](./assets/rules/rule-user.svg)
+<div class="tm-resource-icon">
+    <!--@include: ../assets/rules/rule-user.svg-->
+</div>
 
 The **User Rule** evaluates whether the current user's `id` or `username` matches one of the selection.
 

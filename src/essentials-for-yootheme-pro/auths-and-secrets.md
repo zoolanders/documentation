@@ -4,21 +4,13 @@ OAuths, Keys & Secrets is sensitive authentication data that we simply call, aut
 
 Essentials builds on top of YOOtheme Pro a workflow to authenticate to third-party services with the [OAuth](#oauth) protocol as well as to store [Keys and Secrets](#keys-and-secrets). The auth workflow has been built with [security](#security) in mind, as well as convenience through the [Auths Manager](#auth-manager).
 
-For auth-specific settings take a look the basic, multiple items and system element documentations.
-
-## Keys and Secrets
-
-The auth workflow is a convenient way to securely manage keys and secrets that are required for certain features and services. By centralizing these keys and secrets you can ensure that they are stored securely and are easily accessible when needed. This helps simplify the management of these credentials and provide an additional layer of security.
-
-![Keys and Secrets](./assets/auth/auths-key.webp)
-
 ## OAuth
 
-This is the process where you authenticate to third-party services using the OAuth protocol and grant [ZOOlanders OAuth App](#zoolanders-oauth-app), or your [Custom OAuth App](#custom-oauth-app), permissions to access content or act on your behalf.
+This is the process where you authenticate to third-party services using the OAuth protocol and grant [Essentials OAuth App](#essentials-oauth-app), or your [Custom OAuth App](#custom-oauth-app), permissions to access content or act on your behalf.
 
 ![OAuth](./assets/auth/auths-oauth.webp)
 
-## ZOOlanders OAuth App
+## Essentials OAuth App
 
 To use the OAuth protocol with a service, it is necessary to create an OAuth App within that service and go through its approval process. While creating an OAuth App is a recommended security measure, the process can be time-consuming and challenging.
 
@@ -36,6 +28,12 @@ We strongly recommend that high traffic sites, or anyone with the necessary skil
 ![Custom OAuth App](./assets/auth/auths-custom-app.webp)
 
 <!-- TODO Add link to Create Custom Apps guides -->
+
+## Keys and Secrets
+
+The auth workflow is a convenient way to securely manage keys and secrets that are required for certain features and services. By centralizing these keys and secrets you can ensure that they are stored securely and are easily accessible when needed. This helps simplify the management of these credentials and provide an additional layer of security.
+
+![Keys and Secrets](./assets/auth/auths-key.webp)
 
 ## Security
 
@@ -57,10 +55,10 @@ Using the ZOOlanders OAuth App is a convenient and secure, we do not store any l
 
 ## Auth Manager
 
-The Auth Manager can be accessed at _Customizer -> Essentials -> Auths_ section. There you can manage OAuths, Keys & Secrets, but you cannot create new ones as an auth is tied to specific scopes and/or purpose only known while building the layouts.
+The Auth Manager can be accessed at [Essentials Advanced](./settings#auths) section. You can manage OAuths, Keys & Secrets, but you cannot create new ones as an auth is tied to specific scopes, and/or purpose only, known while building the layouts.
 
 ![Auth Manager](./assets/auth/auths-manager.gif)
 
-It is also possible, and somewhat more convenient, to manage the auths while creating the resources that require them.
+It is also possible, and somewhat more convenient, to manage the auths while creating the resources that requires them.
 
 ![Auth Manager Field](./assets/auth/auths-manager-field.webp)
