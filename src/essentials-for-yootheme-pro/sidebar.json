@@ -22,11 +22,11 @@
         "items": [
             {
                 "text": "Auth, Keys & Secrets",
-                "link": "auths-and-secrets"
+                "link": "auths/"
             },
             {
                 "text": "Auth Drivers",
-                "link": "auth-drivers"
+                "link": "auths/drivers"
             },
             {
                 "text": "Settings",
@@ -198,7 +198,11 @@
             },
             {
                 "text": "Custom Twitter Dev App",
-                "link": "/custom-twitter-dev-app"
+                "link": "/auths/custom-twitter-dev-app"
+            },
+            {
+                "text": "Custom Facebook Dev App",
+                "link": "/auths/custom-facebook-dev-app"
             },
             {
                 "text": "Form Events",
@@ -211,15 +215,15 @@
         "base": "/essentials-for-yootheme-pro/addons",
         "items": [
             {
-                "text": "Issues With Forms",
+                "text": "Forms Related Issues",
                 "link": "/forms/troubleshooting"
             },
             {
-                "text": "Issues With Sources",
+                "text": "Sources Related Issues",
                 "link": "/sources/troubleshooting"
             },
             {
-                "text": "Issues With Icons",
+                "text": "Icons Related Issues",
                 "link": "/icons/troubleshooting"
             }
         ]

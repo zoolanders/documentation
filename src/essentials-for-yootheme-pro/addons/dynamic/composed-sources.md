@@ -14,7 +14,7 @@ If a field has a dynamic content already assigned, a new `compose` icon will app
 
 ![Compose Editor](./assets/composable-sources/compose-editor.webp)
 
-To do so, just press the _Add Dynamic_ button on the top right of the editor, and choose any dynamic option as a new dynamic content. To learn more about Essentials [Extended Dynamic Content Workflow](./extended-workflow.md), see the corresponding documentation.
+To do so, just press the _Add Dynamic_ button on the top right of the editor, and choose any dynamic option as a new dynamic content. To learn more about Essentials [Dynamic Content](./), see the corresponding documentation.
 
 ![Field Dynamic Options](./assets/field-dynamic-options.webp)
 

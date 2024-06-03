@@ -1,6 +1,6 @@
 # Forms Builder Overview
 
-When a section, column or sublayout is defined as a [form area](/.form-area) it is enclosed with a standard `<form\>` HTML element without losing builder capabilities. Forms are dynamic in nature as it is YOOtheme Pro builder with dynamic content. Essentials forms builds up on both to create a dynamic data workflow before and after a submission.
+When a section, column or sublayout is defined as a [form area](./form-area) it is enclosed with a standard `<form\>` HTML element without losing builder capabilities. Forms are dynamic in nature as it is YOOtheme Pro builder with dynamic content. Essentials forms builds up on both to create a dynamic data workflow before and after a submission.
 
 ![Form Area Shortcut](./assets/formarea-config-shortcut.webp)
 
@@ -20,7 +20,7 @@ For a more advanced data workflow combine a [composed source](/essentials-for-yo
 
 ## Page Sources
 
-In certain form workflows, there may be a need for dynamic content from the current page, also known as page sources. This content is available during the form rendering, but is not during the form submission, which is why it's not listed as a mapping option. To work around this limitation page content can be mapped to a [hidden form field](./elements#hidden) and referenced in the actions using [data placeholders](#data-placeholders) or a [form area source](#form-area-source).
+In certain form workflows, there may be a need for dynamic content from the current page, also known as page sources. This content is available during the form rendering, but is not during the form submission, which is why it's not listed as a mapping option. To work around this limitation page content can be mapped to a [hidden form field](./elements#hidden) and referenced in the actions using [data placeholders](#data-placeholders) or a [form area source](./form-area#form-area-source).
 
 ::: warning Hidden, But Still Exposed
 It's important to note that although hidden field content is not visible on the page, it is still exposed in the source code of the page. If the data is sensitive, it's crucial to enable the encryption setting in the hidden field to ensure that it remains secure and protected from unauthorized access or disclosure.

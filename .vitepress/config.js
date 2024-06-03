@@ -18,12 +18,11 @@ export default defineConfig({
         editLink: {
             pattern: 'https://github.com/zoolanders/documentation/edit/v3/src/:path',
         },
-
-        // https://vitepress.dev/reference/default-theme-config
+        search: {
+            provider: 'local',
+        },
         nav: Nav,
-
         sidebar: Sidebar,
-
         socialLinks: [
             {
                 icon: 'github',

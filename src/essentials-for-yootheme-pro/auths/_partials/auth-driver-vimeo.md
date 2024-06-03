@@ -2,7 +2,7 @@
 
 The **Vimeo Auth Driver** manage Vimeo OAuth protocol to authenticate and grant scope permissions.
 
-![Vimeo Auth Driver](./assets/auth/driver-vimeo-oauth.webp)
+![Vimeo Auth Driver](./assets/driver-vimeo-oauth.webp)
 
 | Setting | Description |
 | --- | --- |

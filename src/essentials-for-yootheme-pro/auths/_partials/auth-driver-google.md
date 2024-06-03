@@ -2,7 +2,7 @@
 
 The **Google Auth Driver** manage Google OAuth 2.0 protocol to authenticate and grant scope permissions.
 
-![Google Auth Driver](./assets/auth/driver-google-oauth.webp)
+![Google Auth Driver](./assets/driver-google-oauth.webp)
 
 | Setting | Description |
 | --- | --- |
@@ -13,6 +13,6 @@ The **Google Auth Driver** manage Google OAuth 2.0 protocol to authenticate and 
 
 ## Google API Key Driver
 
-The Google API Key Driver manage Google API keys obtained through the [Google Cloud Platform](https://console.cloud.google.com/apis/credentials) dashboard.
+The **Google API Key Driver** manage Google API keys obtained through the [Google Cloud Platform](https://console.cloud.google.com/apis/credentials) dashboard.
 
-![Google API Key Auth Driver](./assets/auth/driver-google-api-key.webp)
+![Google API Key Auth Driver](./assets/driver-google-api-key.webp)

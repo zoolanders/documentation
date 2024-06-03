@@ -21,7 +21,7 @@ The **Email Action** sends preset emails with support for attachments. Use it to
 <!--@include: ./common-action-settings.md-->
 
 ::: tip Submitted Attachments
-When a file is submitted by the user, the [Data Placeholder](./data-workflow#data-placeholders) of the uploaded file holds just the name of the file, if you want to send that file attached to the email set it as a dynamic attachment instead.
+When a file is submitted by the user, the [Data Placeholder](./index#data-placeholders) of the uploaded file holds just the name of the file, if you want to send that file attached to the email set it as a dynamic attachment instead.
 :::
 
 ::: warning Reply To

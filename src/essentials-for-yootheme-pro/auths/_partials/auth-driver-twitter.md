@@ -3,10 +3,10 @@
 The **Twitter Auth Driver** manage Twitter OAuth protocol to authenticate and grant scope permissions.
 
 ::: warning Custom Dev App
-Due to Twitter API policies it is not possible to use a ZOOlanders oAuth App, instead you must [create a custom Twitter Dev App](/essentials-for-yootheme-pro/developer/custom-twitter-dev-app) and use your own credentials.
+Due to Twitter API policies it is not possible to use a ZOOlanders oAuth App, instead you must [create a custom Twitter Dev App](./custom-twitter-dev-app) and use your own credentials.
 :::
 
-![Twitter Auth Driver](./assets/auth/driver-twitter-oauth.webp)
+![Twitter Auth Driver](./assets/driver-twitter-oauth.webp)
 
 | Setting | Description |
 | --- | --- |

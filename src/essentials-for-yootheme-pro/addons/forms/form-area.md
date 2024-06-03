@@ -76,7 +76,7 @@ Notice that when a custom action URL is set, server-side validation and after su
 | *After Validation Error* | `event`, `form`, `data` | Executes after front-end validation error. |
 
 ::: tip
-For more advanced customizations consult [Extending Forms](/essentials-for-yootheme-pro/developer/form-hooks) section.
+For more advanced customizations consult [Extending Forms](./form-events) section.
 :::
 
 ## Form Area Dynamic Source

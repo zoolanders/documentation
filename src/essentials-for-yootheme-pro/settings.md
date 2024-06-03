@@ -12,13 +12,13 @@ Create and manage dynamic content [sources](./addons/sources/providers). Those w
 
 ## Global Queries
 
-Create and manage source [Global Queries](./addons/dynamic/extended-workflow#global-queries). Those will become available as sources in the builder dynamic workflow.
+Create and manage source [Global Queries](./addons/dynamic/#global-queries). Those will become available as sources in the builder dynamic workflow.
 
 ![Essentials Global Queries Manager](./assets/global-queries-manager.gif)
 
 ## Layout Libraries
 
-Create and manage [Layout Libraries](./addons/layouts/libraries). Those will become available as additional libraries in the builder layouts library.
+Create and manage [Layout Libraries](./addons/layouts/). Those will become available as additional libraries in the builder layouts library.
 
 ![Essentials Layout Libraries Manager](./assets/layout-libraries-manager.gif)
 
@@ -36,7 +36,7 @@ Create and manage [Storages](./storage). Those will become available as storage 
 
 ## Auths
 
-Manage [Auths, Keys & Secrets](./auths-and-secrets) that have been created during other resources creation. At the moment you cannot create auths directly.
+Manage [Auths, Keys & Secrets](./auths/) that have been created during other resources creation. At the moment you cannot create auths directly.
 
 ![Essentials Settings - Auths](./assets/settings-auths.png)
 

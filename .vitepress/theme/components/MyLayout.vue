@@ -8,6 +8,10 @@ const { isDark } = useData();
 const { Layout } = DefaultTheme;
 
 function toggleResourceIconsColor(isDark) {
+    if (typeof document === 'undefined') {
+        return;
+    }
+
     nextTick(() => {
         const svgElements = document.querySelectorAll('.tm-resource-icon svg > *');
 

@@ -1,6 +1,6 @@
 # Custom Twitter Dev App
 
-Learn how to create a custom Twitter Dev App and get your own credentials. Once ready, you can use the resulting _Client ID_, _Client Secret_ and _Refresh Token_ into the respective [Twitter Auth](/essentials-for-yootheme-pro/auth-drivers#twitter) to authenticate.
+Learn how to create a custom Twitter Dev App and get your own credentials. Once ready, you can use the resulting _Client ID_, _Client Secret_ and _Refresh Token_ into the respective [Twitter Auth](./drivers#twitter) driver to authenticate.
 
 ::: warning ZOOlanders OAuth
 Beware that it's a technical process that requires some development skills like interacting with REST APIs.

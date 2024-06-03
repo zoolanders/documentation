@@ -2,7 +2,7 @@
 
 The **TikTok Auth Driver** manage TikTok OAuth protocol to authenticate and grant scope permissions.
 
-![TikTok Auth Driver](./assets/auth/driver-tiktok-oauth.webp)
+![TikTok Auth Driver](./assets/driver-tiktok-oauth.webp)
 
 | Setting | Description |
 | --- | --- |

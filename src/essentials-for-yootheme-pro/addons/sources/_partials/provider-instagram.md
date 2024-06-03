@@ -53,7 +53,12 @@ If the Media is of Album Type you can fetch it media with the Multi Items query 
 Fetches top and recent hashtagged media from the authenticated business account and resolves to a list of [Instagram Media Type](#instagram-media-type).
 
 ::: warning Notice
-This query is only available for Instagram Business Accounts
+Take into consideration that this query is available for Instagram **Business** Accounts only and that the API imposes the following limitations:
+
+- Only returns public photos and videos.
+- Will not return promoted/boosted/ads media.
+- Responses will not always be in chronological order.
+- Maximum of 30 unique hashtags within a 7 day period.
 :::
 
 ![Instagram Hashtagged Media Query](./assets/providers/ig-query-hashtagged-media.webp)

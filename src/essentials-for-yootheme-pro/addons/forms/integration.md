@@ -33,7 +33,7 @@ For more advanced scenarios, adding _Email_ and _SaveTo_ actions would be necess
 1. Input in the _Message_ field `Thank you for your submission, your comment was {comment}!`.
 
 ::: tip Notice the `{comment}` part
-It's what we call [Data Placeholders](./data-workflow#data-placeholders), and is one of the simplest and direct ways to reference submitted data.
+It's what we call [Data Placeholders](./index#data-placeholders), and is one of the simplest and direct ways to reference submitted data.
 :::
 
 ## 3. Add Form Fields

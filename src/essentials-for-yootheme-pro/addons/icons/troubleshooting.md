@@ -20,4 +20,4 @@ Most likely the source code of your SVG icon is not as clean as UIkit expects it
 
 The process of installing a new collection within the builder fails, giving you no option but to download the collection manually.
 
-Sometimes the servers can block petitions from other servers as for their security rules, in such download the collection from the link provided in the manager and follow the [Add Custom Collection](/essentials-for-yootheme-pro/developer/custom-icon-collection) guide.
+Sometimes the servers can block petitions from other servers as for their security rules, in such download the collection from the link provided in the manager and follow the [Add Custom Collection](./custom-collection) guide.
