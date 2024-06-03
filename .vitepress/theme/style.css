@@ -322,11 +322,25 @@
 }
 
 /**
- * Component: Algolia
+ * Component: Search
  * -------------------------------------------------------------------------- */
 
 .DocSearch {
     --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+.DocSearch-Button,
+.DocSearch-Button span {
+    border: none !important;
+    color: white !important;
+    background-color: transparent !important;
+}
+
+.DocSearch-Button:hover,
+.DocSearch-Button:hover span {
+    border: none !important;
+    color: white !important;
+    background-color: transparent !important;
 }
 
 /**
