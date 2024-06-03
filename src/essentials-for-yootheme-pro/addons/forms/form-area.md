@@ -1,16 +1,16 @@
 # Form Area
 
-When a Section, Column or Sublayout is defined as a Form Area, it is enclosed with a standard `<form\>` HTML element without losing any builder capabilities. A Form Area limits the scope of the form configuration and fields structure, enabling the placement of multiple forms in the same page.
+A form area is a layout _section_, _column_ or _sublayout_ defined as such in the _Advanced Tab_ settings. It configuration and fields structure is scoped, making possible the placement of multiple forms in the same layout.
 
 ![Form Area Shortcut](./assets/formarea-config-shortcut.webp)
 
-A `paper-plane`  icon will appear in the builder's main panel to both state that the node is a Form Area as well as to allow directly opening its configuration panel when clicked.
+For every form area a `paper-plane`  icon will appear in the builder's main panel to both state that the node is a form area as well as to allow directly opening its configuration panel when clicked.
 
 ## After Submit Actions
 
 After Submit Actions, or simply actions, are multi-instance functions that will run sequentially, after a form has been successfully submitted, as long as the chain is not disrupted by an error. These are crucial for the form workflow, as submission data is not processed or logged unless there is an action set for the task.
 
-Actions are set in the Form Area [configuration](#form-area-configuration) and tipically involves sending an email or saving the submission data to the database. For a full overview of available actions and their capabilities, consult the [actions](./actions) section.
+Actions are set in the form area [configuration](#form-area-configuration) and tipically involves sending an email or saving the submission data to the database. For a full overview of available actions and their capabilities, consult the [actions](./actions) section.
 
 ![After Submit Actions](./assets/actions/actions.webp)
 
@@ -24,7 +24,7 @@ Use execution conditions for advanced workflows, e.g. subscribing to a newslette
 
 ## Form Area Configuration
 
-The Form Area configuration panel contains form specific settings, including [after submit actions](#after-submit-actions).
+The form area configuration panel contains form specific settings, including [after submit actions](#after-submit-actions).
 
 ![Form Area Actions](./assets/formarea-config-actions.webp)
 
@@ -78,6 +78,14 @@ Notice that when a custom action URL is set, server-side validation and after su
 ::: tip
 For more advanced customizations consult [Extending Forms](/essentials-for-yootheme-pro/developer/form-hooks) section.
 :::
+
+## Form Area Dynamic Source
+
+For each form area, a dynamic content source is created as an alternative, and more convenient, way of accessing submitted data during actions configuration. As a dynamic source, it has all the advantages of [YOOtheme Pro Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content), like the ability to alter the submitted data with filters.
+
+The mapping option for the form area source will be listed as part of each field _Dynamic_ options under the _Submission Group_.
+
+![Form Dynamic Content](./assets/form-dynamic-content.webp)
 
 ## Form in a Modal
 

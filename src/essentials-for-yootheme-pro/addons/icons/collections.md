@@ -5,13 +5,9 @@ import {data} from './collections.data.js'
 const collections = data;
 </script>
 
-# Collections
+# Icon Collections
 
-An icon collection represents a set of icons that can be added or removed collectively from the builder's icon library. Those are distributed by Essentials as additional packages managed in the [Icon Collections](/essentials-for-yootheme-pro/settings.html#icon-collections) settings panel.
-
-After installation, the collection icons will integrate natively and become available throughout the builder.
-
-![Icon Collections](./assets/icon-collections.webp)
+A list of icon collections provided by Essentials. To learn more about [collections](./index#icon-collection), see the corresponding documentation.
 
 <template v-for="col in collections">
 

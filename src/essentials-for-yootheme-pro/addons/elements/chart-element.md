@@ -1,3 +1,7 @@
+---
+addon: 'Elements'
+---
+
 # Chart Element
 
 <span class="tm-lead">A chart element based on Chart.js.</span>
@@ -7,6 +11,8 @@ The Chart Element allows you to display static and dynamic data using visually a
 Variety of chart types are supported, including Line, Vertical Bar, Horizontal Bar, Radar, Pie, Doughnut, Polar Area, Bubble, and Scatter. You can also customize the appearance of your charts using a range of options and settings.
 
 ![Chart Element](./assets/chartjs-element.webp)
+
+<!--@include: ../_partials/enable-addon.md-->
 
 ## Quick Start
 

@@ -70,7 +70,7 @@ Download the chosen Database from MaxMind, previous free registration is require
 Alternatively you can rely on 3rd party plugins for the installation and posterior updates of the Database. If opted this way, make sure the path to the Database is properly updated after installation.
 
 - [Joomla Akeeba GeoIP Provider](https://www.akeeba.com/download/akgeoip.html)
-- [WordPress Geolocation IP Detection](https://wordpress.org/plugins/geoip-detect/)
+- [WordPress Geolocation IP Detection](https://wordpress.org/plugins/geoip-detect)
 
 ::: tip Country or City Database
 The **Country Database** allows resolving IP geolocation on the continent and country level, while the **City Database** allows the same plus cities and postal code levels. The City one might seems the obvious choice, but taking into consideration that its size is considerably bigger, choose it only when necessary.

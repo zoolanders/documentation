@@ -1,6 +1,6 @@
-# Forms Hooks
+# Forms Events
 
-JavaScript events triggered by each form for which is possible to add listeners and perform custom actions. Set those in a custom script as illustrated bellow or as a [Form Area Setting](../addons/forms/form-area#settings).
+JavaScript events triggered by each form for which is possible to add listeners and perform custom actions. Set those in a custom script as illustrated bellow or as a [form area setting](../addons/forms/form-area#settings).
 
 ## On Submit
 

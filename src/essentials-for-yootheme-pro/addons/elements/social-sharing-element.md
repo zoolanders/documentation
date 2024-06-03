@@ -1,3 +1,7 @@
+---
+addon: 'Elements'
+---
+
 # Social Sharing Element
 
 <span class="tm-lead">A social network sharing element.</span>
@@ -5,6 +9,8 @@
 Enable your users to share your website's content on their preferred social media platform, whether it be Twitter, Facebook, WhatsApp, Viber, a custom network that you have established, or even Email.
 
 ![Social Sharing Element](./assets/social-sharing-element.webp)
+
+<!--@include: ../_partials/enable-addon.md-->
 
 ## Content Preview of a Shared Url
 

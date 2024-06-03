@@ -34,7 +34,7 @@
             },
             {
                 "text": "ZOO Item Pro",
-                "link": "/addons/zooitempro"
+                "link": "/addons/zooitempro/"
             },
             {
                 "text": "Widgetkit",
@@ -55,58 +55,52 @@
                 "link": "/conditional-rendering"
             },
             {
-                "text": "Elements",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "Date Pro",
-                        "link": "/date-pro"
-                    },
-                    {
-                        "text": "Download Pro",
-                        "link": "/download-pro"
-                    },
-                    {
-                        "text": "Google Maps Pro",
-                        "link": "/google-maps-pro"
-                    },
-                    {
-                        "text": "Image Pro",
-                        "link": "/image-pro"
-                    },
-                    {
-                        "text": "Link Pro",
-                        "link": "/link-pro"
-                    },
-                    {
-                        "text": "Media Pro",
-                        "link": "/media-pro"
-                    },
-                    {
-                        "text": "Related Items Pro",
-                        "link": "/related-items-pro"
-                    },
-                    {
-                        "text": "Related Categories Pro",
-                        "link": "/related-categories-pro"
-                    },
-                    {
-                        "text": "Text Pro",
-                        "link": "/text-pro"
-                    },
-                    {
-                        "text": "Textarea Pro",
-                        "link": "/textarea-pro"
-                    },
-                    {
-                        "text": "Separator",
-                        "link": "/separator"
-                    },
-                    {
-                        "text": "Static Content",
-                        "link": "/static-content"
-                    }
-                ]
+                "text": "Date Pro",
+                "link": "/date-pro"
+            },
+            {
+                "text": "Download Pro",
+                "link": "/download-pro"
+            },
+            {
+                "text": "Google Maps Pro",
+                "link": "/google-maps-pro"
+            },
+            {
+                "text": "Image Pro",
+                "link": "/image-pro"
+            },
+            {
+                "text": "Link Pro",
+                "link": "/link-pro"
+            },
+            {
+                "text": "Media Pro",
+                "link": "/media-pro"
+            },
+            {
+                "text": "Related Items Pro",
+                "link": "/related-items-pro"
+            },
+            {
+                "text": "Related Categories Pro",
+                "link": "/related-categories-pro"
+            },
+            {
+                "text": "Text Pro",
+                "link": "/text-pro"
+            },
+            {
+                "text": "Textarea Pro",
+                "link": "/textarea-pro"
+            },
+            {
+                "text": "Separator",
+                "link": "/separator"
+            },
+            {
+                "text": "Static Content",
+                "link": "/static-content"
             }
         ]
     },

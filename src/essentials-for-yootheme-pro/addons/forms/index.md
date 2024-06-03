@@ -1,59 +1,49 @@
----
-title: Forms
-description: Empower a Section or Column with form builder and submission capabilities
----
+# Forms Builder Overview
 
-# Forms Builder
+When a section, column or sublayout is defined as a [form area](/.form-area) it is enclosed with a standard `<form\>` HTML element without losing builder capabilities. Forms are dynamic in nature as it is YOOtheme Pro builder with dynamic content. Essentials forms builds up on both to create a dynamic data workflow before and after a submission.
 
-Empower a Section, Column or Sublayout as a Form Area with form builder and submission capabilities. Structure the area with fields and trigger actions after a successful submission.
+![Form Area Shortcut](./assets/formarea-config-shortcut.webp)
 
-<!--@include: ../_partials/enable-addon.md-->
+## Data Placeholders
 
-## 1. Create a Form Area
+Data placeholders are plain string references to the submitted data based on their control names. For instance, if there is an input field with the control name _email_, the placeholder reference would be `{email}`. These placeholders can be placed in action settings and will be replaced with the submitted data value during the action execution.
 
-An Essential form is structured inside a [Form Area](./form-area). Lets create one.
+![Form Data Placeholders](./assets/form-data-placeholders.webp)
 
-![Create a Form Area](./assets/integration/create-form-area.gif)
-
-1. Open the layout builder you want to create the form at.
-1. Create a new Section and access it _Advanced Tab_ settings.
-1. Toggle the `Enable as Form Area` checkbox.
-
-## 2. Add an After Submit Action
-
-The secton has now been declared as a Form Area and we can add and after submit actions to greet the submitter with a custom message.
+<small>
+As a quick reference a list of available placeholders can be accessed by clicking the Placeholder Button.
+</small>
 
 ::: tip
-For more advanced scenarios, adding _Email_ and _SaveTo_ actions would be necessary to send an email and save the submitted data.
+For a more advanced data workflow combine a [composed source](/essentials-for-yootheme-pro/addons/dynamic/composed-sources) with a [forma area dynamic source](./form-area#form-area-dynamic-source).
 :::
 
-![Add After Submit Actions](./assets/integration/add-form-actions.gif)
+## Page Sources
 
-1. Open the Form Area configuration created in the previous step.
-1. In _After Submit Actions_ add a new action of the type _Display Message_.
-1. Input in the _Message_ field `Thank you for your submission, your comment was {comment}!`.
+In certain form workflows, there may be a need for dynamic content from the current page, also known as page sources. This content is available during the form rendering, but is not during the form submission, which is why it's not listed as a mapping option. To work around this limitation page content can be mapped to a [hidden form field](./elements#hidden) and referenced in the actions using [data placeholders](#data-placeholders) or a [form area source](#form-area-source).
 
-::: tip Notice the `{comment}` part
-It's what we call [Data Placeholders](./data-workflow#data-placeholders), and is one of the simplest and direct ways to reference submitted data.
+::: warning Hidden, But Still Exposed
+It's important to note that although hidden field content is not visible on the page, it is still exposed in the source code of the page. If the data is sensitive, it's crucial to enable the encryption setting in the hidden field to ensure that it remains secure and protected from unauthorized access or disclosure.
 :::
 
-## 3. Add Form Fields
+## Contextual Data
 
-Essentials comes with prebuild [elements](./elements) to structure a form as needed. Let's add a textarea to collect the comment and a submit button.
+Contextual data such as the current date and time, page URL, and user IP are not included in the submission by default. However, since this information is available within dynamic sources, it can be easily mapped to the actions when necessary.
 
-![Add Form Fields](./assets/integration/add-form-fields.gif)
+As a quick reference use these sources:
 
-1. Go back to the builder main panel and add an __Textarea Element__ from the `Form Essentials` group.
-1. Open it configuration panel and input `comment` in the _Control Name_ setting.
-1. Repeat the process adding a _Button Element_ which will render a submit button by default.
+| Data | Source |
+| --- | --- |
+| Datetime | *Request -> Timestamp* |
+| User IP | *Request -> IP* |
+| Page URL | *Request -> Href* |
 
-## 4. Test The Submission
+## Validation
 
-Let's give it a try!
+For a form data to be submitted it must pass the fields validation as well as the CAPTCHA validation, if any present. The validation is first run in the browser, and once again via server-side ajax request.
 
-![Form Submission Test](./assets/integration/submission-test.webp)
+Each field has its own validation rules which can be set independently under the element _Validation Tab_ settings. For more information and integration details, refer to [elements](./elements) documentation.
 
-1. Locate the form in the builder preview.
-1. Input a message in the Comment textarea and Submit.
-
-You should see a modal with the submitted message!
+::: warning Custom Error Message
+At the moment, it is only possible to customize the validation error messages for server-side validation, not for HTML5 validation. A workaround is to disable HTML5 validation in the Form Area configuration.
+:::

@@ -39,8 +39,12 @@
         "base": "/essentials-for-yootheme-pro/addons/forms",
         "items": [
             {
-                "text": "Integration",
+                "text": "Overview",
                 "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
             },
             {
                 "text": "Form Area",
@@ -48,7 +52,7 @@
             },
             {
                 "text": "Actions",
-                "link": "/actions/"
+                "link": "/actions"
             },
             {
                 "text": "Elements",
@@ -57,10 +61,6 @@
             {
                 "text": "Captcha",
                 "link": "/captcha"
-            },
-            {
-                "text": "Data Workflow",
-                "link": "/data-workflow"
             }
         ]
     },
@@ -69,16 +69,16 @@
         "base": "/essentials-for-yootheme-pro/addons/sources",
         "items": [
             {
-                "text": "Integration",
+                "text": "Overview",
                 "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
             },
             {
                 "text": "Sources",
                 "link": "/providers"
-            },
-            {
-                "text": "Conditions & Filters",
-                "link": "/conditions-and-filters"
             }
         ]
     },
@@ -87,12 +87,12 @@
         "base": "/essentials-for-yootheme-pro/addons/dynamic",
         "items": [
             {
-                "text": "Integration",
+                "text": "Overview",
                 "link": "/"
             },
             {
-                "text": "Extended Workflow",
-                "link": "/extended-workflow"
+                "text": "Integration",
+                "link": "/integration"
             },
             {
                 "text": "Composed Sources",
@@ -105,12 +105,12 @@
         "base": "/essentials-for-yootheme-pro/addons/access",
         "items": [
             {
-                "text": "Integration",
+                "text": "Overview",
                 "link": "/"
             },
             {
-                "text": "Condition",
-                "link": "/condition"
+                "text": "Integration",
+                "link": "/integration"
             },
             {
                 "text": "Rules",
@@ -123,16 +123,16 @@
         "base": "/essentials-for-yootheme-pro/addons/icons",
         "items": [
             {
-                "text": "Integration",
+                "text": "Overview",
                 "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
             },
             {
                 "text": "Collections",
                 "link": "/collections"
-            },
-            {
-                "text": "My Icons",
-                "link": "/my-icons"
             }
         ]
     },
@@ -141,12 +141,12 @@
         "base": "/essentials-for-yootheme-pro",
         "items": [
             {
-                "text": "Integration",
+                "text": "Overview",
                 "link": "/addons/layouts/"
             },
             {
-                "text": "Libraries",
-                "link": "/addons/layouts/libraries"
+                "text": "Integration",
+                "link": "/addons/layouts/integration"
             },
             {
                 "text": "Storage Abstraction",
@@ -159,50 +159,50 @@
         "base": "/essentials-for-yootheme-pro/addons/elements",
         "items": [
             {
-                "text": "Integration",
+                "text": "Overview",
                 "link": "/"
             },
             {
-                "text": "Chart",
-                "link": "/chart"
+                "text": "Chart Element",
+                "link": "/chart-element"
             },
             {
-                "text": "Markdown",
-                "link": "/markdown"
+                "text": "Markdown Element",
+                "link": "/markdown-element"
             },
             {
-                "text": "Social Sharing",
-                "link": "/social-sharing"
+                "text": "Social Sharing Element",
+                "link": "/social-sharing-element"
             }
         ]
     },
     {
         "text": "Developer",
-        "base": "/essentials-for-yootheme-pro/developer",
+        "base": "/essentials-for-yootheme-pro",
         "items": [
             {
                 "text": "Custom Form Action",
-                "link": "/custom-form-action"
+                "link": "/addons/forms/custom-action"
             },
             {
                 "text": "Custom Source Provider",
-                "link": "/custom-source-provider"
+                "link": "/addons/sources/custom-provider"
             },
             {
                 "text": "Custom Access Rule",
-                "link": "/custom-access-rule"
+                "link": "/addons/access/custom-rule"
             },
             {
                 "text": "Custom Icon Collection",
-                "link": "/custom-icon-collection"
+                "link": "/addons/icons/custom-collection"
             },
             {
                 "text": "Custom Twitter Dev App",
                 "link": "/custom-twitter-dev-app"
             },
             {
-                "text": "Form Hooks",
-                "link": "/form-hooks"
+                "text": "Form Events",
+                "link": "/addons/forms/form-events"
             }
         ]
     },
@@ -211,15 +211,15 @@
         "base": "/essentials-for-yootheme-pro/addons",
         "items": [
             {
-                "text": "Forms Issues",
+                "text": "Issues With Forms",
                 "link": "/forms/troubleshooting"
             },
             {
-                "text": "Sources Issues",
+                "text": "Issues With Sources",
                 "link": "/sources/troubleshooting"
             },
             {
-                "text": "Icon Issues",
+                "text": "Issues With Icons",
                 "link": "/icons/troubleshooting"
             }
         ]

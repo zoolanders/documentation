@@ -1,8 +1,6 @@
-# Actions
+# After Submit Actions
 
-Run actions after a successfull form submission.
-
-After Submit Actions are crucial for the form workflow and can be set in the Form Area [configuration](./form-area#after-submit-actions). To learn more about actions, see the corresponding Form Area documentation.
+Actions are multi-instance functions that will run sequentially, after a form has been successfully submitted. To learn more about [actions](./form-area#after-submit-actions), see the corresponding documentation.
 
 <!--@include: ./_partials/action-airtable.md-->
 <!--@include: ./_partials/action-alter.md-->

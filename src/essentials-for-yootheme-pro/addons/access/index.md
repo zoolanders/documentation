@@ -1,34 +1,29 @@
----
-title: Access
-description: Compose rules that will determine the evaluation criteria for rendering an element
----
+# Access Conditions Overview
 
-# Access Conditions
+Compose rules that will determine the evaluation criteria for rendering an element. With support for static and dynamic values, establish custom evaluation logic, and view logs directly in the builder to gain a better understanding of the evaluation results.
 
-Compose rules that will determine the evaluation criteria for rendering an element. You can use static or dynamic values, establish custom evaluation logic, and view logs directly in the builder to gain a better understanding of the evaluation results.
+The rules are composed in the builder element _Advanced Tab_ settings. Go through the [Integration Guide](./integration) to learn more about how to set a condition.
 
-<!--@include: ../_partials/enable-addon.md-->
+![Access Condition](./assets/access-condition.webp)
 
-## 1. Open the Condition Panel
+## Composable Rules
 
-Navigate to the Builder and select the element you want to condition. From there, open the Access Condition Rules panel located under the [Advanced Settings](https://yootheme.com/support/yootheme-pro/joomla/elements).
+Essentials provides a variety of core [rules](./rules), totaling over 16 organized into groups of _Site_, _Device_ and _DateTime_. It is possible to include multiple types of the same rule within a single condition, with different configurations.
 
-![Open Access Condition Panel](./assets/open-condition-panel.gif)
+![Access Condition Rules](./assets/access-condition-rules.webp)
 
-## 2. Compose the Condition
+## Evaluation Mode
 
-Check the [rules reference](./rules) to gain insights and form the condition according to your needs. In this particular case, we will be using a Day rule.
+When an Access Condition is applied to an element, it will first evaluate each of the specified rules individually, then will apply an evaluation mode, `AND|OR|Custom`, to determine the final result. The `AND` mode requires all rules to pass, `OR` mode requires at least one, while `Custom` mode would apply a custom logic.
 
-![Compose Access Condition](./assets/compose-condition.gif)
+A custom logic is inputed with a query that references each rule using their order number within brackets, such as `{1}`, and use `AND|OR` operators, such as `{1} AND {2}`, or `{1} OR {2}`. Parentheses can also be used to alter the execution order, such as `({1} AND {2}) OR {3}`.
 
-## 3. Set an Evaluation Mode
+![Access Condition Evaluation](./assets/access-condition-evaluation.webp)
 
-If a condition is composed of multiple rules, the default evaluation mode is `AND`, meaning the condition will only be validated if all rules evaluate as true. However, you can also set the mode to `OR` or even `Custom`. In this case we are going to keep the default mode.
+## Evaluation Logs
 
-![Set Access Condition Evaluation Mode](./assets/set-evaluation-mode.gif)
+While in the customizer, the Access Condition will display evaluation logs for each rule as well the final result. These logs can be used to gain insights into the evaluation process and troubleshoot any issues with the logic.
 
-### 4. Final Review
+![Access Condition Evaluation Logs](./assets/access-condition-logs.webp)
 
-Review the logs to confirm that the evaluation is using the correct data and that the outcome match your expectation.
-
-![Review Access Condition Evaluation Logs](./assets/review-evaluation-logs.gif)
+![Access Condition Evaluation Log](./assets/access-condition-log.webp)

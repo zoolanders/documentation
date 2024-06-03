@@ -1,8 +1,6 @@
-# Rules
+# Access Rules
 
-Condition your content or workflow with rules.
-
-Rules are used to compose elements render conditions as well as form action execution conditions. To learn more about general [condition settings](./condition.md), see the corresponding documentation.
+A list of rules to compose a condition. To learn more about [conditions](./), see the corresponding documentation.
 
 <!--@include: ./_partials/rule-dynamic.md-->
 <!--@include: ./_partials/rule-language.md-->
