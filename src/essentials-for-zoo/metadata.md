@@ -68,17 +68,3 @@ Use the [Static Content Element](../../elements/static-content) when the content
 For more information about Open Graph visit the [Open Graph official page](http://ogp.me/).
 For testing the results checkout [Facebook Debuger](https://www.facebook.com/login.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2F).
 :::
-
-## Troubleshooting
-
-### Category Open Graph
-
-The Open Graph meta tags can only be applied to ZOO Item views.
-
-### The metadata is not being displaying on the Item page
-
-Make sure the ZOOlanders ZOOseo Plugin is enabled and that the _ZOOseo Metadata Item_ layout is populated.
-
-### The Open Graph tags are not being recognized
-
-Some services, like Facebook, cannot scrape the website when _Joomla! GZIP_ compression is enabled. As currently there is no workaround for it, the best is to keep the compression off when using Open Graph.

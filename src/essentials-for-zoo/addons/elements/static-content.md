@@ -1,60 +1,62 @@
-# Element - Static Content
+# Static Content Element
 
-The Static Content element allows rendering static text, specific Items, Links and other content directly on the layout Positions. Being a Core element does not require any presetting and will be rendered for each Item.
+The **Static Content Element** allows rendering static text, specific Items, Links and other content directly on the layout Positions. Being a Core element does not require any presetting and will be rendered for each Item.
 
-## Render Options
-
-### Text/Plugin
+## Text/Plugin Layout
 
 Allows displaying a static text.
 
-- **Text**: The text that will be displayed.
-- **Plugins**: If enabled the Joomla! Content Plugins will be evaluated on the entered text.
+| Setting | Description |
+| --- | --- |
+| _Text_ | The text that will be displayed. |
+| _Plugins_ | If enabled the Joomla! Content Plugins will be evaluated on the entered text. |
 
-### Link
+## Link Layout
 
 Displays different kind of links, Item, Category or Custom.
 
-- **Text**: The link text.
-- **Title**: The link title.
-- **New window**: If enabled the link will be opened in a new browser window.
-- **Rel**: The link rel attribute.
+| Setting | Description |
+| --- | --- |
+| _Text_ | The link text. |
+| _Title_ | The link title. |
+| _New window_ | If enabled the link will be opened in a new browser window. |
+| _Rel_ | The link rel attribute. |
+| _Item link_ | Displays a link to a ZOO item. |
+| -- _Item Source_ | Allows choosing the Item that will be link by Current, referencing the current Item being rendered or Specified, allowing to choose an specific Item. |
+| -- _Item ID_ | If the Item Source is set to Specific allows setting the Item ID which will be linked. |
+| -- _Layout_ | Allows selecting the layout that will be used to display the Item when the link is followed. |
+| _Category link_ | Displays a link to a ZOO category |
+| -- _Category ID_ | The Category ID which will be linked. |
+| _Custom link_ | Displays a custom link. |
+| -- _URL_ | The link URL. |
 
-**Item link**, displays a link to a ZOO item.
-
-- **Item Source**: Allows choosing the Item that will be link by Current, referencing the current Item being rendered or Specified, allowing to choose an specific Item.
-- **Item ID**: If the Item Source is set to Specific allows setting the Item ID which will be linked.
-- **Layout**: Allows selecting the layout that will be used to display the Item when the link is followed.
-
-**Category link**, displays a link to a ZOO category.
-
-- **Category ID**: The Category ID which will be linked.
-
-**Custom link**, displays a custom link.
-
-- **URL**: The link URL.
-
-### Item
+## Item Layout
 
 Renders a specific ZOO item.
 
-- **Item Layout**: The layout that will be used for rendering the item.
-- **Item Source**: Allows selecting the Item source by Current, referencing the current Item being rendered or Specified, allowing to choose an specific Item.
-- **Item ID**: If the Item Source is set to Specific allows setting the Item ID which will be rendered.
+| Setting | Description |
+| --- | --- |
+| _Item Layout_ | The layout that will be used for rendering the item. |
+| _Item Source_ | Allows selecting the Item source by Current, referencing the current Item being rendered or Specified, allowing to choose an specific Item. |
+| _Item ID_ | If the Item Source is set to Specific allows setting the Item ID which will be rendered. |
 
-### Module
+## Module Layout
 
 Displays a specific module.
 
-- **Module**: The Module that will be displayed.
+| Setting | Description |
+| --- | --- |
+| _Module_ | The Module that will be displayed. |
 
-### Iframe
+## Iframe Layout
 
 Displays an iframe with a custom url or specified Item.
 
-- **Item**
-  - **Item Layout**: The layout that will be used for rendering the item.
-  - **Item Source**: Allows selecting the Item source by Current, referencing the current Item being rendered or Specified, allowing to choose an specific Item.
-  - **Item ID**: If the Item Source is set to Specific allows setting the Item ID which will be rendered.
-- **URL**
-  - **URL**: The URL.
+| Setting | Description |
+| --- | --- |
+| _Item_ |
+| -- _Item Layout_ | The layout that will be used for rendering the item. |
+| -- _Item Source_ | Allows selecting the Item source by Current, referencing the current Item being rendered or Specified, allowing to choose an specific Item. |
+| -- _Item ID_ | If the Item Source is set to Specific allows setting the Item ID which will be rendered. |
+| _URL_ |
+| -- _URL_ | The URL. |

@@ -18,9 +18,9 @@ Changes in the `renderer` folder will be respected during updates.
 
 ## Custom Elements support
 
-In order to filter by custom elements, those must have specified the ZL Filter group **Category**, **Date**, **Input**, **Option** or **Rating** in the manifest declaration:
+In order to filter by custom elements, those must have specified the ZL Filter group _Category_, _Date_, _Input_, _Option_ or _Rating_ in the manifest declaration:
 
-1. Open the custom element **XML** manifest file and localize the `<element>` tag.
+1. Open the custom element _XML_ manifest file and localize the `<element>` tag.
 1. Add the `zl_filter_group` attribute with the appropriate category value.
 
 The resultant tag should look like `<element type="{type}" zl_filter_group="{group}">`.

@@ -1,9 +1,24 @@
 # Installation
 
-Download the [Essentials for ZOO](https://www.zoolanders.com/downloads) plugin and install it by following the official [Joomla extension installation](https://docs.joomla.org/Installing_an_extension) instructions. After a successful installation, a plugin named **Essentials ZOO** (a.k.a. `zooessentials`) should be listed and enabled.
+Download the [Essentials for ZOO](https://www.zoolanders.com/downloads) package and install it by following the official [Joomla extension installation](https://docs.joomla.org/Installing_an_extension) instructions. After a successful installation the following plugins should be listed and enabled.
 
-::: tip Installation Folder
-The plugin will be installed under the `plugins/system/zooessentials` directory.
+- `plugins/system/zlframework`
+- `plugins/system/zoo_zlelements`
+- `plugins/system/zooseo`
+- `plugins/system/zooport`
+- `plugins/system/zooaccess`
+- `plugins/system/zoofilter`
+- `plugins/system/zoolingual`
+- `plugins/system/zootrack`
+- `plugins/system/widgetkit_zl`
+- `plugins/system/zooessentials_source`
+
+## Translation
+
+If your site is multilignual, you may want to install the INI translation files for the needed languages. Similarly [download the required translation packages](http://static.zoolanders.com/translations/) and install them using the _Joomla! Extension Manager_ or upload the files manually into the `administrator/language/{LANGUAGE}` folder.
+
+::: tip
+If a language is missing or incomplete, you can contribute to the translation at [Transifex](https://www.transifex.com/joolanders/zoolanders/).
 :::
 
 ## Updating

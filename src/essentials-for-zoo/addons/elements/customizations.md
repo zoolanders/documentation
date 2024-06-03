@@ -6,9 +6,9 @@ Customizing an element should be considered with caution, as future source updat
 
 The override paths allows you to place your custom files separated from the source, making sure they are not lost on future updates.
 
-- `media/zoo/custom_elements/{element}`: global, it will apply the override always.
-- `media/zoo/applications/{application}/elements/{element}`: App specific, it will apply the override only when the specified App is displayed.
-- `media/zoo/applications/{application}/templates/{template}/elements/{element}`: App template specific,  it will apply the override only when the specified App is displayed using the specified Template.
+- `media/zoo/custom_elements/{element}` <br>Global, it will apply the override always.
+- `media/zoo/applications/{application}/elements/{element}` <br>App specific, it will apply the override only when the specified App is displayed.
+- `media/zoo/applications/{application}/templates/{template}/elements/{element}` <br>App template specific,  it will apply the override only when the specified App is displayed using the specified Template.
 
 ## Custom Layouts
 

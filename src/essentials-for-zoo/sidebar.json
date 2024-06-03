@@ -11,10 +11,6 @@
                 "link": "/essentials-for-zoo/installation"
             },
             {
-                "text": "Translation",
-                "link": "/essentials-for-zoo/translation"
-            },
-            {
                 "text": "Changelog",
                 "link": "https://www.zoolanders.com/essentials-for-zoo/changelog"
             }
@@ -43,6 +39,74 @@
             {
                 "text": "Widgetkit",
                 "link": "/widgetkit"
+            }
+        ]
+    },
+    {
+        "text": "Pro Elements",
+        "base": "/essentials-for-zoo/addons/elements",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Conditional Rendering",
+                "link": "/conditional-rendering"
+            },
+            {
+                "text": "Elements",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Date Pro",
+                        "link": "/date-pro"
+                    },
+                    {
+                        "text": "Download Pro",
+                        "link": "/download-pro"
+                    },
+                    {
+                        "text": "Google Maps Pro",
+                        "link": "/google-maps-pro"
+                    },
+                    {
+                        "text": "Image Pro",
+                        "link": "/image-pro"
+                    },
+                    {
+                        "text": "Link Pro",
+                        "link": "/link-pro"
+                    },
+                    {
+                        "text": "Media Pro",
+                        "link": "/media-pro"
+                    },
+                    {
+                        "text": "Related Items Pro",
+                        "link": "/related-items-pro"
+                    },
+                    {
+                        "text": "Related Categories Pro",
+                        "link": "/related-categories-pro"
+                    },
+                    {
+                        "text": "Text Pro",
+                        "link": "/text-pro"
+                    },
+                    {
+                        "text": "Textarea Pro",
+                        "link": "/textarea-pro"
+                    },
+                    {
+                        "text": "Separator",
+                        "link": "/separator"
+                    },
+                    {
+                        "text": "Static Content",
+                        "link": "/static-content"
+                    }
+                ]
             }
         ]
     },
@@ -87,73 +151,6 @@
         ]
     },
     {
-        "text": "Advanced Elements",
-        "base": "/essentials-for-zoo/addons/elements",
-        "items": [
-            {
-                "text": "Overview",
-                "link": "/"
-            },
-            {
-                "text": "Conditional Rendering",
-                "link": "/conditional-rendering"
-            },
-            {
-                "text": "Elements",
-                "items": [
-                    {
-                        "text": "Date Pro",
-                        "link": "/date-pro"
-                    },
-                    {
-                        "text": "Download Pro",
-                        "link": "/download-pro"
-                    },
-                    {
-                        "text": "Google Maps Pro",
-                        "link": "/google-maps-pro"
-                    },
-                    {
-                        "text": "Image Pro",
-                        "link": "/image-pro"
-                    },
-                    {
-                        "text": "Link Pro",
-                        "link": "/link-pro"
-                    },
-                    {
-                        "text": "Media Pro",
-                        "link": "/media-pro"
-                    },
-                    {
-                        "text": "Related Categories Pro",
-                        "link": "/related-categories-pro"
-                    },
-                    {
-                        "text": "Related Items Pro",
-                        "link": "/related-items-pro"
-                    },
-                    {
-                        "text": "Text Pro",
-                        "link": "/text-pro"
-                    },
-                    {
-                        "text": "Textarea Pro",
-                        "link": "/textarea-pro"
-                    },
-                    {
-                        "text": "Separator",
-                        "link": "/separator"
-                    },
-                    {
-                        "text": "Static Content",
-                        "link": "/static-content"
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "text": "Developer",
         "base": "/essentials-for-zoo/addons",
         "items": [
@@ -173,11 +170,27 @@
     },
     {
         "text": "Troubleshooting",
-        "base": "/essentials-for-zoo/addons",
+        "base": "/essentials-for-zoo",
         "items": [
             {
+                "text": "SEO Issues",
+                "link": "/troubleshooting/seo"
+            },
+            {
+                "text": "Import Issues",
+                "link": "/troubleshooting/port"
+            },
+            {
+                "text": "Elements Issues",
+                "link": "/addons/elements/troubleshooting"
+            },
+            {
+                "text": "Widgetkit Issues",
+                "link": "/troubleshooting/widgetkit"
+            },
+            {
                 "text": "ZOO Filter Issues",
-                "link": "/filter/troubleshooting"
+                "link": "/addons/filter/troubleshooting"
             }
         ]
     }

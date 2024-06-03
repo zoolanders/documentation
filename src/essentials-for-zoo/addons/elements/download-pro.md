@@ -1,56 +1,54 @@
-# Element - DownloadPro
+# DownloadPro Element
 
-DownloadPro extends with new features the ZOO Download element. Once the element is set in the Type there are several configuration params that differ from the ZOO ones.
+The **DownloadPro Element** extends with new features the ZOO Download element. Once the element is set in the Type there are several configuration params that differ from the ZOO ones.
 
-## Config
+| Setting | Description |
+| --- | --- |
+| _Download Mode_ |
+| -- _Direct_ | The download link will be pointing directly to the file. |
+| -- _Attachment_ | The download link will attach the file without revealing it ubication. |
+| -- _Protected_ | The download link will attach the file and prevent any unauthorized access. |
 
-- **Download Mode**
-  - **Direct**: The download link will be pointing directly to the file.
-  - **Attachment**: The download link will attach the file without revealing it ubication.
-  - **Protected**: The download link will attach the file and prevent any unauthorized access.
-
-## Layouts
-
-### Default - default
+## Default Layout
 
 Renders a current file download link.
 
-- **Download Name**: A custom text for the Download button or link. Supported `{filename}` and `{title}` variables.
-- **New window**: If enabled the download will be processed in a new window.
+| Setting | Description |
+| --- | --- |
+| _Download Name_ | A custom text for the Download button or link. Supported `{filename}` and `{title}` variables. |
+| _New window_ | If enabled the download will be processed in a new window. |
 
-### Default - buttonlink
+## Default Buttonlink Layout
 
 Renders a current file download button.
 
-- **Download Name**: A custom text for the Download button or link. Supported `{filename}` and `{title}` variables.
-- **New window**: If enabled the download will be processed in a new window.
+| Setting | Description |
+| --- | --- |
+| _Download Name_ | A custom text for the Download button or link. Supported `{filename}` and `{title}` variables. |
+| _New window_ | If enabled the download will be processed in a new window. |
 
-### Default - imagelink
+## Default Imagelink Layout
 
 Renders an icon linking to the current file download. Each file has a different icon relative to it extension.
 
-- **Download Name**: A custom text for the Download button or link. Supported `{filename}` and `{title}` variables.
-- **New window**: If enabled the download will be processed in a new window.
-- **Set**: Select the style for the icons. The default set is stored in the element `tmpl/render/default/_sublayouts/_imagelink/sets/default` path.
+| Setting | Description |
+| --- | --- |
+| _Download Name_ | A custom text for the Download button or link. Supported `{filename}` and `{title}` variables. |
+| _New window_ | If enabled the download will be processed in a new window. |
+| _Set_ | Select the style for the icons. The default set is stored in the element `tmpl/render/default/_sublayouts/_imagelink/sets/default` path. |
 
-### Default - download_limit
+## Default Download Limit Layout
 
 Renders the current file download limit value.
 
-### Default - filehits
+## Default Filehits Layout
 
 Renders the current file amount of downloads value.
 
-### Default - filesize
+## Default Filesize Layout
 
 Renders the current file size value.
 
-### Default - raw_link
+## Default Raw Link Layout
 
 Renders the current file raw link value.
-
-## Troubleshooting
-
-### Geocode was not successful
-
-If you see a message like `Geocode was not successful for the following reason: REQUEST_DENIED`, most likely you need to activate the Google Maps Static API and Google Maps Geocoding API in the Google developer console.
