@@ -1,12 +1,9 @@
-/node_modules
-.vitepress/dist
 .vitepress/cache
 .vitepress/.temp
 
-/.next/
-.vercel
 /build
 /dist/
+/node_modules
 
 # misc
 .DS_Store

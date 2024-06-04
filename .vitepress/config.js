@@ -7,16 +7,17 @@ export default defineConfig({
     title: 'ZOOlanders',
     description: 'Guides and Documentation for Essential Addons.',
     srcDir: 'src',
+    outDir: 'dist',
     srcExclude: ['**/_partials/*.md'],
     head: [['link', { rel: 'icon', href: '/favicon.png' }]],
     sitemap: {
         hostname: 'https://zoolanders.com',
     },
     themeConfig: {
-        logo: '/zoolanders-logo.svg',
+        logo: '/zoolanders.svg',
         siteTitle: false,
         editLink: {
-            pattern: 'https://github.com/zoolanders/documentation/edit/v3/src/:path',
+            pattern: 'https://github.com/zoolanders/documentation/edit/main/src/:path',
         },
         search: {
             provider: 'local',
