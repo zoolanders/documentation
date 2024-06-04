@@ -1,0 +1,231 @@
+[
+    {
+        "text": "Getting Started",
+        "items": [
+            {
+                "text": "Introduction",
+                "link": "/essentials-for-yootheme-pro/"
+            },
+            {
+                "text": "Installation",
+                "link": "/essentials-for-yootheme-pro/installation"
+            },
+            {
+                "text": "Changelog",
+                "link": "https://www.zoolanders.com/essentials-for-yootheme-pro/changelog"
+            }
+        ]
+    },
+    {
+        "text": "General",
+        "base": "/essentials-for-yootheme-pro/",
+        "items": [
+            {
+                "text": "Auth, Keys & Secrets",
+                "link": "auths/"
+            },
+            {
+                "text": "Auth Drivers",
+                "link": "auths/drivers"
+            },
+            {
+                "text": "Settings",
+                "link": "settings"
+            }
+        ]
+    },
+    {
+        "text": "Forms Builder",
+        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            },
+            {
+                "text": "Form Area",
+                "link": "/form-area"
+            },
+            {
+                "text": "Actions",
+                "link": "/actions"
+            },
+            {
+                "text": "Elements",
+                "link": "/elements"
+            },
+            {
+                "text": "Captcha",
+                "link": "/captcha"
+            }
+        ]
+    },
+    {
+        "text": "Dynamic Sources",
+        "base": "/essentials-for-yootheme-pro/addons/sources",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            },
+            {
+                "text": "Sources",
+                "link": "/providers"
+            }
+        ]
+    },
+    {
+        "text": "Dynamic Content",
+        "base": "/essentials-for-yootheme-pro/addons/dynamic",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            },
+            {
+                "text": "Composed Sources",
+                "link": "/composed-sources"
+            }
+        ]
+    },
+    {
+        "text": "Access Conditions",
+        "base": "/essentials-for-yootheme-pro/addons/access",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            },
+            {
+                "text": "Rules",
+                "link": "/rules"
+            }
+        ]
+    },
+    {
+        "text": "Icons",
+        "base": "/essentials-for-yootheme-pro/addons/icons",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            },
+            {
+                "text": "Collections",
+                "link": "/collections"
+            }
+        ]
+    },
+    {
+        "text": "Layout Libraries",
+        "base": "/essentials-for-yootheme-pro",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/addons/layouts/"
+            },
+            {
+                "text": "Integration",
+                "link": "/addons/layouts/integration"
+            },
+            {
+                "text": "Storage Abstraction",
+                "link": "/storage"
+            }
+        ]
+    },
+    {
+        "text": "Elements",
+        "base": "/essentials-for-yootheme-pro/addons/elements",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Chart Element",
+                "link": "/chart-element"
+            },
+            {
+                "text": "Markdown Element",
+                "link": "/markdown-element"
+            },
+            {
+                "text": "Social Sharing Element",
+                "link": "/social-sharing-element"
+            }
+        ]
+    },
+    {
+        "text": "Developer",
+        "base": "/essentials-for-yootheme-pro",
+        "items": [
+            {
+                "text": "Custom Form Action",
+                "link": "/addons/forms/custom-action"
+            },
+            {
+                "text": "Custom Source Provider",
+                "link": "/addons/sources/custom-provider"
+            },
+            {
+                "text": "Custom Access Rule",
+                "link": "/addons/access/custom-rule"
+            },
+            {
+                "text": "Custom Icon Collection",
+                "link": "/addons/icons/custom-collection"
+            },
+            {
+                "text": "Custom Twitter Dev App",
+                "link": "/auths/custom-twitter-dev-app"
+            },
+            {
+                "text": "Custom Facebook Dev App",
+                "link": "/auths/custom-facebook-dev-app"
+            },
+            {
+                "text": "Form Events",
+                "link": "/addons/forms/form-events"
+            }
+        ]
+    },
+    {
+        "text": "Troubleshooting",
+        "base": "/essentials-for-yootheme-pro/addons",
+        "items": [
+            {
+                "text": "Forms Related Issues",
+                "link": "/forms/troubleshooting"
+            },
+            {
+                "text": "Sources Related Issues",
+                "link": "/sources/troubleshooting"
+            },
+            {
+                "text": "Icons Related Issues",
+                "link": "/icons/troubleshooting"
+            }
+        ]
+    }
+]

@@ -1,0 +1,191 @@
+[
+    {
+        "text": "Getting Started",
+        "items": [
+            {
+                "text": "Introduction",
+                "link": "/essentials-for-zoo/"
+            },
+            {
+                "text": "Installation",
+                "link": "/essentials-for-zoo/installation"
+            },
+            {
+                "text": "Changelog",
+                "link": "https://www.zoolanders.com/essentials-for-zoo/changelog"
+            }
+        ]
+    },
+    {
+        "text": "General",
+        "base": "/essentials-for-zoo",
+        "items": [
+            {
+                "text": "SEO",
+                "link": "/seo"
+            },
+            {
+                "text": "Metadata",
+                "link": "/metadata"
+            },
+            {
+                "text": "Import/Export",
+                "link": "/import-export"
+            },
+            {
+                "text": "ZOO Item Pro",
+                "link": "/addons/zooitempro/"
+            },
+            {
+                "text": "Widgetkit",
+                "link": "/widgetkit"
+            }
+        ]
+    },
+    {
+        "text": "Pro Elements",
+        "base": "/essentials-for-zoo/addons/elements",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Conditional Rendering",
+                "link": "/conditional-rendering"
+            },
+            {
+                "text": "Date Pro",
+                "link": "/date-pro"
+            },
+            {
+                "text": "Download Pro",
+                "link": "/download-pro"
+            },
+            {
+                "text": "Google Maps Pro",
+                "link": "/google-maps-pro"
+            },
+            {
+                "text": "Image Pro",
+                "link": "/image-pro"
+            },
+            {
+                "text": "Link Pro",
+                "link": "/link-pro"
+            },
+            {
+                "text": "Media Pro",
+                "link": "/media-pro"
+            },
+            {
+                "text": "Related Items Pro",
+                "link": "/related-items-pro"
+            },
+            {
+                "text": "Related Categories Pro",
+                "link": "/related-categories-pro"
+            },
+            {
+                "text": "Text Pro",
+                "link": "/text-pro"
+            },
+            {
+                "text": "Textarea Pro",
+                "link": "/textarea-pro"
+            },
+            {
+                "text": "Separator",
+                "link": "/separator"
+            },
+            {
+                "text": "Static Content",
+                "link": "/static-content"
+            }
+        ]
+    },
+    {
+        "text": "Items Filtering",
+        "base": "/essentials-for-zoo/addons/filter",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Module",
+                "link": "/module"
+            },
+            {
+                "text": "Elements",
+                "link": "/elements"
+            },
+            {
+                "text": "Recipes",
+                "link": "/recipes"
+            },
+            {
+                "text": "F.A.Q.",
+                "link": "/faq"
+            }
+        ]
+    },
+    {
+        "text": "Multilingual",
+        "base": "/essentials-for-zoo/addons/lingual",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "F.A.Q.",
+                "link": "/faq"
+            }
+        ]
+    },
+    {
+        "text": "Developer",
+        "base": "/essentials-for-zoo/addons",
+        "items": [
+            {
+                "text": "ZOO Filter Customizations",
+                "link": "/filter/customizations"
+            },
+            {
+                "text": "ZOO Item Pro Customizations",
+                "link": "/zooitempro/customizations"
+            },
+            {
+                "text": "Elements Customizations",
+                "link": "/elements/customizations"
+            }
+        ]
+    },
+    {
+        "text": "Troubleshooting",
+        "base": "/essentials-for-zoo",
+        "items": [
+            {
+                "text": "SEO Issues",
+                "link": "/troubleshooting/seo"
+            },
+            {
+                "text": "Import Issues",
+                "link": "/troubleshooting/port"
+            },
+            {
+                "text": "Elements Issues",
+                "link": "/addons/elements/troubleshooting"
+            },
+            {
+                "text": "Widgetkit Issues",
+                "link": "/troubleshooting/widgetkit"
+            },
+            {
+                "text": "ZOO Filter Issues",
+                "link": "/addons/filter/troubleshooting"
+            }
+        ]
+    }
+]
