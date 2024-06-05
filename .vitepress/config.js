@@ -40,8 +40,9 @@ export default defineConfig({
         ],
 
         footer: {
-            message: 'Essentials for YOOtheme Pro and ZOO',
-            copyright: 'Copyright © <a href="https://zoolanders.com">ZOOlanders</a>',
+            // message: 'Essentials for YOOtheme Pro and ZOO',
+            copyright:
+                'Copyright © <a href="https://zoolanders.com" target="_blank">ZOOlanders</a>',
         },
     },
     transformHead({ assets }) {

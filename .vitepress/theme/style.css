@@ -121,7 +121,15 @@
 }
 
 /**
- * theme: General
+ * General
+ * -------------------------------------------------------------------------- */
+
+.dark {
+    --vp-sidebar-bg-color: var(--vp-c-bg);
+}
+
+/**
+ * Theme specific
  * -------------------------------------------------------------------------- */
 
 .tm-lead {
@@ -194,6 +202,7 @@
 }
 
 .vp-doc img {
+    width: 100%;
     max-width: 450px;
 }
 
@@ -233,16 +242,16 @@
     --vp-home-hero-name-color: #444c55;
 }
 
-.dark {
-    --vp-sidebar-bg-color: var(--vp-c-bg);
-}
-
 /**
  * Component: Hero
  * -------------------------------------------------------------------------- */
 
 .VPHero .main .name {
     font-size: 34px;
+}
+
+.VPHome {
+    margin-bottom: 0 !important;
 }
 
 /**
@@ -322,28 +331,6 @@
 }
 
 /**
- * Component: Search
- * -------------------------------------------------------------------------- */
-
-.DocSearch {
-    --docsearch-primary-color: var(--vp-c-brand-1) !important;
-}
-
-.DocSearch-Button,
-.DocSearch-Button span {
-    border: none !important;
-    color: white !important;
-    background-color: transparent !important;
-}
-
-.DocSearch-Button:hover,
-.DocSearch-Button:hover span {
-    border: none !important;
-    color: white !important;
-    background-color: transparent !important;
-}
-
-/**
  * Component: Nav
  * -------------------------------------------------------------------------- */
 
@@ -415,4 +402,30 @@
 
 .VPNav .VPNavBarTitle.has-sidebar .title {
     border-bottom: none;
+}
+
+/* DocSearch */
+
+.DocSearch {
+    --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+.DocSearch-Button {
+    background-color: transparent !important;
+}
+
+.DocSearch-Button,
+.DocSearch-Button span {
+    border: none !important;
+    color: var(--vp-nav-zl-icon) !important;
+}
+
+.DocSearch-Button:hover,
+.DocSearch-Button:hover span {
+    border: none !important;
+    color: white !important;
+}
+
+.DocSearch-Button span > kbd {
+    border-color: var(--vp-nav-zl-icon) !important;
 }
