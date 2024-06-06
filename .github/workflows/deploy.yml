@@ -36,6 +36,9 @@ jobs:
         run: |
           yarn install
           yarn build
+        env:
+          ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
+          ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1.0.9
         with:

@@ -20,7 +20,12 @@ export default defineConfig({
             pattern: 'https://github.com/zoolanders/documentation/edit/main/src/:path',
         },
         search: {
-            provider: 'local',
+            provider: 'algolia',
+            options: {
+                appId: process.env.ALGOLIA_APP_ID,
+                apiKey: process.env.ALGOLIA_API_KEY,
+                indexName: 'zoolanders',
+            },
         },
         nav: Nav,
         sidebar: Sidebar,
