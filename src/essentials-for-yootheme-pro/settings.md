@@ -69,7 +69,7 @@ Download the chosen Database from MaxMind, previous free registration is require
 
 Alternatively you can rely on 3rd party plugins for the installation and posterior updates of the Database. If opted this way, make sure the path to the Database is properly updated after installation.
 
-- [Joomla Akeeba GeoIP Provider](https://www.akeeba.com/download/akgeoip.html)
+- [Joomla Regular Labs GeoIP Provider](https://regularlabs.com/geoip)
 - [WordPress Geolocation IP Detection](https://wordpress.org/plugins/geoip-detect)
 
 ::: tip Country or City Database
