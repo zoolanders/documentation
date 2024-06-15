@@ -213,6 +213,11 @@
     background-color: inherit !important;
 }
 
+.vp-doc td em,
+.vp-doc td code {
+    text-wrap: nowrap;
+}
+
 .vp-doc th,
 .vp-doc td span.tm-table-head {
     font-weight: 400;
