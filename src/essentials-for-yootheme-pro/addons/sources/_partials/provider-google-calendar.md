@@ -10,40 +10,39 @@ The **Google Calendar Source** feeds data from [Google Calendar](https://calenda
 
 ![Google Calendar Configuration](./assets/providers/google-calendar-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Account* | The Google account which to authenticate with. | &#x2713; |
-| *Calendar* | The Google calendar which data to create the source with. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *Account* | The Google account which to authenticate with. |
+| *Calendar* | The Google calendar which data to create the source with. |
 
 ### Google Calendar Query
 
 Fetches the Calendar data resolving to a [Google Calendar Type](#google-calendar-type).
 
-| Setting | Default | Description |
+| Setting | Description |  Default |
 | --- | --- | --- |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Google Calendar Event Query
 
 Fetches a single event from the calendar and resolves to a [Google Calendar Event Type](#google-calendar-event-type).
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Event ID* | | The ID of the event to query. | &#x2713; |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Event ID* | The ID of the event to query. | | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Google Calendar Events Query
 
 Fetches events from the calendar and resolves to a list of [Google Calendar Event Type](#google-calendar-event-type).
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Query* | | Optionaly filter matching terms in the summary, description, location, attendee\'s displayName and attendee\'s email fields. |
-| *Single Events Only* | | Whether to expand recurring events into instances and only return single one-off events and instances of recurring events, but not the underlying recurring events themselves. |
-| *Order By* | | The order by which to query the events, _Start Time (asc)_ or _Updated (asc)_. |
-| *Quantity* | `250` | The maximum amount of events to query. |
-| *Time Min / Max* | | Lower and Upper bounds (exclusive) for an event\'s start or end time to filter by. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Query* | Optionaly filter matching terms in the summary, description, location, attendee\'s displayName and attendee\'s email fields. | | &#x2713; |
+| *Time Min / Max* | Lower and Upper bounds (exclusive) for an event\'s start or end time to filter by. Can be date without time, e.g. 2011-06-03 formated as `Y-m-d`, in which case the current time will be appended, or a timestamp with time zone offset, e.g. `2011-06-03T10:00:00-07:00` formated as `c`. | | &#x2713; |
+| *Order By* | The order by which to query the events. _Start Time_, by event start date/time (ascending) or _Updated_, by event last modification time (ascending). The default is an unspecified, stable order. | `Default` |
+| *Quantity* | The maximum amount of events to query, cannot be higher than `2500`. | `250` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Google Calendar Type
 

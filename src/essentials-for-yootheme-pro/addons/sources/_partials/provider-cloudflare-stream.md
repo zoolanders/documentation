@@ -10,11 +10,11 @@ The **Cloudflare Stream Source** feeds data from [Cloudflare Stream](https://www
 
 ![Cloudflare Stream Source Configuration](./assets/providers/cf-stream-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Token* | The Cloudflare API Token which to authenticate with. | &#x2713; |
-| *Account* | The Cloudflare account which to connecto to. | &#x2713; |
-| *Signing Key* | An auto-generated key used to signing private videos. | |
+| Setting | Description |
+| --- | --- |
+| *Token* | The Cloudflare API Token which to authenticate with. |
+| *Account* | The Cloudflare account which to connecto to. |
+| *Signing Key* | An auto-generated key used to signing private videos. Not necessary for public videos. |
 
 ### Cloudflare Stream Video Query
 
@@ -22,10 +22,10 @@ Fetches a single video from the authenticated account and resolves to a [Cloudfl
 
 ![Cloudflare Stream Video Query](./assets/providers/cf-stream-query-video.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Video* | | The Cloudflare Stream video to create the source from. | &#x2713; |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Video* | The Cloudflare Stream video to create the source from. | | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Cloudflare Stream Videos Query
 
@@ -33,13 +33,13 @@ Fetches videos from the authenticated account and resolves to a list of [Cloudfl
 
 ![Cloudflare Stream Videos Query](./assets/providers/cf-stream-query-videos.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Search* | | The video name search term by which to filter the results. |
-| *Since/Until* | | Restricts the results to videos that have been published within the specified range of dates. |
-| *Status* | `Ready` | The status by whic to filter the results, within _Ready_, _Queued_, _In Progress_, _Downloading_, and _Error_. |
-| *Quantity* | `20` | The amount of videos to fetch. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Search* | The video name search term by which to filter the results. | | &#x2713; |
+| *Since/Until* | Restricts the results to videos that have been published within the specified range of dates. | | &#x2713; |
+| *Status* | The status by whic to filter the results, within _Ready_, _Queued_, _In Progress_, _Downloading_, and _Error_. | `Ready` |
+| *Quantity* | The amount of videos to fetch. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Cloudflare Stream Video Type
 

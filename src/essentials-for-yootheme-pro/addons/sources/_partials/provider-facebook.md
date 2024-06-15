@@ -10,10 +10,10 @@ The **Facebook Source** feeds data from [Facebook](https://www.facebook.com/) su
 
 ![Facebook Source Configuration](./assets/providers/fb-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Account* | The Facebook Account which to authenticate with. | &#x2713; |
-| *Page* | The Facebook page from which to create the source content. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *Account* | The Facebook Account which to authenticate with. |
+| *Page* | The Facebook page from which to create the source content. |
 
 ### Facebook Page Query
 
@@ -21,9 +21,9 @@ Fetches the content from the page resolving to a list of [Facebook Page Type](#f
 
 ![Facebook Page Query](./assets/providers/fb-query-page.webp)
 
-| Setting | Default | Description |
+| Setting | Description | Default |
 | --- | --- | --- |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Facebook Page Posts Query
 
@@ -31,10 +31,10 @@ Fetches the posts from the page resolving to a list of [Facebook Page Post Type]
 
 ![Facebook Page Posts Query](./assets/providers/fb-query-page-posts.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Limit* | `20` | The maximum amount of posts to fetch. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Limit* | The maximum amount of posts to fetch. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Facebook Page Type
 

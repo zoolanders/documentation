@@ -10,9 +10,9 @@ The Vimeo Source feeds media from [Vimeo](https://www.vimeo.com) supporting [My 
 
 ![Vimeo Source Configuration](./assets/providers/vimeo-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Account* | The Vimeo Account which to authenticate with. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *Account* | The Vimeo Account which to authenticate with. |
 
 ### Vimeo My Videos Query
 
@@ -20,16 +20,16 @@ Fetches videos from the authenticated account and resolves to a list of [Vimeo V
 
 ![Vimeo My Videos Query](./assets/providers/vimeo-query-myvideos.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Query* | | The search term by which to filter the videos. |
-| *Attribute* | | The video attribute by which to filter the videos, within _Featured_, _Live_, and _No Live_. |
-| *Tags* | | Comma separated tags by which to filter the videos. |
-| *Sort* | `Default` | The order of the videos, within _Default_, _Alphabetical_, _Date_, _Modified_, _Duration_, _Last User Action_, _Total Plays_, and _Total Likes_. |
-| *Direction* | `Descending` | The order direction of the videos, _Ascending_ or _Descending_. |
-| *Page* | `1` | The page number of the videos. |
-| *Per Page* | `25` | The number of videos to return on each page, up to a maximum of 100. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Query* | The search term by which to filter the videos. | | &#x2713; |
+| *Attribute* | The video attribute by which to filter the videos, within _Featured_, _Live_, and _No Live_. |
+| *Tags* | Comma separated tags by which to filter the videos. | | &#x2713; |
+| *Sort* | The order of the videos, within _Default_, _Alphabetical_, _Date_, _Modified_, _Duration_, _Last User Action_, _Total Plays_, and _Total Likes_. | `Default` | &#x2713; |
+| *Direction* | The order direction of the videos, _Ascending_ or _Descending_. | `Descending` |
+| *Page* | The page number of the videos. | `1` | &#x2713; |
+| *Per Page* | The number of videos to return on each page, up to a maximum of 100. | `25` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Vimeo My Folder Videos Query
 
@@ -37,16 +37,16 @@ Fetches videos from the authenticated account specific folder and resolves to a 
 
 ![Vimeo My Vimeo Folder Videos Query](./assets/providers/vimeo-query-myfolder-videos.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Folder ID* | | The unique identifier of the folder from which to retrieve the videos. | &#x2713; |
-| *Include Subfolders* | | Whether to include videos of all subfolders. |
-| *Query* | | The search term by which to filter the videos. |
-| *Sort* | `Default` | The order of the videos, within _Default_, _Alphabetical_, _Date_, _Duration_, and _Last User Action_. |
-| *Direction* | `Descending` | The order direction of the videos, _Ascending_ or _Descending_. |
-| *Page* | `1` | The page number of the videos. |
-| *Per Page* | `25` | The number of videos to return on each page, up to a maximum of 100. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Folder ID* | The unique identifier of the folder from which to retrieve the videos. | | &#x2713; |
+| *Include Subfolders* | Whether to include videos of all subfolders. |
+| *Query* | The search term by which to filter the videos. | | &#x2713; |
+| *Sort* | The order of the videos, within _Default_, _Alphabetical_, _Date_, _Duration_, and _Last User Action_. | `Default` |
+| *Direction* | The order direction of the videos, _Ascending_ or _Descending_. | `Descending` |
+| *Page* | The page number of the videos. | `1` |  &#x2713; |
+| *Per Page* | The number of videos to return on each page, up to a maximum of 100. | `25` |  &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Vimeo My Showcase Videos Query
 
@@ -54,16 +54,16 @@ Fetches videos from the authenticated account specific showcase and resolves to 
 
 ![Vimeo My Vimeo Showcase Videos Query](./assets/providers/vimeo-query-myshowcase-videos.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Showcase ID* | | The unique identifier of the showcase from which to retrieve the videos. | &#x2713; |
-| *Password* | | The password of the showcase in case it has one. |
-| *Query* | | The search term by which to filter the videos. |
-| *Sort* | `Default` | The order of the videos, within _Default_, _Alphabetical_, _Comments_, _Date_, _Modified_, _Duration_, _Total Plays_, and _Total Likes_. |
-| *Direction* | `Descending` | The order direction of the videos, _Ascending_ or _Descending_. |
-| *Page* | `1` | The page number of the videos. |
-| *Per Page* | `25` | The number of videos to return on each page, up to a maximum of 100. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Showcase ID* | The unique identifier of the showcase from which to retrieve the videos. | | &#x2713; |
+| *Password* | The password of the showcase in case it has one. | | &#x2713; |
+| *Query* | The search term by which to filter the videos. | | &#x2713; |
+| *Sort* | The order of the videos, within _Default_, _Alphabetical_, _Date_, _Duration_, and _Last User Action_. | `Default` |
+| *Direction* | The order direction of the videos, _Ascending_ or _Descending_. | `Descending` |
+| *Page* | The page number of the videos. | `1` |  &#x2713; |
+| *Per Page* | The number of videos to return on each page, up to a maximum of 100. | `25` |  &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Vimeo Video Type
 

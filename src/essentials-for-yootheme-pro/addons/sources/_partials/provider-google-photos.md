@@ -10,36 +10,39 @@ The **Google Photos Source** feeds media from [Google Photos](https://photos.goo
 
 ![Google Photos Configuration](./assets/providers/google-photos-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Account* | The Google account which to authenticate with. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *Account* | The Google account which to authenticate with. |
 
 ### Google Photos Album Query
 
 Fetches a single album resolving to a [Google Photos Album Type](#google-photos-album-type).
 
-| Setting | Default | Description | Required |
-| --- | --- | --- | --- |
-| *Album ID* | | The ID of the album to query. | &#x2713; |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
-
-### Google Photos Albums Query
-
-Fetches all albums from the library resolving to a list of [Google Photos Album Type](#google-photos-album-type).
-
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Album ID* | The ID of the album to query. | | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Google Photos Album Media Query
 
 Fetches media from a single album resolving to a list of [Google Photos Media Type](#google-photos-media-type).
 
-| Setting | Default | Description | Required |
-| --- | --- | --- | --- |
-| *Album ID* | | The ID of the album to query. | &#x2713; |
-| *Page Size* | | The number of the page which to query. | &#x2713; |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Album ID* | The ID of the album to query. | | &#x2713; |
+| *Type* | The media type which to query, _All_, _Images_ or _Videos_. | `All` |
+| *Order By* | The order by which to query the media _Date (desc)_ or _Date (asc)_. | `Date (desc)` |
+| *Start* | The offset applied to the query. | `1` | &#x2713; |
+| *Quantity* | The limit applied to the query. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
+
+### Google Photos Albums Query
+
+Fetches all albums from the library resolving to a list of [Google Photos Album Type](#google-photos-album-type).
+
+| Setting | Description | Default |
+| --- | --- | --- |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Google Photos Album Type
 

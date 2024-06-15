@@ -10,10 +10,10 @@ The **Instagram Source** feeds data from Personal and Business [Instagram](https
 
 ![Instagram Source Settings](./assets/providers/ig-business-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Account* | The Instagram Account which to authenticate with. | &#x2713; |
-| *Page* | The Facebook Page associated with the Instagram Business account. Not applicable for Instagram Personal. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *Account* | The Instagram Account which to authenticate with. |
+| *Page* | The Facebook Page associated with the Instagram Business account. Not applicable for Instagram Personal. |
 
 ### Instagram Media Query
 
@@ -21,12 +21,13 @@ Fetches media from the authenticated account and resolves to a list of [Instagra
 
 ![Instagram Media Query](./assets/providers/ig-query-media.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Type* | `All` | The type of media to fetch, _All_, _Image_, or _Video_. |
-| *Amount* | `20` | The maximum amount of media to fetch. |
-| *Since/Until* | `null` | The `start` and/or `end` datetime the fetched media will be restricted to. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Type* | The type of media to fetch, _All_, _Image_, or _Video_. | `All` |
+| *Offset* | The offset media to fetch. | `0` |  &#x2713; |
+| *Limit* | The maximum amount of media to fetch. | `20` | &#x2713; |
+| *Since/Until* | The `start` and/or `end` datetime the fetched media will be restricted to. | |  &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Instagram Media Single Query
 
@@ -34,23 +35,31 @@ Fetches a single media from the authenticated account and resolves to a [Media T
 
 ![Instagram Media Single Query](./assets/providers/ig-query-media-single.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *ID* | | Unique identifier of the media to retrieve. | &#x2713; |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *ID* | Unique identifier of the media to retrieve. | | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 If the Media is of Album Type you can fetch it media with the Multi Items query which resolves to a list of [Instagram Album Media Type](#instagram-album-media-type).
 
 ![Instagram Album Media Query](./assets/providers/ig-query-media-single.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *ID* | | Unique identifier of the media to retrieve. | &#x2713; |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *ID* | Unique identifier of the media to retrieve. | | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 #### Instagram Hashtagged Media Query
 
 Fetches top and recent hashtagged media from the authenticated business account and resolves to a list of [Instagram Media Type](#instagram-media-type).
+
+![Instagram Hashtagged Media Query](./assets/providers/ig-query-hashtagged-media.webp)
+
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Hashtag* | The hashtag to query for. | | &#x2713; |
+| *Edge* | Should the query look for _Top Media_ or _Recent Media_ hashtagged with. | `Top` |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ::: warning Notice
 Take into consideration that this query is available for Instagram **Business** Accounts only and that the API imposes the following limitations:
@@ -61,27 +70,19 @@ Take into consideration that this query is available for Instagram **Business** 
 - Maximum of 30 unique hashtags within a 7 day period.
 :::
 
-![Instagram Hashtagged Media Query](./assets/providers/ig-query-hashtagged-media.webp)
-
-| Setting | Default | Description | Required |
-| --- | --- | --- | :---: |
-| *Hashtag* | | The hashtag to query for. | &#x2713; |
-| *Edge* | `Top` | Should the query look for _Top Media_ or _Recent Media_ hashtagged with. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
-
 #### Instagram User Query
 
 Fetches the user profile from the authenticated account and resolves to a [Instagram User Type](#instagram-user-type).
-
-::: warning Notice
-This query is only available for Instagram Business Accounts
-:::
 
 ![Instagram User Query](./assets/providers/ig-query-user.webp)
 
 | Setting | Default | Description |
 | --- | --- | --- |
-| *Cache* | `0` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `0` |
+
+::: warning Notice
+This query is only available for Instagram Business Accounts
+:::
 
 ### Instagram Media Type
 

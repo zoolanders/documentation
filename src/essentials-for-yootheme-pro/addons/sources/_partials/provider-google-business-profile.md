@@ -10,11 +10,11 @@ The **Google Business Profile Source** feeds data from [Google Business Profile]
 
 ![Google Business Profile location Source](./assets/providers/gbp-location-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Account* | The Google Account which to authenticate with. | &#x2713; |
-| *Profile* | The Google Business Profile from which to retrieve the locations. | &#x2713; |
-| *Location* | The Google Business Profile location from which to create the source. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *Account* | The Google Account which to authenticate with. |
+| *Profile* | The Google Business Profile from which to retrieve the locations. |
+| *Location* | The Google Business Profile location from which to create the source. |
 
 ### Google Business Profile Location Query
 
@@ -22,12 +22,12 @@ Fetches a single location from the profile resolving to a [Google Business Profi
 
 ![Google Business Profile Location Query](./assets/providers/gbp-query-location.webp)
 
-| Setting | Default | Description |
+| Setting | Description | Default |
 | --- | --- | --- |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 | *Multiple Items* |
-| -- [Business Hours](#google-business-profile-period-type) | | A subquery fetching this location open hours. |
-| -- [Special Hours](#google-business-profile-period-type) | | A subquery fetching this location special hours. |
+| -- [Business Hours](#google-business-profile-period-type) | A subquery fetching this location open hours. |
+| -- [Special Hours](#google-business-profile-period-type) | A subquery fetching this location special hours. |
 
 ### Google Business Profile Review Query
 
@@ -35,10 +35,10 @@ Fetches a single review from the profile location resolving to a [Google Busines
 
 ![Google Business Profile Review Query](./assets/providers/gbp-query-review.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Review* | | The location review which content to fetch. | &#x2713; |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Review* | The location review which content to fetch. | | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Google Business Profile Reviews Query
 
@@ -46,11 +46,11 @@ Fetches reviews from the profile location resolving to a list of [Google Busines
 
 ![Google Business Profile Reviews Query](./assets/providers/gbp-query-reviews.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Order By* | `Latest` | The order by which to fetch the reviews, _Latest_, _Rating Ascending_, or _Rating Descending_. |
-| *Quantity* | `10` | The maximum amount of reviews to fetch. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Order By* | The order by which to fetch the reviews, _Latest_, _Rating Ascending_, or _Rating Descending_. | `Latest` |
+| *Quantity* | The maximum amount of reviews to fetch. | `10` |  &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Google Business Profile Media Query
 
@@ -58,10 +58,10 @@ Fetches media from the profile location resolving to a list of [Google Business 
 
 ![Google Business Profile Media Query](./assets/providers/gbp-query-media.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Quantity* | `20` | The maximum amount of media to fetch. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Quantity* | The maximum amount of media to fetch. | `20` |  &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Google Business Profile Posts Query
 
@@ -69,10 +69,10 @@ Fetches posts from the profile location resolving to a list of [Google Business 
 
 ![Google Business Profile Post Query](./assets/providers/gbp-query-posts.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Quantity* | `20` | The maximum amount of posts to fetch. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Quantity* | The maximum amount of posts to fetch. | `20` |  &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Google Business Profile Location Type
 

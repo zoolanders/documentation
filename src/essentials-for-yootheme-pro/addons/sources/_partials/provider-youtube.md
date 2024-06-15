@@ -16,19 +16,19 @@ If the source is based on a YouTube channel or playlist an oAuth authentication 
 
 ![YouTube Source Configuration Playlist](./assets/providers/youtube-config-playlist.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Account* | The Google Account which to authenticate with. | &#x2713; |
-| *Channel* | The YouTube Channel from which to create the source. | &#x2713; |
-| *Playlist* | The YouTube Playlist from which to create the source. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *Account* | The Google Account which to authenticate with. |
+| *Channel* | The YouTube Channel from which to create the source. |
+| *Playlist* | The YouTube Playlist from which to create the source. |
 
 If the source is based on YouTube videos an API Key is required instead.
 
 ![YouTube Videos Source Configuration](./assets/providers/youtube-videos-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *API Key* | The Google API Key which to authenticate with. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *API Key* | The Google API Key which to authenticate with. |
 
 ### YouTube Videos Query
 
@@ -36,20 +36,21 @@ Fetches public videos with advanced query params resolving to a list of [YouTube
 
 ![YouTube Videos Query](./assets/providers/youtube-videos-query.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Channel* | | Restricts the results to videos created by a specific channel ID. |
-| *Query Term* | | The list of terms the videos should be associated with. Use the Boolean NOT (`-`) and OR (`\|`) operators to exclude or find videos that are associated with one of several search terms. For example, to match either "boating" or "sailing", set as `boating\|sailing`. Similarly, to exclude "fishing", set as `boating\|sailing -fishing`. |
-| *Since/Until* | | Restricts the results to videos that have been published within the specified range of dates. |
-| *Location/Radius* | | Location in conjunction with radius, defines a circular geographic area to which to restrict the videos. The location points the center of the area with latitude/longitude coordinates e.g. `37.42307,-122.08427`, while the radius is the maximum distance from the location in `m`, `km`, `ft`, or `mi` units, e.g `5km`. |
-| *Region* | | Restricts the results to videos that can be viewed in the specified country. The value is an [ISO 3166-1 alpha-2](https://www.iso.org/iso-3166-country-codes.html) country code, e.g `ES`. |
-| *Language* | | Restricts the results to videos that are most relevant to the specified language. The value is typically an [ISO 639-1 two-letter](https://www.loc.gov/standards/iso639-2/php/code_list.php) language code, however, you should use the values `zh-Hans` for simplified Chinese and `zh-Hant` for traditional Chinese. Note that results in other languages will still be returned if they are highly relevant to the search query term. |
-| *Definition* | `Any` | Restricts the results based on the videos quality, either _High Definition_, _Standard Definition_, or _Any_. HD videos are available for playback in at least 720p, though higher resolutions, like 1080p, might also be available. |
-| *Duration* | `Any` | Restricts the results based on the videos duration, either _Long_, longer than 20 minutes, `Medium`, between four and 20 minutes, _Short_, less than four minutes, or _Any_. |
-| *Start* | `1` | The starting point, e.g of a list of 20 videos start from the number 2. |
-| *Quantity* | `20` | The maximum amount of videos to retrieve. |
-| *Order* | `Relevance` | The order in which the videos will be returned, within *Date*, reverse chronological order based on the date the videos were created, _Rating_, from highest to lowest rating, _Relevance_, based on their relevance to the search query, _Title_, alphabetically by title, or _View Count_, from highest to lowest number of views. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Videos ID* | Restricts the results to videos created by a specific channel ID. | | &#x2713; |
+| *Channel ID* | Restricts the results to videos created by a specific channel ID. | | &#x2713; |
+| *Query Term* | The list of terms the videos should be associated with. Use the Boolean NOT (`-`) and OR (`\|`) operators to exclude or find videos that are associated with one of several search terms. For example, to match either "boating" or "sailing", set as `boating\|sailing`. Similarly, to exclude "fishing", set as `boating\|sailing -fishing`. | | &#x2713; |
+| *Since/Until* | Restricts the results to videos that have been published within the specified range of dates. | | &#x2713; |
+| *Location/Radius* | Location in conjunction with radius, defines a circular geographic area to which to restrict the videos. The location points the center of the area with latitude/longitude coordinates e.g. `37.42307,-122.08427`, while the radius is the maximum distance from the location in `m`, `km`, `ft`, or `mi` units, e.g `5km`. | | &#x2713; |
+| *Region* | Restricts the results to videos that can be viewed in the specified country. The value is an [ISO 3166-1 alpha-2](https://www.iso.org/iso-3166-country-codes.html) country code, e.g `ES`. | | &#x2713; |
+| *Language* | Restricts the results to videos that are most relevant to the specified language. The value is typically an [ISO 639-1 two-letter](https://www.loc.gov/standards/iso639-2/php/code_list.php) language code, however, you should use the values `zh-Hans` for simplified Chinese and `zh-Hant` for traditional Chinese. Note that results in other languages will still be returned if they are highly relevant to the search query term. | | &#x2713; |
+| *Definition* | Restricts the results based on the videos quality, either _High Definition_, _Standard Definition_, or _Any_. HD videos are available for playback in at least 720p, though higher resolutions, like 1080p, might also be available. | `Any` |
+| *Duration* | Restricts the results based on the videos duration, either _Long_, longer than 20 minutes, `Medium`, between four and 20 minutes, _Short_, less than four minutes, or _Any_. | `Any` |
+| *Start* | The starting point, e.g of a list of 20 videos start from the number 2. | `1` | &#x2713; |
+| *Quantity* | The maximum amount of videos to retrieve. | `20` | &#x2713; |
+| *Order* | The order in which the videos will be returned, within *Date*, reverse chronological order based on the date the videos were created, _Rating_, from highest to lowest rating, _Relevance_, based on their relevance to the search query, _Title_, alphabetically by title, or _View Count_, from highest to lowest number of views. | `Relevance` |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### YouTube My Channel Query
 
@@ -57,9 +58,9 @@ Fetches the channel content resolving to a [YouTube Channel Type](#youtube-chann
 
 ![My YouTube Channel Query](./assets/providers/youtube-mychannel.webp)
 
-| Setting | Default | Description | Required |
-| --- | --- | --- | :---: |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default |
+| --- | --- | --- |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### YouTube My Channel Video Query
 
@@ -67,10 +68,10 @@ Fetches a single video from the channel resolving to a [YouTube Video Type](#you
 
 ![My YouTube Channel Video Query](./assets/providers/youtube-mychannel-video.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Video* | | The playlist video which content to fetch. | &#x2713; |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Video* | The playlist video which content to fetch. | | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### YouTube My Channel Videos Query
 
@@ -78,11 +79,11 @@ Fetches videos from the channel resolving to a list of [YouTube Video Type](#you
 
 ![My YouTube Channel Videos Query](./assets/providers/youtube-mychannel-videos.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Start* | `1` | The starting position to retrieve the videos at. |
-| *Quantity* | `20` | The maximum amount of videos to fetch. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Start* | The starting position to retrieve the videos at. | `1` | &#x2713; |
+| *Quantity* | The maximum amount of videos to fetch. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### YouTube My Channel Playlist Query
 
@@ -90,11 +91,11 @@ Fetches a single playlist from the channel resolving to a [YouTube Playlist Type
 
 ![My YouTube Channel Playlist Query](./assets/providers/youtube-mychannel-playlist.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Playlist* | | The YouTube Playlist which content to fetch. | &#x2713; |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. Minimum amount allowed is `3600`. |
-| *Multi Items* | | The related multi-items content to query instead with _Videos_ as the only option. |
+| *Playlist* | The YouTube Playlist which content to fetch. | | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
+| *Multi Items* | The related multi-items content to query instead with _Videos_ as the only option. |
 
 ### YouTube My Channel Playlist Videos Query
 
@@ -102,10 +103,10 @@ Fetches videos from the playlist resolving to a list of [YouTube Video Type](#yo
 
 ![My YouTube Channel Videos Query](./assets/providers/youtube-mychannel-playlist-videos.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Start* | `1` | The starting position to retrieve the videos at. |
-| *Quantity* | | The maximum amount of videos to fetch. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Start* | The starting position to retrieve the videos at. | `1` | &#x2713; |
+| *Quantity* | The maximum amount of videos to fetch. | `20` | &#x2713; |
 
 ### YouTube My Playlist Video Query
 
@@ -113,10 +114,10 @@ Fetches a single video from the playlist resolving to a [YouTube Video Type](#yo
 
 ![My YouTube Playlist Video Query](./assets/providers/youtube-myplaylist-video.webp)
 
-| Setting | Default | Description | Required |
+| Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Video* | | The playlist video which content to fetch. | &#x2713; |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Video* | The playlist video which content to fetch. | | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### YouTube My Playlist Videos Query
 
@@ -124,11 +125,11 @@ Fetches videos from the playlist resolving to a list of [YouTube Video Type](#yo
 
 ![My YouTube Playlist Videos Query](./assets/providers/youtube-myplaylist-videos.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Start* | `1` | The starting position to retrieve the videos at. |
-| *Quantity* | `20` | The maximum amount of videos to fetch. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Start* | The starting position to retrieve the videos at. | `1` | &#x2713; |
+| *Quantity* | The maximum amount of videos to fetch. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### YouTube Video Type
 

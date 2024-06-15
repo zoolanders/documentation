@@ -10,9 +10,9 @@ The **Twitter Source** feeds data from [Twitter](https://www.twitter.com) suppor
 
 ![Twitter Source Configuration](./assets/providers/twitter-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Account* | The Twitter Account which to authenticate with. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *Account* | The Twitter Account which to authenticate with. |
 
 ### My Tweets Query
 
@@ -20,11 +20,11 @@ Fetches tweets from the authenticated account resolving to a list of [Tweet Type
 
 ![Twitter Tweets Query](./assets/providers/twitter-query-tweets.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Amount* | `20` | The maximum amount of tweets to fetch. |
-| *Since/Until* | `null` | The `start` and/or `end` datetime the fetched tweets will be restricted to. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Since/Until* | The `start` and/or `end` datetime the fetched tweets will be restricted to. | | &#x2713; |
+| *Limit* | The maximum amount of tweets to fetch. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Twitter User Query
 
@@ -32,9 +32,9 @@ Fetches the authenticated user account resolving to a list of [Twitter User Type
 
 ![Twitter User Query](./assets/providers/twitter-query-user.webp)
 
-| Setting | Default | Description |
+| Setting | Description | Default |
 | --- | --- | --- |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Tweet Type
 

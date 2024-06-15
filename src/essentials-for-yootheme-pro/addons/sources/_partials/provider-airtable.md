@@ -10,31 +10,31 @@ The **Airtable Source** feeds data from [Airtable](https://airtable.com/) bases 
 
 ![Airtable Source Configuration](./assets/providers/airtable-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Account* | The Airtable Account which to authenticate with. | &#x2713; |
-| *Base* | The Airtable base which to retrieve the data from. | &#x2713; |
-| *Table* | The Airtable base table which data to create the source with. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *Account* | The Airtable Account which to authenticate with. |
+| *Base* | The Airtable base which to retrieve the data from. |
+| *Table* | The Airtable base table which data to create the source with. |
 
 ### Airtable Record Query
 
 Fetches a single record from an Airtable base and resolves to [Airtable Record Type](#airtable-record-type).
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Record ID* | | The ID of the record to query. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Record ID* | The ID of the record to query. | | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Airtable Records Query
 
 Fetches records from an Airtable base and resolves to a list of [Airtable Record Type](#airtable-record-type).
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *View* | | Optional table view to use instead of a raw query. |
-| *Start* | `1` | The offset applied to the query. |
-| *Quantity* | `20` | The limit applied to the query. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *View* | Optional table view to use instead of a raw query. |
+| *Start* | The offset applied to the query. | `1` | &#x2713; |
+| *Quantity* | The limit applied to the query. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### Airtable Record Type
 

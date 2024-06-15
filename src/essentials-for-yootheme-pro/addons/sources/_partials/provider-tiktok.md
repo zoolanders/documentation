@@ -10,9 +10,9 @@ The **TikTok Source** feeds media from [TikTok](https://www.vimeo.com) supportin
 
 ![TikTok Source Configuration](./assets/providers/tiktok-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *Account* | The TikTok Account which to authenticate with. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *Account* | The TikTok Account which to authenticate with. |
 
 ### TikTok My Videos Query
 
@@ -20,12 +20,13 @@ Fetches videos from the authenticated account and resolves to a list of [TikTok 
 
 ![TikTok Videos Query](./assets/providers/tiktok-query-videos.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Before Than* | | Limit the results to videos created before the specified date. |
-| *Start* | `1` | The starting point, e.g of a list of 20 videos start from the number 2. |
-| *Quantity* | `20` | The maximum amount of videos to retrieve. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Filter by ID* | Filter videos comma separated list of IDs, up to maximum 20 videos. | | &#x2713; |
+| *Filter by date* | Filter videos created before the specified date. | | &#x2713; |
+| *Start* | The starting point, e.g of a list of 20 videos start from the number 2. | `1` | &#x2713; |
+| *Quantity* | The maximum amount of videos to retrieve. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### TikTok Video Type
 

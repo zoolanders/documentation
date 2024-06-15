@@ -10,9 +10,9 @@ The **RSS Source** feeds data from [RSS](https://en.wikipedia.org/wiki/RSS) 0.9,
 
 ![RSS Source Settings](./assets/providers/rss-config.webp)
 
-| Setting | Description | Required |
-| --- | --- | :---: |
-| *URL* | The feed URL from which to generate the source content. | &#x2713; |
+| Setting | Description |
+| --- | --- |
+| *URL* | The feed URL from which to generate the source content. |
 
 ### RSS Feed Query
 
@@ -20,9 +20,9 @@ Fetches information from the feed and resolves to a dynamically generated feed t
 
 ![RSS Source Feed Query](./assets/providers/rss-query-feed.webp)
 
-| Setting | Default | Description |
+| Setting | Description | Default |
 | --- | --- | --- |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ### RSS Entries Query
 
@@ -30,10 +30,10 @@ Fetches records from the feed and resolves to a list of dynamically generated re
 
 ![RSS Source Entries Query](./assets/providers/rss-query-entries.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| *Filters* | `[]` | The list of filter conditions applied to the query. |
-| *Ordering* | `[]` | The list of ordering conditions applied to the query. |
-| *Start* | `1` | The offset applied to the query. |
-| *Quantity* | `20` | The limit applied to the query. |
-| *Cache* | `3600` | The duration in seconds before the cache is invalidated and the query re-executed. |
+| Setting | Description | Default | Dynamic |
+| --- | --- | --- | :---: |
+| *Filters* | The list of filter conditions applied to the query. | `[]` | &#x2713; |
+| *Ordering* | The list of ordering conditions applied to the query. | `[]` | &#x2713; |
+| *Start* | The offset applied to the query. | `1` | &#x2713; |
+| *Quantity* | The limit applied to the query. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
