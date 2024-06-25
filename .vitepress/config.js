@@ -8,6 +8,7 @@ export default defineConfig({
     description: 'Guides and Documentation for Essential Addons.',
     srcDir: 'src',
     outDir: 'dist',
+    cleanUrls: true,
     srcExclude: ['**/_partials/*.md'],
     head: [['link', { rel: 'icon', href: '/favicon.png' }]],
     sitemap: {
