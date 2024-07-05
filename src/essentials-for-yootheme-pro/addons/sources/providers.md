@@ -16,4 +16,5 @@ A list of sources provided by Essentials. To learn more about [sources](./), see
 <!--@include: ./_partials/provider-tiktok.md-->
 <!--@include: ./_partials/provider-twitter.md-->
 <!--@include: ./_partials/provider-vimeo.md-->
+<!--@include: ./_partials/provider-xml.md-->
 <!--@include: ./_partials/provider-youtube.md-->

@@ -4,7 +4,7 @@
     <!--@include: @essentials-for-yootheme-pro/assets/brands/rss.svg-->
 </div>
 
-The **RSS Source** feeds data from [RSS](https://en.wikipedia.org/wiki/RSS) 0.9, 1.0, 2.0, and Atom specifications supporting [Feed](#rss-feed-query) and [Entries](#rss-entries-query) queries.
+The **RSS Source** is a specialized version of the [XML Source](#xml) that feeds data from [RSS](https://en.wikipedia.org/wiki/RSS) 0.9, 1.0, 2.0, and Atom specifications supporting [Feed](#rss-feed-query) and [Entries](#rss-entries-query) queries.
 
 <!--@include: ./common-provider-settings.md-->
 
