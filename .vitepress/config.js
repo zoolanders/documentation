@@ -10,7 +10,13 @@ export default defineConfig({
     outDir: 'dist',
     cleanUrls: true,
     srcExclude: ['**/_partials/*.md'],
-    head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.png' }],
+        [
+            'script',
+            { src: 'https://cdn.usefathom.com/script.js', 'data-site': 'ZSVBFMCY', defer: true },
+        ],
+    ],
     sitemap: {
         hostname: 'https://zoolanders.com',
     },
