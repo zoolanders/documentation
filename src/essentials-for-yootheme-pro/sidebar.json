@@ -205,6 +205,10 @@
                 "link": "/auths/custom-facebook-dev-app"
             },
             {
+                "text": "Custom Google Dev App",
+                "link": "/auths/custom-google-dev-app"
+            },
+            {
                 "text": "Form Events",
                 "link": "/addons/forms/form-events"
             }
