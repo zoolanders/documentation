@@ -18,7 +18,7 @@ export default defineConfig({
         ],
     ],
     sitemap: {
-        hostname: 'https://zoolanders.com',
+        hostname: 'https://docs.zoolanders.com',
     },
     themeConfig: {
         logo: '/zoolanders.svg',
