@@ -23,3 +23,7 @@ The **Select Element** displays a [\<select\>](https://developer.mozilla.org/en-
 | *Min* | The minimum amount of options that must be chosen, `greater than` or `equal to`. | &#x2713; | |  &#x2713; |
 | *Max* | The maximum amount of options that can be chosen, `lower than` or `equal to`. | &#x2713; | |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
+
+::: tip
+For a select with a placeholder add an option with an empty value and custom label above all other options.
+:::
