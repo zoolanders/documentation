@@ -220,19 +220,23 @@
     },
     {
         "text": "Troubleshooting",
-        "base": "/essentials-for-yootheme-pro/addons",
+        "base": "/essentials-for-yootheme-pro",
         "items": [
             {
+                "text": "Common Issues",
+                "link": "/troubleshooting"
+            },
+            {
                 "text": "Forms Related Issues",
-                "link": "/forms/troubleshooting"
+                "link": "/addons/forms/troubleshooting"
             },
             {
                 "text": "Sources Related Issues",
-                "link": "/sources/troubleshooting"
+                "link": "/addons/sources/troubleshooting"
             },
             {
                 "text": "Icons Related Issues",
-                "link": "/icons/troubleshooting"
+                "link": "/addons/icons/troubleshooting"
             }
         ]
     }
