@@ -6,11 +6,9 @@ Download the [Essentials for YOOtheme Pro](https://www.zoolanders.com/downloads)
 The plugin will be installed under the `plugins/system/yooessentials` for Joomla and `wp-contents/plugins/yooessentials` directory for WordPress.
 :::
 
-## Updating
-
 Essentials can be updated using the platform update system. Whenever a new version of is available, you will receive a notification in the platform dashboard. Before you can update, you have to first add your Essentials Download ID.
 
-### Download ID
+## Download ID
 
 An Essentials Download ID is an alphanumeric code and is created individually for each website. Without it, you won't be able to update Essentials. You can find and manage your IDs in the [Download IDs](https://zoolanders.com/account/download-ids) section of your account.
 
@@ -30,7 +28,7 @@ Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Down
 ![Download ID WordPress](/essentials-for-yootheme-pro/assets/essential-settings-wordpress.png)
 :::
 
-### Minimum Stability
+## Minimum Stability
 
 Choose the minimum stability for Essential updates on your site, either Stable or Beta.
 
@@ -52,19 +50,3 @@ In WordPress go to the **ZOOlanders Settings Panel** in Global Settings.
 
 ![Minimum Stability WordPress](/essentials-for-yootheme-pro/assets/essential-settings-wordpress.png)
 :::
-
-## Upgrading
-
-The upgrade from Essentials Freemium to Premium version is as simple as [installing](#installation) the premium package without uninstalling the freemium one. The upgrade process must be done manually, after that automatic updates will take over.
-
-### Upgrade to v2
-
-Upgrading Essentials v1.x to v2.x should be planned carefully as it's a major version release only compatible with YOOtheme Pro 4.0, which is itself a new major release. Follow these steps in the given order.
-
-1. Make a full, restorable backup of the site.
-1. Head over to _System > Plugins_ and disable the _Essentials_ plugin.
-1. Upgrade YOOtheme Pro to version 4.x.
-1. Upgrade Essentials to version 2.x.
-1. Head over to the plugins manager and enable back the _Essentials_ plugin.
-
-Thoroughly clear all caches, and test. If anything goes wrong, restore the backup and reach out support.
