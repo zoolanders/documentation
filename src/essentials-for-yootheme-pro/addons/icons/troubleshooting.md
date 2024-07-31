@@ -1,10 +1,10 @@
-# Icon Issues
+# Icons Addon Related Issues
 
-Learn how to handle common issues with essential icons.
+Learn how to handle common issues within essential icons addon.
 
 ## Icons Are Not Being Displayed
 
-An icon is correctly selected but not displayed in the layout and there is no aparent rendering issues.
+An icon is correctly selected but not displayed in the layout and there is no aparent rendering error.
 
 It could be that UIkit has been loaded twice, once by YOOtheme Pro and once again by an extension as could be **Widgetkit**. In such scenario the icons would be registered in the wrong UIkit instance and not available during the rendering.
 

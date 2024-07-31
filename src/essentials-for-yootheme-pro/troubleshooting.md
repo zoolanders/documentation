@@ -1,6 +1,6 @@
 # Common Issues
 
-Learn how to handle common issues with essentials.
+Learn how to handle common issues within essentials.
 
 ## Plugin Execution Prevented
 

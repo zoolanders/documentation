@@ -1,8 +1,8 @@
-# Forms Related Issues
+# Forms Addon Related Issues
 
-Learn how to handle common issues with essential forms.
+Learn how to handle common issues within essential forms addon.
 
-## Submission Issues
+## Submission Errors
 
 ### Submission Fails With Vague Error
 
