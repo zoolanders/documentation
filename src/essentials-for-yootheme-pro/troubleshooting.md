@@ -7,3 +7,7 @@ Learn how to handle common issues with essentials.
 _The Essentials plugin execution has been prevented due to corrupted installation or altered files._
 
 If you see this error the Essentials files integrity check has detected that some file are corrupted or missing. No matter the reason the solution is to reinstall the plugin manually without uninstalling the previous version. If the issue persist after, reach out support.
+
+## AbstractRule Class Not Found
+
+A fatal error displaying `Class "ZOOlanders\YOOessentials\Access\AbstractRule" not found` most likely is related to a 3rd party plugin trying to access this class before Essentials has been able to declare it. The solution is simple, set the 3rd party plugin order with lower priority than Essentials.
