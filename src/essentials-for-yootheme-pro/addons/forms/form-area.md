@@ -33,7 +33,8 @@ The form area configuration panel contains form specific settings, including [af
 | Setting | Default | Description |
 | --- | --- | --- |
 | *After Submit Actions* | `[]` | List of actions to execute after a successful submission. At least one action is necessary. |
-| *HTML 5 Validation* | `true` | Whether the front side HTML5 validation should be executed before submission. Server side validation is always executed. |
+| *HTML 5 Validation* | `true` | Whether to execute front side HTML5 validation before submission. Server side validation is always executed. |
+| *Reset After Submit* | `true` | Whether to reset the form to it initial state after a successfull submission. |
 
 ::: tip Note
 For field specific validation refer to [elements field settings](./elements).
