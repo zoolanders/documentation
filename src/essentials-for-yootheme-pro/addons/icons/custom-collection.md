@@ -18,9 +18,9 @@ Notice that a collection name cannot contain hyphens `-`, while a group name doe
 
 ## Distribute Collections
 
-If you have many projects relying on the same collections or you would like to distribute your collections among other projects, it is advisable to wrap those collections in a YOOtheme Pro module which you can place in a Child Theme or a plugin.
+If you would like to distribute your collections among other projects wrap those in a YOOtheme Pro module and plate it in a Child Theme or a plugin.
 
-Place all collections inside the module and register it folder by extending the `Icons` service in the `bootstrap.php` file.
+Register the collections folder by extending the `ZOOlanders\YOOessentials\Icons` service in the `bootstrap.php` file.
 
 ```php
 // bootstrap.php
