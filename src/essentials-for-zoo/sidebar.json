@@ -11,6 +11,10 @@
                 "link": "/essentials-for-zoo/installation"
             },
             {
+                "text": "Upgrade",
+                "link": "/essentials-for-zoo/upgrade"
+            },
+            {
                 "text": "Changelog",
                 "link": "https://www.zoolanders.com/essentials-for-zoo/changelog"
             }
