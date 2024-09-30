@@ -1,6 +1,6 @@
-# Upgrade to ZOO 4
+# Upgrading
 
-Upgrading to ZOO 4 requires some considerations as well as specific steps in order to ensure a smooth transition. First of all be aware of the following deprecations:
+Upgrading from ZOO 3 requires some considerations as well as specific steps in order to ensure a smooth transition. First of all be aware of the following deprecations:
 
 - ZOOcart
 - ZOOstats
