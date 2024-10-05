@@ -1,6 +1,6 @@
-# Sources
+# Source Providers
 
-A list of sources provided by Essentials. To learn more about [sources](./), see the corresponding documentation.
+Each Essentials multi-instance source relies on a provider that manages the source instances and workflow. To learn more about [sources](./), refer to the corresponding documentation.
 
 <!--@include: ./_partials/provider-airtable.md-->
 <!--@include: ./_partials/provider-cloudflare-stream.md-->
