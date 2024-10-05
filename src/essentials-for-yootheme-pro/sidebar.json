@@ -81,6 +81,10 @@
                 "link": "/integration"
             },
             {
+                "text": "Global Sources",
+                "link": "/global"
+            },
+            {
                 "text": "Source Providers",
                 "link": "/providers"
             },
