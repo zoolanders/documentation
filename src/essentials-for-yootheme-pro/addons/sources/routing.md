@@ -10,12 +10,12 @@ We can take a few approaches to route these albums, each with its pros and cons.
 
 | Approach | Route | Description |
 | --- | --- | --- |
-| [Page as Route](#page-as-route) | `/my-trips/album?id=xxx` | Simple setup, works with any new album, but not good for SEO. Choose this approach when convenience is more important than SEO. |
-| [Articles as Route](#articles-as-route) | `/my-trips/alias` | Great for SEO, but requires manual intervention each time there is a new album. Choose this approach when SEO is important. |
+| [Page as Route](#page-as-route) | `/trips/album?id={albumid}` | Simple setup, works with any new album, but not good for SEO. Choose this approach when convenience is more important than SEO. |
+| [Articles as Route](#articles-as-route) | `/trips/{alias}` | Great for SEO, but requires manual intervention each time there is a new album. Choose this approach when SEO is important. |
 
 ## Page as Route
 
-This approach leverages a single page for source routing by setting a layout that dynamically loads the source content based on the URL's query parameter. For example, we could set a page under the route `/my-trips/album` and pass the album reference as a parameter, typically `id`. The final route would look like `/my-trips/album?id=xxx`, and the album `id` would be dynamically read by the source query. Let's see how!
+This approach leverages a single page for source routing by setting a layout that dynamically loads the source content based on the URL's query parameter. For example, we could set a page under the route `/trips/album` and pass the album reference as a parameter, typically `id`. The final route would look like `/trips/album?id=xxx`, and the album `id` would be dynamically read by the source query. Let's see how!
 
 ### 1. Add a New Page
 
@@ -25,7 +25,7 @@ Create a new custom page that will serve as the main layout for the album. You c
 
 ### 2. Layout the Page
 
-Design the page layout to best suit your use case. This could be as simple as Text and Image elements displaying the current album title and cover, or a more advanced composition where a Gallery element shows the media as well.
+Design the page layout to best suit your use case. This could be as simple as Headline and Image elements displaying the current album title and cover, or a more advanced composition where a Gallery element shows the media as well.
 
 ![Page Layout](./assets/routing/album-layout.png)
 
@@ -41,7 +41,7 @@ When the Request Source query parameter is mapped, press the `pencil` icon to op
 
 ## Articles as Route
 
-This alternative approach leverages the system's articles for source routing by creating one article for each album that will also hold the album ID. The advantage is an SEO-friendly URL, e.g., `/my-trips/thailand-2024`, with the disadvantage of manual intervention each time there is a new album.
+This alternative approach leverages the system's articles for source routing by creating one article for each album that will also hold the album ID. The advantage is an SEO-friendly URL, e.g., `/trips/thailand-2024`, with the disadvantage of manual intervention each time there is a new album.
 
 ### 1. Add Articles
 
@@ -59,7 +59,7 @@ Instead of laying out the articles individually, create a Single Article [templa
 
 ![Article Template](./assets/routing/album-template.png)
 
-Design this template to best suit your use case. This could be as simple as Text and Image elements displaying the current album title and cover, or a more advanced composition where a Gallery element shows the media as well.
+Design this template to best suit your use case. This could be as simple as Headline and Image elements displaying the current album title and cover, or a more advanced composition where a Gallery element shows the media as well.
 
 ![Article Template Layout](./assets/routing/album-layout.png)
 
