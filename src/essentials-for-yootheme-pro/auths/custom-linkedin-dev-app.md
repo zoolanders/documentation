@@ -68,6 +68,8 @@ Accurate and current company information is crucial. LinkedIn will carefully rev
 
 Once the app is ready you can generate a token with it and use it for authentication.
 
+![LinkedIn Token Generation Form](./assets/linkedin/ln-token-gen-form.webp)
+
 1. Visit the [LinkedIn Developer Portal Token Generator](https://www.linkedin.com/developers/tools/oauth/token-generator) tool.
 2. Select the app you'd like to generate a token for.
 3. Select the permission scopes. Usually that would be `r_basicprofile`, `r_organization_admin` and `r_organization_social`.
