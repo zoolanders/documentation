@@ -38,31 +38,33 @@ Generate the URL and send it to the page super admin. An email will be sent when
 
 ## Request API Access
 
-For the Essentials LinkedIn Source use case, you must request the `Community Management API` product. To do so go to *App Products* panel of the app and follow below steps.
+For the Essentials LinkedIn Source use case, you must request the `Advertising API` product. To do so go to *App Products* panel of the app and follow below steps.
 
-![LinkedIn Community Management API](./assets/linkedin/ln-app-api.webp)
+![LinkedIn Advertising API Product](./assets/linkedin/ln-app-api-product.webp)
 
 ::: warning
 Note that only one product can be requested per app. If you mistakenly requested a different one, you will need to create a new app from scratch.
 :::
 
-1. Click on the *Request access* button within the *Community Management API* product section.
+1. Click on the *Request access* button within the *Advertising API* product section.
 2. A modal will appear, fullfill the form as instructed and submit.
 
-![LinkedIn Community Management API Request](./assets/linkedin/ln-app-api-request.webp)
+![LinkedIn Advertising API Request](./assets/linkedin/ln-app-api-request.webp)
 
 3. Wait for approximately one minute, then refresh the page.
 4. A new button *Access Request Form* should appear in the product section. Click the button and complete legal details.
 
-![LinkedIn Community Management API Request Form](./assets/linkedin/ln-app-api-request-form.webp)
-
-::: tip
+::: warning
 Accurate and current company information is crucial. LinkedIn will carefully review your company details to verify their validity.
 :::
 
-5. In the last page, the form will ask you about the app use case. Choose *Page management* and proceed.
+5. When asked about the app primary use case, choose *Direct Advertiser*.
 
-![LinkedIn Community Management API Use Case](./assets/linkedin/ln-app-api-request-use-case.webp)
+![LinkedIn Advertising API Use Case](./assets/linkedin/ln-app-api-use-case.webp)
+
+6. When asked about what do you plan to do with the APIs, describe it without mentionining fetching or displaying data in your website. Focus on statistics or advertising, instead.
+
+![LinkedIn Advertising API Use Description](./assets/linkedin/ln-app-api-use-description.webp)
 
 ## Generate a Token
 
@@ -73,4 +75,4 @@ Once the app is ready you can generate a token with it and use it for authentica
 1. Visit the [LinkedIn Developer Portal Token Generator](https://www.linkedin.com/developers/tools/oauth/token-generator) tool.
 2. Select the app you'd like to generate a token for.
 3. Select the permission scopes. Usually that would be `r_basicprofile`, `r_organization_admin` and `r_organization_social`.
-4. Copy both Refresh and Access generated tokens.
+4. Copy both *Refresh* and *Access* generated tokens.
