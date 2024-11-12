@@ -225,6 +225,10 @@
                 "link": "/auths/custom-google-dev-app"
             },
             {
+                "text": "Custom LinkedIn Dev App",
+                "link": "/auths/custom-linkedin-dev-app"
+            },
+            {
                 "text": "Form Events",
                 "link": "/addons/forms/form-events"
             }
