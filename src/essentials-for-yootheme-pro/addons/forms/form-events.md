@@ -7,7 +7,7 @@ JavaScript events triggered by each form for which is possible to add listeners 
 Triggers before submission allowing to prevent the action.
 
 ```js
-UIkit.ready(function () {
+UIkit.util.ready(function () {
   // local
   UIkit.util.on('#form-id', 'form:submit', function (e) {
     // e.preventDefault();
@@ -26,7 +26,7 @@ UIkit.ready(function () {
 Triggers after submission, preventing the action is no longer possible.
 
 ```js
-UIkit.ready(function () {
+UIkit.util.ready(function () {
   // local
   UIkit.util.on('#form-id', 'form:submitted', function (e, ctx) {
     // ctx = {response}
@@ -44,7 +44,7 @@ UIkit.ready(function () {
 Trigger on submission error and validation error.
 
 ```js
-UIkit.ready(function () {
+UIkit.util.ready(function () {
   // local
   UIkit.util.on('#form-id', 'form:submission-error', function (e, ctx) {
     // ctx = {error, errors, validation}
