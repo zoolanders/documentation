@@ -1,6 +1,6 @@
 <script setup>
 import { useData } from 'vitepress'
-import {data as tagged} from '../_data/tagged.data.js';
+import {data as tagged} from './tagged.data.js';
 
 const { params } = useData()
 const articles = tagged.filter(page => page.frontmatter.tags.includes(params.value.tag));

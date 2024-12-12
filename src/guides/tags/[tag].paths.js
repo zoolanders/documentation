@@ -1,4 +1,4 @@
-import tags from '../_data/tags.json';
+import tags from './tags.json';
 
 export default {
     paths() {

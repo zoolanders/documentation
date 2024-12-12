@@ -4,13 +4,13 @@ tags:
   - sources
 ---
 
-# Emulate Routing with Sources
+# {{ $frontmatter.title }}
 
 Routing is the process of mapping URLs to specific views within a framework. Since YOOtheme Pro Sources do not support routing natively, we must use some workarounds to "emulate" routing for these sources.
 
 Let's take Google Photos as an example of a source we would like to route. Assume our Google Photos account has two albums, each containing a set of photos.
 
-![Google Photos Albums](./assets/routing/google-photos-albums.png)
+![Google Photos Albums](./assets/google-photos-albums.png)
 
 We can take a few approaches to route these albums, each with its pros and cons.
 
@@ -27,23 +27,23 @@ This approach leverages a single page for source routing by setting a layout tha
 
 Create a new custom page that will serve as the main layout for the album. You can place it under any route you prefer by following the Add a New Page guide for [Joomla](https://yootheme.com/support/yootheme-pro/joomla/pages#add-a-new-page) or [WordPress](https://yootheme.com/support/yootheme-pro/wordpress/pages#add-a-new-page).
 
-![Add New Page](./assets/routing/add-new-page.png)
+![Add New Page](./assets/add-new-page.png)
 
 ### 2. Layout the Page
 
 Design the page layout to best suit your use case. This could be as simple as Headline and Image elements displaying the current album title and cover, or a more advanced composition where a Gallery element shows the media as well.
 
-![Page Layout](./assets/routing/album-layout.png)
+![Page Layout](./assets/album-layout.png)
 
 ### 3. Map the URL Album ID
 
 The key to this workflow is to ensure that the album ID stored in the URL is mapped to all Google Photos sources referencing an album. We can do this by choosing the Dynamic option for the Album in the source configuration and mapping the URL query parameter that holds the album ID. The parameter value can be retrieved with the global [Request Source](./global#request) and its URL Query Param field, with the final mapping as `Global -> Request -> URL -> Param (id)`.
 
-![Page Route Mapping](./assets/routing/page-route-mapping.png)
+![Page Route Mapping](./assets/page-route-mapping.png)
 
 When the Request Source query parameter is mapped, press the `pencil` icon to open the field configuration and set the name of the parameter, in this case `id`.
 
-![Global Request ID Param](./assets/routing/global-request-id-param.png)
+![Global Request ID Param](./assets/global-request-id-param.png)
 
 ## Articles as Route
 
@@ -53,7 +53,7 @@ This alternative approach leverages the system's articles for source routing by 
 
 Similarly to the previous approach, we need to add articles, but this time one article for each album. Additionally, we need to create an article custom field that will hold the album ID, or simply use one of the article's existing fields.
 
-![Article Album](./assets/routing/articles-route-album.png)
+![Article Album](./assets/articles-route-album.png)
 
 ::: tip
 Group the articles under the same category for easier templating.
@@ -63,14 +63,14 @@ Group the articles under the same category for easier templating.
 
 Instead of laying out the articles individually, create a Single Article [template](https://yootheme.com/support/yootheme-pro/joomla/templates) and limit it by category.
 
-![Article Template](./assets/routing/album-template.png)
+![Article Template](./assets/album-template.png)
 
 Design this template to best suit your use case. This could be as simple as Headline and Image elements displaying the current album title and cover, or a more advanced composition where a Gallery element shows the media as well.
 
-![Article Template Layout](./assets/routing/album-layout.png)
+![Article Template Layout](./assets/album-layout.png)
 
 ### 3. Map the Article Album ID
 
 The key to this workflow is to ensure that the album ID stored in the article is mapped to all Google Photos sources referencing an album. We can do this by choosing the Dynamic option for the Album in the source configuration and mapping the article field that holds the album ID. The article field value can be retrieved with the Page Article Source and its Custom Fields, with the final mapping as `Page -> Article -> Fields -> Album ID`.
 
-![Articles Route Mapping](./assets/routing/articles-route-mapping.png)
+![Articles Route Mapping](./assets/articles-route-mapping.png)

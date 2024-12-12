@@ -1,4 +1,4 @@
-# Introduction
+# Essential Addons for ZOO
 
 Essentials for ZOO is a set of premium addons for the [YOOtheme ZOO](https://yootheme.com/zoo-joomla-cck) CCK compatible with Joomla. It expands the ZOO framework natively and effectively with features that are considered _essential_.
 
