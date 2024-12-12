@@ -89,10 +89,6 @@
                 "link": "/providers"
             },
             {
-                "text": "Source Routing",
-                "link": "/routing"
-            },
-            {
                 "text": "Conditions",
                 "link": "/conditions"
             }

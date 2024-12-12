@@ -1,0 +1,23 @@
+[
+    {
+        "text": "Guides",
+        "items": [
+            {
+                "text": "Introduction",
+                "link": "/guides/"
+            },
+            {
+                "text": "Redirect Forms After Submission",
+                "link": "/guides/redirect-forms-after-submit"
+            },
+            {
+                "text": "Keep your site GDPR compliant",
+                "link": "/guides/gdpr-compliance"
+            },
+            {
+                "text": "Emulate Routing with Sources",
+                "link": "/guides/source-routing"
+            }
+        ]
+    }
+]

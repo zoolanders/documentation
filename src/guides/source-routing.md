@@ -1,4 +1,10 @@
-# Source Routing
+---
+title: Emulate Routing with Sources
+tags:
+  - sources
+---
+
+# Emulate Routing with Sources
 
 Routing is the process of mapping URLs to specific views within a framework. Since YOOtheme Pro Sources do not support routing natively, we must use some workarounds to "emulate" routing for these sources.
 

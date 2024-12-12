@@ -9,9 +9,12 @@ hero:
   image: hero.png
   actions:
     - theme: brand
-      text: Essentials for YOOtheme Pro
+      text: YOOtheme Pro Addons
       link: /essentials-for-yootheme-pro/
     - theme: alt
-      text: Essentials for ZOO
+      text: ZOO Addons
       link: /essentials-for-zoo/
+    - theme: alt
+      text: Guides
+      link: /guides/
 ---
