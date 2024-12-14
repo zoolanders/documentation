@@ -7,6 +7,7 @@ Actions are multi-instance functions that will run sequentially, after a form ha
 <!--@include: ./_partials/action-alter.md-->
 <!--@include: ./_partials/action-download.md-->
 <!--@include: ./_partials/action-email.md-->
+<!--@include: ./_partials/action-mailchimp.md-->
 <!--@include: ./_partials/action-message.md-->
 <!--@include: ./_partials/action-redirect.md-->
 <!--@include: ./_partials/action-validate.md-->
