@@ -2,6 +2,7 @@
 
 Actions are multi-instance functions that will run sequentially, after a form has been successfully submitted. To learn more about [actions](./form-area#after-submit-actions), see the corresponding documentation.
 
+<!--@include: ./_partials/action-acymailing.md-->
 <!--@include: ./_partials/action-airtable.md-->
 <!--@include: ./_partials/action-alter.md-->
 <!--@include: ./_partials/action-download.md-->
