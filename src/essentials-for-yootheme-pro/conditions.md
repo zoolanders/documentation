@@ -1,8 +1,6 @@
 # Conditions and Filters
 
-Apply conditions to the source content during fetching and/or rendering phase.
-
-It's important to understand the different types of conditions in dynamic content, their differences in execution time or dynamic values support, and learn how to combine them effectively.
+There are different types of conditions available during content rendering. Their execution time and support for dynamic content differs, it's important to understand the difference and learn how to combine them effectively.
 
 | Type | Description | Execution Time | Dynamic Support |
 | --- | --- | --- | --- |
@@ -14,13 +12,13 @@ It's important to understand the different types of conditions in dynamic conten
 
 Filter and/or order query conditions are rules, applied during a query execution, that the content must evaluate to in order to be included in the fetched results. The conditions are provided and supported by every source individually.
 
-![Query Conditions](./assets/query-conditions.webp)
+![Query Conditions](./assets/conditions/query-conditions.webp)
 
 ::: details Filter Condition Details
 
 ### Filter Condition
 
-![Query Filter Condition](./assets/query-filter-condition.webp)
+![Query Filter Condition](./assets/conditions/query-filter-condition.webp)
 
 | Setting | Description | Dynamic | Required |
 | --- | --- | :---: | :---: |
@@ -46,7 +44,7 @@ Filter and/or order query conditions are rules, applied during a query execution
 
 ### Filter Evaluation Logic
 
-![Query Filter Conditions](./assets/query-filter-conditions.webp)
+![Query Filter Conditions](./assets/conditions/query-filter-conditions.webp)
 
 | Setting | Default | Description |
 | --- | --- | --- |
@@ -62,7 +60,7 @@ Filter and/or order query conditions are rules, applied during a query execution
 
 ### Order Condition
 
-![Query Order Condition](./assets/query-order-condition.webp)
+![Query Order Condition](./assets/conditions/query-order-condition.webp)
 
 | Setting | Description | Dynamic | Required |
 | --- | --- | :---: | :---: |
@@ -77,13 +75,13 @@ Filter and/or order query conditions are rules, applied during a query execution
 
 Part of the [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content#dynamic-conditions) core workflow, Dynamic Condition is set during a source mapping to determine should the element be displayed. The amount of conditions is limited to one, and cannot use dynamic content for more advanced evaluation.
 
-![Dynamic Conditions](./assets/dynamic-conditions.webp)
+![Dynamic Conditions](./assets/conditions/dynamic-conditions.webp)
 
 ## Access Condition
 
 Part of the [Access Addon](/essentials-for-yootheme-pro/addons/access/) workflow, Access Condition has the same functionality as the [Dynamic Condition](#dynamic-condition), but with support for dynamic content, multiple rules and custom evaluation logic. You can opt to use it instead as per higher possibilities.
 
-![Access Conditions](./assets/access-conditions.webp)
+![Access Conditions](./assets/conditions/access-conditions.webp)
 
 ## Execution Performance
 

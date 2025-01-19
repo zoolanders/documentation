@@ -35,6 +35,10 @@
             {
                 "text": "Settings",
                 "link": "settings"
+            },
+            {
+                "text": "Conditions",
+                "link": "conditions"
             }
         ]
     },
