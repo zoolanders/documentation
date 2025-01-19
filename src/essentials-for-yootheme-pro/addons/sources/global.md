@@ -6,7 +6,9 @@ Global sources are sources available globally for mapping in any element at any 
 
 The **Request Source** feeds from the current page request exposing the following fields.
 
-![Request Source Mapping](./assets/global/request-source.png)
+![Request Source](./assets/global/request-source.webp)
+
+![Request Source Fields](./assets/global/request-source-fields.png)
 
 | Setting | Description |
 | --- | --- |

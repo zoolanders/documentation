@@ -37,6 +37,10 @@
                 "link": "settings"
             },
             {
+                "text": "Date & Time",
+                "link": "datetime"
+            },
+            {
                 "text": "Conditions",
                 "link": "conditions"
             }
