@@ -25,12 +25,6 @@ In WordPress go to the **ZOOlanders Settings Panel** in Global Settings.
 
 When updating Essentials v1.x to v2.x, or v2.2 to v2.3, plan carefully as those version introduce major changes and have specific compatibility with YOOtheme Pro. In order to properly update, follow these steps in the given order.
 
-| Essentials | YOOtheme Pro Compatibility |
-| ---------- | ------------ |
-| v1 | v3.x |
-| v2 - 2.2 | v4 - 4.4 |
-| v2.3+ | v4.5 |
-
 1. Make a full, restorable backup of the site.
 1. Head over to _System > Plugins_ and disable the _Essentials_ plugin.
 1. Upgrade YOOtheme Pro to latest stable version.
