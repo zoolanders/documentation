@@ -28,25 +28,6 @@ Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Down
 ![Download ID WordPress](/essentials-for-yootheme-pro/assets/essential-settings-wordpress.png)
 :::
 
-## Minimum Stability
+## Upgrade
 
-Choose the minimum stability for Essential updates on your site, either Stable or Beta.
-
-| Release | Description |
-| --- | --- |
-| *Stable* | This release is a version which has been thoroughly tested by both our team and the community. Use it for production sites. |
-| *Beta* | This release is a version which has been thoroughly tested by our team. Use it to help us test and prevent issues in the Stable release. |
-
-::: details Joomla
-In Joomla go to the Installer Options in the **Global Configuration**.
-
-![Minimum Stability Joomla](/assets/minimum-stability.webp)
-
-**Notice** that this option applies to all theme and extension updates.
-:::
-
-::: details WordPress
-In WordPress go to the **ZOOlanders Settings Panel** in Global Settings.
-
-![Minimum Stability WordPress](/essentials-for-yootheme-pro/assets/essential-settings-wordpress.png)
-:::
+The upgrade from Essentials Freemium to Premium version is as simple as installing the premium package without uninstalling the freemium one. The upgrade process must be done manually, after that automatic updates will take over.
