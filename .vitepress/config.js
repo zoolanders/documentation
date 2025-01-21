@@ -20,6 +20,9 @@ export default defineConfig({
     sitemap: {
         hostname: 'https://docs.zoolanders.com',
     },
+    rewrites: {
+        'archive/ess-ytp-v2/:slug*': 'essentials-for-yootheme-pro/v2/:slug*',
+    },
     themeConfig: {
         logo: '/zoolanders.svg',
         siteTitle: false,

@@ -1,6 +1,6 @@
 import ZooEssentialsSidebar from '../src/essentials-for-zoo/sidebar.json';
 import YOOthemeProEssentialsSidebar from '../src/essentials-for-yootheme-pro/sidebar.json';
-import YOOthemeProEssentialsV2Sidebar from '../src/essentials-for-yootheme-pro/v2/sidebar.json';
+import YOOthemeProEssentialsV2Sidebar from '../src/archive/ess-ytp-v2/sidebar.json';
 
 export default {
     '/essentials-for-zoo/': ZooEssentialsSidebar,
