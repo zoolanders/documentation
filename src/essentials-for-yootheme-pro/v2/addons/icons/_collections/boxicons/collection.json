@@ -1,0 +1,17 @@
+{
+    "name": "boxicons",
+    "title": "Boxicons",
+    "icon": "${url:~yooessentials_url/modules/icon/collections/boxicons/icon.svg}",
+    "package": "http://static.zoolanders.com/icons/boxicons_2.1.4.zip",
+    "description": "High Quality Web Icons Set.",
+    "groups": [
+        "regular",
+        "solid",
+        "logos"
+    ],
+    "version": "2.1.4",
+    "release": "September, 2022",
+    "license": "MIT",
+    "url": "https://boxicons.com",
+    "icons": 1634
+}

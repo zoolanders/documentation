@@ -1,0 +1,12 @@
+{
+    "name": "tablericons",
+    "title": "Tabler Icons",
+    "icon": "${url:~yooessentials_url/modules/icon/collections/tablericons/icon.svg}",
+    "package": "http://static.zoolanders.com/icons/tablericons_2.30.0.zip",
+    "description": "A set of over 1250 high-quality SVG icons designed on a 24x24 grid and a 2px stroke.",
+    "version": "2.30.0",
+    "release": "July, 2023",
+    "license": "MIT",
+    "url": "https://tabler-icons.io",
+    "icons": 4601
+}

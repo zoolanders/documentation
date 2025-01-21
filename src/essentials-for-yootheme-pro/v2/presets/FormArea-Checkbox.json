@@ -1,0 +1,54 @@
+{
+    "type": "section",
+    "props": {
+        "yooessentials_form": {
+            "state": true,
+            "after_submit_actions": [
+                {
+                    "type": "message",
+                    "props": {
+                        "content": "<p>Thank you! Your input was:</p>\n<p>{options}</p>"
+                    }
+                }
+            ]
+        }
+    },
+    "children": [
+        {
+            "type": "row",
+            "children": [
+                {
+                    "type": "column",
+                    "children": [
+                        {
+                            "type": "yooessentials_form_checkbox",
+                            "props": {
+                                "control_name": "options"
+                            },
+                            "children": [
+                                {
+                                    "type": "yooessentials_form_option",
+                                    "props": {
+                                        "text": "Option 1",
+                                        "value": "option-1"
+                                    }
+                                },
+                                {
+                                    "type": "yooessentials_form_option",
+                                    "props": {
+                                        "text": "Option 2",
+                                        "value": "option-2"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "yooessentials_form_button"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "FormArea - Checkbox"
+}
