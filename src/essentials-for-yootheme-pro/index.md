@@ -14,8 +14,7 @@ Also take a look at the specific requirements of [YOOtheme Pro](https://yootheme
 
 ## Compatibility Details
 
-| Version | PHP | Joomla | WordPress | YOOtheme Pro |
+| Version | YOOtheme Pro | WordPress | Joomla | PHP |
 | --- | --- | --- | --- | --- |
-| Essentials 1 | 7.4 - 8.2 | 3/4/5 | 5/6 | 3 |
-| Essentials 2 - 2.2 | 7.4 - 8.2 | 3/4/5 | 5/6 | 4 - 4.4 |
-| Essentials 2.3+ | 7.4 - 8.2 |3/4/5 | 5/6 | 4.5 |
+| Essentials v1 | 2.3/3 | 5/6 | 3.9/5 | 7.4/8.2 |
+| Essentials v2 | 4/4.4 | 5/6 | 3.9/5 | 7.4/8.3 |
