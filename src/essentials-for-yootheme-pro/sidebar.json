@@ -1,48 +1,49 @@
 [
     {
         "text": "Getting Started",
+        "base": "/essentials-for-yootheme-pro",
         "items": [
             {
                 "text": "Introduction",
-                "link": "/essentials-for-yootheme-pro/"
+                "link": "/"
             },
             {
                 "text": "Installation",
-                "link": "/essentials-for-yootheme-pro/installation"
+                "link": "/installation"
             },
             {
                 "text": "Updating",
-                "link": "/essentials-for-yootheme-pro/updating"
-            },
-            {
-                "text": "Changelog",
-                "link": "https://www.zoolanders.com/essentials-for-yootheme-pro/changelog"
+                "link": "/updating"
             }
         ]
     },
     {
         "text": "General",
-        "base": "/essentials-for-yootheme-pro/",
+        "base": "/essentials-for-yootheme-pro",
         "items": [
             {
                 "text": "Auth, Keys & Secrets",
-                "link": "auths/"
+                "link": "/auths/"
             },
             {
                 "text": "Auth Drivers",
-                "link": "auths/drivers"
+                "link": "/auths/drivers"
             },
             {
                 "text": "Settings",
-                "link": "settings"
+                "link": "/settings"
             },
             {
                 "text": "Date & Time",
-                "link": "datetime"
+                "link": "/datetime"
             },
             {
                 "text": "Conditions",
-                "link": "conditions"
+                "link": "/conditions"
+            },
+            {
+                "text": "Storage Abstraction",
+                "link": "/storage"
             }
         ]
     },
@@ -162,19 +163,15 @@
     },
     {
         "text": "Layout Libraries",
-        "base": "/essentials-for-yootheme-pro",
+        "base": "/essentials-for-yootheme-pro/addons/layouts",
         "items": [
             {
                 "text": "Overview",
-                "link": "/addons/layouts/"
+                "link": "/"
             },
             {
                 "text": "Integration",
-                "link": "/addons/layouts/integration"
-            },
-            {
-                "text": "Storage Abstraction",
-                "link": "/storage"
+                "link": "/integration"
             }
         ]
     },
