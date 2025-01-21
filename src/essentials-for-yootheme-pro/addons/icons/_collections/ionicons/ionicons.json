@@ -1,9 +1,6 @@
 {
     "name": "ionicons",
     "title": "Ionicons",
-    "icon": "${url:~yooessentials_url/modules/icon/collections/ionicons/icon.svg}",
-    "package": "http://static.zoolanders.com/icons/ionicons_7.1.2.zip",
-    "groups": ["outline", "filled", "sharp", "logo"],
     "description": "Beautifully crafted open source icons built by the Ionic Framework team.",
     "groups": [
         "outline",

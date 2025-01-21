@@ -1,0 +1,17 @@
+{
+    "name": "phosporicons",
+    "title": "Phospor Icons",
+    "description": "A flexible icon family for interfaces, diagrams, presentations...",
+    "groups": [
+        "bold",
+        "fill",
+        "light",
+        "regular",
+        "thin"
+    ],
+    "version": "1.4.0",
+    "release": "December, 2021",
+    "license": "MIT",
+    "url": "https://phosphoricons.com",
+    "icons": 5235
+}

@@ -1,8 +1,6 @@
 {
     "name": "antdesign",
     "title": "Ant Design",
-    "icon": "${url:~yooessentials_url/modules/icon/collections/antdesign/icon.svg}",
-    "package": "http://static.zoolanders.com/icons/antdesign_4.3.0.zip",
     "description": "The abstract trees of the Ant Design SVG icons.",
     "groups": [
         "filled",

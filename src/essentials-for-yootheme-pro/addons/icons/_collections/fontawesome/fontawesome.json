@@ -1,17 +1,15 @@
 {
     "name": "fontawesome",
-    "title": "Font Awesome",
-    "icon": "${url:~yooessentials_url/modules/icon/collections/fa6/icon.svg}",
-    "package": "http://static.zoolanders.com/icons/fa6_6.4.2.zip",
+    "title": "Font Awesome 5",
     "description": "Icons and social logos by Font Awesome, the web's most popular icon set.",
     "groups": [
         "regular",
         "solid",
         "brands"
     ],
-    "version": "6.4.2",
-    "release": "August, 2023",
+    "version": "5.15.4",
+    "release": "August 8, 2021",
     "license": "CC BY 4.0",
     "url": "https://fontawesome.com",
-    "icons": 2025
+    "icons": 1611
 }

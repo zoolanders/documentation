@@ -1,10 +1,9 @@
 {
     "name": "remixicon",
     "title": "Remix Icon",
-    "icon": "${url:~yooessentials_url/modules/icon/collections/remixicon/icon.svg}",
-    "package": "http://static.zoolanders.com/icons/remixicon_3.5.0.zip",
     "description": "A set of open-source neutral-style system symbols for designers and developers.",
     "groups": [
+        "arrows",
         "buildings",
         "business",
         "communication",
@@ -14,6 +13,7 @@
         "document",
         "editor",
         "finance",
+        "food",
         "health",
         "logos",
         "map",
@@ -23,9 +23,9 @@
         "user",
         "weather"
     ],
-    "version": "3.5.0",
-    "release": "May 23, 2023",
+    "version": "4.5.0",
+    "release": "November, 2024",
     "license": "Apache",
     "url": "https://remixicon.com",
-    "icons": 2537
+    "icons": 3020
 }
