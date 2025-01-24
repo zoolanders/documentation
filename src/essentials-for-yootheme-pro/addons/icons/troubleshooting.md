@@ -12,7 +12,7 @@ As a solution make sure only one UIkit instance is loaded, in Widgetkit that is 
 
 ## Icons set in HTML Are Not Loaded
 
-Manually inputed icons in HTML as `uk-icon="..."` will not work as those would not be loaded by Essentials. A workaround is to force the loading of the icons you expect to use such way. In your child theme `config.php` file:
+Manually inputted icons in HTML using `uk-icon="..."` will not work because Essentials does not load them by default. To work around this, you can force the loading of the icons you plan to use. Add the following code to your child theme's `config.php` file:
 
 ```php
 <?php
