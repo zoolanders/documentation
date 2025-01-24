@@ -10,6 +10,29 @@ It could be that UIkit has been loaded twice, once by YOOtheme Pro and once agai
 
 As a solution make sure only one UIkit instance is loaded, in Widgetkit that is possible in the Global Configuration.
 
+## Icons set in HTML Are Not Loaded
+
+Manually inputed icons in HTML as `uk-icon="..."` will not work as those would not be loaded by Essentials. A workaround is to force the loading of the icons you expect to use such way. In your child theme `config.php` file:
+
+```php
+<?php
+use ZOOlanders\YOOessentials\Icon\IconLoader;
+
+return [
+    'extend' => [
+        IconLoader::class => function (IconLoader $loader, $app) {
+            foreach ([
+                'myicons-foo-icon',
+                'mycollection-bar-icon',
+                ...
+            ] as $icon) {
+                $loader->loadIcon($icon);
+            }
+        },
+    ],
+];
+```
+
 ## My Custom Icons Are Displayed Broken
 
 You have custom icons for an Icon Collection or My Icons, but when being selected in the builder the icon is displayed broken.
