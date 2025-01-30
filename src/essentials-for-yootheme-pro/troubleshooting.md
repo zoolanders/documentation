@@ -2,6 +2,14 @@
 
 Learn how to handle common issues within essentials.
 
+## Execution Error
+
+_A PHP error was triggered while executing yooessentials plugin._
+
+If an unexpected error occurs during the execution of an Essentials feature, an error message will be displayed with details to help you resolve the problem. This message will only be shown while previewing the site within the customizer or while there is an active customizer session.
+
+If you require further assistance, please contact support and provide the complete error message.
+
 ## Plugin Execution Prevented
 
 _The Essentials plugin execution has been prevented due to corrupted installation or altered files._
