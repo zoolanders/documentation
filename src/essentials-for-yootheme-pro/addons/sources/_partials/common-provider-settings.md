@@ -1,4 +1,4 @@
-![Source Instance Common Settings](/essentials-for-yootheme-pro/addons/sources/assets/common-provider-settings.webp)
+![Source Instance Common Settings](assets/common-provider-settings.webp)
 
 | Setting | Description | Default |
 | --- | --- | --- |

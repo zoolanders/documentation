@@ -18,7 +18,7 @@ In Joomla go to the Installer Options in the **Global Configuration**.
 ::: details WordPress
 In WordPress go to the **ZOOlanders Settings Panel** in Global Settings.
 
-![Minimum Stability WordPress](/essentials-for-yootheme-pro/assets/essential-settings-wordpress.png)
+![Minimum Stability WordPress](./assets/essential-settings-wordpress.png)
 :::
 
 ## Updating Essentials

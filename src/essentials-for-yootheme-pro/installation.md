@@ -25,7 +25,7 @@ Locate the **ZOOlanders Installer Plugin** and input the Download ID into it set
 ::: details WordPress
 Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Download ID into it settings.
 
-![Download ID WordPress](/essentials-for-yootheme-pro/assets/essential-settings-wordpress.png)
+![Download ID WordPress](./assets/essential-settings-wordpress.png)
 :::
 
 ## Upgrade

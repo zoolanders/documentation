@@ -1,0 +1,31 @@
+{
+    "name": "remixicon",
+    "title": "Remix Icon",
+    "description": "A set of open-source neutral-style system symbols for designers and developers.",
+    "groups": [
+        "arrows",
+        "buildings",
+        "business",
+        "communication",
+        "design",
+        "development",
+        "device",
+        "document",
+        "editor",
+        "finance",
+        "food",
+        "health",
+        "logos",
+        "map",
+        "media",
+        "others",
+        "system",
+        "user",
+        "weather"
+    ],
+    "version": "4.5.0",
+    "release": "November, 2024",
+    "license": "Apache",
+    "url": "https://remixicon.com",
+    "icons": 3020
+}
