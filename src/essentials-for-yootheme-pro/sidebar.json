@@ -22,28 +22,6 @@
         ]
     },
     {
-        "text": "Main Concepts",
-        "base": "/essentials-for-yootheme-pro",
-        "items": [
-            {
-                "text": "Conditions",
-                "link": "/conditions"
-            },
-            {
-                "text": "Date & Time",
-                "link": "/datetime"
-            },
-            {
-                "text": "Source Routing",
-                "link": "/addons/sources/routing"
-            },
-            {
-                "text": "Auth, Keys & Secrets",
-                "link": "/auths/"
-            }
-        ]
-    },
-    {
         "text": "Addons",
         "base": "/essentials-for-yootheme-pro/addons",
         "items": [
@@ -78,6 +56,24 @@
         ]
     },
     {
+        "text": "Concepts",
+        "base": "/essentials-for-yootheme-pro",
+        "items": [
+            {
+                "text": "Conditions",
+                "link": "/conditions"
+            },
+            {
+                "text": "Date & Time",
+                "link": "/datetime"
+            },
+            {
+                "text": "Auth, Keys & Secrets",
+                "link": "/auths/"
+            }
+        ]
+    },
+    {
         "text": "Reference",
         "base": "/essentials-for-yootheme-pro",
         "items": [
@@ -90,31 +86,7 @@
                 "link": "/auths/drivers"
             },
             {
-                "text": "Condition Rules",
-                "link": "/addons/access/rules"
-            },
-            {
-                "text": "Form Actions",
-                "link": "/addons/forms/actions"
-            },
-            {
-                "text": "Form Elements",
-                "link": "/addons/forms/elements"
-            },
-            {
-                "text": "Global Sources",
-                "link": "/addons/sources/global"
-            },
-            {
-                "text": "Source Providers",
-                "link": "/addons/sources/providers"
-            },
-            {
-                "text": "Icon Collections",
-                "link": "/addons/icons/collections"
-            },
-            {
-                "text": "Storage Abstraction",
+                "text": "Storages",
                 "link": "/storage"
             }
         ]
