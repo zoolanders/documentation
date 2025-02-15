@@ -1,0 +1,16 @@
+[
+    {
+        "text": "Layout Libraries",
+        "base": "/essentials-for-yootheme-pro/addons/layouts",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            }
+        ]
+    }
+]

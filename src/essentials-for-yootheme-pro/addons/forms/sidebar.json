@@ -1,0 +1,78 @@
+[
+    {
+        "text": "Forms Builder",
+        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            },
+            {
+                "text": "Form Area",
+                "link": "/form-area"
+            }
+        ]
+    },
+    {
+        "text": "Reference",
+        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "items": [
+            {
+                "text": "Actions",
+                "link": "/actions"
+            },
+            {
+                "text": "Elements",
+                "link": "/elements"
+            },
+            {
+                "text": "Captcha",
+                "link": "/captcha"
+            }
+        ]
+    },
+    {
+        "text": "Troubleshooting",
+        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "items": [
+            {
+                "text": "Common Issues",
+                "link": "/troubleshooting"
+            },
+            {
+                "text": "Submission Errors",
+                "link": "/submission-errors"
+            },
+            {
+                "text": "Email Delivery",
+                "link": "/email-delivery"
+            },
+            {
+                "text": "SPAM",
+                "link": "/spam"
+            }
+        ]
+    },
+    {
+        "text": "Advanced",
+        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "items": [
+            {
+                "text": "Form Events",
+                "link": "/form-events"
+            },
+            {
+                "text": "Custom Form Action",
+                "link": "/custom-action"
+            },
+            {
+                "text": "Custom Form Element",
+                "link": "/custom-element"
+            }
+        ]
+    }
+]

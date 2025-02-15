@@ -1,4 +1,4 @@
-# Icons Overview
+# Icons
 
 Essentials Icons is a collection of +12k icons for YOOtheme Pro icon library with support for 3rd party as custom collections.
 

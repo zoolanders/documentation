@@ -2,7 +2,7 @@
 addon: 'Icons'
 ---
 
-# Icons Integration
+# Integration
 
 Lets expand the builder icon library with a third-party [icon collection](./index#icon-collection) and display one of it icons.
 

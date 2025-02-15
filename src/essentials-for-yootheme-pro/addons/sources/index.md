@@ -1,4 +1,4 @@
-# Dynamic Sources Overview
+# Dynamic Sources
 
 Generate dynamic content sources from configuration or service-dependent data, such as database tables, CSV files, Instagram media, Google Spreadsheets, and more.
 

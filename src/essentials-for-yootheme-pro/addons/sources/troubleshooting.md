@@ -1,6 +1,4 @@
-# Sources Addon Related Issues
-
-Learn how to handle common issues within essential sources addon.
+# Sources Common Issues
 
 ## A Source is Triggering a Fatal Error
 

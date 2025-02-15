@@ -1,0 +1,36 @@
+[
+    {
+        "text": "Access Conditions",
+        "base": "/essentials-for-yootheme-pro/addons/access",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            }
+        ]
+    },
+    {
+        "text": "Reference",
+        "base": "/essentials-for-yootheme-pro/addons/access",
+        "items": [
+            {
+                "text": "Rules",
+                "link": "/rules"
+            }
+        ]
+    },
+    {
+        "text": "Developer",
+        "base": "/essentials-for-yootheme-pro/addons/access",
+        "items": [
+            {
+                "text": "Custom Access Rule",
+                "link": "/custom-rule"
+            }
+        ]
+    }
+]

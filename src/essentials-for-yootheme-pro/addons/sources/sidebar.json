@@ -1,0 +1,48 @@
+[
+    {
+        "text": "Dynamic Sources",
+        "base": "/essentials-for-yootheme-pro/addons/sources",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            },
+            {
+                "text": "Source Routing",
+                "link": "/routing"
+            },
+            {
+                "text": "Common Issues",
+                "link": "/troubleshooting"
+            }
+        ]
+    },
+    {
+        "text": "Reference",
+        "base": "/essentials-for-yootheme-pro/addons/sources",
+        "items": [
+            {
+                "text": "Global Sources",
+                "link": "/global"
+            },
+            {
+                "text": "Source Providers",
+                "link": "/providers"
+            }
+        ]
+    },
+    {
+        "text": "Advanced",
+        "base": "/essentials-for-yootheme-pro/addons/sources",
+        "items": [
+            {
+                "text": "Custom Source Provider",
+                "link": "/custom-provider"
+            }
+        ]
+    }
+]

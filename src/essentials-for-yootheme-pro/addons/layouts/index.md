@@ -1,4 +1,4 @@
-# Layout Libraries Overview
+# Layout Libraries
 
 A custom layout libraries store layouts in custom set locations that can be easier to backup and share across multiple sites. By [setting a custom layout library](./) you can load and browse page builder layouts from it in a workflow similar to the core Layout Library. However, a custom library come with some valuable enhancements.
 

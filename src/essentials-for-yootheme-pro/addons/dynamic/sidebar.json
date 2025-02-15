@@ -1,0 +1,20 @@
+[
+    {
+        "text": "Dynamic Content",
+        "base": "/essentials-for-yootheme-pro/addons/dynamic",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            },
+            {
+                "text": "Composed Sources",
+                "link": "/composed-sources"
+            }
+        ]
+    }
+]

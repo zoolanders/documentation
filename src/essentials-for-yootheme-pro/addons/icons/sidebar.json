@@ -1,0 +1,40 @@
+[
+    {
+        "text": "Icons",
+        "base": "/essentials-for-yootheme-pro/addons/icons",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Integration",
+                "link": "/integration"
+            },
+            {
+                "text": "Common Issues",
+                "link": "/troubleshooting"
+            }
+        ]
+    },
+    {
+        "text": "Reference",
+        "base": "/essentials-for-yootheme-pro/addons/icons",
+        "items": [
+            {
+                "text": "Collections",
+                "link": "/collections"
+            }
+        ]
+    },
+    {
+        "text": "Advanced",
+        "base": "/essentials-for-yootheme-pro/addons/icons",
+        "items": [
+            {
+                "text": "Custom Icon Collection",
+                "link": "/custom-collection"
+            }
+        ]
+    }
+]

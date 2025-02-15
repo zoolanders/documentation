@@ -1,7 +1,5 @@
 # Common Issues
 
-Learn how to handle common issues within essentials.
-
 ## Execution Error
 
 _A PHP error was triggered while executing yooessentials plugin._

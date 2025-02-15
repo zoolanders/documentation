@@ -3,7 +3,7 @@ addon: Elements
 description: Create visually impressive charts, process markdown or let users share on social media
 ---
 
-# Elements Overview
+# Elements
 
 Create visually appealing charts from static and dynamic data, process markdown content or let users share your website's content on their social media.
 

@@ -1,4 +1,4 @@
-# Dynamic Content Overview
+# Dynamic Content
 
 Essentials extends YOOtheme Pro [Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content) with advanced features that integrates natively into the builder. Lets find out what are those advanced features all about.
 

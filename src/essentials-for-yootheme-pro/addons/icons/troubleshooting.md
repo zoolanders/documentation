@@ -1,6 +1,4 @@
-# Icons Addon Related Issues
-
-Learn how to handle common issues within essential icons addon.
+# Common Issues
 
 ## Icons Are Not Being Displayed
 

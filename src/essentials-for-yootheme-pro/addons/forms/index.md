@@ -1,4 +1,4 @@
-# Forms Builder Overview
+# Form Builder
 
 When a section, column or sublayout is defined as a [form area](./form-area) it is enclosed with a standard `<form\>` HTML element without losing builder capabilities. Forms are dynamic in nature as it is YOOtheme Pro builder with dynamic content. Essentials forms builds up on both to create a dynamic data workflow before and after a submission.
 
