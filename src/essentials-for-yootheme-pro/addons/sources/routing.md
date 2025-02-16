@@ -68,3 +68,28 @@ Design this template to best suit your use case. This could be as simple as Head
 The key to this workflow is to ensure that the album ID stored in the article is mapped to all Google Photos sources referencing an album. We can do this by choosing the Dynamic option for the Album in the source configuration and mapping the article field that holds the album ID. The article field value can be retrieved with the Page Article Source and its Custom Fields, with the final mapping as `Page -> Article -> Fields -> Album ID`.
 
 ![Articles Route Mapping](./assets/routing/articles-route-mapping.png)
+
+## Pagination
+
+If you have opted for the [Articles as Route](#articles-as-route) approach, pagination will be provided by the system. However, if you have chosen the [Page as Route](#page-as-route) approach, pagination is not provided natively but can be emulated. This can be particularly useful when dealing with large sets of data, such as a photo album with many images.
+
+### 1. Add Pagination Controls
+
+First, add pagination controls to your page layout. This can be done using buttons or links that will update the URL with the current page number. For example:
+
+```html
+<a href="/trips/album?id=xxx&start=1">Page 1</a>
+<a href="/trips/album?id=xxx&start=10">Page 2</a>
+```
+
+:::warning Pagination Element
+The Pagination element will not be usable in this case as the pagination data is provided by different means. Although, it might be in the future.
+:::
+
+### 2. Update the Source Query
+
+Next, update the source query to include the page parameter. This can be done by mapping the URL query parameter to the source query configuration. For example, if you are using Google Photos Album Media, you can map the `Global -> Request -> URL -> Param (start)` parameter to the source query `Start` setting.
+
+### 3. Conclusion
+
+Although this approach has its limitations, it allows for the implementation of paginated results within a single page. This provides a better user experience when dealing with large sets of data.
