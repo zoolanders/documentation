@@ -4,12 +4,12 @@
         "base": "/essentials-for-yootheme-pro/addons/layouts",
         "items": [
             {
-                "text": "Overview",
+                "text": "Getting Started",
                 "link": "/"
             },
             {
-                "text": "Integration",
-                "link": "/integration"
+                "text": "Layout Library",
+                "link": "/library"
             }
         ]
     }

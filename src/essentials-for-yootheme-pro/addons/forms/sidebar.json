@@ -4,26 +4,20 @@
         "base": "/essentials-for-yootheme-pro/addons/forms",
         "items": [
             {
-                "text": "Overview",
+                "text": "Getting Started",
                 "link": "/"
-            },
-            {
-                "text": "Integration",
-                "link": "/integration"
             },
             {
                 "text": "Form Area",
                 "link": "/form-area"
-            }
-        ]
-    },
-    {
-        "text": "Reference",
-        "base": "/essentials-for-yootheme-pro/addons/forms",
-        "items": [
+            },
             {
-                "text": "Actions",
-                "link": "/actions"
+                "text": "After Submit Actions",
+                "link": "/after-submit-actions"
+            },
+            {
+                "text": "Dynamic Integration",
+                "link": "/dynamic"
             },
             {
                 "text": "Elements",
@@ -32,6 +26,74 @@
             {
                 "text": "Captcha",
                 "link": "/captcha"
+            }
+        ]
+    },
+    {
+        "text": "Actions",
+        "base": "/essentials-for-yootheme-pro/addons/forms/actions",
+        "items": [
+            {
+                "text": "Alter",
+                "link": "/alter"
+            },
+            {
+                "text": "Download",
+                "link": "/download"
+            },
+            {
+                "text": "Email",
+                "link": "/email"
+            },
+            {
+                "text": "Message",
+                "link": "/message"
+            },
+            {
+                "text": "Redirect",
+                "link": "/redirect"
+            },
+            {
+                "text": "Validate",
+                "link": "/validate"
+            },
+            {
+                "text": "Webhook",
+                "link": "/webhook"
+            },
+            {
+                "text": "Data",
+                "items": [
+                    {
+                        "text": "Airtable",
+                        "link": "/airtable"
+                    },
+                    {
+                        "text": "CSV",
+                        "link": "/csv"
+                    },
+                    {
+                        "text": "Database",
+                        "link": "/database"
+                    },
+                    {
+                        "text": "Google Sheets",
+                        "link": "/google-sheets"
+                    }
+                ]
+            },
+            {
+                "text": "Misc",
+                "items": [
+                    {
+                        "text": "AcyMailing",
+                        "link": "/acymailing"
+                    },
+                    {
+                        "text": "Mailchimp",
+                        "link": "/mailchimp"
+                    }
+                ]
             }
         ]
     },

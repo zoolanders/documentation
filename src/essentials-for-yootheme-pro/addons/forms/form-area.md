@@ -1,30 +1,14 @@
 # Form Area
 
-A form area is a layout _section_, _column_ or _sublayout_ defined as such in the _Advanced Tab_ settings. It configuration and fields structure is scoped, making possible the placement of multiple forms in the same layout.
+When a _section_, _column_ or _sublayout_ is defined as a form area, within the element _Advanced Tab_ panel, it is enclosed with a standard `<form\>` HTML element without losing builder capabilities. Forms are dynamic in nature as it is YOOtheme Pro builder with dynamic content. Essentials forms builds up on both to create a dynamic data workflow before and after a submission.
 
 ![Form Area Shortcut](./assets/formarea-config-shortcut.webp)
 
-For every form area a `paper-plane`  icon will appear in the builder's main panel to both state that the node is a form area as well as to allow directly opening its configuration panel when clicked.
+For every form area a `paper-plane`  icon will appear in the builder's main panel to both state that the element is a form area as well as to allow directly opening its configuration panel when clicked.
 
-## After Submit Actions
+## Configuration
 
-After Submit Actions, or simply actions, are multi-instance functions that will run sequentially, after a form has been successfully submitted, as long as the chain is not disrupted by an error. These are crucial for the form workflow, as submission data is not processed or logged unless there is an action set for the task.
-
-Actions are set in the form area [configuration](#form-area-configuration) and tipically involves sending an email or saving the submission data to the database. For a full overview of available actions and their capabilities, consult the [actions](./actions) section.
-
-![After Submit Actions](./assets/actions/actions.webp)
-
-Actions will by default be always executed unless their status has been manually set to `disabled`, or it execution condition dynamically been resolved to false. The execution condition supports Dynamic Content, including the form submitted data.
-
-![Actions Dynamic Execution](./assets/actions/exec-dynamic.webp)
-
-::: tip
-Use execution conditions for advanced workflows, e.g. subscribing to a newsletter only if a specific checkbox has been checked on.
-:::
-
-## Form Area Configuration
-
-The form area configuration panel contains form specific settings, including [after submit actions](#after-submit-actions).
+The form area configuration panel contains form specific settings, including [after submit actions](./after-submit-actions.md).
 
 ![Form Area Actions](./assets/formarea-config-actions.webp)
 
@@ -80,18 +64,26 @@ Notice that when a custom action URL is set, server-side validation and after su
 For more advanced customizations consult [Extending Forms](./form-events) section.
 :::
 
-## Form Area Dynamic Source
+## Data Placeholders
 
-For each form area, a dynamic content source is created as an alternative, and more convenient, way of accessing submitted data during actions configuration. As a dynamic source, it has all the advantages of [YOOtheme Pro Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content), like the ability to alter the submitted data with filters.
+Data placeholders are plain string references to the submitted data based on their control names. For instance, if there is an input field with the control name _email_, the placeholder reference would be `{email}`. These placeholders can be placed in action settings and will be replaced with the submitted data value during the action execution.
 
-The mapping option for the form area source will be listed as part of each field _Dynamic_ options under the _Submission Group_.
+![Form Data Placeholders](./assets/form-data-placeholders.webp)
 
-![Form Dynamic Content](./assets/form-dynamic-content.webp)
+<small>
+As a quick reference a list of available placeholders can be accessed by clicking the Placeholder Button.
+</small>
 
-## Form in a Modal
+::: tip
+For a more advanced data workflow combine a [composed source](/essentials-for-yootheme-pro/addons/dynamic/composed-sources) with a [forma area dynamic source](./form-area#form-area-dynamic-source).
+:::
 
-Out of the box, a form cannot be displayed in a Modal, but there are 3rd party solutions.
+## Validation
 
-- [FS Teaser Card](https://flart.studio/yootheme-pro/teaser-card) by Flart Studio
-- [DJ-Popup](https://dj-extensions.com/yootheme/dj-popup) by DJ Extensions
-- [JP CE Modal Pro](https://extensions.joomlapro.com/product/ce-modal-pro) by JoomlaPro
+For a form data to be submitted it must pass the fields validation as well as the CAPTCHA validation, if any present. The validation is first run in the browser, and once again via server-side ajax request.
+
+Each field has its own validation rules which can be set independently under the element _Validation Tab_ settings. For more information and integration details, refer to [elements](./elements) documentation.
+
+::: warning Custom Error Message
+At the moment, it is only possible to customize the validation error messages for server-side validation, not for HTML5 validation. A workaround is to disable HTML5 validation in the Form Area configuration.
+:::

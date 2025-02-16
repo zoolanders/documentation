@@ -138,6 +138,10 @@
 }
 
 /* tm-resource */
+.tm-resource-icon {
+    margin-top: 20px;
+}
+
 .tm-resource-icon > svg {
     width: 60px;
 }

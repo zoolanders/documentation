@@ -4,22 +4,109 @@
         "base": "/essentials-for-yootheme-pro/addons/access",
         "items": [
             {
-                "text": "Overview",
+                "text": "Getting Started",
                 "link": "/"
             },
             {
-                "text": "Integration",
-                "link": "/integration"
+                "text": "Access Condition",
+                "link": "/condition"
+            },
+            {
+                "text": "Evaluation Logs",
+                "link": "/logs"
             }
         ]
     },
     {
-        "text": "Reference",
-        "base": "/essentials-for-yootheme-pro/addons/access",
+        "text": "Rules",
+        "base": "/essentials-for-yootheme-pro/addons/access/rules",
         "items": [
             {
-                "text": "Rules",
-                "link": "/rules"
+                "text": "Dynamic",
+                "link": "/dynamic"
+            },
+            {
+                "text": "Site",
+                "items": [
+                    {
+                        "text": "URL",
+                        "link": "/url"
+                    },
+                    {
+                        "text": "Language",
+                        "link": "/language"
+                    },
+                    {
+                        "text": "User",
+                        "link": "/user"
+                    },
+                    {
+                        "text": "User Group",
+                        "link": "/user-group"
+                    },
+                    {
+                        "text": "User Level",
+                        "link": "/user-level"
+                    }
+                ]
+            },
+            {
+                "text": "Device",
+                "items": [
+                    {
+                        "text": "Browser",
+                        "link": "/browser"
+                    },
+                    {
+                        "text": "Device",
+                        "link": "/device"
+                    },
+                    {
+                        "text": "Operating System",
+                        "link": "/operating-system"
+                    },
+                    {
+                        "text": "IP Address",
+                        "link": "/ip-address"
+                    },
+                    {
+                        "text": "IP Geolocation",
+                        "link": "/ip-geolocation"
+                    }
+                ]
+            },
+            {
+                "text": "Datetime",
+                "items": [
+                    {
+                        "text": "Time",
+                        "link": "/time"
+                    },
+                    {
+                        "text": "Date",
+                        "link": "/date"
+                    },
+                    {
+                        "text": "Datetime",
+                        "link": "/datetime"
+                    },
+                    {
+                        "text": "Day",
+                        "link": "/day"
+                    },
+                    {
+                        "text": "Week",
+                        "link": "/week"
+                    },
+                    {
+                        "text": "Month",
+                        "link": "/month"
+                    },
+                    {
+                        "text": "Season",
+                        "link": "/season"
+                    }
+                ]
             }
         ]
     },
@@ -28,7 +115,7 @@
         "base": "/essentials-for-yootheme-pro/addons/access",
         "items": [
             {
-                "text": "Custom Access Rule",
+                "text": "Custom Condition Rule",
                 "link": "/custom-rule"
             }
         ]

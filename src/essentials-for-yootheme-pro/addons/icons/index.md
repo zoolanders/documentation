@@ -2,18 +2,30 @@
 
 Essentials Icons is a collection of +12k icons for YOOtheme Pro icon library with support for 3rd party as custom collections.
 
-## Icon Collection
+---
 
-An icon collection represents a set of icons that can be added or removed collectively from the builder's icon library. You can install one of the [collections](./collections) provided by Essentials or [create a custom collection](./custom-collection).
+Lets expand the builder icon library with a third-party [icon collection](./index#icon-collection) and display one of it icons.
 
-After installation, the collection icons will integrate natively and be available in the builder Icon Picker under the _Collections_ Tab.
+<!--@include: ../_partials/enable-addon.md-->
 
-![Icon Collections](./assets/icon-collections.webp)
+## Add an Icon Collection
 
-## My Icons
+Before being able to choose an icon we must first install a collection within the [Icon Collections manager](/essentials-for-yootheme-pro/settings#icon-collections).
 
-My Icons is a collection of custom curated icons set under the scope of a Child Theme. By placing the icons in the `{childtheme}/myicons` folder the icons of the currently active Child Theme seamlessly integrate into the icon library under the My Icons tab.
+![Icon Collections Manager](/essentials-for-yootheme-pro/assets/icon-collections-manager.gif)
 
-You can as well group them into subfolders, e.g. `{childtheme}/myicons/group-a`, `{childtheme}/myicons/group-b`.
+1. Open the manager within _Customizer -> Essentials_ panel.
+1. Click on the _Add Collection_ button and choose some collection.
+1. Wait until the collection is listed in the manager.
 
-![My Icons](./assets/my-icons.webp)
+## Display an Icon
+
+Now that a collection is installed we are ready to use them in our layouts.
+
+![Display Icon](./assets/display-icon.gif)
+
+1. Open some layout within the builder.
+1. Add an _Icon Element_ and click on the _Icon Picker_.
+1. In the picker Modal select the _Collections Tab_ and choose some icon.
+
+The chosen icon should be displayed!

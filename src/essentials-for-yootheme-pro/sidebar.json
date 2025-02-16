@@ -16,6 +16,10 @@
                 "link": "/updating"
             },
             {
+                "text": "Settings",
+                "link": "/settings"
+            },
+            {
                 "text": "Common Issues",
                 "link": "/troubleshooting"
             }
@@ -56,7 +60,7 @@
         ]
     },
     {
-        "text": "Concepts",
+        "text": "Reference",
         "base": "/essentials-for-yootheme-pro",
         "items": [
             {
@@ -70,16 +74,6 @@
             {
                 "text": "Auth, Keys & Secrets",
                 "link": "/auths/"
-            }
-        ]
-    },
-    {
-        "text": "Reference",
-        "base": "/essentials-for-yootheme-pro",
-        "items": [
-            {
-                "text": "Settings",
-                "link": "/settings"
             },
             {
                 "text": "Auth Drivers",

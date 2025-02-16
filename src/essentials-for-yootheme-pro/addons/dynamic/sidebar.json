@@ -4,16 +4,24 @@
         "base": "/essentials-for-yootheme-pro/addons/dynamic",
         "items": [
             {
-                "text": "Overview",
+                "text": "Getting Started",
                 "link": "/"
             },
             {
-                "text": "Integration",
-                "link": "/integration"
+                "text": "Extended Workflow",
+                "link": "/extended"
             },
             {
                 "text": "Composed Sources",
                 "link": "/composed-sources"
+            },
+            {
+                "text": "Query Arguments",
+                "link": "/query-arguments"
+            },
+            {
+                "text": "Global Queries",
+                "link": "/global-queries"
             }
         ]
     }

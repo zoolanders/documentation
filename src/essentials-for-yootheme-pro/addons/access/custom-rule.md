@@ -2,7 +2,7 @@
 description: Learn now to create a Custom Access Condition Rule for Access and others
 ---
 
-# Custom Access Rule
+# Custom Condition Rule
 
 {{ $frontmatter.description }}.
 
