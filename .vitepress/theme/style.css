@@ -409,8 +409,19 @@
     background-color: var(--vp-c-white);
 }
 
-.VPNav .VPNavBarTitle.has-sidebar .title {
+.VPNav .VPNavBarTitle a.title {
     border-bottom: none;
+}
+
+.VPNav .VPNavBar.has-sidebar .container > .title {
+    width: inherit;
+    position: inherit;
+    padding-right: 0;
+    margin-top: 0;
+}
+
+.VPNav .VPNavBar.has-sidebar .container > .content {
+    padding-left: 0;
 }
 
 /* DocSearch */

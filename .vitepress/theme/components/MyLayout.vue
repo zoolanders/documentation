@@ -35,7 +35,6 @@ watch(() => isDark.value, toggleResourceIconsColor, {
 watch(
     () => route.path,
     (newPath, oldPath) => {
-        console.log(newPath);
         if (newPath.startsWith('/essentials-for-yootheme-pro/addons')) {
             previousRoute.value = '/essentials-for-yootheme-pro/';
         } else {

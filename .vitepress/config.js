@@ -50,7 +50,6 @@ export default defineConfig({
                 link: 'https://discord.gg/3BT5nHauWr',
             },
         ],
-
         footer: {
             // message: 'Essentials for YOOtheme Pro and ZOO',
             copyright:
