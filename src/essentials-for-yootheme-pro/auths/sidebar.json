@@ -1,0 +1,38 @@
+[
+    {
+        "text": "Auths, Keys & Secrets",
+        "base": "/essentials-for-yootheme-pro/auths",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Auth Drivers",
+                "link": "/drivers"
+            }
+        ]
+    },
+    {
+        "text": "Advanced",
+        "base": "/essentials-for-yootheme-pro/auths",
+        "items": [
+            {
+                "text": "Custom Twitter Dev App",
+                "link": "/custom-twitter-dev-app"
+            },
+            {
+                "text": "Custom Facebook Dev App",
+                "link": "/custom-facebook-dev-app"
+            },
+            {
+                "text": "Custom Google Dev App",
+                "link": "/custom-google-dev-app"
+            },
+            {
+                "text": "Custom LinkedIn Dev App",
+                "link": "/custom-linkedin-dev-app"
+            }
+        ]
+    }
+]
