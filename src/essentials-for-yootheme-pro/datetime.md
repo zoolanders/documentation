@@ -16,6 +16,6 @@ We can modify the date to obtain the timestamp for yesterday by subtracting one 
 
 ## Timestamp Evaluation
 
-Similarly, if we map the current timestamp to access or filter [conditions](./conditions), we can alter the results based on the current date. Note that when comparing dates, both must be formatted as ISO valid dates, e.g., `Y-m-d`.
+Similarly, if we map the current timestamp to access or filter [conditions](./conditions), we can alter the results based on the current date. Note that when comparing dates, both must be formatted as ISO valid dates, e.g., `c` for a timestamp or `Y-m-d` for a date.
 
 ![Request Timestamp Evaluation](./assets/datetime/request-timestamp-evaluation.webp)
