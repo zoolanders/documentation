@@ -6,11 +6,13 @@ Download the [Essentials for YOOtheme Pro](https://www.zoolanders.com/downloads)
 The plugin will be installed under the `plugins/system/yooessentials` for Joomla and `wp-contents/plugins/yooessentials` directory for WordPress.
 :::
 
-Essentials can be updated using the platform update system. Whenever a new version of is available, you will receive a notification in the platform dashboard. Before you can update, you have to first add your Essentials Download ID.
+## Updating Essentials
 
-## Download ID
+Essentials can be updated using the platform's update system. Whenever a new version is available, you will receive a notification in the platform dashboard. Before you can update, ensure that you have added your Essentials Download ID.
 
-An Essentials Download ID is an alphanumeric code and is created individually for each website. Without it, you won't be able to update Essentials. You can find and manage your IDs in the [Download IDs](https://zoolanders.com/account/download-ids) section of your account.
+### Download ID
+
+An Essentials Download ID is a unique alphanumeric code generated for each website. It is required to update Essentials. You can find and manage your Download IDs in the [Download IDs](https://zoolanders.com/account/download-ids) section of your account.
 
 ![Download ID](/assets/download-id.png)
 
@@ -28,6 +30,6 @@ Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Down
 ![Download ID WordPress](./assets/essential-settings-wordpress.png)
 :::
 
-## Upgrade
+## Upgrade to Premium
 
-The upgrade from Essentials Freemium to Premium version is as simple as installing the premium package without uninstalling the freemium one. The upgrade process must be done manually, after that automatic updates will take over.
+Upgrading from Essentials Freemium to the Premium version is straightforward. Simply install the premium package without uninstalling the freemium version. This manual upgrade process ensures that all your settings and data are retained. Once the upgrade is complete, future updates will be handled automatically.
