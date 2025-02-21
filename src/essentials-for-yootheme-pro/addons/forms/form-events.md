@@ -41,7 +41,7 @@ UIkit.util.ready(function () {
 
 ## On Submission Error
 
-Trigger on submission error and validation error.
+Triggers on submission error or server side validation error.
 
 ```js
 UIkit.util.ready(function () {
@@ -53,6 +53,42 @@ UIkit.util.ready(function () {
   // global
   UIkit.util.on(document, 'yooessentials-form:submission-error', function (e, ctx) {
     // ctx = {form, error, errors, validation}
+  });
+});
+```
+
+## On Validation Error
+
+Triggers on HTML5 validation error.
+
+```js
+UIkit.util.ready(function () {
+  // local
+  UIkit.util.on('#form-id', 'form:validation-error', function (e, ctx) {
+    // ctx = {data}
+  });
+
+  // global
+  UIkit.util.on(document, 'yooessentials-form:validation-error', function (e, ctx) {
+    // ctx = {form, data}
+  });
+});
+```
+
+## On Field Change
+
+Triggers when any field value has changed.
+
+```js
+UIkit.util.ready(function () {
+  // local
+  UIkit.util.on('#form-id', 'form:field-change', function (e, ctx) {
+    // ctx = {field, data}
+  });
+
+  // global
+  UIkit.util.on(document, 'yooessentials-form:field-change', function (e, ctx) {
+    // ctx = {form, field, data}
   });
 });
 ```

@@ -12,12 +12,8 @@
                 "link": "/form-area"
             },
             {
-                "text": "After Submit Actions",
+                "text": "Actions",
                 "link": "/after-submit-actions"
-            },
-            {
-                "text": "Dynamic Integration",
-                "link": "/dynamic"
             },
             {
                 "text": "Elements",
@@ -26,6 +22,10 @@
             {
                 "text": "Captcha",
                 "link": "/captcha"
+            },
+            {
+                "text": "Conditional Logic",
+                "link": "/conditional-logic"
             }
         ]
     },
