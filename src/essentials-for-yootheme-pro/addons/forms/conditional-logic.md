@@ -4,19 +4,20 @@ Conditional logic is a powerful tool that allows you to create dynamic and respo
 
 ## Show and Hide Fields
 
-Essentials Form Builder doesn't have built-in functionality to hide or show fields based on the form's current state. However, it provides a [Form Area](form-area#hooks) setting that allows you to hook into the change event and implement this behavior.
+Essentials Form Builder doesn't have built-in functionality to hide or show fields based on the form's current state. However, it provides a [Form Area](form-area#hooks) setting that allows you to hook into the change event and implement this and many other behaviors.
 
-For example, you can listen for field changes and display a hidden fieldset if a select field has a specific value selected, or hide it otherwise.
+![Form Area On Field Change Hook](./assets/formarea-hook-field-change.png)
+
+For example, you could show a hidden fieldset when a select field has a specific value selected, or hide it otherwise.
 
 ```js
 // on field-change hook set in the form area settings
-var select = UIkit.util.$('#select', form);
-var fieldset = UIkit.util.$('#fieldset', form);
+var hidded = UIkit.util.$('#fieldset', form);
 
-if (select.value === 'foo') {
-  UIkit.util.removeClass(fieldset, 'uk-hidden');
+if (field.control === 'select' && field.value === 'foo') {
+    UIkit.util.removeClass(hidded, 'uk-hidden');
 } else {
-  UIkit.util.addClass(fieldset, 'uk-hidden');
+    UIkit.util.addClass(hidded, 'uk-hidden');
 }
 ```
 
