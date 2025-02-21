@@ -13,7 +13,7 @@ For example, you can listen for field changes and display a hidden fieldset if a
 var select = UIkit.util.$('#select', form);
 var fieldset = UIkit.util.$('#fieldset', form);
 
-if (select.value === 'option-3') {
+if (select.value === 'foo') {
   UIkit.util.removeClass(fieldset, 'uk-hidden');
 } else {
   UIkit.util.addClass(fieldset, 'uk-hidden');
