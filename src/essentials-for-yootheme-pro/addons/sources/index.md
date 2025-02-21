@@ -6,11 +6,11 @@ addon: Sources
 
 Generate dynamic content sources from configuration or service-dependent data, such as database tables, CSV files, Instagram media, Google Spreadsheets, and more.
 
+<!--@include: ../_partials/enable-addon.md-->
+
 ---
 
 Lets create a RSS source and render it feed data to a layout.
-
-<!--@include: ../_partials/enable-addon.md-->
 
 ## Create a Source Instance
 

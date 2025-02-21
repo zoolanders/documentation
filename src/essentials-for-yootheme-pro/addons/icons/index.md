@@ -1,10 +1,10 @@
+---
+addon: 'Icons'
+---
+
 # Icons
 
 Essentials Icons is a collection of +12k icons for YOOtheme Pro icon library with support for 3rd party as custom collections.
-
----
-
-Lets expand the builder icon library with a third-party [icon collection](./index#icon-collection) and display one of it icons.
 
 <!--@include: ../_partials/enable-addon.md-->
 

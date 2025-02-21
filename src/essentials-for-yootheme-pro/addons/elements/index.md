@@ -1,6 +1,13 @@
+---
+addon: 'Elements'
+freemium: true
+---
+
 # Elements
 
 Create visually appealing charts from static and dynamic data, process markdown content or let users share your website's content on their social media.
+
+<!--@include: ../_partials/enable-addon.md-->
 
 ---
 

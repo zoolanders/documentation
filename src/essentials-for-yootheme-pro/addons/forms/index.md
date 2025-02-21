@@ -1,3 +1,7 @@
+---
+addon: 'Forms'
+---
+
 # Form Builder
 
 Empower a section, column or sublayout as a form area, set form fields and trigger actions after a successful submission.

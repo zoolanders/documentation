@@ -1,3 +1,7 @@
+---
+addon: 'Access'
+---
+
 # Access Conditions
 
 Compose rules that will determine the evaluation criteria for rendering an element. With support for static and dynamic values, establish custom evaluation logic, and view logs directly in the builder to gain a better understanding of the evaluation results.

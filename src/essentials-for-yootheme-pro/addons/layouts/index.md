@@ -1,3 +1,7 @@
+---
+addon: 'Layouts'
+---
+
 # Layout Libraries
 
 Create custom layout libraries which layouts can be stored locally or shared across multiple sites through the use of external storage options like FTP or Amazon S3.
