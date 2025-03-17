@@ -57,4 +57,4 @@ Thoroughly clear all caches, and test. If anything goes wrong, restore the backu
 
 ## Upgrading Essentials
 
-The upgrade from Essentials Freemium to Premium version is as simple as [installing](./installation) the premium package without uninstalling the freemium one. The upgrade process must be done manually, after that automatic updates will take over.
+The upgrade from Essentials Freemium to Premium version is as simple as [installing](./#installation) the premium package without uninstalling the freemium one. The upgrade process must be done manually, after that automatic updates will take over.
