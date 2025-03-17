@@ -25,3 +25,11 @@ The changelog contains information about the modifications made in each stable v
 ![Essentials Changelog](./assets/essentials-changelog.gif)
 
 You can alternatively access the changelog online at [http://zoolanders.com/essentials-for-yootheme-pro/changelog](https://www.zoolanders.com/essentials-for-yootheme-pro/changelog).
+
+## Installation
+
+Download the [Essentials for YOOtheme Pro](https://www.zoolanders.com/downloads) plugin and install it by following the official [Joomla extension installation](https://docs.joomla.org/Installing_an_extension) or the [WordPress plugin installation](https://wordpress.org/support/article/managing-plugins/#installing-plugins-1) instructions. After a successful installation, a plugin named **Essentials YOOtheme Pro** (a.k.a. `yooessentials`) should be listed and enabled.
+
+::: tip Installation Folder
+The plugin will be installed under the `plugins/system/yooessentials` for Joomla and `wp-contents/plugins/yooessentials` directory for WordPress.
+:::

@@ -1,6 +1,28 @@
 # Updating
 
-Essentials can be updated manually in a similar way it was installed, or programmatically by the platform. When the latest, make sure to choose the right minimum stability, either Stable or Beta.
+Essentials can be updated manually in a similar way it was installed, or programmatically by the platform. When the latest, make sure to set the Download ID and choose the right minimum stability, either Stable or Beta.
+
+## Download ID
+
+An Essentials Download ID is a unique alphanumeric code generated for each website. It is required to update Essentials. You can find and manage your Download IDs in the [Download IDs](https://zoolanders.com/account/download-ids) section of your account.
+
+![Download ID](/assets/download-id.png)
+
+Once obtained, set it in your site, an action that slightly differs for each platform.
+
+::: details Joomla
+Locate the **ZOOlanders Installer Plugin** and input the Download ID into it settings.
+
+![Download ID Joomla](/assets/download-id-joomla.png)
+:::
+
+::: details WordPress
+Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Download ID into it settings.
+
+![Download ID WordPress](./assets/essential-settings-wordpress.png)
+:::
+
+## Minimum Statbility
 
 | Release | Description |
 | --- | --- |
@@ -21,7 +43,7 @@ In WordPress go to the **ZOOlanders Settings Panel** in Global Settings.
 ![Minimum Stability WordPress](./assets/essential-settings-wordpress.png)
 :::
 
-## Updating Essentials
+## Updating Major Release
 
 When updating Essentials v1.x to v2.x, or v2.2 to v2.3, plan carefully as those version introduce major changes and have specific compatibility with YOOtheme Pro. In order to properly update, follow these steps in the given order.
 
