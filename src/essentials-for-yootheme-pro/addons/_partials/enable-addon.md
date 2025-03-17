@@ -1,5 +1,5 @@
 ::: tip
-Make sure Essentials for YOOtheme Pro is [installed](/essentials-for-yootheme-pro/installation) and _{{ $frontmatter.addon }} Addon_ is enabled.
+Make sure Essentials for YOOtheme Pro is [installed](/essentials-for-yootheme-pro/#installation) and _{{ $frontmatter.addon }} Addon_ is enabled.
 :::
 
 ::: details How to enable {{ $frontmatter.addon }} Addon
