@@ -4,8 +4,8 @@ YOOtheme Pro Dynamic source queries arguments are limited to static configuratio
 
 ![Dynamic Query Arguments](./assets/dynamic-query-arguments.webp)
 
-::: warning Obvious Limitation
-The arguments dynamic options are limited to _Page_, _Global_ and _Custom_ sources. That's expected as it would not be possible to inherit dynamic content from a node which source hasn't been set yet!
+::: warning Mapping Limitations
+The arguments dynamic options might not show _Inherit Node_ as a dynamic option as it would not be possible to inherit from a node which source hasn't been set yet.
 :::
 
 If you want your custom sources to support this feature, add `'source' => 'true'` property to your source query aguments configuration.

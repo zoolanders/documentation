@@ -8,24 +8,12 @@
                 "link": "/"
             },
             {
-                "text": "Global Sources",
-                "link": "/global-sources"
-            },
-            {
-                "text": "Inherited Sources",
-                "link": "/inherited-sources"
-            },
-            {
                 "text": "Composed Sources",
                 "link": "/composed-sources"
             },
             {
                 "text": "Global Queries",
                 "link": "/global-queries"
-            },
-            {
-                "text": "Custom Queries",
-                "link": "/custom-queries"
             },
             {
                 "text": "Query Arguments",
