@@ -26,14 +26,6 @@
         "base": "/essentials-for-yootheme-pro/addons",
         "items": [
             {
-                "text": "Icons",
-                "link": "/icons"
-            },
-            {
-                "text": "Elements",
-                "link": "/elements"
-            },
-            {
                 "text": "Form Builder",
                 "link": "/forms"
             },
@@ -42,16 +34,20 @@
                 "link": "/dynamic"
             },
             {
-                "text": "Dynamic Sources",
-                "link": "/sources"
-            },
-            {
                 "text": "Access Conditions",
                 "link": "/access"
             },
             {
                 "text": "Layout Libraries",
                 "link": "/layouts"
+            },
+            {
+                "text": "Icon Collections",
+                "link": "/icons"
+            },
+            {
+                "text": "Builder Elements",
+                "link": "/elements"
             }
         ]
     },

@@ -1,4 +1,4 @@
-# Sources Common Issues
+# Dynamic Common Issues
 
 ## A Source is Triggering a Fatal Error
 

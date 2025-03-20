@@ -5,7 +5,6 @@ import YtpEssentialsIconsSidebar from '../src/essentials-for-yootheme-pro/addons
 import YtpEssentialsFormsSidebar from '../src/essentials-for-yootheme-pro/addons/forms/sidebar.json';
 import YtpEssentialsAccessSidebar from '../src/essentials-for-yootheme-pro/addons/access/sidebar.json';
 import YtpEssentialsDynamicSidebar from '../src/essentials-for-yootheme-pro/addons/dynamic/sidebar.json';
-import YtpEssentialsSourcesSidebar from '../src/essentials-for-yootheme-pro/addons/sources/sidebar.json';
 import YtpEssentialsLayoutsSidebar from '../src/essentials-for-yootheme-pro/addons/layouts/sidebar.json';
 import YtpEssentialsElementsSidebar from '../src/essentials-for-yootheme-pro/addons/elements/sidebar.json';
 
@@ -17,7 +16,6 @@ export default {
     '/essentials-for-yootheme-pro/addons/forms': YtpEssentialsFormsSidebar,
     '/essentials-for-yootheme-pro/addons/access': YtpEssentialsAccessSidebar,
     '/essentials-for-yootheme-pro/addons/dynamic': YtpEssentialsDynamicSidebar,
-    '/essentials-for-yootheme-pro/addons/sources': YtpEssentialsSourcesSidebar,
     '/essentials-for-yootheme-pro/addons/layouts': YtpEssentialsLayoutsSidebar,
     '/essentials-for-yootheme-pro/addons/elements': YtpEssentialsElementsSidebar,
 };

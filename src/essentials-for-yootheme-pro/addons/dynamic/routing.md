@@ -31,7 +31,7 @@ Design the page layout to best suit your use case. This could be as simple as He
 
 ### 3. Map the URL Album ID
 
-The key to this workflow is to ensure that the album ID stored in the URL is mapped to all Google Photos sources referencing an album. We can do this by choosing the Dynamic option for the Album in the source configuration and mapping the URL query parameter that holds the album ID. The parameter value can be retrieved with the global [Request Source](./request-source) and its URL Query Param field, with the final mapping as `Global -> Request -> URL -> Param (id)`.
+The key to this workflow is to ensure that the album ID stored in the URL is mapped to all Google Photos sources referencing an album. We can do this by choosing the Dynamic option for the Album in the source configuration and mapping the URL query parameter that holds the album ID. The parameter value can be retrieved with the global [Request Source](./sources/request) and its URL Query Param field, with the final mapping as `Global -> Request -> URL -> Param (id)`.
 
 ![Page Route Mapping](./assets/routing/page-route-mapping.png)
 

@@ -1,8 +1,8 @@
 # Date and Time
 
-The current date and time are crucial for most workflows, but unfortunately, YOOtheme Pro does not provide global access to this information. Essentials addresses this by offering a [Global Request](./addons/sources/request-source) source that provides access to the request timestamp and more.
+The current date and time are crucial for most workflows, but unfortunately, YOOtheme Pro does not provide global access to this information. Essentials addresses this by offering a [Global Request](./addons/dynamic/sources/request) source that provides access to the request timestamp and more.
 
-![Global Request Source](./addons/sources/assets/global/request-source.webp)
+![Global Request Source](./addons/dynamic/sources/assets/request-source.webp)
 
 ## Timestamp Mapping
 

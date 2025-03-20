@@ -1,10 +1,10 @@
-# Global Request Source
+# Request Source
 
 The **Request Source** is a global souce that expose the current page request with the following fields.
 
-![Request Source](./assets/global/request-source.webp)
+![Request Source](./assets/request-source.webp)
 
-![Request Source Fields](./assets/global/request-source-fields.png)
+![Request Source Fields](./assets/request-source-fields.png)
 
 | Setting | Description |
 | --- | --- |
