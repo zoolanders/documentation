@@ -1,4 +1,4 @@
-# Integration
+# ZOO Pro Elements
 
 ZOOlanders Elements are standard ZOO elements, you can follow the [Extending ZOO Types Guide](https://yootheme.com/support/zoo/item-types#extend-pre-built-item-type) to integrate them into your Apps. Or even upgrade to them without loosing any previous data:
 

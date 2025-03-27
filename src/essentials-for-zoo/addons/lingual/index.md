@@ -1,4 +1,4 @@
-# Integration
+# ZOO Lingual
 
 After Essentials for ZOO installed, a new section under the namespace *zoolingual* will be available in the configuration of every element.
 

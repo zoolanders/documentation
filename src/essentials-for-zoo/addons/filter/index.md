@@ -1,4 +1,4 @@
-# Integration
+# ZOO Filter
 
 Start by displaying the filter form, assign the ZOOfilter Module to a frontend template position and set on it settings the App and Type that the filter should apply to. To form is ready to be displayed but it has no fields assigned. Let's fix that.
 
