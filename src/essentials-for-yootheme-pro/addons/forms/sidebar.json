@@ -24,12 +24,12 @@
                 "link": "/captcha"
             },
             {
-                "text": "Conditional Logic",
-                "link": "/conditional-logic"
-            },
-            {
                 "text": "Styling",
                 "link": "/styling"
+            },
+            {
+                "text": "Conditional Logic",
+                "link": "/conditional-logic"
             }
         ]
     },
