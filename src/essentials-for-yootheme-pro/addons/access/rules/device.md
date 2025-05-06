@@ -10,7 +10,7 @@ collection: Device
     <!--@include: ./assets/rule-device.svg-->
 </div>
 
-The **Device Rule** evaluates whether the browser agent matches one of the selected device types, _Mobile_, _Table_, or _Desktop_.
+The **Device Rule** evaluates whether the browser agent matches one of the selected device types: _Mobile_, _Tablet_, or _Desktop_. This evaluation occurs server-side by analyzing the user agent string provided in the browser's request headers. The rule offers a straightforward way to tailor content or functionality based on the user's device type, enabling responsive design strategies beyond mere CSS media queries.
 
 ::: warning Limited Detection
 Notice that browser detection is not always accurate, users can setup their browser to mimic other agents.
