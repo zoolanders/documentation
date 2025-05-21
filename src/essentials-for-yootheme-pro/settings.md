@@ -24,7 +24,7 @@ Create and manage [Layout Libraries](./addons/layouts/). Those will become avail
 
 ## Icon Collections
 
-Create and manage [Icon Collections](./addons/icons/collections). Those will become available as additional icon collections in the builder icons library.
+Create and manage [Icon Collections](./addons/icons/collection). Those will become available as additional icon collections in the builder icons library.
 
 ![Icon Collections Manager](./assets/icon-collections-manager.gif)
 

@@ -8,8 +8,8 @@
                 "link": "/"
             },
             {
-                "text": "Collections",
-                "link": "/collections"
+                "text": "Collection",
+                "link": "/collection"
             },
             {
                 "text": "My Icons",
@@ -18,6 +18,64 @@
             {
                 "text": "Common Issues",
                 "link": "/troubleshooting"
+            }
+        ]
+    },
+    {
+        "text": "Collections",
+        "base": "/essentials-for-yootheme-pro/addons/icons/collections",
+        "items": [
+            {
+                "text": "Ant Design",
+                "link": "/antdesign"
+            },
+            {
+                "text": "Bootstrap",
+                "link": "/bootstrap"
+            },
+            {
+                "text": "Boxicons",
+                "link": "/boxicons"
+            },
+            {
+                "text": "CoreUI",
+                "link": "/coreui"
+            },
+            {
+                "text": "Feather",
+                "link": "/feather"
+            },
+            {
+                "text": "Font Awesome",
+                "link": "/fontawesome"
+            },
+            {
+                "text": "Heroicons",
+                "link": "/heroicons"
+            },
+            {
+                "text": "Ionicons",
+                "link": "/ionicons"
+            },
+            {
+                "text": "Octicons",
+                "link": "/octicons"
+            },
+            {
+                "text": "Phosphor",
+                "link": "/phosphor"
+            },
+            {
+                "text": "Pixelarticons",
+                "link": "/pixelarticons"
+            },
+            {
+                "text": "Remix Icon",
+                "link": "/Remixicon"
+            },
+            {
+                "text": "Tablers Icons",
+                "link": "/tablericons"
             }
         ]
     },

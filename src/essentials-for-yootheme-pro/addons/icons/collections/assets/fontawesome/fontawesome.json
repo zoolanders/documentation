@@ -1,15 +1,15 @@
 {
     "name": "fontawesome",
-    "title": "Font Awesome 5",
+    "title": "Font Awesome",
     "description": "Icons and social logos by Font Awesome, the web's most popular icon set.",
     "groups": [
         "regular",
         "solid",
         "brands"
     ],
-    "version": "5.15.4",
-    "release": "August 8, 2021",
+    "version": "6.6.0",
+    "release": "July, 2024",
     "license": "CC BY 4.0",
     "url": "https://fontawesome.com",
-    "icons": 1611
+    "icons": 2050
 }

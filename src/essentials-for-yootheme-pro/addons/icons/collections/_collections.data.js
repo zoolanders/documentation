@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 
 export default {
-    watch: ['./_collections/*/*.json'],
+    watch: ['./assets/*/*.json'],
     load(watchedFiles) {
         return watchedFiles.map((file) => {
             return {
