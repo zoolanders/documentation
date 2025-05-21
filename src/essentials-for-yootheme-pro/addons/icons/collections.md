@@ -22,6 +22,6 @@ After installation, the collection icons will integrate natively and be availabl
 
 A collection of `{{ col.icons }}` icons from <a :href="col.url" target="_blank">{{ col.title }}</a> released on {{ col.release }} under the {{ col.license }} license as version `{{ col.version }}`.
 
-<img :src="`./assets/collection-${col.name}.webp`" :alt="`${col.title} Icon Collection` ">
+<img :src="`assets/collection-${col.name}.webp`" :alt="`${col.title} Icon Collection` ">
 
 </template>
