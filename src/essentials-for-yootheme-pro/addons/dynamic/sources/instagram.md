@@ -94,8 +94,8 @@ This query is only available for Instagram Business Accounts
 | --- | --- | --- | --- |
 | *ID* | Unique identifier of this media. | *String* |
 | *Type* | The type of this media, _Album_, _Image_, or _Video_. | *String* |
-| *URL* | The path to the locally cached media asset. | *String* |
-| *Thumbnail URL* | The path to the locally cached media thumbnail asset. | *String* |
+| *Media URL* | The path to the locally cached media asset. | *String* |
+| *Media Preview URL* | The path to the locally cached media preview asset. | *String* |
 | *Permalink* | The Instagram Media URL, e.g. `www.instagram.com/p/CO9O62hnpR5nkt`. | *String* |
 | *Caption* | The caption content. | *String* | *Limit* |
 | *Hashtags* | The media hashtags as a custom formated string with _Separator_ argument. | *String* |
