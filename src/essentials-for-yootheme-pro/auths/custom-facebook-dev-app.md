@@ -1,6 +1,6 @@
 # Custom Facebook Dev App
 
-Learn how to create a custom Facebook Dev App and get your own credentials. Once ready, you can use the resulting _Access Token_ into the respective [Facebook Auth](/essentials-for-yootheme-pro/auths/drivers#facebook) driver to authenticate.
+Learn how to create a custom Facebook Dev App and get your own credentials. Once ready, you can use the resulting _Access Token_ into the respective [Facebook Auth](./drivers/facebook) driver to authenticate.
 
 ## 1. Create a New Dev App
 

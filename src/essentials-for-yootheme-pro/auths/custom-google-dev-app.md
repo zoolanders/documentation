@@ -1,6 +1,6 @@
 # Custom Google Dev App
 
-Learn how to create a custom Google Dev App and get your own oAuth credentials. Once ready, you can use the resulting _Access Token_ into the respective [Google Auth](./drivers#google-auth-driver) driver to authenticate.
+Learn how to create a custom Google Dev App and get your own oAuth credentials. Once ready, you can use the resulting _Access Token_ into the respective [Google Auth](./drivers/google-oauth) driver to authenticate.
 
 This process is covered in great extens by the [Google official guide](https://developers.google.com/identity/protocols/oauth2/web-server) while next step will try to summarize it.
 

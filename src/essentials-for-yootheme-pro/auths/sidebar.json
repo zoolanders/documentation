@@ -6,10 +6,60 @@
             {
                 "text": "Overview",
                 "link": "/"
+            }
+        ]
+    },
+    {
+        "text": "Drivers",
+        "base": "/essentials-for-yootheme-pro/auths/drivers",
+        "items": [
+            {
+                "text": "Airtable",
+                "link": "/airtable"
             },
             {
-                "text": "Auth Drivers",
-                "link": "/drivers"
+                "text": "API Key",
+                "link": "/api-key"
+            },
+            {
+                "text": "AWS",
+                "link": "/aws"
+            },
+            {
+                "text": "Cloudflare",
+                "link": "/cloudflare"
+            },
+            {
+                "text": "Facebook",
+                "link": "/facebook"
+            },
+            {
+                "text": "Google",
+                "link": "/google-oauth"
+            },
+                        {
+                "text": "Google Key",
+                "link": "/google-key"
+            },
+            {
+                "text": "Instagram",
+                "link": "/instagram"
+            },
+            {
+                "text": "LinkedIn",
+                "link": "/Linkedin"
+            },
+            {
+                "text": "Tiktok",
+                "link": "/tiktok"
+            },
+            {
+                "text": "Twitter",
+                "link": "/twitter"
+            },
+            {
+                "text": "Vimeo",
+                "link": "/vimeo"
             }
         ]
     },
