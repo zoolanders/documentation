@@ -1,5 +1,5 @@
 import ZooEssentialsSidebar from '../src/essentials-for-zoo/sidebar.json';
-import YtpEssentialsSidebar from '../src/essentials-for-yootheme-pro/sidebar.json';
+import YtpEssentialsSidebar from '../src/essentials-for-yootheme-pro/sidebar';
 import YtpEssentialsAuthsSidebar from '../src/essentials-for-yootheme-pro/auths/sidebar.json';
 import YtpEssentialsIconsSidebar from '../src/essentials-for-yootheme-pro/addons/icons/sidebar.json';
 import YtpEssentialsFormsSidebar from '../src/essentials-for-yootheme-pro/addons/forms/sidebar.json';

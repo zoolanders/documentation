@@ -6,7 +6,13 @@
             {
                 "text": "Getting Started",
                 "link": "/"
-            },
+            }
+        ]
+    },
+    {
+        "text": "Reference",
+        "base": "/essentials-for-yootheme-pro/addons/elements",
+        "items": [
             {
                 "text": "Chart Element",
                 "link": "/chart-element"
