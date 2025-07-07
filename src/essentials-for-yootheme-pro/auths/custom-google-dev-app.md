@@ -38,7 +38,6 @@ In the scopes section you would usually match the scopes for the APIs you have e
 | https://www.googleapis.com/auth/spreadsheets | Google Sheets Source and Google Sheets Form Action |
 | https://www.googleapis.com/auth/calendar.readonly | Google Calendar Source |
 | https://www.googleapis.com/auth/calendar.events.readonly | Google Calendar Source |
-| https://www.googleapis.com/auth/photoslibrary.readonly | Google Photos Source |
 
 ## 4. Create oAuth Client ID
 
@@ -52,8 +51,14 @@ Once created, copy the `Redirect URI`, `Client ID` and `Client Secret` parameter
 
 Through your browser, visit the following URL, replacing the placeholders with parameters from the previous steps.
 
-```html
-https://accounts.google.com/o/oauth2/v2/auth?client_id={CLIENT_ID}&redirect_uri={REDIRECT_URI}&response_type=code&access_type=offline&state=state&scope={LIST_OF_SCOPES}
+```text
+https://accounts.google.com/o/oauth2/v2/auth
+?state=state
+&access_type=offline
+&response_type=code
+&client_id=CLIENT_ID
+&scope=LIST_OF_SCOPES
+&redirect_uri=https://example.com
 ```
 
 ::: tip
@@ -64,27 +69,25 @@ You will get redirected back to the _REDIRECT_URI_ with a `code` parameter in th
 
 Through an HTTP client like [Postman](https://www.postman.com/), or your terminal using CURL, make a post request like the following one, once again, replacing the placeholders.
 
-```curl
-POST /token HTTP/1.1
-Host: oauth2.googleapis.com
-Content-Type: application/x-www-form-urlencoded
-
-code={CODE}
-client_id={CLIENT_ID}&
-client_secret={CLIENT_SECRET}&
-redirect_uri={REDIRECT_URI}&
-grant_type=authorization_code
+```bash
+curl --location --request POST 'https://oauth2.googleapis.com/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'code=THE_CODE_YOU_COPIED' \
+--data-urlencode 'client_id=YOUR_APP_CLIENT_ID' \
+--data-urlencode 'client_secret=YOUR_APP_CLIENT_SECRET' \
+--data-urlencode 'grant_type=authorization_code' \
+--data-urlencode 'redirect_uri=https://example.com' \
 ```
 
 You should get back a JSON response that contains the `refresh_token` you need, for example:
 
 ```json
 {
-  "access_token": "1/fFAGRNJru1FTz70BzhT3Zg",
+  "access_token": "1/fFAGRNJru1FTz70BzhT3Zg...",
   "expires_in": 3920,
   "token_type": "Bearer",
   "scope": "https://www.googleapis.com/auth/drive.metadata.readonly",
-  "refresh_token": "1//xEoDL4iW3cxlI7yDbSRFYNG01kVKM2C-259HOF2aQbI"
+  "refresh_token": "1//xEoDL4iW3cxlI7yDbSRFYNG01kVKM2C..."
 }
 ```
 
