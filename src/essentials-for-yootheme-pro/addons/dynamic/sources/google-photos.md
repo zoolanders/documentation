@@ -6,6 +6,10 @@
 
 The **Google Photos Source** feeds media from [Google Photos](https://photos.google.com/) supporting [Album](#album-query), [Albums](#albums-query) and [Album Media](#album-media-query) queries.
 
+::: warning Deprecated Source
+Due to [recent changes](https://developers.google.com/photos/support/updates) in the Google Photos API, third-party access to media is no longer permitted. After evaluating all available options and potential workarounds, we regret to announce that the Google Photos integration is now deprecated and will no longer be maintained.
+:::
+
 ## Settings
 
 <!--@include: ./_partials/common-provider-settings.md-->
