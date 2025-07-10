@@ -16,7 +16,7 @@ Also take a look at the specific requirements of [YOOtheme Pro](https://yootheme
 | --- | --- | --- | --- | --- |
 | Essentials v1 | 2/3 | 5/6 | 3.9/5 | 7.4/8.2 |
 | Essentials v2.2 | 4.4 | 5/6 | 3.9/5 | 7.4/8.3 |
-| Essentials v2.3 | 4.5+ | 5/6 | 3.9/5 | 7.4/8.3 |
+| Essentials v2.3+ | 4.5+ | 5/6 | 3.9/5 | 7.4/8.3 |
 
 ## Changelog
 
