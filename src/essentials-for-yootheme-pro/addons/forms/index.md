@@ -4,7 +4,7 @@ addon: 'Forms'
 
 # Form Builder
 
-Empower a section, column or sublayout as a form area, set form fields and trigger actions after a successful submission.
+Transform any sublayout into a form area, configure form fields, and define actions to execute after a successful submission—all within a streamlined workflow.
 
 <!--@include: ../_partials/enable-addon.md-->
 
@@ -15,7 +15,7 @@ An Essential form is structured inside a [form area](./form-area). Lets create o
 ![Create a Form Area](./assets/integration/create-form-area.gif)
 
 1. Open the layout builder you want to create the form at.
-1. Create a new Section and access it _Advanced Tab_ settings.
+1. Create a new Sublayout and access it _Advanced Tab_ settings.
 1. Toggle the `Enable as Form Area` checkbox.
 
 ## Add After Submit Actions

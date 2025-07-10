@@ -1,6 +1,6 @@
 # Form Area
 
-When a _section_, _column_ or _sublayout_ is defined as a form area, within the element _Advanced Tab_ panel, it is enclosed with a standard `<form\>` HTML element without losing builder capabilities. Forms are dynamic in nature as it is YOOtheme Pro builder with dynamic content. Essentials forms builds up on both to create a dynamic data workflow before and after a submission.
+When a _sublayout_ is defined as a form area it content is enclosed with a standard `<form\>` HTML element without losing builder capabilities. Forms are dynamic in nature as it is YOOtheme Pro builder with dynamic content. Essentials forms builds up on both to create a dynamic data workflow before and after a submission.
 
 ![Form Area Shortcut](./assets/formarea-config-shortcut.webp)
 
