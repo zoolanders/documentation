@@ -1,26 +1,42 @@
 # Custom Icon Collection
 
-Create and manage custom Icon Collections.
+Create and manage custom icon collections.
 
 ::: warning Extending YOOtheme Pro
-The following guide assumes you are already familar with code, PHP, and [extending YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
+This guide assumes you are already familiar with code, PHP, and [extending YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).
 :::
 
-## Add Collection
+## Add a Collection
 
-Adding a custom collection is simple as placing the collection in `media/yooessentials/icons/mycollection` for Joomla or `wp-content/yooessentials/icons/mycollection` for WordPress. The collection will be automatically picked up and displayed among other collections in the icons picker modal.
+Adding a custom collection is as simple as placing it in `media/yooessentials/icons/mycollection` for Joomla or `wp-content/yooessentials/icons/mycollection` for WordPress. The collection will be automatically detected and displayed alongside other collections in the icon picker modal.
 
-You can group the icons into subfolders for a better organization or style separation, eg `mycollection/group-a` or `mycollection/group-b`.
+Each collection requires a corresponding `mycollection.json` file inside the collection folder. This file defines the collection’s metadata and structure. The JSON file should include fields such as `name`, `title`, `description`, `groups`, `version`, and `release`.
+
+```json
+{
+  "name": "mycollection",
+  "title": "My Collection",
+  "description": "My Custom Icon Collection",
+  "groups": [
+    "group-a",
+    "group-b",
+  ],
+  "version": "1.0.0",
+  "release": "July, 2025"
+}
+```
+
+You can organize icons into subfolders for better structure or style separation, for example: `mycollection/group-a` or `mycollection/group-b`.
 
 ::: warning
-Notice that a collection name cannot contain hyphens `-`, while a group name doesn't have such limitation.
+Note that a collection name cannot contain hyphens (`-`), but group names have no such restriction.
 :::
 
 ## Distribute Collections
 
-If you would like to distribute your collections among other projects wrap those in a YOOtheme Pro module and plate it in a Child Theme or a plugin.
+To distribute your collections across other projects, package them in a YOOtheme Pro module and include it in a child theme or plugin.
 
-Register the collections folder by extending the `ZOOlanders\YOOessentials\Icons` service in the `bootstrap.php` file.
+Register the collections folder by extending the `ZOOlanders\YOOessentials\Icons` service in the `bootstrap.php` file:
 
 ```php
 // bootstrap.php
