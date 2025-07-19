@@ -79,6 +79,10 @@ export default [
                 text: 'Storages',
                 link: '/storage',
             },
+            {
+                text: 'Source Routing',
+                link: '/addons/dynamic/routing',
+            },
         ],
     },
     {
