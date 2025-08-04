@@ -3,7 +3,6 @@ import AccessAddonSidebar from './addons/access/sidebar.json';
 import DynamicAddonSidebar from './addons/dynamic/sidebar.json';
 import ElementAddonSidebar from './addons/elements/sidebar.json';
 import FormsAddonSidebar from './addons/forms/sidebar.json';
-import LayoutsAddonSidebar from './addons/layouts/sidebar.json';
 import IconsAddonSidebar from './addons/icons/sidebar.json';
 
 export default [
@@ -22,10 +21,6 @@ export default [
             {
                 text: 'Settings',
                 link: '/settings',
-            },
-            {
-                text: 'Common Issues',
-                link: '/troubleshooting',
             },
         ],
     },
@@ -117,6 +112,16 @@ export default [
                 ...AuthsSidebar[1],
                 text: 'Auth Drivers',
                 collapsed: true,
+            },
+        ],
+    },
+    {
+        text: 'Troubleshooting',
+        base: '/essentials-for-yootheme-pro',
+        items: [
+            {
+                text: 'Common Issues',
+                link: '/troubleshooting',
             },
         ],
     },
