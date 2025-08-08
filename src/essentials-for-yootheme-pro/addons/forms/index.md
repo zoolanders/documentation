@@ -14,13 +14,13 @@ An Essential form is structured inside a [form area](./form-area). Lets create o
 
 ![Create a Form Area](./assets/integration/create-form-area.gif)
 
-1. Open the layout builder you want to create the form at.
-1. Create a new Sublayout and access it _Advanced Tab_ settings.
+1. Open the layout builder where you want to create the form.
+1. Create a new Sublayout and access its _Advanced Tab_ settings.
 1. Toggle the `Enable as Form Area` checkbox.
 
 ## Add After Submit Actions
 
-The secton has now been declared as a form area and we can add and after submit actions to greet the submitter with a custom message.
+The section has now been declared as a form area and we can add after submit actions to greet the submitter with a custom message.
 
 ::: tip
 For more advanced scenarios, adding _Email_ and _SaveTo_ actions would be necessary to send an email and save the submitted data.
@@ -29,8 +29,8 @@ For more advanced scenarios, adding _Email_ and _SaveTo_ actions would be necess
 ![Add After Submit Actions](./assets/integration/add-form-actions.gif)
 
 1. Open the form area configuration created in the previous step.
-1. In _After Submit Actions_ add a new action of the type _Display Message_.
-1. Input in the _Message_ field `Thank you for your submission, your comment was {comment}!`.
+1. In _After Submit Actions_, add a new action of type _Display Message_.
+1. Input `Thank you for your submission, your comment was {comment}!` in the _Message_ field.
 
 ::: tip Notice the `{comment}` part
 It's what we call [Data Placeholders](./index#data-placeholders), and is one of the simplest and direct ways to reference submitted data.
@@ -42,9 +42,9 @@ Essentials comes with prebuild [elements](./elements) to structure a form as nee
 
 ![Add Form Fields](./assets/integration/add-form-fields.gif)
 
-1. Go back to the builder main panel and add an __Textarea Element__ from the `Form Essentials` group.
-1. Open it configuration panel and input `comment` in the _Control Name_ setting.
-1. Repeat the process adding a _Button Element_ which will render a submit button by default.
+1. Return to the builder main panel and add a __Textarea Element__ from the `Form Essentials` group.
+1. Open its configuration panel and input `comment` in the _Control Name_ setting.
+1. Add a _Button Element_ which will render as a submit button by default.
 
 ## Test The Submission
 

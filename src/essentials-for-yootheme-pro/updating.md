@@ -1,6 +1,13 @@
-# Updating
+# Updating Essentials
 
-Essentials can be updated manually in a similar way it was installed, or programmatically by the platform. When the latest, make sure to set the Download ID and choose the right minimum stability, either Stable or Beta.
+Keep your Essentials installation up-to-date with the latest features and security improvements. You can update manually or set up automatic updates through your platform.
+
+## Prerequisites for Automatic Updates
+
+Before setting up automatic updates, ensure you have:
+1. A valid Download ID from your ZOOlanders account
+2. The correct minimum stability setting configured
+3. A recent backup of your site
 
 ## Download ID
 
@@ -22,7 +29,7 @@ Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Down
 ![Download ID WordPress](./assets/essential-settings-wordpress.png)
 :::
 
-## Minimum Statbility
+## Minimum Stability
 
 | Release | Description |
 | --- | --- |
