@@ -14,11 +14,11 @@ Contextual data such as the current date and time, page URL, and user IP are not
 
 As a quick reference use these sources:
 
-| Data | Source |
-| --- | --- |
-| Datetime | *Request -> Timestamp* |
-| User IP | *Request -> IP* |
-| Page URL | *Request -> Href* |
+| Data     | Source                 |
+| -------- | ---------------------- |
+| Datetime | _Request -> Timestamp_ |
+| User IP  | _Request -> IP_        |
+| Page URL | _Request -> Href_      |
 
 ## Wrong Date Format
 

@@ -22,7 +22,7 @@ defineProps({
         :tag="link ? 'a' : 'div'"
     >
         <article class="box">
-            <div class="icon" v-if="icon">
+            <div v-if="icon" class="icon">
                 <VPImage
                     :image="icon"
                     :alt="title"

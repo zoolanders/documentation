@@ -6,18 +6,19 @@
 
 The **Email Action** sends preset emails with support for attachments. Use it to send a confirmation email to the submitter, a transactional email to the site owner, etc.
 
-| Setting | Description | Required | Dynamic |
-| --- | --- | :---: | :---: |
-| *Subject* | The subject of the email. | &#x2713; | &#x2713; |
-| *Recipients* | The list of addresses to which the email will be sent, separated by a comma. | &#x2713; | &#x2713; |
-| *Body* | The main content of the email. | &#x2713; | &#x2713; |
-| *Send as HTML* | Should the email content be sent as HTML instead of plain text. |
-| *Reply To* | The list of addresses to which the recipient will be replying, separated by a comma. | &#x2713; |
-| *Static Attachments* | The list of server files that will be attached to the email. | &#x2713; |
-| *Dynamic Attachments* | The list of Upload Fields which files will be attached to the email. | &#x2713; |
-| *CCS* | The list of addresses to which the email will be sent as a [Carbon Copy](https://en.wikipedia.org/wiki/Carbon_copy), separated by a comma. | &#x2713; |
-| *BCCS* | The list of addresses to which the email will be sent as a [Blind Carbon Copy](https://en.wikipedia.org/wiki/Blind_carbon_copy), separated by a comma. | &#x2713; |
-| *From Name/Email* | The name and email address of the email sender, defaults to the site configuration one. | &#x2713; |
+| Setting               | Description                                                                                                                                            | Required | Dynamic  |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | :------: | :------: |
+| _Subject_             | The subject of the email.                                                                                                                              | &#x2713; | &#x2713; |
+| _Recipients_          | The list of addresses to which the email will be sent, separated by a comma.                                                                           | &#x2713; | &#x2713; |
+| _Body_                | The main content of the email.                                                                                                                         | &#x2713; | &#x2713; |
+| _Send as HTML_        | Should the email content be sent as HTML instead of plain text.                                                                                        |
+| _Reply To_            | The list of addresses to which the recipient will be replying, separated by a comma.                                                                   | &#x2713; |
+| _Static Attachments_  | The list of server files that will be attached to the email.                                                                                           | &#x2713; |
+| _Dynamic Attachments_ | The list of Upload Fields which files will be attached to the email.                                                                                   | &#x2713; |
+| _CCS_                 | The list of addresses to which the email will be sent as a [Carbon Copy](https://en.wikipedia.org/wiki/Carbon_copy), separated by a comma.             | &#x2713; |
+| _BCCS_                | The list of addresses to which the email will be sent as a [Blind Carbon Copy](https://en.wikipedia.org/wiki/Blind_carbon_copy), separated by a comma. | &#x2713; |
+| _From Name/Email_     | The name and email address of the email sender, defaults to the site configuration one.                                                                | &#x2713; |
+
 <!--@include: ./_partials/common-action-settings.md-->
 
 ::: tip Submitted Attachments

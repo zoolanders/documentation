@@ -15,11 +15,11 @@ For example, you could show a hidden fieldset when a select field has a specific
 var hidden = UIkit.util.$('#fieldset', form);
 
 if (field.name === 'select') {
-    if (field.value === 'foo') {
-        UIkit.util.removeClass(hidden, 'uk-hidden');
-    } else {
-        UIkit.util.addClass(hidden, 'uk-hidden');
-    }
+  if (field.value === 'foo') {
+    UIkit.util.removeClass(hidden, 'uk-hidden');
+  } else {
+    UIkit.util.addClass(hidden, 'uk-hidden');
+  }
 }
 ```
 

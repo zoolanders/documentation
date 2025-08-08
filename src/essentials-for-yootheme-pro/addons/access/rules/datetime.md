@@ -14,8 +14,9 @@ The **Datetime Rule** evaluates whether the current date & time matches the spec
 
 ![Datetime Rule Settings](./assets//rule-datetime.webp)
 
-| Setting | Description | Required | Dynamic |
-| --- | --- | :---: | :---: |
-| *From/Until* | The range of date & time in `Y-m-d H:i` format that the current time must constrain to for the condition to be considered valid. | &#x2713; | &#x2713; |
-| *Reversed* | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
+| Setting      | Description                                                                                                                      | Required | Dynamic  |
+| ------------ | -------------------------------------------------------------------------------------------------------------------------------- | :------: | :------: |
+| _From/Until_ | The range of date & time in `Y-m-d H:i` format that the current time must constrain to for the condition to be considered valid. | &#x2713; | &#x2713; |
+| _Reversed_   | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`.                                |          | &#x2713; |
+
 <!--@include: ./advanced-rule-settings-->

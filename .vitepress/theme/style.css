@@ -152,7 +152,7 @@
 
 :root {
     --vp-color-highlight: rgb(14 165 233 / 1);
-    --vp-code-color: var(--vp-color-highlight)
+    --vp-code-color: var(--vp-color-highlight);
 }
 
 :root:not(.dark) {
@@ -198,7 +198,7 @@
 }
 
 .vp-doc em {
-    color: var(--vp-color-highlight)
+    color: var(--vp-color-highlight);
 }
 
 .vp-doc .tm-width-medium {
@@ -241,7 +241,6 @@
 .vp-doc thead tr {
     border: none;
 }
-
 
 /**
  * Component: Home

@@ -20,8 +20,9 @@ Notice that browser detection is not always accurate, users can setup their brow
 
 ![Operating System Rule Settings](./assets//rule-os.webp)
 
-| Setting | Description | Required | Dynamic |
-| --- | --- | :---: | :---: |
-| *Selection* | The Operating System list with optional version range that the browser agent must match for the condition to be considered valid. Separate the entries with a comma and/or new line, e.g `Windows, Mac OS X 10.2-10`. | &#x2713; | &#x2713; |
-| *Reversed* | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
+| Setting     | Description                                                                                                                                                                                                           | Required | Dynamic  |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :------: |
+| _Selection_ | The Operating System list with optional version range that the browser agent must match for the condition to be considered valid. Separate the entries with a comma and/or new line, e.g `Windows, Mac OS X 10.2-10`. | &#x2713; | &#x2713; |
+| _Reversed_  | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`.                                                                                                                     |          | &#x2713; |
+
 <!--@include: ./advanced-rule-settings-->

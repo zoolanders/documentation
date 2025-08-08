@@ -10,18 +10,19 @@ The **Database Action** creates, updates and deletes records from a local or ext
 
 Creates or updates a database table record.
 
-| Setting | Description | Required | Dynamic |
-| --- | --- | :---: | :---: |
-| *Database* | The name of the database to which to connect. | &#x2713; |
-| *Custom Connection* | Allows overriding the system default database connection. |
-| -- *Host* | The server host IP or address to which to connect, e.g. `127.0.0.1`. | &#x2713; |
-| -- *Port* | The port to use for the connection, e.g. `3306`. | &#x2713; |
-| -- *Creds* | The username & password which to use for the connection. | &#x2713; |
-| *Table* | The name of the database Table to which to connect. | &#x2713; |
-| *Update Record* | Should a record be updated instead of created. |
-| -- *Associative Key* | The table column key that will be used to associate the record. | &#x2713; |
-| -- *Associative Value* | The table column value that will be used to associate the record. | &#x2713; | &#x2713; |
-| *Content* | The mapping configuration of the submission data to the table columns. | &#x2713; | &#x2713; |
+| Setting                | Description                                                            | Required | Dynamic  |
+| ---------------------- | ---------------------------------------------------------------------- | :------: | :------: |
+| _Database_             | The name of the database to which to connect.                          | &#x2713; |
+| _Custom Connection_    | Allows overriding the system default database connection.              |
+| -- _Host_              | The server host IP or address to which to connect, e.g. `127.0.0.1`.   | &#x2713; |
+| -- _Port_              | The port to use for the connection, e.g. `3306`.                       | &#x2713; |
+| -- _Creds_             | The username & password which to use for the connection.               | &#x2713; |
+| _Table_                | The name of the database Table to which to connect.                    | &#x2713; |
+| _Update Record_        | Should a record be updated instead of created.                         |
+| -- _Associative Key_   | The table column key that will be used to associate the record.        | &#x2713; |
+| -- _Associative Value_ | The table column value that will be used to associate the record.      | &#x2713; | &#x2713; |
+| _Content_              | The mapping configuration of the submission data to the table columns. | &#x2713; | &#x2713; |
+
 <!--@include: ./_partials/common-action-settings.md-->
 
 <!--@include: ./_partials/common-action-content-mapping.md-->
@@ -36,12 +37,13 @@ An example to understand the association is to think of a _Users Table_ with an 
 
 Deletes a database table record.
 
-| Setting | Description | Required | Dynamic |
-| --- | --- | :---: | :---: |
-| *Database* | The name of the database to which to connect. | &#x2713; |
-| *Custom Connection* | Allows overriding the system default database connection. |
-| -- *Host* | The server host IP or address to which to connect, e.g. `127.0.0.1`. | &#x2713; |
-| -- *Port* | The port to use for the connection, e.g. `3306`. | &#x2713; |
-| -- *Creds* | The username & password which to use for the connection. | &#x2713; |
-| *Table* | The name of the database Table to which to connect. | &#x2713; |
+| Setting             | Description                                                          | Required | Dynamic |
+| ------------------- | -------------------------------------------------------------------- | :------: | :-----: |
+| _Database_          | The name of the database to which to connect.                        | &#x2713; |
+| _Custom Connection_ | Allows overriding the system default database connection.            |
+| -- _Host_           | The server host IP or address to which to connect, e.g. `127.0.0.1`. | &#x2713; |
+| -- _Port_           | The port to use for the connection, e.g. `3306`.                     | &#x2713; |
+| -- _Creds_          | The username & password which to use for the connection.             | &#x2713; |
+| _Table_             | The name of the database Table to which to connect.                  | &#x2713; |
+
 <!--@include: ./_partials/common-action-settings.md-->

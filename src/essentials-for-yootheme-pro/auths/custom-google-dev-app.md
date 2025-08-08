@@ -30,14 +30,14 @@ Go to the console [oAuth Consent Screen Page](https://console.developers.google.
 
 In the scopes section you would usually match the scopes for the APIs you have enabled previously. Refer to the following table as the scopes required by Essential addons.
 
-| Scope  | Addon |
-|--------|-------|
-| https://www.googleapis.com/auth/youtube.readonly | Youtube Source |
-| https://www.googleapis.com/auth/business.manage | Google Business Profile Source. |
-| https://www.googleapis.com/auth/drive.readonly | Google Sheets Source and Google Sheets Form Action |
-| https://www.googleapis.com/auth/spreadsheets | Google Sheets Source and Google Sheets Form Action |
-| https://www.googleapis.com/auth/calendar.readonly | Google Calendar Source |
-| https://www.googleapis.com/auth/calendar.events.readonly | Google Calendar Source |
+| Scope                                                    | Addon                                              |
+| -------------------------------------------------------- | -------------------------------------------------- |
+| https://www.googleapis.com/auth/youtube.readonly         | Youtube Source                                     |
+| https://www.googleapis.com/auth/business.manage          | Google Business Profile Source.                    |
+| https://www.googleapis.com/auth/drive.readonly           | Google Sheets Source and Google Sheets Form Action |
+| https://www.googleapis.com/auth/spreadsheets             | Google Sheets Source and Google Sheets Form Action |
+| https://www.googleapis.com/auth/calendar.readonly        | Google Calendar Source                             |
+| https://www.googleapis.com/auth/calendar.events.readonly | Google Calendar Source                             |
 
 ## 4. Create oAuth Client ID
 

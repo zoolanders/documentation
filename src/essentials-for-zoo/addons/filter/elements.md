@@ -6,51 +6,51 @@ ZOOfilter auto categories elements into six groups, when an element is assigned 
 
 ### Category
 
-| Option | Description |
-| --- | --- |
-| _Default_ | Will render a Dropdown form field. |
-| _Checkbox_ | Will render a Checkbox form field. |
-| _Radio_ | Will render a Radio form field. |
-| _Ajax_ | Is used for search in categories hierarchy. Will render a Dropdown form with parent categories list. When the category is selected, the second Dropdown form with sub-categories will be displayed. |
+| Option     | Description                                                                                                                                                                                         |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| _Default_  | Will render a Dropdown form field.                                                                                                                                                                  |
+| _Checkbox_ | Will render a Checkbox form field.                                                                                                                                                                  |
+| _Radio_    | Will render a Radio form field.                                                                                                                                                                     |
+| _Ajax_     | Is used for search in categories hierarchy. Will render a Dropdown form with parent categories list. When the category is selected, the second Dropdown form with sub-categories will be displayed. |
 
 ### Date
 
-| Option | Description |
-| --- | --- |
-| _Default_ | Will render a date Input form field. |
-| _Range_ | Will render two date Inputs form fields for range searches. |
+| Option    | Description                                                 |
+| --------- | ----------------------------------------------------------- |
+| _Default_ | Will render a date Input form field.                        |
+| _Range_   | Will render two date Inputs form fields for range searches. |
 
 ### Input
 
-| Option | Description |
-| --- | --- |
-| _Default_ | Will render a text Input form field. |
-| _Range_ | Will render two text Inputs form fields for range searches. |
+| Option    | Description                                                 |
+| --------- | ----------------------------------------------------------- |
+| _Default_ | Will render a text Input form field.                        |
+| _Range_   | Will render two text Inputs form fields for range searches. |
 
 ### Option
 
-| Option | Description |
-| --- | --- |
-| _Default_ | Will render a Dropdown form field. |
+| Option     | Description                        |
+| ---------- | ---------------------------------- |
+| _Default_  | Will render a Dropdown form field. |
 | _Checkbox_ | Will render a Checkbox form field. |
-| _Radio_ | Will render a Radio form field. |
+| _Radio_    | Will render a Radio form field.    |
 
 ### Rating
 
-| Option | Description |
-| --- | --- |
-| _Select_ | Will render a Dropdown form field. |
-| _Checkbox_ | Will render a Checkbox form field. |
-| _Radio_ | Will render a Radio form field. |
-| _Range_ | Will render two text Inputs form fields for range searches. |
+| Option     | Description                                                 |
+| ---------- | ----------------------------------------------------------- |
+| _Select_   | Will render a Dropdown form field.                          |
+| _Checkbox_ | Will render a Checkbox form field.                          |
+| _Radio_    | Will render a Radio form field.                             |
+| _Range_    | Will render two text Inputs form fields for range searches. |
 
 ### Tag
 
-| Option | Description |
-| --- | --- |
-| _Select_ | Will render a Dropdown form field. |
+| Option     | Description                        |
+| ---------- | ---------------------------------- |
+| _Select_   | Will render a Dropdown form field. |
 | _Checkbox_ | Will render a Checkbox form field. |
-| _Radio_ | Will render a Radio form field. |
+| _Radio_    | Will render a Radio form field.    |
 
 ## Custom Elements
 

@@ -8,7 +8,7 @@ import MyLayout from './components/MyLayout.vue';
 export default {
     extends: DefaultTheme,
     Layout: MyLayout,
-    enhanceApp({ app, router, siteData }) {
+    enhanceApp({ app }) {
         app.component('TmIndex', TmIndex);
     },
 };
