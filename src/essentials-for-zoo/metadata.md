@@ -1,70 +1,235 @@
-# Metadata
+# Metadata Management
+
+Effective metadata management is crucial for SEO success and social media integration. Essentials for ZOO provides powerful tools to automatically generate and manage metadata for your content, making it easier to maintain consistent and optimized meta information across your entire site.
+
+## Overview
+
+The metadata system in Essentials for ZOO handles:
+
+- **Page Titles**: Optimized for search engines and user experience
+- **Meta Descriptions**: Compelling summaries for search results
+- **Keywords**: Relevant terms for search engines
+- **Author Information**: Content attribution
+- **Open Graph Tags**: Social media optimization
+- **Canonical URLs**: Duplicate content prevention
 
 ## Items Metadata
 
-Setting the Category/Item Metadata individually is most of the times not possible nor desirable. Instead let's use the Item elements data and render it as metadata and for Categories some clever workarounds.
+Setting metadata individually for each item would be time-consuming and difficult to maintain. Instead, Essentials uses element data to automatically generate relevant metadata.
 
-Locate the _ZOOseo Metadata Item_ layout in your ZOO App Type configuration.
+### Configuration Setup
 
-Drag & Drop the elements you would like to render for each one of the Metadata positions:
+1. Navigate to your **ZOO App Type configuration**
+2. Locate the **ZOOseo Metadata Item** layout
+3. Drag & Drop elements to the appropriate metadata positions
 
-| Setting | Description |
-| --- | --- |
-| _Title_ | The page title. |
-| _Description_ | The page description. |
-| _Keywords_ | A comma separate words describing the page. |
-| _Author_ | The page author name. |
+### Metadata Positions
 
-On the ZOOlanders ZOOseo Plugin settings the following Items Metadata options are available:
+| Position | Purpose | Best Elements to Use |
+| --- | --- | --- |
+| **Title** | Page title in browser/search results | Text Pro, Static Content |
+| **Description** | Meta description for search results | Textarea Pro, Text Pro |
+| **Keywords** | Comma-separated keywords | Select, Checkbox, Text Pro |
+| **Author** | Content author name | Text Pro, Static Content |
 
-| Setting | Description |
-| --- | --- |
-| _Item: Generate on_ | Allows setting when the metadata should be generated. |
-| -- _On Display_ | It will generate the metadata each time an item is displayed. |
-| -- _On Save_ | It will generate the metadata only when the item is saved. This is the recommended option for production sites. |
-| _Item Separator_ | The separator that will be used if there are more elements in the same position. For keywords, comma will always be used. |
+### Example Configuration
 
-::: warning
-The Generate Item metadata **On Display** can significantly affect the site performance.
+For a **Product Catalog**:
+```
+Title: Product Name (Text Pro element)
+Description: Product Description (Textarea Pro element)  
+Keywords: Product Categories + Tags (Select elements)
+Author: Brand Name (Static Content element)
+```
+
+For a **Blog/News Site**:
+```
+Title: Article Title (Text Pro element)
+Description: Article Summary (Textarea Pro element)
+Keywords: Article Tags (Select element)
+Author: Author Name (Text Pro element)
+```
+
+### Generation Settings
+
+Configure when metadata is generated in the **ZOO SEO - Essentials** plugin:
+
+| Setting | Description | Recommended Use |
+| --- | --- | --- |
+| **On Display** | Generates metadata each page load | Development/Testing only |
+| **On Save** | Generates metadata when item is saved | Production sites ✅ |
+
+::: warning Performance Impact
+Using "On Display" can significantly affect site performance. Always use "On Save" for production websites.
 :::
+
+### Element Separator
+
+Choose how multiple elements in the same position are combined:
+- **Default**: Space separation
+- **Custom**: Your preferred separator (comma, pipe, etc.)
+- **Keywords**: Always use comma separation
 
 ## Categories Metadata
 
-On the ZOOlanders ZOOseo Plugin settings the following Category Metadata options are available:
+Category metadata works similarly to items but with additional configuration options.
 
-| Setting | Description |
-| --- | --- |
-| _Category: Generate on_ | Allows setting when the metadata should be generated. |
-| -- _On Display_ | It will generate the metadata each time a category is displayed. |
-| -- _On Save_ | It will generate the metadata only when the category is saved. This is the recommended option for production sites. |
-| _Category Separator_ | The separator that will be used if there are more elements in the same position. For keywords, comma will always be used. |
-| _Category Metatitle_ | The category field value to set as the category metatitle. |
-| _Category Metadescription_ | The category field value to set as the category metadescription. |
-| _Category Keywords_ | The category field value to set as the category keywords. |
-| _Category Author_ | The category field value to set as the category author. |
+### Configuration Options
 
-::: warning
-The Generate Category metadata **On Display** can significantly affect the site performance.
-:::
+| Setting | Purpose | Example |
+| --- | --- | --- |
+| **Category Metatitle** | Field for category page titles | Name, Description |
+| **Category Metadescription** | Field for category descriptions | Description, Summary |
+| **Category Keywords** | Field for category keywords | Tags, Categories |
+| **Category Author** | Field for category author | Static value |
 
-## Open Graph
+### Best Practices
 
-Using the ZOOseo Item Metadata layout you can Drag & Drop the elements you would like to render for each one of the OpenGraph positions:
+- Use category **Name** for meta titles
+- Use category **Description** for meta descriptions  
+- Combine **Tags** and **Parent Categories** for keywords
+- Set a consistent **Author** value for brand consistency
 
-| Setting | Description |
-| --- | --- |
-| _Open Graph Title_ | The title of the page. |
-| _Open Graph Description_ | The description of the page. |
-| _Open Graph Type_ | The page type, e.g. `video.movie`. |
-| _Open Graph Image_ | The page image URL. _Image/Pro_ element value will be automatically retrieved. |
-| _Open Graph Url_ | The page canonical URL that will be used as its permanent ID in the graph, e.g.,`http://www.imdb.com/title/tt0117500/`. |
-| _Open Graph Custom_ | Allows setting custom OpenGraph properties using the element _Alternative Label_ field value as the property type. |
+## Open Graph Integration
 
-::: tip
-Use the [Static Content Element](./addons/elements/static-content) when the content is the same for each item.
-:::
+Open Graph tags improve how your content appears when shared on social media platforms like Facebook, Twitter, and LinkedIn.
 
-::: tip
-For more information about Open Graph visit the [Open Graph official page](http://ogp.me/).
-For testing the results checkout [Facebook Debuger](https://www.facebook.com/login.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2F).
-:::
+### Available Open Graph Positions
+
+| Position | Purpose | Recommended Elements |
+| --- | --- | --- |
+| **Open Graph Title** | Social media title | Text Pro, Static Content |
+| **Open Graph Description** | Social media description | Textarea Pro |
+| **Open Graph Type** | Content type (article, product, etc.) | Static Content |
+| **Open Graph Image** | Social media thumbnail | Image Pro, Media Pro |
+| **Open Graph URL** | Canonical URL | Automatically generated |
+| **Open Graph Custom** | Custom properties | Static Content |
+
+### Configuration Example
+
+For **E-commerce Products**:
+```
+Title: Product Name + Brand
+Description: Product Description (first 160 chars)
+Type: "product" (Static Content)
+Image: Main Product Image
+Custom: "product:price" → Price element
+```
+
+For **Blog Articles**:
+```
+Title: Article Title
+Description: Article Summary
+Type: "article" (Static Content)  
+Image: Featured Image
+Custom: "article:author" → Author Name
+```
+
+### Custom Open Graph Properties
+
+Use the **Open Graph Custom** position with Static Content elements:
+
+1. Set element **Alternative Label** as the property name
+2. Set element **Text** as the property value
+
+Example for products:
+```
+Alternative Label: product:price:amount
+Text: 29.99
+```
+
+### Social Media Testing
+
+Test your Open Graph implementation:
+- **Facebook**: [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/)
+- **Twitter**: [Twitter Card Validator](https://cards-dev.twitter.com/validator)
+- **LinkedIn**: [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)
+
+## Advanced Configuration
+
+### Dynamic Content
+
+For dynamic metadata content, use these elements effectively:
+
+**Date-based Titles**:
+```
+"Latest News from [Date Pro - Year]"
+```
+
+**Category-based Descriptions**:
+```
+"Explore our [Related Categories Pro] collection"
+```
+
+**Location-based Keywords**:
+```
+[Google Maps Pro - City], [Google Maps Pro - Country]
+```
+
+### Conditional Rendering
+
+Use [Conditional Rendering](/essentials-for-zoo/addons/elements/conditional-rendering) to:
+- Show different metadata for different item types
+- Include optional information when available
+- Customize metadata based on user groups
+
+### Multi-language Considerations
+
+For multilingual sites:
+- Configure metadata layouts for each language
+- Use language-specific elements
+- Consider cultural differences in social media preferences
+
+## Best Practices
+
+### SEO Optimization
+- Keep titles under 60 characters
+- Write descriptions between 150-160 characters
+- Use relevant, non-spammy keywords
+- Include target keywords naturally
+
+### Social Media Optimization
+- Use high-quality images (1200x630px recommended)
+- Write compelling, action-oriented descriptions
+- Test across different platforms
+- Monitor social media engagement
+
+### Performance Optimization
+- Always use "On Save" generation for production
+- Clear cache after configuration changes
+- Monitor database performance with large content volumes
+
+## Troubleshooting
+
+### Common Issues
+
+**Metadata not appearing**:
+- Verify ZOO SEO plugin is enabled
+- Check that layout has elements assigned
+- Ensure items are saved after configuration changes
+
+**Open Graph images not displaying**:
+- Verify image URLs are absolute
+- Check image file sizes (not too large)
+- Ensure images are publicly accessible
+
+**Inconsistent metadata**:
+- Check element assignments in layout
+- Verify separator settings
+- Review generation timing settings
+
+### Performance Issues
+
+**Slow page loading**:
+- Switch from "On Display" to "On Save"
+- Optimize element queries
+- Consider caching solutions
+
+## Next Steps
+
+After configuring metadata:
+
+1. **[Set up SEO URLs](/essentials-for-zoo/seo)** for complete optimization
+2. **[Configure import/export](/essentials-for-zoo/import-export)** to maintain metadata during migrations
+3. **[Review troubleshooting](/essentials-for-zoo/troubleshooting/seo)** for common issues
+4. **Test your setup** with real content and social media platforms
