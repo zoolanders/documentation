@@ -24,7 +24,7 @@ The Widgetkit Mapping layouts are used to map ZOO elements to the Widget fields,
 
 > The Mapping specifies the **what** but not the **how** when setting the elements, leaving the rendering up to the Widget.
 
-As any other ZOO layout this mapping layout has several positions where the elements will be assigned. The difference relies on the rendering engine. Each position represents a Widget field to which the assigned element will be mapped. When the Widget is rendered the mapped elements will be evaluated and their content will be retrieved directly without actually rendering them. There are some exceptions, like the *content* and _custom_ positions, where the elements are first rendered and the resulting content used as the field data. Those are not compatible with any field and should be used carefully.
+As any other ZOO layout this mapping layout has several positions where the elements will be assigned. The difference relies on the rendering engine. Each position represents a Widget field to which the assigned element will be mapped. When the Widget is rendered the mapped elements will be evaluated and their content will be retrieved directly without actually rendering them. There are some exceptions, like the _content_ and _custom_ positions, where the elements are first rendered and the resulting content used as the field data. Those are not compatible with any field and should be used carefully.
 
 > The Mapping layouts can be found on the ZOO App views configuration area, under the ZOO Plugins layouts.
 

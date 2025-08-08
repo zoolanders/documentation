@@ -14,9 +14,10 @@ The **URL Rule** evaluates whether the site URL matches one of the specified pat
 
 ![URL Rule Settings](./assets//rule-url.webp)
 
-| Setting | Description | Required | Dynamic |
-| --- | --- | :---: | :---: |
-| *Patterns* | The list of patterns that the Site URL must match for the condition to be considered valid. Separate the entries with a comma and/or new line, e.g `localhost, about/team`. | &#x2713; | &#x2713; |
-| *Use RegExp* | Whether to enable [Regular Expressions](https://regex101.com) in the patterns. | | &#x2713; |
-| *Reversed* | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
+| Setting      | Description                                                                                                                                                                 | Required | Dynamic  |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :------: |
+| _Patterns_   | The list of patterns that the Site URL must match for the condition to be considered valid. Separate the entries with a comma and/or new line, e.g `localhost, about/team`. | &#x2713; | &#x2713; |
+| _Use RegExp_ | Whether to enable [Regular Expressions](https://regex101.com) in the patterns.                                                                                              |          | &#x2713; |
+| _Reversed_   | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`.                                                                           |          | &#x2713; |
+
 <!--@include: ./advanced-rule-settings-->

@@ -14,11 +14,12 @@ This action won't create or format the file by itself, you must provide a path t
 
 Creates a CSV file record.
 
-| Setting | Description | Required | Dynamic |
-| --- | --- | :---: | :---: |
-| *File* | The path to the file where the data will be appended. | &#x2713; |
-| *Delimeter* | The character used to separate columns data, defaults to a comma (`,`). |
-| *Enclosure* | The character used to enclose columns data, defaults to a double-quote (`"`). |
+| Setting     | Description                                                                   | Required | Dynamic |
+| ----------- | ----------------------------------------------------------------------------- | :------: | :-----: |
+| _File_      | The path to the file where the data will be appended.                         | &#x2713; |
+| _Delimeter_ | The character used to separate columns data, defaults to a comma (`,`).       |
+| _Enclosure_ | The character used to enclose columns data, defaults to a double-quote (`"`). |
+
 <!--@include: ./_partials/common-action-settings.md-->
 
 <!--@include: ./_partials/common-action-content-mapping.md-->
@@ -27,11 +28,12 @@ Creates a CSV file record.
 
 Deletes a CSV file record.
 
-| Setting | Description | Required | Dynamic |
-| --- | --- | :---: | :---: |
-| *File* | The path to the file where the data will be appended. | &#x2713; |
-| *Delimeter* | The character used to separate columns data, defaults to a comma (`,`). |
-| *Enclosure* | The character used to enclose columns data, defaults to a double-quote (`"`). |
-| *Column* | The column that will identify the record to be deleted. | &#x2713; |
-| *Value* | The value that will identify the record to be deleted. | &#x2713; | &#x2713; |
+| Setting     | Description                                                                   | Required | Dynamic  |
+| ----------- | ----------------------------------------------------------------------------- | :------: | :------: |
+| _File_      | The path to the file where the data will be appended.                         | &#x2713; |
+| _Delimeter_ | The character used to separate columns data, defaults to a comma (`,`).       |
+| _Enclosure_ | The character used to enclose columns data, defaults to a double-quote (`"`). |
+| _Column_    | The column that will identify the record to be deleted.                       | &#x2713; |
+| _Value_     | The value that will identify the record to be deleted.                        | &#x2713; | &#x2713; |
+
 <!--@include: ./_partials/common-action-settings.md-->

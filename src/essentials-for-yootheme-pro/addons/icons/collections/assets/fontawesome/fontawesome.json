@@ -2,11 +2,7 @@
     "name": "fontawesome",
     "title": "Font Awesome",
     "description": "Icons and social logos by Font Awesome, the web's most popular icon set.",
-    "groups": [
-        "regular",
-        "solid",
-        "brands"
-    ],
+    "groups": ["regular", "solid", "brands"],
     "version": "6.6.0",
     "release": "July, 2024",
     "license": "CC BY 4.0",

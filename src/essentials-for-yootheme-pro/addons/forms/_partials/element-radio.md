@@ -8,13 +8,15 @@ The **Radio Element** displays a group of [\<input type="radio"\>](https://devel
 
 ![Radio Element](./assets/elements/radio.webp)
 
-| Setting | Description |
-| --- | --- |
-| *Layout* | The layout that will be used to display the options, `Vertical` or `Horizontal`. |
+| Setting  | Description                                                                      |
+| -------- | -------------------------------------------------------------------------------- |
+| _Layout_ | The layout that will be used to display the options, `Vertical` or `Horizontal`. |
+
 <!--@include: ./common-element-settings.md-->
 
 <!--@include: ./common-element-options.md-->
 
 | Validation | Description | Dynamic | Browser Side | Server Side |
-| --- | --- | :---: | :---: | :---: |
+| ---------- | ----------- | :-----: | :----------: | :---------: |
+
 <!--@include: ./common-element-validation.md-->

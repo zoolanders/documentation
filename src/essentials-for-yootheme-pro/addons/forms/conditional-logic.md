@@ -12,14 +12,12 @@ For example, you could show a hidden fieldset when a select field has a specific
 
 ```js
 // on field-change hook set in the form area settings
-var fieldset = form.querySelector('#fieldset');
-
 if (field.name === 'select') {
-    if (field.value === 'foo') {
-        UIkit.util.removeClass(fieldset, 'uk-hidden');
-    } else {
-        UIkit.util.addClass(fieldset, 'uk-hidden');
-    }
+  if (field.value === 'foo') {
+    UIkit.util.removeClass(field, 'uk-hidden');
+  } else {
+    UIkit.util.addClass(field, 'uk-hidden');
+  }
 }
 ```
 

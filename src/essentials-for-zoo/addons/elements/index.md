@@ -71,24 +71,24 @@ Repeatable elements share these separator assignment fields:
 
 In addition the **By** field offers a considerable set of options:
 
-| Option | Code | Description |
-| ------ | ---- | ----------- |
-| **Space** | `separator=[ ]` | Inserts a space between instances. |
-| **Span** | `tag=[<span>%s</span>]` | Wraps each instance with a `<span>` tag. |
-| **Paragraph** | `tag=[<p>%s</p>]` | Wraps each instance with a `<p>` tag. |
-| **Div** | `tag=[<div>%s</div>]` | Wraps each instance with a `<div>` tag. |
-| **Comma** | `separator=[, ]` | Inserts a comma (,) between instances. |
-| **Hyphen** | `separator=[ - ]` | Inserts a hyphen (-) between instances. |
-| **Pipe** | `separator=[ \| ]` | Inserts a pipe (\|) between instances. |
-| **Break** | `separator=[<br />]` | Inserts a `<br>` tag between instances. |
-| **List Item** | `tag=[<li>%s</li>]` | Wraps each instance with a `<li>` tag applying no wrapper. |
-| **Unordered List** | `tag=[<li>%s</li>] enclosing_tag=[<ul>%s</ul>]` | Wraps each instance with a `<li>` tag and wraps the result with `<ul` tag. |
-| **Ordered List** | `tag=[<li><div>%s</div></li>] enclosing_tag=[<ol>%s</ol>]` | Wraps each instance with a `<li>` tag and wraps the result with `<ol>` tag. |
-| **Warp Item** | `tag=[<article class="item">%s</article>]` | Wraps each instance with an `<article>` tag. |
-| **Blank** | `tag=[%s]` | Applies no wrapping. |
-| **UIkit Block** | `[<div class="uk-margin">%s</div>]` | Wraps each instance with a `<div class="uk-margin">` tag. |
-| **UIkit Article** | `[<article class="uk-article">%s</article>]` | Wraps each instance with an `<article class="uk-article">;` tag. |
-| **UIkit List** | `tag=[<li>%s</li>] enclosing_tag=[<ul class="uk-list">%s</ul>]` | Wraps each instance with a `<li>` tag and wraps the result with `<ul class="uk-list">` tag. |
+| Option              | Code                                                                         | Description                                                                                              |
+| ------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **Space**           | `separator=[ ]`                                                              | Inserts a space between instances.                                                                       |
+| **Span**            | `tag=[<span>%s</span>]`                                                      | Wraps each instance with a `<span>` tag.                                                                 |
+| **Paragraph**       | `tag=[<p>%s</p>]`                                                            | Wraps each instance with a `<p>` tag.                                                                    |
+| **Div**             | `tag=[<div>%s</div>]`                                                        | Wraps each instance with a `<div>` tag.                                                                  |
+| **Comma**           | `separator=[, ]`                                                             | Inserts a comma (,) between instances.                                                                   |
+| **Hyphen**          | `separator=[ - ]`                                                            | Inserts a hyphen (-) between instances.                                                                  |
+| **Pipe**            | `separator=[ \| ]`                                                           | Inserts a pipe (\|) between instances.                                                                   |
+| **Break**           | `separator=[<br />]`                                                         | Inserts a `<br>` tag between instances.                                                                  |
+| **List Item**       | `tag=[<li>%s</li>]`                                                          | Wraps each instance with a `<li>` tag applying no wrapper.                                               |
+| **Unordered List**  | `tag=[<li>%s</li>] enclosing_tag=[<ul>%s</ul>]`                              | Wraps each instance with a `<li>` tag and wraps the result with `<ul` tag.                               |
+| **Ordered List**    | `tag=[<li><div>%s</div></li>] enclosing_tag=[<ol>%s</ol>]`                   | Wraps each instance with a `<li>` tag and wraps the result with `<ol>` tag.                              |
+| **Warp Item**       | `tag=[<article class="item">%s</article>]`                                   | Wraps each instance with an `<article>` tag.                                                             |
+| **Blank**           | `tag=[%s]`                                                                   | Applies no wrapping.                                                                                     |
+| **UIkit Block**     | `[<div class="uk-margin">%s</div>]`                                          | Wraps each instance with a `<div class="uk-margin">` tag.                                                |
+| **UIkit Article**   | `[<article class="uk-article">%s</article>]`                                 | Wraps each instance with an `<article class="uk-article">;` tag.                                         |
+| **UIkit List**      | `tag=[<li>%s</li>] enclosing_tag=[<ul class="uk-list">%s</ul>]`              | Wraps each instance with a `<li>` tag and wraps the result with `<ul class="uk-list">` tag.              |
 | **UIkit List Line** | `tag=[<li>%s</li>] enclosing_tag=[<ul class="uk-list uk-list-line">%s</ul>]` | Wraps each instance with a `<li>` tag and wraps the result with `<ul class="uk-list uk-list-line">` tag. |
 
 ::: tip
@@ -129,22 +129,22 @@ The API for Amazon S3 only works on regions where Signature Version 2 is support
 
 Most path settings accept variables that you can use to create advanced workflows. For example a `images/[userid]/[year]` path could translate into `images/345/2015`. The supported variables are:
 
-| Variable | Description | Example |
-| :--------| :---------- | :-------|
-| `[userid]` | The User ID | 123 |
-| `[username]` | The User username | john |
-| `[usergroup]` | The User group name | Author |
-| `[usergroupid]` | The User group id | 3 |
-| `[authorid]` | The current Item Author User ID | 123 |
-| `[authorname]` | The current Item Author username | john |
-| `[authorgroup]` | The current Item Author group name | Author |
-| `[authorgroupid]` | The current Item Author group id | 3 |
-| `[zooapp]` | The current Item App group | blog |
-| `[zooprimarycat]` | The current Item Primary Category | tipography |
-| `[zooprimarycatid]` | The current Item Primary Category ID | 4 |
-| `[zooitemalias]` | The current Item alias | typography-showcase |
-| `[zooitemid]` | The current Item ID | 4 |
-| `[zooitemtype]` | The current Item Type | article |
-| `[year]` | The current year | 2015 |
-| `[month]` | The current month | 06 |
-| `[day]` | The current day | 10 |
+| Variable            | Description                          | Example             |
+| :------------------ | :----------------------------------- | :------------------ |
+| `[userid]`          | The User ID                          | 123                 |
+| `[username]`        | The User username                    | john                |
+| `[usergroup]`       | The User group name                  | Author              |
+| `[usergroupid]`     | The User group id                    | 3                   |
+| `[authorid]`        | The current Item Author User ID      | 123                 |
+| `[authorname]`      | The current Item Author username     | john                |
+| `[authorgroup]`     | The current Item Author group name   | Author              |
+| `[authorgroupid]`   | The current Item Author group id     | 3                   |
+| `[zooapp]`          | The current Item App group           | blog                |
+| `[zooprimarycat]`   | The current Item Primary Category    | tipography          |
+| `[zooprimarycatid]` | The current Item Primary Category ID | 4                   |
+| `[zooitemalias]`    | The current Item alias               | typography-showcase |
+| `[zooitemid]`       | The current Item ID                  | 4                   |
+| `[zooitemtype]`     | The current Item Type                | article             |
+| `[year]`            | The current year                     | 2015                |
+| `[month]`           | The current month                    | 06                  |
+| `[day]`             | The current day                      | 10                  |

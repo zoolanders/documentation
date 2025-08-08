@@ -4,7 +4,7 @@ When a _sublayout_ is defined as a form area it content is enclosed with a stand
 
 ![Form Area Shortcut](./assets/formarea-config-shortcut.webp)
 
-For every form area a `paper-plane`  icon will appear in the builder's main panel to both state that the element is a form area as well as to allow directly opening its configuration panel when clicked.
+For every form area a `paper-plane` icon will appear in the builder's main panel to both state that the element is a form area as well as to allow directly opening its configuration panel when clicked.
 
 ## Actions
 
@@ -16,13 +16,13 @@ After Submit Actions, or simply actions, are multi-instance functions that will 
 
 ![Form Area Custom Scripts](./assets/formarea-config-custom-scripts.webp)
 
-| Event | Scope Variables | Description |
-| --- | --- | --- |
-| _Before Submission_ | `event`, `form` | Executes before the submission allowing to prevent it. |
-| _After Submission_ | `event`, `form`, `data`, `response` | Executes after successfull submission. |
-| _On Field Change_ | `event`, `form`, `field`, `data` | Executes after any form field value has changed. |
+| Event                 | Scope Variables                                 | Description                                                               |
+| --------------------- | ----------------------------------------------- | ------------------------------------------------------------------------- |
+| _Before Submission_   | `event`, `form`                                 | Executes before the submission allowing to prevent it.                    |
+| _After Submission_    | `event`, `form`, `data`, `response`             | Executes after successfull submission.                                    |
+| _On Field Change_     | `event`, `form`, `field`, `data`                | Executes after any form field value has changed.                          |
 | _On Submission Error_ | `event`, `form`, `data`, `errors`, `validation` | Executes after server side submission error, including validation errors. |
-| _On Validation Error_ | `event`, `form`, `data` | Executes after front-end validation error. |
+| _On Validation Error_ | `event`, `form`, `data`                         | Executes after front-end validation error.                                |
 
 ::: tip
 For more advanced integrations and details consult [Form Events](./form-events) section.
@@ -32,11 +32,11 @@ For more advanced integrations and details consult [Form Events](./form-events) 
 
 ![Form Area Settings](./assets/formarea-config-settings.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| _After Submit Actions_ | `[]` | List of actions to execute after a successful submission. At least one action is necessary. |
-| _HTML 5 Validation_ | `true` | Whether to execute front side HTML5 validation before submission. Server side validation is always executed. |
-| _Reset After Submit_ | `true` | Whether to reset the form to it initial state after a successfull submission. |
+| Setting                | Default | Description                                                                                                  |
+| ---------------------- | ------- | ------------------------------------------------------------------------------------------------------------ |
+| _After Submit Actions_ | `[]`    | List of actions to execute after a successful submission. At least one action is necessary.                  |
+| _HTML 5 Validation_    | `true`  | Whether to execute front side HTML5 validation before submission. Server side validation is always executed. |
+| _Reset After Submit_   | `true`  | Whether to reset the form to it initial state after a successfull submission.                                |
 
 ::: tip Note
 For field specific validation refer to [elements field settings](./elements).
@@ -44,25 +44,25 @@ For field specific validation refer to [elements field settings](./elements).
 
 ![Form Area Errors Display](./assets/formarea-config-errors-display.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| _Display in Modal_ | `false` | Wether to display server side errors in a Modal instead of the bottom block. |
-| _Modal Content_ | | The content to be displayed in the modal, use `{errors}` as placeholder for the list of errors. |
-| _Center Modal_ | `false` | Wether to vertically center the modal. |
+| Setting            | Default | Description                                                                                     |
+| ------------------ | ------- | ----------------------------------------------------------------------------------------------- |
+| _Display in Modal_ | `false` | Wether to display server side errors in a Modal instead of the bottom block.                    |
+| _Modal Content_    |         | The content to be displayed in the modal, use `{errors}` as placeholder for the list of errors. |
+| _Center Modal_     | `false` | Wether to vertically center the modal.                                                          |
 
 ![Form Attributes](./assets/formarea-config-attr.webp)
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| _Name_ |  | A custom name attribute for the form dom node. |
-| _ID_ |  | A custom ID attribute for the form dom node. |
-| _Class_ |  | Custom classes for the form dom node. |
+| Setting | Default | Description                                    |
+| ------- | ------- | ---------------------------------------------- |
+| _Name_  |         | A custom name attribute for the form dom node. |
+| _ID_    |         | A custom ID attribute for the form dom node.   |
+| _Class_ |         | Custom classes for the form dom node.          |
 
 ![Form Action Override](./assets/formarea-config-action-override.webp)
 
-| Setting | Description |
-| --- | --- |
-| _Action URL_ | The URL where the form should submit the data to. |
+| Setting         | Description                                                           |
+| --------------- | --------------------------------------------------------------------- |
+| _Action URL_    | The URL where the form should submit the data to.                     |
 | _Action Method_ | The method that should user for submitting the data, `GET` or `POST`. |
 
 ::: warning Side Effects

@@ -24,10 +24,10 @@ Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Down
 
 ## Minimum Statbility
 
-| Release | Description |
-| --- | --- |
-| *Stable* | This release is a version which has been thoroughly tested by both our team and the community. Use it for production sites. |
-| *Beta* | This release is a version which has been thoroughly tested by our team. Use it to help us test and prevent issues in the Stable release. |
+| Release  | Description                                                                                                                              |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| _Stable_ | This release is a version which has been thoroughly tested by both our team and the community. Use it for production sites.              |
+| _Beta_   | This release is a version which has been thoroughly tested by our team. Use it to help us test and prevent issues in the Stable release. |
 
 ::: details Joomla
 In Joomla go to the Installer Options in the **Global Configuration**.
