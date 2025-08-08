@@ -3,5 +3,5 @@ Once the basic configuration has been set, the resource fields will load for map
 ![Save to Action Mapping](./assets/data-mapping.webp)
 
 ::: tip Most mapping is optional
-In fact, mapping is disabled by default and must be enabled for each field by clicking on the last toggle icon.
+In fact, mapping is disabled by default and must be enabled for each field by clicking on the last toggle  icon.
 :::

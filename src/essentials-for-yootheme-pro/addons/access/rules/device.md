@@ -18,9 +18,8 @@ Notice that browser detection is not always accurate, users can setup their brow
 
 ![Device Rule Settings](./assets//rule-device.webp)
 
-| Setting     | Description                                                                                                   | Required | Dynamic  |
-| ----------- | ------------------------------------------------------------------------------------------------------------- | :------: | :------: |
-| _Selection_ | The device types that the browser agent must match, at least one, for the condition to be considered valid. . | &#x2713; | &#x2713; |
-| _Reversed_  | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`.             |          | &#x2713; |
-
+| Setting | Description | Required | Dynamic |
+| --- | --- | :---: | :---: |
+| *Selection* | The device types that the browser agent must match, at least one, for the condition to be considered valid. . | &#x2713; | &#x2713; |
+| *Reversed* | Whether the evaluation result should be returned reversed. Use it to set a condition as `IS NOT`. | | &#x2713; |
 <!--@include: ./advanced-rule-settings-->

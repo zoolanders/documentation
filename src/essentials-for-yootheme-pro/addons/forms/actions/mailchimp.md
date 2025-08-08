@@ -10,34 +10,32 @@ The **Mailchimp Action** creates, updates or removes a member from a [Mailchimp]
 
 Create or update a Mailchimp audience member.
 
-| Setting                        | Description                                                                                                                                                     | Required | Dynamic  |
-| ------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :------: |
-| _Account_                      | The Mailchimp account specified with oAuth or an API Key.                                                                                                       | &#x2713; |
-| _Audience_                     | The audience to which to add a new member or alter an existing.                                                                                                 | &#x2713; |
-| _Update if exists_             | Specifies if the member data should be updated if it already exists.                                                                                            |
-| _Skip Merge Fields validation_ | Specifies if Merge Fields validation should be skipped.                                                                                                         |
-| _Email Address_                | Member's email address.                                                                                                                                         | &#x2713; | &#x2713; |
-| _Email Type_                   | The email type the member has requested to get (html or text).                                                                                                  |          | &#x2713; |
-| _Status_                       | Member's subscription status, for double opt-in set as pending.                                                                                                 |          | &#x2713; |
-| _Language_                     | Member's language, used for segmentation purpose. If omitted Mailchimp will attempt to detect it with member's further interaction.                             |          | &#x2713; |
-| _VIP_                          | Mark the member as [VIP](https://mailchimp.com/help/designate-and-send-to-vip-contacts) for targeted campaigns.                                                 |          | &#x2713; |
-| _Location_                     | Member's location latitute and longitude separated by a comma. Used for segmentation purpose.                                                                   |          | &#x2713; |
-| _Tags_                         | A list of tags, separated by a comma or newline, associated with the member. Used for segmentation purpose.                                                     |          | &#x2713; |
-| _Merge Fields_                 | Specific to the selected audience, [Merge Fields](https://mailchimp.com/developer/marketing/docs/merge-fields) determines additional information about members. |          | &#x2713; |
-| _Interests_                    | Specific to the selected audience, determines the member interests used in targeted campaigns.                                                                  |          | &#x2713; |
-| _Marketing Permissions_        | Specific to the selected audience, determines the memebers marketing consents.                                                                                  |          | &#x2713; |
-
+| Setting | Description | Required | Dynamic |
+| --- | --- | :---: | :---: |
+| *Account* | The Mailchimp account specified with oAuth or an API Key. | &#x2713; |
+| *Audience* | The audience to which to add a new member or alter an existing. | &#x2713; |
+| *Update if exists* | Specifies if the member data should be updated if it already exists. |
+| *Skip Merge Fields validation* | Specifies if Merge Fields validation should be skipped. |
+| *Email Address* | Member's email address. | &#x2713; | &#x2713; |
+| *Email Type* | The email type the member has requested to get (html or text). | | &#x2713; |
+| *Status* | Member's subscription status, for double opt-in set as pending. | |  &#x2713; |
+| *Language* | Member's language, used for segmentation purpose. If omitted Mailchimp will attempt to detect it with member's further interaction. | |  &#x2713; |
+| *VIP* | Mark the member as [VIP](https://mailchimp.com/help/designate-and-send-to-vip-contacts) for targeted campaigns. | | &#x2713; |
+| *Location* | Member's location latitute and longitude separated by a comma. Used for segmentation purpose. | | &#x2713; |
+| *Tags* | A list of tags, separated by a comma or newline, associated with the member. Used for segmentation purpose. | | &#x2713; |
+| *Merge Fields* | Specific to the selected audience, [Merge Fields](https://mailchimp.com/developer/marketing/docs/merge-fields) determines additional information about members. | | &#x2713; |
+| *Interests* | Specific to the selected audience, determines the member interests used in targeted campaigns. | | &#x2713; |
+| *Marketing Permissions* | Specific to the selected audience, determines the memebers marketing consents. | | &#x2713; |
 <!--@include: ./_partials/common-action-settings.md-->
 
 ## Remove Member
 
 Archive or delete a Mailchimp audience member.
 
-| Setting          | Description                                                                                                                                                                                    | Required | Dynamic  |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :------: |
-| _Account_        | The Mailchimp account specified with oAuth or an API Key.                                                                                                                                      | &#x2713; |
-| _Audience_       | The audience from which to remove a member.                                                                                                                                                    | &#x2713; |
-| _Email Address_  | Member's email address.                                                                                                                                                                        | &#x2713; | &#x2713; |
-| _Delete Instead_ | Delete instead of archive. The member will be removed from the list and all it personally identifiable information will be deleted. This will make it impossible to re-import the list member. |
-
+| Setting | Description | Required | Dynamic |
+| --- | --- | :---: | :---: |
+| *Account* | The Mailchimp account specified with oAuth or an API Key. | &#x2713; |
+| *Audience* | The audience from which to remove a member. | &#x2713; |
+| *Email Address* | Member's email address. | &#x2713; | &#x2713; |
+| *Delete Instead* | Delete instead of archive. The member will be removed from the list and all it personally identifiable information will be deleted. This will make it impossible to re-import the list member. |
 <!--@include: ./_partials/common-action-settings.md-->

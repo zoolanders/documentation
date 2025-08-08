@@ -17,7 +17,10 @@ Each collection requires a corresponding `mycollection.json` file inside the col
   "name": "mycollection",
   "title": "My Collection",
   "description": "My Custom Icon Collection",
-  "groups": ["group-a", "group-b"],
+  "groups": [
+    "group-a",
+    "group-b",
+  ],
   "version": "1.0.0",
   "release": "July, 2025"
 }

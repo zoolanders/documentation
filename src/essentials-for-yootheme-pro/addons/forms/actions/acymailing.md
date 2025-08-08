@@ -10,23 +10,21 @@ The **AcyMailing Action** subscribes or unsubscribes a member from an [AcyMailin
 
 Create or update an AcyMailing list subscriber.
 
-| Setting         | Description                                                         | Required | Dynamic  |
-| --------------- | ------------------------------------------------------------------- | :------: | :------: |
-| _Email_         | Subscriber's email address.                                         | &#x2713; | &#x2713; |
-| _Name_          | Subscriber's name, it will be autocreated from the email if omited. |          | &#x2713; |
-| _Status_        | Subscriber's confirmation status.                                   |          | &#x2713; |
-| _Lists_         | The lists to which to subscribe.                                    | &#x2713; | &#x2713; |
-| _Custom Fields_ | Subscriber's additional data specified by AcyMailing custom fields. | &#x2713; | &#x2713; |
-
+| Setting | Description | Required | Dynamic |
+| --- | --- | :---: | :---: |
+| *Email* | Subscriber's email address. | &#x2713; | &#x2713; |
+| *Name* | Subscriber's name, it will be autocreated from the email if omited. | | &#x2713; |
+| *Status* | Subscriber's confirmation status. | | &#x2713; |
+| *Lists* | The lists to which to subscribe. | &#x2713; | &#x2713; |
+| *Custom Fields* | Subscriber's additional data specified by AcyMailing custom fields. | &#x2713; | &#x2713; |
 <!--@include: ./_partials/common-action-settings.md-->
 
 ## Unsubscribe
 
 Unsubcribe an AcyMailing list subscriber.
 
-| Setting | Description                      | Required | Dynamic  |
-| ------- | -------------------------------- | :------: | :------: |
-| _Email_ | Subscriber's email address.      | &#x2713; | &#x2713; |
-| _Lists_ | The lists to which to subscribe. | &#x2713; | &#x2713; |
-
+| Setting | Description | Required | Dynamic |
+| --- | --- | :---: | :---: |
+| *Email* | Subscriber's email address. | &#x2713; | &#x2713; |
+| *Lists* | The lists to which to subscribe. | &#x2713; | &#x2713; |
 <!--@include: ./_partials/common-action-settings.md-->

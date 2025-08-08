@@ -14,10 +14,9 @@ The **Alter Action** adds or alters the submitted data allowing a wide range of 
 Notice that this action must be executed before any other action that rely on the altered data.
 :::
 
-| Setting   | Description                                                                              | Required | Dynamic  |
-| --------- | ---------------------------------------------------------------------------------------- | :------: | :------: | -------- |
-| _Data_    | The list of data entries to add to the submission.                                       | &#x2713; | &#x2713; |
-| --_Name_  | The name or key for the data entry, if data already exists it value will be overwritten. | &#x2713; |
-| --_Value_ | The value for the data entry.                                                            | &#x2713; | &#x2713; | &#x2713; |
-
+| Setting | Description | Required | Dynamic |
+| --- | --- | :---: | :---: |
+| *Data* | The list of data entries to add to the submission. | &#x2713; | &#x2713; |
+| --*Name* | The name or key for the data entry, if data already exists it value will be overwritten. | &#x2713; |
+| --*Value* | The value for the data entry. |  &#x2713; | &#x2713; | &#x2713; |
 <!--@include: ./_partials/common-action-settings.md-->

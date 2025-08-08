@@ -10,28 +10,28 @@ Set multiple children of any type and control the display, grid, and settings of
 
 ![Input Element](./assets/elements/input.webp)
 
-| Setting      | Description                                     |
-| ------------ | ----------------------------------------------- |
-| _Show Label_ | Should the label be displayed for all children. |
-| _Show Icon_  | Should the icon be displayed for all children.  |
+| Setting | Description |
+| --- | --- |
+| *Show Label* | Should the label be displayed for all children. |
+| *Show Icon* | Should the icon be displayed for all children. |
 
 ![Input Common Settings](./assets/elements/input-commons.webp)
 
-| Setting          | Description                                                                                                    |
-| ---------------- | -------------------------------------------------------------------------------------------------------------- |
-| _Size_           | The field size defined by `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers).          |
-| _Width_          | The field width defined by `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
-| _Full Width_     | Should the field occupy the full width of its parent.                                                          |
-| _Icon_           | The name of the Icon that will be displayed inside the field.                                                  |
-| _Icon Alignment_ | The side of the field where the icon will be aligned, _Left_ or _Right_.                                       |
+| Setting | Description |
+| --- | --- |
+| *Size* | The field size defined by `uk-form-{size}` [modifier](https://getuikit.com/docs/form#size-modifiers). |
+| *Width* | The field width defined by `uk-form-width-{width}` [modifier](https://getuikit.com/docs/form#width-modifiers). |
+| *Full Width* | Should the field occupy the full width of its parent. |
+| *Icon* | The name of the Icon that will be displayed inside the field. |
+| *Icon Alignment* | The side of the field where the icon will be aligned, _Left_ or _Right_. |
 
 ![Input Columns Settings](./assets/elements/input-grid.webp)
 
-| Setting             | Description                               |
-| ------------------- | ----------------------------------------- |
-| _Number of Columns_ | The amount of grid columns.               |
-| _Column Gap_        | The size of the gap between grid columns. |
-| _Row Gap_           | The size of the gap between grid rows.    |
+| Setting | Description |
+| --- | --- |
+| *Number of Columns* | The amount of grid columns. |
+| *Column Gap* | The size of the gap between grid columns. |
+| *Row Gap* | The size of the gap between grid rows. |
 
 ## Input Text Element {#input-text}
 
@@ -39,18 +39,17 @@ Child of [Input Element](#input), the **Input Text Element** displays a [\<input
 
 ![Input Text Element](./assets/elements/input-text.webp)
 
-| Setting       | Description                                        | Dynamic  |
-| ------------- | -------------------------------------------------- | :------: |
-| _Placeholder_ | The text to be shown while there is no user input. | &#x2713; |
 
+| Setting | Description | Dynamic |
+| --- | --- | :---: |
+| *Placeholder* | The text to be shown while there is no user input. | &#x2713; |
 <!--@include: ./common-element-settings.md-->
 
-| Validation   | Description                                                                                                                                             | Dynamic  | Browser Side | Server Side |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :----------: | :---------: |
-| _Min Length_ | The minimum content length that the input value must constrain to, `greater than` or `equal to`.                                                        | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Max Length_ | The maximum content length that the input value must constrain to, `lower than` or `equal to`.                                                          | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Pattern_    | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |   &#x2713;   |  &#x2713;   |
-
+| Validation | Description | Dynamic | Browser Side | Server Side |
+| --- | --- | :---: | :---: | :---: |
+| *Min Length* | The minimum content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Max Length* | The maximum content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Pattern* | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
 
 ## Input Number Element {#input-number}
@@ -59,19 +58,18 @@ Child of [Input Element](#input), the **Input Number Element** displays a [\<inp
 
 ![Input Number Element](./assets/elements/input-number.webp)
 
-| Setting       | Description                                        | Dynamic  |
-| ------------- | -------------------------------------------------- | :------: |
-| _Placeholder_ | The text to be shown while there is no user input. | &#x2713; |
 
+| Setting | Description | Dynamic |
+| --- | --- | :---: |
+| *Placeholder* | The text to be shown while there is no user input. | &#x2713; |
 <!--@include: ./common-element-settings.md-->
 
 While the browser validation invalidates any entry that isn't a number, it inherits common validation with the following specifics:
 
-| Validation | Description                                                                              | Dynamic  | Browser Side | Server Side |
-| ---------- | ---------------------------------------------------------------------------------------- | :------: | :----------: | :---------: |
-| _Min_      | The minimum amount that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Max_      | The maximum amount that the input value must constrain to, `lower than` or `equal to`.   | &#x2713; |   &#x2713;   |  &#x2713;   |
-
+| Validation | Description | Dynamic | Browser Side | Server Side |
+| --- | --- | :---: | :---: | :---: |
+| *Min* | The minimum amount that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Max* | The maximum amount that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
 
 ## Input Date Element {#input-date}
@@ -84,20 +82,19 @@ Child of [Input Element](#input), the **Input Date Element** displays a [\<input
 Date input relies on the browser's native implementation, the picker and icon style is inconsistent and its customization is not possible.
 :::
 
-| Setting | Description | Dynamic |
-| ------- | ----------- | :-----: |
 
+| Setting | Description | Dynamic |
+| --- | --- | :---: |
 <!--@include: ./common-element-settings.md-->
 
 ::: warning
 Browser does not apply any validation other than the user agent's interface, when supported, restricting the input to a date value. As we cannot entirely rely on the browser, a date format validation is performed on the server side.
 :::
 
-| Validation | Description                                                                            | Dynamic  | Browser Side | Server Side |
-| ---------- | -------------------------------------------------------------------------------------- | :------: | :----------: | :---------: |
-| _Min_      | The minimum date that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Max_      | The maximum date that the input value must constrain to, `lower than` or `equal to`.   | &#x2713; |   &#x2713;   |  &#x2713;   |
-
+| Validation | Description | Dynamic | Browser Side | Server Side |
+| --- | --- | :---: | :---: | :---: |
+| *Min* | The minimum date that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Max* | The maximum date that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
 
 ## Input Email Element {#input-email}
@@ -106,22 +103,21 @@ Child of [Input Element](#input), the **Input Email Element** displays a [\<inpu
 
 ![Input Email Element](./assets/elements/input-email.webp)
 
-| Setting       | Description                                        | Dynamic  |
-| ------------- | -------------------------------------------------- | :------: |
-| _Placeholder_ | The text to be shown while there is no user input. | &#x2713; |
 
+| Setting | Description | Dynamic |
+| --- | --- | :---: |
+| *Placeholder* | The text to be shown while there is no user input. | &#x2713; |
 <!--@include: ./common-element-settings.md-->
 
 ::: warning
 Browser-side validation ensures that only text that matches the standard format for Internet e-mail addresses is entered. If you need the URL to be restricted further you can set a regular expression pattern.
 :::
 
-| Validation   | Description                                                                                                                                             | Dynamic  | Browser Side | Server Side |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :----------: | :---------: |
-| _Min Length_ | The minimum content length that the input value must constrain to, `greater than` or `equal to`.                                                        | &#x2713; |   &#x2713;   |
-| _Max Length_ | The maximum content length that the input value must constrain to, `lower than` or `equal to`.                                                          | &#x2713; |   &#x2713;   |
-| _Pattern_    | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |   &#x2713;   |  &#x2713;   |
-
+| Validation | Description | Dynamic | Browser Side | Server Side |
+| --- | -- | :---: | :---: | :---: |
+| *Min Length* | The minimum content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |
+| *Max Length* | The maximum content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |
+| *Pattern* | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
 
 ## Input Time Element {#input-time}
@@ -135,19 +131,17 @@ Time input relies on the browser's native implementation, the picker and icon st
 :::
 
 | Setting | Description | Dynamic |
-| ------- | ----------- | :-----: |
-
+| --- | --- | :---: |
 <!--@include: ./common-element-settings.md-->
 
 ::: warning
 Browser does not apply any validation other than the user agent's interface, when supported, restricting the input to a time value. As we cannot entirely rely on the browser, a time format validation is performed on the server side.
 :::
 
-| Validation | Description                                                                            | Dynamic  | Browser Side | Server Side |
-| ---------- | -------------------------------------------------------------------------------------- | :------: | :----------: | :---------: |
-| _Min_      | The minimum time that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Max_      | The maximum time that the input value must constrain to, `lower than` or `equal to`.   | &#x2713; |   &#x2713;   |  &#x2713;   |
-
+| Validation | Description | Dynamic | Browser Side | Server Side |
+| --- | --- | :---: | :---: | :---: |
+| *Min* | The minimum time that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Max* | The maximum time that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
 
 ## Input Url Element {#input-url}
@@ -156,20 +150,18 @@ Child of [Input Element](#input), the **Input Url Element** displays a [\<input 
 
 ![Input Url Element](./assets/elements/input-url.webp)
 
-| Setting       | Description                                        | Dynamic  |
-| ------------- | -------------------------------------------------- | :------: |
-| _Placeholder_ | The text to be shown while there is no user input. | &#x2713; |
-
+| Setting | Description | Dynamic |
+| --- | --- | :---: |
+| *Placeholder* | The text to be shown while there is no user input. | &#x2713; |
 <!--@include: ./common-element-settings.md-->
 
 Browser-side validation ensures that only text that matches the standard format for URLs is entered. If you need the URL to be restricted further you can set a regular expression pattern.
 
-| Validation   | Description                                                                                                                                             | Dynamic  | Browser Side | Server Side |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :----------: | :---------: |
-| _Min Length_ | The minimum content length that the input value must constrain to, `greater than` or `equal to`.                                                        | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Max Length_ | The maximum content length that the input value must constrain to, `lower than` or `equal to`.                                                          | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Pattern_    | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |   &#x2713;   |  &#x2713;   |
-
+| Validation | Description | Dynamic | Browser Side | Server Side |
+| --- | -- | :---: | :---: | :---: |
+| *Min Length* | The minimum content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Max Length* | The maximum content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Pattern* | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
 
 ## Input Password Element {#input-password}
@@ -178,18 +170,17 @@ Child of [Input Element](#input), the **Input Password Element** displays a [\<i
 
 ![Input Password Element](./assets/elements/input-password.webp)
 
-| Setting       | Description                                        | Dynamic  |
-| ------------- | -------------------------------------------------- | :------: |
-| _Placeholder_ | The text to be shown while there is no user input. | &#x2713; |
 
+| Setting | Description | Dynamic |
+| --- | --- | :---: |
+| *Placeholder* | The text to be shown while there is no user input. | &#x2713; |
 <!--@include: ./common-element-settings.md-->
 
-| Validation   | Description                                                                                                                                             | Dynamic  | Browser Side | Server Side |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :----------: | :---------: |
-| _Min Length_ | The minimum content length that the input value must constrain to, `greater than` or `equal to`.                                                        | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Max Length_ | The maximum content length that the input value must constrain to, `lower than` or `equal to`.                                                          | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Pattern_    | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |   &#x2713;   |  &#x2713;   |
-
+| Validation | Description | Dynamic | Browser Side | Server Side |
+| --- | -- | :---: | :---: | :---: |
+| *Min Length* | The minimum content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Max Length* | The maximum content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Pattern* | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
 
 ## Input Month Element {#input-month}
@@ -202,20 +193,19 @@ Child of [Input Element](#input), the **Input Month Element** displays a [\<inpu
 Month input relies on the browser's native implementation, the picker and icon style is inconsistent and its customization is not possible.
 :::
 
-| Setting | Description | Dynamic |
-| ------- | ----------- | :-----: |
 
+| Setting | Description | Dynamic |
+| --- | --- | :---: |
 <!--@include: ./common-element-settings.md-->
 
 ::: warning
 Browser does not apply any validation other than the user agent's interface, when supported, restricting the input to a date value.
 :::
 
-| Validation | Description                                                                             | Dynamic  | Browser Side | Server Side |
-| ---------- | --------------------------------------------------------------------------------------- | :------: | :----------: | :---------: |
-| _Min_      | The minimum month that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Max_      | The maximum month that the input value must constrain to, `lower than` or `equal to`.   | &#x2713; |   &#x2713;   |  &#x2713;   |
-
+| Validation | Description | Dynamic | Browser Side | Server Side |
+| --- | --- | :---: | :---: | :---: |
+| *Min* | The minimum month that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Max* | The maximum month that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
 
 ## Input Tel Element {#input-tel}
@@ -224,16 +214,15 @@ Child of [Input Element](#input), the **Input Tel Element** displays a [\<input 
 
 ![Input Tel Element](./assets/elements/input-tel.webp)
 
-| Setting       | Description                                        | Dynamic  |
-| ------------- | -------------------------------------------------- | :------: |
-| _Placeholder_ | The text to be shown while there is no user input. | &#x2713; |
 
+| Setting | Description | Dynamic |
+| --- | --- | :---: |
+| *Placeholder* | The text to be shown while there is no user input. | &#x2713; |
 <!--@include: ./common-element-settings.md-->
 
-| Validation   | Description                                                                                                                                             | Dynamic  | Browser Side | Server Side |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :----------: | :---------: |
-| _Min Length_ | The minimum content length that the input value must constrain to, `greater than` or `equal to`.                                                        | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Max Length_ | The maximum content length that the input value must constrain to, `lower than` or `equal to`.                                                          | &#x2713; |   &#x2713;   |  &#x2713;   |
-| _Pattern_    | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |   &#x2713;   |  &#x2713;   |
-
+| Validation | Description | Dynamic | Browser Side | Server Side |
+| --- | -- | :---: | :---: | :---: |
+| *Min Length* | The minimum content length that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Max Length* | The maximum content length that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
+| *Pattern* | The [regular expression](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) pattern that the input value must match to. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->

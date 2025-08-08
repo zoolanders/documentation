@@ -39,15 +39,15 @@ Create a config file in JSON format that will specify the source configuration, 
 }
 ```
 
-| Prop          | Description                                                                                                                                                                                                         | Required |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
-| _Name_        | The source name prefixed, e.g. `mysource`.                                                                                                                                                                          | &#x2713; |
-| _Title_       | The source title as should appear in the UI, e.g. `My Source`.                                                                                                                                                      | &#x2713; |
-| _Icon_        | The absolute path to the source icon.                                                                                                                                                                               | &#x2713; |
-| _Fields_      | The source fields configuration. Those will hold the values of the configuration and are based on the same workflow as the [Elements Fields](https://yootheme.com/support/yootheme-pro/joomla/developers-elements). | &#x2713; |
-| _Description_ | The source description explaining what the source is for.                                                                                                                                                           |
-| _Group_       | Sources with the same group will be displayed under the same section in the UI.                                                                                                                                     |
-| _Collection_  | Sources of the same collection will be displayed joined in the UI, indicating a strong relation between them.                                                                                                       |
+| Prop | Description | Required |
+| --- | --- | :---: |
+| *Name* | The source name prefixed, e.g. `mysource`. | &#x2713; |
+| *Title* | The source title as should appear in the UI, e.g. `My Source`. | &#x2713; |
+| *Icon* | The absolute path to the source icon. | &#x2713; |
+| *Fields* | The source fields configuration. Those will hold the values of the configuration and are based on the same workflow as the [Elements Fields](https://yootheme.com/support/yootheme-pro/joomla/developers-elements). | &#x2713; |
+| *Description* | The source description explaining what the source is for. |
+| *Group* | Sources with the same group will be displayed under the same section in the UI. |
+| *Collection* | Sources of the same collection will be displayed joined in the UI, indicating a strong relation between them. |
 
 ## 3. Create a Source Type Class
 

@@ -2,7 +2,7 @@
 
 ## Where can I set the list of available languages?
 
-You can do so in _Extensions / Languages / Content Languages_ tab.
+You can do so in *Extensions / Languages / Content Languages* tab.
 
 ## Does it translates Joomla! content?
 

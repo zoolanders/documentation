@@ -8,10 +8,10 @@ Let's take Google Photos as an example of a source we would like to route. Assum
 
 We can take a few approaches to route these albums, each with its pros and cons.
 
-| Approach                                | Route                       | Description                                                                                                                     |
-| --------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| [Page as Route](#page-as-route)         | `/trips/album?id={albumid}` | Simple setup, works with any new album, but not good for SEO. Choose this approach when convenience is more important than SEO. |
-| [Articles as Route](#articles-as-route) | `/trips/{alias}`            | Great for SEO, but requires manual intervention each time there is a new album. Choose this approach when SEO is important.     |
+| Approach | Route | Description |
+| --- | --- | --- |
+| [Page as Route](#page-as-route) | `/trips/album?id={albumid}` | Simple setup, works with any new album, but not good for SEO. Choose this approach when convenience is more important than SEO. |
+| [Articles as Route](#articles-as-route) | `/trips/{alias}` | Great for SEO, but requires manual intervention each time there is a new album. Choose this approach when SEO is important. |
 
 ## Page as Route
 
@@ -78,7 +78,8 @@ If you have opted for the [Articles as Route](#articles-as-route) approach, pagi
 First, add pagination controls to your page layout. This can be done using buttons or links that will update the URL with the current page number. For example:
 
 ```html
-<a href="/trips/album?id=xxx&start=1">Page 1</a> <a href="/trips/album?id=xxx&start=10">Page 2</a>
+<a href="/trips/album?id=xxx&start=1">Page 1</a>
+<a href="/trips/album?id=xxx&start=10">Page 2</a>
 ```
 
 :::warning Pagination Element

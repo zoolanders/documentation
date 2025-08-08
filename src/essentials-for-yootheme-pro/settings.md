@@ -44,12 +44,12 @@ Manage [Auths, Keys & Secrets](./auths/) that have been created during other res
 
 Configure some advanced settings.
 
-| Option                  | Description                                                                                                                                                                                                                                                                                  |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| _Addons_                | Disable Essential addons individually. A disabled addon will be completely skipped from execution and is a good way to debug issues or to keep the global execution as smooth as possible.                                                                                                   |
-| _GeoIP Database Source_ | The IP Geolocation database is required to localize the device IP geographically, used for example by the **Access IP Geolocation Rule**. If needed, follow the [GeoIP Database Installation](#geoip-database-installation).                                                                 |
-| _Import/Export_         | Being Essentials Settings independent from the Theme, the only way to backup and/or restore is using the dedicated methods within _Customizer -> Essentials -> Advanced_ panel.                                                                                                              |
-| _Debug Data_            | If the support team requests it, here is where you can generate and download Debug Data information which includes a copy of the Theme Settings, Essentials Settings, Sources Schema, and the server configuration. As it might include sensitive data, be carefull who you share this with. |
+| Option | Description |
+| --- | --- |
+| *Addons* | Disable Essential addons individually. A disabled addon will be completely skipped from execution and is a good way to debug issues or to keep the global execution as smooth as possible. |
+| *GeoIP Database Source* | The IP Geolocation database is required to localize the device IP geographically, used for example by the **Access IP Geolocation Rule**. If needed, follow the [GeoIP Database Installation](#geoip-database-installation). |
+| *Import/Export* | Being Essentials Settings independent from the Theme, the only way to backup and/or restore is using the dedicated methods within _Customizer -> Essentials -> Advanced_ panel. |
+| *Debug Data* | If the support team requests it, here is where you can generate and download Debug Data information which includes a copy of the Theme Settings, Essentials Settings, Sources Schema, and the server configuration. As it might include sensitive data, be carefull who you share this with. |
 
 ## About
 

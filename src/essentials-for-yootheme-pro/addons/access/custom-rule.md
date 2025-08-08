@@ -56,15 +56,15 @@ Create a config file in JSON format that will specify the rule configuration, st
 }
 ```
 
-| Prop          | Description                                                                                                                                                                                                       | Required |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: |
-| _Name_        | The rule name prefixed by `yooessentials_access_`, e.g. `yooessentials_access_myrule`.                                                                                                                            | &#x2713; |
-| _Title_       | The rule title as should appear in the UI, e.g. `My Rule`.                                                                                                                                                        | &#x2713; |
-| _Icon_        | The absolute path to the rule icon.                                                                                                                                                                               | &#x2713; |
-| _Fields_      | The rule fields configuration. Those will hold the values of the configuration and are based on the same workflow as the [Elements Fields](https://yootheme.com/support/yootheme-pro/joomla/developers-elements). | &#x2713; |
-| _Description_ | The rule description explaining what it validates.                                                                                                                                                                |
-| _Group_       | Rules with the same group will be displayed under the same section in the UI.                                                                                                                                     |
-| _Collection_  | Rules of the same collection will be displayed joined in the UI, indicating a strong relation between them.                                                                                                       |
+| Prop | Description | Required |
+| --- | --- | :---: |
+| *Name* | The rule name prefixed by `yooessentials_access_`, e.g. `yooessentials_access_myrule`. | &#x2713; |
+| *Title* | The rule title as should appear in the UI, e.g. `My Rule`. | &#x2713; |
+| *Icon* | The absolute path to the rule icon. | &#x2713; |
+| *Fields* | The rule fields configuration. Those will hold the values of the configuration and are based on the same workflow as the [Elements Fields](https://yootheme.com/support/yootheme-pro/joomla/developers-elements). | &#x2713; |
+| *Description* | The rule description explaining what it validates. |
+| *Group* | Rules with the same group will be displayed under the same section in the UI. |
+| *Collection* | Rules of the same collection will be displayed joined in the UI, indicating a strong relation between them. |
 
 ## 3. Declare the Rule
 

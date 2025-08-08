@@ -42,7 +42,7 @@ Essentials comes with prebuild [elements](./elements) to structure a form as nee
 
 ![Add Form Fields](./assets/integration/add-form-fields.gif)
 
-1. Go back to the builder main panel and add an **Textarea Element** from the `Form Essentials` group.
+1. Go back to the builder main panel and add an __Textarea Element__ from the `Form Essentials` group.
 1. Open it configuration panel and input `comment` in the _Control Name_ setting.
 1. Repeat the process adding a _Button Element_ which will render a submit button by default.
 

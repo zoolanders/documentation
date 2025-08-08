@@ -4,7 +4,7 @@ The **Airtable Access Token Driver** enables you to securely manage and use your
 
 ![Airtable Auth Driver](../assets/driver-airtable.webp)
 
-| Setting   | Description                                                       |
-| --------- | ----------------------------------------------------------------- |
-| **Name**  | A custom label to help you identify this token.                   |
+| Setting   | Description |
+|-----------|-------------|
+| **Name**  | A custom label to help you identify this token. |
 | **Token** | The personal access token generated from your Airtable dashboard. |
