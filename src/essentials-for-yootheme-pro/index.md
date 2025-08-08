@@ -5,7 +5,7 @@ Essentials for YOOtheme Pro is a comprehensive set of free and premium addons fo
 ## Key Features
 
 - **Dynamic Content Sources**: Connect to external APIs, databases, and data feeds
-- **Form Builder**: Create advanced forms with custom actions and integrations  
+- **Form Builder**: Create advanced forms with custom actions and integrations
 - **Access Conditions**: Control content visibility based on user permissions and rules
 - **Layout Libraries**: Manage and share reusable layout components
 - **Icon Collections**: Expand your icon library with custom collections
@@ -23,7 +23,7 @@ Essentials for YOOtheme Pro is a comprehensive set of free and premium addons fo
 Ensure your server and site meet the following specifications for optimal performance:
 
 - **PHP**: 7.4 or higher
-- **YOOtheme Pro**: 4.5 or higher  
+- **YOOtheme Pro**: 4.5 or higher
 - **CMS**: Joomla 3/4/5 or WordPress 5/6
 
 For detailed requirements, also review the specifications for [YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/introduction#requirements), [Joomla](https://docs.joomla.org/J4.x:Installing_Joomla#Requirements), and [WordPress](https://wordpress.org/about/requirements).
@@ -32,9 +32,11 @@ For detailed requirements, also review the specifications for [YOOtheme Pro](htt
 
 | Version | YOOtheme Pro | WordPress | Joomla | PHP |
 | --- | --- | --- | --- | --- |
-| Essentials v1 | 2.x - 3.x | 5.x - 6.x | 3.9.x - 5.x | 7.4 - 8.2 |
-| Essentials v2.2 | 4.4.x | 5.x - 6.x | 3.9.x - 5.x | 7.4 - 8.3 |
-| Essentials v2.3+ | 4.5+ | 5.x - 6.x | 3.9.x - 5.x | 7.4 - 8.3 |
+| Essentials v1 | 2 - 3 | 5 - 6 | 3.9 - 5 | 7.4 - 8.2 |
+| Essentials v2 | 4 | 5 - 6 | 3.9 - 5 | 7.4 - 8.2 |
+| Essentials v2.2 | 4.4 | 5 - 6 | 3.9 - 5 | 7.4 - 8.3 |
+| Essentials v2.3 | 4.5 | 5 - 6 | 3.9 - 5 | 7.4 - 8.3 |
+| Essentials v2.4 | 4.5 | 5 - 6 | 3.9 - 5 | 7.4 - 8.3 |
 
 ## Changelog
 
@@ -64,6 +66,7 @@ After successful installation, verify that the **Essentials YOOtheme Pro** plugi
 3. Set up your [Download ID](/essentials-for-yootheme-pro/updating#download-id) for automatic updates
 
 ::: tip Installation Directory
+
 - **Joomla**: `plugins/system/yooessentials`
 - **WordPress**: `wp-content/plugins/yooessentials`
 :::
