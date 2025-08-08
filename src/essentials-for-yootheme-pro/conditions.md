@@ -1,16 +1,16 @@
 # Conditions and Filters
 
-There are different types of conditions available during content rendering. Their execution time and support for dynamic content differs, it's important to understand the difference and learn how to combine them effectively.
+Different types of conditions are available during content rendering, each with varying execution times and dynamic content support. Understanding these differences is crucial for effective implementation.
 
 | Type | Description | Execution Time | Dynamic Support |
 | --- | --- | --- | --- |
-| [Query Conditions](#query-conditions) | Provided by each source individually. | Query | Partial |
-| [Dynamic Condition](#dynamic-condition) | Provided globally as part of the Dynamic Content core workflow. | Render | None |
-| [Access Condition](#access-condition) | Provided globally as part of the Essentials Access addon workflow. | Render | Full |
+| [Query Conditions](#query-conditions) | Provided by each source individually | Query | Partial |
+| [Dynamic Condition](#dynamic-condition) | Part of YOOtheme Pro's Dynamic Content workflow | Render | None |
+| [Access Condition](#access-condition) | Part of Essentials Access addon workflow | Render | Full |
 
 ## Query Conditions
 
-Filter and/or order query conditions are rules, applied during a query execution, that the content must evaluate to in order to be included in the fetched results. The conditions are provided and supported by every source individually.
+Filter and order query conditions are rules applied during query execution that content must satisfy to be included in the fetched results. These conditions are provided and supported by individual sources.
 
 ![Query Conditions](./assets/conditions/query-conditions.webp)
 
