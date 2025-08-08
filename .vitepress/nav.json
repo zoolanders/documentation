@@ -5,6 +5,11 @@
         "activeMatch": "/essentials-for-yootheme-pro/"
     },
     {
+        "text": "Features Glossary",
+        "link": "/essentials-for-yootheme-pro/glossary",
+        "activeMatch": "/essentials-for-yootheme-pro/glossary"
+    },
+    {
         "text": "ZOO Essentials",
         "link": "/essentials-for-zoo/",
         "activeMatch": "/essentials-for-zoo/"
