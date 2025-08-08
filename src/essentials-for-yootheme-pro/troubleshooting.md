@@ -1,33 +1,61 @@
-# Common Issues
+# Troubleshooting
 
-## Execution Error
+This guide covers the most common issues encountered when using Essentials for YOOtheme Pro and their solutions.
 
-_A PHP error was triggered while executing yooessentials plugin._
+## Plugin Execution Error
 
-If an unexpected error occurs during the execution of an Essentials feature, an error message will be displayed with details to help you resolve the problem. This message will only be shown while previewing the site within the customizer or while there is an active customizer session.
+**Error Message**: _A PHP error was triggered while executing yooessentials plugin._
 
-If you require further assistance, please contact support and provide the complete error message.
+This error appears when an unexpected issue occurs during the execution of an Essentials feature. The error message will only display while previewing your site within the customizer or when there is an active customizer session.
 
-## Plugin Execution Prevented
+**Solution**: 
+- Review the complete error message for specific details
+- Check that all required dependencies are installed and up to date  
+- If the issue persists, contact support with the complete error message
 
-_The Essentials plugin execution has been prevented due to corrupted installation or altered files._
+## Corrupted Installation
 
-If you see this error the Essentials files integrity check has detected that some file are corrupted or missing. No matter the reason the solution is to reinstall the plugin manually without uninstalling the previous version. If the issue persist after, reach out support.
+**Error Message**: _The Essentials plugin execution has been prevented due to corrupted installation or altered files._
+
+This error indicates that the Essentials file integrity check has detected corrupted or missing files.
+
+**Solution**:
+1. Reinstall the plugin manually without uninstalling the previous version
+2. Clear all caches after reinstallation  
+3. If the issue persists, contact support for assistance
 
 ## AbstractRule Class Not Found
 
-A fatal error displaying `Class "ZOOlanders\YOOessentials\Access\AbstractRule" not found` most likely is related to a 3rd party plugin trying to access this class before Essentials has been able to declare it. The solution is simple, set the 3rd party plugin order with lower priority than Essentials.
+**Error Message**: `Class "ZOOlanders\YOOessentials\Access\AbstractRule" not found`
 
-## Where to set SMTP credentials
+This fatal error typically occurs when a third-party plugin attempts to access this class before Essentials has been able to declare it.
 
-In Joomla you can do so in the _Global Configuration_ while for WordPress you need to install a SMTP plugin, like [WP Mail SMTP](https://wpmailsmtp.com), and do so in it configuration.
+**Solution**: 
+Set the third-party plugin to load with lower priority than Essentials in your platform's plugin manager.
 
-## Expired Authentication
+## SMTP Configuration
 
-_Error validating access token... Token expiration... Authentication failed..._
+**Question**: Where should I configure SMTP credentials for email functionality?
 
-If you receive an error indicating that your access token or session has expired or is invalid, you can resolve this by re-authenticating in the _Essentials -> Advanced -> Auths_ panel. Find the affected entry, follow the prompts to re-authenticate, and save your changes. Then, retry the action that previously failed.
+**Answer**:
+- **Joomla**: Configure SMTP settings in _Global Configuration → Mail Settings_
+- **WordPress**: Install an SMTP plugin such as [WP Mail SMTP](https://wpmailsmtp.com) and configure it within the plugin's settings
+
+## Authentication Issues
+
+**Error Messages**: 
+- _Error validating access token..._
+- _Token expiration..._  
+- _Authentication failed..._
+
+These errors indicate that your access token or session has expired or become invalid.
+
+**Solution**:
+1. Navigate to _Essentials → Advanced → Auths_ panel
+2. Locate the affected authentication entry
+3. Follow the prompts to re-authenticate
+4. Save your changes and retry the failed action
 
 ::: warning Why Does This Happen?
-Access tokens are automatically extended while in use. However, once a token expires, it cannot be renewed automatically and manual re-authentication is required.
+Access tokens are automatically extended while actively in use. However, once a token expires, it cannot be renewed automatically and requires manual re-authentication.
 :::

@@ -1,6 +1,6 @@
 # Settings
 
-Essentials global settings, accessed within _Customizer -> Essentials_ panel, are stored independently from the theme in a database tabse. Most of these setting need to be configured only once and can be imported/exported within the Advanced section.
+The Essentials global settings panel, accessible via _Customizer → Essentials_, allows you to configure and manage all Essentials features. These settings are stored independently from your theme in the database and typically only need to be configured once.
 
 ![Essentials Settings](./assets/settings.gif)
 
