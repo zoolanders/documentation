@@ -8,7 +8,7 @@ export default [
     ...eslintPluginVue.configs['flat/recommended'],
     eslintConfigPrettier,
     {
-        ignores: ['.vitepress/cache', '.vitepress/dist'],
+        ignores: ['.vitepress/cache', '.vitepress/dist', 'dist'],
     },
     {
         rules: {
@@ -25,7 +25,7 @@ export default [
         },
     },
     {
-        files: ['*.mjs', 'scripts/**'],
+        files: ['*.mjs', 'scripts/**', '.vitepress/config.js'],
         languageOptions: {
             globals: {
                 ...globals.node,

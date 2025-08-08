@@ -1,0 +1,7 @@
+# Ignore all markdown files to preserve table formatting
+*.md
+**/*.md
+
+# Keep build and dependency directories ignored
+dist/
+node_modules/

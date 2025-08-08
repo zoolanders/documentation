@@ -2,11 +2,7 @@
     "name": "boxicons",
     "title": "Boxicons",
     "description": "High Quality Web Icons Set.",
-    "groups": [
-        "regular",
-        "solid",
-        "logos"
-    ],
+    "groups": ["regular", "solid", "logos"],
     "version": "2.1.4",
     "release": "September, 2022",
     "license": "MIT",

@@ -5,7 +5,7 @@
     "trailingComma": "es5",
     "overrides": [
         {
-            "files": ["**/*.md", "**/*.yml"],
+            "files": ["**/*.yml"],
             "options": {
                 "tabWidth": 2
             }
