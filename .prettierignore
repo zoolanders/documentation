@@ -2,6 +2,6 @@
 *.md
 **/*.md
 
-# Keep other ignores if needed
+# Keep build and dependency directories ignored
 dist/
 node_modules/
