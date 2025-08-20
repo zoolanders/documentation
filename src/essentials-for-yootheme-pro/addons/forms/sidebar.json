@@ -138,6 +138,10 @@
             {
                 "text": "Custom Form Element",
                 "link": "/custom-element"
+            },
+            {
+                "text": "Form in a Modal",
+                "link": "/form-in-a-modal"
             }
         ]
     }
