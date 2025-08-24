@@ -64,3 +64,23 @@ Access tokens are automatically extended while actively in use. However, once a 
 
 - **Joomla**: Configure SMTP settings in _Global Configuration → Mail Settings_
 - **WordPress**: Install an SMTP plugin such as [WP Mail SMTP](https://wpmailsmtp.com) and configure it within the plugin's settings
+
+## Config Contains Duplicates
+
+**Error Message**: _Execution Error: Essentials configuration contains duplicates_
+
+This issue arises when the Essentials configuration includes multiple entries for the same resource. Regardless of the resource, the resolution process is the same.
+
+**Steps to Resolve**:
+
+1. Navigate to the `Essentials -> Advanced` panel and export the current configuration.
+2. Open the exported configuration file and locate the resources section, eg `sources`.
+3. Carefully identify and remove any duplicate entries within the resource section.
+4. Save the updated configuration file and re-import it via the `Essentials -> Advanced` panel.
+
+```json
+"sources": [
+    { "id": "source1", "name": "Source One" },
+    { "id": "source1", "name": "Source One" } // Duplicate entry to be removed
+]
+```
