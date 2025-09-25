@@ -15,16 +15,16 @@ export default [
                 link: '/',
             },
             {
-                text: 'Features Glossary',
-                link: '/glossary',
-            },
-            {
                 text: 'Updating',
                 link: '/updating',
             },
             {
                 text: 'Settings',
                 link: '/settings',
+            },
+            {
+                text: 'Glossary',
+                link: '/glossary',
             },
         ],
     },
