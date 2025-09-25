@@ -22,6 +22,10 @@ export default [
                 text: 'Settings',
                 link: '/settings',
             },
+            {
+                text: 'Glossary',
+                link: '/glossary',
+            },
         ],
     },
     {
