@@ -13,4 +13,5 @@ Form Elements are YOOtheme Pro builder elements used to structure a Form Area an
 <!--@include: ./_partials/element-radio.md-->
 <!--@include: ./_partials/element-upload.md-->
 <!--@include: ./_partials/element-hidden.md-->
+<!--@include: ./_partials/element-honeypot.md-->
 <!--@include: ./_partials/element-fieldset.md-->
