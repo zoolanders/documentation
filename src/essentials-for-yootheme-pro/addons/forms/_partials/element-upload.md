@@ -15,7 +15,7 @@ The **Upload Element** displays a [\<input type="file"\>](https://developer.mozi
 | *Allow multiple* | Should be allowed to upload multiple files simultaneously. |
 | *Avoid collisions* | Should the uploaded filename be renamed in the case of a name conflict with a pre-existing file. The new name will be the original name appended with `_{n}`, being `n` a sequential number. |
 | *Label* | The title for the field that represents the field data. | &#x2713; |
-| *Control* | The name that identifies the field control within the form. It's required and must be unique for the Form Area. |
+| *Control* | The name that identifies the field control within the form. It's required and must be unique for the Form Area. | &#x2713; |
 | *Sync ID / Control* | Should the field ID attribute obtain it value from the Control Name. |
 
 ![Upload Display](./assets/elements/upload-display.webp)
