@@ -10,11 +10,12 @@ The honeypot technique works by including a field that is hidden from human user
 
 | Setting | Description | Dynamic |
 | --- | --- | :---: |
-| *Control* | The name that identifies the field control within the form. It's required and must be unique for the Form Area. It's recommended to use a generic name that might attract bots like "email", "website", or "url". ||
-| *Label* | The title for the field that will be hidden from legitimate users but may be seen by bots. | &#x2713; |
-| *Tabindex* | The tabindex value for the field. Set to `-1` to exclude it from keyboard navigation. ||
+| *Control* | The name that identifies the field control within the form. It's required and must be unique for the Form Area. It's recommended to use a generic name that might attract bots like "email", "website", or "url". | &#x2713; |
+| *Min seconds* | A submission done in less than the specified seconds will be considered invalid. ||
+| *Error Message* | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as placeholder, it will be replaced with the field label. | &#x2713; |
 
 ::: tip Best Practices
+
 - Use a generic control name that bots might find attractive (like "email", "website", "phone")
 - Position the honeypot element anywhere in your form - it will be automatically hidden
 - Combine with CAPTCHA elements for enhanced spam protection
