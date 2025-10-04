@@ -72,6 +72,11 @@ The Form Builder addon provides advanced form functionality with actions, data i
 **Description:** Integrate forms with AcyMailing newsletter service for subscriber management.
 **Learn More:** [AcyMailing Action](/essentials-for-yootheme-pro/addons/forms/actions/acymailing)
 
+#### Brevo Action
+
+**Description:** Integrate forms with Brevo (formerly Sendinblue) for email marketing and contact management.
+**Learn More:** [Brevo Action](/essentials-for-yootheme-pro/addons/forms/actions/brevo)
+
 #### Mailchimp Action
 
 **Description:** Integrate forms with Mailchimp for email marketing and list management.
