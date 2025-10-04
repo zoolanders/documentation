@@ -1,10 +1,10 @@
 # Google Places Source Provider
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/google.svg-->
+    <!--@include: ../assets/provider-google-places.svg-->
 </div>
 
-The **Google Places Source** feeds data from [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) supporting [Place](#place-query), [Places](#places-query), and [Reviews](#reviews-query) queries.
+The **Google Places Source** feeds data from [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) supporting a [Place](#place-query).
 
 ## Settings
 
@@ -22,29 +22,6 @@ Fetches a single place by Place ID and resolves to [Place Type](#place-type).
 | Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
 | *Place ID* | The unique Place ID to query. | | &#x2713; |
-| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
-
-## Places Query
-
-Fetches places based on search criteria and resolves to a list of [Place Type](#place-type).
-
-| Setting | Description | Default | Dynamic |
-| --- | --- | --- | :---: |
-| *Query* | The text search query, e.g., "restaurants in New York". | | &#x2713; |
-| *Location* | The latitude/longitude around which to retrieve place information, formatted as "latitude,longitude". | | &#x2713; |
-| *Radius* | The distance (in meters) within which to return results. | `5000` | &#x2713; |
-| *Type* | The type of place to search for (e.g., restaurant, cafe, museum). | | &#x2713; |
-| *Quantity* | The maximum amount of places to fetch. | `20` | &#x2713; |
-| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
-
-## Reviews Query
-
-Fetches reviews for a specific place and resolves to a list of [Review Type](#review-type).
-
-| Setting | Description | Default | Dynamic |
-| --- | --- | --- | :---: |
-| *Place ID* | The Place ID for which to fetch reviews. | | &#x2713; |
-| *Quantity* | The maximum amount of reviews to fetch. | `5` | &#x2713; |
 | *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
 ## Place Type
