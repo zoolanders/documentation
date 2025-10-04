@@ -20,7 +20,6 @@ Create or update a Brevo contact.
 | *SMS* | Contact's SMS/mobile number with country code. | | &#x2713; |
 | *Email Blacklisted* | Set whether the contact should not receive marketing emails. | | &#x2713; |
 | *SMS Blacklisted* | Set whether the contact should not receive marketing SMS. | | &#x2713; |
-| *Update Enabled* | Specifies if existing contacts should be updated with new information. | | &#x2713; |
 <!--@include: ./_partials/common-action-settings.md-->
 
 ## Delete Contact
