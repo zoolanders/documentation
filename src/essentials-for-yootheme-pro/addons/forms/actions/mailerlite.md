@@ -17,9 +17,7 @@ Create or update a MailerLite subscriber.
 | *Name* | Subscriber's name. | | &#x2713; |
 | *Fields* | Subscriber's additional data specified by MailerLite custom fields. | | &#x2713; |
 | *Groups* | The group IDs to which the subscriber will be added. Multiple IDs can be specified separated by comma. | | &#x2713; |
-| *Status* | Subscriber's subscription status. Set to 'active' for immediate subscription or 'unconfirmed' for double opt-in. | | &#x2713; |
-| *Resubscribe* | Specifies if previously unsubscribed contacts should be resubscribed. | | &#x2713; |
-| *Update Enabled* | Specifies if existing subscribers should be updated with new information. | | &#x2713; |
+| *Type* | Subscriber's type. Set to 'active' for immediate subscription, 'unconfirmed' for double opt-in, or 'unsubscribed' to unsubscribe. | | &#x2713; |
 <!--@include: ./_partials/common-action-settings.md-->
 
 ## Delete Subscriber
