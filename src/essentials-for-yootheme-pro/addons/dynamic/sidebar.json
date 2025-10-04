@@ -98,6 +98,10 @@
                 "link": "/vimeo"
             },
             {
+                "text": "WordPress API",
+                "link": "/wordpress-api"
+            },
+            {
                 "text": "XML",
                 "link": "/xml"
             },
