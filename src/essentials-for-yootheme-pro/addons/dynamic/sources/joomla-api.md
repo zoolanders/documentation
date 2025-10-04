@@ -10,8 +10,6 @@ The **Joomla API Source** feeds data from [Joomla](https://www.joomla.org/) site
 
 <!--@include: ./_partials/common-provider-settings.md-->
 
-![Joomla API Source Configuration](./assets/joomla-api-config.webp)
-
 | Setting | Description |
 | --- | --- |
 | *URL* | The base URL of the Joomla site to retrieve the data from, e.g. `https://mysite.com`. |
@@ -24,7 +22,7 @@ Fetches a single article from the Joomla site and resolves to [Article Type](#ar
 | Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
 | *Article ID* | The ID of the article to query. | | &#x2713; |
-| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` | |
 
 ## Articles Query
 
@@ -32,12 +30,18 @@ Fetches articles from the Joomla site and resolves to a list of [Article Type](#
 
 | Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Category ID* | Optional category ID to filter articles. | | &#x2713; |
-| *Featured* | Filter by featured status: All, Featured only, or Not featured. | `All` |
-| *State* | Filter by publication state: Published, Unpublished, Archived, or Trashed. | `Published` |
+| *Filter by State* | Filter by publication state: Any, Published, Unpublished, Archived, or Trashed. | `Published` | |
+| *Filter by Category* | Optional category ID to filter articles. | | &#x2713; |
+| *Filter by Tag* | Filter articles by tag. Enter one or multiple values separated by commas. | | &#x2713; |
+| *Filter by Author* | Optional author ID to filter articles. | | &#x2713; |
+| *Filter by Language* | Filter articles by language code, e.g. `en-GB`. | | &#x2713; |
+| *Filter by Term* | Filter by a custom string term. Matches partial terms in article general fields. | | &#x2713; |
+| *Field* | Optional field to search within when using Term filter. | | |
+| *Order By* | The field to sort by: ID, Alias, Created, Modified, or Published. | `id` | |
+| *Direction* | The sort direction: Ascending or Descending. | `desc` | |
 | *Start* | The offset applied to the query. | `0` | &#x2713; |
-| *Limit* | The limit applied to the query. | `20` | &#x2713; |
-| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
+| *Quantity* | The limit applied to the query. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` | |
 
 ## Category Query
 
@@ -46,7 +50,7 @@ Fetches a single category from the Joomla site and resolves to [Category Type](#
 | Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
 | *Category ID* | The ID of the category to query. | | &#x2713; |
-| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` | |
 
 ## Categories Query
 
@@ -54,11 +58,9 @@ Fetches categories from the Joomla site and resolves to a list of [Category Type
 
 | Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Parent ID* | Optional parent category ID to filter categories. | | &#x2713; |
-| *Level* | Optional level to filter categories. | | &#x2713; |
 | *Start* | The offset applied to the query. | `0` | &#x2713; |
-| *Limit* | The limit applied to the query. | `20` | &#x2713; |
-| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
+| *Quantity* | The limit applied to the query. | `20` | &#x2713; |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` | |
 
 ## Article Type
 
@@ -66,26 +68,22 @@ Defines the mapping options of a Joomla Article object.
 
 | Field | Description | Type | Filters |
 | --- | --- | --- | --- |
-| *ID* | The unique identifier of the article. | *String* |
-| *Title* | The title of the article. | *String* | *Limit* |
-| *Alias* | The URL-friendly alias of the article. | *String* |
-| *Introtext* | The introduction text of the article. | *String* | *Limit* |
-| *Fulltext* | The full text content of the article. | *String* | *Limit* |
-| *State* | The publication state of the article (1 = published, 0 = unpublished, 2 = archived, -2 = trashed). | *Int* |
-| *Category ID* | The ID of the category the article belongs to. | *String* |
+| *ID* | The unique identifier of the article. | *Int* | |
+| *Title* | The title of the article. | *String* | |
+| *Alias* | The URL-friendly alias of the article. | *String* | |
+| *Content* | The combined content (introtext + fulltext) of the article. | *String* | |
 | *Created* | The creation date and time of the article. | *String* | *Date* |
-| *Created By* | The ID of the user who created the article. | *String* |
-| *Created By Alias* | The alias of the article creator. | *String* |
 | *Modified* | The last modification date and time of the article. | *String* | *Date* |
-| *Modified By* | The ID of the user who last modified the article. | *String* |
 | *Publish Up* | The start publishing date and time. | *String* | *Date* |
 | *Publish Down* | The finish publishing date and time. | *String* | *Date* |
-| *Hits* | The number of times the article has been viewed. | *Int* |
-| *Featured* | Whether the article is featured (1 = featured, 0 = not featured). | *Int* |
-| *Language* | The language code of the article. | *String* |
-| *Metadata* | The article metadata. | [Metadata Type](#metadata-type) |
-| *Images* | The article images data. | [Images Type](#images-type) |
-| *URLs* | The article URLs data. | [URLs Type](#urls-type) |
+| *Featured* | Whether the article is featured. | *Boolean* | |
+| *Hits* | The number of times the article has been viewed. | *Int* | |
+| *Image Intro* | The intro image with URL, alt text, and caption. | [Media Type](#media-type) | |
+| *Image Fulltext* | The fulltext image with URL, alt text, and caption. | [Media Type](#media-type) | |
+| *Tags* | The tags assigned to the article. | List of [Tag Type](#tag-type) | |
+| *Category* | The category the article belongs to. | [Category Type](#category-type) | |
+| *Author* | The user who created the article. | [User Type](#user-type) | |
+| *Field* | Access to custom fields. | *ArticleFields* | |
 
 ## Category Type
 
@@ -93,56 +91,75 @@ Defines the mapping options of a Joomla Category object.
 
 | Field | Description | Type | Filters |
 | --- | --- | --- | --- |
-| *ID* | The unique identifier of the category. | *String* |
-| *Title* | The title of the category. | *String* | *Limit* |
-| *Alias* | The URL-friendly alias of the category. | *String* |
-| *Description* | The description of the category. | *String* | *Limit* |
-| *Parent ID* | The ID of the parent category. | *String* |
-| *Level* | The level of the category in the hierarchy. | *Int* |
-| *Path* | The full path of the category. | *String* |
-| *Extension* | The extension the category belongs to. | *String* |
-| *Published* | The publication state of the category. | *Int* |
-| *Language* | The language code of the category. | *String* |
-| *Metadata* | The category metadata. | [Metadata Type](#metadata-type) |
-| *Params* | The category parameters. | *String* |
+| *ID* | The unique identifier of the category. | *Int* | |
+| *Title* | The title of the category. | *String* | |
+| *Alias* | The URL-friendly alias of the category. | *String* | |
+| *Description* | The description of the category. | *String* | |
+| *Note* | Internal note for the category. | *String* | |
+| *Published* | The publication state of the category. | *Int* | |
+| *Access* | The access level ID of the category. | *Int* | |
+| *Access Level* | The access level name of the category. | *String* | |
+| *Checked Out* | The ID of the user who checked out the category. | *Int* | |
+| *Checked Out Time* | The time when the category was checked out. | *String* | *Date* |
+| *Level* | The level of the category in the hierarchy. | *Int* | |
+| *Language* | The language code of the category. | *String* | |
+| *Language Title* | The language title of the category. | *String* | |
+| *Language Image* | The language image of the category. | *String* | |
+| *Created By* | The user who created the category. | [User Type](#user-type) | |
+| *Created By Alias* | The alias of the category creator. | *String* | |
+| *Editor* | The editor used for the category. | *String* | |
+| *Count Trashed* | The number of trashed items in this category. | *Int* | |
+| *Count Unpublished* | The number of unpublished items in this category. | *Int* | |
+| *Count Published* | The number of published items in this category. | *Int* | |
+| *Count Archived* | The number of archived items in this category. | *Int* | |
+| *Parent ID* | The parent category. | [Category Type](#category-type) | |
 
-## Metadata Type
+## Media Type
 
-Defines the mapping options of a Joomla Metadata object.
-
-| Field | Description | Type | Filters |
-| --- | --- | --- | --- |
-| *Author* | The metadata author. | *String* | *Limit* |
-| *Robots* | The robots meta tag value. | *String* |
-| *Tags* | The metadata tags. | *String* | *Limit* |
-
-## Images Type
-
-Defines the mapping options of a Joomla Article Images object.
-
-| Field | Description | Type | Filters |
-| --- | --- | --- | --- |
-| *Image Intro* | The intro image URL. | *String* |
-| *Image Intro Alt* | The intro image alt text. | *String* | *Limit* |
-| *Float Intro* | The intro image float position. | *String* |
-| *Image Intro Caption* | The intro image caption. | *String* | *Limit* |
-| *Image Fulltext* | The fulltext image URL. | *String* |
-| *Image Fulltext Alt* | The fulltext image alt text. | *String* | *Limit* |
-| *Float Fulltext* | The fulltext image float position. | *String* |
-| *Image Fulltext Caption* | The fulltext image caption. | *String* | *Limit* |
-
-## URLs Type
-
-Defines the mapping options of a Joomla Article URLs object.
+Defines the mapping options of a Joomla Media object used for article images.
 
 | Field | Description | Type | Filters |
 | --- | --- | --- | --- |
-| *URL A* | The first URL. | *String* |
-| *URL A Text* | The first URL link text. | *String* | *Limit* |
-| *Target A* | The first URL target window. | *String* |
-| *URL B* | The second URL. | *String* |
-| *URL B Text* | The second URL link text. | *String* | *Limit* |
-| *Target B* | The second URL target window. | *String* |
-| *URL C* | The third URL. | *String* |
-| *URL C Text* | The third URL link text. | *String* | *Limit* |
-| *Target C* | The third URL target window. | *String* |
+| *URL* | The media file URL. | *String* | |
+| *Alt Text* | The alternative text for the media. | *String* | *Limit* |
+| *Caption* | The caption for the media. | *String* | *Limit* |
+| *Width* | The width of the media. | *String* | |
+| *Height* | The height of the media. | *String* | |
+
+## Tag Type
+
+Defines the mapping options of a Joomla Tag object.
+
+| Field | Description | Type | Filters |
+| --- | --- | --- | --- |
+| *ID* | The unique identifier of the tag. | *Int* | |
+| *Title* | The title of the tag. | *String* | *Limit* |
+| *Alias* | The URL-friendly alias of the tag. | *String* | |
+| *Description* | The description of the tag. | *String* | *Limit* |
+| *Published* | The publication state of the tag. | *Int* | |
+| *Checked Out* | The ID of the user who checked out the tag. | *Int* | |
+| *Checked Out Time* | The time when the tag was checked out. | *String* | *Date* |
+| *Created By* | The user who created the tag. | [User Type](#user-type) | |
+| *Path* | The full path of the tag. | *String* | |
+| *Editor* | The editor used for the tag. | *String* | |
+| *Parent ID* | The parent tag. | [Tag Type](#tag-type) | |
+
+## User Type
+
+Defines the mapping options of a Joomla User object.
+
+| Field | Description | Type | Filters |
+| --- | --- | --- | --- |
+| *ID* | The unique identifier of the user. | *Int* | |
+| *Name* | The name of the user. | *String* | |
+| *Username* | The username of the user. | *String* | |
+| *Email* | The email address of the user. | *String* | |
+| *Send Email* | Whether the user should receive emails. | *Int* | |
+| *Register Date* | The date the user registered. | *String* | *Date* |
+| *Last Visit Date* | The date of the user's last visit. | *String* | *Date* |
+| *Last Reset Time* | The time of the user's last password reset. | *String* | *Time* |
+| *Is Blocked* | Whether the user is blocked. | *Int* | |
+| *Reset Count* | The number of password reset attempts. | *Int* | |
+| *Group Count* | The number of user groups the user belongs to. | *Int* | |
+| *Group Names* | The names of the user groups. | *String* | |
+| *Field* | Access to custom user fields. | *UserFields* | |
