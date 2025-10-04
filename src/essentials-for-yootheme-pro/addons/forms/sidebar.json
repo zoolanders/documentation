@@ -94,6 +94,10 @@
                         "link": "/acymailing"
                     },
                     {
+                        "text": "Brevo",
+                        "link": "/brevo"
+                    },
+                    {
                         "text": "Mailchimp",
                         "link": "/mailchimp"
                     }
