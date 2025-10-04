@@ -22,21 +22,22 @@ Essentials for YOOtheme Pro is a comprehensive set of free and premium addons fo
 
 Ensure your server and site meet the following specifications for optimal performance:
 
-- **PHP**: 7.4 or higher
-- **YOOtheme Pro**: 4.5 or higher
-- **CMS**: Joomla 3/4/5 or WordPress 5/6
+- **PHP**: 8.1+
+- **YOOtheme Pro**: 5+
+- **CMS**: Joomla 4+ or WordPress 5+
 
 For detailed requirements, also review the specifications for [YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/introduction#requirements), [Joomla](https://docs.joomla.org/J4.x:Installing_Joomla#Requirements), and [WordPress](https://wordpress.org/about/requirements).
 
 ### Compatibility Matrix
 
-| Version | YOOtheme Pro | WordPress | Joomla | PHP |
+| | YOOtheme Pro | WordPress | Joomla | PHP |
 | --- | --- | --- | --- | --- |
-| Essentials v1 | 2 - 3 | 5 - 6 | 3.9 - 5 | 7.4 - 8.2 |
-| Essentials v2 | 4 | 5 - 6 | 3.9 - 5 | 7.4 - 8.2 |
-| Essentials v2.2 | 4.4 | 5 - 6 | 3.9 - 5 | 7.4 - 8.3 |
-| Essentials v2.3 | 4.5 | 5 - 6 | 3.9 - 5 | 7.4 - 8.3 |
-| Essentials v2.4 | 4.5 | 5 - 6 | 3.9 - 5 | 7.4 - 8.3 |
+| Essentials v1 | 2 | 5+ | 3.9+ | 7.4 - 8.2 |
+| Essentials v2 | 4 | 5+ | 3.9+ | 7.4 - 8.2 |
+| Essentials v2.2 | 4.4 | 5+ | 3.9+ | 7.4 - 8.3 |
+| Essentials v2.3 | 4.5 | 5+ | 3.9+ | 7.4 - 8.3 |
+| Essentials v2.4 | 4.5 | 5+ | 3.9+ | 7.4 - 8.3 |
+| Essentials v3.0 | 5.0 | 5+ | 4.0+ | 8.1 - 8.4 |
 
 ## Changelog
 
