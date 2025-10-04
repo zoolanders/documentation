@@ -184,6 +184,11 @@ The Dynamic Content addon provides various data sources to create dynamic, data-
 **Description:** Display events and calendar data from Google Calendar.
 **Learn More:** [Google Calendar Source](/essentials-for-yootheme-pro/addons/dynamic/sources/google-calendar)
 
+#### Google Places Source
+
+**Description:** Display data and reviews from Google Places.
+**Learn More:** [Google Places Source](/essentials-for-yootheme-pro/addons/dynamic/sources/google-places)
+
 #### Google Sheets Source
 
 **Description:** Display and manipulate data from Google Sheets spreadsheets.

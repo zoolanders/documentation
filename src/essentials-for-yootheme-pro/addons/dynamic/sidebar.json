@@ -66,6 +66,10 @@
                 "link": "/google-calendar"
             },
             {
+                "text": "Google Places",
+                "link": "/google-places"
+            },
+            {
                 "text": "Google Sheets",
                 "link": "/google-sheets"
             },
