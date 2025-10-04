@@ -12,8 +12,6 @@ The **WordPress API Source** feeds data from [WordPress](https://wordpress.org/)
 
 <!--![WordPress API Source Configuration](./assets/wordpress-api-config.webp)-->
 
-> **Note:** Configuration screenshot to be added.
-
 | Setting | Description |
 | --- | --- |
 | *URL* | The base URL of the WordPress site to retrieve the data from, e.g. `https://mysite.com`. |
