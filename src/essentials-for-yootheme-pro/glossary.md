@@ -98,6 +98,11 @@ The Dynamic Content addon provides various data sources to create dynamic, data-
 **Description:** Query and display data from custom database tables.
 **Learn More:** [Database Source](/essentials-for-yootheme-pro/addons/dynamic/sources/database)
 
+#### Joomla API Source
+
+**Description:** Pull Joomla articles and categories via the Joomla Web Services API.
+**Learn More:** [Joomla API Source](/essentials-for-yootheme-pro/addons/dynamic/sources/joomla-api)
+
 #### RSS Source
 
 **Description:** Display content from RSS feeds across your website.
@@ -107,6 +112,11 @@ The Dynamic Content addon provides various data sources to create dynamic, data-
 
 **Description:** Parse and display data from XML files and feeds.
 **Learn More:** [XML Source](/essentials-for-yootheme-pro/addons/dynamic/sources/xml)
+
+#### WordPress API Source
+
+**Description:** Fetch WordPress posts, pages, and categories through the REST API.
+**Learn More:** [WordPress API Source](/essentials-for-yootheme-pro/addons/dynamic/sources/wordpress-api)
 
 ### Social Media Sources
 
