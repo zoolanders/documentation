@@ -6,15 +6,13 @@
 
 The **Brevo Action** creates, updates or removes a contact from a [Brevo](https://www.brevo.com/) (formerly Sendinblue) list.
 
-## Add Contact
+## Upsert Contact
 
-Create or update a Brevo list contact.
+Create or update a Brevo contact.
 
 | Setting | Description | Required | Dynamic |
 | --- | --- | :---: | :---: |
 | *Account* | The Brevo account specified with an API Key. | &#x2713; |
-| *List* | The list to which to add a new contact or alter an existing. | &#x2713; |
-| *Update if exists* | Specifies if the contact data should be updated if it already exists. |
 | *Email Address* | Contact's email address. | &#x2713; | &#x2713; |
 | *Attributes* | Contact's additional data specified by Brevo custom attributes. | | &#x2713; |
 | *List IDs* | The list IDs to which the contact will be added. Multiple IDs can be specified separated by comma. | | &#x2713; |
@@ -22,9 +20,10 @@ Create or update a Brevo list contact.
 | *SMS* | Contact's SMS/mobile number with country code. | | &#x2713; |
 | *Email Blacklisted* | Set whether the contact should not receive marketing emails. | | &#x2713; |
 | *SMS Blacklisted* | Set whether the contact should not receive marketing SMS. | | &#x2713; |
+| *Update Enabled* | Specifies if existing contacts should be updated with new information. | | &#x2713; |
 <!--@include: ./_partials/common-action-settings.md-->
 
-## Remove Contact
+## Delete Contact
 
 Delete a Brevo contact permanently.
 
@@ -32,4 +31,18 @@ Delete a Brevo contact permanently.
 | --- | --- | :---: | :---: |
 | *Account* | The Brevo account specified with an API Key. | &#x2713; |
 | *Email Address* | Contact's email address. | &#x2713; | &#x2713; |
+<!--@include: ./_partials/common-action-settings.md-->
+
+## Double Opt-in Contact
+
+Create a Brevo contact with Double Opt-In.
+
+| Setting | Description | Required | Dynamic |
+| --- | --- | :---: | :---: |
+| *Account* | The Brevo account specified with an API Key. | &#x2713; |
+| *Email Address* | Contact's email address. | &#x2713; | &#x2713; |
+| *Attributes* | Contact's additional data specified by Brevo custom attributes. | | &#x2713; |
+| *List IDs* | The list IDs to which the contact will be added. Multiple IDs can be specified separated by comma. | &#x2713; | &#x2713; |
+| *Template ID* | The ID of the double opt-in confirmation email template. | &#x2713; | &#x2713; |
+| *Redirection URL* | The URL to redirect to after the contact confirms the subscription. | &#x2713; | &#x2713; |
 <!--@include: ./_partials/common-action-settings.md-->
