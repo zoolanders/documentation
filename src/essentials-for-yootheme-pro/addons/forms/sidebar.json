@@ -100,6 +100,10 @@
                     {
                         "text": "Mailchimp",
                         "link": "/mailchimp"
+                    },
+                    {
+                        "text": "MailerLite",
+                        "link": "/mailerlite"
                     }
                 ]
             }

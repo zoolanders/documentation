@@ -4,7 +4,7 @@
     <!--@include: @essentials-for-yootheme-pro/assets/brands/mailerlite.svg-->
 </div>
 
-The **MailerLite Action** creates, updates or removes a subscriber from a [MailerLite](https://www.mailerlite.com/) group.
+The **MailerLite Action** creates, updates, deletes or forgets a subscriber from [MailerLite](https://www.mailerlite.com/).
 
 ## Upsert Subscriber
 
@@ -22,19 +22,9 @@ Create or update a MailerLite subscriber.
 | *Update Enabled* | Specifies if existing subscribers should be updated with new information. | | &#x2713; |
 <!--@include: ./_partials/common-action-settings.md-->
 
-## Unsubscribe
+## Delete Subscriber
 
-Unsubscribe a MailerLite subscriber.
-
-| Setting | Description | Required | Dynamic |
-| --- | --- | :---: | :---: |
-| *Account* | The MailerLite account specified with an API Key. | &#x2713; |
-| *Email Address* | Subscriber's email address. | &#x2713; | &#x2713; |
-<!--@include: ./_partials/common-action-settings.md-->
-
-## Remove Subscriber
-
-Remove a MailerLite subscriber permanently.
+Delete or forget a MailerLite subscriber.
 
 | Setting | Description | Required | Dynamic |
 | --- | --- | :---: | :---: |
