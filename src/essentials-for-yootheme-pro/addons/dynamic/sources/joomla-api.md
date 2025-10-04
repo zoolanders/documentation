@@ -14,19 +14,8 @@ The **Joomla API Source** feeds data from [Joomla](https://www.joomla.org/) site
 
 | Setting | Description |
 | --- | --- |
-| *URL* | The base URL of the Joomla site API endpoint, e.g. `https://example.com/api/index.php/v1`. |
-| *Requires Authentication* | Whether the API requires authentication. |
-| *Authentication* | The authentication credentials to use. |
-
-When authentication is enabled, you can specify the API key details:
-
-![Joomla API Key Auth Settings](./assets/joomla-api-auth.webp)
-
-| Setting | Description |
-| --- | --- |
-| *API Key* | The API Key created within a Joomla service. |
-| *API Key Mode* | Where the key is set, in a header or in a query parameter. |
-| *Parameter Name* | The name of the header or query parameter where the API key is set. |
+| *URL* | The base URL of the Joomla site to retrieve the data from, e.g. `https://mysite.com`. |
+| *Authentication* | The API Token obtained from the Joomla User Manager dashboard. For security, create a dedicated user with minimal permissions and use its API Token. |
 
 ## Article Query
 
