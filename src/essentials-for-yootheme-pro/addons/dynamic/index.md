@@ -27,11 +27,10 @@ Generate dynamic sources from local data or 3rd-party APIs, such as database tab
 
 ::: tip Prerequisites
 This guide assumes you're familiar with:
+
 - YOOtheme Pro's Builder and how to add elements
 - What the Customizer is and how to access it
 - Basic understanding of YOOtheme Pro's [Dynamic Content feature](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content)
-
-**New to YOOtheme Pro?** Review their [introduction guide](https://yootheme.com/support/yootheme-pro/joomla/introduction) first.
 :::
 
 ## Create a Source Instance
@@ -64,29 +63,33 @@ A list of the feed entries should be rendered! For more insights about [YOOtheme
 
 Congratulations! You've successfully created and displayed your first dynamic content source. You learned how to:
 
-✓ Access the Sources manager in the Customizer  
-✓ Create a source instance (RSS feed)  
-✓ Map source content to page elements  
-✓ Use the Dynamic button to select specific fields  
+✓ Access the Sources manager in the Customizer
+✓ Create a source instance (RSS feed)
+✓ Map source content to page elements
+✓ Use the Dynamic button to select specific fields
 
 ## What to Learn Next
 
 ### Try Other Simple Sources
+
 - **[CSV Source](./sources/csv)**: Display data from spreadsheet files
 - **[YouTube Source](./sources/youtube)**: Show your YouTube videos
 - **[Vimeo Source](./sources/vimeo)**: Display Vimeo videos
 
 ### Explore Social Media (Requires Authentication)
+
 - **[Instagram Source](./sources/instagram)**: Display Instagram posts and photos
 - **[Facebook Source](./sources/facebook)**: Show Facebook page content
 - **[Twitter Source](./sources/twitter)**: Display tweets
 
 ### Advanced Features
+
 - **[Database Source](./sources/database)**: Connect to custom databases
 - **[Global Queries](./global-queries)**: Create reusable query configurations
 - **[Custom Providers](./custom-provider)**: Build your own source types (developers)
 
 ### Get Help
+
 - **[Browse All Sources](/essentials-for-yootheme-pro/glossary#dynamic-content)**: Complete list in the glossary
 - **[Troubleshooting](./troubleshooting)**: Solutions to common dynamic content issues
 

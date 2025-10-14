@@ -1,9 +1,5 @@
 # Essentials for YOOtheme Pro
 
-::: tip New to Essentials?
-If you're new to Essentials for YOOtheme Pro, start with our **[Getting Started Guide](/essentials-for-yootheme-pro/getting-started)** for a beginner-friendly introduction with a step-by-step walkthrough!
-:::
-
 Essentials for YOOtheme Pro is a comprehensive set of free and premium addons for the [YOOtheme Pro](https://yootheme.com/page-builder) page builder. It adds powerful capabilities that help you:
 
 - **Connect to external data sources** - Display content from social media, APIs, databases, spreadsheets, and more
