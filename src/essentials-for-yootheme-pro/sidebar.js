@@ -15,25 +15,17 @@ export default [
                 link: '/',
             },
             {
-                text: 'Getting Started',
-                link: '/getting-started',
+                text: 'Installation',
+                link: '/installation',
             },
             {
-                text: 'Updating',
-                link: '/updating',
-            },
-            {
-                text: 'Settings',
-                link: '/settings',
-            },
-            {
-                text: 'Glossary',
-                link: '/glossary',
+                text: 'Quick Start',
+                link: '/quick-start',
             },
         ],
     },
     {
-        text: 'Addons',
+        text: 'General',
         base: '/essentials-for-yootheme-pro/addons',
         items: [
             {
@@ -91,6 +83,14 @@ export default [
     {
         text: 'Reference',
         items: [
+            {
+                text: 'Settings',
+                link: '/settings',
+            },
+            {
+                text: 'Glossary',
+                link: '/glossary',
+            },
             {
                 ...FormsAddonSidebar[1],
                 text: 'Forms Actions',

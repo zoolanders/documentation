@@ -30,6 +30,7 @@ Access Conditions let you control **who sees what** on your website by setting r
 
 ::: tip Simple Example
 Want to show a "Weekend Special" banner only on Saturday and Sunday?
+
 1. Create your banner element in the Builder
 2. Add a **Day** rule to the element
 3. Select "Saturday" and "Sunday"
@@ -64,27 +65,31 @@ Review the logs to confirm that the evaluation is using the correct data and tha
 
 Great work! You've successfully set up your first access condition. You learned how to:
 
-✓ Access the Access Condition panel in element settings  
-✓ Add rules to control element visibility  
-✓ Set evaluation modes (AND, OR, Custom)  
-✓ Review evaluation logs to verify conditions are working  
+✓ Access the Access Condition panel in element settings
+✓ Add rules to control element visibility
+✓ Set evaluation modes (AND, OR, Custom)
+✓ Review evaluation logs to verify conditions are working
 
 ## What to Learn Next
 
 ### Simple Rules to Try
+
 - **[Device Rule](./rules/device)**: Show different content on mobile vs desktop
 - **[Date Rule](./rules/date)**: Display time-sensitive content
 - **[User Group Rule](./rules/user-group)**: Show member-only content
 
 ### Advanced Rules
+
 - **[IP Geolocation Rule](./rules/ip-geolocation)**: Display location-based content (requires GeoIP setup)
 - **[Dynamic Rule](./rules/dynamic)**: Create custom conditions with dynamic data
 - **[Browser Rule](./rules/browser)**: Target specific browsers
 
 ### Combine with Other Features
+
 - **[Dynamic Content](/essentials-for-yootheme-pro/addons/dynamic/)**: Show dynamic data conditionally
 - **[Form Builder](/essentials-for-yootheme-pro/addons/forms/)**: Display forms based on conditions
 
 ### Get Help
+
 - **[Browse All Rules](/essentials-for-yootheme-pro/glossary#access-conditions)**: Complete list in the glossary
 - **[Troubleshooting](/essentials-for-yootheme-pro/troubleshooting)**: Solutions to common access condition issues
