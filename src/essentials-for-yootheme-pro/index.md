@@ -1,6 +1,21 @@
 # Essentials for YOOtheme Pro
 
+::: tip New to Essentials?
+If you're new to Essentials for YOOtheme Pro, start with our **[Getting Started Guide](/essentials-for-yootheme-pro/getting-started)** for a beginner-friendly introduction with a step-by-step walkthrough!
+:::
+
 Essentials for YOOtheme Pro is a comprehensive set of free and premium addons for the [YOOtheme Pro](https://yootheme.com/page-builder) page builder, compatible with both Joomla and WordPress. It extends the YOOtheme Pro framework natively and effectively with features that are considered _essential_ for modern web development.
+
+## What is Essentials?
+
+Think of Essentials as a "power-up pack" for YOOtheme Pro. It adds powerful capabilities that help you:
+
+- **Connect to external data sources** - Display content from social media, APIs, databases, spreadsheets, and more
+- **Build advanced forms** - Create contact forms, surveys, and registration forms with custom actions
+- **Control content visibility** - Show or hide content based on user roles, devices, dates, location, and other conditions
+- **Expand design options** - Access additional icon collections, reusable layout libraries, and custom elements
+
+All features integrate seamlessly with YOOtheme Pro's Builder, working with the tools and workflows you already know.
 
 ## Key Features
 
@@ -78,9 +93,18 @@ After installation, you may need to clear your site's cache and refresh the Cust
 
 ## Next Steps
 
-Once installed and configured, explore these key areas to get started:
+Once installed and configured, here's where to go based on your goals:
 
-- **[Settings](/essentials-for-yootheme-pro/settings)**: Configure global options and create your first sources
-- **[Dynamic Content](/essentials-for-yootheme-pro/addons/dynamic/)**: Learn to create and use dynamic content sources
-- **[Form Builder](/essentials-for-yootheme-pro/addons/forms/)**: Build custom forms with advanced features
+### For Beginners
+- **[Getting Started Guide](/essentials-for-yootheme-pro/getting-started)**: Complete walkthrough for your first 30 minutes
+- **[Create an RSS Feed](/essentials-for-yootheme-pro/addons/dynamic/sources/rss)**: Simple first source with no authentication required
+- **[Build a Contact Form](/essentials-for-yootheme-pro/addons/forms/)**: Create your first form in under 10 minutes
+
+### For All Users
+- **[Settings](/essentials-for-yootheme-pro/settings)**: Configure global options and manage your sources
+- **[Glossary](/essentials-for-yootheme-pro/glossary)**: Browse all available features organized by category
 - **[Troubleshooting](/essentials-for-yootheme-pro/troubleshooting)**: Solutions to common issues
+
+### For Advanced Users
+- **[Dynamic Content](/essentials-for-yootheme-pro/addons/dynamic/)**: Deep dive into sources, queries, and mapping
+- **[Custom Providers](/essentials-for-yootheme-pro/addons/dynamic/custom-provider)**: Build your own source types with PHP

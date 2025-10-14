@@ -15,6 +15,10 @@ export default [
                 link: '/',
             },
             {
+                text: 'Getting Started',
+                link: '/getting-started',
+            },
+            {
                 text: 'Updating',
                 link: '/updating',
             },

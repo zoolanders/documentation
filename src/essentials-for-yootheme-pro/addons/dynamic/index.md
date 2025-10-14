@@ -8,6 +8,32 @@ Generate dynamic sources from local data or 3rd-party APIs, such as database tab
 
 <!--@include: ../_partials/enable-addon.md-->
 
+## What is Dynamic Content?
+
+**Dynamic Content** automatically updates based on external data sources, unlike static content that you manually type and edit. For example:
+
+- **Static**: You manually type "Check out our latest blog post" and update it each time
+- **Dynamic**: Your page automatically shows your latest blog post title from an RSS feed
+
+### Key Concepts
+
+**Source**: A connection to where your data comes from (like an RSS feed, Instagram account, or database).
+
+**Source Instance**: Your specific configured source. For example, "My Instagram Feed" or "Company Blog RSS" are instances of Instagram and RSS sources.
+
+**Schema**: The structure of data your source provides (automatically generated). This defines what fields are available for mapping (like title, description, image, date, etc.).
+
+**Field Mapping**: Connecting data from your source to elements on your page. For example, mapping an RSS feed's "title" field to a Text element.
+
+::: tip Prerequisites
+This guide assumes you're familiar with:
+- YOOtheme Pro's Builder and how to add elements
+- What the Customizer is and how to access it
+- Basic understanding of YOOtheme Pro's [Dynamic Content feature](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content)
+
+**New to YOOtheme Pro?** Review their [introduction guide](https://yootheme.com/support/yootheme-pro/joomla/introduction) first.
+:::
+
 ## Create a Source Instance
 
 Before being able to use a source we must first create an instance of it within the [Sources manager](/essentials-for-yootheme-pro/settings#sources).
@@ -33,6 +59,36 @@ Once the source instance has been created it schema will be generated based on i
 1. Choose the data you want to map from the dropdown options.
 
 A list of the feed entries should be rendered! For more insights about [YOOtheme Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content) workflow, consult the corresponding documentation.
+
+## What You Learned
+
+Congratulations! You've successfully created and displayed your first dynamic content source. You learned how to:
+
+✓ Access the Sources manager in the Customizer  
+✓ Create a source instance (RSS feed)  
+✓ Map source content to page elements  
+✓ Use the Dynamic button to select specific fields  
+
+## What to Learn Next
+
+### Try Other Simple Sources
+- **[CSV Source](./sources/csv)**: Display data from spreadsheet files
+- **[YouTube Source](./sources/youtube)**: Show your YouTube videos
+- **[Vimeo Source](./sources/vimeo)**: Display Vimeo videos
+
+### Explore Social Media (Requires Authentication)
+- **[Instagram Source](./sources/instagram)**: Display Instagram posts and photos
+- **[Facebook Source](./sources/facebook)**: Show Facebook page content
+- **[Twitter Source](./sources/twitter)**: Display tweets
+
+### Advanced Features
+- **[Database Source](./sources/database)**: Connect to custom databases
+- **[Global Queries](./global-queries)**: Create reusable query configurations
+- **[Custom Providers](./custom-provider)**: Build your own source types (developers)
+
+### Get Help
+- **[Browse All Sources](/essentials-for-yootheme-pro/glossary#dynamic-content)**: Complete list in the glossary
+- **[Troubleshooting](./troubleshooting)**: Solutions to common dynamic content issues
 
 ## Extended Dynamic Workflow
 
