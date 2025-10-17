@@ -18,14 +18,10 @@ export default [
                 text: 'Installation',
                 link: '/installation',
             },
-            {
-                text: 'Quick Start',
-                link: '/quick-start',
-            },
         ],
     },
     {
-        text: 'General',
+        text: 'Addons',
         base: '/essentials-for-yootheme-pro/addons',
         items: [
             {

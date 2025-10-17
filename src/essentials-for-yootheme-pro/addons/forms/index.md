@@ -4,21 +4,9 @@ addon: 'Forms'
 
 # Form Builder
 
-Create powerful forms using the Form Element, add form fields, and define actions to execute after a successful submission—all within a streamlined workflow.
+Essential Forms integrate seamlessly with YOOtheme Pro's layout builder, letting you send emails, save submissions, display custom messages, or connect with external services—all configured visually.
 
 <!--@include: ../_partials/enable-addon.md-->
-
-## Key Concepts
-
-Unlike basic contact forms, Essential Forms are built directly into your YOOtheme layouts and can:
-
-- **Execute multiple actions on submission**: Send emails, save to database, integrate with external services, redirect users, or display custom messages—all triggered automatically when a form is submitted successfully.
-
-- **Blend natively with YOOtheme layouts**: Built as a standard builder element from the "Essentials" group with built-in submission handling, validation, and anti-spam protection that wraps your form fields.
-
-- **Use specialized form field elements**: Access a complete set of form inputs from the "Form Essentials" group including text fields, textareas, selects, checkboxes, radio buttons, file uploads, and more.
-
-- **Reference and manipulate submitted data**: Use simple data placeholders like `{fieldname}` or leverage advanced dynamic content sources to display, validate, or transform form data.
 
 ## Create Your First Form
 
