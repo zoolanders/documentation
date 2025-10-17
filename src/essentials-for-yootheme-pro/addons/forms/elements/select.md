@@ -1,12 +1,12 @@
-## Select Element {#select}
+# Select Element {#select}
 
 <div class="tm-resource-icon">
-    <!--@include: ../assets/element-select.svg-->
+    <!--@include: ../../assets/element-select.svg-->
 </div>
 
 The **Select Element** displays a [\<select\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select) HTML element, use it to allow users to choose, by selection, a single or multiple pre-established options.
 
-![Select Element](./assets/elements/select.webp)
+![Select Element](../assets/elements/select.webp)
 
 | Setting | Description |
 | --- | --- |

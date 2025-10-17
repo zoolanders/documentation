@@ -1,4 +1,4 @@
-## Friendly Captcha
+### Friendly Captcha
 
 <div class="tm-resource-icon">
     <!--@include: ../assets/element-fcaptcha.svg-->

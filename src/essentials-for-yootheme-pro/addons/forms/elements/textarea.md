@@ -1,12 +1,12 @@
-## Textarea Element {#textarea}
+# Textarea Element {#textarea}
 
 <div class="tm-resource-icon">
-    <!--@include: ../assets/element-textarea.svg-->
+    <!--@include: ../../assets/element-textarea.svg-->
 </div>
 
 The **Textarea Element** displays a [\<textarea\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea) HTML element, use it to allow users entering a sizeable amount of free-form text, for example, a comment on a review or feedback form.
 
-![Textarea Element](./assets/elements/textarea.webp)
+![Textarea Element](../assets/elements/textarea.webp)
 
 | Setting | Description | Dynamic |
 | --- | --- | :---: |

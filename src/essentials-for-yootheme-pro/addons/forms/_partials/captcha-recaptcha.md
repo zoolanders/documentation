@@ -1,4 +1,4 @@
-## reCAPTCHA
+### reCAPTCHA
 
 <div class="tm-resource-icon">
     <!--@include: ../assets/element-recaptcha.svg-->
@@ -10,7 +10,7 @@ The reCAPTCHA element integrates [Google reCAPTCHA](https://developers.google.co
 
 | Setting | Description | Dynamic |
 | --- | --- | :---: |
-| *Type* | The type of captcha to display, _v2 Checkbox_, _v2 Invisible_ or _v3_. | |
+| *Type* | The type of captcha to display, *v2 Checkbox*, *v2 Invisible* or *v3*. | |
 | *Site/Secret Key* | The sit and secret keys obtained from [reCAPTCHA](https://developers.google.com/recaptcha) Dashboard. |
 | *Error Message* | A message that will be displayed if the element validation fails. Optionally use `{fieldlabel}` as a placeholder, it will be replaced with the field label. | &#x2713; |
 
@@ -26,7 +26,7 @@ reCAPTCHA v2 verifies if an interaction is legitimate with a captcha challenge p
 By default, only the most suspicious traffic will be prompted to solve a captcha. To alter this behavior edit the site security preference under the [reCAPTCHA Admin Console](#admin-console) advanced settings.
 :::
 
-### "I'm not a robot" Checkbox
+#### "I'm not a robot" Checkbox
 
 Requires the user to click a checkbox indicating is not a robot.
 
@@ -35,8 +35,8 @@ Requires the user to click a checkbox indicating is not a robot.
 | Setting | Description | Dynamic |
 | --- | --- | :---: |
 | *Label* | The title for the field that represent the field data. | &#x2713; |
-| *Theme* | The field style output, _Light_ or _Dark_. ||
-| *Size* | The field size output, _Normal_ or _Compact_. ||
+| *Theme* | The field style output, *Light* or *Dark*. ||
+| *Size* | The field size output, *Normal* or *Compact*. ||
 
 #### Invisible reCAPTCHA badge
 
@@ -46,9 +46,9 @@ A captcha might be invoked when the form is submitted, but the badge is always v
 
 | Setting | Description | Dynamic |
 | --- | --- | :---: |
-| *Position* | The badge position, _Bottom Left_, _Bottom Right_, or _Inline_. ||
-| *Label* | The title for the field that should represent the field data, when the position is set as _Inline_. ||
-| *Theme* | The badge style output, _Light_ or _Dark_. ||
+| *Position* | The badge position, *Bottom Left*, *Bottom Right*, or *Inline*. ||
+| *Label* | The title for the field that should represent the field data, when the position is set as *Inline*. ||
+| *Theme* | The badge style output, *Light* or *Dark*. ||
 
 ### reCAPTCHA v3
 

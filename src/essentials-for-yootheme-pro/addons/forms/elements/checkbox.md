@@ -1,16 +1,16 @@
-## Checkbox Element {#checkbox}
+# Checkbox Element {#checkbox}
 
 <div class="tm-resource-icon">
-    <!--@include: ../assets/element-checkbox.svg-->
+    <!--@include: ../../assets/element-checkbox.svg-->
 </div>
 
 The **Checkbox Element** displays a group of [\<input type="checkbox"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) HTML elements wrapped in a `<label>`, use it to allow users choosing, by toggling boxes, a single or multiple pre-established options.
 
-![Checkbox Element](./assets/elements/checkbox.webp)
+![Checkbox Element](../assets/elements/checkbox.webp)
 
 | Setting | Description |
 | --- | --- |
-| *Layout* | The layout that will be used to display the options, _Vertical_ or _Horizontal_. |
+| *Layout* | The layout that will be used to display the options, *Vertical* or *Horizontal*. |
 <!--@include: ./common-element-settings.md-->
 
 <!--@include: ./common-element-options.md-->

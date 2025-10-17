@@ -8,102 +8,184 @@
                 "link": "/"
             },
             {
-                "text": "Form Area",
-                "link": "/form-area"
+                "text": "Form Element",
+                "link": "/form-element"
             },
             {
-                "text": "Actions",
-                "link": "/after-submit-actions"
-            },
-            {
-                "text": "Elements",
-                "link": "/elements"
-            },
-            {
-                "text": "Captcha",
-                "link": "/captcha"
-            },
-            {
-                "text": "Styling",
-                "link": "/styling"
+                "text": "Dynamic Data",
+                "link": "/dynamic-data"
             },
             {
                 "text": "Conditional Logic",
                 "link": "/conditional-logic"
+            },
+            {
+                "text": "Validation",
+                "link": "/validation"
+            },
+            {
+                "text": "Styling",
+                "link": "/styling"
+            }
+        ]
+    },
+    {
+        "text": "Elements",
+        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/elements"
+            },
+            {
+                "text": "Input",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Input",
+                        "link": "/elements/input"
+                    },
+                    {
+                        "text": "Textarea",
+                        "link": "/elements/textarea"
+                    },
+                    {
+                        "text": "Range",
+                        "link": "/elements/range"
+                    }
+                ]
+            },
+            {
+                "text": "Selection",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Select",
+                        "link": "/elements/select"
+                    },
+                    {
+                        "text": "Checkbox",
+                        "link": "/elements/checkbox"
+                    },
+                    {
+                        "text": "Radio",
+                        "link": "/elements/radio"
+                    }
+                ]
+            },
+            {
+                "text": "Other",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Button",
+                        "link": "/elements/button"
+                    },
+                    {
+                        "text": "Upload",
+                        "link": "/elements/upload"
+                    },
+                    {
+                        "text": "Hidden",
+                        "link": "/elements/hidden"
+                    },
+                    {
+                        "text": "Fieldset",
+                        "link": "/elements/fieldset"
+                    }
+                ]
             }
         ]
     },
     {
         "text": "Actions",
-        "base": "/essentials-for-yootheme-pro/addons/forms/actions",
+        "base": "/essentials-for-yootheme-pro/addons/forms",
         "items": [
             {
-                "text": "Alter",
-                "link": "/alter"
+                "text": "Overview",
+                "link": "/after-submit-actions"
             },
             {
-                "text": "Download",
-                "link": "/download"
-            },
-            {
-                "text": "Email",
-                "link": "/email"
-            },
-            {
-                "text": "Message",
-                "link": "/message"
-            },
-            {
-                "text": "Redirect",
-                "link": "/redirect"
-            },
-            {
-                "text": "Validate",
-                "link": "/validate"
-            },
-            {
-                "text": "Webhook",
-                "link": "/webhook"
-            },
-            {
-                "text": "Data",
+                "text": "Basic",
+                "collapsed": true,
                 "items": [
                     {
-                        "text": "Airtable",
-                        "link": "/airtable"
+                        "text": "Alter",
+                        "link": "/actions/alter"
                     },
                     {
-                        "text": "CSV",
-                        "link": "/csv"
+                        "text": "Email",
+                        "link": "/actions/email"
                     },
                     {
-                        "text": "Database",
-                        "link": "/database"
+                        "text": "Message",
+                        "link": "/actions/message"
                     },
                     {
-                        "text": "Google Sheets",
-                        "link": "/google-sheets"
+                        "text": "Validate",
+                        "link": "/actions/validate"
                     }
                 ]
             },
             {
-                "text": "Misc",
+                "text": "Data",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Airtable",
+                        "link": "/actions/airtable"
+                    },
+                    {
+                        "text": "CSV",
+                        "link": "/actions/csv"
+                    },
+                    {
+                        "text": "Database",
+                        "link": "/actions/database"
+                    },
+                    {
+                        "text": "Google Sheets",
+                        "link": "/actions/google-sheets"
+                    }
+                ]
+            },
+            {
+                "text": "Marketing",
+                "collapsed": true,
                 "items": [
                     {
                         "text": "AcyMailing",
-                        "link": "/acymailing"
+                        "link": "/actions/acymailing"
                     },
                     {
                         "text": "Brevo",
-                        "link": "/brevo"
+                        "link": "/actions/brevo"
                     },
                     {
                         "text": "Mailchimp",
-                        "link": "/mailchimp"
+                        "link": "/actions/mailchimp"
                     },
                     {
                         "text": "MailerLite",
-                        "link": "/mailerlite"
+                        "link": "/actions/mailerlite"
+                    }
+                ]
+            },
+            {
+                "text": "Other",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Download",
+                        "link": "/actions/download"
+                    },
+                    {
+                        "text": "Redirect",
+                        "link": "/actions/redirect"
+                    },
+                    {
+                        "text": "Webhook",
+                        "link": "/actions/webhook"
                     }
                 ]
             }

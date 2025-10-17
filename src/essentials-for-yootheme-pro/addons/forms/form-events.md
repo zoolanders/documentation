@@ -1,6 +1,6 @@
 # Forms Events
 
-JavaScript events triggered by each form for which is possible to add listeners and perform custom actions. Set those in a custom script as illustrated bellow or as a [form area setting](./form-area#settings).
+JavaScript events triggered by each form for which is possible to add listeners and perform custom actions. Set those in a custom script as illustrated below or as a [Form Element setting](./form-element#hooks).
 
 ## On Submit
 
