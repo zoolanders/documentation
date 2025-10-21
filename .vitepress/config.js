@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-import Nav from './nav.json';
+import NavDefault from './nav.json';
 import Sidebar from './sidebar';
 
 // https://vitepress.dev/reference/site-config
@@ -34,7 +34,7 @@ export default defineConfig({
                 indexName: 'zoolanders',
             },
         },
-        nav: Nav,
+        nav: NavDefault,
         sidebar: Sidebar,
         socialLinks: [
             {
@@ -83,6 +83,18 @@ export default defineConfig({
 
         if (filePath.startsWith('essentials-for-zoo/')) {
             pageData.titleTemplate = ':title | Essentials ZOO Documentation | ZOOlanders';
+        }
+
+        // Support for versioned docs
+        if (filePath.startsWith('versioned_docs/')) {
+            if (filePath.includes('essentials-for-yootheme-pro/')) {
+                pageData.titleTemplate =
+                    ':title | Essentials YOOtheme Pro Documentation | ZOOlanders';
+            }
+
+            if (filePath.includes('essentials-for-zoo/')) {
+                pageData.titleTemplate = ':title | Essentials ZOO Documentation | ZOOlanders';
+            }
         }
     },
 });

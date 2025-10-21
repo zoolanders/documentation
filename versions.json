@@ -1,0 +1,15 @@
+{
+    "versions": [
+        {
+            "version": "2.4",
+            "title": "v2.4 (Current)",
+            "link": "/",
+            "isLatest": true
+        },
+        {
+            "version": "2.3",
+            "title": "v2.3",
+            "link": "/2.3/"
+        }
+    ]
+}

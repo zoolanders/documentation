@@ -1,0 +1,30 @@
+[
+    {
+        "text": "Elements",
+        "base": "/essentials-for-yootheme-pro/addons/elements",
+        "items": [
+            {
+                "text": "Getting Started",
+                "link": "/"
+            }
+        ]
+    },
+    {
+        "text": "Reference",
+        "base": "/essentials-for-yootheme-pro/addons/elements",
+        "items": [
+            {
+                "text": "Chart Element",
+                "link": "/chart-element"
+            },
+            {
+                "text": "Markdown Element",
+                "link": "/markdown-element"
+            },
+            {
+                "text": "Social Sharing Element",
+                "link": "/social-sharing-element"
+            }
+        ]
+    }
+]

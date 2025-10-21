@@ -1,13 +1,72 @@
 <script setup>
-import { watch, nextTick, ref } from 'vue';
+import { watch, nextTick, ref, computed } from 'vue';
 import { useData, useRoute } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 
+// Import all nav configurations
+import NavDefault from '../../nav.json';
+import NavYoo from '../../nav-yoo.json';
+
 const route = useRoute();
-const { isDark } = useData();
+const { isDark, theme } = useData();
 const { Layout } = DefaultTheme;
 
 const previousRoute = ref(null);
+
+// Compute current documentation section
+const currentDocSection = computed(() => {
+    const path = route.path;
+
+    if (path.startsWith('/essentials-for-yootheme-pro/')) {
+        return 'Essentials for YOOtheme Pro';
+    }
+
+    if (path.startsWith('/essentials-for-zoo/')) {
+        return 'Essentials for ZOO';
+    }
+
+    return null;
+});
+
+// Compute which nav to use based on current route
+const currentNav = computed(
+    () => {
+        const path = route.path;
+
+        if (path.startsWith('/essentials-for-yootheme-pro/')) {
+            // Check if path contains version pattern /vx.x
+            const versionMatch = path.match(/\/v(\d+\.\d+)/);
+            const versionText = versionMatch ? `v${versionMatch[1]}` : 'v3.0';
+
+            // Return a new object to ensure Vue reactivity
+            return [
+                {
+                    ...NavYoo[0],
+                    text: versionText,
+                    items: NavYoo[0].items,
+                },
+            ];
+        }
+
+        if (path.startsWith('/essentials-for-zoo/')) {
+            return [];
+        }
+
+        return NavDefault;
+    },
+    { cache: false }
+);
+
+// Update theme nav when route changes
+watch(
+    currentNav,
+    (newNav) => {
+        if (theme.value) {
+            theme.value.nav = newNav;
+        }
+    },
+    { immediate: true }
+);
 
 function toggleResourceIconsColor(isDark) {
     if (typeof document === 'undefined') {
@@ -51,6 +110,13 @@ watch(
 
 <template>
     <Layout>
+        <template #nav-bar-content-before>
+            <div v-if="currentDocSection">
+                <span style="font-weight: 600; color: white; font-size: 15px; margin-left: 10px">{{
+                    currentDocSection
+                }}</span>
+            </div>
+        </template>
         <template #sidebar-nav-before>
             <div v-if="previousRoute">
                 <a

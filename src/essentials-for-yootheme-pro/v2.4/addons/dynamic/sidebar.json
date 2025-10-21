@@ -1,0 +1,144 @@
+[
+    {
+        "text": "Dynamic Content",
+        "base": "/essentials-for-yootheme-pro/addons/dynamic",
+        "items": [
+            {
+                "text": "Getting Started",
+                "link": "/"
+            },
+            {
+                "text": "Composed Sources",
+                "link": "/composed-sources"
+            },
+            {
+                "text": "Global Queries",
+                "link": "/global-queries"
+            },
+            {
+                "text": "Query Arguments",
+                "link": "/query-arguments"
+            },
+            {
+                "text": "Source Provider",
+                "link": "/provider"
+            }
+        ]
+    },
+    {
+        "text": "Sources",
+        "base": "/essentials-for-yootheme-pro/addons/dynamic/sources",
+        "items": [
+            {
+                "text": "Request",
+                "link": "/request"
+            },
+            {
+                "text": "Airtable",
+                "link": "/airtable"
+            },
+            {
+                "text": "Bluesky",
+                "link": "/bluesky"
+            },
+            {
+                "text": "Cloudflare Stream",
+                "link": "/cloudflare-stream"
+            },
+            {
+                "text": "CSV",
+                "link": "/csv"
+            },
+            {
+                "text": "Database",
+                "link": "/database"
+            },
+            {
+                "text": "Facebook",
+                "link": "/facebook"
+            },
+            {
+                "text": "Google Business Profile",
+                "link": "/google-business-profile"
+            },
+            {
+                "text": "Google Calendar",
+                "link": "/google-calendar"
+            },
+            {
+                "text": "Google Photos",
+                "link": "/google-photos"
+            },
+            {
+                "text": "Google Sheets",
+                "link": "/google-sheets"
+            },
+            {
+                "text": "Instagram",
+                "link": "/instagram"
+            },
+            {
+                "text": "LinkedIn",
+                "link": "/linkedin"
+            },
+            {
+                "text": "RSS",
+                "link": "/rss"
+            },
+            {
+                "text": "TikTok",
+                "link": "/tiktok"
+            },
+            {
+                "text": "Twitter",
+                "link": "/twitter"
+            },
+            {
+                "text": "Vimeo",
+                "link": "/vimeo"
+            },
+            {
+                "text": "XML",
+                "link": "/xml"
+            },
+            {
+                "text": "YouTube",
+                "link": "/youtube"
+            }
+        ]
+    },
+    {
+        "text": "Advanced",
+        "base": "/essentials-for-yootheme-pro",
+        "items": [
+            {
+                "text": "Source Routing",
+                "link": "/addons/dynamic/routing"
+            },
+            {
+                "text": "Common Issues",
+                "link": "/addons/dynamic/troubleshooting"
+            },
+            {
+                "text": "Custom Source Provider",
+                "link": "/addons/dynamic/custom-provider"
+            },
+            {
+                "text": "Custom Twitter Dev App",
+                "link": "/auths/custom-twitter-dev-app"
+            },
+            {
+                "text": "Custom Facebook Dev App",
+                "link": "/auths/custom-facebook-dev-app"
+            },
+            {
+                "text": "Custom Google Dev App",
+                "link": "/auths/custom-google-dev-app"
+            },
+            {
+                "text": "Custom LinkedIn Dev App",
+                "link": "/auths/custom-linkedin-dev-app"
+            }
+        ]
+    }
+]

@@ -8,6 +8,19 @@ import YtpEssentialsDynamicSidebar from '../src/essentials-for-yootheme-pro/addo
 import YtpEssentialsLayoutsSidebar from '../src/essentials-for-yootheme-pro/addons/layouts/sidebar.json';
 import YtpEssentialsElementsSidebar from '../src/essentials-for-yootheme-pro/addons/elements/sidebar.json';
 
+// Create simple sidebars for v2.3 (archived version)
+const ArchiveVersionNotice = [
+    {
+        text: '⚠️ Archived Version',
+        items: [
+            {
+                text: 'View Latest Documentation (v2.4)',
+                link: '/',
+            },
+        ],
+    },
+];
+
 export default {
     '/essentials-for-zoo/': ZooEssentialsSidebar,
     '/essentials-for-yootheme-pro/': YtpEssentialsSidebar,
@@ -18,4 +31,7 @@ export default {
     '/essentials-for-yootheme-pro/addons/dynamic': YtpEssentialsDynamicSidebar,
     '/essentials-for-yootheme-pro/addons/layouts': YtpEssentialsLayoutsSidebar,
     '/essentials-for-yootheme-pro/addons/elements': YtpEssentialsElementsSidebar,
+    // v2.3 versioned docs
+    '/2.3/essentials-for-zoo/': ArchiveVersionNotice,
+    '/2.3/essentials-for-yootheme-pro/': ArchiveVersionNotice,
 };
