@@ -2,7 +2,7 @@
 
 **Composed Sources** lets you compose content freely by writing text and seamlessly inserting dynamic content from any source directly within your text. This approach gives you complete flexibility to mix static and dynamic content in a single field, enabling more expressive and personalized content compositions.
 
-To assign a field as composer, choose the _Composed_ option when assigning a Dynamic Content option.
+To assign a field as composed, choose the _Composed_ option from the Dynamic Content options.
 
 ![Composed Source Dynamic Option](./assets/composed-sources/composed-dynamic-option.webp)
 
