@@ -51,7 +51,7 @@ You can always add an else block later if not needed right away.
 
 ## Nested Compositions
 
-Nested Compositions enable you to place one composed source inside another, creating modular and reusable content blocks. Within your main composed source, reference another composed source by adding it as a placeholder.
+Nested Compositions enable you to place one composed source inside another, creating modular and reusable content blocks. Within your main composed source, reference another composed source by adding it as a block.
 
 ![Nested Compositions](./assets/composed-sources/nested-compositions.gif)
 
