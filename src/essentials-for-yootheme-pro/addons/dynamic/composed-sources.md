@@ -29,3 +29,45 @@ Once a dynamic content placeholder has been added to the content, you can click 
 Sometimes the placeholder name can get too long or not really meaningful. For these cases, you can set an alias by clicking on the placeholder, and then click on the _Set alias_ link near the name of the source. Fill in any name there, and it will be used in the placeholder tag instead of the default one. Don't worry, this has no impact at all on the rendering of the page, it's just an editing utility!
 
 ![Compose Alias](./assets/composable-sources/compose-alias.webp)
+
+## Conditional Compositions
+
+Conditional Compositions allow you to wrap parts of your composed content within condition blocks, making specific content display only when certain criteria are met. This feature leverages YOOtheme's Access Conditions system, providing a familiar interface for controlling content visibility.
+
+### How to Use Conditional Compositions
+
+1. **Add a Condition Block**: In the Composed Source Editor, click the _Add Condition_ button to insert a new condition block.
+2. **Define Conditions**: Set your conditions using the same criteria available in YOOtheme Pro's Access Conditions, such as:
+   - User login status
+   - User groups or roles
+   - Date and time ranges
+   - Custom field values
+   - And more
+3. **Add Content**: Place your dynamic or static content inside the condition block. This content will only render when the conditions are met.
+4. **Use "Else" Clauses**: Optionally add an "Else" block to define fallback content that will display when the conditions are not met.
+
+This powerful feature enables you to create dynamic, personalized content experiences without duplicating elements or creating complex layouts.
+
+## Nested Compositions
+
+Nested Compositions enable you to place one composed source inside another, creating modular and reusable content blocks. This approach helps you build complex logic structures while keeping your content organized and maintainable.
+
+### How to Use Nested Compositions
+
+1. **Create a Nested Source**: Within your main composed source, you can reference another composed source by adding it as a placeholder.
+2. **Label Your Nested Sources**: Give your nested sources meaningful names (e.g., [User Info], [Product Details]) to make them easy to identify and reuse.
+3. **Reuse Logic Across Compositions**: Use the same nested source in multiple places throughout your composition to maintain consistency and reduce redundancy.
+4. **Combine with Conditions**: You can nest composed sources within conditional blocks for even more powerful content control.
+
+This modular approach allows you to break down complex content into smaller, manageable pieces that can be reused and updated independently.
+
+## Enhanced Composing Experience
+
+The Composed Source Editor has been enhanced with several improvements to make composing content more intuitive and efficient:
+
+- **Color-coded Blocks**: Different types of composables (dynamic content, conditions, nested sources) are visually distinguished with color coding for easier identification.
+- **Inline Editor**: The editor automatically adapts between single-line and multi-line modes depending on the context and content length.
+- **Drag & Drop**: Rearrange your composables quickly by dragging and dropping them to new positions within the editor.
+- **Visual Hierarchy**: Clear visual indicators help you understand the structure and relationships between different blocks in your composition.
+
+These enhancements make it easier to create, edit, and maintain complex composed sources with conditional logic and nested structures.
