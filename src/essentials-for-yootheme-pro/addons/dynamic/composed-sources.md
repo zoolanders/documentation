@@ -7,35 +7,35 @@ To assign a field as composer, choose the _Composed_ option when assigning a Dyn
 ![Composed Source Dynamic Option](./assets/composed-sources/composed-dynamic-option.webp)
 
 ::: tip
-If a field has a dynamic content previously assigned, a `compose` icon will appear. If clicked the source will be migrated to a composed source.
+If a field already has dynamic content assigned, a `compose` icon will appear. If clicked, the source will be migrated to a composed source.
 :::
 
 ## Composed Content
 
-When a field has been assigned as composed, an inline editor will replace the field allowing you to mix static with dynamic content. To insert dynamic content, press the `insert` button in the editor, a dropdown will appear allowing you to choose the source, similarly as when assigning Dynamic Content to a field.
+When a field has been assigned as composed, an inline editor will replace the field allowing you to mix static with dynamic content. To insert dynamic content, press the `insert` button. A dropdown will appear allowing you to choose the source, similarly as when assigning Dynamic Content to a field.
 
 ![Composed Source Editor](./assets/composed-sources/composed-source-editor.webp)
 
 ![Composed Source Editor Insert](./assets/composed-sources/composed-source-editor-insert.webp)
 
-Once a source has been inserted, a placeholder will appear representing it. You can click on it to see the available actions.
+Once a source has been inserted, a block will appear representing it. You can click on it to see the available actions.
 
 ![Composed Source Block Actions](./assets/composed-sources/composer-source-block-actions.webp)
 
 | Action      | Description                                                         |
 |-------------|---------------------------------------------------------------------|
-| **Alias**   | Assign a custom name to the placeholder for easier identification   |
+| **Alias**   | Assign a custom name to the block for easier identification         |
 | **Edit**    | Modify the source's filters, arguments, and other settings          |
-| **Copy**    | Duplicate the source block to reuse it elsewhere in the composition |
-| **Delete**  | Remove the source block from the composition                        |
+| **Copy**    | Duplicate the block to reuse it elsewhere in the composition        |
+| **Delete**  | Remove the block from the composition                               |
 
 ::: tip
-When the placeholder options are visible, click the placeholder again to reassign a different source field.
+When the block options are visible, click the block again to reassign a different source field.
 :::
 
 ## Conditional Compositions
 
-Conditional Compositions allow you to wrap parts of your composed content within condition blocks, making specific content display only when certain criteria are met. This feature leverages [Essentials Access Conditions](/essentials-for-yootheme-pro/addons/access/), providing a familiar interface for controlling content visibility.
+Conditional Compositions allow you to wrap parts of your composed content within condition blocks, making specific content display only when certain criteria are met. This feature leverages [Essentials Access Conditions](/essentials-for-yootheme-pro/addons/access/), providing the same familiar interface for controlling content visibility based on condition rules.
 
 ![Conditional Compositions Overview](./assets/composed-sources/conditional-compositions.gif)
 
@@ -43,7 +43,7 @@ To add conditions, click the `insert` button in the editor and choose _Condition
 
 ![Conditional Composition](./assets/composed-sources/conditional-composition.webp)
 
-To configure the condition for a block, click on the placeholder and select _Edit_ (or simply double-click the block). This opens a panel where you can define Condition Rules using the same flexible criteria as in Access Conditions, allowing you to precisely control when the enclosed content is shown.
+To configure conditions for a block, click on the block and select _Edit_, or simply double-click the block. This opens a panel where you can define Condition Rules using the same flexible criteria as in Access Conditions, allowing you to precisely control when the enclosed content is shown.
 
 ::: tip
 You can always add an else block later if not needed right away.
