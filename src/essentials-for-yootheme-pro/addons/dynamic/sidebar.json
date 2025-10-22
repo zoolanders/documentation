@@ -8,20 +8,12 @@
                 "link": "/"
             },
             {
+                "text": "Source Instances",
+                "link": "/source-instances"
+            },
+            {
                 "text": "Composed Sources",
                 "link": "/composed-sources"
-            },
-            {
-                "text": "Global Queries",
-                "link": "/global-queries"
-            },
-            {
-                "text": "Query Arguments",
-                "link": "/query-arguments"
-            },
-            {
-                "text": "Source Provider",
-                "link": "/provider"
             }
         ]
     },
