@@ -66,8 +66,10 @@ This modular approach allows you to break down complex content into smaller, man
 The Composed Source Editor has been enhanced with several improvements to make composing content more intuitive and efficient:
 
 - **Color-coded Blocks**: Different types of composables (dynamic content, conditions, nested sources) are visually distinguished with color coding for easier identification.
-- **Inline Editor**: The editor automatically adapts between single-line and multi-line modes depending on the context and content length.
+- **Total Counter**: A counter that helps you track the logic complexity of your composition, making it easier to understand how many elements are in your composed source.
+- **Adaptive Inline Editor**: The editor automatically adapts between single-line and multi-line modes depending on the context and content length, providing a seamless editing experience.
 - **Drag & Drop**: Rearrange your composables quickly by dragging and dropping them to new positions within the editor.
+- **Copy & Paste**: Copy and paste composables between different editors, making it easy to reuse logic across multiple fields or elements.
 - **Visual Hierarchy**: Clear visual indicators help you understand the structure and relationships between different blocks in your composition.
 
 These enhancements make it easier to create, edit, and maintain complex composed sources with conditional logic and nested structures.
