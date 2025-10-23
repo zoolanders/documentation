@@ -1,13 +1,72 @@
 <script setup>
-import { watch, nextTick, ref } from 'vue';
+import { watch, nextTick, ref, computed } from 'vue';
 import { useData, useRoute } from 'vitepress';
 import DefaultTheme from 'vitepress/theme';
 
+// Import all nav configurations
+import NavDefault from '../../nav.json';
+import NavYoo from '../../nav-yoo.json';
+
 const route = useRoute();
-const { isDark } = useData();
+const { isDark, theme } = useData();
 const { Layout } = DefaultTheme;
 
 const previousRoute = ref(null);
+
+// Compute current documentation section
+const currentDocSection = computed(() => {
+    const path = route.path;
+
+    if (path.startsWith('/essentials-for-yootheme-pro/')) {
+        return 'Essentials for YOOtheme Pro';
+    }
+
+    if (path.startsWith('/essentials-for-zoo/')) {
+        return 'Essentials for ZOO';
+    }
+
+    return null;
+});
+
+// Compute which nav to use based on current route
+const currentNav = computed(
+    () => {
+        const path = route.path;
+
+        if (path.startsWith('/essentials-for-yootheme-pro/')) {
+            // Check if path contains version pattern /vx.x
+            const versionMatch = path.match(/\/v(\d+\.\d+)/);
+            const versionText = versionMatch ? `v${versionMatch[1]}` : 'v3.0-beta';
+
+            // Return a new object to ensure Vue reactivity
+            return [
+                {
+                    ...NavYoo[0],
+                    text: versionText,
+                    items: NavYoo[0].items,
+                },
+            ];
+        }
+
+        if (path.startsWith('/essentials-for-zoo/')) {
+            return [];
+        }
+
+        return NavDefault;
+    },
+    { cache: false }
+);
+
+// Update theme nav when route changes
+watch(
+    currentNav,
+    (newNav) => {
+        if (theme.value) {
+            theme.value.nav = newNav;
+        }
+    },
+    { immediate: true }
+);
 
 function toggleResourceIconsColor(isDark) {
     if (typeof document === 'undefined') {
@@ -35,8 +94,13 @@ watch(() => isDark.value, toggleResourceIconsColor, {
 watch(
     () => route.path,
     (newPath) => {
-        if (newPath.startsWith('/essentials-for-yootheme-pro/addons')) {
-            previousRoute.value = '/essentials-for-yootheme-pro/';
+        // Check if path is in addons section, either versioned or unversioned
+        if (/^\/essentials-for-yootheme-pro\/(v[\d.]+\/)?(addons|auths)/.test(newPath)) {
+            // Extract version if present, otherwise use root
+            const versionMatch = newPath.match(/^\/essentials-for-yootheme-pro\/(v[\d.]+)\//);
+            previousRoute.value = versionMatch
+                ? `/essentials-for-yootheme-pro/${versionMatch[1]}/`
+                : '/essentials-for-yootheme-pro/';
         } else {
             previousRoute.value = null;
         }
@@ -51,6 +115,13 @@ watch(
 
 <template>
     <Layout>
+        <template #nav-bar-content-before>
+            <div v-if="currentDocSection">
+                <span style="font-weight: 600; color: white; font-size: 15px; margin-left: 10px">{{
+                    currentDocSection
+                }}</span>
+            </div>
+        </template>
         <template #sidebar-nav-before>
             <div v-if="previousRoute">
                 <a

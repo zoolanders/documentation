@@ -1,0 +1,17 @@
+[
+    {
+        "text": "v3.0",
+        "items": [
+            {
+                "text": "v3.0-beta",
+                "link": "/essentials-for-yootheme-pro/",
+                "activeMatch": "^/essentials-for-yootheme-pro/(?!v)"
+            },
+            {
+                "text": "v2.4",
+                "link": "/essentials-for-yootheme-pro/v2.4/",
+                "activeMatch": "^/essentials-for-yootheme-pro/v2.4"
+            }
+        ]
+    }
+]

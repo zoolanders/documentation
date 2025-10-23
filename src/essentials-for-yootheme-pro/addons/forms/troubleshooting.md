@@ -1,36 +1,33 @@
 # Common Issues
 
-## Missing Page Sources
-
-In certain form workflows, there may be a need for dynamic content from the current page, also known as page sources. This content is available during the form rendering, but is not during the form submission, which is why it's not listed as a mapping option. To work around this limitation page content can be mapped to a [hidden form field](./elements#hidden) and referenced in the actions using [data placeholders](./form-area#data-placeholders) or a [form area source](./form-area#form-source).
-
-::: warning Hidden, But Still Exposed
-It's important to note that although hidden field content is not visible on the page, it is still exposed in the source code of the page. If the data is sensitive, it's crucial to enable the encryption setting in the hidden field to ensure that it remains secure and protected from unauthorized access or disclosure.
-:::
-
-## Contextual Data
-
-Contextual data such as the current date and time, page URL, and user IP are not included in the submission by default. However, since this information is available within dynamic sources, it can be easily mapped to the actions when necessary.
-
-As a quick reference use these sources:
-
-| Data | Source |
-| --- | --- |
-| Datetime | *Request -> Timestamp* |
-| User IP | *Request -> IP* |
-| Page URL | *Request -> Href* |
-
 ## Wrong Date Format
 
-No matter the format used during the input of a date it value will be saved in a standard ISO format. A side effect is that when that date is referenced in an After Submit Action it format might not be the desired one.
+Date values submitted through form fields are always stored in **ISO 8601 format** (e.g., `2025-10-17T14:30:00Z`), regardless of how they appear in the input field. When referencing these dates in After Submit Actions, the ISO format may not be suitable for user-facing content like emails or notifications.
 
-There are two possible solutions:
+### Solution: Use Data Source with Date Filter
 
-1. Save the date as a new FormData value using the [Alter Action](./actions/alter) while applying the desired format during the mapping.
-2. Set a [Composed Source](/essentials-for-yootheme-pro/addons/dynamic/composed-sources) instead of raw placeholders and map the date value from the Form Submission source. Set the desired format during the field mapping process.
+Instead of using simple data placeholders, use the **Data Source** with the `date` filter to format dates:
+
+**❌ Incorrect (placeholder only):**
+
+```text
+Your appointment is scheduled for {appointment_date}
+Result: Your appointment is scheduled for 2025-10-17T14:30:00Z
+```
+
+**✅ Correct (Data Source with filter):**
+
+1. In your Email Action or other actions, use the **Dynamic Content** button
+2. Select the date field from **Form Element → Submission** source
+3. Apply the **date** filter
+4. Specify your desired format (e.g., `F j, Y` for "October 17, 2025")
 
 ## reCAPTCHA Session Expired
 
 Sometimes, mostly when submitting form that contains a large file upload, Google reCAPTCHA can report an error saying that the "session is expired".
 
 The solution unfortunately here is to change captcha system, since this is a know issue on google recaptcha's systems when dealing with large form file uploads and slow networks.
+
+## Missing Page Sources
+
+In certain form workflows, you may need to access dynamic content from the current page (page sources) within your form actions. This content is available during form rendering but becomes unavailable during form submission, which is why it's not listed as a mapping option in After Submit Actions.

@@ -2,7 +2,7 @@
 
 Routing is the process of mapping URLs to specific views within a framework. Since YOOtheme Pro Sources do not support routing natively, we must use some workarounds to "emulate" routing for these sources.
 
-Let's take Google Photos as an example of a source we would like to route. Assume our Google Photos account has two albums, each containing a set of photos.
+Let's take Google Photos as an example of a source we would like to route. Assuming there are two albums, each containing a set of photos.
 
 ![Google Photos Albums](./assets/routing/google-photos-albums.png)
 
@@ -12,6 +12,10 @@ We can take a few approaches to route these albums, each with its pros and cons.
 | --- | --- | --- |
 | [Page as Route](#page-as-route) | `/trips/album?id={albumid}` | Simple setup, works with any new album, but not good for SEO. Choose this approach when convenience is more important than SEO. |
 | [Articles as Route](#articles-as-route) | `/trips/{alias}` | Great for SEO, but requires manual intervention each time there is a new album. Choose this approach when SEO is important. |
+
+::: warning Notice
+The Google Photos source has been deprecated, but this example remains applicable to any source.
+:::
 
 ## Page as Route
 

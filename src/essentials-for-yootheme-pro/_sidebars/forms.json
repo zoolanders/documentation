@@ -1,0 +1,238 @@
+[
+    {
+        "text": "Form Builder",
+        "base": "${base}/addons/forms",
+        "items": [
+            {
+                "text": "Getting Started",
+                "link": "/"
+            },
+            {
+                "text": "Form Element",
+                "link": "/form-element"
+            },
+            {
+                "text": "Dynamic Data",
+                "link": "/dynamic-data"
+            },
+            {
+                "text": "Conditional Logic",
+                "link": "/conditional-logic"
+            },
+            {
+                "text": "Validation",
+                "link": "/validation"
+            },
+            {
+                "text": "Styling",
+                "link": "/styling"
+            }
+        ]
+    },
+    {
+        "text": "Elements",
+        "base": "${base}/addons/forms",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/elements"
+            },
+            {
+                "text": "Input",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Input",
+                        "link": "/elements/input"
+                    },
+                    {
+                        "text": "Textarea",
+                        "link": "/elements/textarea"
+                    },
+                    {
+                        "text": "Range",
+                        "link": "/elements/range"
+                    }
+                ]
+            },
+            {
+                "text": "Selection",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Select",
+                        "link": "/elements/select"
+                    },
+                    {
+                        "text": "Checkbox",
+                        "link": "/elements/checkbox"
+                    },
+                    {
+                        "text": "Radio",
+                        "link": "/elements/radio"
+                    }
+                ]
+            },
+            {
+                "text": "Other",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Button",
+                        "link": "/elements/button"
+                    },
+                    {
+                        "text": "Upload",
+                        "link": "/elements/upload"
+                    },
+                    {
+                        "text": "Hidden",
+                        "link": "/elements/hidden"
+                    },
+                    {
+                        "text": "Fieldset",
+                        "link": "/elements/fieldset"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Actions",
+        "base": "${base}/addons/forms",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/after-submit-actions"
+            },
+            {
+                "text": "Basic",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Alter",
+                        "link": "/actions/alter"
+                    },
+                    {
+                        "text": "Email",
+                        "link": "/actions/email"
+                    },
+                    {
+                        "text": "Message",
+                        "link": "/actions/message"
+                    },
+                    {
+                        "text": "Validate",
+                        "link": "/actions/validate"
+                    }
+                ]
+            },
+            {
+                "text": "Data",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Airtable",
+                        "link": "/actions/airtable"
+                    },
+                    {
+                        "text": "CSV",
+                        "link": "/actions/csv"
+                    },
+                    {
+                        "text": "Database",
+                        "link": "/actions/database"
+                    },
+                    {
+                        "text": "Google Sheets",
+                        "link": "/actions/google-sheets"
+                    }
+                ]
+            },
+            {
+                "text": "Marketing",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "AcyMailing",
+                        "link": "/actions/acymailing"
+                    },
+                    {
+                        "text": "Brevo",
+                        "link": "/actions/brevo"
+                    },
+                    {
+                        "text": "Mailchimp",
+                        "link": "/actions/mailchimp"
+                    },
+                    {
+                        "text": "MailerLite",
+                        "link": "/actions/mailerlite"
+                    }
+                ]
+            },
+            {
+                "text": "Other",
+                "collapsed": true,
+                "items": [
+                    {
+                        "text": "Download",
+                        "link": "/actions/download"
+                    },
+                    {
+                        "text": "Redirect",
+                        "link": "/actions/redirect"
+                    },
+                    {
+                        "text": "Webhook",
+                        "link": "/actions/webhook"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "text": "Troubleshooting",
+        "base": "${base}/addons/forms",
+        "items": [
+            {
+                "text": "Common Issues",
+                "link": "/troubleshooting"
+            },
+            {
+                "text": "Submission Errors",
+                "link": "/submission-errors"
+            },
+            {
+                "text": "Email Delivery",
+                "link": "/email-delivery"
+            },
+            {
+                "text": "SPAM",
+                "link": "/spam"
+            }
+        ]
+    },
+    {
+        "text": "Advanced",
+        "base": "${base}/addons/forms",
+        "items": [
+            {
+                "text": "Form Events",
+                "link": "/form-events"
+            },
+            {
+                "text": "Custom Form Action",
+                "link": "/custom-action"
+            },
+            {
+                "text": "Custom Form Element",
+                "link": "/custom-element"
+            },
+            {
+                "text": "Form in a Modal",
+                "link": "/form-in-a-modal"
+            }
+        ]
+    }
+]
