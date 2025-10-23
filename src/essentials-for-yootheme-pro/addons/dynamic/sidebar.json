@@ -8,16 +8,12 @@
                 "link": "/"
             },
             {
+                "text": "Source Instances",
+                "link": "/source-instances"
+            },
+            {
                 "text": "Composed Sources",
                 "link": "/composed-sources"
-            },
-            {
-                "text": "Global Queries",
-                "link": "/global-queries"
-            },
-            {
-                "text": "Query Arguments",
-                "link": "/query-arguments"
             }
         ]
     },
@@ -62,8 +58,8 @@
                 "link": "/google-calendar"
             },
             {
-                "text": "Google Places",
-                "link": "/google-places"
+                "text": "Google Photos",
+                "link": "/google-photos"
             },
             {
                 "text": "Google Sheets",
@@ -72,10 +68,6 @@
             {
                 "text": "Instagram",
                 "link": "/instagram"
-            },
-            {
-                "text": "Joomla API",
-                "link": "/joomla-api"
             },
             {
                 "text": "LinkedIn",
@@ -96,10 +88,6 @@
             {
                 "text": "Vimeo",
                 "link": "/vimeo"
-            },
-            {
-                "text": "WordPress API",
-                "link": "/wordpress-api"
             },
             {
                 "text": "XML",
