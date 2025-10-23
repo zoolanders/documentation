@@ -10,9 +10,9 @@ Create custom layout libraries which layouts can be stored locally or shared acr
 
 ## Create Library
 
-Let's create a custom layout library within the [Layout Libraries manager](/essentials-for-yootheme-pro/settings#layout-libraries).
+Let's create a custom layout library within the [Layout Libraries manager](../../settings#layout-libraries).
 
-![Layout Libraries Manager](/essentials-for-yootheme-pro/assets/layout-libraries-manager.gif)
+![Layout Libraries Manager](../../assets/layout-libraries-manager.gif)
 
 1. Open the Layout Libraries manager.
 1. Click on the _New Library_ button and set a name for it.

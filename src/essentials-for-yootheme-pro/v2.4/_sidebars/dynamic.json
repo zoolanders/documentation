@@ -1,33 +1,25 @@
 [
     {
         "text": "Dynamic Content",
-        "base": "/essentials-for-yootheme-pro/addons/dynamic",
+        "base": "${base}/addons/dynamic",
         "items": [
             {
                 "text": "Getting Started",
                 "link": "/"
             },
             {
+                "text": "Source Instances",
+                "link": "/source-instances"
+            },
+            {
                 "text": "Composed Sources",
                 "link": "/composed-sources"
-            },
-            {
-                "text": "Global Queries",
-                "link": "/global-queries"
-            },
-            {
-                "text": "Query Arguments",
-                "link": "/query-arguments"
-            },
-            {
-                "text": "Source Provider",
-                "link": "/provider"
             }
         ]
     },
     {
         "text": "Sources",
-        "base": "/essentials-for-yootheme-pro/addons/dynamic/sources",
+        "base": "${base}/addons/dynamic/sources",
         "items": [
             {
                 "text": "Request",
@@ -109,7 +101,7 @@
     },
     {
         "text": "Advanced",
-        "base": "/essentials-for-yootheme-pro",
+        "base": "${base}",
         "items": [
             {
                 "text": "Source Routing",

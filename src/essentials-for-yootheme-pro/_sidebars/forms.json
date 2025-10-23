@@ -1,7 +1,7 @@
 [
     {
         "text": "Form Builder",
-        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "base": "${base}/addons/forms",
         "items": [
             {
                 "text": "Getting Started",
@@ -31,7 +31,7 @@
     },
     {
         "text": "Elements",
-        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "base": "${base}/addons/forms",
         "items": [
             {
                 "text": "Overview",
@@ -99,7 +99,7 @@
     },
     {
         "text": "Actions",
-        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "base": "${base}/addons/forms",
         "items": [
             {
                 "text": "Overview",
@@ -193,7 +193,7 @@
     },
     {
         "text": "Troubleshooting",
-        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "base": "${base}/addons/forms",
         "items": [
             {
                 "text": "Common Issues",
@@ -215,7 +215,7 @@
     },
     {
         "text": "Advanced",
-        "base": "/essentials-for-yootheme-pro/addons/forms",
+        "base": "${base}/addons/forms",
         "items": [
             {
                 "text": "Form Events",

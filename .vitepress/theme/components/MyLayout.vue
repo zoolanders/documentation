@@ -36,7 +36,7 @@ const currentNav = computed(
         if (path.startsWith('/essentials-for-yootheme-pro/')) {
             // Check if path contains version pattern /vx.x
             const versionMatch = path.match(/\/v(\d+\.\d+)/);
-            const versionText = versionMatch ? `v${versionMatch[1]}` : 'v3.0';
+            const versionText = versionMatch ? `v${versionMatch[1]}` : 'v3.0-beta';
 
             // Return a new object to ensure Vue reactivity
             return [
@@ -94,8 +94,13 @@ watch(() => isDark.value, toggleResourceIconsColor, {
 watch(
     () => route.path,
     (newPath) => {
-        if (newPath.startsWith('/essentials-for-yootheme-pro/addons')) {
-            previousRoute.value = '/essentials-for-yootheme-pro/';
+        // Check if path is in addons section, either versioned or unversioned
+        if (/^\/essentials-for-yootheme-pro\/(v[\d.]+\/)?(addons|auths)/.test(newPath)) {
+            // Extract version if present, otherwise use root
+            const versionMatch = newPath.match(/^\/essentials-for-yootheme-pro\/(v[\d.]+)\//);
+            previousRoute.value = versionMatch
+                ? `/essentials-for-yootheme-pro/${versionMatch[1]}/`
+                : '/essentials-for-yootheme-pro/';
         } else {
             previousRoute.value = null;
         }

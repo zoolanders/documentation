@@ -10,7 +10,7 @@ collection: Device
     <!--@include: ./assets/rule-ip-geolocation.svg-->
 </div>
 
-The **IP Geolocation Rule** evaluates whether the device ip location, determined by [MaxMind GeoIp Database](/essentials-for-yootheme-pro/settings#geoip-database), matches one of the specified patterns.
+The **IP Geolocation Rule** evaluates whether the device ip location, determined by [MaxMind GeoIp Database](../../../settings#geoip-database), matches one of the specified patterns.
 
 ![IP Geolocation Rule Settings](./assets//rule-ip-geolocation.webp)
 

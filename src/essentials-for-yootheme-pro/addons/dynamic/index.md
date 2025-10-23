@@ -58,6 +58,6 @@ If you want your custom sources to support this feature, add `'source' => 'true'
 
 ## Global Queries
 
-A global query is a custom source query made available as a global dynamic source option. It can help speed up the creation of layouts that use complex queries over and over. Those can be managed within the [Global Queries Manager](/essentials-for-yootheme-pro/settings#global-queries).
+A global query is a custom source query made available as a global dynamic source option. It can help speed up the creation of layouts that use complex queries over and over. Those can be managed within the [Global Queries Manager](../../settings#global-queries).
 
 ![Global Queries](./assets/global-queries.webp)

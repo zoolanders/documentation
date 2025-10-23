@@ -1,7 +1,7 @@
 [
     {
         "text": "Elements",
-        "base": "/essentials-for-yootheme-pro/addons/elements",
+        "base": "${base}/addons/elements",
         "items": [
             {
                 "text": "Getting Started",
@@ -11,7 +11,7 @@
     },
     {
         "text": "Reference",
-        "base": "/essentials-for-yootheme-pro/addons/elements",
+        "base": "${base}/addons/elements",
         "items": [
             {
                 "text": "Chart Element",

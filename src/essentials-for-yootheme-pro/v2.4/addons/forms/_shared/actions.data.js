@@ -1,6 +1,6 @@
 import { createContentLoader } from 'vitepress';
 
-export default createContentLoader('/essentials-for-yootheme-pro/addons/forms/actions/*.md', {
+export default createContentLoader('/essentials-for-yootheme-pro/v2.4/addons/forms/actions/*.md', {
     excerpt: true,
     transform(rawData) {
         return rawData

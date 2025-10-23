@@ -1,7 +1,7 @@
 [
     {
         "text": "Dynamic Content",
-        "base": "/essentials-for-yootheme-pro/addons/dynamic",
+        "base": "${base}/addons/dynamic",
         "items": [
             {
                 "text": "Getting Started",
@@ -19,7 +19,7 @@
     },
     {
         "text": "Sources",
-        "base": "/essentials-for-yootheme-pro/addons/dynamic/sources",
+        "base": "${base}/addons/dynamic/sources",
         "items": [
             {
                 "text": "Request",
@@ -101,7 +101,7 @@
     },
     {
         "text": "Advanced",
-        "base": "/essentials-for-yootheme-pro",
+        "base": "${base}",
         "items": [
             {
                 "text": "Source Routing",

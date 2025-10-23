@@ -11,13 +11,6 @@ Essentials for YOOtheme Pro is a comprehensive set of free and premium addons fo
 - **Icon Collections**: Expand your icon library with custom collections
 - **Builder Elements**: Add new elements to the YOOtheme Pro page builder
 
-## Quick Start
-
-1. **[Install](#installation)** the Essentials plugin on your site
-2. **[Configure Settings](/essentials-for-yootheme-pro/settings)** in the Customizer panel
-3. **[Create Your First Source](/essentials-for-yootheme-pro/addons/dynamic/)** to start using dynamic content
-4. **[Explore Addons](/essentials-for-yootheme-pro/addons/forms/)** to discover all available features
-
 ## Requirements
 
 Ensure your server and site meet the following specifications for optimal performance:
@@ -62,8 +55,8 @@ After successful installation, verify that the **Essentials YOOtheme Pro** plugi
 ### Step 3: Initial Configuration
 
 1. Navigate to **Customizer → Essentials** to access the settings panel
-2. Review and configure the [basic settings](/essentials-for-yootheme-pro/settings)
-3. Set up your [Download ID](/essentials-for-yootheme-pro/updating#download-id) for automatic updates
+2. Review and configure the [basic settings](./settings)
+3. Set up your [Download ID](./updating#download-id) for automatic updates
 
 ::: tip Installation Directory
 
@@ -74,12 +67,3 @@ After successful installation, verify that the **Essentials YOOtheme Pro** plugi
 ::: warning First-Time Setup
 After installation, you may need to clear your site's cache and refresh the Customizer for all features to become available.
 :::
-
-## Next Steps
-
-Once installed and configured, explore these key areas to get started:
-
-- **[Settings](/essentials-for-yootheme-pro/settings)**: Configure global options and create your first sources
-- **[Dynamic Content](/essentials-for-yootheme-pro/addons/dynamic/)**: Learn to create and use dynamic content sources
-- **[Form Builder](/essentials-for-yootheme-pro/addons/forms/)**: Build custom forms with advanced features
-- **[Troubleshooting](/essentials-for-yootheme-pro/troubleshooting)**: Solutions to common issues

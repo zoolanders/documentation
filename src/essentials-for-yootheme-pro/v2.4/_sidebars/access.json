@@ -1,7 +1,7 @@
 [
     {
         "text": "Access Conditions",
-        "base": "/essentials-for-yootheme-pro/addons/access",
+        "base": "${base}/addons/access",
         "items": [
             {
                 "text": "Getting Started",
@@ -19,7 +19,7 @@
     },
     {
         "text": "Rules",
-        "base": "/essentials-for-yootheme-pro/addons/access/rules",
+        "base": "${base}/addons/access/rules",
         "items": [
             {
                 "text": "Dynamic",
@@ -112,7 +112,7 @@
     },
     {
         "text": "Developer",
-        "base": "/essentials-for-yootheme-pro/addons/access",
+        "base": "${base}/addons/access",
         "items": [
             {
                 "text": "Custom Condition Rule",

@@ -1,7 +1,7 @@
 [
     {
         "text": "Layout Libraries",
-        "base": "/essentials-for-yootheme-pro/addons/layouts",
+        "base": "${base}/addons/layouts",
         "items": [
             {
                 "text": "Getting Started",

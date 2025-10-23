@@ -7,7 +7,7 @@
 The **LinkedIn Source** feeds data from the [LinkedIn](https://linkedin.com/) social platform supporting Organization [Post](#organization-post-query) and [Posts](#organization-posts-query) queries.
 
 :::warning LinkedIn Dev App Required
-Notice that this source requires a [Custom LinkedIn Dev App](/essentials-for-yootheme-pro/auths/custom-linkedin-dev-app) for authentication.
+Notice that this source requires a [Custom LinkedIn Dev App](../../../auths/custom-linkedin-dev-app) for authentication.
 :::
 
 ## Settings

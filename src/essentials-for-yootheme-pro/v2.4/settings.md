@@ -12,7 +12,7 @@ Create and manage dynamic content [sources](./addons/dynamic/). Those will becom
 
 ## Global Queries
 
-Create and manage source [Global Queries](./addons/dynamic/global-queries). Those will become available as sources in the builder dynamic workflow.
+Create and manage source [Global Queries](./addons/dynamic/#global-queries). Those will become available as sources in the builder dynamic workflow.
 
 ![Essentials Global Queries Manager](./assets/global-queries-manager.gif)
 

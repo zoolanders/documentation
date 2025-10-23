@@ -39,7 +39,7 @@ Security is at the core of the auth workflow. Understanding the underlying conce
 
 ### Encryption
 
-All auth tokens, keys, and secrets are **encrypted** and stored in the [Essentials Settings](/essentials-for-yootheme-pro/settings) database table. This ensures that even if the data is accessed, it remains unreadable to unauthorized parties.
+All auth tokens, keys, and secrets are **encrypted** and stored in the [Essentials Settings](../../settings) database table. This ensures that even if the data is accessed, it remains unreadable to unauthorized parties.
 
 ### OAuth Principles
 
@@ -53,7 +53,7 @@ When using the ZOOlanders OAuth App, no login or token information is stored by 
 
 ## Auth Manager
 
-Access the Auth Manager in the [Essentials Advanced](/essentials-for-yootheme-pro/settings#auths) section. Here, you can manage OAuths, keys, and secrets. Note that new auths cannot be created here, as each is tied to specific scopes and purposes defined during layout creation.
+Access the Auth Manager in the [Essentials Advanced](../../settings#auths) section. Here, you can manage OAuths, keys, and secrets. Note that new auths cannot be created here, as each is tied to specific scopes and purposes defined during layout creation.
 
 ![Auth Manager](./assets/auths-manager.gif)
 

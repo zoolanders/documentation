@@ -10,9 +10,9 @@ Essentials Icons is a collection of +12k icons for YOOtheme Pro icon library wit
 
 ## Add an Icon Collection
 
-Before being able to choose an icon we must first install a collection within the [Icon Collections manager](/essentials-for-yootheme-pro/settings#icon-collections).
+Before being able to choose an icon we must first install a collection within the [Icon Collections manager](../../settings#icon-collections).
 
-![Icon Collections Manager](/essentials-for-yootheme-pro/assets/icon-collections-manager.gif)
+![Icon Collections Manager](../../assets/icon-collections-manager.gif)
 
 1. Open the manager within _Customizer -> Essentials_ panel.
 1. Click on the _Add Collection_ button and choose some collection.

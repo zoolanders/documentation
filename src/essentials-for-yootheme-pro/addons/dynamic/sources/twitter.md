@@ -7,7 +7,7 @@
 The **Twitter Source** feeds data from [Twitter](https://www.twitter.com) supporting [My Tweets](#my-tweets-query) and [User](#user-query) queries.
 
 :::warning Twitter Dev App Required
-Notice that this source requires a [Custom Twitter Dev App](/essentials-for-yootheme-pro/auths/custom-twitter-dev-app) for authentication.
+Notice that this source requires a [Custom Twitter Dev App](../../../auths/custom-twitter-dev-app) for authentication.
 :::
 
 ## Settings

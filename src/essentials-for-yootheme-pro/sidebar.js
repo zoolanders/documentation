@@ -1,14 +1,37 @@
-import AuthsSidebar from './auths/sidebar.json';
-import AccessAddonSidebar from './addons/access/sidebar.json';
-import DynamicAddonSidebar from './addons/dynamic/sidebar.json';
-import ElementAddonSidebar from './addons/elements/sidebar.json';
-import FormsAddonSidebar from './addons/forms/sidebar.json';
-import IconsAddonSidebar from './addons/icons/sidebar.json';
+import AccessSidebar from './_sidebars/access.json';
+import AuthsSidebar from './_sidebars/auths.json';
+import DynamicSidebar from './_sidebars/dynamic.json';
+import ElementsSidebar from './_sidebars/elements.json';
+import FormsSidebar from './_sidebars/forms.json';
+import IconsSidebar from './_sidebars/icons.json';
+import LayoutsSidebar from './_sidebars/layouts.json';
 
-export default [
+const basePath = '/essentials-for-yootheme-pro';
+
+// iterate all sidebar items to update their base paths
+const updateBasePaths = (sidebar) => {
+    sidebar.forEach((item) => {
+        if (item.base) {
+            item.base = item.base.replace('${base}', basePath);
+        }
+        if (item.items) {
+            updateBasePaths(item.items);
+        }
+    });
+};
+
+updateBasePaths(AccessSidebar);
+updateBasePaths(AuthsSidebar);
+updateBasePaths(FormsSidebar);
+updateBasePaths(DynamicSidebar);
+updateBasePaths(IconsSidebar);
+updateBasePaths(ElementsSidebar);
+updateBasePaths(LayoutsSidebar);
+
+const MainSidebar = [
     {
         text: 'Getting Started',
-        base: '/essentials-for-yootheme-pro',
+        base: basePath,
         items: [
             {
                 text: 'Introduction',
@@ -22,7 +45,7 @@ export default [
     },
     {
         text: 'Addons',
-        base: '/essentials-for-yootheme-pro/addons',
+        base: `${basePath}/addons`,
         items: [
             {
                 text: 'Form Builder',
@@ -52,7 +75,7 @@ export default [
     },
     {
         text: 'Advanced',
-        base: '/essentials-for-yootheme-pro',
+        base: basePath,
         items: [
             {
                 text: 'Conditions',
@@ -78,6 +101,7 @@ export default [
     },
     {
         text: 'Reference',
+        base: basePath,
         items: [
             {
                 text: 'Settings',
@@ -87,41 +111,11 @@ export default [
                 text: 'Glossary',
                 link: '/glossary',
             },
-            {
-                ...FormsAddonSidebar[1],
-                text: 'Forms Actions',
-                collapsed: true,
-            },
-            {
-                ...DynamicAddonSidebar[1],
-                collapsed: true,
-                text: 'Source Providers',
-            },
-            {
-                ...AccessAddonSidebar[1],
-                text: 'Access Rules',
-                collapsed: true,
-            },
-            {
-                ...IconsAddonSidebar[1],
-                text: 'Icon Collections',
-                collapsed: true,
-            },
-            {
-                ...ElementAddonSidebar[1],
-                collapsed: true,
-                text: 'Builder Elements',
-            },
-            {
-                ...AuthsSidebar[1],
-                text: 'Auth Drivers',
-                collapsed: true,
-            },
         ],
     },
     {
         text: 'Troubleshooting',
-        base: '/essentials-for-yootheme-pro',
+        base: `${basePath}/troubleshooting`,
         items: [
             {
                 text: 'Common Issues',
@@ -130,3 +124,14 @@ export default [
         ],
     },
 ];
+
+export default {
+    [basePath]: MainSidebar,
+    [`${basePath}/auths/`]: AuthsSidebar,
+    [`${basePath}/addons/icons`]: IconsSidebar,
+    [`${basePath}/addons/forms`]: FormsSidebar,
+    [`${basePath}/addons/access`]: AccessSidebar,
+    [`${basePath}/addons/dynamic`]: DynamicSidebar,
+    [`${basePath}/addons/layouts`]: LayoutsSidebar,
+    [`${basePath}/addons/elements`]: ElementsSidebar,
+};

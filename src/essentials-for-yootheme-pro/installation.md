@@ -17,7 +17,7 @@ After successful installation, verify that the **Essentials YOOtheme Pro** plugi
 ### Step 3: Initial Configuration
 
 1. Navigate to **Customizer → Essentials** to access the settings panel
-2. Review and configure the [basic settings](/essentials-for-yootheme-pro/settings)
+2. Review and configure the [basic settings](./settings)
 3. Set up your [Download ID](#download-id) for automatic updates
 
 ::: tip Installation Directory

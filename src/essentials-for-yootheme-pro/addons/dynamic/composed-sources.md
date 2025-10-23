@@ -35,7 +35,7 @@ When the block options are visible, click the block again to reassign a differen
 
 ## Conditional Compositions
 
-Conditional Compositions allow you to wrap parts of your composed content within condition blocks, making specific content display only when certain criteria are met. This feature leverages [Essentials Access Conditions](/essentials-for-yootheme-pro/addons/access/), providing the same familiar interface for controlling content visibility based on condition rules.
+Conditional Compositions allow you to wrap parts of your composed content within condition blocks, making specific content display only when certain criteria are met. This feature leverages [Essentials Access Conditions](../../addons/access/), providing the same familiar interface for controlling content visibility based on condition rules.
 
 ![Conditional Compositions Overview](./assets/composed-sources/conditional-compositions.gif)
 

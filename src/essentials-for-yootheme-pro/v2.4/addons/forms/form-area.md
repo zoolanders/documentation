@@ -80,7 +80,7 @@ As a quick reference a list of available placeholders can be accessed by clickin
 </small>
 
 ::: tip
-For a more advanced data workflow combine a [composed source](/essentials-for-yootheme-pro/addons/dynamic/composed-sources) with a [forma area dynamic source](./form-area#form-area-dynamic-source).
+For a more advanced data workflow combine a [composed source](../../addons/dynamic/composed-sources) with a [forma area dynamic source](./form-area#form-area-dynamic-source).
 :::
 
 ## Form Source

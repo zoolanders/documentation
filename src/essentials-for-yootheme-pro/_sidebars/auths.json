@@ -1,7 +1,7 @@
 [
     {
         "text": "Auths, Keys & Secrets",
-        "base": "/essentials-for-yootheme-pro/auths",
+        "base": "${base}/auths",
         "items": [
             {
                 "text": "Overview",
@@ -11,7 +11,7 @@
     },
     {
         "text": "Drivers",
-        "base": "/essentials-for-yootheme-pro/auths/drivers",
+        "base": "${base}/auths/drivers",
         "items": [
             {
                 "text": "Airtable",
@@ -65,7 +65,7 @@
     },
     {
         "text": "Advanced",
-        "base": "/essentials-for-yootheme-pro/auths",
+        "base": "${base}/auths",
         "items": [
             {
                 "text": "Custom Twitter Dev App",
