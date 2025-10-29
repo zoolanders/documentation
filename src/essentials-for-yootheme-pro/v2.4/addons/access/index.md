@@ -10,7 +10,7 @@ Compose rules that will determine the evaluation criteria for rendering an eleme
 
 ## Open the Condition Panel
 
-Navigate to the Builder and select the element you want to condition. From there, open the Access Condition Rules panel located under the [Advanced Settings](https://yootheme.com/support/yootheme-pro/joomla/elements).
+Go to the Builder and select the element you want to condition. From there, open the Access Condition Rules panel located under the [Advanced Settings](https://yootheme.com/support/yootheme-pro/joomla/elements).
 
 ![Open Access Condition Panel](./assets/open-condition-panel.gif)
 

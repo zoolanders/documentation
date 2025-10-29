@@ -47,7 +47,7 @@ These errors indicate that your access token or session has expired or become in
 
 **Solution**:
 
-1. Navigate to _Essentials → Advanced → Auths_ panel
+1. Go to _Essentials → Advanced → Auths_ panel
 2. Locate the affected authentication entry
 3. Follow the prompts to re-authenticate
 4. Save your changes and retry the failed action
@@ -73,7 +73,7 @@ This issue arises when the Essentials configuration includes multiple entries fo
 
 **Steps to Resolve**:
 
-1. Navigate to the `Essentials -> Advanced` panel and export the current configuration.
+1. Go to the `Essentials -> Advanced` panel and export the current configuration.
 2. Open the exported configuration file and locate the resources section, eg `sources`.
 3. Carefully identify and remove any duplicate entries within the resource section.
 4. Save the updated configuration file and re-import it via the `Essentials -> Advanced` panel.
