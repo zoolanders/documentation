@@ -46,20 +46,20 @@ Before setting up automatic updates, ensure you have:
 
 An Essentials Download ID is a unique alphanumeric code generated for each website. It is required to update Essentials. You can find and manage your Download IDs in the [Download IDs](https://zoolanders.com/account/download-ids) section of your account.
 
-![Download ID](/assets/download-id.png)
+![Download ID](./assets/download-id.png)
 
 Once obtained, set it in your site, an action that slightly differs for each platform.
 
 ::: details Joomla
-Locate the **ZOOlanders Installer Plugin** and input the Download ID into it settings.
+![Download ID Joomla](./assets/download-id-joomla.png)
 
-![Download ID Joomla](/assets/download-id-joomla.png)
+Go to `System -> Update -> Update Sites` and locate `Essentials YOOtheme Pro` where you can input your Download ID.
 :::
 
 ::: details WordPress
-Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Download ID into it settings.
+![Download ID WordPress](./assets/download-id-wordpress.png)
 
-![Download ID WordPress](./assets/essential-settings-wordpress.png)
+Go to `Global Settings -> ZOOlanders` panel where you can input your Download ID.
 :::
 
 ### Minimum Stability
@@ -72,7 +72,7 @@ Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Down
 ::: details Joomla
 In Joomla go to the Installer Options in the **Global Configuration**.
 
-![Minimum Stability Joomla](/assets/minimum-stability.webp)
+![Minimum Stability Joomla](./assets/minimum-stability.webp)
 
 **Notice** that this option applies to all theme and extension updates.
 :::
@@ -80,7 +80,7 @@ In Joomla go to the Installer Options in the **Global Configuration**.
 ::: details WordPress
 In WordPress go to the **ZOOlanders Settings Panel** in Global Settings.
 
-![Minimum Stability WordPress](./assets/essential-settings-wordpress.png)
+![Minimum Stability WordPress](./assets/download-id-wordpress.png)
 :::
 
 ### Updating Major Release

@@ -29,11 +29,15 @@ Essentials can be updated using the platform update system. Whenever a new versi
 
 An Essentials Download ID is an alphanumeric code and is created individually for each website. Without it, you won't be able to update Essentials. You can find and manage your IDs in the [Download IDs](https://zoolanders.com/account/download-ids) section of your account.
 
-![Download ID](/assets/download-id.png)
+![Download ID](./assets/download-id.png)
 
 Once obtained, set it in your site locate the **ZOOlanders Installer Plugin** and input the Download ID into it settings.
 
-![Download ID Joomla](/assets/download-id-joomla.png)
+![Download ID Joomla](./assets/download-id-installer.png)
+
+In Joomla 4+, if the installer is missing, navigate to `System -> Update -> Update Sites` and locate `Essentials YOOtheme Pro` where you can input your Download ID instead.
+
+![Download ID Joomla](./assets/download-id-joomla.png)
 
 ### Minimum Stability
 
@@ -41,11 +45,11 @@ Choose the minimum stability for Essential updates on your site, either Stable o
 
 | Release | Description |
 | --- | --- |
-| *Stable* | This release is a version which has been thoroughly tested by both our team and the community. Use it for production sites. |
-| *Beta* | This release is a version which has been thoroughly tested by our team. Use it to help us test and prevent issues in the Stable release. |
+| _Stable_ | This release is a version which has been thoroughly tested by both our team and the community. Use it for production sites. |
+| _Beta_ | This release is a version which has been thoroughly tested by our team. Use it to help us test and prevent issues in the Stable release. |
 
 Go to the Installer Options in the **Global Configuration**.
 
-![Minimum Stability Joomla](/assets/minimum-stability.webp)
+![Minimum Stability Joomla](./assets/minimum-stability.webp)
 
 **Notice** that this option applies to all theme and extension updates.

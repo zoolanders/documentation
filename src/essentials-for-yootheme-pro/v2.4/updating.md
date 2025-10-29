@@ -5,6 +5,7 @@ Keep your Essentials installation up-to-date with the latest features and securi
 ## Prerequisites for Automatic Updates
 
 Before setting up automatic updates, ensure you have:
+
 1. A valid Download ID from your ZOOlanders account
 2. The correct minimum stability setting configured
 3. A recent backup of your site
@@ -13,20 +14,24 @@ Before setting up automatic updates, ensure you have:
 
 An Essentials Download ID is a unique alphanumeric code generated for each website. It is required to update Essentials. You can find and manage your Download IDs in the [Download IDs](https://zoolanders.com/account/download-ids) section of your account.
 
-![Download ID](/assets/download-id.png)
+![Download ID](./assets/download-id.png)
 
 Once obtained, set it in your site, an action that slightly differs for each platform.
 
 ::: details Joomla
 Locate the **ZOOlanders Installer Plugin** and input the Download ID into it settings.
 
-![Download ID Joomla](/assets/download-id-joomla.png)
+![Download ID Installer](./assets/download-id-installer.png)
+
+In Joomla 4+, if the installer is missing, go to `System -> Update -> Update Sites` and locate `Essentials YOOtheme Pro` where you can input your Download ID instead.
+
+![Download ID Joomla](./assets/download-id-joomla.png)
 :::
 
 ::: details WordPress
 Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Download ID into it settings.
 
-![Download ID WordPress](./assets/essential-settings-wordpress.png)
+![Download ID WordPress](./assets/download-id-wordpress.png)
 :::
 
 ## Minimum Stability
@@ -39,7 +44,7 @@ Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Down
 ::: details Joomla
 In Joomla go to the Installer Options in the **Global Configuration**.
 
-![Minimum Stability Joomla](/assets/minimum-stability.webp)
+![Minimum Stability Joomla](./assets/minimum-stability.webp)
 
 **Notice** that this option applies to all theme and extension updates.
 :::
@@ -47,7 +52,7 @@ In Joomla go to the Installer Options in the **Global Configuration**.
 ::: details WordPress
 In WordPress go to the **ZOOlanders Settings Panel** in Global Settings.
 
-![Minimum Stability WordPress](./assets/essential-settings-wordpress.png)
+![Minimum Stability WordPress](./assets/download-id-wordpress.png)
 :::
 
 ## Updating Major Release
@@ -55,10 +60,10 @@ In WordPress go to the **ZOOlanders Settings Panel** in Global Settings.
 When updating Essentials v1.x to v2.x, or v2.2 to v2.3, plan carefully as those version introduce major changes and have specific compatibility with YOOtheme Pro. In order to properly update, follow these steps in the given order.
 
 1. Make a full, restorable backup of the site.
-1. Head over to _System > Plugins_ and disable the _Essentials_ plugin.
+1. Head over to *System > Plugins* and disable the *Essentials* plugin.
 1. Upgrade YOOtheme Pro to latest stable version.
 1. Upgrade Essentials to latest stable version.
-1. Head over to the plugins manager and enable back the _Essentials_ plugin.
+1. Head over to the plugins manager and enable back the *Essentials* plugin.
 
 Thoroughly clear all caches, and test. If anything goes wrong, restore the backup and reach out support.
 
