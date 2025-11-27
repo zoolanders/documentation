@@ -8,6 +8,6 @@ There are only a few requirements, and they should be fulfilled by any modern we
 
 - PHP 7.4+
 - YOOtheme ZOO 4
-- Joomla 3/4/5
+- Joomla 3/4/5/6
 
 Also take a look at the specific requirements of [ZOO](https://yootheme.com/support/zoo/installation#requirements) and [Joomla](https://docs.joomla.org/J4.x:Installing_Joomla#Requirements).
