@@ -9,13 +9,14 @@ Triggers before submission allowing to prevent the action.
 ```js
 UIkit.util.ready(function () {
   // local
-  UIkit.util.on('#form-id', 'form:submit', function (e) {
+  UIkit.util.on('#form-id', 'form:submit', function (e, ctx) {
+    // ctx = {data}
     // e.preventDefault();
   });
 
   // global
   UIkit.util.on(document, 'yooessentials-form:submit', function (e, ctx) {
-    // ctx = {form}
+    // ctx = {form, data}
     // e.preventDefault();
   });
 });
