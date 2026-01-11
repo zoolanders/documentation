@@ -124,7 +124,10 @@ watch(
         </template>
         <template #sidebar-nav-before>
             <div
-                v-if="!route.path.includes('/v2.4')"
+                v-if="
+                    route.path.startsWith('/essentials-for-yootheme-pro/') &&
+                    !route.path.includes('/v2.4')
+                "
                 class="warning custom-block"
                 style="margin-bottom: 20px"
             >
