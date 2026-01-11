@@ -133,7 +133,8 @@ watch(
             >
                 <p>
                     You are viewing <strong>Essentials 3 Beta</strong> documentation. If not
-                    intended, check <a href="./v2.4">current stable release</a> instead.
+                    intended, check
+                    <a href="/essentials-for-yootheme-pro/v2.4">current stable release</a> instead.
                 </p>
             </div>
             <div v-if="previousRoute">
