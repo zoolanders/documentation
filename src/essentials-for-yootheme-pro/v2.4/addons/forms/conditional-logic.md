@@ -11,7 +11,7 @@ Essentials Form Builder doesn't have built-in functionality to hide or show fiel
 For example, you could show a hidden fieldset when a select field has a specific value selected, or hide it otherwise.
 
 ```js
-// on field-change hook set in the form area settings
+// on field-change hook set in the Form Area settings
 var hidden = UIkit.util.$('#fieldset', form);
 
 if (field.name === 'select') {

@@ -1,6 +1,6 @@
 # Form Element
 
-The **Form Element** is a sublayout element from the _Essentials_ group that creates a complete form area with built-in submission handling, validation, and anti-spam protection. When added to your layout, its content is enclosed with a standard `<form>` HTML element while maintaining full YOOtheme Pro builder capabilities.
+The **Form Element** is a sublayout element from the _Essentials_ group that creates a complete Form Area with built-in submission handling, validation, and anti-spam protection. When added to your layout, its content is enclosed with a standard `<form>` HTML element while maintaining full YOOtheme Pro builder capabilities.
 
 ![Form Element](./assets/form-element.webp)
 

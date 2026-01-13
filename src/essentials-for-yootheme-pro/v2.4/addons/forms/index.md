@@ -10,7 +10,7 @@ Transform any sublayout into a form area, configure form fields, and define acti
 
 ## Create a Form Area
 
-An Essential form is structured inside a [form area](./form-area). Lets create one.
+An Essential form is structured inside a [Form Area](./form-area). Lets create one.
 
 ![Create a Form Area](./assets/integration/create-form-area.png)
 
@@ -20,7 +20,7 @@ An Essential form is structured inside a [form area](./form-area). Lets create o
 
 ## Add After Submit Actions
 
-The section has now been declared as a form area and we can add after submit actions to greet the submitter with a custom message.
+The section has now been declared as a Form Area and we can add after submit actions to greet the submitter with a custom message.
 
 ::: tip
 For more advanced scenarios, adding _Email_ and _SaveTo_ actions would be necessary to send an email and save the submitted data.
@@ -28,7 +28,7 @@ For more advanced scenarios, adding _Email_ and _SaveTo_ actions would be necess
 
 ![Add After Submit Actions](./assets/integration/add-form-actions.gif)
 
-1. Open the form area configuration created in the previous step.
+1. Open the Form Area configuration created in the previous step.
 1. In _After Submit Actions_, add a new action of type _Display Message_.
 1. Input `Thank you for your submission, your comment was {comment}!` in the _Message_ field.
 

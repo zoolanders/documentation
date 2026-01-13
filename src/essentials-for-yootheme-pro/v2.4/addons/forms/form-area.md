@@ -1,10 +1,10 @@
 # Form Area
 
-When a _sublayout_ is defined as a form area it content is enclosed with a standard `<form\>` HTML element without losing builder capabilities. Forms are dynamic in nature as it is YOOtheme Pro builder with dynamic content. Essentials forms builds up on both to create a dynamic data workflow before and after a submission.
+When a _sublayout_ is defined as a Form Area it content is enclosed with a standard `<form\>` HTML element without losing builder capabilities. Forms are dynamic in nature as it is YOOtheme Pro builder with dynamic content. Essentials forms builds up on both to create a dynamic data workflow before and after a submission.
 
 ![Form Area Shortcut](./assets/formarea-config-shortcut.webp)
 
-For every form area a `paper-plane`  icon will appear in the builder's main panel to both state that the element is a form area as well as to allow directly opening its configuration panel when clicked.
+For every Form Area a `paper-plane`  icon will appear in the builder's main panel to both state that the element is a Form Area as well as to allow directly opening its configuration panel when clicked.
 
 ## Actions
 
@@ -85,9 +85,9 @@ For a more advanced data workflow combine a [composed source](../../addons/dynam
 
 ## Form Source
 
-For each form area, a dynamic content source is created as an alternative, and more convenient, way of accessing submitted data during actions configuration. As a dynamic source, it has all the advantages of [YOOtheme Pro Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content), like the ability to alter the submitted data with filters.
+For each Form Area, a dynamic content source is created as an alternative, and more convenient, way of accessing submitted data during actions configuration. As a dynamic source, it has all the advantages of [YOOtheme Pro Dynamic Content](https://yootheme.com/support/yootheme-pro/joomla/dynamic-content), like the ability to alter the submitted data with filters.
 
-The mapping option for the form area source will be listed as part of each field _Dynamic_ options under the _Submission Group_.
+The mapping option for the Form Area source will be listed as part of each field _Dynamic_ options under the _Submission Group_.
 
 ![Form Dynamic Content](./assets/form-dynamic-content.webp)
 
