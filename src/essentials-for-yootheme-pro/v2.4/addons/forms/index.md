@@ -12,10 +12,10 @@ Transform any sublayout into a form area, configure form fields, and define acti
 
 An Essential form is structured inside a [form area](./form-area). Lets create one.
 
-![Create a Form Area](./assets/integration/create-form-area.gif)
+![Create a Form Area](./assets/integration/create-form-area.png)
 
 1. Open the layout builder where you want to create the form.
-1. Create a new Sublayout and access its _Advanced Tab_ settings.
+1. Add a Sublayout element and access its _Advanced Tab_ settings.
 1. Toggle the `Enable as Form Area` checkbox.
 
 ## Add After Submit Actions
