@@ -1,6 +1,6 @@
 import { createContentLoader } from 'vitepress';
 
-export default createContentLoader('/essentials-for-yootheme-pro/auth-drivers/*.md', {
+export default createContentLoader('/essentials-for-yootheme-pro/v2.4/auth-drivers/*.md', {
     excerpt: true,
     transform(rawData) {
         return rawData

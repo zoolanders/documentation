@@ -6,7 +6,7 @@ import FormsSidebar from './_sidebars/forms.json';
 import IconsSidebar from './_sidebars/icons.json';
 import LayoutsSidebar from './_sidebars/layouts.json';
 
-const basePath = '/essentials-for-yootheme-pro';
+const basePath = '/essentials-for-yootheme-pro/v2.4';
 
 // iterate all sidebar items to update their base paths
 const updateBasePaths = (sidebar) => {
@@ -38,8 +38,16 @@ const MainSidebar = [
                 link: '/',
             },
             {
-                text: 'Installation',
-                link: '/installation',
+                text: 'Updating',
+                link: '/updating',
+            },
+            {
+                text: 'Settings',
+                link: '/settings',
+            },
+            {
+                text: 'Glossary',
+                link: '/glossary',
             },
         ],
     },
@@ -96,20 +104,6 @@ const MainSidebar = [
             {
                 text: 'Source Routing',
                 link: '/addons/dynamic/routing',
-            },
-        ],
-    },
-    {
-        text: 'Reference',
-        base: basePath,
-        items: [
-            {
-                text: 'Settings',
-                link: '/settings',
-            },
-            {
-                text: 'Glossary',
-                link: '/glossary',
             },
         ],
     },

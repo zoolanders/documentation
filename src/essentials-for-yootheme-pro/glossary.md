@@ -72,16 +72,6 @@ The Form Builder addon provides advanced form functionality with actions, data i
 **Description:** Integrate forms with AcyMailing newsletter service for subscriber management.
 **Learn More:** [AcyMailing Action](./addons/forms/actions/acymailing)
 
-#### Brevo Action
-
-**Description:** Integrate forms with Brevo (formerly Sendinblue) for email marketing and contact management.
-**Learn More:** [Brevo Action](./addons/forms/actions/brevo)
-
-#### MailerLite Action
-
-**Description:** Integrate forms with MailerLite for email marketing and subscriber management.
-**Learn More:** [MailerLite Action](./addons/forms/actions/mailerlite)
-
 #### Mailchimp Action
 
 **Description:** Integrate forms with Mailchimp for email marketing and list management.
@@ -108,11 +98,6 @@ The Dynamic Content addon provides various data sources to create dynamic, data-
 **Description:** Query and display data from custom database tables.
 **Learn More:** [Database Source](./addons/dynamic/sources/database)
 
-#### Joomla API Source
-
-**Description:** Pull Joomla articles and categories via the Joomla Web Services API.
-**Learn More:** [Joomla API Source](./addons/dynamic/sources/joomla-api)
-
 #### RSS Source
 
 **Description:** Display content from RSS feeds across your website.
@@ -122,11 +107,6 @@ The Dynamic Content addon provides various data sources to create dynamic, data-
 
 **Description:** Parse and display data from XML files and feeds.
 **Learn More:** [XML Source](./addons/dynamic/sources/xml)
-
-#### WordPress API Source
-
-**Description:** Fetch WordPress posts, pages, and categories through the REST API.
-**Learn More:** [WordPress API Source](./addons/dynamic/sources/wordpress-api)
 
 ### Social Media Sources
 
@@ -194,10 +174,10 @@ The Dynamic Content addon provides various data sources to create dynamic, data-
 **Description:** Display events and calendar data from Google Calendar.
 **Learn More:** [Google Calendar Source](./addons/dynamic/sources/google-calendar)
 
-#### Google Places Source
+#### Google Photos Source
 
-**Description:** Display data and reviews from Google Places.
-**Learn More:** [Google Places Source](./addons/dynamic/sources/google-places)
+**Description:** Display photos and albums from Google Photos.
+**Learn More:** [Google Photos Source](./addons/dynamic/sources/google-photos)
 
 #### Google Sheets Source
 

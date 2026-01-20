@@ -56,23 +56,29 @@ export default defineConfig({
                 'Copyright © <a href="https://zoolanders.com" target="_blank">ZOOlanders</a>',
         },
     },
-    transformHead({ assets }) {
-        const myFontFile = assets.find(() => /varela-round\.\w+\.woff2/);
+    transformHead({ assets, pageData }) {
+        const head = [];
+
+        const myFontFile = assets.find((asset) => /varela-round\.\w+\.woff2/.test(asset));
 
         if (myFontFile) {
-            return [
-                [
-                    'link',
-                    {
-                        rel: 'preload',
-                        href: myFontFile,
-                        as: 'font',
-                        type: 'font/woff2',
-                        crossorigin: '',
-                    },
-                ],
-            ];
+            head.push([
+                'link',
+                {
+                    rel: 'preload',
+                    href: myFontFile,
+                    as: 'font',
+                    type: 'font/woff2',
+                    crossorigin: '',
+                },
+            ]);
         }
+
+        if (pageData?.filePath?.startsWith('essentials-for-yootheme-pro/v3.0-beta/')) {
+            head.push(['meta', { name: 'robots', content: 'noindex,follow' }]);
+        }
+
+        return head.length ? head : undefined;
     },
     async transformPageData(pageData) {
         const filePath = pageData.filePath;

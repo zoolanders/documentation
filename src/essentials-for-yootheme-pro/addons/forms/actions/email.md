@@ -21,9 +21,9 @@ The **Email Action** sends preset emails with support for attachments. Use it to
 <!--@include: ./_partials/common-action-settings.md-->
 
 ::: tip Submitted Attachments
-When a file is submitted by the user, the [Data Placeholder](../dynamic-data#data-placeholders) of the uploaded file holds just the name of the file, if you want to send that file attached to the email set it as a dynamic attachment instead.
+When a file is submitted by the user, the [Data Placeholder](../form-area#data-placeholders) of the uploaded file holds just the name of the file, if you want to send that file attached to the email set it as a dynamic attachment instead.
 :::
 
 ::: warning Reply To
-If you want to receive an email like if it was sent by the submitter, use *Reply To* instead of *From Email*. Forcing the email sender to a different value is considered a bad practice and might affect the delivery rate.
+If you want to receive an email like if it was sent by the submitter, use _Reply To_ instead of _From Email_. Forcing the email sender to a different value is considered a bad practice and might affect the delivery rate.
 :::

@@ -6,7 +6,7 @@ description: Create a Custom Form Element
 
 Learn how to create a custom [Form Element](./elements).
 
-Follow the steps below to create your first element. Notice that core form elements are a very useful resource to get started and can be found in the `modules/forms/elements` directory relative to the [installation folder](../../#installation).
+Follow the steps below to create your first element. Notice that core form elements are a very useful resource to get started and can be found in the `modules/forms/elements` directory relative to the plugin folder.
 
 ::: warning Extending YOOtheme Pro
 The following guide assumes you are already familiar with coding, PHP, and [extending YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/developers-child-themes#extend-functionality).

@@ -1,6 +1,6 @@
 # Forms Events
 
-JavaScript events triggered by each form for which is possible to add listeners and perform custom actions. Set those in a custom script as illustrated below or as a [Form Element setting](./form-element#hooks).
+JavaScript events triggered by each form for which is possible to add listeners and perform custom actions. Set those in a custom script as illustrated bellow or as a [Form Area setting](./form-area#settings).
 
 ## On Submit
 
@@ -9,14 +9,13 @@ Triggers before submission allowing to prevent the action.
 ```js
 UIkit.util.ready(function () {
   // local
-  UIkit.util.on('#form-id', 'form:submit', function (e, ctx) {
-    // ctx = {data}
+  UIkit.util.on('#form-id', 'form:submit', function (e) {
     // e.preventDefault();
   });
 
   // global
   UIkit.util.on(document, 'yooessentials-form:submit', function (e, ctx) {
-    // ctx = {form, data}
+    // ctx = {form}
     // e.preventDefault();
   });
 });

@@ -8,184 +8,94 @@
                 "link": "/"
             },
             {
-                "text": "Form Element",
-                "link": "/form-element"
+                "text": "Form Area",
+                "link": "/form-area"
             },
             {
-                "text": "Dynamic Data",
-                "link": "/dynamic-data"
+                "text": "Actions",
+                "link": "/after-submit-actions"
             },
             {
-                "text": "Conditional Logic",
-                "link": "/conditional-logic"
+                "text": "Elements",
+                "link": "/elements"
             },
             {
-                "text": "Validation",
-                "link": "/validation"
+                "text": "Captcha",
+                "link": "/captcha"
             },
             {
                 "text": "Styling",
                 "link": "/styling"
-            }
-        ]
-    },
-    {
-        "text": "Elements",
-        "base": "${base}/addons/forms",
-        "items": [
-            {
-                "text": "Overview",
-                "link": "/elements"
             },
             {
-                "text": "Input",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "Input",
-                        "link": "/elements/input"
-                    },
-                    {
-                        "text": "Textarea",
-                        "link": "/elements/textarea"
-                    },
-                    {
-                        "text": "Range",
-                        "link": "/elements/range"
-                    }
-                ]
-            },
-            {
-                "text": "Selection",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "Select",
-                        "link": "/elements/select"
-                    },
-                    {
-                        "text": "Checkbox",
-                        "link": "/elements/checkbox"
-                    },
-                    {
-                        "text": "Radio",
-                        "link": "/elements/radio"
-                    }
-                ]
-            },
-            {
-                "text": "Other",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "Button",
-                        "link": "/elements/button"
-                    },
-                    {
-                        "text": "Upload",
-                        "link": "/elements/upload"
-                    },
-                    {
-                        "text": "Hidden",
-                        "link": "/elements/hidden"
-                    },
-                    {
-                        "text": "Fieldset",
-                        "link": "/elements/fieldset"
-                    }
-                ]
+                "text": "Conditional Logic",
+                "link": "/conditional-logic"
             }
         ]
     },
     {
         "text": "Actions",
-        "base": "${base}/addons/forms",
+        "base": "${base}/addons/forms/actions",
         "items": [
             {
-                "text": "Overview",
-                "link": "/after-submit-actions"
+                "text": "Alter",
+                "link": "/alter"
             },
             {
-                "text": "Basic",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "Alter",
-                        "link": "/actions/alter"
-                    },
-                    {
-                        "text": "Email",
-                        "link": "/actions/email"
-                    },
-                    {
-                        "text": "Message",
-                        "link": "/actions/message"
-                    },
-                    {
-                        "text": "Validate",
-                        "link": "/actions/validate"
-                    }
-                ]
+                "text": "Download",
+                "link": "/download"
+            },
+            {
+                "text": "Email",
+                "link": "/email"
+            },
+            {
+                "text": "Message",
+                "link": "/message"
+            },
+            {
+                "text": "Redirect",
+                "link": "/redirect"
+            },
+            {
+                "text": "Validate",
+                "link": "/validate"
+            },
+            {
+                "text": "Webhook",
+                "link": "/webhook"
             },
             {
                 "text": "Data",
-                "collapsed": true,
                 "items": [
                     {
                         "text": "Airtable",
-                        "link": "/actions/airtable"
+                        "link": "/airtable"
                     },
                     {
                         "text": "CSV",
-                        "link": "/actions/csv"
+                        "link": "/csv"
                     },
                     {
                         "text": "Database",
-                        "link": "/actions/database"
+                        "link": "/database"
                     },
                     {
                         "text": "Google Sheets",
-                        "link": "/actions/google-sheets"
+                        "link": "/google-sheets"
                     }
                 ]
             },
             {
-                "text": "Marketing",
-                "collapsed": true,
+                "text": "Misc",
                 "items": [
                     {
                         "text": "AcyMailing",
-                        "link": "/actions/acymailing"
-                    },
-                    {
-                        "text": "Brevo",
-                        "link": "/actions/brevo"
+                        "link": "/acymailing"
                     },
                     {
                         "text": "Mailchimp",
-                        "link": "/actions/mailchimp"
-                    },
-                    {
-                        "text": "MailerLite",
-                        "link": "/actions/mailerlite"
-                    }
-                ]
-            },
-            {
-                "text": "Other",
-                "collapsed": true,
-                "items": [
-                    {
-                        "text": "Download",
-                        "link": "/actions/download"
-                    },
-                    {
-                        "text": "Redirect",
-                        "link": "/actions/redirect"
-                    },
-                    {
-                        "text": "Webhook",
-                        "link": "/actions/webhook"
+                        "link": "/mailchimp"
                     }
                 ]
             }

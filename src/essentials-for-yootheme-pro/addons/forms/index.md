@@ -4,23 +4,23 @@ addon: 'Forms'
 
 # Form Builder
 
-Essential Forms integrate seamlessly with YOOtheme Pro's layout builder, letting you send emails, save submissions, display custom messages, or connect with external services—all configured visually.
+Transform any sublayout into a form area, configure form fields, and define actions to execute after a successful submission—all within a streamlined workflow.
 
 <!--@include: ../_partials/enable-addon.md-->
 
-## Create Your First Form
+## Create a Form Area
 
-An Essential form is structured inside a [Form Element](./form-element). Let's create one.
+An Essential form is structured inside a [Form Area](./form-area). Lets create one.
 
-![Create a Form Area](./assets/integration/create-form-area.gif)
+![Create a Form Area](./assets/integration/create-form-area.png)
 
 1. Open the layout builder where you want to create the form.
-1. Add a **Form Element** from the _Essentials_ group in the builder elements panel.
-1. The Form Element is now ready to contain your form fields.
+1. Add a Sublayout element and access its _Advanced Tab_ settings.
+1. Toggle the `Enable as Form Area` checkbox.
 
-### Add After Submit Actions
+## Add After Submit Actions
 
-The Form Element can now have after submit actions configured to greet the submitter with a custom message.
+The section has now been declared as a Form Area and we can add after submit actions to greet the submitter with a custom message.
 
 ::: tip
 For more advanced scenarios, adding _Email_ and _SaveTo_ actions would be necessary to send an email and save the submitted data.
@@ -28,25 +28,25 @@ For more advanced scenarios, adding _Email_ and _SaveTo_ actions would be necess
 
 ![Add After Submit Actions](./assets/integration/add-form-actions.gif)
 
-1. Open the Form Element settings created in the previous step.
-1. Go to the _Actions_ tab and add a new action of type _Display Message_.
+1. Open the Form Area configuration created in the previous step.
+1. In _After Submit Actions_, add a new action of type _Display Message_.
 1. Input `Thank you for your submission, your comment was {comment}!` in the _Message_ field.
 
 ::: tip Notice the `{comment}` part
-It's what we call [Data Placeholders](./dynamic-data#data-placeholders), and is one of the simplest and direct ways to reference submitted data.
+It's what we call [Data Placeholders](./index#data-placeholders), and is one of the simplest and direct ways to reference submitted data.
 :::
 
-### Add Form Fields
+## Add Form Fields
 
 Essentials comes with prebuild [elements](./elements) to structure a form as needed. Let's add a textarea to collect the comment and a submit button.
 
 ![Add Form Fields](./assets/integration/add-form-fields.gif)
 
-1. Return to the builder main panel and add a **Textarea Element** from the `Form Essentials` group.
+1. Return to the builder main panel and add a __Textarea Element__ from the `Form Essentials` group.
 1. Open its configuration panel and input `comment` in the _Control Name_ setting.
 1. Add a _Button Element_ which will render as a submit button by default.
 
-### Test The Submission
+## Test The Submission
 
 Let's give it a try!
 

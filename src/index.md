@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Essentials for YOOtheme Pro
-      link: /essentials-for-yootheme-pro/v2.4/
+      link: /essentials-for-yootheme-pro/
     - theme: alt
       text: Essentials for ZOO
       link: /essentials-for-zoo/

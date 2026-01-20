@@ -33,10 +33,12 @@ const currentNav = computed(
     () => {
         const path = route.path;
 
-        if (path.startsWith('/essentials-for-yootheme-pro/')) {
+        console.log(path);
+
+        if (path.startsWith('/essentials-for-yootheme-pro')) {
             // Check if path contains version pattern /vx.x
             const versionMatch = path.match(/\/v(\d+\.\d+)/);
-            const versionText = versionMatch ? `v${versionMatch[1]}` : 'v3.0-beta';
+            const versionText = versionMatch ? `v${versionMatch[1]}` : 'Latest';
 
             // Return a new object to ensure Vue reactivity
             return [
@@ -48,7 +50,7 @@ const currentNav = computed(
             ];
         }
 
-        if (path.startsWith('/essentials-for-zoo/')) {
+        if (path.startsWith('/essentials-for-zoo')) {
             return [];
         }
 
@@ -124,10 +126,7 @@ watch(
         </template>
         <template #sidebar-nav-before>
             <div
-                v-if="
-                    route.path.startsWith('/essentials-for-yootheme-pro/') &&
-                    !route.path.includes('/v2.4')
-                "
+                v-if="route.path.startsWith('/essentials-for-yootheme-pro/v3.0')"
                 class="warning custom-block"
                 style="margin-bottom: 20px"
             >
