@@ -109,7 +109,7 @@ const MainSidebar = [
     },
     {
         text: 'Troubleshooting',
-        base: `${basePath}/troubleshooting`,
+        base: `${basePath}`,
         items: [
             {
                 text: 'Common Issues',
