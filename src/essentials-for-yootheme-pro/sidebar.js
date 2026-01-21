@@ -6,7 +6,7 @@ import FormsSidebar from './_sidebars/forms.json';
 import IconsSidebar from './_sidebars/icons.json';
 import LayoutsSidebar from './_sidebars/layouts.json';
 
-const basePath = '/essentials-for-yootheme-pro/v2.4';
+const basePath = '/essentials-for-yootheme-pro';
 
 // iterate all sidebar items to update their base paths
 const updateBasePaths = (sidebar) => {
