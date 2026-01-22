@@ -15,8 +15,8 @@ Essentials for YOOtheme Pro is a comprehensive set of free and premium addons fo
 
 Ensure your server and site meet the following specifications for optimal performance:
 
-- **PHP**: 7.4 or higher
-- **YOOtheme Pro**: 4.5 or higher
+- **PHP**: 7.4+
+- **YOOtheme Pro**: 4.5
 - **CMS**: Joomla 3/4/5 or WordPress 5/6
 
 For detailed requirements, also review the specifications for [YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/introduction#requirements), [Joomla](https://docs.joomla.org/J4.x:Installing_Joomla#Requirements), and [WordPress](https://wordpress.org/about/requirements).
