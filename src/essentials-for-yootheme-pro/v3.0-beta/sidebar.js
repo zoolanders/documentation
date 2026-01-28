@@ -41,6 +41,10 @@ const MainSidebar = [
                 text: 'Installation',
                 link: '/installation',
             },
+            {
+                text: 'Updating',
+                link: '/updating',
+            },
         ],
     },
     {
