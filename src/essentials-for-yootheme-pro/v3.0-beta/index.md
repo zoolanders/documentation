@@ -15,7 +15,7 @@ Ensure your server and site meet the following specifications for optimal perfor
 
 - **PHP**: 8.1+
 - **YOOtheme Pro**: 5+
-- **CMS**: Joomla 4+ or WordPress 5+
+- **CMS**: Joomla 5+ and/or WordPress 5+
 
 For detailed requirements, also review the specifications for [YOOtheme Pro](https://yootheme.com/support/yootheme-pro/joomla/introduction#requirements), [Joomla](https://docs.joomla.org/J4.x:Installing_Joomla#Requirements), and [WordPress](https://wordpress.org/about/requirements).
 
@@ -23,12 +23,12 @@ For detailed requirements, also review the specifications for [YOOtheme Pro](htt
 
 | | YOOtheme Pro | WordPress | Joomla | PHP |
 | --- | --- | --- | --- | --- |
-| Essentials v1 | 2 | 5+ | 3.9+ | 7.4 - 8.2 |
-| Essentials v2 | 4 | 5+ | 3.9+ | 7.4 - 8.2 |
-| Essentials v2.2 | 4.4 | 5+ | 3.9+ | 7.4 - 8.3 |
-| Essentials v2.3 | 4.5 | 5+ | 3.9+ | 7.4 - 8.3 |
-| Essentials v2.4 | 4.5 | 5+ | 3.9+ | 7.4 - 8.3 |
-| Essentials v3.0 | 5.0 | 5+ | 5.0+ | 8.1 - 8.4 |
+| Essentials v1 | 2 - 3 | 5+ | 3.9 - 5 | 7.4 - 8.2 |
+| Essentials v2 | 4 | 5+ | 3.9 - 5 | 7.4 - 8.2 |
+| Essentials v2.2 | 4.4 | 5+ | 3.9 - 5 | 7.4 - 8.3 |
+| Essentials v2.3 | 4.5 | 5+ | 3.9 - 5 | 7.4 - 8.3 |
+| Essentials v2.4 | 4.5 | 5+ | 3.9 - 6 | 7.4 - 8.3 |
+| Essentials v3.0 | 5.0 | 5+ | 5+ | 8.1+ |
 
 ## Changelog
 

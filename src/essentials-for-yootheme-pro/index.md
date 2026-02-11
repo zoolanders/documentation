@@ -25,11 +25,11 @@ For detailed requirements, also review the specifications for [YOOtheme Pro](htt
 
 | Version | YOOtheme Pro | WordPress | Joomla | PHP |
 | --- | --- | --- | --- | --- |
-| Essentials v1 | 2 - 3 | 5 - 6 | 3.9 - 5 | 7.4 - 8.2 |
-| Essentials v2 | 4 | 5 - 6 | 3.9 - 5 | 7.4 - 8.2 |
-| Essentials v2.2 | 4.4 | 5 - 6 | 3.9 - 5 | 7.4 - 8.3 |
-| Essentials v2.3 | 4.5 | 5 - 6 | 3.9 - 5 | 7.4 - 8.3 |
-| Essentials v2.4 | 4.5 | 5 - 6 | 3.9 - 5 | 7.4 - 8.3 |
+| Essentials v1 | 2 - 3 | 5+ | 3.9 - 5 | 7.4 - 8.2 |
+| Essentials v2 | 4 | 5+ | 3.9 - 5 | 7.4 - 8.2 |
+| Essentials v2.2 | 4.4 | 5+ | 3.9 - 5 | 7.4 - 8.3 |
+| Essentials v2.3 | 4.5 | 5+ | 3.9 - 5 | 7.4 - 8.3 |
+| Essentials v2.4 | 4.5 | 5+ | 3.9 - 6 | 7.4 - 8.3 |
 
 ## Changelog
 
