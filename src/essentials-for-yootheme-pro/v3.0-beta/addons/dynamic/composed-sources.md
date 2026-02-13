@@ -1,64 +1,70 @@
 # Composed Sources
 
-**Composed Sources** lets you compose content freely by writing text and seamlessly inserting dynamic content from any source directly within your text. This approach gives you complete flexibility to mix static and dynamic content in a single field, enabling more expressive and personalized content compositions.
+**Composed Sources** enable you to freely mix static text with dynamic content from any source within a single field. You can seamlessly insert dynamic values directly into your text, creating flexible, personalized content without needing separate fields.
 
-To assign a field as composed, choose the _Composed_ option from the Dynamic Content options.
+To enable composition, select the _Composed_ option from the Dynamic Content settings.
 
 ![Composed Source Dynamic Option](./assets/composed-sources/composed-dynamic-option.webp)
 
 ::: tip
-If a field already has dynamic content assigned, a `compose` icon will appear. If clicked, the source will be migrated to a composed source.
+Already have dynamic content assigned? Click the `compose` icon to migrate it to a composed source automatically.
 :::
 
-## Composed Content
+## Composing Content
 
-When a field has been assigned as composed, an inline editor will replace the field allowing you to mix static with dynamic content. To insert dynamic content, press the `insert` button. A dropdown will appear allowing you to choose the source, similarly as when assigning Dynamic Content to a field.
+Once enabled, the field transforms into an inline editor where you can freely type static text and insert dynamic content. To add dynamic values, click the `insert` button to select a source—the same interface you'd use for regular dynamic content.
 
 ![Composed Source Editor](./assets/composed-sources/composed-source-editor.webp)
 
 ![Composed Source Editor Insert](./assets/composed-sources/composed-source-editor-insert.webp)
 
-Once a source has been inserted, a block will appear representing it. You can click on it to see the available actions.
+After insertion, dynamic blocks appear inline. Click any block to access its options:
 
 ![Composed Source Block Actions](./assets/composed-sources/composer-source-block-actions.webp)
 
 | Action      | Description                                                         |
 |-------------|---------------------------------------------------------------------|
-| **Alias**   | Assign a custom name to the block for easier identification         |
-| **Edit**    | Modify the source's filters, arguments, and other settings          |
-| **Copy**    | Duplicate the block to reuse it elsewhere in the composition        |
-| **Delete**  | Remove the block from the composition                               |
+| **Alias**   | Set a custom label for easier reference                             |
+| **Edit**    | Configure filters, arguments, and other block settings              |
+| **Copy**    | Duplicate the block within your composition                         |
+| **Delete**  | Remove the block                                                    |
 
 ::: tip
-When the block options are visible, click the block again to reassign a different source field.
+Click the block again while options are visible to swap it for a different source field.
 :::
 
-## Conditional Compositions
+## Adding Conditions
 
-Conditional Compositions allow you to wrap parts of your composed content within condition blocks, making specific content display only when certain criteria are met. This feature leverages [Essentials Access Conditions](../../addons/access/), providing the same familiar interface for controlling content visibility based on condition rules.
+Wrap any part of your composition with conditional blocks to show content only when specific criteria are met. This uses the same [Access Conditions](../../addons/access/) interface you're already familiar with.
 
 ![Conditional Compositions Overview](./assets/composed-sources/conditional-compositions.gif)
 
-To add conditions, click the `insert` button in the editor and choose _Condition_ or _Condition/Else_. Input the content that should display when the condition evaluates as _true_. If you choose _Condition/Else_, add content after the `else` that displays when the condition evaluates as _false_.
+Click `insert` in the editor and choose _Condition_ or _Condition/Else_. The first block shows when conditions are true; the else block (if added) shows when false.
 
 ![Conditional Composition](./assets/composed-sources/conditional-composition.webp)
 
-To configure conditions for a block, click on the block and select _Edit_, or simply double-click the block. This opens a panel where you can define Condition Rules using the same flexible criteria as in Access Conditions, allowing you to precisely control when the enclosed content is shown.
+Configure conditions by clicking the block and selecting _Edit_, or double-click it directly. Define your condition rules using the same flexible criteria as Access Conditions.
 
 ::: tip
-You can always add an else block later if not needed right away.
+Add else blocks later if needed—they're optional.
 :::
 
-## Nested Compositions
+## Nesting Compositions
 
-Nested Compositions enable you to place one composed source inside another, creating modular and reusable content blocks. Within your main composed source, reference another composed source by adding it as a block.
+Place one composed source inside another to create modular, reusable content blocks. Reference existing composed sources as blocks within your main composition.
 
 ![Nested Compositions](./assets/composed-sources/nested-compositions.gif)
 
 ::: tip
-Give your nested sources meaningful names, e.g., _User Info_, _Product Details_, to make them easy to identify and reuse.
+Use descriptive names for nested sources (_User Info_, _Product Details_) to keep them easy to identify and manage.
 :::
 
 ::: tip
-You can combine nested compositions with conditions for even more powerful content control. This modular approach allows you to break down complex content into smaller, manageable pieces that can be reused and updated independently.
+Combine nesting with conditions for advanced content control. Break complex content into smaller, independent pieces that you can reuse and update separately.
 :::
+
+## Converting Existing Content
+
+Transform any dynamic content into a composed source anytime by pressing the Compose button.
+
+![Compose from](./assets/composed-sources/compose-from.png)
