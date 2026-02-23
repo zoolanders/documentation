@@ -4,55 +4,64 @@ addon: 'Forms'
 
 # Form Builder
 
-Essential Forms integrate seamlessly with YOOtheme Pro's layout builder, letting you send emails, save submissions, display custom messages, or connect with external services—all configured visually.
+Essential Forms lets you build fully functional forms directly within YOOtheme Pro's layout builder — no code required. Send emails, save submissions, display messages, or connect with external services, all configured visually.
 
 <!--@include: ../_partials/enable-addon.md-->
 
-## Create Your First Form
+## Quick Start
 
-An Essential form is structured inside a [Form Element](./form-element). Let's create one.
+This walkthrough creates a simple comment form that displays a confirmation message on submission. By the end you'll understand the three core building blocks: the **Form Element**, **Field Elements**, and **After Submit Actions**.
 
-![Create a Form Area](./assets/integration/create-form-area.gif)
+### 1. Add a Form Element
 
-1. Open the layout builder where you want to create the form.
-1. Add a **Form Element** from the _Essentials_ group in the builder elements panel.
-1. The Form Element is now ready to contain your form fields.
+Every form starts with the [Form Element](./form-element) — a sublayout element that acts as the form container. All fields and other content are placed inside it, and the whole sublayout is wrapped in a standard `<form>` tag.
 
-### Add After Submit Actions
+1. Open the layout builder where you want the form.
+2. Add a **Form** element from the _Essentials_ group.
 
-The Form Element can now have after submit actions configured to greet the submitter with a custom message.
+![Add Form Element](./assets/integration/add-form-element.png)
 
-::: tip
-For more advanced scenarios, adding _Email_ and _SaveTo_ actions would be necessary to send an email and save the submitted data.
+The element is now ready to accept fields and actions.
+
+![Form Element](./assets/integration/form-element.png)
+
+### 2. Add Form Fields
+
+Essentials ships with a set of prebuilt [field elements](./elements) — inputs, selects, checkboxes, and more. For this example we'll add a textarea and a submit button.
+
+1. Open the Form Element and within the Content tab start a new layout.
+1. Add a **Textarea Element** from the _Form Essentials_ group.
+1. Open the element settings and set the _Control Name_ as `comment`.
+
+![Add Form Textarea Element](./assets/integration/add-form-textarea-element.png)
+
+Add as well a **Button Element** from the same group, it will render a submit button by default.
+
+![Form Content](./assets/integration/form-content.png)
+
+### 3. Configure After Submit Actions
+
+Actions define what happens when a user submits the form. They run sequentially, so you can chain multiple operations together. Here we'll display a simple confirmation message.
+
+1. Open the Form Element.
+2. Switch to the _Actions_ tab and add a **Display Message** action.
+3. Set the _Message_ to `Thank you for your submission, your comment was {comment}!`.
+
+![After Submit Actions](./assets/integration/form-actions.png)
+
+::: info Going further
+For real-world forms you'll typically add more actions — for example an **Email** action to notify yourself and a **Database** action to persist submissions. See [After Submit Actions](./after-submit-actions) for the full list.
 :::
 
-![Add After Submit Actions](./assets/integration/add-form-actions.gif)
-
-1. Open the Form Element settings created in the previous step.
-1. Go to the _Actions_ tab and add a new action of type _Display Message_.
-1. Input `Thank you for your submission, your comment was {comment}!` in the _Message_ field.
-
-::: tip Notice the `{comment}` part
-It's what we call [Data Placeholders](./dynamic-data#data-placeholders), and is one of the simplest and direct ways to reference submitted data.
+::: tip What is `{comment}`?
+The curly-brace syntax is a [Data Placeholder](./dynamic-data#data-placeholders) — a simple way to reference submitted field values by their control name. Placeholders work in any action setting that accepts text.
 :::
 
-### Add Form Fields
-
-Essentials comes with prebuild [elements](./elements) to structure a form as needed. Let's add a textarea to collect the comment and a submit button.
-
-![Add Form Fields](./assets/integration/add-form-fields.gif)
-
-1. Return to the builder main panel and add a **Textarea Element** from the `Form Essentials` group.
-1. Open its configuration panel and input `comment` in the _Control Name_ setting.
-1. Add a _Button Element_ which will render as a submit button by default.
-
-### Test The Submission
-
-Let's give it a try!
+### 4. Test the Form
 
 ![Form Submission Test](./assets/integration/submission-test.webp)
 
 1. Locate the form in the builder preview.
-1. Input a message in the Comment textarea and Submit.
+2. Type a message in the Comment textarea and click **Submit**.
 
-You should see a modal with the submitted message!
+A modal should appear displaying the confirmation message with your submitted text.
