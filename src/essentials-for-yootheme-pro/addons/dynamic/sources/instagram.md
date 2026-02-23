@@ -17,6 +17,20 @@ The **Instagram Source** feeds data from Personal and Business [Instagram](https
 | *Account* | The Instagram Account which to authenticate with. |
 | *Page* | The Facebook Page associated with the Instagram Business account. Not applicable for Instagram Personal. |
 
+## Authentication by Account Type
+
+Use the authentication method that matches your Instagram account type.
+
+| Account Type | Recommended Authentication | Requirements | Alternative |
+| --- | --- | --- | --- |
+| *Personal Instagram account* | [Instagram Auth Driver](../../../auths/drivers/instagram) | Authenticate directly with Instagram. | `N/A` |
+| *Business Instagram account* | [Facebook Auth Driver](../../../auths/drivers/facebook) | The Instagram account must be connected to a Facebook Page, and the Facebook user must have access to that Page in Meta Business Manager. | If the account is not connected to an accessible Facebook Page, use the [Instagram Auth Driver](../../../auths/drivers/instagram). |
+
+For Meta setup details, see:
+
+- [Connect or disconnect an Instagram account and your Page](https://www.facebook.com/help/1148909221857370)
+- [Add or change the Facebook Page connected to your Instagram professional account](https://www.facebook.com/help/570895513091465)
+
 ## Media Query
 
 Fetches media from the authenticated account and resolves to a list of [Media Type](#media-type).
