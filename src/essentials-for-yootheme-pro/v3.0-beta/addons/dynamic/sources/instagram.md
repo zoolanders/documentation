@@ -23,8 +23,8 @@ Use the authentication method that matches your Instagram account type.
 
 | Account Type | Recommended Authentication | Requirements | Alternative |
 | --- | --- | --- | --- |
-| *Personal Instagram account* | [Instagram Auth Driver](../../../auths/drivers/instagram) | Authenticate directly with Instagram. | `N/A` |
-| *Business Instagram account* | [Facebook Auth Driver](../../../auths/drivers/facebook) | The Instagram account must be connected to a Facebook Page, and the Facebook user must have access to that Page in Meta Business Manager. | If the account is not connected to an accessible Facebook Page, use the [Instagram Auth Driver](../../../auths/drivers/instagram). |
+| *Personal Instagram account* | [Instagram Auth Driver](/essentials-for-yootheme-pro/v3.0-beta/auths/drivers/instagram) | Authenticate directly with Instagram. | `N/A` |
+| *Business Instagram account* | [Facebook Auth Driver](/essentials-for-yootheme-pro/v3.0-beta/auths/drivers/facebook) | The Instagram account must be connected to a Facebook Page, and the Facebook user must have access to that Page in Meta Business Manager. | If the account is not connected to an accessible Facebook Page, use the [Instagram Auth Driver](/essentials-for-yootheme-pro/v3.0-beta/auths/drivers/instagram). |
 
 For Meta setup details, see:
 
