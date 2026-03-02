@@ -1,7 +1,7 @@
 # Brevo Action
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/brevo.svg-->
+    <!--@include: @essentials-for-yootheme-pro/v3.0-beta/assets/brands/brevo.svg-->
 </div>
 
 The **Brevo Action** creates, updates or removes a contact from a [Brevo](https://www.brevo.com/) (formerly Sendinblue) list.
