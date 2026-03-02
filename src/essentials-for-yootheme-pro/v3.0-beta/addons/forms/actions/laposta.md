@@ -1,7 +1,7 @@
 # Laposta Action
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/laposta.svg-->
+    <!--@include: @essentials-for-yootheme-pro/v3.0-beta/assets/brands/laposta.svg-->
 </div>
 
 The **Laposta Action** subscribes, updates or removes a member from a [Laposta](https://www.laposta.nl/) list.
