@@ -162,6 +162,10 @@
                         "link": "/actions/brevo"
                     },
                     {
+                        "text": "Laposta",
+                        "link": "/actions/laposta"
+                    },
+                    {
                         "text": "Mailchimp",
                         "link": "/actions/mailchimp"
                     },
