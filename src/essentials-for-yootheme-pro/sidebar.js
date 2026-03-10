@@ -38,16 +38,12 @@ const MainSidebar = [
                 link: '/',
             },
             {
+                text: 'Installation',
+                link: '/installation',
+            },
+            {
                 text: 'Updating',
                 link: '/updating',
-            },
-            {
-                text: 'Settings',
-                link: '/settings',
-            },
-            {
-                text: 'Glossary',
-                link: '/glossary',
             },
         ],
     },
@@ -104,6 +100,20 @@ const MainSidebar = [
             {
                 text: 'Source Routing',
                 link: '/addons/dynamic/routing',
+            },
+        ],
+    },
+    {
+        text: 'Reference',
+        base: basePath,
+        items: [
+            {
+                text: 'Settings',
+                link: '/settings',
+            },
+            {
+                text: 'Glossary',
+                link: '/glossary',
             },
         ],
     },

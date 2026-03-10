@@ -40,19 +40,29 @@ Fetches public videos with advanced query params resolving to a list of [Video T
 
 | Setting | Description | Default | Dynamic |
 | --- | --- | --- | :---: |
-| *Videos ID* | Restricts the results to videos created by a specific channel ID. | | &#x2713; |
+| *Playable* | Restricts results to videos that can be played outside YouTube. | `true` | |
+| *Embeddable* | Restricts results to videos that can be embedded in external sites. | `true` | |
+| *Videos ID* | Set videos ID separated by comma, or use below filters to specify which videos should be loaded. | | &#x2713; |
 | *Channel ID* | Restricts the results to videos created by a specific channel ID. | | &#x2713; |
+| *Category ID* | Restricts results to a particular video category. | | &#x2713; |
+| *Topic ID* | Restricts search results to only include resources associated with the specified topic. | | &#x2713; |
 | *Query Term* | The list of terms the videos should be associated with. Use the Boolean NOT (`-`) and OR (`\|`) operators to exclude or find videos that are associated with one of several search terms. For example, to match either "boating" or "sailing", set as `boating\|sailing`. Similarly, to exclude "fishing", set as `boating\|sailing -fishing`. | | &#x2713; |
-| *Since/Until* | Restricts the results to videos that have been published within the specified range of dates. | | &#x2713; |
-| *Location/Radius* | Location in conjunction with radius, defines a circular geographic area to which to restrict the videos. The location points the center of the area with latitude/longitude coordinates e.g. `37.42307,-122.08427`, while the radius is the maximum distance from the location in `m`, `km`, `ft`, or `mi` units, e.g `5km`. | | &#x2713; |
-| *Region* | Restricts the results to videos that can be viewed in the specified country. The value is an [ISO 3166-1 alpha-2](https://www.iso.org/iso-3166-country-codes.html) country code, e.g `ES`. | | &#x2713; |
+| *Captions* | Restricts results based on caption availability. Options are _With Captions_ (`closedCaption`) or _Without Captions_ (`none`). | | &#x2713; |
+| *Safe Search* | Content filtering level, either _Moderate_ (`moderate`), _Strict_ (`strict`), or _None_ (`none`). | | &#x2713; |
+| *Video Type* | Restricts results to a particular video type. Options are _Movie_ (`movie`) or _Episode_ (`episode`). | | &#x2713; |
+| *Broadcast* | Restricts results to a particular event type. Options are _Live_ (`live`), _Upcoming_ (`upcoming`), or _Completed_ (`completed`). | | &#x2713; |
+| *Since* | Restricts results to videos published at or after the specified date. | | &#x2713; |
+| *Until* | Restricts results to videos published before or at the specified date. | | &#x2713; |
+| *Location* | The coordinates (latitude,longitude) that point at the center of the area, e.g. `37.42307,-122.08427`. | | &#x2713; |
+| *Radius* | The maximum distance from the location in `m`, `km`, `ft`, or `mi` units, e.g. `5km`. | | &#x2713; |
+| *Region* | Restricts the results to videos that can be viewed in the specified country. The value is an [ISO 3166-1 alpha-2](https://www.iso.org/iso-3166-country-codes.html) country code, e.g. `ES`. | | &#x2713; |
 | *Language* | Restricts the results to videos that are most relevant to the specified language. The value is typically an [ISO 639-1 two-letter](https://www.loc.gov/standards/iso639-2/php/code_list.php) language code, however, you should use the values `zh-Hans` for simplified Chinese and `zh-Hant` for traditional Chinese. Note that results in other languages will still be returned if they are highly relevant to the search query term. | | &#x2713; |
-| *Definition* | Restricts the results based on the videos quality, either _High Definition_, _Standard Definition_, or _Any_. HD videos are available for playback in at least 720p, though higher resolutions, like 1080p, might also be available. | `Any` |
-| *Duration* | Restricts the results based on the videos duration, either _Long_, longer than 20 minutes, `Medium`, between four and 20 minutes, _Short_, less than four minutes, or _Any_. | `Any` |
-| *Start* | The starting point, e.g of a list of 20 videos start from the number 2. | `1` | &#x2713; |
+| *Definition* | Restricts the results based on the videos quality, either _High (HD)_, _Standard (SD)_, or _Any_. | `Any` | |
+| *Duration* | Restricts the results based on the videos duration, either _Longer than 20m_, _Between 4 and 20m_, _Shorter than 4m_, or _Any_. | `Any` | |
+| *Start* | The starting point from which to retrieve videos. | `1` | &#x2713; |
 | *Quantity* | The maximum amount of videos to retrieve. | `20` | &#x2713; |
-| *Order* | The order in which the videos will be returned, within *Date*, reverse chronological order based on the date the videos were created, _Rating_, from highest to lowest rating, _Relevance_, based on their relevance to the search query, _Title_, alphabetically by title, or _View Count_, from highest to lowest number of views. | `Relevance` |
-| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
+| *Order* | The order in which the videos will be returned, within _Relevance_, _Rating Descendant_, _Created Date Reversed_, _Title Alphabetical_, or _View Count Descendant_. | `Relevance` | |
+| *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` | |
 
 ## My Channel Query
 

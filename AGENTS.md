@@ -52,7 +52,6 @@ yarn preview
 │   ├── index.md         # Homepage
 │   └── public/          # Static assets
 ├── dist/                # Build output (gitignored)
-└── versions.json        # Version management
 ```
 
 ## Code Style & Linting
@@ -149,7 +148,6 @@ Before creating a PR:
 
 ## Version Management
 
-- Version info stored in `versions.json`
 - Supports versioned docs in `versioned_docs/` directory
 - Custom page transformations handle versioned content
 
