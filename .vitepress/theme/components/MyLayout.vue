@@ -126,14 +126,13 @@ watch(
         </template>
         <template #sidebar-nav-before>
             <div
-                v-if="route.path.startsWith('/essentials-for-yootheme-pro/v3.0')"
+                v-if="route.path.startsWith('/essentials-for-yootheme-pro/v2.4')"
                 class="warning custom-block"
                 style="margin-bottom: 20px"
             >
                 <p>
-                    You are viewing <strong>Essentials 3 Beta</strong> documentation. If not
-                    intended, check
-                    <a href="/essentials-for-yootheme-pro/v2.4">current stable release</a> instead.
+                    You are viewing <strong>Essentials 2.4</strong> documentation. If not intended,
+                    go to <a href="/essentials-for-yootheme-pro">latest</a> instead.
                 </p>
             </div>
             <div v-if="previousRoute">

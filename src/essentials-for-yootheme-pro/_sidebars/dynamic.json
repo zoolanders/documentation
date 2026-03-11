@@ -58,8 +58,8 @@
                 "link": "/google-calendar"
             },
             {
-                "text": "Google Photos",
-                "link": "/google-photos"
+                "text": "Google Places",
+                "link": "/google-places"
             },
             {
                 "text": "Google Sheets",
@@ -68,6 +68,10 @@
             {
                 "text": "Instagram",
                 "link": "/instagram"
+            },
+            {
+                "text": "Joomla API",
+                "link": "/joomla-api"
             },
             {
                 "text": "LinkedIn",
@@ -88,6 +92,10 @@
             {
                 "text": "Vimeo",
                 "link": "/vimeo"
+            },
+            {
+                "text": "WordPress API",
+                "link": "/wordpress-api"
             },
             {
                 "text": "XML",
