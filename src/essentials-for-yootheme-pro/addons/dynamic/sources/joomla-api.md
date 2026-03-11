@@ -15,6 +15,10 @@ The **Joomla API Source** feeds data from [Joomla](https://www.joomla.org/) site
 | *URL* | The base URL of the Joomla site to retrieve the data from, e.g. `https://mysite.com`. |
 | *Authentication* | The API Token obtained from the Joomla User Manager dashboard. For security, create a dedicated user with minimal permissions and use its API Token. |
 
+::: info Notice
+If you'd like to generate article URLs pointing to the sourced site, **Essentials for YOOtheme Pro must be installed on that site** as well in order to extend the required API endpoints.
+:::
+
 ## Article Query
 
 Fetches a single article from the Joomla site and resolves to [Article Type](#article-type).
