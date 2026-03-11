@@ -8,11 +8,9 @@ Essential Forms lets you build fully functional forms directly within YOOtheme P
 
 <!--@include: ../_partials/enable-addon.md-->
 
-## Quick Start
-
 This walkthrough creates a simple comment form that displays a confirmation message on submission. By the end you'll understand the three core building blocks: the **Form Element**, **Field Elements**, and **After Submit Actions**.
 
-### 1. Add a Form Element
+## Add a Form Element
 
 Every form starts with the [Form Element](./form-element) — a sublayout element that acts as the form container. All fields and other content are placed inside it, and the whole sublayout is wrapped in a standard `<form>` tag.
 
@@ -25,7 +23,7 @@ The element is now ready to accept fields and actions.
 
 ![Form Element](./assets/integration/form-element.png)
 
-### 2. Add Form Fields
+## Add Form Fields
 
 Essentials ships with a set of prebuilt [field elements](./elements) — inputs, selects, checkboxes, and more. For this example we'll add a textarea and a submit button.
 
@@ -39,7 +37,7 @@ Add as well a **Button Element** from the same group, it will render a submit bu
 
 ![Form Content](./assets/integration/form-content.png)
 
-### 3. Configure After Submit Actions
+## Add Form Actions
 
 Actions define what happens when a user submits the form. They run sequentially, so you can chain multiple operations together. Here we'll display a simple confirmation message.
 
@@ -57,7 +55,7 @@ For real-world forms you'll typically add more actions — for example an **Emai
 The curly-brace syntax is a [Data Placeholder](./dynamic-data#data-placeholders) — a simple way to reference submitted field values by their control name. Placeholders work in any action setting that accepts text.
 :::
 
-### 4. Test the Form
+## Test Form Submission
 
 ![Form Submission Test](./assets/integration/submission-test.webp)
 

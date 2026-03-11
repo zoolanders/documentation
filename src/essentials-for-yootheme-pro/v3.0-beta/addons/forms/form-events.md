@@ -30,12 +30,12 @@ Triggers after submission, preventing the action is no longer possible.
 UIkit.util.ready(function () {
   // local
   UIkit.util.on('#form-id', 'form:submitted', function (e, ctx) {
-    // ctx = {response}
+    // ctx = {data, response}
   });
 
   // global
   UIkit.util.on(document, 'yooessentials-form:submitted', function (e, ctx) {
-    // ctx = {form, response}
+    // ctx = {form, data, response}
   });
 });
 ```
@@ -48,12 +48,12 @@ Triggers on submission error or server side validation error.
 UIkit.util.ready(function () {
   // local
   UIkit.util.on('#form-id', 'form:submission-error', function (e, ctx) {
-    // ctx = {error, errors, validation}
+    // ctx = {data, error, errors, validation}
   });
 
   // global
   UIkit.util.on(document, 'yooessentials-form:submission-error', function (e, ctx) {
-    // ctx = {form, error, errors, validation}
+    // ctx = {form, data, error, errors, validation}
   });
 });
 ```
@@ -84,12 +84,12 @@ Triggers when any field value has changed.
 UIkit.util.ready(function () {
   // local
   UIkit.util.on('#form-id', 'form:field-change', function (e, ctx) {
-    // ctx = {field, data}
+    // ctx = {data, field}
   });
 
   // global
   UIkit.util.on(document, 'yooessentials-form:field-change', function (e, ctx) {
-    // ctx = {form, field, data}
+    // ctx = {form, data, field}
   });
 });
 ```
