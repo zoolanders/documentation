@@ -135,7 +135,7 @@ If Essentials update is not listed, but there is a new release, try refetching o
 
 ## Update Major Release
 
-When updating Essentials v1.x to v2.x, or v2.2 to v2.3, plan carefully as those version introduce major changes and have specific compatibility with YOOtheme Pro. In order to properly update, follow these steps in the given order.
+When updating Essentials to a major release (for example, v2 → v3), plan ahead: major releases may require a specific, compatible version of YOOtheme Pro. To update safely, follow these steps in the order shown.
 
 1. Make a full, restorable backup of the site.
 1. Head over to *System > Plugins* and disable the *Essentials* plugin.
