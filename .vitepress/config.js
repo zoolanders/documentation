@@ -2,6 +2,8 @@ import { defineConfig } from 'vitepress';
 import NavDefault from './nav.json';
 import Sidebar from './sidebar';
 
+const SITE_HOSTNAME = 'https://docs.zoolanders.com';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     title: 'ZOOlanders',
@@ -18,7 +20,7 @@ export default defineConfig({
         ],
     ],
     sitemap: {
-        hostname: 'https://docs.zoolanders.com',
+        hostname: SITE_HOSTNAME,
     },
     themeConfig: {
         logo: '/zoolanders.svg',
@@ -77,6 +79,15 @@ export default defineConfig({
         if (pageData?.filePath?.startsWith('essentials-for-yootheme-pro/v3.0-beta/')) {
             head.push(['meta', { name: 'robots', content: 'noindex,follow' }]);
         }
+
+        // Add canonical link so Google has a user-selected canonical for every page
+        head.push([
+            'link',
+            {
+                rel: 'canonical',
+                href: SITE_HOSTNAME + '/' + pageData.relativePath.replace(/(index)?\.md$/, ''),
+            },
+        ]);
 
         return head.length ? head : undefined;
     },
