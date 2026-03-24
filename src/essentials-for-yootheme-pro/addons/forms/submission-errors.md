@@ -1,17 +1,11 @@
 # Submission Errors
 
-## Submission Fails When Cache is Enabled
-
-The form displays an _Internal Server Error_ when page caching is enabled. When the cache is cleared, it works, but soon after, it stops working.
-
-This is expected. Due to the nature of how submissions are validated, pages containing a form cannot be cached. Find a way to make a caching exception for those pages.
-
 ## Submission Fails With Vague Error
 
 The form displays a _Submission Failed_ error without any further details, it is most likely a suppressed PHP error. To get more insights about it you can:
 
 - Check the server PHP's recent error logs.
-- Open the Customizer and submit the form again making sure _Error Reporting_ is enabled.
+- Or enable _Error Reporting_ in your system settings, then submit the form again within the Builder.
 
 ::: tip Enable Error Reporting
 Error reporting can be enabled in Joomla Global Configuration or in WordPress `wp-config.php` file.
