@@ -38,3 +38,29 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_METHOD} GET
 RewriteRule ^(.*)/$ /$1 [R=301,NC,L]
 ```
+
+## Could Not Instantiate Mail Function
+
+Error message:
+
+```text
+Could not instantiate mail function.
+Error location: Mail.php:xxx in PHPMailer\PHPMailer\PHPMailer->send()
+```
+
+### Cause
+
+This error occurs when the server's default mail function cannot be properly instantiated by PHPMailer. This typically happens because:
+
+- The server's PHP `mail()` function is disabled or not configured properly
+- The mail system on the server is not functioning
+- The hosting environment does not support the default PHP mail function
+
+### Solution
+
+The most reliable solution is to configure your mail addon to use **SMTP** instead of the default PHP mail function. SMTP (Simple Mail Transfer Protocol) provides:
+
+- More reliable mail delivery
+- Better error reporting
+- Support across virtually all hosting environments
+- No dependency on server-side mail configuration
