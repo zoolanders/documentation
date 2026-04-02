@@ -28,7 +28,7 @@ For detailed requirements, also review the specifications for [YOOtheme Pro](htt
 | Essentials v2.2 | 4.4 | 5+ | 3.9 - 5 | 7.4 - 8.3 |
 | Essentials v2.3 | 4.5 | 5+ | 3.9 - 5 | 7.4 - 8.3 |
 | Essentials v2.4 | 4.5 | 5+ | 3.9 - 6 | 7.4 - 8.3 |
-| Essentials v3.0 | 5.0 | 5+ | 5+ | 8.1+ |
+| Essentials v3.0 | 5.0 | 5+ | 5.4 - 6 | 8.1 - 8.4 |
 
 ## Changelog
 
