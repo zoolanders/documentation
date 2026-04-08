@@ -1,28 +1,35 @@
 # Custom Facebook Dev App
 
-Learn how to create a custom Facebook Dev App and get your own credentials. Once ready, you can use the resulting _Access Token_ into the respective [Facebook Auth](./drivers/facebook) driver to authenticate.
+Learn how to create a custom Meta app and generate your own access token for the [Facebook Auth](./drivers/facebook) driver. This follows Meta's current app-creation wizard while preserving the same product-based setup used in the older Facebook app flow.
 
 ## 1. Create a New Dev App
 
-Go to [https://developers.facebook.com/apps/creation](https://developers.facebook.com/apps/creation) and choose "Other".
-
-![Choose app purpose](./assets/facebook/app-purpose.jpg)
-
-On Next Choose "Business".
-
-![Choose app type](./assets/facebook/app-type.jpg)
-
-On Next fill in the details and Create app.
+Go to [https://developers.facebook.com/apps/creation](https://developers.facebook.com/apps/creation), fill in the app details, and continue.
 
 ![Fill in app details](./assets/facebook/app-details.jpg)
 
-From the left column or from the dashboard, add both _Facebook Login for Business_ and _Instagram Graph API_ products leaving all settings as per their defaults.
+On the _Use cases_ step, choose **Other** under the _Others_ section. This is the route that leads to the product-based app setup required for this integration.
+
+![Choose app purpose](./assets/facebook/app-purpose.jpg)
+
+On the _Business_ step, connect the business portfolio you want to use for the app.
+
+![Choose app type](./assets/facebook/app-type.jpg)
+
+After the app is created, open the dashboard and add the products required for the integration:
+
+- **Facebook Login for Business**
+- **Instagram API**
+
+Meta has renamed and reorganized parts of the Instagram platform over time, so older references to _Instagram Graph API_ now map to the current **Instagram API** for professional accounts.
 
 ![Add products to your app](./assets/facebook/app-products.jpg)
 
 ## 2. Generate Access Token
 
-Go to [https://developers.facebook.com/tools/explorer](https://developers.facebook.com/tools/explorer). Select from the list of apps on the right the app you just created, and add the following permissions in the permissions list:
+Go to the [Graph API Explorer](https://developers.facebook.com/tools/explorer), select the app you just created, and request the permissions your source needs.
+
+For the Facebook and Instagram Business sources in Essentials, use:
 
 - instagram_basic
 - pages_show_list
@@ -30,32 +37,46 @@ Go to [https://developers.facebook.com/tools/explorer](https://developers.facebo
 - pages_read_user_content
 - business_management
 
-Be sure that the list matches with the screenshot and _Generate Access Token_.
+Then click _Generate Access Token_.
 
 ![Generate access token](./assets/facebook/token-generate.jpg)
 
-- When prompted login with the account that created the app itself.
-- Select the business accounts (or all of them).
-- Select the pages you want to give access to.
-- Select the Instagram accounts you want to allow.
-- Confirm.
+- Sign in with the Meta account that owns the app, or an account assigned to the app as an **Administrator**, **Developer**, or **Tester**.
+- Select the business assets you want to authorize.
+- Select the Facebook Pages you want to allow.
+- If applicable, select the Instagram professional accounts connected to those Pages.
+- Confirm the requested access.
 
 ::: tip Account Permissions
-The Access Token should be generated with the account that created the app or at least one of the accounts listed in the app as _Testers_, _Developers_ or _Administrators_. If you don’t do this, you will need to publish the app and get through the facebook review process (not recommended).
+While the app is in development mode, only people with an app role can generate tokens that work with it. If you try to authorize with a different account, Meta will require app review and a published app before the token can be used broadly.
 :::
 
-You now have an access token. Click on the Info icon and then on the _Open in Access Token Tool_.
+After the token is generated, open it in the [Access Token Debugger](https://developers.facebook.com/tools/debug/accesstoken/) to inspect the granted permissions and expiration.
 
 ![Get access token info](./assets/facebook/token-info.jpg)
 
-Click on _Extend Access Token_ and copy the new Access Token. Use that token when authenticating a source with your custom app.
+If Meta offers the option, extend the token and copy the updated value. Use that token when authenticating a source with your custom app.
+
+::: tip Instagram Business Requirement
+Meta's current Instagram API with Facebook Login works only with **professional Instagram accounts** and requires the Instagram account to be connected to a **Facebook Page**. For personal Instagram accounts, use the dedicated [Instagram Auth](./drivers/instagram) flow instead.
+:::
 
 ## 3. Authenticate a Source
 
-Now that you have an access token create a Facebook or Instagram Business source. When authenticating choose _Custom App_, past the generated access token and complete the source setup.
+Now create a Facebook or Instagram Business source. During authentication choose _Custom App_, paste the generated access token, and complete the source setup.
 
 ![Set access token](./assets/facebook/source-auth.jpg)
 
 ::: tip Token Expiration
-Note that the token will be auto-renewed by the source when used, but it may expire if not used enough during the given time period. If it does, you will need to generate a new token.
+The token can still expire or become invalid if the user changes permissions, loses access to the business assets, or the token is not refreshed for a long time. If that happens, generate a new token and reconnect the source.
 :::
+
+## Official Meta References
+
+- [Meta App creation](https://developers.facebook.com/apps/creation)
+- [Facebook Login for Business](https://developers.facebook.com/docs/facebook-login/facebook-login-for-business)
+- [Graph API Explorer](https://developers.facebook.com/tools/explorer)
+- [Access Token Debugger](https://developers.facebook.com/tools/debug/accesstoken/)
+- [Instagram Platform](https://developers.facebook.com/docs/instagram-platform/)
+- [Connect or disconnect an Instagram account and your Page](https://www.facebook.com/help/1148909221857370)
+- [Add or change the Facebook Page connected to your Instagram professional account](https://www.facebook.com/help/570895513091465)
