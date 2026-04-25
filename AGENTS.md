@@ -16,6 +16,15 @@ This is the documentation site for ZOOlanders Essential Addons, built with ViteP
 
 ## Development Setup
 
+## Agent Operating Notes
+
+- Treat this file as the authoritative repository guide for all coding agents.
+- Prefer the npm scripts in `package.json`; this project uses Yarn 1.22.19.
+- Keep changes focused on source files under `src/` and configuration under `.vitepress/`.
+- Do not edit `dist/` manually. It is generated build output.
+- When validating changes, prioritize `yarn run build`; run linting and formatting checks when the touched files make them relevant.
+- Existing lint or formatting issues may be present. Fix issues introduced by your changes, and avoid broad formatting sweeps unless requested.
+
 ### Prerequisites
 
 - Node.js (use the version specified in package.json)
@@ -71,7 +80,7 @@ yarn prettier-write
 
 **Important:**
 
-- Always run `yarn prettier-write` before committing
+- Run `yarn prettier-check` to validate formatting. Use `yarn prettier-write` only when requested, when creating new files, or when intentionally formatting files you touched.
 - Follow Vue 3 composition API style for any Vue components
 - Use consistent markdown formatting in documentation files
 
