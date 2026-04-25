@@ -1,10 +1,12 @@
 # Facebook Source Provider
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/facebook.svg-->
+    <!--@include: ../../../integrations/assets/brands/facebook.svg-->
 </div>
 
 The **Facebook Source** feeds data from [Facebook](https://www.facebook.com/) supporting [Page](#page-query) and [Page Posts](#page-posts-query) queries.
+
+For setup details, see the [Facebook Integration](../../../integrations/facebook).
 
 ## Settings
 

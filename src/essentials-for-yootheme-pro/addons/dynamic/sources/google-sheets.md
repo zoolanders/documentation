@@ -1,10 +1,12 @@
 # Google Sheets Source Provider
 
 <div class="tm-resource-icon">
-    <!--@include: ../assets/provider-google-sheets.svg-->
+    <!--@include: ../../../integrations/assets/brands/google-sheets.svg-->
 </div>
 
 The **Google Sheets Source** feeds data from [Google Sheets](https://www.google.com/sheets) supporting [Records](#records-query) query.
+
+For setup details, see the [Google Integration](../../../integrations/google).
 
 ## Settings
 

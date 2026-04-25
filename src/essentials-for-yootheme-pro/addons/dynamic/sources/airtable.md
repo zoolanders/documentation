@@ -1,10 +1,12 @@
 # Airtable Source Provider
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/airtable.svg-->
+    <!--@include: ../../../integrations/assets/brands/airtable.svg-->
 </div>
 
 The **Airtable Source** feeds data from [Airtable](https://airtable.com/) bases supporting [Record](#record-query) and [Records](#records-query) queries.
+
+For setup details, see the [Airtable Integration](../../../integrations/airtable).
 
 ## Settings
 

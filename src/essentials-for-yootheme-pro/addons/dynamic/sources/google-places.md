@@ -1,10 +1,12 @@
 # Google Places Source Provider
 
 <div class="tm-resource-icon">
-    <!--@include: ../assets/provider-google-places.svg-->
+    <!--@include: ../../../integrations/assets/brands/google-places.svg-->
 </div>
 
 The **Google Places Source** feeds data from [Google Places API](https://developers.google.com/maps/documentation/places/web-service/overview) supporting a [Place](#place-query).
+
+For setup details, see the [Google Integration](../../../integrations/google).
 
 ## Settings
 

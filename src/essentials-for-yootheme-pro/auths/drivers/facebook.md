@@ -3,10 +3,10 @@
 The **Facebook Auth Driver** manages the Facebook OAuth protocol to authenticate users and grant requested permissions (scopes).
 
 ::: tip Use a Custom Facebook App
-For better control, security, and flexibility, create and use your own [custom Facebook Developer App](../custom-facebook-dev-app). This lets you manage permissions, settings, and integration details directly from your Facebook developer account.
+For better control, security, and flexibility, create and use your own [custom Facebook developer app](../../integrations/facebook). This lets you manage permissions, settings, and integration details directly from your Facebook developer account.
 :::
 
-![Facebook Auth Driver](../assets/driver-facebook.webp)
+![Facebook Auth Driver](../../integrations/assets/auth/driver-facebook.webp)
 
 | Setting         | Description |
 |-----------------|-------------|

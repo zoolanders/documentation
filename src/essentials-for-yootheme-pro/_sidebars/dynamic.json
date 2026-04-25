@@ -122,22 +122,6 @@
             {
                 "text": "Custom Source Provider",
                 "link": "/addons/dynamic/custom-provider"
-            },
-            {
-                "text": "Custom Twitter Dev App",
-                "link": "/auths/custom-twitter-dev-app"
-            },
-            {
-                "text": "Custom Facebook Dev App",
-                "link": "/auths/custom-facebook-dev-app"
-            },
-            {
-                "text": "Custom Google Dev App",
-                "link": "/auths/custom-google-dev-app"
-            },
-            {
-                "text": "Custom LinkedIn Dev App",
-                "link": "/auths/custom-linkedin-dev-app"
             }
         ]
     }

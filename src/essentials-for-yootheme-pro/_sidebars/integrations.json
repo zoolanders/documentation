@@ -1,0 +1,72 @@
+[
+    {
+        "text": "Integrations",
+        "base": "${base}/integrations",
+        "items": [
+            {
+                "text": "Overview",
+                "link": "/"
+            },
+            {
+                "text": "Facebook",
+                "link": "/facebook"
+            },
+            {
+                "text": "Google",
+                "link": "/google"
+            },
+            {
+                "text": "Instagram",
+                "link": "/instagram"
+            },
+            {
+                "text": "Airtable",
+                "link": "/airtable"
+            },
+            {
+                "text": "AcyMailing",
+                "link": "/acymailing"
+            },
+            {
+                "text": "Brevo",
+                "link": "/brevo"
+            },
+            {
+                "text": "Cloudflare Stream",
+                "link": "/cloudflare-stream"
+            },
+            {
+                "text": "Laposta",
+                "link": "/laposta"
+            },
+            {
+                "text": "Mailchimp",
+                "link": "/mailchimp"
+            },
+            {
+                "text": "MailerLite",
+                "link": "/mailerlite"
+            },
+            {
+                "text": "TikTok",
+                "link": "/tiktok"
+            },
+            {
+                "text": "Vimeo",
+                "link": "/vimeo"
+            },
+            {
+                "text": "YouTube",
+                "link": "/youtube"
+            },
+            {
+                "text": "LinkedIn",
+                "link": "/linkedin"
+            },
+            {
+                "text": "Twitter",
+                "link": "/twitter"
+            }
+        ]
+    }
+]

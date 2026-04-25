@@ -1,10 +1,12 @@
 # Google Business Profile Source Provider
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/google-business-profile.svg-->
+    <!--@include: ../../../integrations/assets/brands/google-business-profile.svg-->
 </div>
 
 The **Google Business Profile Source** feeds data from [Google Business Profile](https://business.google.com/) supporting [Location](#location-query), [Review](#review-query), [Reviews](#reviews-query), [Media](#media-query) and [Posts](#posts-query) queries.
+
+For setup details, see the [Google Integration](../../../integrations/google).
 
 ## Settings
 

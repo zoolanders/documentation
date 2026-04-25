@@ -1,10 +1,12 @@
 # AcyMailing Action
 
 <div class="tm-resource-icon">
-    <!--@include: ./assets/action-acymailing.svg-->
+    <!--@include: ../../../integrations/assets/brands/acymailing.svg-->
 </div>
 
 The **AcyMailing Action** subscribes or unsubscribes a member from an [AcyMailing](https://www.acymailing.com/) list.
+
+For setup details, see the [AcyMailing Integration](../../../integrations/acymailing).
 
 ## Subscribe
 

@@ -3,10 +3,10 @@
 The **Twitter Auth Driver** enables user authentication and permission management via the Twitter OAuth protocol.
 
 ::: warning Custom Developer App Required
-Due to Twitter API restrictions, you must [create your own Twitter Developer App](../custom-twitter-dev-app) and use its credentials. ZOOlanders OAuth Apps are not supported.
+Due to Twitter API restrictions, you must [create your own Twitter/X developer app](../../integrations/twitter) and use its credentials. ZOOlanders OAuth Apps are not supported.
 :::
 
-![Twitter Auth Driver](../assets/driver-twitter.webp)
+![Twitter Auth Driver](../../integrations/assets/auth/driver-twitter.webp)
 
 | Setting         | Description |
 |-----------------|-------------|

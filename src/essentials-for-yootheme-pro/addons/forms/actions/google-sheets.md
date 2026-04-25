@@ -1,10 +1,12 @@
 # Google Sheets Action
 
 <div class="tm-resource-icon">
-    <!--@include: ./assets/action-google-sheets.svg-->
+    <!--@include: ../../../integrations/assets/brands/google-sheets.svg-->
 </div>
 
 The **Google Sheets Action** creates and deletes records from [Google Sheets](https://workspace.google.com/products/sheets/) spreadsheets. Use it to store data or log submissions.
+
+For setup details, see the [Google Integration](../../../integrations/google).
 
 ## Create Record
 

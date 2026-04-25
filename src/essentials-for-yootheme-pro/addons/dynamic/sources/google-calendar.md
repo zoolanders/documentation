@@ -1,10 +1,12 @@
 # Google Calendar Source Provider
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/google-calendar.svg-->
+    <!--@include: ../../../integrations/assets/brands/google-calendar.svg-->
 </div>
 
 The **Google Calendar Source** feeds data from [Google Calendar](https://calendar.google.com/) supporting [Calendar](#calendar-query), [Event](#event-query) and [Events](#events-query) queries.
+
+For setup details, see the [Google Integration](../../../integrations/google).
 
 ## Settings
 

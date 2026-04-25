@@ -1,10 +1,12 @@
 # YouTube Source Provider
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/youtube.svg-->
+    <!--@include: ../../../integrations/assets/brands/youtube.svg-->
 </div>
 
 The YouTube Source feeds data from [YouTube](https://www.youtube.com/) supporting [Videos](#videos-query), [My Channel](#my-channel-query), [My Channel Video](#my-channel-video-query), [My Channel Videos](#my-channel-videos-query), [My Channel Playlist](#my-channel-playlist-query), [My Channel Playlist Videos](#my-channel-playlist-videos-query), [My Playlist Video](#my-playlist-video-query) and [My Playlist Videos](#my-playlist-videos-query) queries.
+
+For setup details, see the [YouTube Integration](../../../integrations/youtube).
 
 ## Settings
 

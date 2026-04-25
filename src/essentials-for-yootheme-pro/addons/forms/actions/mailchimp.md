@@ -1,10 +1,12 @@
 # Mailchimp Action
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/mailchimp.svg-->
+    <!--@include: ../../../integrations/assets/brands/mailchimp.svg-->
 </div>
 
 The **Mailchimp Action** creates, updates or removes a member from a [Mailchimp](https://mailchimp.com/) audience.
+
+For setup details, see the [Mailchimp Integration](../../../integrations/mailchimp).
 
 ## Add Member
 

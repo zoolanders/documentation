@@ -3,10 +3,10 @@
 The **Google Auth Driver** manages authentication and permission grants using the Google OAuth 2.0 protocol.
 
 ::: tip Use a Custom Google Dev App
-For enhanced security and control, create and use your own [custom Google Dev App](../custom-google-dev-app). This lets you manage permissions, settings, and integration details directly within your Google developer account.
+For enhanced security and control, create and use your own [custom Google developer app](../../integrations/google). This lets you manage permissions, settings, and integration details directly within your Google developer account.
 :::
 
-![Google Auth Driver](../assets/driver-google.webp)
+![Google Auth Driver](../../integrations/assets/auth/driver-google.webp)
 
 | Setting         | Description |
 |-----------------|-------------|

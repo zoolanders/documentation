@@ -2,7 +2,7 @@
 
 The **Instagram Auth Driver** manages the Instagram OAuth protocol to authenticate users and grant specific permissions (scopes).
 
-![Instagram Auth Driver](../assets/driver-instagram.webp)
+![Instagram Auth Driver](../../integrations/assets/auth/driver-instagram.webp)
 
 ## Settings
 

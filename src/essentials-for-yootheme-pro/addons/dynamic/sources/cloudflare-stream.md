@@ -1,10 +1,12 @@
 # Cloudflare Stream Source Provider
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/cloudflare.svg-->
+    <!--@include: ../../../integrations/assets/brands/cloudflare.svg-->
 </div>
 
 The **Cloudflare Stream Source** feeds data from [Cloudflare Stream](https://www.cloudflare.com/products/cloudflare-stream/) supporting [Video](#video-query) and [Videos](#videos-query) queries.
+
+For setup details, see the [Cloudflare Stream Integration](../../../integrations/cloudflare-stream).
 
 ## Settings
 

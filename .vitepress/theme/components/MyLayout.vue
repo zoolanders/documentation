@@ -96,8 +96,10 @@ watch(() => isDark.value, toggleResourceIconsColor, {
 watch(
     () => route.path,
     (newPath) => {
-        // Check if path is in addons section, either versioned or unversioned
-        if (/^\/essentials-for-yootheme-pro\/(v[\d.]+\/)?(addons|auths)/.test(newPath)) {
+        // Check if path is in subsection pages, either versioned or unversioned
+        if (
+            /^\/essentials-for-yootheme-pro\/(v[\d.]+\/)?(addons|auths|integrations)/.test(newPath)
+        ) {
             // Extract version if present, otherwise use root
             const versionMatch = newPath.match(/^\/essentials-for-yootheme-pro\/(v[\d.]+)\//);
             previousRoute.value = versionMatch

@@ -4,6 +4,7 @@ import DynamicSidebar from './_sidebars/dynamic.json';
 import ElementsSidebar from './_sidebars/elements.json';
 import FormsSidebar from './_sidebars/forms.json';
 import IconsSidebar from './_sidebars/icons.json';
+import IntegrationsSidebar from './_sidebars/integrations.json';
 import LayoutsSidebar from './_sidebars/layouts.json';
 
 const basePath = '/essentials-for-yootheme-pro';
@@ -26,6 +27,7 @@ updateBasePaths(FormsSidebar);
 updateBasePaths(DynamicSidebar);
 updateBasePaths(IconsSidebar);
 updateBasePaths(ElementsSidebar);
+updateBasePaths(IntegrationsSidebar);
 updateBasePaths(LayoutsSidebar);
 
 const MainSidebar = [
@@ -74,6 +76,36 @@ const MainSidebar = [
             {
                 text: 'Builder Elements',
                 link: '/elements',
+            },
+        ],
+    },
+    {
+        text: 'Integrations',
+        base: `${basePath}/integrations`,
+        items: [
+            {
+                text: 'Facebook',
+                link: '/facebook',
+            },
+            {
+                text: 'Google',
+                link: '/google',
+            },
+            {
+                text: 'LinkedIn',
+                link: '/linkedin',
+            },
+            {
+                text: 'Twitter',
+                link: '/twitter',
+            },
+            {
+                text: 'Instagram',
+                link: '/instagram',
+            },
+            {
+                text: '...all',
+                link: '/',
             },
         ],
     },
@@ -136,6 +168,7 @@ export default {
     [`${basePath}/addons/forms`]: FormsSidebar,
     [`${basePath}/addons/access`]: AccessSidebar,
     [`${basePath}/addons/dynamic`]: DynamicSidebar,
+    [`${basePath}/integrations`]: IntegrationsSidebar,
     [`${basePath}/addons/layouts`]: LayoutsSidebar,
     [`${basePath}/addons/elements`]: ElementsSidebar,
 };

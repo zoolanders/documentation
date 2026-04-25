@@ -1,13 +1,13 @@
 # Twitter Source Provider
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/twitter.svg-->
+    <!--@include: ../../../integrations/assets/brands/twitter.svg-->
 </div>
 
 The **Twitter Source** feeds data from [Twitter](https://www.twitter.com) supporting [My Tweets](#my-tweets-query) and [User](#user-query) queries.
 
-:::warning Twitter Dev App Required
-Notice that this source requires a [Custom Twitter Dev App](../../../auths/custom-twitter-dev-app) for authentication.
+:::warning Twitter Integration Setup Required
+Notice that this source requires a [custom Twitter/X developer app](../../../integrations/twitter) for authentication.
 :::
 
 ## Settings

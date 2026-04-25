@@ -1,10 +1,12 @@
 # MailerLite Action
 
 <div class="tm-resource-icon">
-    <!--@include: @essentials-for-yootheme-pro/assets/brands/mailerlite.svg-->
+    <!--@include: ../../../integrations/assets/brands/mailerlite.svg-->
 </div>
 
 The **MailerLite Action** creates, updates, deletes or forgets a subscriber from [MailerLite](https://www.mailerlite.com/).
+
+For setup details, see the [MailerLite Integration](../../../integrations/mailerlite).
 
 ## Upsert Subscriber
 

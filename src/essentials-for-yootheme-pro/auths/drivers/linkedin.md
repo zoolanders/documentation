@@ -3,10 +3,10 @@
 The **LinkedIn Auth Driver** manages the LinkedIn OAuth protocol to authenticate users and grant scope permissions.
 
 ::: warning Custom Dev App Required
-Due to LinkedIn API policies, you cannot use a ZOOlanders OAuth App. You must [create your own LinkedIn Developer App](../custom-linkedin-dev-app) and use your personal credentials.
+Due to LinkedIn API policies, you cannot use a ZOOlanders OAuth App. You must [create your own LinkedIn developer app](../../integrations/linkedin) and use your personal credentials.
 :::
 
-![LinkedIn Auth Driver](../assets/driver-linkedin.webp)
+![LinkedIn Auth Driver](../../integrations/assets/auth/driver-linkedin.webp)
 
 | Setting        | Description |
 | -------------- | ----------- |
