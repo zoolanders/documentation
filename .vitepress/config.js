@@ -85,7 +85,10 @@ export default defineConfig({
             'link',
             {
                 rel: 'canonical',
-                href: SITE_HOSTNAME + '/' + pageData.relativePath.replace(/(index)?\.md$/, ''),
+                href:
+                    SITE_HOSTNAME +
+                    '/' +
+                    pageData.relativePath.replace(/(index)?\.md$/, '').replace(/\/$/, ''),
             },
         ]);
 
