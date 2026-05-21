@@ -8,6 +8,10 @@ Use these guides when a service requires provider-side account setup, custom app
 
 - [Facebook](./facebook) - Set up a custom Facebook developer app for Facebook and Instagram Business sources.
 - [Google](./google) - Set up a custom Google developer app for Google sources and actions.
+- [Google Business Profile](./google-business-profile) - Connect a Google Business Profile account for the Google Business Profile Source.
+- [Google Calendar](./google-calendar) - Connect a Google account for the Google Calendar Source.
+- [Google Places](./google-places) - Set up a custom Google Places API for location-based services.
+- [Google Sheets](./google-sheets) - Connect a Google account for the Google Sheets Source and Google Sheets Action.
 - [Instagram](./instagram) - Set up Instagram personal and business account access for the Instagram Source.
 - [LinkedIn](./linkedin) - Set up a custom LinkedIn developer app for the Dynamic Content LinkedIn Source.
 - [Cloudflare Stream](./cloudflare-stream) - Configure Cloudflare API access for the Cloudflare Stream Source.
