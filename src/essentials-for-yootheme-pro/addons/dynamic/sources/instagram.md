@@ -67,7 +67,7 @@ If the Media is of Album Type you can fetch it media with the Multi Items query 
 | *ID* | Unique identifier of the media to retrieve. | | &#x2713; |
 | *Cache* | The duration in seconds before the cache is invalidated and the query re-executed. | `3600` |
 
-### Hashtagged Media Query
+## Hashtagged Media Query
 
 Fetches top and recent hashtagged media from the authenticated business account and resolves to a list of [Media Type](#media-type).
 
@@ -88,7 +88,7 @@ Take into consideration that this query is available for Instagram **Business** 
 - Maximum of 30 unique hashtags within a 7 day period.
 :::
 
-### User Query
+## User Query
 
 Fetches the user profile from the authenticated account and resolves to a [User Type](#user-type).
 
