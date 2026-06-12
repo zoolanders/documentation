@@ -57,6 +57,10 @@ Defines the mapping options of a LinkedIn Post object.
 | *Media* | The posted media. | [Post Media](#post-media-type) |
 | *Images* | The posted images. | [Post Media](#post-media-type)[] |
 
+::: info Post URL
+LinkedIn API doesn't provide a direct link to individual posts. If you need to link to a post, you must manually copy its URL from the LinkedIn site.
+:::
+
 ## Post Article Type
 
 Defines the mapping options of a LinkedIn Post Article object.
