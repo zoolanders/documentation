@@ -97,6 +97,10 @@ Browser does not apply any validation other than the user agent's interface, whe
 | *Max* | The maximum date that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
 
+::: tip
+When using dynamic values for date fields, always format them as `Y-m-d` (e.g., 2026-06-22).
+:::
+
 ## Input Email Element {#input-email}
 
 Child of [Input Element](#input), the **Input Email Element** displays a [\<input type="email"\>](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email) HTML element, use it to create one-line e-mail address edit fields.
@@ -143,6 +147,10 @@ Browser does not apply any validation other than the user agent's interface, whe
 | *Min* | The minimum time that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
 | *Max* | The maximum time that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
+
+::: tip
+When using dynamic values for time fields, always format them as H:i (e.g., 14:30 for 2:30 PM).
+:::
 
 ## Input Url Element {#input-url}
 
@@ -207,6 +215,10 @@ Browser does not apply any validation other than the user agent's interface, whe
 | *Min* | The minimum month that the input value must constrain to, `greater than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
 | *Max* | The maximum month that the input value must constrain to, `lower than` or `equal to`. | &#x2713; |   &#x2713; |  &#x2713; |
 <!--@include: ./common-element-validation.md-->
+
+::: tip
+When using dynamic values for month fields, always format them as Y-m (e.g., 2026-06 for June 2026).
+:::
 
 ## Input Tel Element {#input-tel}
 
