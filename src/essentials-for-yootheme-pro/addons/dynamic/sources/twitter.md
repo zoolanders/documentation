@@ -20,7 +20,7 @@ Notice that this source requires a [custom Twitter/X developer app](../../../int
 | --- | --- |
 | *Account* | The Twitter Account which to authenticate with. |
 
-### My Tweets Query
+## My Tweets Query
 
 Fetches tweets from the authenticated account resolving to a list of [Tweet Type](#tweet-type).
 
