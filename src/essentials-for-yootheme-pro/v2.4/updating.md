@@ -34,6 +34,10 @@ Locate the **ZOOlanders Settings Panel** in Global Settings, then input the Down
 ![Download ID WordPress](./assets/download-id-wordpress.png)
 :::
 
+::: info Domain Constraint
+A Download ID **cannot** be constrained to a specific domain — it will work on any site where it's configured. The title you assign to a Download ID in your account is purely a custom reference for your own organization and has no effect on its functionality.
+:::
+
 ## Minimum Stability
 
 | Release | Description |

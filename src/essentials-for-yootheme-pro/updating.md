@@ -91,6 +91,10 @@ An Essentials Download ID is a unique alphanumeric code generated for each websi
 ![Download ID WordPress](./assets/download-id-wordpress.png)
 :::
 
+::: info Domain Constraint
+A Download ID **cannot** be constrained to a specific domain — it will work on any site where it's configured. The title you assign to a Download ID in your account is purely a custom reference for your own organization and has no effect on its functionality.
+:::
+
 ### Set Minimum Stability Level
 
 The minimum stability setting determines which types of releases your site receives.
