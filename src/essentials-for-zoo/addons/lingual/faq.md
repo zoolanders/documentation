@@ -27,3 +27,7 @@ It's a known limitation and currently there is no workaround.
 ## It is compatible with frontend editing?
 
 It is not, the translations must be done in the backend.
+
+## Does ZOOlingual integrate with YOOtheme Pro?
+
+No, ZOOlingual doesn't integrate with YOOtheme Pro natively. However, you can use **Essentials for YOOtheme Pro** and its [Access Condition](/essentials-for-yootheme-pro/conditions.md) to set a language as a visibility rule for your elements.

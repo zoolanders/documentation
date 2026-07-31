@@ -13,6 +13,10 @@ If the language settings are missing, make sure the *ZOO Lingual - Essentials* p
 :::
 
 ::: tip
+ZOO Lingual doesn't integrate with YOOtheme Pro natively, but you can use the **Essentials for YOOtheme Pro** [Access Condition](/essentials-for-yootheme-pro/conditions.md) to set a language as a visibility rule.
+:::
+
+::: tip
 For further information on setting a multi-lingual site with Joomla! check the [official tutorial](http://help.joomla.org/files/EN-GB_multilang_tutorial.pdf).
 :::
 
